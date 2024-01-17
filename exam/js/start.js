@@ -10,7 +10,7 @@ startBtn.addEventListener("click", e => {
     loadClientDetails()
 
     // if login is true, then we can proceed...
-    if (isLogin) {
+    if (isLogin && isMember) {
         // set the global questions to the needed kind of questions and updating question length... too many things to be for God's sake. hmmmm
         loadQuestionType(choosenTopic.value)
         // console.log(choosenSubject)
@@ -25,6 +25,8 @@ startBtn.addEventListener("click", e => {
         loginInterface.remove() // remove login interface
 
         examInterface.style.display = "grid" // display exam interface...
+    } else {
+        window.alert("Sorry.You cannot use this software.")
     }
 })
 

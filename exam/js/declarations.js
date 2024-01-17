@@ -40,6 +40,7 @@ let score = 0;
 
 let isRuleViewed = false
 let isLogin = false
+let isMember = false // a registered user
 // submit state
 let submitted = false;
 // time status
