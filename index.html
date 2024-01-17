@@ -4,24 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BOOTS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <h1>BOOTS TUTORIAL UPDATE WEBSITE</h1>
+    <h1 class="p-3 text-center">BOOTS TUTORIAL UPDATE WEBSITE</h1>
+    <p class="p-2">This website is created to disseminate information about the status of our students, show dates of upcoming tests, and display some other necessary information.</p>
+    <p class="text-white bg-primary p-3">We shows our sincere gratitude to all our sponsors. May God keep blessing everyone of you. Amen. <br>Special thanks go to <span class="fashakin">Mrs. Titilayo Fashakin</span> for her unstinting support. </p>
+    <table class="table table-striped">
+        <caption class="text-center caption-top">Our Students</caption>
+        <thead>
+            <tr>
+                <th class="col">Name</th>
+                <th class="col">Gender</th>
+                <th class="col">Aspiring course</th>
+                <th class="col">Aspiring school</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th class="fst-italic" scope="row">Seun</th>
+                <td class="">F</td>
+                <td class="">Nursing</td>
+                <td class="">UI</td>
+            </tr>
+            <tr>
+                <th class="fst-italic" scope="row">Ayodeji</th>
+                <td>M</td>
+                <td>Nursing</td>
+                <td>UI</td>
+            </tr>
+            <tr>
+                <th class="fst-italic" scope="row">Tosin</th>
+                <td>M</td>
+                <td>Medicine and Surgery</td>
+                <td>UI</td>
+            </tr>
+        </tbody>
+    </table>
 
-    <table id="table-of-contents">
+    <table id="table-of-contents" class="table table-striped">
+        <caption class="text-center caption-top">Test information</caption>
+        <thead>
+            <tr>
+                <th class="col">Subject</th>
+                <th class="col">Date</th>
+                <th class="col">Topic</th>
+                <th class="col">Highest performer</th>
+                <th class="col">Score</th>
+            </tr>
+        </thead>
         <!-- it has a very straight forward structure as you can see. -->
         <tbody id="tbody">
             <!-- let's make this static then... -->
-            <tr>
-                <th>Date</th>
-                <th>Subject</th>
-                <th>Topic</th>
-                <th>Highest performer</th>
-            </tr>
             <!-- I will just append to the tbody-->
         </tbody>
     </table>
     <script src="./table.js"></script>
     <script src="./index.js"></script>
+
+    <p class="p-2">Instructor and website maintainer: <span class="text-primary"><a href="https://github.com/tsolawoyin">Temidayo Olawoyin</a></span></p>
 </body>
 </html>
