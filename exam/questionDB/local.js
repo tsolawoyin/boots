@@ -13,7 +13,6 @@ function getQuestion (q) {
 // I will just turn on the ones I need that's all...
 
 setQuestion("chemistry", chemistryQuestions)
-console.log("setting")
-// setQuestion("english", englishQuestions)
+setQuestion("english", englishQuestions)
 // setQuestion("physics", physicsQuestions)
 // setQuestion("biology", biologyQuestions)
