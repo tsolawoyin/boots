@@ -1,0 +1,51 @@
+
+#exam-interface {
+    display: none;
+}
+
+#exam-interface #user-state {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+}
+
+#userEl {
+    background-color: white;
+    color: #209CEE;
+}
+
+#topicel {
+    text-align: right;
+}
+
+#sbjel {
+    text-align: left;
+}
+
+#user-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.info-detail {
+    padding-left: 10px;
+    font-size: .6em;
+}
+
+#num-keys {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr); /*we will need some javascript to update this*/
+    gap: 5px;
+    margin-top: 1.5em;
+}
+
+#num-keys p {
+    cursor: pointer;
+    color: black;
+    padding: 4px;
+    text-align: center;
+    margin: 0;
+    border-radius: 5px;
+}

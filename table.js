@@ -25,6 +25,12 @@ let tableContents = [
         "highest performer": null
     },
     {
+        date: "02-02-2024",
+        subject: "eng",
+        topic: "synonyms",
+        "highest performer": null
+    },
+    {
         date: "08-02-2024",
         subject: "chm",
         topic: "air and air pollution",
@@ -37,13 +43,13 @@ let tableContents = [
         "highest performer": null
     },
     {
-        date: "16-02-2024",
+        date: "23-02-2024",
         subject: "chm",
         topic: "oxygen",
         "highest performer": null
     },
     {
-        date: "23-02-2024",
+        date: "01-03-2024",
         subject: "chm",
         topic: "hydrogen",
         "highest performer": null
