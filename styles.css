@@ -1,6 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
 /* mobile first design */
 /* since this time around, it will be viewed majorly on phones... */
 /* the rest is just design */
 .fashakin {
     color: #ff0;
+}
+
+h1 {
+    font-family: "Leckerli One";
+    color: white;
+    background-color: #209CEE;
+}
+
+.info {
+    background-color: #209CEE;
 }
