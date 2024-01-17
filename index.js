@@ -26,14 +26,25 @@ makeTable(tableContents, tbodyEl);
 // el is tbody element
 function makeTable(contents, el) {
     for (let c of contents) {
-        el.innerHTML += 
-        `<tr>
-            <th scope="row">${c.date}</th>
-            <td>${c.subject}</td>
-            <td>${c.topic}</td>
-            <td>${c["highest performer"] ? c["highest performer"] : "pending"}</td>
-            <td>${c.score ? c.score : ""}</td>
-        </tr>`
+        if (c.score) {
+            el.innerHTML +=
+            `<tr class="table-success">
+                <th scope="row">${c.date}</th>
+                <td>${c.subject}</td>
+                <td>${c.topic}</td>
+                <td>${c["highest performer"] ? c["highest performer"] : "pending"}</td>
+                <td>${c.score ? c.score : ""}</td>
+            </tr>` 
+        } else {
+            el.innerHTML += 
+            `<tr>
+                <th scope="row">${c.date}</th>
+                <td>${c.subject}</td>
+                <td>${c.topic}</td>
+                <td>${c["highest performer"] ? c["highest performer"] : "pending"}</td>
+                <td>${c.score ? c.score : ""}</td>
+            </tr>`
+        }
     }
 
     return "done"
