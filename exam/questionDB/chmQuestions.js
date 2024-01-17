@@ -1757,7 +1757,7 @@ let chemistryQuestions = [
             }, 
             {
                 id: 56,
-                question: `In order to remove one electron from 3s-orbital of gaseous sodium atom, about 496KJmol<sup>-1<sup> of energy is required. The energy is referred to as`,
+                question: `In order to remove one electron from 3s-orbital of gaseous sodium atom, about 496KJmol<sup>-1</sup> of energy is required. The energy is referred to as`,
                 options: [
                     "electron affinity",
                     `ionization energy`,
