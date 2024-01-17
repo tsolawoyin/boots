@@ -26,7 +26,7 @@ startBtn.addEventListener("click", e => {
 
         examInterface.style.display = "grid" // display exam interface...
     } else {
-        window.alert("Sorry.You cannot use this software.")
+        window.alert("Sorry.You are not registered.")
     }
 })
 
