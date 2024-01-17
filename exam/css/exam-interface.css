@@ -1,12 +1,27 @@
 
 #exam-interface {
     display: none;
+    position: relative;
+    height: 85vh;
+    display: grid;
+    grid-template-rows: 10% 90% ;
+    /* background-color: yellow; */
 }
 
 #exam-interface #user-state {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     justify-items: center;
+}
+#question-frame {
+    /* background-color: blue; */
+    max-height: 60%;
+    overflow-y: scroll;
+}
+
+#keys {
+    position: absolute;
+    bottom: 0;
 }
 
 #userEl {
@@ -31,6 +46,7 @@
 
 .info-detail {
     padding-left: 10px;
+    padding-right: 10px;
     font-size: .6em;
 }
 
@@ -48,4 +64,9 @@
     text-align: center;
     margin: 0;
     border-radius: 5px;
+}
+
+#submit {
+    position: absolute;
+    right: 3%;
 }
