@@ -20,3 +20,22 @@ h1 {
 .info {
     background-color: #209CEE;
 }
+
+#first {
+    background-color: gold;
+    border-radius: 5px;
+}
+
+#second {
+    background-color: #209CEE;
+    border-radius: 5px;
+}
+
+.author {
+    font-size: .5em;
+}
+
+.trademark {
+    font-size: .8em
+}
+
