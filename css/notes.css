@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Open+Sans&family=Poppins:wght@200&family=Roboto:wght@300&family=Shantell+Sans:ital@1&display=swap');
+
+
+.topic-header {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.math {
+    padding: 1em 2em;
+    border: 1px solid black;
+    font-family: "Open Sans";
+    border-radius: .5em;
+}
+
+.reaction {
+    display: inline-block;
+    width: 99%;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
+.contents {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style-type: none;
+    
+}
+
+.table-of-content li {
+    cursor: pointer;
+    text-align: left;
+    background-color: green;
+}
+
+.description {
+    margin-top: 1em;
+}
+
+.description p {
+    margin-bottom: 1em;
+}
+
+.molecular-structure {
+    display: block;
+    width: 100px;
+    margin: auto;
+}
+
+.major-product {
+    color: blue;
+}
+
+.product {
+    color: green;
+}
+
+.reactant {
+    color: crimson
+}
+
+.important-note {
+    color: red
+}
+
+.golden-point {
+    color: crimson;
+}

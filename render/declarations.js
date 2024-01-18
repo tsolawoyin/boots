@@ -5,4 +5,5 @@ const homepage = document.querySelector("#homepage");
 const loginInterfaceTwo = document.querySelector("#login-interface");
 const examInterfaceTwo = document.querySelector("#exam-interface");
 
-// naming this for now till I complete the rest of the stuff...
+const notesLoader = document.querySelector("#notes");
+const notesPage = document.querySelector("#notes-page")

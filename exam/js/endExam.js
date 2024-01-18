@@ -33,8 +33,6 @@ function setDefaultParams() {
     // reseting time
     seconds = 0;
     minutes = defaultTime;
-    // emptying the seen question
-    seenQuestions = [];
     // reseting the score too...
     score = 0;
     //

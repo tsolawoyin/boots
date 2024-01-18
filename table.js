@@ -13,6 +13,12 @@ let tableContents = [
         "highest performer": null
     },
     {
+        date: "20-01-2024",
+        subject: "eng",
+        topic: "synonyms",
+        "highest performer": null
+    },
+    {
         date: "26-01-2024",
         subject: "chm",
         topic: "chemical bonding",
