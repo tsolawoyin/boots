@@ -21,9 +21,10 @@ keys.addEventListener("click", e => {
     
             questionBox.innerHTML = buildQuestion(currentQuestion) // the change will be displayed here
             // updateKeyColor(seenQuestions)
-            showAnsweredQuestions(seenQuestions);
+            showAnsweredQuestions(seenQuestions); // only seen questions are show... imagine...
             
         }
+
         if (clicked.id == "next" && (currentQuestion.userAnswer || submitted)) {
             // choose question and update UI
             // updateAnswer(currentQuestion) // seems like we need to update answer before nexting
@@ -44,44 +45,8 @@ keys.addEventListener("click", e => {
             // updateKeyColor(seenQuestions)
             showAnsweredQuestions(seenQuestions);
         }
+        
         if (clicked.id == "prev" && (currentQuestion.userAnswer || submitted)) {
-            // updateAnswer(currentQuestion)
-            chooseQuestion("prev", currentQuestion.id) // this has a side effect
-    
-            questionBox.innerHTML = buildQuestion(currentQuestion) // the change will be displayed here
-            // updateKeyColor(seenQuestions)
-        }
-    } else {
-        if (clicked.id == "next" && !submitted) {
-            // choose question and update UI
-            updateAnswer(currentQuestion) // seems like we need to update answer before nexting
-
-            chooseQuestion("next", currentQuestion.id) // this has a side effect
-    
-            questionBox.innerHTML = buildQuestion(currentQuestion) // the change will be displayed here
-            updateKeyColor(seenQuestions)
-
-        }
-        if (clicked.id == "next" && submitted)  {
-            // choose question and update UI
-            // updateAnswer(currentQuestion) // seems like we need to update answer before nexting
-            chooseQuestion("next", currentQuestion.id) // this has a side effect
-            questionBox.innerHTML = buildQuestion(currentQuestion) // the change will be displayed here
-            // updateKeyColor(seenQuestions)
-        }
-    
-        if (clicked.id == "prev" && !submitted) {
-            // choose question and update UI
-            updateAnswer(currentQuestion) // seems like we need to update answer before nexting
-            // and update the score as well...
-            // then choose prev question
-            chooseQuestion("prev", currentQuestion.id) // this has a side effect
-
-            questionBox.innerHTML = buildQuestion(currentQuestion) // the change will be displayed here
-            
-            updateKeyColor(seenQuestions)
-        }
-        if (clicked.id == "prev" && submitted) {
             // updateAnswer(currentQuestion)
             chooseQuestion("prev", currentQuestion.id) // this has a side effect
     

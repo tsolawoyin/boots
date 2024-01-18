@@ -10,8 +10,11 @@ startBtn.addEventListener("click", e => {
     loadClientDetails()
 
     // if login is true, then we can proceed...
-    if (isLogin && isMember) {
+    if (isMember) {
         // set the global questions to the needed kind of questions and updating question length... too many things to be for God's sake. hmmmm
+        // now we can set login to true here
+        isLogin = true;
+        
         loadQuestionType(choosenTopic.value)
         // console.log(choosenSubject)
         // load the first question into UI
@@ -36,7 +39,6 @@ function loadClientDetails () {
     userEl.textContent = username.value;
     sbjEl.textContent = subject.value
     topicEl.textContent = choosenTopic.value;
-    isLogin = true
 }
 
 // now refactoring the code is sth difficult... I don't even understand...

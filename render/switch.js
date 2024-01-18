@@ -7,6 +7,7 @@ practiceBtn.addEventListener("click", e => {
 
     submitted = false; // submitted is false to begin with... 
     // I have to see all the app as one large software now...
+    scoreEl.textContent = "0" // everytime we want to start a new exam, the score tab should show zero
 })
 
 homeBtn.addEventListener("click", e => {
@@ -18,7 +19,7 @@ homeBtn.addEventListener("click", e => {
         // this will ensure that the time is reset...
         showTIme(minutes);
     } else {
-        window.alert("please refresh the page...");
+        window.alert("please end current exam to continue");
         // a lot of things have happened in the code that only a refresh can bring it back to normal... jesus
     }
 })

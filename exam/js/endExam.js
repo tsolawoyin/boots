@@ -14,18 +14,7 @@ function endExam() {
 
         alert(`Your score is ${score}`)
 
-        // isLogin = false; // since the exam is finished, isLogin should be false obviously...
-        // for now you will remain false for ever
-
-        // reset time to default
-        seconds = 0;
-        minutes = defaultTime;
-        // and updating UI time back to default as well
-        // console.log(defaultTime)
-        // maybe this is not the best place to show the time...
-        submitted = true;
-
-        // update time UI should be another function on it's own as it seems...
+        setDefaultParams();
 
     } else if (!submitted) {
     
@@ -38,3 +27,16 @@ function endExam() {
 }
 
 // in fact, the end exam code is simply maintained here.
+
+function setDefaultParams() {
+    isLogin = false;
+    // reseting time
+    seconds = 0;
+    minutes = defaultTime;
+    // emptying the seen question
+    seenQuestions = [];
+    // reseting the score too...
+    score = 0;
+    //
+    submitted = true;
+}

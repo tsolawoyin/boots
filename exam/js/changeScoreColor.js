@@ -1,5 +1,5 @@
 
-// updating the background color of score element
+// updating the background color of user score
 
 function changeColor() {
     let percentScore = (score / numberOfQuestion) * 100;
