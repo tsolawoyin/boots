@@ -23,14 +23,23 @@ h1 {
 
 #first {
     background-color: gold;
-    border-radius: 5px;
+    /* border-radius: 5px; */
 }
 
 #second {
     background-color: #209CEE;
-    border-radius: 5px;
+    /* border-radius: 5px; */
 }
 
+#third {
+    background-color: rgba(128, 128, 128, 0.4);
+    /* border-radius: 7; */
+}
+
+#fourth {
+    background-color: crimson;
+    /* border-radius: 5px; */
+}
 .author {
     font-size: .5em;
 }
