@@ -5,7 +5,7 @@ const username = document.querySelector("#username")
 const subject = document.querySelector("#subjects")
 // const modeEl = document.querySelector("#mode")
 // mode is one of -> 
-let mode = "practice"; 
+let mode = "practice"; // the reason why I am keeping this for now is that a significant part of the code relies on this to work...
 
 // option keys
 // const physics = document.querySelector("#phy")
@@ -39,14 +39,18 @@ const scoreEl = document.querySelector("#current-score")
 let score = 0;
 
 let isRuleViewed = false
-let isLogin = false
+let isLogin = false  // isLogin will do that stuff for us...
 let isMember = false // a registered user
+
 // submit state
 let submitted = false;
 // time status
-let seconds = 0
-let minutes = 25
-let timeInterval = null
+let defaultTime = 25;
+let seconds = 0;
+let minutes = defaultTime;
+let timeInterval = null;
+// now that's one problem noticed... always looking for problem...
+// now I understand the problem...
 // question
 let unseenQuestions = null; // the questions to be done will be loaded once the user starts.
 let seenQuestions = [] // list of question that have been seen. Seen doesn't necessarily mean done anyways.

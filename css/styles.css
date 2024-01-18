@@ -7,6 +7,10 @@
     font-weight: bold;
 }
 
+#home {
+    cursor: pointer;
+}
+
 h1 {
     font-family: "Leckerli One";
     color: white;

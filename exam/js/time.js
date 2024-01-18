@@ -15,14 +15,7 @@ function time() {
     }
 
     // deal with displaying time
-    if (minutes < 0) {
-        minEl.textContent = "00";
-        secEl.textContent = "00"
-    } else {
-        minEl.textContent = appendZero(String(minutes))
-        secEl.textContent = appendZero(String(seconds))
-    }
-
+    showTIme(minutes); // simple as abc...
     // updating UI
 }
 // append zero to time
@@ -30,6 +23,16 @@ function appendZero(s) {
     if (s.length == 1) {
         return `0${s}`
     } else return s
+}
+
+function showTIme(minutes) {
+    if (minutes < 0) {
+        minEl.textContent = "00";
+        secEl.textContent = "00"
+    } else {
+        minEl.textContent = appendZero(String(minutes))
+        secEl.textContent = appendZero(String(seconds))
+    }
 }
 
 // no, maybe the endExam function should be standalone

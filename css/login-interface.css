@@ -7,13 +7,6 @@
     padding: 0;
 }
 
-/* #info {
-    width: 50%;
-    margin: auto;
-    margin-top: 48%;
-    font-weight: bold;
-} */
-
 #username {
     padding: 10px 10px 1px 5px;
     border: none;
@@ -110,7 +103,8 @@ li a {
 
 #login-interface {
     min-height: 90vh;
-    display: grid;
+    /* display: grid; */
+    display: none;
     align-items: center;
     grid-template-columns: 50%;
     justify-content: center;

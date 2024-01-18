@@ -22,7 +22,7 @@ startBtn.addEventListener("click", e => {
 
         loadKeys(numberOfQuestion)
 
-        loginInterface.remove() // remove login interface
+        loginInterface.style.display = "none" // remove login interface
 
         examInterface.style.display = "grid" // display exam interface...
     } else {
