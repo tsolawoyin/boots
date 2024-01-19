@@ -7,104 +7,38 @@
     padding: 0;
 }
 
+/* color => #209 */
+
 #username {
-    padding: 10px 10px 1px 5px;
-    border: none;
-    border-bottom: 2px solid #209CEE;
+    border-bottom-color: #209CEE;
     font-family: Poppins;
     outline: none;
     font-weight: bold;
-    font-size: 1.3em;
-    margin-bottom: 1em;
-    width: 100%;
     /* background-color: #E0E2DB; */
 }
 
 #start {
     background-color: #209CEE;
-    color: white;
-    border: none;
-    border-radius: 3px;
-    width: 30%;
-    letter-spacing: 2px;
-    font-family: "Leckerli One";
 }
 
 #topics {
     font-family: "Roboto";
-    font-size: 1.5em;
-    display: block;
-    margin-top: 1em;
-    border-radius: .3em;
-    outline: none;
     border: 1px solid #209CEE;
-    padding-left: 5px;
-    padding-top: 0.1em;
-    padding-bottom: .1em;
     cursor: pointer;
-    background-color: #E0E2DB;
 }
 
 .options {
     display: none;
-    margin-bottom: 1em;
 }
 
-#subjects, .options, #mode {
-    width: 250px;
-    font-family: "Open Sans";
-    border-radius: 3px;
-    font-size: 1.2em;
-    letter-spacing: 3px;
+#subjects, .options{
     border-color: #209CEE;
-    outline: none;
-}
-
-
-#subjects {
-    margin-bottom: .5em;
-}
-
-#mode {
-    margin-top: .5em;
-    width: 120px;
-}
-
-#learn {
-    position: fixed;
-    top: 40px;
-    left: 40px;
-}
-
-#learn ul {
-    list-style-type: none;
-}
-
-#learn h3 {
-    background-color: goldenrod;
-    padding: .3em;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    width: fit-content;
-    color: white;
-}
-
-li {
-    cursor: pointer;
-}
-
-li a {
-    color: black;
-    text-decoration: none;
-    /* font-size: 19px; */
-    display: inline-block;
-    padding: .2em;
 }
 
 #login-interface {
     min-height: 90vh;
     /* display: grid; */
-    display: none;
+    /* display: none; */
     align-items: center;
     grid-template-columns: 50%;
     justify-content: center;

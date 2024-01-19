@@ -126,17 +126,17 @@
 
 
         <!-- this is more work obviously, but anything for speed... -->
-        <section id="login-interface">
+        <section id="login-interface" style="display: grid;">
             <div id="info">
-                <input type="text" name="" id="username" placeholder="enter username...">
+                <input type="text" name="" id="username" placeholder="enter username..." class="border-bottom-2 border-top-0 border-start-0 border-end-0 fs-4 mb-3 form-control">
                 <div id="subject-info">
-                    <p>Select subject and topic</p>
-                    <select name="subjects" id="subjects">
+                    <label class="form-label">Select subject and topic</label>
+                    <select name="subjects" id="subjects" class="form-select mb-2">
                         <option value="chemistry">CHEMISTRY</option>
                         <option value="biology">BIOLOGY</option>
                         <option value="english">ENGLISH</option>
                     </select>
-                    <select name="chm" id="chm" class="options">
+                    <select name="chm" id="chm" class="form-select mb-2">
                         <option value="atomic structure">Atomic structure</option>
                         <option value="chemical bonding">Chemical bonding</option>
                         <option value="hydrogen" disabled>Hydrogen</option>
@@ -148,18 +148,18 @@
                         <option value="metals" disabled>Metals</option>
                         <option value="transition-metals" disabled>Transition metals</option>
                     </select>
-                    <select name="bio" id="bio" class="options">
+                    <select name="bio" id="bio" class="d-none form-select mb-2">
                         <option value="hydrogen" disabled>Cell</option>
                         <!-- <option value="oxygen" disabled></option> -->
                     </select>
-                    <select name="eng" id="eng" class="options">
+                    <select name="eng" id="eng" class="d-none form-select mb-2">
                         <option value="Synonyms I">Synonyms I</option>
                         <option value="Synonyms II">Synonyms II</option>
                         <!-- <option value="oxygen" disabled>Organic chm</option> -->
                     </select>
         
                 </div>
-                <button id="start" class="">Start</button>
+                <button id="start" class="btn btn-md btn-primary">Start</button>
             </div>
         </section>
         <!-- clever manipulations that's all -->
@@ -178,10 +178,6 @@
     
             <section id="question-frame">
                 <div id="question" class="p-4">
-                    <p>1. Hello what's up?</p>
-                    <input type="radio" name="" id=""> I am fine<br>
-                    <input type="radio" name="" id=""> I am cool<br>
-                    <input type="radio" name="" id=""> I am ok<br>
                 </div>
             </section>
     

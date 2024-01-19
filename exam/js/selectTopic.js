@@ -9,19 +9,19 @@ chemistry.style.display = "block"
 // selecting topic is rather simple
 subject.addEventListener("change", e => {
     if (subject.value == "chemistry") {
-        chemistry.style.display = "block"
-        biology.style.display = "none"
-        english.style.display = "none"
+        chemistry.className = "block form-select mb-2"
+        biology.className = "d-none form-select mb2"
+        english.className= "d-none form-select mb-2"
         choosenTopic = document.querySelector("#chm")
     } else if (subject.value == "biology") { // biology
-        chemistry.style.display = "none"
-        biology.style.display = "block"
-        english.style.display = "none"
+        chemistry.className = "d-none form-select mb2"
+        biology.className = "block form-select mb-2"
+        english.className = "d-none form-select mb-2"
         choosenTopic = document.querySelector("#bio")
     } else {
-        chemistry.style.display = "none"
-        biology.style.display = "none"
-        english.style.display = "block"
+        chemistry.className = "d-none form-select mb-2"
+        biology.className = "d-none form-select mb-2"
+        english.className = "block form-select mb-2"
         choosenTopic = document.querySelector("#eng")
     }
 })
