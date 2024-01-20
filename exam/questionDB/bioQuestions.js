@@ -275,8 +275,7 @@ let biologyQuestions = [
                     id:1,
                     question: "All living organisms",
                     options: ["Photosynthesize", "Respire", "Move", "Feed", "Transpire"],
-
-                    ans: A,
+                    ans: B,
                 },
             {
                     id:2,
@@ -294,7 +293,7 @@ let biologyQuestions = [
                 },
             {
                     id:4,
-                    question: "Which of the folloeing is an organ?",
+                    question: "Which of the following is an organ?",
                     options: ["Guard cell", "Liver", "Xylem bundle", "Blood"],
 
                     ans: B,
@@ -303,98 +302,84 @@ let biologyQuestions = [
                     id:5,
                     question: "Which of the following organism does not exist as a single free living cell?",
                     options: ["Paramecium", "Volvox", "Amoeba", "Chlamydomonas"],
-
                     ans: B,
                 },
             {
                     id:6,
                     question: "An Amoeba and an unlaid chicken eggs are:",
                     options: ["Animal tissues", "Organelles", "Single cell", "Organisms"],
-
                     ans: C,
                 },
             {
                     id:7,
                     question: "The rods in the retina of the eyes are examples of",
                     options: ["Cells", "Tissues", "Organs", "Systems"],
-
                     ans: A,
                 },
             {
                     id:8,
                     question: "A characteristic that can possibly be shared by both living and non-living organisms is",
                     options: ["Locomotion", "Irritability", "Increase in biomass", "Increase in size"],
-
-                    ans: C,
+                    ans: D,
                 },
             {
                     id:9,
                     question: "A characteristic exhibited by all living organisms is",
                     options: ["Sexual reproduction", "Aeroic respiration", "The ability to move from one place o another", "The ability to remove unwanted substances"],
-
                     ans: D,
                 },
             {
                     id:10,
                     question: "What is the level of organization of an onion bulb?",
                     options: ["Tissue", "Organ", "Systemic", "Organismal"],
-
                     ans: B,
                 },
             {
                     id:11,
                     question: "The lowest level of organization in living organisms is",
                     options: ["Tissue", "Organ", "Cell", "System"],
-
-                    ans: B,
+                    ans: C,
                 },
             {
                     id:12,
-                    question: "Which of the following is the most complex according to their cellular level of organization1? ",
+                    question: "Which of the following is the most complex according to their cellular level of organization? ",
                     options: ["Heart", "Hair", "Euglena", "Hydra"],
-
                     ans: A,
                 },
             {
                     id:13,
                     question: "Which of the following organisms is multicelllular? ",
                     options: ["Chlamydomonas", "Spirogyra", "Amoeba", "Euglena"],
-
                     ans: B,
                 },
             {
                     id:14,
                     question: "Which of the following organ level of organisation?",
-                    options: ["Volvox sp", "Paramecium candatum", "Hydia viridis", "Onion bulb"],
-
+                    options: ["Volvox sp", "Paramecium candatum", "Hydra viridis", "Onion bulb"],
                     ans: D,
                 },
             {
                     id:15,
                     question: "Which of the following is an organ?",
                     options: ["Guard cell", "Liver", "Xylem bundle", "Blood"],
-
                     ans: B,
                 },
             {
                     id:16,
                     question: "The cell of a bacterium is described as",
                     options: ["Unicellular", "Eukaryotic", "Prokaryotic", "Multicellular"],
-
                     ans: C,
                 },
             {
                     id:17,
                     question: "The most primitive among these is?",
                     options: ["Fern", "Flowering plants", "Fungus", "Cones"],
-
                     ans: D,
                 },
             {
                     id:18,
                     question: "At which level of organization is mammalia heart?",
                     options: ["Tissue", "Organ", "Cell", "System"],
-
                     ans: B,
                 },
         ]

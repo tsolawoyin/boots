@@ -23,7 +23,7 @@ startBtn.addEventListener("click", e => {
         // load the first question
         loadFirstQuestion()
 
-        loadKeys(numberOfQuestion)
+        loadKeys(unseenQuestions.length + 1) // makes sense
 
         loginInterface.style.display = "none" // remove login interface
 
@@ -74,9 +74,17 @@ function loadFirstQuestion() {
 }
 
 function loadKeys (keys) {
+    // let me just edit this section
     let keyStr = ""
-    for (let i = 1; i <= keys; i++) {
-        keyStr += `<p class="numbers" id="num${i}">${i}</p>`
+
+    if (keys < 40) {
+        for (let i = 1; i <= keys; i++) {
+            keyStr += `<p class="numbers" id="num${i}">${i}</p>`
+        }
+    } else {
+        for (let i = 1; i <= 40; i++) {
+            keyStr += `<p class="numbers" id="num${i}">${i}</p>`
+        }
     }
     numKeys.innerHTML = keyStr
 }
