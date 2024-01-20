@@ -6,4 +6,4 @@ const loginInterfaceTwo = document.querySelector("#login-interface");
 const examInterfaceTwo = document.querySelector("#exam-interface");
 
 const notesLoader = document.querySelector("#notes");
-const notesPage = document.querySelector("#notes-page")
+const notesPage = document.querySelector("#notes-page");

@@ -15,4 +15,4 @@ function getQuestion (q) {
 setQuestion("chemistry", chemistryQuestions)
 setQuestion("english", englishQuestions)
 // setQuestion("physics", physicsQuestions)
-// setQuestion("biology", biologyQuestions)
+setQuestion("biology", biologyQuestions)
