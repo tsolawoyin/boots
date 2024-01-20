@@ -80,6 +80,7 @@ function loadKeys (keys) {
     if (keys < 40) {
         for (let i = 1; i <= keys; i++) {
             keyStr += `<p class="numbers" id="num${i}">${i}</p>`
+            numberOfQuestion = keys;
         }
     } else {
         for (let i = 1; i <= 40; i++) {

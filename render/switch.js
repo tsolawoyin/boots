@@ -56,3 +56,15 @@ notesLoader.addEventListener("click", e => {
     // and display it...
     notesPage.style.display = "block";
 })
+
+window.onload = showQuote
+
+
+function showQuote() {
+    // on loading, we should display a random quote
+    let quote = quotes[Math.floor(Math.random() * quotes.length)];
+    // this will select for me a random quote
+    quotesEl.innerHTML = 
+    `<p class="alert p-4">${quote.quote}</p>`
+    // should work like this...
+}

@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Rubik+Burned&display=swap');
+
 /* mobile first design */
 /* since this time around, it will be viewed majorly on phones... */
 /* the rest is just design */
@@ -46,5 +48,10 @@ h1 {
 
 .trademark {
     font-size: .8em
+}
+
+#quote {
+    font-family: 'Montserrat';
+    font-style: italic;
 }
 

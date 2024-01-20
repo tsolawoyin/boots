@@ -7,3 +7,6 @@ const examInterfaceTwo = document.querySelector("#exam-interface");
 
 const notesLoader = document.querySelector("#notes");
 const notesPage = document.querySelector("#notes-page");
+
+// quotes
+const quotesEl = document.querySelector("#quote")
