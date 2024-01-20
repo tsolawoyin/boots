@@ -5,7 +5,7 @@
 // the last just worked. honestly. and that's all. 
 
 // web programming is not bad. When you know HOW TO CODE!
-
+// there shouldn't be negative marking henceforth...
 function markQuestions (questions) {
     let score = 0;
 

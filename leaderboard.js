@@ -2,7 +2,7 @@ const leaderBoard = [
     {
         posn: 1,
         name: "Seun",
-        chm: 90,
+        chm: 92.5,
         bio: 0,
         eng: 0, 
         calcScore() {
@@ -12,7 +12,7 @@ const leaderBoard = [
     {
         posn: 2,
         name: "Ayodeji",
-        chm: 62.5,
+        chm: 90,
         bio: 0,
         eng: 0, 
         calcScore() {
@@ -20,7 +20,7 @@ const leaderBoard = [
         }
     },
     {
-        posn: 3,
+        posn: 4,
         name: "Victoria",
         chm: 30,
         bio: 0,
@@ -30,9 +30,9 @@ const leaderBoard = [
         }
     },
     {
-        posn: 4,
+        posn: 3,
         name: "Tosin",
-        chm: 2.5,
+        chm: 40,
         bio: 0,
         eng: 0, 
         calcScore() {

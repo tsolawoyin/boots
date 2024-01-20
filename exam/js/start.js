@@ -85,6 +85,8 @@ function loadKeys (keys) {
     } else {
         for (let i = 1; i <= 40; i++) {
             keyStr += `<p class="numbers" id="num${i}">${i}</p>`
+            // this one is just the normal old style
+            // numberofquestion is 40 by default, so I don't get...
         }
     }
     numKeys.innerHTML = keyStr
