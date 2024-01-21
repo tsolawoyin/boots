@@ -30,6 +30,7 @@ homeBtn.addEventListener("click", e => {
         examInterface.style.display = "none";
         // this will ensure that the time is reset...
         showTIme(minutes);
+        showQuote()
     } else {
         window.alert("please end current exam to continue");
         // a lot of things have happened in the code that only a refresh can bring it back to normal... jesus
@@ -65,6 +66,9 @@ function showQuote() {
     let quote = quotes[Math.floor(Math.random() * quotes.length)];
     // this will select for me a random quote
     quotesEl.innerHTML = 
-    `<p class="alert p-4">${quote.quote}</p>`
+    `<p class="alert p-4 fs-4">${quote.note}</p>`
     // should work like this...
 }
+
+// everything working together for good.
+// it's just a problem. And every problem has a solution...

@@ -1,63 +1,21 @@
 let quotes = [
     {
-        quote: "I know, somehow, that only when it is dark enough can you see the stars.",
-        author: "Marthin Luther King jnr"
+        note: "The cell was first discovered in the year 1665 by an English natural philosopher <strong>Robert Hooke</strong>. The Cell Theory was explained by <strong>Theodor Schwann</strong> and <strong>Matthias Schleiden</strong> in the year 1830.",
+        // author: "Marthin Luther King jnr"
     },
     {
-        quote: "Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less.",
-        author: "Marie Currie"
+        note: "Prokaryotic cell <strong>lacks</strong> a well defined nucleus, while Eukaryotic cell <strong>has</strong> a well defined nucleus.",
+        // author: "Marie Currie"
     },
     {
-        quote: "You can see a lot by just looking.",
-        author: "Yogi Berra"
+        note: `The <strong>avogadro's number</strong> is equal to <strong>6.022 X ${exp(23)}</strong>`,
+        // author: "Yogi Berra"
     },
     {
-        quote: "Even if you're on the right track, you'll get run over if you just sit there.",
-        author: "WIll Rogers"
+        note: `The <strong>atomic mass</strong> of an element =  number of protons + number of neutrons.`
     },
     {
-        quote: "You can't cross the sea merely by standing and staring at the water.",
-        author: "Rabindranath Tagore"
-    },
-    {
-        quote: "If you're not making mistakes, then you're not making decisions..",
-        author: "Catherine Cook"
-    },
-    {
-        quote: "Everybody has talent, but ability takes hard work.",
-        author: "Michael Jordan"
-    },
-    {
-        quote: "A good traveler has no fixed plans and is not intent on arriving.",
-        author: "Lao Tzu"
-    },
-    {
-        quote: "Start where you are. Use what you have. Do what you can",
-        author: "Arthur Ashe"
-    },
-    {
-        quote: "The road to success and the road to failure are almost exactly the same",
-        author: "Arthur Ashe"
-    },
-    {
-        quote: "People tell you the world looks a certain way. Parents tell you how to think. Schools tell you how to think. TV. Religion. And then at a certain point, if you’re lucky, you realize you can make up your own mind. Nobody sets the rules but you. You can design your own life.",
-        author: "Carrie Ann Moss"
-    },
-    {
-        quote: "Some women choose to follow men, and some choose to follow their dreams. If you’re wondering which way to go, remember that your career will never wake up and tell you that it doesn’t love you anymore.",
-        author: "Lady Gaga"
-    },
-    {
-        quote: "Life isn't about finding yourself. Life is about creating yourself.",
-        author: "Bernard Shaw"
-    },
-    {
-        quote: "Doubt kills more dreams than failure ever will.",
-        author: "Suzy Kaseem"
-    },
-    {
-        quote: `Whether you think you can or think you can’t, you’re right.`,
-        author: "Henry Ford"
+        note: `The number of protons is <strong>equal</strong> to the number of electrons in an atom`
     },
 ]
 

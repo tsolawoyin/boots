@@ -8,260 +8,232 @@ let biologyQuestions = [
                 id:1,
                 question: "Which of the following is characteristic of the animal cell?",
                 options: ["presence of chloroplasts", "Possession of a cellulose cell wall", "Absence of large vacuoles", "Presence of large vacuoles", "Presence of chromosomes"],
-
-                ans: null,
+                ans: C,
             },
             {
                 id:2,
                 question: "The vacuole of a plant cell is:",
                 options: ["A large empty space", "Smaller than that of an animal cell", "Filled with air", "An ordinary vacuum", "Surrounded by a membrane"],
-
-                ans: null,
+                ans: E,
             },
             {
                 id:3,
                 question: "The part of the cell solely responsible for respiration is the:",
                 options: ["Nucleus", "Nucleolus", "Mitochondria", "Golgi apparatus", "Endoplasmic reticulum"],
-
-                ans: null,
+                ans: C,
             },
             {
                 id:4,
                 question: "Which of these combinations is common to plant and animal cells?",
-                options: ["Centriole, middle lamella, Golgi bodies, mitochondrion", "Cytoplasm, sap vacuole, starch grains, leucoplasts", "Plasma membranes, chromosome, mitochondria, lysosomes", "Nucleus, nucleolus cellulose cell wall, endoplasmic reticulum", "Cytoplasm, centriole, cell wall, nucleolus"],
-
-                ans: null,
+                options: ["Centriole, middle lamella, Golgi bodies, mitochondrion", "Cytoplasm, sap vacuole, starch grains, leucoplasts", "Plasma membranes, chromosome, mitochondria, lysosomes", "Nucleus, nucleolus, cellulose cell wall, endoplasmic reticulum", "Cytoplasm, centriole, cell wall, nucleolus"],
+                ans: C,
             },
             {
                 id:5,
                 question: "Where is energy produced in a cell?",
                 options: ["Nucleus", "Nucleolus", "Lysosomes", "Chloroplast", "Mitochondria"],
-
-                ans: null,
+                ans: E,
             },
             {
                 id:6,
                 question: "Which of the following cell constituents is NOT common to both plants and animals?",
                 options: ["Mitochondria", "Chloroplasts", "Ribosomes", "Golgi apparatus", "Vacuoles"],
-
-                ans: null,
+                ans: B,
             },
             {
                 id:7,
                 question: "The function of endoplasmic reticulum is:",
                 options: ["Protein synthesis", "Intracellular transport of materials", "Digestion and destruction of foreign bodies", "Production of energy from glucose"],
-
-                ans: null,
+                ans: B,
             },
             {
                 id:8,
                 question: "The oxidative part of the respiration process takes place in the:",
                 options: ["Mitochondria", "Ribosomes", "endoplasmic reticulum", "Golgi bodies"],
-
-                ans: null,
+                ans: A,
             },
             {
                 id:9,
                 question: "The function of ribosomes in cells is:",
                 options: ["Protein synthesis", "Starch synthesis", "Transport of materials", "Lipid storage"],
-
-                ans: null,
+                ans: A,
             },
             {
                 id:10,
-                question: "Which of the following structures is common to Euglena, white blood cell and Amoeba?",
+                question: "Which of the following structures is common to Euglena, white blood cell, and Amoeba?",
                 options: ["Vacuole", "Cell wall", "Cilla", "Cell membrane"],
-
-                ans: null,
+                ans: D,
             },
-            {
-                id:11,
-                question: "Which of the labelled parts of the cell contains ribonucleic acid?",
-                options: ["'1", '2', "3", "5"],
-
-                ans: null,
-            },
+            // this is an image problem
+            // {
+            //     id:11,
+            //     question: "Which of the labelled parts of the cell contains ribonucleic acid?",
+            //     options: ["'1", '2', "3", "5"],
+            //     ans: null,
+            // },
             {
                 id:12,
                 question: "The organelle involved in tissue respiration is the:",
                 options: ["Endoplasmic reticulum", "Ribosome", "Golgi body", "Mitochondrion"],
-
-                ans: null,
+                ans: D,
             },
             {
                 id:13,
                 question: "Which of the following organelles are likely to be present in cells that are actively respiring and photosynthesizing?",
                 options: ["Mitochondria and chloroplast", "Lysosomes and ribosomes", "Nucleolus and centrioles", "Golgi apparatus and endoplasmic reticulum"],
-
-                ans: null,
+                ans: A,
             },
             {
                 id:14,
                 question: "The membrane surrounding the vacuole in a plant cell is called the:",
                 options: ["Plasmalemma", "Tonoplast", "Nuclear membrane", "Endoplasmic reticulum"],
-
-                ans: null,
+                ans: B,
             },
             {
                 id:15,
                 question: "The nucleus is considered the control organelle of a cell because it:",
                 options: ["Contains the genetic material", "Contains the nuclear sap", "Is bounded by the nuclear membrane", "Is located at the centre of the cell "],
-
-                ans: null,
+                ans: A,
             },
             {
                 id:16,
                 question: "The structure that is most commonly identified in all living cells under the light microscope is the:",
                 options: ["Mitochondrion", "Chloropplast", "Nucleus", "Ribosome"],
-
-                ans: null,
+                ans: C,
             },
+            // TO ASK CHATGPT
             {
                 id:17,
                 question: "In plant cells, the chloroplasts are located:",
                 options: ["Inside the cell wall", "Outside the protoplasm", "Within the vacuole", "Within the cytoplasm"],
-
-                ans: null,
+                ans: D,
             },
             {
                 id:18,
                 question: "The structures found only in plant cells are:",
                 options: ["Cell membrane and crytoplasms", "Chromatin and nucleolus", "Cell wall and chloroplast", "Cell membrabne and lysosome"],
-
-                ans: null,
+                ans: C,
             },
             {
                 id:19,
                 question: "The organelle common to both plant and animal cell is the:",
                 options: ["Centriole", "Plasmalemma", "Cell wall", "Chloroplast"],
-
-                ans: null,
+                ans: B,
             },
             {
                 id:20,
                 question: "Which of the following is likely to have a higher concentration of mitochondria?",
                 options: ["Sperm cell", "Egg cell", "Red blood cell", "White blood cell"],
-
-                ans: null,
+                ans: A,
             },
             {
                 id:21,
                 question: "The role of the Golgi complex in an eukaryotic cell is to:",
-                options: ["Conduction in and out of the cell", "Transport genetic material out of the cell", "provide attachment for ribosonmal granules", "Transport organic materia in and out of the cell"],
-
-                ans: null,
+                options: ["Conduction in and out of the cell", "Transport genetic material out of the cell", "provide attachment for ribosonmal granules", "Transport organic materiaL in and out of the cell"],
+                ans: D,
             },
+            // the reason I go for cell wall is that I don't think onions have chloroplasts
             {
                 id:22,
                 question: "The cell of an onion bulb can be differentiated from a check cell by the presence of:",
                 options: ["Plasmalemma", "Chloroplast", "Cell wall", "Nucleus"],
-                ans: null,
-
+                ans: C,
             }, 
+            // this one is kind of straight forward...
+            // sleeping at home is not possible anymore... 
+            // we stay at raph till God knows when
             {
                 id:23,
                 question: "In a cell, the genes are carried:",
                 options: ["Nuclear membranes", "Chromatin threads", "Lysosomes", "Mitochondria"],
-                ans: null,
-
+                ans: B,
             }, 
             {
+                // needs some research here
                 id:24,
                 question: "Which of the following characterizes a mature plant cell?",
-                options: ["The nucleus is pushed to the centre of the cell", "The cell wall is made up of the cellulose", "The nuclear is small and irregular in shape", "The cytoplasm fill up the entire cell space"],
-                ans: null,
-
+                options: ["The nucleus is pushed to the centre of the cell", "The cell wall is made up of the cellulose", "The nucleus is small and irregular in shape", "The cytoplasm fill up the entire cell space"],
+                ans: D,
             }, 
             {
                 id:25,
                 question: "Which of the following is NOT a function of the nucleus of a cell?",
                 options: ["It translates genetic information for the manufacture of proteins", "It stores and carries hereditary information", "It is a reservoir of energy for the cell", "It controls the life process of the cell"],
-                ans: null,
-
+                ans: C,
             }, 
             {
                 id:26,
                 question: "The organelles present in the cells that are actively respiring and photosythesizing are:",
                 options: ["Golgi appararatus and endolplasmic reticulum", "Nucleus and centrioles", "Mitochondria and chloroplast", "Lysosomes and ribosomes"],
-                ans: null,
-
+                ans: C,
             }, 
             {
                 id:27,
                 question: "The part of the cell solely responsible for respiraton is the:",
                 options: ["Nucleus", "Nucleolus", "Mitochondria", "Golgi apparatus"],
-                ans: null,
-
+                ans: C,
             }, 
             {
+                // cytoplasm is the answer here...
                 id:28,
-                question: "The enzymes of the glycolyti pathways are located in the:",
+                question: "The enzymes of the glycolytic pathways are located in the:",
                 options: ["Mitochondria", "Gastric juice", "Plasma", "Cytoplasm"],
-                ans: null,
-
+                ans: D,
             }, 
             {
                 id:29,
-                question: "The Which of the following does a virus have in common with animal cells?",
-                options: ["Nucleus", "DNA", "Gycogen", "Cytoplasm"],
-                ans: null,
-
+                question: "Which of the following does a virus have in common with animal cells?",
+                options: ["Nucleus", "DNA", "Glycogen", "Cytoplasm"],
+                ans: B,
             }, 
             {
                 id:30,
                 question: "The hereditary characters in plants and animals are located on the:",
                 options: ["Gene", "Nucleus", "Chromosomes", "Cell"],
-                ans: null,
-
+                ans: C,
             }, 
             {
                 id:31,
                 question: "The component of the cell that determines paternity resides in the:",
                 options: ["Centrosome", "Ribosome", "Nucleus", "Mitochondria"],
-                ans: null,
-
+                ans: C,
             }, 
             {
                 id:32,
                 question: "The part of the cell where respiration occurs is the:",
                 options: ["Mitochondria", "Ribsome", "Gogi body", "Lysosome"],
-                ans: null,
-
+                ans: A,
             }, 
             {
                 id:33,
                 question: "One of the following contains digestive enzymes in the cell:",
                 options: ["Endoplasmic reticulum", "Nucleus", "Lysosome", "Centrosome"],
-                ans: null,
-
+                ans: C,
             }, 
             {
                 id:34,
                 question: "One of the basic differences between a plant and animal cell is?",
-                options: ["Possession of chloroplast in plant, none in animal cell", "Presence of nuclear membrane in animal cell only", "Presenc of cell wall in plant, none in animal cell", "Possession of nuclear membrane in plant cell only"],
-                ans: null,
-
+                options: ["Possession of chloroplast in plant, none in animal cell", "Presence of nuclear membrane in animal cell only", "Presence of cell wall in plant, none in animal cell", "Possession of nuclear membrane in plant cell only"],
+                ans: A,
             }, 
             {
                 id:35,
                 question: "The organelle decribed as the powerhouse of the cell is the:",
                 options: ["Mitochondria", "Golgi body", "Vacuole", "Nucleolus"],
-                ans: null,
-
+                ans: A,
             }, 
             {
                 id:36,
                 question: "The importance of cellular respiration is to:",
                 options: ["Produce NADH", "Eliminate carbon (IV) Oxide", "Produce ATP", "Eliminate glucose"],
-                ans: null,
-
+                ans: C,
             }, 
+            // red blood cells don't have nucleus
             {
                 id:37,
                 question: "Which of the following doesn't have a nucleus?",
                 options: ["Leukocyte", "Erythrocytes", "Plasma", "Platelet"],
-                ans: null,
-
+                ans: B,
             }, 
 
         ]
