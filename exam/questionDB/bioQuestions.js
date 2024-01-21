@@ -362,14 +362,14 @@ let biologyQuestions = [
         questions: [
                 {
                     id:1,
-                    question: "A spirayra cell was placed in solution after 1 minute the cell had been plasmolysed, solution X was",
+                    question: "A spirogyra cell was placed in a solution X after 1 minute the cell had been plasmolysed, solution X was",
                     options: ["Tap water", "A very strong sugar solution", "A weak sugar solution", "A very waek salt solution", "Distilled water"],
 
                     ans: B,
                 },
                 {
                     id:2,
-                    question: "The movement of molecules from a region of higher concentration is:",
+                    question: "The movement of molecules from a region of higher concentration is to a region of lower concentration is",
                     options: ["Diffusion", "ranspiration", "Osmosis", "Translocation", "Plasmolysis"],
 
                     ans: A,
@@ -494,7 +494,7 @@ let biologyQuestions = [
         questions: [
             {
                 id:1,
-                question: "Eulena may be classified as a plant because it",
+                question: "Euglena may be classified as a plant because it",
                 options: ["Has chloroplast", "Has a gullet", "Lives in a pond", "Possesses a flagellum", "Has a pellicle"],
                 ans: A
             },

@@ -74,3 +74,8 @@
     position: absolute;
     right: 3%;
 }
+
+.main-word {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
