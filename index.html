@@ -21,6 +21,11 @@
     <!-- the webpage will be seriously fast. faster than you can think of -->
     <main>
         <section id="homepage">
+            <nav class="d-flex pt-2 flex-row justify-content-around nav">
+                <!-- we may have more than one reading guide btn shey you get. hmmm -->
+                <p class="chemistry reading-guide-btn go-to nav-item">Reading Guides</p>
+                <p class="go-to practice-btn nav-item">Practice</p>
+            </nav>
             <section id="quote">
                 
             </section>
@@ -30,7 +35,7 @@
                 <hr>
                 <p>Chemistry: <strong>Atomic structure </strong>(rescheduled)</p>
                 <p class="text-danger">English test to be rescheduled!</p>
-                <button type="button" class="btn btn-warning btn-sm" id="login-btn">Practice now</button>
+                <button type="button" class="btn btn-warning btn-sm practice-btn">Practice now</button>
             </section>
 
             <section id="notes" class="alert alert-primary d-none">
@@ -40,27 +45,7 @@
             </section>
             <section class="alert alert-primary">
                 <h4>Carbon test is coming up on Wednesday, Feb 1</h4>
-                <hr>
-                <p>Reading guide (pages included if you are using Understanding chemistry)</p>
-                <ul>
-                    <li>Allotropes of carbon: their properties and uses. (page 266 - 268. Stop at <em>carbon black</em>)</li>
-                    <li>Carbon(IV) oxide:
-                        <ul>
-                            <li>laboratory prep, properties and uses. (pg 269 - 271)</li>
-                            <li>action of heat on trioxocarbonate(IV) salts. (pg 275, property 3) </li>
-                            <li>test for CO<sub>3</sub><sup>2-</sup> ions. (pg 275, property 5)</li>
-                        </ul>
-                    </li>
-                    <li>Carbon(II) oxide:
-                        <ul>
-                            <li>laboratory preparation, properties including its effect on blood. (pg 272 - 274. Stop at Effect on CO on the blood)</li>
-                            <li>sources of carbon(II) oxide to include charcoal, fire and exhaust fumes.</li>
-                        </ul>
-                    </li>
-                    <li>Coal: different types, products obtained from destructive distillation of wood and coal. (pg 278 - 279. Stop at Destructive distillation of wood)</li>
-                    <li>Coke: gasification and uses, manufacture of synthesis gas and uses. (pg 277)</li>
-                </ul>
-                <p class="text-danger">Please note that questions will only be set from the guide above.</p>
+                <p class="chemistry reading-guide-btn go-to"><a href="#carbon">check out carbon reading guide</a></p>
             </section>
             <section id="leaderboard">
                 <table class="table table-sm">
@@ -215,6 +200,90 @@
         </section>
         <!-- notes will be displayed here on demand -->
         <section id="notes-page"></section>
+
+        <section id="reading-guide">
+            <nav class="d-flex pt-2 flex-row justify-content-around nav">
+                <!-- we may have more than one reading guide btn shey you get. hmmm -->
+                <p class="nav-item">Reading Guides</p>
+                <p class="go-to practice-btn nav-item">Practice</p>
+            </nav>
+
+            <section class="d-flex pt-2 flex-row justify-content-around">
+                <p class="chemistry reading-guide-btn go-to" id="chemistry-tab">Chemistry</p>
+                <p class="biology reading-guide-btn go-to" id="biology-tab">Biology</p>
+                <!-- I am becoming really clever these days. hmmm -->
+                <!-- <p id="biology">English</p> -->
+                <!-- <p id="biology">Physics</p> -->
+            </section>
+
+            <section id="chemistry-guide">
+                <ul class="d-flex flex-column">
+                    <li><a href="#chm-bonding">Chemical bonding</a></li>
+                    <li><a href="#carbon">Carbon</a></li>
+                    <li><a href="#nitrogen">NItrogen</a></li>
+                </ul>
+                <section class="alert alert-primary" id="carbon">
+                    <h4>Carbon</h4>
+                    <hr>
+                    <p>Reading guide (pages included if you are using Understanding chemistry)</p>
+                <ul>
+                    <li>Allotropes of carbon: their properties and uses. (page 266 - 268. Stop at <em>carbon black</em>)</li>
+                    <li>Carbon(IV) oxide:
+                        <ul>
+                            <li>laboratory prep, properties and uses. (pg 269 - 271)</li>
+                            <li>action of heat on trioxocarbonate(IV) salts. (pg 275, property 3) </li>
+                            <li>test for CO<sub>3</sub><sup>2-</sup> ions. (pg 275, property 5)</li>
+                        </ul>
+                    </li>
+                    <li>Carbon(II) oxide:
+                        <ul>
+                            <li>laboratory preparation, properties including its effect on blood. (pg 272 - 274. Stop at Effect on CO on the blood)</li>
+                            <li>sources of carbon(II) oxide to include charcoal, fire and exhaust fumes.</li>
+                        </ul>
+                    </li>
+                    <li>Coal: different types, products obtained from destructive distillation of wood and coal. (pg 278 - 279. Stop at Destructive distillation of wood)</li>
+                    <li>Coke: gasification and uses, manufacture of synthesis gas and uses. (pg 277)</li>
+                </ul>
+                <p class="text-danger">Please note that questions will only be set from the guide above.</p>
+                </section>
+                <p class="text-secondary text-center">The reading guides above are based on jamb syllabus.</p>
+            </section>
+
+            <section id="biology-guide">
+                <!-- making sense... -->
+                <ul class="d-flex flex-column">
+                    <li><a href="#living-organisms">Living organisms</a></li>
+                </ul>
+
+                <section class="alert alert-primary" id="living-organisms">
+                    <h4>Living organisms</h4>
+                    <hr>
+                    <ul>
+                        <li>Characteristics of living and non-living organisms</li>
+                        <li>Cell structure and functions of cell components. Both plant and animal cells</li>
+                        <li>Level of Organisation
+                            <ul>
+                                <li>Cell e.g euglena and paramecium</li>
+                                <li>Tissue e.g epithelial tissues and hydra</li>
+                                <li>Organ e.g onion bulb</li>
+                                <li>Systems e.g reproductive, digestive, and excretory</li>
+                                <li>Organisms e.g Chlamydomonas</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <h6>Study links (recommended)</h6>
+                    <ul>
+                        <li><a href="https://byjus.com/biology/living-and-non-living-things/#:~:text=The%20earth%20in%20which%20we,%2C%20breathe%2C%20move%20and%20reproduce.">characteristics of living and non-living things</a>, <a href="https://www.youtube.com/watch?v=aGDFNZApXXI">watch on youtube</a></li>
+                        <li><a href="https://medlineplus.gov/genetics/understanding/basics/cell/">cell structure</a>, <a href="https://www.youtube.com/watch?v=URUJD5NEXC8">watch on youtube</a></li>
+                        <li><a href="https://byjus.com/biology/difference-between-plant-cell-and-animal-cell/">difference between plant and animal cells</a>, <a href="https://www.youtube.com/watch?v=32AfnHDpgpw">watch on youtube</a></li>
+                        <li><a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Introductory_Biology_(CK-12)/01%3A_Introduction_to_Biology/1.07%3A_Organization_of_Living_Things">level of organisation</a>, <a href="https://www.youtube.com/watch?v=u4DrP3WVNu8">youtube</a></li>
+                    </ul>
+                    
+                <!-- <p class="text-danger">Please note that questions will only be set from the guide above.</p> -->
+            </section>
+            <p class="text-secondary text-center">The reading guides above are based on jamb syllabus.</p>
+            </section>
+        </section>
 
 
     

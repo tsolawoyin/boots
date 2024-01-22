@@ -55,3 +55,16 @@ h1 {
     font-style: italic;
 }
 
+
+#reading-guide {
+    display: none;
+}
+
+.go-to {
+    cursor: pointer;
+}
+
+nav {
+    background-color: #209CEE;
+    color: white;
+}

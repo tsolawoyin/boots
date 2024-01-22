@@ -3,27 +3,37 @@
 // simple routing
 
 // for going to the exam interface
-practiceBtn.addEventListener("click", e => {
-    // this is where all the manipulation occurs. 
-    // it's not even something much sef...
-    homepage.style.display = "none"
-    loginInterface.style.display = "grid"; // this should work now
 
-    submitted = false; // submitted is false to begin with... 
-    // I have to see all the app as one large software now...
-    scoreEl.textContent = "0" // everytime we want to start a new exam, the score tab should show zero
-    // before practicing, set the seenQuestion to an empty list normally.
-    seenQuestions = []; // thank you.
+practiceBtn.forEach(e => {
+    e.addEventListener("click", e => {
+        // this is where all the manipulation occurs. 
+        // it's not even something much sef...
+        practiceMode = true;
+
+        homepage.style.display = "none" // turn off homepage
+
+        readingGuideSection.style.display = "none" // turn off reading guide too if it's on...
+
+        loginInterface.style.display = "grid"; // this should work now
+    
+        submitted = false; // submitted is false to begin with... 
+        // I have to see all the app as one large software now...
+        scoreEl.textContent = "0" // everytime we want to start a new exam, the score tab should show zero
+        // before practicing, set the seenQuestion to an empty list normally.
+        seenQuestions = []; // thank you.
+    })
 })
 
 // for going back to home
 homeBtn.addEventListener("click", e => {
     // omo, removing home doesn't makes sense, remove ke?
-    notesPage.style.display = "none" // turn off notesPage in case it is opened... 
+    notesPage.style.display = "none" // turn off notesPage in case it is opened...
+    // we also need to turn off reading Guide section too
+    readingGuideSection.style.display = "none" 
     // now we are doing all this thing manually... 
     // that's why you should learn react.. lol
     // doing it manually helps you appreciate react even better...
-
+    // check if exam is still ongoing...
     if (!isLogin) {
         homepage.style.display = "block"
         loginInterface.style.display = "none"; // omo, there is something
@@ -72,3 +82,51 @@ function showQuote() {
 
 // everything working together for good.
 // it's just a problem. And every problem has a solution...
+
+// let's try to display the content of reading guides appropriate
+
+readingGuideBtn.forEach(r => {
+    r.addEventListener("click", e => {
+        // turn off homepage.
+        homepage.style.display = "none";
+        // turn on reading guide
+
+        // so we can do some if checks here
+        renderGuide(r.classList[0])
+
+        // I think this reading guide of a thing shouldn't just display ordinarily, it needs to render correctly...
+    })
+})
+
+function renderGuide(subject) {
+    let subjects = ["chemistry", "biology"]
+    // the normal general stuff is the rendering of the whole guide section
+    readingGuideSection.style.display = "block" // displaying this is compulsory
+    // should render the content selected
+    for (let s of subjects) {
+        let guide = document.querySelector(`#${s}-guide`)
+        let tab = document.querySelector(`#${s}-tab`)
+        // console.log(guide)
+
+        if (s == subject) {
+            // tab styling
+            tab.style.background = "crimson";
+            tab.style.color = "white";
+            tab.style.padding = ".4em";
+            tab.style.borderRadius = "6px";
+
+            guide.style.display = "block";
+        } else {
+            // tab styling
+            tab.style.background = "white";
+            tab.style.color = "black"; 
+            tab.style.padding = ".4em";
+            tab.style.borderRadius = "6px";
+
+            guide.style.display = "none"
+        }
+    }
+}
+// making sense like that. everything gonna make sense...
+// I solved all the problem in one go... Jesus, Dayo is a crazy programmer
+// I have amassed a lot of skills overtime but I don't know...
