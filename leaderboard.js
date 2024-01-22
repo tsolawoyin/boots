@@ -1,42 +1,42 @@
 const leaderBoard = [
     {
-        posn: 1,
+        posn: 2,
         name: "Seun",
-        chm: 92.5,
-        bio: 0,
-        eng: 0, 
+        chm: [47.5,92.5], // an object will help me track their progress in each topic
+        bio: [0],
+        eng: [0], 
         calcScore() {
-            return this.chm + this.bio + this.eng; // makes sense...
+            return this.chm.reduce((a, e ) => a + e) + this.bio.reduce((a,e) => a + e) + this.eng.reduce((a,c) => a + c); // makes sense...
         }
     },
     {
-        posn: 2,
+        posn: 1,
         name: "Ayodeji",
-        chm: 90,
-        bio: 0,
-        eng: 0, 
+        chm: [90, 62.5],
+        bio: [0],
+        eng: [0], 
         calcScore() {
-            return this.chm + this.bio + this.eng; // makes sense...
+            return this.chm.reduce((a, e ) => a + e) + this.bio.reduce((a,e) => a + e) + this.eng.reduce((a,c) => a + c); // makes sense...
         }
     },
     {
         posn: 4,
         name: "Victoria",
-        chm: 30,
-        bio: 0,
-        eng: 0, 
+        chm: [30],
+        bio: [0],
+        eng: [0], 
         calcScore() {
-            return this.chm + this.bio + this.eng; // makes sense...
+            return this.chm.reduce((a, e ) => a + e) + this.bio.reduce((a,e) => a + e) + this.eng.reduce((a,c) => a + c); // makes sense...
         }
     },
     {
         posn: 3,
         name: "Tosin",
-        chm: 40,
-        bio: 0,
-        eng: 0, 
+        chm: [40,67.5],
+        bio: [0],
+        eng: [0], 
         calcScore() {
-            return this.chm + this.bio + this.eng; // makes sense...
+            return this.chm.reduce((a, e ) => a + e) + this.bio.reduce((a,e) => a + e) + this.eng.reduce((a,c) => a + c); // makes sense...
         }
     },
 ]
@@ -58,9 +58,9 @@ function leaderBoardHelper() {
             `<tr>
                 <td class="col rank" id=${posn[el.posn]}>${el.posn}</td>
                 <td class="col name">${el.name}</td>
-                <td class="col chm">${el.chm}</td>
-                <td class="col eng">${el.eng}</td>
-                <td class="col bio">${el.bio}</td>
+                <td class="col chm">${el.chm.reduce((a,c) => a+c)}</td>
+                <td class="col eng">${el.eng.reduce((a,c) => a+c)}</td>
+                <td class="col bio">${el.bio.reduce((a,c) => a+c)}</td>
                 <td class="col total">${el.calcScore()}</td>
             </tr>`
     }

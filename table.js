@@ -17,10 +17,11 @@ let tableContents = [
         date: "22-01-2024",
         subject: "chm",
         topic: "atomic structure",
-        "highest performer": null,
+        "highest performer": "Tosin",
+        score: "67.5%"
     },
     {
-        date: "20-01-2024",
+        date: "26-01-2024",
         subject: "eng",
         topic: "synonyms",
         "highest performer": null
