@@ -1858,6 +1858,528 @@ let chemistryQuestions = [
                 image: null,
                 ans: "B",
                 userAnswer: null
+            },
+            {
+                id: 64,
+                question: `Which of the following has a positive charge`,
+                options: [
+                    "proton",
+                    `neutron`,
+                    "anion",
+                    `electron`,
+                    "atom"
+                ],
+                ans: "A",
+            }, 
+            {
+                id: 65,
+                question: `Consider the species ${isotope(72, "", "Zn")}, ${isotope(75, "", "As")}, and ${isotope(74, "", "Ge")}. These species have:`,
+                options: [
+                    "the same number of electrons",
+                    `the same number of protons`,
+                    "the same number of neutrons",
+                    `the same number of protons and neutrons`,
+                    "the same mass number"
+                ],
+
+                ans: "C",
+
+            }, 
+            {
+                id: 66,
+                question: `The neutral atoms of all of the isotopes of the same element have`,
+                options: [
+                    "different numbers of protons",
+                    `equal numbers of neutrons`,
+                    "the same number of electrons",
+                    `the same mass numbers`,
+                    "the same masses"
+                ],
+
+                ans: "C",
+
+            }, 
+            {
+                id: 67,
+                question: `What is the atomic weight of a hypothetical element consisting of two isotopes, one with mass number = 64.23 (26.0%), and one with mass number = 65.32`,
+                options: [
+                    "65.3",
+                    `64.4`,
+                    "64.9",
+                    `65.0`,
+                    "64.8"
+                ],
+
+                ans: "D",
+
+            },
+            {
+                id: 68,
+                question: `Naturally occuring rubidium consists of just two isotopes. One of the isotopes consists of atoms having a mass of 84.912; the other of 86.901. What is the percent natural abundance of the heavier isotope?`,
+                options: [
+                    "15%",
+                    `28%`,
+                    "37%",
+                    `72%`,
+                    `85%`
+                ],
+
+                ans: "B",
+
+            },
+            {
+                id: 68,
+                question: `Which atomic orbital is spherical in shape?`,
+                options: [
+                    "2s",
+                    `3p`,
+                    "3d",
+                    `4f`,
+                ],
+
+                ans: "A",
+
+            },
+            {
+                id: 69,
+                question: `The maximum number of electrons that can be accomodated in a sublevel for which l = 3 is?`,
+                options: [
+                    "2",
+                    `10`,
+                    "6",
+                    `14`,
+                    `8`
+                ],
+
+                ans: "D",
+
+            },  
+            {
+                id: 70,
+                question: `The ground state electron configuration for arsenic, ${isotope("", 33, "As")} is`,
+                options: [
+                    `[Ar]${eConfig("4s", 2, "4p", 13)}`,
+                    `[Kr]${eConfig("4s", 2, "4p", 1)}`,
+                    `${eConfig("1s",2,"2s",2,"2p",6,"3s",2,"3p",6,"3d",12,"4s",2,"4p",1)}`,
+                    `${eConfig("1s",2,"2s",2,"2p",6,"3s",2,"3p",6,"4s",2,"3d",8,"4p",5)}`,
+                    `${eConfig("1s",2,"2s",2,"2p",6,"3s",2,"3p",6,"4s",2,"3d",10,"4p",3)}`
+                ],
+
+                ans: "E",
+
+            }, 
+            {
+                id: 71,
+                question: `The outer electronic configuration ${eConfig("ns", 2, "np", 4)} corresponds to which one of the following elements in its neutral state`,
+                options: [
+                    `As`,
+                    `Ca`,
+                    `Cr`,
+                    `Br`,
+                    `S`
+                ],
+
+                ans: "E",
+
+            }, 
+            {
+                id: 72,
+                question: `A neutral atom of an element has 2 electrons in the first shell(energy level), 8 in the second shell(energy level) and 8 in the third energy level. This information does <strong>not</strong> necessarily tell us:`,
+                options: [
+                    `the atomic number of the element`,
+                    `anything about the element's chemical properties`,
+                    `the total number of electrons in s orbital`,
+                    `the total number of electrons in p orbitals`,
+                    `the number of neutrons in the nucleus of an atom of the element.`
+                ],
+
+                ans: "E",
+
+            }, 
+            {
+                id: 73,
+                question: `How many element groups are there in the periodic table`,
+                options: [
+                    `8`,
+                    `11`,
+                    `16`,
+                    `18`,
+                    `26`
+                ],
+
+                ans: "D",
+
+            }, 
+            {
+                id: 74,
+                question: `The scientist who devised the periodic table is`,
+                options: [
+                    `Dimitri mendelev`,
+                    `Henry Mosely`,
+                    `Antoine Lavoiser`,
+                    `Charles Darwin`,
+                    `Freidrich Wohler`
+                ],
+
+                ans: "A",
+
+            }, 
+            {
+                id: 75,
+                question: `The symbol Au stands for what elements`,
+                options: [
+                    `Gold`,
+                    `Silver`,
+                    `Copper`,
+                    `Tin`,
+                ],
+
+                ans: "A",
+
+            }, 
+            {
+                id: 76,
+                question: `What is the atomic number for the element tantalum`,
+                options: [
+                    `22`,
+                    `81`,
+                    `52`,
+                    `73`
+                ],
+
+                ans: "D",
+
+            },
+            {
+                id: 77,
+                question: `What is the atomic number for the element tantalum`,
+                options: [
+                    `22`,
+                    `81`,
+                    `52`,
+                    `73`
+                ],
+                ans: "D",
+            }, 
+            // first occurence
+            {
+                id: 78,
+                question: `The atom having the valence-shell configuration ${eConfig("4s",2,"4p",5)} would be in:`,
+                options: [
+                    "Group VIA and Period 5", 
+                    "Group IVB and Period 4",
+                    "Group VIIA and Period 4",
+                    "Group VIIA and Period 4",
+                    "Group VIIB and Period 4"
+                ],
+                ans: "D",
+            },
+            {
+                id: 79,
+                question: `The center of an atom is called the`,
+                options: [
+                    "Nucleus", 
+                    "Neutron",
+                    "Shell",
+                    "Center",
+                ],
+
+                ans: "A",
+
+            },
+            {
+                id: 80,
+                question: `Mendeleev organised his periodic table by`,
+                options: [
+                    "atomic number", 
+                    "proton number",
+                    "electron number",
+                    "atomic mass",
+                ],
+
+                ans: "D",
+
+            },
+            {
+                id: 81,
+                question: `The charge on the electron is:`,
+                options: [
+                    "positive", 
+                    "negative",
+                    "neutral",
+                    "positive and negative",
+                ],
+                ans: "B",
+            },
+            {
+                id: 82,
+                question: `Which of the following is not permissible`,
+                options: [
+                    "n = 4, l = 3, m = 0", 
+                    "n = 4, l = 2, m = 1",
+                    "n = 4, l = 4, m = 1",
+                    "n = 4, l = 0, m = 1",
+                ],
+                ans: "C",
+            },
+            {
+                id: 83,
+                question: `WHich of the following is an ionic hydride`,
+                options: [
+                    `${formula("PH",3)}`, 
+                    `${formula("H",2,"S")}`,
+                    `${formula("HI")}`,
+                    `${formula("KH")}`,
+                    `${formula("CH",4)}`
+                ],
+                ans: "D",
+            },
+            {
+                id: 84,
+                question: `Which is the electronic configuration for the ${ion("S", "2", "-")}`,
+                options: [
+                    `${eConfig("1s",2,"2s",2,"2p",6,"3s",2,"3p",2)}`,
+                    `${eConfig("1s",2,"2s",2,"2p",6,"3s",2,"3p",4)}`,
+                    `${eConfig("1s",2,"2s",2,"2p",6,"3s",2,"3p",4)}`,
+                    `${eConfig("1s",2,"2s",2,"2p",6,"3s",2,"3p",6)}`
+                ],
+
+                ans: "D",
+
+            },
+            {
+                id: 85,
+                question: `Which one of the following sets of properties is correct for a proton`,
+                options: [
+                    "negatively charged and found in the nucleus", 
+                    "no charge and found outside the nucleus",
+                    "positively charged and found in the nucleus",
+                    "positively charged and found outside the nucleus",
+                ],
+
+                ans: "C",
+
+            },
+            {
+                id: 86,
+                question: `How many neutrons does the element of atomic number 1 and mass number 1 have?`,
+                options: [
+                    `1`,
+                    `2`,
+                    `0`,
+                    `none of the above`
+                ],
+
+                ans: "C",
+
+            },
+            {
+                id: 87,
+                question: `Which of the following electron configurations indicates an atom with the lowest ionization energy`,
+                options: [
+                    `2,8,7`,
+                    `2,8,8,1`,
+                    `2,8,8,2`,
+                    `2,8,8,7`,
+                ],
+                image: null,
+                ans: "B",
+                userAnswer: null
+            }, 
+            {
+                id: 88,
+                question: `To which period does the element with the electronic configuration 2,8,7 belong?`,
+                options: [
+                    `Second`,
+                    `Fourth`,
+                    `Third`,
+                    `First`
+                ],
+
+                ans: "C",
+
+            },
+            {
+                id: 89,
+                question: `If an element has an atomic number of 7 and a mass number of 14, what is the name of this element?`,
+                options: [
+                    `Neon`,
+                    `Lithium`,
+                    `Nitrogen`,
+                    `Silicon`
+                ],
+
+                ans: "C",
+
+            },
+            {
+                id: 90,
+                question: `If an element has an atomic number of 9 and a mass number of 19, then, which of the following statements is INCORRECT`,
+                options: [
+                    `its got 9 protons and 9 electrons`,
+                    `its got 10 electrons and 9 neutrons`,
+                    `there are 10 neutrons in its nucleus`,
+                    `there are 9 electrons orbiting around its nucleus`
+                ],
+
+                ans: "B",
+
+            },
+            {
+                id: 91,
+                question: `Which of the following atoms is the largest`,
+                options: [
+                    `F`,
+                    `Cl`,
+                    `Br`,
+                    `I`
+                ],
+
+                ans: "D",
+
+            },
+            {
+                id: 92,
+                question: `What values are permitted for the angular momentum(azimuthal) quantum number if the principal quantum number is 3`,
+                options: [
+                    `0`,
+                    `0,1`,
+                    `0,1,2`,
+                    `0,1,2,3`
+                ],
+                ans: "C",
+
+            },
+            {
+                id: 93,
+                question: `The distance between the nuclei of chlorine atoms in a chlorine molecule is 0.567nm. The atomic radius of chlorine atom is`,
+                options: [
+                    "0.097nm",
+                    `0.914nm`,
+                    `0.2835nm`,
+                    `4.203nm`,
+                ],
+                image: null,
+                ans: "C",
+                userAnswer: null
+            },
+            {
+                id: 94,
+                question: `The atoms of four elements are represented as ${isotope("", 20, "Q")}, ${isotope("", 16, "R")}, ${isotope("", 10, "S")}, ${isotope("", 8, "T")}. Which of the elements would be unreactive?`,
+                options: [
+                    "T", 
+                    "Q",
+                    "R",
+                    "S",
+                ],
+                image: null,
+                ans: "D",
+                userAnswer: null
+            },
+            {
+                id: 95,
+                question: `Indicate which of the following statement is not true as we move from left to right along the periodic table`,
+                options: [
+                    "electropositive character of elements increases",
+                    "number of electrons in the outermost orbits of elements increases",
+                    "atomic number of elements increase", 
+                    "atomic mass of elements increases",
+                ],
+                image: null,
+                ans: "A",
+                userAnswer: null
+            },
+            {
+                id: 96,
+                question: `Which of the following physical properties decreases across the periodic table`,
+                options: [
+                    "atomic radius",
+                    "electronegativity",
+                    "electron affinity",
+                    "ionization potential", 
+                ],
+                image: null,
+                ans: "A",
+                userAnswer: null
+            },
+            {
+                id: 97,
+                question: `The energy change accompanying the removal of an electron from a gaseous ion is called`,
+                options: [
+                    "electron affinity",
+                    "second ionization energy",
+                    "electronegativity",
+                    "first ionization energy", 
+                ],
+                image: null,
+                ans: "B",
+                userAnswer: null
+            },
+            {
+                id: 98,
+                question: `Which of the following is arranged in order of decreasing electronegativity?`,
+                options: [
+                    "chlorine, aluminium, magnesium, phosphorus, sodium", 
+                    "sodium, magnesium, aluminium, phosphorus, chlorine",
+                    "chlorine, phosphorus, aluminium, magnesium, sodium",
+                    "sodium, chlorine, phosphorus, magnesium, aluminium",
+                ],
+                image: null,
+                ans: "C",
+                userAnswer: null
+            },
+            // third occurence. 
+            {
+                id: 99,
+                question: `Which of the following is <strong>False</strong> about the isotopes of the same element`,
+                options: [
+                    "they have the same atomic number and different number of electrons",
+                    "they have the same number of electrons in their outermost shells", 
+                    "they have different atomic masses",
+                    "they have the same atomic number and same number of electrons",
+                ],
+                image: null,
+                ans: "A",
+                userAnswer: null
+            },
+            {
+                id: 100,
+                question: `In order to remove one electron from 3s-orbital of gaseous sodium atom, about 496KJmol<sup>-1</sup> of energy is required. The energy is referred to as`,
+                options: [
+                    "electron affinity",
+                    `ionization energy`,
+                    `activation energy`,
+                    `electronegativity`,
+                ],
+                image: null,
+                ans: "B",
+                userAnswer: null
+            }, 
+            {
+                id: 101,
+                question: `A decrease in atomic size and an increase in nuclear charge across a period lead to`,
+                options: [
+                    `a decrease in electropositivity`,
+                    `an increase in chemical reactivity`,
+                    `an increase in tendency to lose electron`,
+                    "a decrease in covalency in bond formation",
+                ],
+                image: null,
+                ans: "A",
+                userAnswer: null
+            }, 
+            {
+                id: 102,
+                question: `The most electropositive element among the following is?`,
+                options: [
+                    "Na",
+                    "Br",
+                    `K`,
+                    `Ca`,
+                ],
+                image: null,
+                ans: "C",
+                userAnswer: null
             }, 
         ]
     },
