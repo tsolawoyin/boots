@@ -14,6 +14,8 @@ startBtn.addEventListener("click", e => {
         // set the global questions to the needed kind of questions and updating question length... too many things to be for God's sake. hmmmm
         // now we can set login to true here
         isLogin = true;
+
+        localStorage.setItem("started", true) // normally, exam has started now...
         
         loadQuestionType(choosenTopic.value)
         // console.log(choosenSubject)
