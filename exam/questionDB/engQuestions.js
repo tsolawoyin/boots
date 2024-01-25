@@ -96,6 +96,601 @@ let englishQuestions = [
                 ans: "D",
                 main: 'perpetuate'
             },
+            {
+                id: 14,
+                question: `Some travellers unwittingly render themselves open prey to questionable character.`,
+                options: ["genuinely", "wholesomely", "knowingly", "inadvertently"],
+                ans: "D",
+                main: 'unwittingly'
+            },
+            {
+                id: 15,
+                question: `His father is a shrewd businessman.`,
+                options: ["gullible", "orderly", "reliable", "resourceful"],
+                ans: "D",
+                main: 'shrewd'
+            },
+            {
+                id: 16,
+                question: `Many people have raised the issue about the need for an equitable distribution of our wealth.`,
+                options: ['a fair', 'an even', 'an unjust', 'an undue'],
+                ans: "D",
+                main: 'equitable'
+            },
+            {
+                id: 17,
+                question: `The pastor decided to exorcise the evil spirit as the afflicted member of his congregation cried for help.`,
+                options: ["expel", "drive", "invite", "charm"],
+                ans: "D",
+                main: 'exorcise'
+            },
+            {
+                id: 18,
+                question: `He mumbled a few words at the trial and then cried.`,
+                options: ["shouted", "murmured", 'charm', "invite"],
+                ans: "D",
+                main: 'mumbled'
+            },
+            {
+                id: 19,
+                question: `There are many areas of convergence between male and female behaviour.`,
+                options: ["concomitance", "concordance", "incompatibility", "incomparatibility"],
+                ans: "D",
+                main: 'convergence'
+            },
+            {
+                id: 20,
+                question: `The greenhouse effect is beginning to abate in Europe.`,
+                options: ["intensify", "extentuate", "surface", "ameliorate"],
+                ans: "D",
+                main: 'abate'
+            },
+            {
+                id: 21,
+                question: `The chairman'a verdict redressed the injustice meted out by the secretary.`,
+                options: ["corrected", "restored", "aggravated", "addressed"],
+                ans: "D",
+                main: 'redressed'
+            },
+            {
+                id: 22,
+                question: `Uche could not travel last December because of the severity of the harmattan.`,
+                options: ["cold", "mildness", "warmth", 'moderation'],
+                ans: "D",
+                main: 'severity'
+            },
+            {
+                id: 23,
+                question: `Mrs. Kofi is very provocative in her style of dressing.`,
+                options: ["modest", "happy", "angry", "moderation"],
+                ans: "D",
+                main: 'provocative'
+            },
+            {
+                id: 24,
+                question: `Akoso thought that her father was very callous.`,
+                options: ["indifferent", "compassionate", "wicked", "careless"],
+                ans: "D",
+                main: 'callous'
+            },
+            {
+                id: 25,
+                question: `'The Lions of Cameroun' is really an indomitable team.`,
+                options: ["a powerful", "a prominent", "a weak", "a cowardly"],
+                ans: "D",
+                main: 'indomitable'
+            },
+            {
+                id: 26,
+                question: `To almost everyone in the little village, Ada's behaviour was most odious.`,
+                options: ["repulsive", "difficult", "attractive", "charming"],
+                ans: "D",
+                main: 'odious'
+            },
+            {
+                id: 27,
+                question: `Aduma was so vociferous during the meeting of the congregation that he succeeded in incurring the wrath of the chairman.`,
+                options: ["anger", "admiration", "displeasure", "sympathy"],
+                ans: "D",
+                main: 'wrath'
+            },
+            {
+                id: 28,
+                question: `It was an inopportune moment for you to make that suggestion.`,
+                options: ["an ideal", "a wrong", "an exact", "a sad"],
+                ans: "D",
+                main: 'inopportune'
+            },
+            {
+                id: 29,
+                question: `He devoted too much time to the peripheral aspects.`,
+                options: ["unimportant", 'superficial', 'minor', "main"],
+                ans: "D",
+                main: 'peripheral'
+            },
+            {
+                id: 30,
+                question: `The climate of Nigeria is an enervating one.`,
+                options: ["a weakening", "an energy sapping", "an invigorating", "a sluggish"],
+                ans: "D",
+                main: 'enervating'
+            },
+            {
+                id: 31,
+                question: `Once he has decided that something needs doing, my brother is very unswerving of purpose.`,
+                options: ["erratic", "tenacious", "stubborn", "simple"],
+                ans: "D",
+                main: 'unswerving'
+            },
+            {
+                id: 32,
+                question: `Those were the days of the fallacy that some languages are primitive while others are not`,
+                options: ["argument", "excuse", "misconception", 'truth'],
+                ans: "D",
+                main: 'fallacy'
+            },
+            {
+                id: 33,
+                question: `She is immune to the flattery of young men.`,
+                options: ["resistant", 'susceptible', "insensible", "unresponsive"],
+                ans: "D",
+                main: 'immune'
+            },
+            {
+                id: 34,
+                question: `Events in South Africa indicate a kind of political renaissance.`,
+                options: ["rejuvenation", 'decline', "turbulence", "upheaval"],
+                ans: "D",
+                main: 'renaissance'
+            },
+            {
+                id: 35,
+                question: `If we must live together as one people, we must learn to tolerate disparate dispositions.`,
+                options: ["converging", "accomodating", "conflicting", "opposing"],
+                ans: "D",
+                main: 'disparate'
+            },
+            {
+                id: 36,
+                question: `The presidential aspirant warned of the political catastrophe that would follow if the election were rigged.`,
+                options: ["problem", 'turmoil', 'success', "conflagration"],
+                ans: "D",
+                main: 'catastrophe'
+            },
+            {
+                id: 37,
+                question: `The officer asked for a more temperate assessment of the matter.`,
+                options: ["extreme", "moderate", "radical", "human"],
+                ans: "D",
+                main: 'temperate'
+            },
+            {
+                id: 38,
+                question: `My father's advice to me was quite invaluable.`,
+                options: ["useless", "useful", "helpful", 'unsolicited'],
+                ans: "D",
+                main: 'invaluable'
+            },
+            {
+                id: 39,
+                question: `Musa hates Hadiza for her constant bellicose behavior.`,
+                options: ["violent", 'gentle', "meek", "troublesome"],
+                ans: "D",
+                main: 'bellicose'
+            },
+            {
+                id: 40,
+                question: `There is much indifference in his behavior.`,
+                options: ["nonchalance", "willingness", "inconsistency"],
+                ans: "D",
+                main: 'indifference'
+            },
+            {
+                id: 41,
+                question: `My brother married a loquacious woman`,
+                options: ["quiet", "noisy", 'talkative', "beautiful"],
+                ans: "D",
+                main: 'loquacious'
+            },
+            {
+                id: 42,
+                question: `Most warring countries end up in a state of satiation.`,
+                options: ["hunger", "thirst", "danger", 'famine'],
+                ans: "D",
+                main: 'satiation'
+            },
+            {
+                id: 43,
+                question: `Abdul is fond of his teacher though he sometimes makes derogatory remarks about him.`,
+                options: ['unpleasant', "complimentary", "expressive", "inconsiderate"],
+                ans: "D",
+                main: 'derogatory'
+            },
+            {
+                id: 44,
+                question: `The Minister has finally been dropped from the present cabinet because of his ignoble act.`,
+                options: ["criminal", "ignorant", "honorable", "selfish"],
+                ans: "D",
+                main: 'ignoble'
+            },
+            {
+                id: 45,
+                question: `His cruelty to his mother defies logical explanation.`,
+                options: ["demands", "offers", "projects", "precludes"],
+                ans: "D",
+                main: 'defies'
+            },
+            {
+                id: 46,
+                question: `Orinya balances the pail on her head with accustomed ease.`,
+                options: ["convincing", 'surprising', "unwary", "unusual"],
+                ans: "D",
+                main: 'accustomed'
+            },
+            {
+                id: 47,
+                question: `They attacked all regulations designed to emasculate student militancy.`,
+                options: ["condone", "isolate", "punish", "strengthen"],
+                ans: "D",
+                main: 'emasculate'
+            },
+            {
+                id: 48,
+                question: `There is no point dissipating energy on a useless argument`,
+                options: ["destroying", 'conserving', "marshalling", "storing"],
+                ans: "D",
+                main: 'dissipating'
+            },
+            {
+                id: 49,
+                question: `Everyone, including the Principal, believed that he was a very assiduous student.`,
+                options: ["assertive", "industrious", "aggressive", "casual"],
+                ans: "D",
+                main: 'assiduous'
+            },
+            {
+                id: 50,
+                question: `My eldest brother is now faced with the vicissitudes of married life.`,
+                options: ["amazement", "sweetness", "amiability", "stability"],
+                ans: "D",
+                main: 'vicissitudes'
+            },
+            {
+                id: 51,
+                question: `The dancing troupe put up a flawless performance.`,
+                options: ["an interesting", "an imperfect", "a satisfactory", "a careless"],
+                ans: "D",
+                main: 'flawless'
+            },
+            {
+                id: 52,
+                question: `The officer said that he knew nothing to the detriment of the applicant.`,
+                options: ["damage", "disfavor", "advantage", "incurius", "careful"],
+                ans: "D",
+                main: 'detriment'
+            },
+            {
+                id: 53,
+                question: `Common sense requires that one should be decorous at formal gatherings`,
+                options: ["damage", "disfavor", "advantage", "incurius", "careful"],
+                ans: "D",
+                main: 'decorous'
+            },
+            {
+                id: 54,
+                question: `The string was taut.`,
+                options: ["loose", "firm", "stretched", "tight"],
+                ans: "D",
+                main: 'taut'
+            },
+            {
+                id: 55,
+                question: `The diminutive figure bounces over the track with unfathomable lightness..`,
+                options: ["invigorating", "irresistible", "predictable", "impressive"],
+                ans: "D",
+                main: 'unfathomable'
+            },
+            {
+                id: 56,
+                question: `The teacher announced that the class would be making a fleeting visit to the zoo.`,
+                options: ["routine", "brief", "long", "guided"],
+                ans: "D",
+                main: 'fleeting'
+            },
+            {
+                id: 57,
+                question: `We intend to make the reception a diurnal event.`,
+                options: ["nightly", "a weekly", "a short", "an annual"],
+                ans: "D",
+                main: 'diurnal'
+            },
+            {
+                id: 58,
+                question: `The project is designed to alleviate poverty in the country.`,
+                options: ["tackle", "exacerbate", "eradicate", "assuage"],
+                ans: "D",
+                main: 'alleviate'
+            },
+            {
+                id: 59,
+                question: `It is surprising that this politician has now turned renegade.`,
+                options: ["militant", "corrupt", "loyal", "quiet"],
+                ans: "D",
+                main: 'renegade'
+            },
+            {
+                id: 60,
+                question: `Hypertension is a debilitating disease that everyone should prevent.`,
+                options: ["an enervating", "an energizing", "a horrible", "a mortal"],
+                ans: "D",
+                main: 'debilitating'
+            },
+            {
+                id: 61,
+                question: `The striking workers have vowed not to return to work until the decision is rescinded`,
+                options: ["changed", "dismissed", "implemented", "incorporated"],
+                ans: "D",
+                main: 'rescinded'
+            },
+            {
+                id: 62,
+                question: `I'm not interested in buying that shirt. I think it is overpriced.`,
+                options: ["expensive", "overrated", "priceless", "cheap"],
+                ans: "D",
+                main: 'overpriced'
+            },
+            {
+                id: 63,
+                question: `Civil engineering is predominantly a male profession.`,
+                options: ["absolutely", "essentially", "generally", "seldom"],
+                ans: "D",
+                main: 'predominantly'
+            },
+            {
+                id: 64,
+                question: `As these boys never act in public, the police are now worried about their covert activities.`,
+                options: ["cryptic", "ignoble", "evil", "open"],
+                ans: "D",
+                main: 'covert'
+            },
+            {
+                id: 65,
+                question: `Some equatorial areas have a sultry climate.`,
+                options: ["a temperate", "an inclement", "a stable", "a hot"],
+                ans: "D",
+                main: 'sultry'
+            },
+            {
+                id: 66,
+                question: `Updating the Board's brochure is an arduous task.`,
+                options: ["an annual", "an easy", "a regular", "a difficult"],
+                ans: "D",
+                main: 'arduous'
+            },
+            {
+                id: 67,
+                question: `What a harmless thought he has!.`,
+                options: ["pleasant", "pernicious", "perfect", "pertinent"],
+                ans: "D",
+                main: 'harmless'
+            },
+            {
+                id: 68,
+                question: `In his naivety, he believed all the stories his friend told him.`,
+                options: ["incredulity", "stupidity", "friendliness", "artlessness"],
+                ans: "D",
+                main: 'naivety'
+            },
+            {
+                id: 69,
+                question: `It is inconceivable that the rat devoured the cat.`,
+                options: ["credible", "unimaginable", "contestable", "incomprehensible"],
+                ans: "D",
+                main: 'inconceivable'
+            },
+            {
+                id: 70,
+                question: `Ali wondered why the principal was ambivalent about the student's future.`,
+                options: ["decisive", 'inconsiderate', "anxious", "ambituous"],
+                ans: "D",
+                main: 'ambivalent'
+            },
+            {
+                id: 71,
+                question: `The teacher taught the rudiments of Chemistry to the first grade.`,
+                options: ["theory", "fundamentals", "elements", "basics"],
+                ans: "D",
+                main: 'rudiments'
+            },
+            {
+                id: 72,
+                question: `The journalist's write-up contained a plethora of detail.`,
+                options: ["simplicity", 'spectrum', "shortage", "complexity"],
+                ans: "D",
+                main: 'plethora'
+            },
+            {
+                id: 73,
+                question: `The town was all agog at his unexpected return`,
+                options: ["unexcited", "excited", "on fire", "surprised"],
+                ans: "D",
+                main: 'agog'
+            },
+            {
+                id: 74,
+                question: `The lecture seemed interminable.`,
+                options: ["boring", 'brief', "unending", "interesting"],
+                ans: "D",
+                main: 'interminable'
+            },
+            {
+                id: 75,
+                question: `In the latter part of his life, the famous soldier showed signs of youthfulness.`,
+                options: ["senility", "energy", 'vitality', "bravery"],
+                ans: "D",
+                main: 'youthfulness'
+            },
+            {
+                id: 76,
+                question: `There is much apathy towards reading among students nowadays..`,
+                options: ["indifference", "indecision", "disinclination", "enthusiasm"],
+                ans: "D",
+                main: 'apathy'
+            },
+            {
+                id: 77,
+                question: `The witness averred that she had seen Dosun at the scene of the crime.`,
+                options: ["argued", "confirmed", "denied", "affirmed"],
+                ans: "D",
+                main: 'averred'
+            },
+            {
+                id: 78,
+                question: `The high cost of living these days calls for a lot of frugality.`,
+                options: ["extravagance", "economy", "recklessness", "prudence"],
+                ans: "D",
+                main: 'frugality'
+            },
+            {
+                id: 79,
+                question: `Tunde's reaction underscores the point I was making`,
+                options: ["justifies", "emphasizes", "summarizes", "contradicts"],
+                ans: "D",
+                main: 'underscores'
+            },
+            {
+                id: 80,
+                question: `Everyone admired the manager's adroit handling of the crises in the company`,
+                options: ["clever", "tactless", "skillful", 'clumsy'],
+                ans: "D",
+                main: 'adroit'
+            },
+            {
+                id: 81,
+                question: `The principal took exception to the ignoble role the teacher played in the matter`,
+                options: ["embarassing", "honorable", "extraordinary", "dishonorable"],
+                ans: "D",
+                main: 'ignoble'
+            },
+            {
+                id: 82,
+                question: `He is notorious for his drunkenness`,
+                options: ["popular", "known", "well known", "renowned"],
+                ans: "D",
+                main: 'notorious'
+            },
+            {
+                id: 83,
+                question: `The chairman's conduct redounds to the image of the company`,
+                options: ["assists in", "reflects on", 'contributes to', "detracts from"],
+                ans: "D",
+                main: 'redounds to'
+            },
+            {
+                id: 84,
+                question: `Her phlegmatic temperament endears her to her friends`,
+                options: ["stoic", "irritable", "lively", 'cold'],
+                ans: "D",
+                main: 'phlegmatic'
+            },
+            {
+                id: 85,
+                question: `The workers suddenly became restive`,
+                options: ["fidgety", "disorderly", "submissive", "calm"],
+                ans: "D",
+                main: 'restive'
+            },
+            {
+                id: 86,
+                question: `The Governor's visit is an unprecedented event in the history of the social club`,
+                options: ["a perfect", "a momentous", 'an insignificant', "an unnecessary"],
+                ans: "D",
+                main: 'unprecedented'
+            },
+            {
+                id: 87,
+                question: `The athlete has unexpectedly become indomitable`,
+                options: ["weak", "disoriented", "unruly", "unconquerable"],
+                ans: "D",
+                main: 'indomitable'
+            },
+            {
+                id: 88,
+                question: `The evidence the leader gave was incontrovertible`,
+                options: ["industable", "contestable", "practicable", 'logical'],
+                ans: "D",
+                main: 'incontrovertible'
+            },
+            {
+                id: 89,
+                question: `The President gave another extemporaneous speech last Friday`,
+                options: ["unprepared", "fascinating", "planned", "unfavorable"],
+                ans: "D",
+                main: 'extemporaneous'
+            },
+            {
+                id: 90,
+                question: `Only those who are gullible will fall victim to his trickery.`,
+                options: ["saucy", "devastated", "courteous", "astute"],
+                ans: "D",
+                main: 'gullible'
+            },
+            {
+                id: 91,
+                question: `He is well known for his inordinate ambition.`,
+                options: ["excessive", "passionate", "moderate", "sound"],
+                ans: "D",
+                main: 'inordinate'
+            },
+            {
+                id: 92,
+                question: `Students could be timid.`,
+                options: ["bold", "friendly", 'covetuous', 'pugnacious'],
+                ans: "D",
+                main: 'timid'
+            },
+            {
+                id: 93,
+                question: `The witness decided to conceal the evidence.`,
+                options: ["divulge", "hide", "destroy", "pugnacious"],
+                ans: "D",
+                main: 'conceal'
+            },
+            {
+                id: 94,
+                question: `The member of the congregation were inspired by the ovation.`,
+                options: ["bewitched", "enthralled", "disenchanted", "disoriented"],
+                ans: "D",
+                main: 'inspired'
+            },
+            {
+                id: 95,
+                question: `Agbenu was ecstatic abput her result.`,
+                options: ["disappointed", "sad", "pessimistic", "mad"],
+                ans: "D",
+                main: 'ecstatic'
+            },
+            {
+                id: 96,
+                question: `The labor leader's recalcitran stance was applauded.`,
+                options: ["stubborn", 'flexible', "uncompromising", "well informed"],
+                ans: "D",
+                main: 'recalcitran'
+            },
+            {
+                id: 97,
+                question: `A cool bath in a hot weather can be truly invigorating.`,
+                options: ["devastating", "unpalatable", "debilitating", "disgusting"],
+                ans: "D",
+                main: 'invigorating'
+            },
+            {
+                id: 98,
+                question: `Maryam loath to do the assignment.`,
+                options: ["willing", "waiting", 'dying', 'unwilling'],
+                ans: "D",
+                main: 'loath'
+            },
         ]
         // all these typing are supposed to be done at night. honestly. I should try to modify my sleep schedule. honestly.
     },
