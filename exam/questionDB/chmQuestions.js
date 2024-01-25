@@ -1028,9 +1028,8 @@ let chemistryQuestions = [
                     "atomic numbers",
                     "atom masses"
                 ],
-                image: null,
                 ans: "D",
-                userAnswer: null
+
             },
             {
                 id: 2,
@@ -1042,9 +1041,8 @@ let chemistryQuestions = [
                     "neutrons and electrons",
                     "protons and neutrons"
                 ],
-                image: null,
                 ans: "E",
-                userAnswer: null
+
             },
             {
                 id: 3,
@@ -1056,9 +1054,8 @@ let chemistryQuestions = [
                     "75",
                     "90"
                 ],
-                image: null,
                 ans: "D",
-                userAnswer: null
+
             },
             {
                 id: 4,
@@ -1070,9 +1067,8 @@ let chemistryQuestions = [
                     "82",
                     "127"
                 ],
-                image: null,
                 ans: "D",
-                userAnswer: null
+
             },
             {
                 id: 5,
@@ -1084,9 +1080,8 @@ let chemistryQuestions = [
                     eConfig("1s", 2, "2s", 2, "2p", 6, "3s", 0),
                     eConfig("1s", 2, "2s", 2, "2p", 6, "3s", 2, "3p", 6, "4s", 1),
                 ],
-                image: null,
                 ans: "C",
-                userAnswer: null
+
             } ,
             {
                 id: 6,
@@ -1098,13 +1093,12 @@ let chemistryQuestions = [
                     "the sum of number of electrons and protons in the nucleus of the atom",
                     "the sum of numbers of protons and neutrons in the nucleus of the atom"
                 ],
-                image: null,
                 ans: "E",
-                userAnswer: null
+
             },
             {
                 id: 7,
-                question: `And element has two isotopes ${isotope(20 ,10, "X")} and ${isotope(22, 10, "X")} present in the ration 1:3 the relative atomic mass`,
+                question: `An element has two isotopes ${isotope(20 ,10, "X")} and ${isotope(22, 10, "X")} present in the ration 1:3, the relative atomic mass`,
                 options: [
                     "20.5", 
                     "21.0",
@@ -1112,9 +1106,8 @@ let chemistryQuestions = [
                     "22.5",
                     "22.0"
                 ],
-                image: null,
                 ans: "C",
-                userAnswer: null
+
             },
             {
                 id: 8,
@@ -1126,9 +1119,8 @@ let chemistryQuestions = [
                     "a p-block element",
                     "a transition element"
                 ],
-                image: null,
                 ans: "D",
-                userAnswer: null
+
             },
             {
                 id: 9,
@@ -1140,9 +1132,8 @@ let chemistryQuestions = [
                     "the number of neutrons and protons",
                     "the number of neutrons and electrons"
                 ],
-                image: null,
                 ans: "D",
-                userAnswer: null
+
             },
             {
                 id: 10,
@@ -1153,9 +1144,8 @@ let chemistryQuestions = [
                     "19 neutrons and 17 protons",
                     "36 neutrons and 17 protons",
                 ],
-                image: null,
                 ans: "C",
-                userAnswer: null
+
             },
             {
                 id: 11,
@@ -1166,9 +1156,8 @@ let chemistryQuestions = [
                     "17.0",
                     "17.8",
                 ],
-                image: null,
                 ans: "B",
-                userAnswer: null
+
             },
             {
                 id: 12,
@@ -1179,9 +1168,8 @@ let chemistryQuestions = [
                     "55 protons and 78 electrons",
                     "78 protons and 55 neutrons",
                 ],
-                image: null,
                 ans: "B",
-                userAnswer: null
+
             },
             {
                 id: 13,
@@ -1192,9 +1180,8 @@ let chemistryQuestions = [
                     "R",
                     "S",
                 ],
-                image: null,
                 ans: "B",
-                userAnswer: null
+
             },
             {
                 id: 14,
@@ -1205,22 +1192,20 @@ let chemistryQuestions = [
                     "15",
                     "4",
                 ],
-                image: null,
                 ans: "B",
-                userAnswer: null
+
             },
             {
                 id: 15,
-                question: `The electronic configurationi of an element is ${eConfig("1s", 2, "2s", 2, "2p", 6, "3s", 2, "3p", 3)}. How many unpaired electrons are there in the element`,
+                question: `The electronic configuration of an element is ${eConfig("1s", 2, "2s", 2, "2p", 6, "3s", 2, "3p", 3)}. How many unpaired electrons are there in the element`,
                 options: [
                     "3", 
                     "5",
                     "2",
                     "4",
                 ],
-                image: null,
                 ans: "A",
-                userAnswer: null
+
             },
             {
                 id: 16,
@@ -1231,9 +1216,8 @@ let chemistryQuestions = [
                     "isotopes",
                     "anomers",
                 ],
-                image: null,
                 ans: "C",
-                userAnswer: null
+
             },
             {
                 id: 17,
@@ -1244,9 +1228,8 @@ let chemistryQuestions = [
                     "3",
                     "4",
                 ],
-                image: null,
                 ans: "D",
-                userAnswer: null
+
             },
             {
                 id: 18,
@@ -1257,9 +1240,8 @@ let chemistryQuestions = [
                     "they have the same atomic number and same number of electrons",
                     "they have the same atomic number and different number of electrons",
                 ],
-                image: null,
                 ans: "D",
-                userAnswer: null
+
             },
             {
                 id: 19,
@@ -1270,9 +1252,8 @@ let chemistryQuestions = [
                     "17",
                     "18.0",
                 ],
-                image: null,
                 ans: "A",
-                userAnswer: null
+
             },
             {
                 id: 20,
@@ -1283,9 +1264,8 @@ let chemistryQuestions = [
                     "transition element",
                     "group two element",
                 ],
-                image: null,
                 ans: "C",
-                userAnswer: null
+
             },
             {
                 id: 21,
@@ -1296,9 +1276,8 @@ let chemistryQuestions = [
                     "Z",
                     "Y",
                 ],
-                image: null,
                 ans: "C",
-                userAnswer: null
+
             },
             {
                 id: 22,
@@ -1309,9 +1288,8 @@ let chemistryQuestions = [
                     "the mass of a proton is 1.008g",
                     "the mass of a proton is one-twelfth the molar mass of carbon",
                 ],
-                image: null,
                 ans: "B",
-                userAnswer: null
+
             },
             {
                 id: 23,
@@ -1322,9 +1300,8 @@ let chemistryQuestions = [
                     "spiral",
                     "circular",
                 ],
-                image: null,
                 ans: "A",
-                userAnswer: null
+
             },
             {
                 id: 24,
@@ -1335,9 +1312,8 @@ let chemistryQuestions = [
                     "60",
                     "75",
                 ],
-                image: null,
                 ans: "B",
-                userAnswer: null
+
             },
             {
                 id: 25,
@@ -1348,9 +1324,8 @@ let chemistryQuestions = [
                     "electron",
                     "proton",
                 ],
-                image: null,
                 ans: "C",
-                userAnswer: null
+
             },
             {
                 id: 26,
@@ -1361,9 +1336,8 @@ let chemistryQuestions = [
                     "nitrogen",
                     "calcium",
                 ],
-                image: null,
                 ans: "C",
-                userAnswer: null
+
             },
             {
                 id: 26,
@@ -1374,9 +1348,8 @@ let chemistryQuestions = [
                     "8",
                     "18",
                 ],
-                image: null,
                 ans: "C",
-                userAnswer: null
+
             },
             {
                 id: 27,
@@ -1387,9 +1360,8 @@ let chemistryQuestions = [
                     "4",
                     "5",
                 ],
-                image: null,
                 ans: "A",
-                userAnswer: null
+
             },
             {
                 id: 28,
@@ -1400,9 +1372,8 @@ let chemistryQuestions = [
                     "Li, Be, Al, and P",
                     "Na, P, O, and Cl",
                 ],
-                image: null,
                 ans: "B",
-                userAnswer: null
+
             },
             {
                 id: 29,
@@ -1413,9 +1384,8 @@ let chemistryQuestions = [
                     "Y-Z",
                     "Z-Y",
                 ],
-                image: null,
                 ans: "B",
-                userAnswer: null
+
             },
             {
                 id: 30,
@@ -1426,9 +1396,8 @@ let chemistryQuestions = [
                     "a transition metal",
                     "an isotopic mixture",
                 ],
-                image: null,
                 ans: "D",
-                userAnswer: null
+
             },
             {
                 id: 31,
@@ -1439,9 +1408,8 @@ let chemistryQuestions = [
                     "magnetic",
                     "spin",
                 ],
-                image: null,
                 ans: "B",
-                userAnswer: null
+
             },
             {
                 id: 32,
@@ -1452,9 +1420,8 @@ let chemistryQuestions = [
                     "0",
                     "3",
                 ],
-                image: null,
                 ans: "D",
-                userAnswer: null
+
             },
             {
                 id: 33,
@@ -1465,9 +1432,8 @@ let chemistryQuestions = [
                     "physical properties",
                     "no. of shells",
                 ],
-                image: null,
                 ans: "D",
-                userAnswer: null
+
             },
             {
                 id: 34,
@@ -1478,9 +1444,8 @@ let chemistryQuestions = [
                     "31",
                     "16",
                 ],
-                image: null,
                 ans: "A",
-                userAnswer: null
+
             },
             {
                 id: 35,
@@ -1491,9 +1456,8 @@ let chemistryQuestions = [
                     "0",
                     "1",
                 ],
-                image: null,
                 ans: "D",
-                userAnswer: null
+
             },
             {
                 id: 36,
@@ -1504,9 +1468,8 @@ let chemistryQuestions = [
                     "it is a halogen",
                     "it has a completely filled p-orbital",
                 ],
-                image: null,
                 ans: "C",
-                userAnswer: null
+
             },
             {
                 id: 37,
@@ -1517,9 +1480,8 @@ let chemistryQuestions = [
                     "60, 33, and 60",
                     "27, 33, and 33",
                 ],
-                image: null,
                 ans: "B",
-                userAnswer: null
+
             },
             {
                 id: 38,
@@ -1530,9 +1492,8 @@ let chemistryQuestions = [
                     "28.11",
                     "14.00",
                 ],
-                image: null,
                 ans: "C",
-                userAnswer: null
+
             },
             {
                 id: 39,
@@ -1543,9 +1504,8 @@ let chemistryQuestions = [
                     "7.2",
                     "6.9",
                 ],
-                image: null,
                 ans: "C",
-                userAnswer: null
+
             },
             {
                 id: 40,
@@ -1556,9 +1516,8 @@ let chemistryQuestions = [
                     "4",
                     "5",
                 ],
-                image: null,
                 ans: "C",
-                userAnswer: null
+
             },
             {
                 id: 41,
@@ -1569,9 +1528,8 @@ let chemistryQuestions = [
                     "31",
                     "46",
                 ],
-                image: null,
                 ans: "B",
-                userAnswer: null
+
             },
             {
                 id: 42,
@@ -1582,9 +1540,8 @@ let chemistryQuestions = [
                     "S",
                     "T",
                 ],
-                image: null,
                 ans: "C",
-                userAnswer: null
+
             },
             {
                 id: 43,
@@ -1595,9 +1552,8 @@ let chemistryQuestions = [
                     "group VA and period 2",
                     "group VA and period 3",
                 ],
-                image: null,
                 ans: "D",
-                userAnswer: null
+
             },
             {
                 id: 44,
@@ -1608,9 +1564,8 @@ let chemistryQuestions = [
                     "0",
                     "1",
                 ],
-                image: null,
                 ans: "D",
-                userAnswer: null
+
             },
             {
                 id: 45,
@@ -1621,9 +1576,8 @@ let chemistryQuestions = [
                     "W",
                     "Y",
                 ],
-                image: null,
                 ans: "A",
-                userAnswer: null
+
             },
             {
                 id: 46,
@@ -1634,22 +1588,20 @@ let chemistryQuestions = [
                     "electropositive character of elements increases",
                     "number of electrons in the outermost orbits of elements increases",
                 ],
-                image: null,
                 ans: "C",
-                userAnswer: null
+
             },
             {
                 id: 47,
-                question: `Sodium and Potassium belonog to the same group of the periodic table. This is because`,
+                question: `Sodium and Potassium belong to the same group of the periodic table. This is because`,
                 options: [
                     "both are metals", 
                     "both are soft and lighter than water",
                     "both form cations by losing electrons",
                     "both have identical electronic configuration",
                 ],
-                image: null,
                 ans: "D",
-                userAnswer: null
+
             },
             {
                 id: 48,
@@ -1660,9 +1612,8 @@ let chemistryQuestions = [
                     "electronegativity",
                     "atomic radius",
                 ],
-                image: null,
                 ans: "D",
-                userAnswer: null
+
             },
             {
                 id: 49,
@@ -1673,9 +1624,8 @@ let chemistryQuestions = [
                     "electron affinity",
                     "electronegativity",
                 ],
-                image: null,
                 ans: "C",
-                userAnswer: null
+
             },
             {
                 id: 50,
@@ -1686,9 +1636,8 @@ let chemistryQuestions = [
                     "atomic number",
                     "electronegativity",
                 ],
-                image: null,
                 ans: "A",
-                userAnswer: null
+
             },
             {
                 id: 51,
@@ -1699,9 +1648,8 @@ let chemistryQuestions = [
                     "chlorine, phosphorus, aluminium, magnesium, sodium",
                     "sodium, chlorine, phosphorus, magnesium, aluminium",
                 ],
-                image: null,
                 ans: "B",
-                userAnswer: null
+
             },
             {
                 id: 52,
@@ -1712,9 +1660,8 @@ let chemistryQuestions = [
                     "electropositivity",
                     "electronegativity",
                 ],
-                image: null,
                 ans: "D",
-                userAnswer: null
+
             },
             {
                 id: 53,
@@ -1725,9 +1672,8 @@ let chemistryQuestions = [
                     `${eConfig("1s", 2, "2s", 2, "2p", 6, "3s", 1)} and ${eConfig("1s", 2, "2s", 1)}`,
                     `${eConfig("1s", 2, "2s", 2, "2p", 4)} and ${eConfig("1s", 2, "2s", 1)}`,
                 ],
-                image: null,
                 ans: "C",
-                userAnswer: null
+
             },
             {
                 id: 54,
@@ -1738,9 +1684,8 @@ let chemistryQuestions = [
                     `ionization potential`,
                     `atomic radius`,
                 ],
-                image: null,
                 ans: "D",
-                userAnswer: null
+
             }, 
             {
                 id: 55,
@@ -1751,9 +1696,8 @@ let chemistryQuestions = [
                     `2,8,8,2`,
                     `2,8,8,7`,
                 ],
-                image: null,
                 ans: "A",
-                userAnswer: null
+
             }, 
             {
                 id: 56,
@@ -1764,9 +1708,8 @@ let chemistryQuestions = [
                     `activation energy`,
                     `electronegativity`,
                 ],
-                image: null,
                 ans: "B",
-                userAnswer: null
+
             }, 
             {
                 id: 57,
@@ -1777,9 +1720,8 @@ let chemistryQuestions = [
                     `2.388nm`,
                     `4.203nm`,
                 ],
-                image: null,
                 ans: "A",
-                userAnswer: null
+
             }, 
             {
                 id: 58,
@@ -1790,9 +1732,8 @@ let chemistryQuestions = [
                     `an increase in tendency to lose electron`,
                     `a decrease in electropositivity`,
                 ],
-                image: null,
                 ans: "D",
-                userAnswer: null
+
             }, 
             {
                 id: 59,
@@ -1803,9 +1744,8 @@ let chemistryQuestions = [
                     `decrease across the period and down the group`,
                     `increase across the period and down the group`,
                 ],
-                image: null,
                 ans: "A",
-                userAnswer: null
+
             }, 
             {
                 id: 60,
@@ -1816,9 +1756,8 @@ let chemistryQuestions = [
                     `increase in screening effect`,
                     `decrease in nuclear charge`,
                 ],
-                image: null,
                 ans: "C",
-                userAnswer: null
+
             }, 
             {
                 id: 61,
@@ -1829,9 +1768,8 @@ let chemistryQuestions = [
                     `are positioned diagonally to each other`,
                     `are both metals`,
                 ],
-                image: null,
                 ans: "C",
-                userAnswer: null
+
             }, 
             {
                 id: 62,
@@ -1842,9 +1780,8 @@ let chemistryQuestions = [
                     "elements in the same period have the same number of valence electrons",
                     `the valence electrons of the elements increase progressively across the period`,
                 ],
-                image: null,
                 ans: "D",
-                userAnswer: null
+
             }, 
             {
                 id: 63,
@@ -1855,9 +1792,8 @@ let chemistryQuestions = [
                     "Br",
                     `Ca`,
                 ],
-                image: null,
                 ans: "B",
-                userAnswer: null
+
             },
             {
                 id: 64,
@@ -1870,20 +1806,6 @@ let chemistryQuestions = [
                     "atom"
                 ],
                 ans: "A",
-            }, 
-            {
-                id: 65,
-                question: `Consider the species ${isotope(72, "", "Zn")}, ${isotope(75, "", "As")}, and ${isotope(74, "", "Ge")}. These species have:`,
-                options: [
-                    "the same number of electrons",
-                    `the same number of protons`,
-                    "the same number of neutrons",
-                    `the same number of protons and neutrons`,
-                    "the same mass number"
-                ],
-
-                ans: "C",
-
             }, 
             {
                 id: 66,
@@ -1915,7 +1837,7 @@ let chemistryQuestions = [
             },
             {
                 id: 68,
-                question: `Naturally occuring rubidium consists of just two isotopes. One of the isotopes consists of atoms having a mass of 84.912; the other of 86.901. What is the percent natural abundance of the heavier isotope?`,
+                question: `Naturally occuring rubidium consists of just two isotopes. One of the isotopes consists of atoms having a mass of 84.912; the other of 86.901. What is the percent natural abundance of the heavier isotope if the atomic mass of rubidium is 85.47?`,
                 options: [
                     "15%",
                     `28%`,
@@ -2050,30 +1972,19 @@ let chemistryQuestions = [
                 ans: "D",
 
             },
-            {
-                id: 77,
-                question: `What is the atomic number for the element tantalum`,
-                options: [
-                    `22`,
-                    `81`,
-                    `52`,
-                    `73`
-                ],
-                ans: "D",
-            }, 
             // first occurence
-            {
-                id: 78,
-                question: `The atom having the valence-shell configuration ${eConfig("4s",2,"4p",5)} would be in:`,
-                options: [
-                    "Group VIA and Period 5", 
-                    "Group IVB and Period 4",
-                    "Group VIIA and Period 4",
-                    "Group VIIA and Period 4",
-                    "Group VIIB and Period 4"
-                ],
-                ans: "D",
-            },
+            // {
+            //     id: 78,
+            //     question: `The atom having the valence-shell configuration ${eConfig("4s",2,"3d",5)} would be in:`,
+            //     options: [
+            //         "Group VIA and Period 5", 
+            //         "Group IVB and Period 4",
+            //         "Group VIIA and Period 4",
+            //         "Group VIIA and Period 4",
+            //         "Group VIIB and Period 4"
+            //     ],
+            //     ans: "B",
+            // },
             {
                 id: 79,
                 question: `The center of an atom is called the`,
@@ -2118,7 +2029,7 @@ let chemistryQuestions = [
                     "n = 4, l = 3, m = 0", 
                     "n = 4, l = 2, m = 1",
                     "n = 4, l = 4, m = 1",
-                    "n = 4, l = 0, m = 1",
+                    "n = 4, l = 0, m = 0",
                 ],
                 ans: "C",
             },
@@ -2182,9 +2093,8 @@ let chemistryQuestions = [
                     `2,8,8,2`,
                     `2,8,8,7`,
                 ],
-                image: null,
                 ans: "B",
-                userAnswer: null
+
             }, 
             {
                 id: 88,
@@ -2259,9 +2169,8 @@ let chemistryQuestions = [
                     `0.2835nm`,
                     `4.203nm`,
                 ],
-                image: null,
                 ans: "C",
-                userAnswer: null
+
             },
             {
                 id: 94,
@@ -2272,9 +2181,8 @@ let chemistryQuestions = [
                     "R",
                     "S",
                 ],
-                image: null,
                 ans: "D",
-                userAnswer: null
+
             },
             {
                 id: 95,
@@ -2285,9 +2193,8 @@ let chemistryQuestions = [
                     "atomic number of elements increase", 
                     "atomic mass of elements increases",
                 ],
-                image: null,
                 ans: "A",
-                userAnswer: null
+
             },
             {
                 id: 96,
@@ -2298,9 +2205,8 @@ let chemistryQuestions = [
                     "electron affinity",
                     "ionization potential", 
                 ],
-                image: null,
                 ans: "A",
-                userAnswer: null
+
             },
             {
                 id: 97,
@@ -2311,9 +2217,8 @@ let chemistryQuestions = [
                     "electronegativity",
                     "first ionization energy", 
                 ],
-                image: null,
                 ans: "B",
-                userAnswer: null
+
             },
             {
                 id: 98,
@@ -2324,9 +2229,8 @@ let chemistryQuestions = [
                     "chlorine, phosphorus, aluminium, magnesium, sodium",
                     "sodium, chlorine, phosphorus, magnesium, aluminium",
                 ],
-                image: null,
                 ans: "C",
-                userAnswer: null
+
             },
             // third occurence. 
             {
@@ -2338,9 +2242,8 @@ let chemistryQuestions = [
                     "they have different atomic masses",
                     "they have the same atomic number and same number of electrons",
                 ],
-                image: null,
                 ans: "A",
-                userAnswer: null
+
             },
             {
                 id: 100,
@@ -2351,9 +2254,8 @@ let chemistryQuestions = [
                     `activation energy`,
                     `electronegativity`,
                 ],
-                image: null,
                 ans: "B",
-                userAnswer: null
+
             }, 
             {
                 id: 101,
@@ -2364,9 +2266,8 @@ let chemistryQuestions = [
                     `an increase in tendency to lose electron`,
                     "a decrease in covalency in bond formation",
                 ],
-                image: null,
                 ans: "A",
-                userAnswer: null
+
             }, 
             {
                 id: 102,
@@ -2377,10 +2278,9 @@ let chemistryQuestions = [
                     `K`,
                     `Ca`,
                 ],
-                image: null,
                 ans: "C",
-                userAnswer: null
-            }, 
+
+            },
         ]
     },
     {
@@ -2397,9 +2297,8 @@ let chemistryQuestions = [
                     "co-ordinate bond",
                     "hydrogen bond"
                 ],
-                image: null,
                 ans: "D",
-                userAnswer: null
+
             }, 
             {
                 id: 2,
@@ -2411,9 +2310,8 @@ let chemistryQuestions = [
                     "it loses one proton",
                     "it loses one neutron"
                 ],
-                image: null,
                 ans: "C",
-                userAnswer: null
+
             }, 
             {
                 id: 3,
@@ -2425,9 +2323,8 @@ let chemistryQuestions = [
                     "the outermost electron shell is completely filled",
                     "the atoms contains only protons"
                 ],
-                image: null,
                 ans: "D",
-                userAnswer: null
+
             }, 
             {
                 id: 4,
@@ -2439,9 +2336,8 @@ let chemistryQuestions = [
                     "water is an inorganic compound while methanol is organic",
                     "water is more reactive than methanol"
                 ],
-                image: null,
                 ans: "B",
-                userAnswer: null
+
             }, 
             {
                 id: 5,
@@ -2452,9 +2348,8 @@ let chemistryQuestions = [
                     "the elements forming the compounds normally have their valence eletrons in shared state",
                     "they conduct electricity",
                 ],
-                image: null,
                 ans: "C",
-                userAnswer: null
+
             }, 
             {
                 id: 6,
@@ -2466,9 +2361,8 @@ let chemistryQuestions = [
                     "metallic",
                     "none of the above",
                 ],
-                image: null,
                 ans: "B",
-                userAnswer: null
+
             }, 
             {
                 id: 7,
@@ -2480,9 +2374,8 @@ let chemistryQuestions = [
                     "covalent, co-ordinate and metallic",
                     "ionic, covalent, and metallic",
                 ],
-                image: null,
                 ans: "B",
-                userAnswer: null
+
             }, 
             {
                 id: 8,
@@ -2494,9 +2387,8 @@ let chemistryQuestions = [
                     "two atoms of X would combine with two atoms of Y",
                     "two atoms of X would combine with six atoms of Y",
                 ],
-                image: null,
                 ans: "C",
-                userAnswer: null
+
             }, 
             {
                 id: 9,
@@ -2508,9 +2400,8 @@ let chemistryQuestions = [
                     "tetrahedral",
                     "cubical",
                 ],
-                image: null,
                 ans: "D",
-                userAnswer: null
+
             }, 
             {
                 id: 10,
@@ -2521,9 +2412,8 @@ let chemistryQuestions = [
                     "T is a noble gas",
                     "S will react with oxygen to form SO",
                 ],
-                image: null,
                 ans: "B",
-                userAnswer: null
+
             }, 
             {
                 id: 11,
@@ -2534,9 +2424,8 @@ let chemistryQuestions = [
                     "covalent with a valency of 2",
                     "covalent with a valency of 4",
                 ],
-                image: null,
                 ans: "B",
-                userAnswer: null
+
             }, 
             {
                 id: 12,
@@ -2547,9 +2436,8 @@ let chemistryQuestions = [
                     "neutral",
                     "co-ordinate",
                 ],
-                image: null,
                 ans: "A",
-                userAnswer: null
+
             }, 
             {
                 id: 13,
@@ -2560,9 +2448,8 @@ let chemistryQuestions = [
                     "weaker the bond",
                     "higher possiblity of the substance formed being a molecule",
                 ],
-                image: null,
                 ans: "B",
-                userAnswer: null
+
             }, 
             {
                 id: 14,
@@ -2573,9 +2460,8 @@ let chemistryQuestions = [
                     "covalent",
                     "van der waals",
                 ],
-                image: null,
                 ans: "D",
-                userAnswer: null
+
             }, 
             {
                 id: 15,
@@ -2586,9 +2472,8 @@ let chemistryQuestions = [
                     "16",
                     "2",
                 ],
-                image: null,
                 ans: "A",
-                userAnswer: null
+
             }, 
             {
                 id: 16,
@@ -2599,9 +2484,8 @@ let chemistryQuestions = [
                     "3 and 5",
                     "-2 and 6",
                 ],
-                image: null,
                 ans: "A",
-                userAnswer: null
+
             }, 
             {
                 id: 17,
@@ -2612,9 +2496,8 @@ let chemistryQuestions = [
                     `${formula("X", 2, "Y", 3)}`,
                     `${formula("X", 3, "Y", 2)}`,
                 ],
-                image: null,
                 ans: "D",
-                userAnswer: null
+
             }, 
             {
                 id: 18,
@@ -2625,9 +2508,8 @@ let chemistryQuestions = [
                     `atomic number`,
                     `electronegativity`,
                 ],
-                image: null,
                 ans: "A",
-                userAnswer: null
+
             }, 
             {
                 id: 19,
@@ -2638,9 +2520,8 @@ let chemistryQuestions = [
                     `contains ${ion("X", 2, "+")} ions`,
                     `contains ${ion("Y", "-", "")} ions`,
                 ],
-                image: null,
                 ans: "A",
-                userAnswer: null
+
             }, 
             {
                 id: 20,
@@ -2651,22 +2532,20 @@ let chemistryQuestions = [
                     `ionic, covalent, and dative covalent`,
                     `dative covalent only`,
                 ],
-                image: null,
                 ans: "C",
-                userAnswer: null
+
             }, 
             {
                 id: 21,
-                question: `How many lone pairs of electron are there on the central atom of the central atom of the ${formula("H", 2, "O")} molecules?`,
+                question: `How many lone pairs of electron are there on the central atom of ${formula("H", 2, "O")} molecules?`,
                 options: [
                     "1", 
                     "2",
                     `3`,
                     `4`,
                 ],
-                image: null,
-                ans: "C",
-                userAnswer: null
+                ans: "B",
+
             }, 
             {
                 id: 22,
@@ -2677,9 +2556,8 @@ let chemistryQuestions = [
                     `${formula("EX", 5)} only`,
                     `${formula("EX", 2)} and ${formula("EX", 3)}`,
                 ],
-                image: null,
                 ans: "A",
-                userAnswer: null
+
             }, 
             {
                 id: 23,
@@ -2690,9 +2568,8 @@ let chemistryQuestions = [
                     `remains unchanged`,
                     `reduces to zero`,
                 ],
-                image: null,
                 ans: "B",
-                userAnswer: null
+
             }, 
             {
                 id: 24,
@@ -2703,9 +2580,8 @@ let chemistryQuestions = [
                     `V`,
                     `VI`,
                 ],
-                image: null,
                 ans: "C",
-                userAnswer: null
+
             }, 
             {
                 id: 25,
@@ -2716,9 +2592,8 @@ let chemistryQuestions = [
                     `ionic bonding`,
                     `metallic bonding`,
                 ],
-                image: null,
                 ans: "A",
-                userAnswer: null
+
             }, 
             {
                 id: 26,
@@ -2726,12 +2601,11 @@ let chemistryQuestions = [
                 options: [
                     `both are electrovalent`,
                     `both are covalent`,
-                    `XY is electrovalent and YZ is covalent`,
+                    `XZ is electrovalent and YZ is covalent`,
                     `XZ is covalent and ${formula("YZ", 3)}`,
                 ],
-                image: null,
                 ans: "C",
-                userAnswer: null
+
             }, 
             {
                 id: 27,
@@ -2742,9 +2616,8 @@ let chemistryQuestions = [
                     `${isotope(17, 9, "O")}<sup>-</sup>`,
                     `${isotope(17, 8, "O")}<sup>-</sup>`,
                 ],
-                image: null,
                 ans: "B",
-                userAnswer: null
+
             }, 
             {
                 id: 28,
@@ -2755,9 +2628,8 @@ let chemistryQuestions = [
                     `2 and 1`,
                     `3 and 1`,
                 ],
-                image: null,
                 ans: "C",
-                userAnswer: null
+
             }, 
             {
                 id: 29,
@@ -2768,9 +2640,8 @@ let chemistryQuestions = [
                     `${formula("CH", 4, "aq")}`,
                     `${formula("HCl", "g")}`,
                 ],
-                image: null,
                 ans: "A",
-                userAnswer: null
+
             }, 
             {
                 id: 30,
@@ -2781,9 +2652,8 @@ let chemistryQuestions = [
                     `${eConfig("1s", 2, "2s", 2, '2p', 6, "3s", 2, "3p", 6, "4s", 2)}`,
                     `${eConfig("1s", 2, "2s", 2, '2p', 6, "3s", 2, "3p", 6)}`,
                 ],
-                image: null,
                 ans: "C",
-                userAnswer: null
+
             }, 
             {
                 id: 31,
@@ -2791,9 +2661,8 @@ let chemistryQuestions = [
                 options: [
                     "covalent", 'metallic', "co-ordinate", "electrovalent"
                 ],
-                image: null,
                 ans: "B",
-                userAnswer: null
+
             }, 
             {
                 id: 32,
@@ -2804,9 +2673,8 @@ let chemistryQuestions = [
                     "linear, bent, and tetrahedral",
                     "tetrahedral, linear, and bent"
                 ],
-                image: null,
                 ans: "C",
-                userAnswer: null
+
             }, 
             {
                 id: 33,
@@ -2817,9 +2685,8 @@ let chemistryQuestions = [
                     "neutral atom of a non-metal",
                     "negative ion"
                 ],
-                image: null,
                 ans: "D",
-                userAnswer: null
+
             }, 
             {
                 id: 34,
@@ -2830,9 +2697,8 @@ let chemistryQuestions = [
                     `${formula("CaCl", 2)}`,
                     `${formula("AlCl", 3)}`
                 ],
-                image: null,
                 ans: "D",
-                userAnswer: null
+
             }, 
             {
                 id: 35,
@@ -2843,9 +2709,8 @@ let chemistryQuestions = [
                     `${ion("K", "+", "")}`,
                     `${ion("Mg", "+", "")}`
                 ],
-                image: null,
                 ans: "A",
-                userAnswer: null
+
             }, 
             {
                 id: 36,
@@ -2856,9 +2721,8 @@ let chemistryQuestions = [
                     "hexagonal shape",
                     "obtuse configuration"
                 ],
-                image: null,
                 ans: "A",
-                userAnswer: null
+
             }, 
             {
                 id: 37,
@@ -2869,9 +2733,8 @@ let chemistryQuestions = [
                     "coordinate covalent",
                     "van der waals"
                 ],
-                image: null,
                 ans: "D",
-                userAnswer: null
+
             }, 
             {
                 id: 38,
@@ -2882,9 +2745,8 @@ let chemistryQuestions = [
                     "2 valence electrons",
                     "3 valence electrons"
                 ],
-                image: null,
                 ans: "A",
-                userAnswer: null
+
             }, 
             {
                 id: 39,
@@ -2895,9 +2757,8 @@ let chemistryQuestions = [
                     "electron affinity",
                     "electrovalency"
                 ],
-                image: null,
                 ans: "A",
-                userAnswer: null
+
             }, 
             {
                 id: 40,
@@ -2908,9 +2769,8 @@ let chemistryQuestions = [
                     `${eConfig("3s", 2, '3p', 5)}`,
                     `${eConfig("2s", 2, "2p", 6)}`,
                 ],
-                image: null,
                 ans: "C",
-                userAnswer: null
+
             }, 
             {
                 id: 41,
@@ -2921,9 +2781,8 @@ let chemistryQuestions = [
                     `2:8:5`,
                     `2:8:1`
                 ],
-                image: null,
                 ans: "D",
-                userAnswer: null
+
             }, 
             {
                 id: 42,
@@ -2935,9 +2794,8 @@ let chemistryQuestions = [
                     `planar`,
                     `linear`
                 ],
-                image: null,
                 ans: "C",
-                userAnswer: null
+
             }, 
             {
                 id: 43,
@@ -2948,9 +2806,8 @@ let chemistryQuestions = [
                     `high melting point`,
                     `strong intermolecular attraction`,
                 ],
-                image: null,
                 ans: "D",
-                userAnswer: null
+
             }, 
             {
                 id: 44,
@@ -2961,9 +2818,8 @@ let chemistryQuestions = [
                     `neutral ion`,
                     `neutral non-metal`,
                 ],
-                image: null,
                 ans: "A",
-                userAnswer: null
+
             }, 
             {
                 id: 45,
@@ -2974,9 +2830,8 @@ let chemistryQuestions = [
                     `covalent bonding`,
                     `dative bonding`,
                 ],
-                image: null,
                 ans: "B",
-                userAnswer: null
+
             }, 
             {
                 id: 46,
@@ -2987,22 +2842,20 @@ let chemistryQuestions = [
                     `its atomic number is 23`,
                     `it is an alkali metal`,
                 ],
-                image: null,
                 ans: "D",
-                userAnswer: null
+
             }, 
             {
                 id: 47,
-                question: `The type of bonding in [Cu${formula("NH", 3)}<sub>4</sub>]<sup>2+</sup> is`,
+                question: `The type of bonding in [Cu(${formula("NH", 3)})<sub>4</sub>]<sup>2+</sup> is`,
                 options: [
                     `coordinate`,
                     `electrovalent`,
                     `metallic`,
                     `covalent`,
                 ],
-                image: null,
                 ans: "A",
-                userAnswer: null
+
             }, 
             {
                 id: 48,
@@ -3013,9 +2866,8 @@ let chemistryQuestions = [
                     `hydrogen fluoride`,
                     `hydrogen chloride`,
                 ],
-                image: null,
                 ans: "C",
-                userAnswer: null
+
             }, 
             {
                 id: 49,
@@ -3026,9 +2878,8 @@ let chemistryQuestions = [
                     `3`,
                     `1`,
                 ],
-                image: null,
                 ans: "A",
-                userAnswer: null
+
             }, 
             {
                 id: 50,
@@ -3039,9 +2890,8 @@ let chemistryQuestions = [
                     `ionization`,
                     `electronegativity`,
                 ],
-                image: null,
                 ans: "D",
-                userAnswer: null
+
             }, 
             {
                 id: 51,
@@ -3052,9 +2902,8 @@ let chemistryQuestions = [
                     `covalent`,
                     `dative`,
                 ],
-                image: null,
                 ans: "A",
-                userAnswer: null
+
             }, 
             {
                 id: 52,
@@ -3065,9 +2914,8 @@ let chemistryQuestions = [
                     `${formula("Al", 2, "X", 2)}`,
                     `${formula("Al", 2, "X", 3)}`,
                 ],
-                image: null,
                 ans: "D",
-                userAnswer: null
+
             }, 
             {
                 id: 53,
@@ -3078,9 +2926,8 @@ let chemistryQuestions = [
                     `tetrahedral, linear, and bent`,
                     `linear, bent, and tetrahedral`,
                 ],
-                image: null,
                 ans: "D",
-                userAnswer: null
+
             }, 
             {
                 id: 54,
@@ -3091,9 +2938,8 @@ let chemistryQuestions = [
                     `${formula("SnCl", 2)}`,
                     `${formula("AlCl", 3)}`
                 ],
-                image: null,
-                ans: "D",
-                userAnswer: null
+                ans: "A", // I didn't think properly...
+
             }, 
             {
                 id: 55,
@@ -3104,9 +2950,8 @@ let chemistryQuestions = [
                     `Na and Br`,
                     `N and N`
                 ],
-                image: null,
                 ans: "A",
-                userAnswer: null
+
             }, 
             {
                 id: 56,
@@ -3117,9 +2962,7 @@ let chemistryQuestions = [
                     `10`,
                     `12`
                 ],
-                image: null,
                 ans: "A",
-                userAnswer: null
             }, 
             {
                 id: 57,
@@ -3130,22 +2973,18 @@ let chemistryQuestions = [
                     `van der waals and covalent`,
                     `hydrogen and dative`
                 ],
-                image: null,
                 ans: "A",
-                userAnswer: null
             }, 
             {
                 id: 58,
-                question: `How many bond pairs are present in water molecule?`,
+                question: `How many bond pairs are present in a water molecule?`,
                 options: [
                     `1`,
                     `2`,
                     `3`,
                     `4`,
                 ],
-                image: null,
                 ans: "B",
-                userAnswer: null
             }, 
         ]
     }
