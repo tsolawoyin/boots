@@ -24,13 +24,15 @@ let tableContents = [
         date: "26-01-2024",
         subject: "eng",
         topic: "synonyms",
-        "highest performer": null
+        "highest performer": "Tosin",
+        score: "32.5%"
     },
     {
         date: "26-01-2024",
         subject: "chm",
         topic: "chemical bonding",
-        "highest performer": null
+        "highest performer": "Tosin",
+        score: "90%"
     },
     {
         date: "01-02-2024",

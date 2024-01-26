@@ -1,10 +1,10 @@
 const leaderBoard = [
     {
-        posn: 2,
+        posn: 3,
         name: "Seun",
-        chm: [47.5,92.5], // an object will help me track their progress in each topic
+        chm: [57.5,47.5,92.5], // an object will help me track their progress in each topic
         bio: [0],
-        eng: [0], 
+        eng: [20], 
         calcScore() {
             return this.chm.reduce((a, e ) => a + e) + this.bio.reduce((a,e) => a + e) + this.eng.reduce((a,c) => a + c); // makes sense...
         }
@@ -12,9 +12,9 @@ const leaderBoard = [
     {
         posn: 1,
         name: "Ayodeji",
-        chm: [90, 62.5],
+        chm: [72.5,90, 62.5],
         bio: [0],
-        eng: [0], 
+        eng: [10], 
         calcScore() {
             return this.chm.reduce((a, e ) => a + e) + this.bio.reduce((a,e) => a + e) + this.eng.reduce((a,c) => a + c); // makes sense...
         }
@@ -30,11 +30,11 @@ const leaderBoard = [
         }
     },
     {
-        posn: 3,
+        posn: 2,
         name: "Tosin",
-        chm: [40,67.5],
+        chm: [90,40,67.5],
         bio: [0],
-        eng: [0], 
+        eng: [32.5], 
         calcScore() {
             return this.chm.reduce((a, e ) => a + e) + this.bio.reduce((a,e) => a + e) + this.eng.reduce((a,c) => a + c); // makes sense...
         }
