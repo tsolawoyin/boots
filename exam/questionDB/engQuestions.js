@@ -545,7 +545,7 @@ let englishQuestions = [
             "projects",
             "precludes"
           ],
-          "ans": "A",
+          "ans": "B",
           "main": "defies"
         },
         {
@@ -581,7 +581,7 @@ let englishQuestions = [
             "marshalling",
             "storing"
           ],
-          "ans": "D",
+          "ans": "B",
           "main": "dissipating"
         },
         {
@@ -606,18 +606,18 @@ let englishQuestions = [
             "stability"
           ],
           "ans": "D",
-          "main": "vicissitudes"
+          "main": "vicissitudes" // regular change from one thing to another.... makes sense
         },
         {
           "id": 51,
           "question": "The dancing troupe put up a flawless performance.",
           "options": [
             "an interesting",
-            "an imperfect",
+            "an imperfect", // an imperfect performance...
             "a satisfactory",
             "a careless"
           ],
-          "ans": "D",
+          "ans": "B",
           "main": "flawless"
         },
         {
@@ -630,7 +630,7 @@ let englishQuestions = [
             "incurius",
             "careful"
           ],
-          "ans": "D",
+          "ans": "C",
           "main": "detriment"
         },
         {
@@ -643,7 +643,7 @@ let englishQuestions = [
             "incurius",
             "careful"
           ],
-          "ans": "D",
+          "ans": "A",
           "main": "decorous"
         },
         {
@@ -655,7 +655,7 @@ let englishQuestions = [
             "stretched",
             "tight"
           ],
-          "ans": "D",
+          "ans": "A",
           "main": "taut"
         },
         {
@@ -667,7 +667,7 @@ let englishQuestions = [
             "predictable",
             "impressive"
           ],
-          "ans": "D",
+          "ans": "C",
           "main": "unfathomable"
         },
         {
@@ -679,7 +679,7 @@ let englishQuestions = [
             "long",
             "guided"
           ],
-          "ans": "D",
+          "ans": "A",
           "main": "fleeting"
         },
         {
@@ -691,7 +691,7 @@ let englishQuestions = [
             "a short",
             "an annual"
           ],
-          "ans": "D",
+          "ans": "A",
           "main": "diurnal"
         },
         {
@@ -703,7 +703,7 @@ let englishQuestions = [
             "eradicate",
             "assuage"
           ],
-          "ans": "D",
+          "ans": "B",
           "main": "alleviate"
         },
         {
@@ -715,7 +715,7 @@ let englishQuestions = [
             "loyal",
             "quiet"
           ],
-          "ans": "D",
+          "ans": "C",
           "main": "renegade"
         },
         {
@@ -727,7 +727,7 @@ let englishQuestions = [
             "a horrible",
             "a mortal"
           ],
-          "ans": "D",
+          "ans": "B", // 
           "main": "debilitating"
         },
         {
@@ -739,7 +739,7 @@ let englishQuestions = [
             "implemented",
             "incorporated"
           ],
-          "ans": "D",
+          "ans": "C",
           "main": "rescinded"
         },
         {
@@ -787,7 +787,7 @@ let englishQuestions = [
             "a stable",
             "a hot"
           ],
-          "ans": "D",
+          "ans": "A",
           "main": "sultry"
         },
         {
@@ -799,7 +799,7 @@ let englishQuestions = [
             "a regular",
             "a difficult"
           ],
-          "ans": "D",
+          "ans": "B",
           "main": "arduous"
         },
         {
@@ -1171,7 +1171,7 @@ let englishQuestions = [
             "debilitating",
             "disgusting"
           ],
-          "ans": "D",
+          "ans": "C",
           "main": "invigorating"
         },
         {
@@ -1183,8 +1183,9 @@ let englishQuestions = [
             "dying",
             "unwilling"
           ],
-          "ans": "D",
+          "ans": "A",
           "main": "loath"
+        //   she is basically unwillingly to do the assignment. imagine
         }
       ]
     },
