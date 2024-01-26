@@ -1,0 +1,9 @@
+.error {
+    min-height: 100vh;
+    background-color: red;
+    color: #ffffff;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    display: none;
+}

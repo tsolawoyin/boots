@@ -11,6 +11,8 @@ function endExam() {
         showAnsweredQuestions(seenQuestions); // update the keys depending on the whether the question is right or wrong
         // what else should be done?
         localStorage.setItem(username.value, score) // this is for people who don't want to tell us their answer...
+        
+        localStorage.setItem("started", false); // once exam is over, the started should be set to false...
 
         alert(`Your score is ${score}`)
 
@@ -37,4 +39,5 @@ function setDefaultParams() {
     score = 0;
     //
     submitted = true;
+
 }
