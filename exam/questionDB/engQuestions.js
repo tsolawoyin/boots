@@ -15,7 +15,8 @@ let englishQuestions = [
             "laugh at"
           ],
           "ans": "A",
-          "main": "languish"
+          "main": "languish",
+          'remark': "Languish is a verb that refers to a state of suffering, decline or becoming feeble. It can be used to describe various situations where something or someone experiences a lack of vitality, energy, or progress." ,
         },
         {
           "id": 2,
@@ -23,23 +24,25 @@ let englishQuestions = [
           "options": [
             "specimen",
             "original",
-            "copy",
+            "copy", // <= the answer
             "drawing"
           ],
-          "ans": "D",
-          "main": "prototype"
+          "ans": "C",
+          "main": "prototype",
+          "remark": "prototype refers to the original or earlier version."
         },
         {
           "id": 3,
           "question": "He gave a painstaking account of his encounter with the ghost of his father.",
           "options": [
-            "sordid",
-            "fearful",
-            "half-hearted",
-            "tenderhearted"
+            "sordid", // a
+            "fearful", // b
+            "half-hearted", // c <= the answer
+            "tenderhearted" // d
           ],
-          "ans": "D",
-          "main": "painstaking"
+          "ans": "C",
+          "main": "painstaking",
+          "remark": "<strong>Painstaking</strong> is an adjective that describes a task or process that requires a lot of care, effort, and attention to detail. When something is done painstakingly, it means it is carried out with meticulous care and thoroughness, often involving a great deal of time and effort to ensure precision and accuracy."
         },
         {
           "id": 4,
@@ -48,10 +51,13 @@ let englishQuestions = [
             "concern",
             "uncertainty",
             "serenity",
-            "anxiety"
+            "anxiety" // <= a state of uneasiness or apprehension...
+            // what's the essence of rushing. just take your time and enjoy the ride...
           ],
           "ans": "D",
-          "main": "equanimity"
+          "main": "equanimity",
+          // equanimity => anxiety
+          "remark": "<strong>equanimity</strong> is a noun that refers to a state of mental or emotional stability, calmness, and composure, especially in difficult situations. When someone possesses equanimity, they are able to maintain a balanced and even-tempered mindset, regardless of external circumstances or challenges"
         },
         {
           "id": 5,
@@ -61,9 +67,13 @@ let englishQuestions = [
             "kind and forceful",
             "passive and charmless",
             "charmless and cruel"
+            // i don't think the answer is A strictly speaking. but anyhow sha...
+            // alright, maybe A is a reasonable answer then. It makes sense...
           ],
-          "ans": "D",
-          "main": "passionate and dynamic"
+          "ans": "A",
+          "main": "passionate and dynamic",
+          // under investigation...
+          "remark": `The phrase "passionate and dynamic" is used to describe someone or something that is characterized by intense enthusiasm, strong emotions, and an energetic, active nature.`
         },
         {
           "id": 6,
@@ -71,59 +81,64 @@ let englishQuestions = [
           "options": [
             "fatal",
             "cruel",
-            "harmless",
+            "harmless", // <= the obvious answer is harmless...
             "soft"
           ],
           "ans": "C",
-          "main": "lethal"
+          "main": "lethal",
+          "remark": `The term "lethal" is an adjective used to describe something that has the potential to cause death or be fatal. It is often associated with substances, weapons, conditions, or actions that can result in serious harm or mortality.`
         },
         {
           "id": 7,
           "question": "His intentions was not actually to punish the villagers, and in any case he is now making moves to pacify them.",
           "options": [
-            "placate",
-            "ridicule",
+            "placate", // placate is similar to pacify
+            "ridicule", // ridicule is not that related to pacify
             "appease",
-            "annoy"
+            "annoy" // <= annoy is the best answer here...
           ],
           "ans": "D",
-          "main": "pacify"
+          "main": "pacify",
+          "remark": `"Pacify" is a verb that means to calm, soothe, or bring peace to a situation or to individuals involved in a conflict. When someone pacifies, they are attempting to alleviate tension, reduce aggression, or restore tranquility. This term is often used in the context of resolving disputes, calming unrest, or calming someone who is upset or agitated.`
         },
         {
           "id": 8,
           "question": "If you are really keen on immediate results, you just have to adopt this pragmatic approach.",
           "options": [
             "practical",
-            "unrealistic",
+            "unrealistic", // <= it's clear that unrealistic is the best answer here
             "opportunistic",
             "sensible"
           ],
           "ans": "B",
-          "main": "pragmatic"
+          "main": "pragmatic",
+          "remark": `"Pragmatic" is an adjective that describes a practical, realistic, and sensible approach to solving problems or addressing issues. `
         },
         {
           "id": 9,
           "question": "My friend was reduced to beggary by various ill advised business deals.",
           "options": [
-            "affluence",
+            "affluence", // <= affluence is indeed the opposite
             "penury",
             "influence",
             "poverty"
           ],
           "ans": "A",
-          "main": "beggary"
+          "main": "beggary",
+          "remark": `"Beggary" refers to the state of being a beggar or engaging in the practice of begging, which involves asking for alms or charity, typically in the form of money or food. It can also be used more broadly to describe extreme poverty or destitution.`
         },
         {
           "id": 10,
           "question": "Measures were taken to authenticate the number of the booklets received.",
           "options": [
             "reaffirm",
-            "discredit",
+            "discredit", // <= just the direct opposite... makes sense
             "discountenance",
             "count"
           ],
           "ans": "B",
-          "main": "authenticate"
+          "main": "authenticate",
+          "remark": `"To authenticate" means to confirm or verify the authenticity or legitimacy of something. `
         },
         {
           "id": 11,
@@ -133,22 +148,27 @@ let englishQuestions = [
             "conservatives",
             "pessimists",
             "activists"
-          ],
+          ], // in fact, as used here, other progressives, something more like politics
           "ans": "B",
-          "main": "progressives"
+          "main": "progressives", // the opposite of progressive is conservatives
+          "remark": `the term "progressives" can be used more broadly to describe individuals or ideas that favor progress, innovation, and positive change.`
+          // making sense.
+          // e get as be sha... instead of rushing through it, I can actually study the stuff. I will stop at 20, and continue with the algorithm... 
+          // the algorithm is actually having some issues that I need to fix normally sef...
         },
         {
-            // not yet sure...
           "id": 12,
           "question": "Adama's father simply condoned her bad habits instead of punishing her appropriately.",
           "options": [
             "opposed",
             "blamed",
             "accepted",
-            "forbade"
+            "forbade" // I think forbade should be the answer. forbade is the answer
+            // you know, I don't have to work with many people to get things done in this era. honestly
           ],
-          "ans": "C",
-          "main": "condoned"
+          "ans": "D", // this is not the answer. lol
+          "main": "condoned",
+          "remark": `To "condone" means to overlook, forgive, or accept behavior that is considered morally wrong or offensive without expressing disapproval or taking action to prevent or punish it. When someone condones an action, they essentially tolerate or allow it, even though they may not agree with it or find it acceptable`
         },
         {
           "id": 13,
@@ -156,36 +176,38 @@ let englishQuestions = [
           "options": [
             "aggravate",
             "overlook",
-            "discontinue",
+            "discontinue", // so discontinue is the best answer in this context...
             "encourage"
           ],
           "ans": "C",
-          "main": "perpetuate"
+          "main": "perpetuate",
+          "remark": `"To perpetuate" means to prolong or cause something to continue indefinitely, often with the implication that it is something negative, undesirable, or problematic. When someone or something perpetuates a situation, it means they are contributing to its persistence or continuation over time`
         },
         {
-            // inadvertently????
           "id": 14,
           "question": "Some travellers unwittingly render themselves open prey to questionable character.",
           "options": [
             "genuinely",
             "wholesomely",
-            "knowingly",
-            "inadvertently"
+            "knowingly", // this should be the direct opposite jare...
+            "inadvertently" // inadvertently ko...
           ],
-          "ans": "D",
-          "main": "unwittingly"
+          "ans": "C",
+          "main": "unwittingly",
+          "remark": `'Unwittingly' is an adverb that means without being aware, unintentionally, or unknowingly. If someone does something unwittingly, it implies that they did it without realizing or understanding what they were doing at the time. It often suggests that the person acted without conscious knowledge or awareness of the consequences or implications of their actions.`
         },
         {
           "id": 15,
           "question": "His father is a shrewd businessman.",
           "options": [
-            "gullible",
+            "gullible", // easy to know this is the direct antonym...
             "orderly",
             "reliable",
             "resourceful"
           ],
           "ans": "A",
-          "main": "shrewd"
+          "main": "shrewd",
+          'remark': `'Shrewd' is an adjective that describes someone who is astute, clever, and sharp in practical matters, often with an ability to make sound and judicious decisions. A shrewd person is perceptive, insightful, and adept at understanding situations, often with a keen sense of how to gain an advantage.`,
         },
         {
           "id": 16,
@@ -193,11 +215,12 @@ let englishQuestions = [
           "options": [
             "a fair",
             "an even",
-            "an unjust",
+            "an unjust", // <= so merely reasoning about it, it seems clear that unjust is the answer...
             "an undue"
           ],
           "ans": "C",
-          "main": "equitable"
+          "main": "equitable",
+          "remark": `'Equitable' is an adjective that describes something that is fair, just, and characterized by a sense of impartiality and equality. When a situation, distribution, or treatment is considered equitable, it means that it is reasonable, unbiased, and ensures that everyone is treated fairly without favoritism or discrimination.`
         },
         {
           "id": 17,
@@ -209,31 +232,35 @@ let englishQuestions = [
             "charm"
           ],
           "ans": "C",
-          "main": "exorcise"
+          "main": "exorcise",
+          "remark": `'Exorcism' refers to the religious or spiritual practice of evicting or driving out supposed evil spirits, demons, or other supernatural entities from a person, place, or object.`
         },
         {
           "id": 18,
           "question": "He mumbled a few words at the trial and then cried.",
           "options": [
-            "shouted",
+            "shouted", // makes sense... everything is dope and nice
             "murmured",
             "charm",
             "invite"
           ],
           "ans": "A",
-          "main": "mumbled"
+          "main": "mumbled",
+          "remark": `'Mumbled' is a verb that refers to the act of speaking in a low, unclear, or indistinct manner, often making it difficult for others to understand the words being spoken.`
+          // two things is likely to occur with the issue of MF and F. 1. MF will come up with her once in a while attitudes and F won't be able to tolerate it, or vice versa. Just one event and everything will go bust... // one is enough...
         },
         {
           "id": 19,
           "question": "There are many areas of convergence between male and female behaviour.",
           "options": [
-            "concomitance",
+            "concomitance", // => concomitance emphasizes the idea of things happening in conjunction or concurrently.
             "concordance",
             "incompatibility",
             "incomparatibility"
           ],
-          "ans": "c",
-          "main": "convergence"
+          "ans": "C",
+          "main": "convergence",
+          "remark": `"Convergence" generally refers to the process of coming together or meeting at a common point. `
         },
         {
           "id": 20,
@@ -245,7 +272,8 @@ let englishQuestions = [
             "ameliorate"
           ],
           "ans": "A",
-          "main": "abate"
+          "main": "abate",
+          "remark": `"Abate" is a verb that means to reduce in intensity, degree, or amount; to diminish or lessen. When something abates, it becomes less severe, intense, or active. It can be used in various contexts, including weather, legal matters, or emotions.`
         },
         {
           "id": 21,
