@@ -9,60 +9,70 @@ let biologyQuestions = [
                 question: "Which of the following is characteristic of the animal cell?",
                 options: ["presence of chloroplasts", "Possession of a cellulose cell wall", "Absence of large vacuoles", "Presence of large vacuoles", "Presence of chromosomes"],
                 ans: C,
+                remark: "Animal and plant cells have vacoules but the vacoule of animal cells are is small, unlike the vacoules of plant cells which is large." 
             },
             {
                 id:2,
                 question: "The vacuole of a plant cell is:",
                 options: ["A large empty space", "Smaller than that of an animal cell", "Filled with air", "An ordinary vacuum", "Surrounded by a membrane"],
                 ans: E,
+                remark: "The vacoule of a plant cell is surrounded by a membrane called <strong>Tonoplast</strong>"
             },
             {
                 id:3,
                 question: "The part of the cell solely responsible for respiration is the:",
                 options: ["Nucleus", "Nucleolus", "Mitochondria", "Golgi apparatus", "Endoplasmic reticulum"],
                 ans: C,
+                remark: "Mitochodria is the power house of the cell which is responsible for respiration => the breakdown of glucose to give energy in form of ATP"
             },
             {
                 id:4,
                 question: "Which of these combinations is common to plant and animal cells?",
                 options: ["Centriole, middle lamella, Golgi bodies, mitochondrion", "Cytoplasm, sap vacuole, starch grains, leucoplasts", "Plasma membranes, chromosome, mitochondria, lysosomes", "Nucleus, nucleolus, cellulose cell wall, endoplasmic reticulum", "Cytoplasm, centriole, cell wall, nucleolus"],
                 ans: C,
+                remark: "Only animal cells possess centriole, and only plant cells possess chloroplast, sap vacoule, and cell wall."
             },
             {
                 id:5,
                 question: "Where is energy produced in a cell?",
                 options: ["Nucleus", "Nucleolus", "Lysosomes", "Chloroplast", "Mitochondria"],
                 ans: E,
+                remark: "mitochondria is always associated with energy production"
             },
             {
                 id:6,
                 question: "Which of the following cell constituents is NOT common to both plants and animals?",
                 options: ["Mitochondria", "Chloroplasts", "Ribosomes", "Golgi apparatus", "Vacuoles"],
                 ans: B,
+                remark: "Only plant cells contains chloroplasts. Animal cells cannot photosynthesize."
             },
             {
                 id:7,
                 question: "The function of endoplasmic reticulum is:",
                 options: ["Protein synthesis", "Intracellular transport of materials", "Digestion and destruction of foreign bodies", "Production of energy from glucose"],
                 ans: B,
+                // remark: ""
             },
             {
                 id:8,
                 question: "The oxidative part of the respiration process takes place in the:",
                 options: ["Mitochondria", "Ribosomes", "endoplasmic reticulum", "Golgi bodies"],
                 ans: A,
+                remark: "the oxidaive part of respiration takes place in the mitochondrion"
             },
             {
                 id:9,
                 question: "The function of ribosomes in cells is:",
                 options: ["Protein synthesis", "Starch synthesis", "Transport of materials", "Lipid storage"],
                 ans: A,
+                remark: "ribosomes, dispersed in the cytoplasm of the cell, helps synthesize proteins. In another word, they are protein-manufacturing engines."
             },
             {
                 id:10,
                 question: "Which of the following structures is common to Euglena, white blood cell, and Amoeba?",
                 options: ["Vacuole", "Cell wall", "Cilla", "Cell membrane"],
                 ans: D,
+                remark: "All have cell membrane."
             },
             // this is an image problem
             // {
@@ -76,30 +86,35 @@ let biologyQuestions = [
                 question: "The organelle involved in tissue respiration is the:",
                 options: ["Endoplasmic reticulum", "Ribosome", "Golgi body", "Mitochondrion"],
                 ans: D,
+                remark: "respiration always involve mitochondria"
             },
             {
                 id:13,
                 question: "Which of the following organelles are likely to be present in cells that are actively respiring and photosynthesizing?",
                 options: ["Mitochondria and chloroplast", "Lysosomes and ribosomes", "Nucleolus and centrioles", "Golgi apparatus and endoplasmic reticulum"],
                 ans: A,
+                remark: "respiring => mitochondria, photosynthesizing => chloroplast"
             },
             {
                 id:14,
                 question: "The membrane surrounding the vacuole in a plant cell is called the:",
                 options: ["Plasmalemma", "Tonoplast", "Nuclear membrane", "Endoplasmic reticulum"],
                 ans: B,
+                remark: "tonoplast"
             },
             {
                 id:15,
                 question: "The nucleus is considered the control organelle of a cell because it:",
                 options: ["Contains the genetic material", "Contains the nuclear sap", "Is bounded by the nuclear membrane", "Is located at the centre of the cell "],
                 ans: A,
+                remark: "the DNA is the blueprint of the future of an organism. DNA is transcribed into mRNA, which goes to ribosome to make proteins, and proteins (enzymes) directs and speed up biological activities. And note, the DNA is found in the nucleus."
             },
             {
                 id:16,
                 question: "The structure that is most commonly identified in all living cells under the light microscope is the:",
                 options: ["Mitochondrion", "Chloropplast", "Nucleus", "Ribosome"],
                 ans: C,
+                remark: "the nucleus is quite conspicuous"
             },
             // TO ASK CHATGPT
             {
@@ -107,6 +122,7 @@ let biologyQuestions = [
                 question: "In plant cells, the chloroplasts are located:",
                 options: ["Inside the cell wall", "Outside the protoplasm", "Within the vacuole", "Within the cytoplasm"],
                 ans: D,
+                remark: "chloroplasts reside in the cytoplasm of a cell."
             },
             {
                 id:18,
@@ -203,30 +219,35 @@ let biologyQuestions = [
                 question: "The part of the cell where respiration occurs is the:",
                 options: ["Mitochondria", "Ribsome", "Gogi body", "Lysosome"],
                 ans: A,
+                remark: "mito..."
             }, 
             {
                 id:33,
                 question: "One of the following contains digestive enzymes in the cell:",
                 options: ["Endoplasmic reticulum", "Nucleus", "Lysosome", "Centrosome"],
                 ans: C,
+                remark: "The lysosome is the organelle that helps destroy enemies in the cell. It kill by digesting them with its digestive enzyme."
             }, 
             {
                 id:34,
                 question: "One of the basic differences between a plant and animal cell is?",
-                options: ["Possession of chloroplast in plant, none in animal cell", "Presence of nuclear membrane in animal cell only", "Presence of cell wall in plant, none in animal cell", "Possession of nuclear membrane in plant cell only"],
+                options: ["Possession of chloroplast in plant, none in animal cell", "Presence of nuclear membrane in animal cell only", "Presence of cell wall in animal, none in plant", "Possession of nuclear membrane in plant cell only"],
                 ans: A,
+                remark: "Chloroplast only exists in plant cell. Can you photosynthesize?"
             }, 
             {
                 id:35,
                 question: "The organelle decribed as the powerhouse of the cell is the:",
                 options: ["Mitochondria", "Golgi body", "Vacuole", "Nucleolus"],
                 ans: A,
+                remark: "the mitochondria is the power house of the cell. It is the location where energy is produced."
             }, 
             {
                 id:36,
                 question: "The importance of cellular respiration is to:",
                 options: ["Produce NADH", "Eliminate carbon (IV) Oxide", "Produce ATP", "Eliminate glucose"],
                 ans: C,
+                remark: "produce atp(energy)"
             }, 
             // red blood cells don't have nucleus
             {
@@ -234,6 +255,7 @@ let biologyQuestions = [
                 question: "Which of the following doesn't have a nucleus?",
                 options: ["Leukocyte", "Erythrocytes", "Plasma", "Platelet"],
                 ans: B,
+                remark: "a mature red blood cell(a.k.a. erythrocyte) lacks a nucleus"
             }, 
 
         ]

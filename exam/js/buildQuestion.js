@@ -31,10 +31,10 @@ let sampleQuestion3 = {
 
 // Question -> build question
 function buildQuestion (question) {
-    return `<p class="question-text">${question.id}. ${question.question}</p>${generateOptions(question.id, question.options, question.userAnswer)}`
+    return `<p class="question-text">${question.id}. ${question.question}</p>${generateOptions(question.id, question.options, question.userAnswer, question.remark)}`
 }
 
-function generateOptions(id, options, answer) {
+function generateOptions(id, options, answer, remark) {
     // GENERATING OPTIONS
     let optionVal = {
         0: "A", 1: "B", 2: "C", 3: "D", 4: "E"
@@ -50,6 +50,12 @@ function generateOptions(id, options, answer) {
             structure += `<input type="radio" name="Q${id}" id="q${id}${optionVal[i]}" value="${optionVal[i]}">
             <label for="q${id}${optionVal[i]}" class="answers"> ${options[i]}</label><br />`
         }
+    }
+
+    // adding remark if there is one before leaving
+    // I thought it would be a big deal honestly...
+    if (answer && remark) {
+        structure += `<p class="remark">${remark}</p>`
     }
 
     structure += "</div>"
