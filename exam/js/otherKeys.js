@@ -2,9 +2,12 @@
 // imagine how easy the code is when you have the right plans. makes sense
 // this event listener has already simplified the job of the keys
 
-keys.addEventListener("keydown", e => {
+examInterface.addEventListener("keydown", e => {
     if (e.key == "ArrowLeft") toggle("prev");
+    if (e.key == "p") toggle("prev");
     if (e.key == "ArrowRight") toggle("next");
+    if (e.key == "n") toggle("next");
+
 })
 
 keys.addEventListener("click", e => {

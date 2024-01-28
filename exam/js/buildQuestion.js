@@ -55,7 +55,7 @@ function generateOptions(id, options, answer, remark) {
     // adding remark if there is one before leaving
     // I thought it would be a big deal honestly...
     if (answer && remark) {
-        structure += `<p class="remark">${remark}</p>`
+        structure += `<div class="remark">${remark}</div>`
     }
 
     structure += "</div>"

@@ -2,11 +2,6 @@
 const tableContentsEl = document.querySelector("table-of-contents");
 const tbodyEl = document.querySelector("#tbody")
 
-
-
-// simple function that will help to append stuff
-// structure of content is 
-
 makeTable(tableContents, tbodyEl);
 
 // let i = [
@@ -50,4 +45,5 @@ function makeTable(contents, el) {
     return "done"
 }
 // makeTable(i, tbodyEl)
+// I will have to rewrite this code someday, it will be fun rewriting it more cleanly...
 

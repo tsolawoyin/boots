@@ -281,23 +281,25 @@ let englishQuestions = [
           "options": [
             "corrected",
             "restored",
-            "aggravated",
+            "aggravated",// <= aggravated is the only opposite here...
             "addressed"
           ],
           "ans": "C",
-          "main": "redressed"
+          "main": "redressed",
+          "remark": `<p>The term "redress" can have a few different meanings depending on the context. Here are the primary meanings:</p><ol><li><strong>Compensation or Remedy:</strong> Redress can refer to the act of correcting or remedying a situation that is considered unfair or unjust. It often involves providing compensation or some form of remedy to address a grievance or wrong that has been done. For example, seeking redress in a legal context may involve obtaining compensation for damages or addressing an injustice through legal means.</li><li><strong>Correction or Adjustment:</strong> Redress can also mean the correction or adjustment of something that is wrong or unfair. This can apply to various situations, not just legal matters. For instance, a company might redress a customer complaint by providing a refund or a replacement for a faulty product.</li><li><strong>Relief or Alleviation:</strong> In a broader sense, redress can mean relief or alleviation from a burden, difficulty, or suffering. For example, a policy change might be implemented to redress economic inequalities or social injustices.</li></ol>`
         },
         {
           "id": 22,
           "question": "Uche could not travel last December because of the severity of the harmattan.",
           "options": [
             "cold",
-            "mildness",
+            "mildness", // the opposite of severe is mild...
             "warmth",
             "moderation"
           ],
           "ans": "B",
-          "main": "severity"
+          "main": "severity",
+          "remark": `The term "severity" refers to the degree or extent of something being severe, harsh, intense, or serious. It is commonly used to describe the level of seriousness or harshness of a situation, condition, event, or action.`
         },
         {
           "id": 23,
@@ -306,22 +308,26 @@ let englishQuestions = [
             "modest",
             "happy",
             "angry",
-            "moderation"
+            "moderation" // this life is not balance... lolzzz. honestly, everything is just funny one kind
           ],
           "ans": "A",
-          "main": "provocative"
+          "main": "provocative",
+          "remark": `The term "provocative" is an adjective that describes something that stimulates, incites, or arouses strong reactions, emotions, thoughts, or interest, often intentionally. A provocative statement, action, or piece of art is designed to provoke a response, whether it be emotional, intellectual, or social. `
+          // mildness as it defined is the best answer. but moderation seems reasonable too. but modest is more general so I go for modest...
         },
         {
           "id": 24,
           "question": "Akoso thought that her father was very callous.",
           "options": [
             "indifferent",
-            "compassionate",
+            "compassionate", // the three other options buttress callous, except compassionate...
             "wicked",
             "careless"
           ],
           "ans": "B",
-          "main": "callous"
+          "main": "callous",
+          "remark": `<p>The term "callous" is an adjective that describes a person or their behavior as emotionally insensitive, unfeeling, or indifferent to the suffering or feelings of others. A callous individual may display a lack of empathy or sympathy, showing little concern for the impact of their actions on others. Here are some key characteristics associated with the term:</p>
+          <ol><li><strong>Lack of Empathy:</strong> Callousness often involves a lack of empathy, where a person is indifferent to the emotions or hardships of others. They may not easily understand or share in the feelings of those around them.</li><li><strong>Insensitive:</strong> Callous individuals may be insensitive to the needs, feelings, or pain of others. They may exhibit a disregard for the emotional well-being of others and may seem unconcerned about causing distress.</li><li><strong>Unfeeling or Hard-hearted:</strong> Someone described as callous may appear unfeeling or hard-hearted, showing little emotional responsiveness to situations that typically elicit compassion or concern.</li><li><strong>Indifferent to Others' Suffering:</strong> Callous behavior often involves a lack of concern for the suffering or difficulties experienced by others. This indifference may manifest in actions that disregard the feelings or needs of those who are vulnerable or in distress.</li></ol>`
         },
         {
           "id": 25,
@@ -329,11 +335,13 @@ let englishQuestions = [
           "options": [
             "a powerful",
             "a prominent",
-            "a weak",
+            "a weak", // => having this meaning down, you can easily see that weak is the direct opposite
             "a cowardly"
           ],
           "ans": "C",
-          "main": "indomitable"
+          "main": "indomitable",
+          "remark": `<p>The term "indomitable" is an adjective used to describe a person, spirit, or quality that cannot be subdued, overcome, or conquered. It conveys a sense of invincibility, resilience, and unbeatable strength. When applied to a person or their spirit, it suggests an unwavering determination, courage, and tenacity in the face of challenges or adversity.</p><p>For example, if someone is described as having an indomitable spirit, it means that they possess a relentless and unyielding attitude that allows them to persevere and overcome obstacles, no matter how difficult or daunting. Similarly, an indomitable will or resolve implies a steadfast and unbreakable determination to achieve one's goals despite challenges or setbacks.</p>`
+          // i am indomitable...
         },
         {
           "id": 26,
@@ -341,11 +349,12 @@ let englishQuestions = [
           "options": [
             "repulsive",
             "difficult",
-            "attractive",
+            "attractive", // 
             "charming"
           ],
-          "ans": "D",
-          "main": "odious"
+          "ans": "C", // C is more appropriate in this context...
+          "main": "odious",
+          "remark": `The term <strong>odious</strong> is an adjective used to describe something that is extremely unpleasant, repulsive, or offensive. When applied to a person, action, or thing, it suggests strong disapproval or disgust. Odiousness implies qualities that are highly objectionable or morally repugnant, making the subject deserving of intense criticism or aversion.`
         },
         {
             // let's make research on this one...
@@ -357,20 +366,23 @@ let englishQuestions = [
             "displeasure",
             "sympathy"
           ],
-          "ans": "D",
-          "main": "wrath"
+          "ans": "B",
+          "main": "wrath",
+          "remark": `<strong>Wrath</strong> refers to intense and extreme anger, often accompanied by a desire for vengeance or punishment. It is a strong and powerful emotion characterized by feelings of intense displeasure and the desire to retaliate against someone or something perceived as having wronged or offended.`
         },
         {
           "id": 28,
           "question": "It was an inopportune moment for you to make that suggestion.",
           "options": [
-            "an ideal",
+            "an ideal", // ideal mean perfect, shey you get... like perfect timing, something like that...
             "a wrong",
             "an exact",
             "a sad"
           ],
           "ans": "A",
-          "main": "inopportune"
+          "main": "inopportune",
+          "remark": `The term <strong>inopportune<strong> is an adjective that describes something as poorly timed, inconvenient, or happening at an inappropriate moment. It is used to convey that an event, action, or circumstance occurs at a time that is not favorable or suitable, often causing difficulties or inconvenience.`
+          // normally I can take the main word and repackage it normally. anyhow joh...
         },
         {
           "id": 29,
@@ -379,10 +391,11 @@ let englishQuestions = [
             "unimportant",
             "superficial",
             "minor",
-            "main"
+            "main" // main is the direct opposite here... antonym means direct opposite of something...
           ],
           "ans": "D",
-          "main": "peripheral"
+          "main": "peripheral",
+          "remark": `In a more figurative sense, "peripheral" can describe something that is secondary, less important, or tangential to the main focus or central aspects of a situation. For instance, in a discussion, peripheral details may be less crucial or relevant to the main topic.`
         },
         {
           "id": 30,
@@ -390,23 +403,26 @@ let englishQuestions = [
           "options": [
             "a weakening",
             "an energy sapping",
-            "an invigorating",
+            "an invigorating", // <= clearly invigorating is the answer...
             "a sluggish"
           ],
           "ans": "C",
-          "main": "enervating"
+          "main": "enervating",
+          "remark": `The term "enervating" is an adjective used to describe something that causes a feeling of physical or mental exhaustion, fatigue, or weakness. When an experience, situation, or activity is described as enervating, it means that it drains energy, vitality, or strength, leaving one feeling depleted or weakened.`
         },
         {
           "id": 31,
           "question": "Once he has decided that something needs doing, my brother is very unswerving of purpose.",
           "options": [
-            "erratic",
+            "erratic", // <= erratic means anyhow movement... lolzzz...
             "tenacious",
             "stubborn",
             "simple"
           ],
           "ans": "A",
-          "main": "unswerving"
+          "main": "unswerving",
+          "remark": `The term "unswerving" is an adjective used to describe something that is constant, unwavering, or steadfast in its course or purpose. It implies a consistent and resolute commitment to a particular direction, belief, or goal without deviation or veering off course.`
+          // remark => <= => <= => // makes sense...
         },
         {
           "id": 32,
@@ -415,10 +431,11 @@ let englishQuestions = [
             "argument",
             "excuse",
             "misconception",
-            "truth"
+            "truth" // fallacy is false truth
           ],
           "ans": "D",
-          "main": "fallacy"
+          "main": "fallacy",
+          "remark": `A fallacy is a mistaken belief, faulty argument, or misleading reasoning that is often used to deceive or persuade others. Fallacies may appear to be logical, but they are flawed or misleading in some way.`
         },
         {
           "id": 33,
@@ -430,7 +447,10 @@ let englishQuestions = [
             "unresponsive"
           ],
           "ans": "B",
-          "main": "immune"
+          "main": "immune",
+          "remark": `In a more general sense, "immune" can mean being protected or exempt from something. For example, if someone is said to be immune to criticism, it means they are unaffected or not bothered by it. In this context, it denotes a state of being resistant or impervious.`,
+          // being talked about indicate some sign of importance... and I love my tagname, the laptop boy...
+          // always seen with a laptop. because laptop is my strength, my joy, my heart, my energy, no laptop is arguably no life...
         },
         {
           "id": 34,
@@ -442,19 +462,22 @@ let englishQuestions = [
             "upheaval"
           ],
           "ans": "B",
-          "main": "renaissance"
+          "main": "renaissance",
+          "remark": `In a more general sense, "renaissance" can refer to any revival or rebirth of interest, activity, or growth in a particular field or area`
+          // decline is the best answer here anyways...
         },
         {
           "id": 35,
           "question": "If we must live together as one people, we must learn to tolerate disparate dispositions.",
           "options": [
-            "converging",
+            "converging",  // disparate means diverging, thus converging is the best answer here...
             "accomodating",
             "conflicting",
             "opposing"
           ],
           "ans": "A",
-          "main": "disparate"
+          "main": "disparate",
+          "remark": `"disparate" is an adjective that describes things that are fundamentally different, unequal, or dissimilar in nature. When items, ideas, or entities are referred to as disparate, it means they lack a commonality or similarity and are often characterized by distinct or divergent qualities.`
         },
         {
           "id": 36,
@@ -464,21 +487,24 @@ let englishQuestions = [
             "turmoil",
             "success",
             "conflagration"
+            // A "conflagration" refers to an extensive and destructive fire that often involves a large area or multiple structures. The term is commonly used to describe a massive and uncontrolled blaze that spreads rapidly, causing widespread damage, destruction, and often posing a serious threat to life and property.
           ],
           "ans": "C",
-          "main": "catastrophe"
+          "main": "catastrophe",
+          "remark": `A "catastrophe" refers to a sudden and widespread disaster or an event causing significant and often widespread damage, upheaval, or suffering. It is a term used to describe a calamitous and disastrous occurrence that has severe and far-reaching consequences.`
         },
         {
           "id": 37,
           "question": "The officer asked for a more temperate assessment of the matter.",
           "options": [
-            "extreme",
+            "extreme", // extreme fits in perfectly here... honestly...
             "moderate",
             "radical",
             "human"
           ],
           "ans": "A",
-          "main": "temperate"
+          "main": "temperate",
+          "remark": `In a more general sense, "temperate" can describe a person's behavior, attitude, or demeanor. When used in this context, it means someone who shows moderation, self-control, and a balanced approach. A temperate individual is not excessively emotional, impulsive, or extreme in their actions; they exhibit restraint and moderation.`
         },
         {
           "id": 38,
@@ -490,7 +516,8 @@ let englishQuestions = [
             "unsolicited"
           ],
           "ans": "A",
-          "main": "invaluable"
+          "main": "invaluable", // this is one of the words that is tricky...
+          "remark": `The term "invaluable" is an adjective used to describe something that is of such great worth or importance that it cannot be measured or assessed. In other words, if something is invaluable, it is extremely valuable, and its worth is beyond calculation or estimation.`
         },
         {
           "id": 39,
@@ -502,7 +529,8 @@ let englishQuestions = [
             "troublesome"
           ],
           "ans": "B",
-          "main": "bellicose"
+          "main": "bellicose", // // .... ... . . . . .. . ... . .... .... . . . . ... .. . ..
+          "remark": `The term "bellicose" is an adjective used to describe a person, attitude, or demeanor that is characterized by a willingness to fight, engage in aggressive behavior, or demonstrate a hostile and warlike nature. A bellicose individual or stance is often associated with a readiness for conflict, confrontation, or aggression.`
         },
         {
           "id": 40,
@@ -510,46 +538,51 @@ let englishQuestions = [
           "options": [
             "nonchalance",
             "willingness",
-            "inconsistency"
+            "inconsistency",
+            "interest"
           ],
-          "ans": "B",
-          "main": "indifference"
+          "ans": "D",
+          "main": "indifference",
+          "remark": `"Indifference" is a noun that refers to a lack of interest, concern, or sympathy toward something or someone. It describes a state of apathy or disinterest, where an individual or group shows little or no emotional or intellectual involvement in a particular matter. Indifference can manifest as a lack of caring, attention, or responsiveness.`
         },
         {
           "id": 41,
           "question": "My brother married a loquacious woman",
           "options": [
-            "quiet",
+            "quiet", // quiet is the best answer here... someone who doesn't talk too much
             "noisy",
             "talkative",
             "beautiful"
           ],
           "ans": "A",
-          "main": "loquacious"
+          "main": "loquacious",
+          "remark": `The term "loquacious" is an adjective used to describe a person who is very talkative or chatty. A loquacious individual tends to talk at length and may be inclined to engage in conversations with others frequently.`
         },
         {
           "id": 42,
           "question": "Most warring countries end up in a state of satiation.",
           "options": [
-            "hunger",
+            "hunger", // <= hunger is the answer here
             "thirst",
             "danger",
             "famine"
           ],
           "ans": "A",
-          "main": "satiation"
+          "main": "satiation",
+          'remark': `"Satiation" refers to the state of being fully satisfied or completely filled, often in the context of appetite, desire, or need. It signifies a point at which a person or thing has had enough or has reached a state of complete fulfillment.`
         },
         {
           "id": 43,
           "question": "Abdul is fond of his teacher though he sometimes makes derogatory remarks about him.",
           "options": [
             "unpleasant",
-            "complimentary",
+            "complimentary", // <= this is the answer obviously... no cap
             "expressive",
             "inconsiderate"
           ],
           "ans": "B",
-          "main": "derogatory"
+          "main": "derogatory",
+          "remark": `"Derogatory" is an adjective used to describe statements, remarks, or expressions that are intended to belittle, disparage, or show a lack of respect for someone or something. Derogatory language or actions often express a low opinion, disrespect, or disdain, and they may be offensive or insulting.`
         },
         {
           "id": 44,
@@ -557,11 +590,12 @@ let englishQuestions = [
           "options": [
             "criminal",
             "ignorant",
-            "honorable",
+            "honorable", // without much stress, this is the answer
             "selfish"
           ],
           "ans": "C",
-          "main": "ignoble"
+          "main": "ignoble",
+          "remark": `"Ignoble" is an adjective that describes something lacking in moral principles, character, or dignity. It suggests behavior, actions, or qualities that are dishonorable, base, or unworthy of respect. `
         },
         {
             // a seems to make sense
@@ -569,12 +603,13 @@ let englishQuestions = [
           "question": "His cruelty to his mother defies logical explanation.",
           "options": [
             "demands",
-            "offers",
+            "offers", // <= offers is just a partial answer
             "projects",
             "precludes"
           ],
           "ans": "B",
-          "main": "defies"
+          "main": "defies",
+          "remark": `The term "defies" is a verb that means to resist or refuse to obey or accept something. When someone or something defies a rule, expectation, authority, or norm, it means they go against it or refuse to conform.`
         },
         {
           "id": 46,
@@ -583,10 +618,11 @@ let englishQuestions = [
             "convincing",
             "surprising",
             "unwary",
-            "unusual"
+            "unusual" // as aspected, unusual is the answer...
           ],
           "ans": "D",
-          "main": "accustomed"
+          "main": "accustomed",
+          "remark":`"Accustomed" is an adjective that describes being familiar with something, having become used to or habituated to a particular situation, practice, or condition. When someone is accustomed to something, it means they are familiar with it due to repeated exposure, and it has become a regular or expected part of their experience.`
         },
         {
           "id": 47,
@@ -595,34 +631,38 @@ let englishQuestions = [
             "condone",
             "isolate",
             "punish",
-            "strengthen"
+            "strengthen" // <= emasculate means weaken and opposite of weaken is strengthen
           ],
           "ans": "D",
-          "main": "emasculate"
+          "main": "emasculate",
+          "remark": `<p>The term "emasculate" has a literal and a figurative meaning:</p>
+          <ul><li><strong>Literal meaning:</strong> In a literal sense, "emasculate" is a verb that means to deprive a male of his male qualities, particularly by removing the testicles. In the context of animals, this process is often referred to as "castration."</li><li><strong>Figurative meaning:</strong> In a figurative or metaphorical sense, "emasculate" is used to describe the act of depriving someone or something of its strength, vigor, or effectiveness. It implies weakening or rendering something less potent, often in the context of reducing masculinity or strength.</li></ul>`
         },
         {
           "id": 48,
           "question": "There is no point dissipating energy on a useless argument",
           "options": [
             "destroying",
-            "conserving",
+            "conserving", // opposite is <= this...
             "marshalling",
             "storing"
           ],
           "ans": "B",
-          "main": "dissipating"
+          "main": "dissipating",
+          "remark": `Dissipating generally means to scatter, disperse, or gradually vanish over time. The term is often used in various contexts to describe the gradual disappearance or spreading out of something, such as energy, resources, or a cloud.`
         },
         {
           "id": 49,
           "question": "Everyone, including the Principal, believed that he was a very assiduous student.",
           "options": [
             "assertive",
-            "industrious",
+            "industrious", // 
             "aggressive",
-            "casual"
+            "casual" // <= casual... makes sense...
           ],
           "ans": "D",
-          "main": "assiduous"
+          "main": "assiduous",
+          "remark": `"Assiduous" is an adjective used to describe someone who is diligent, persistent, and hardworking in their efforts or tasks. An assiduous person is characterized by careful and constant attention to a particular work or duty, showing a dedicated and industrious approach.`
         },
         {
           "id": 50,
@@ -631,22 +671,24 @@ let englishQuestions = [
             "amazement",
             "sweetness",
             "amiability",
-            "stability"
+            "stability" // <= stability.
           ],
           "ans": "D",
-          "main": "vicissitudes" // regular change from one thing to another.... makes sense
+          "main": "vicissitudes", // regular change from one thing to another.... makes sense
+          "remark": `Vicissitudes refers to the unpredictable changes, fluctuations, or variations that occur as part of the natural course of life or a situation.`
         },
         {
           "id": 51,
           "question": "The dancing troupe put up a flawless performance.",
           "options": [
             "an interesting",
-            "an imperfect", // an imperfect performance...
+            "an imperfect", // an imperfect performance... <= ghfvvmmcmcmcmcmc
             "a satisfactory",
             "a careless"
           ],
           "ans": "B",
-          "main": "flawless"
+          "main": "flawless",
+          "remark": `"Flawless" is an adjective used to describe something that is without any imperfections, defects, or shortcomings. When something is flawless, it is characterized by perfection, precision, and a complete absence of errors or flaws.`
         },
         {
           "id": 52,
@@ -654,25 +696,26 @@ let englishQuestions = [
           "options": [
             "damage",
             "disfavor",
-            "advantage",
+            "advantage", //
             "incurius",
             "careful"
           ],
           "ans": "C",
-          "main": "detriment"
+          "main": "detriment",
+          "remark": `"Detriment" is a noun that refers to the state of being harmed, damaged, or having a negative impact on something or someone. It denotes a disadvantage, harm, or loss that results from a particular action, situation, or condition.`
         },
         {
           "id": 53,
           "question": "Common sense requires that one should be decorous at formal gatherings",
           "options": [
-            "damage",
-            "disfavor",
-            "advantage",
-            "incurius",
+            "courteous",
+            "impolite",
+            "incurious",
             "careful"
           ],
-          "ans": "A",
-          "main": "decorous"
+          "ans": "B",
+          "main": "decorous",
+          "remark": `"Decorous" is an adjective used to describe behavior, conduct, or appearance that is characterized by good taste, propriety, and respect for social norms. When someone or something is described as decorous, it means they exhibit proper manners, respect, and conformity to accepted standards of behavior.`
         },
         {
           "id": 54,
@@ -684,7 +727,8 @@ let englishQuestions = [
             "tight"
           ],
           "ans": "A",
-          "main": "taut"
+          "main": "taut",
+          "remark": `"Taut" is an adjective that describes something pulled or stretched tight, without any slack or looseness.`
         },
         {
           "id": 55,
@@ -692,11 +736,12 @@ let englishQuestions = [
           "options": [
             "invigorating",
             "irresistible",
-            "predictable",
+            "predictable", // unfathomable means something that is not comprehensible let alone predictable...
             "impressive"
           ],
           "ans": "C",
-          "main": "unfathomable"
+          "main": "unfathomable",
+          "remark": `The term "unfathomable" is an adjective used to describe something that is difficult or impossible to understand, measure, or comprehend fully. It suggests a depth or complexity that exceeds the limits of human comprehension, making it seemingly impossible to fathom or grasp completely.`
         },
         {
           "id": 56,
@@ -704,23 +749,25 @@ let englishQuestions = [
           "options": [
             "routine",
             "brief",
-            "long",
+            "long", // fleeting is something like short,
             "guided"
           ],
-          "ans": "A",
-          "main": "fleeting"
+          "ans": "C",
+          "main": "fleeting",
+          "remark": `"Fleeting" is an adjective that describes something that is brief, transitory, or lasting for only a short duration. It implies a sense of quickness or impermanence, suggesting that the thing in question does not endure for an extended period.`
         },
         {
           "id": 57,
           "question": "We intend to make the reception a diurnal event.",
           "options": [
-            "nightly",
+            "nocturnal",
             "a weekly",
             "a short",
             "an annual"
           ],
           "ans": "A",
-          "main": "diurnal"
+          "main": "diurnal", // diurnal means morning
+          "remark": `"Diurnal" is an adjective that refers to events or phenomena that occur during the day or are active during daylight hours. It is often used to describe things that have a daily cycle or are related to the daytime.`
         },
         {
           "id": 58,
@@ -731,8 +778,9 @@ let englishQuestions = [
             "eradicate",
             "assuage"
           ],
-          "ans": "B",
-          "main": "alleviate"
+          "ans": "B", // <= exacerbate... makes sense
+          "main": "alleviate",
+          "remark": `"Alleviate" is a verb that means to make a situation or a symptom less severe or more bearable. It involves lessening or mitigating the intensity, severity, or discomfort of something.`
         },
         {
           "id": 59,
@@ -740,23 +788,25 @@ let englishQuestions = [
           "options": [
             "militant",
             "corrupt",
-            "loyal",
+            "loyal", // loyal is the best antonym here
             "quiet"
           ],
           "ans": "C",
-          "main": "renegade"
+          "main": "renegade",
+          "remark": `A "renegade" is a noun that refers to a person who has rejected or defied established conventions, authorities, or traditional beliefs, often by engaging in behavior that goes against accepted norms or expectations. The term is often associated with someone who rebels against or abandons a particular cause, group, or system.`
         },
         {
           "id": 60,
           "question": "Hypertension is a debilitating disease that everyone should prevent.",
           "options": [
             "an enervating",
-            "an energizing",
+            "an energizing", // obviously, <= energizing is the answer
             "a horrible",
             "a mortal"
           ],
           "ans": "B", // 
-          "main": "debilitating"
+          "main": "debilitating",
+          "remark": `"Debilitate" is a verb that means to weaken or impair the strength, effectiveness, or vitality of someone or something. When something is debilitating, it causes a significant and often long-lasting reduction in physical or mental capabilities.`
         },
         {
           "id": 61,
@@ -764,11 +814,12 @@ let englishQuestions = [
           "options": [
             "changed",
             "dismissed",
-            "implemented",
+            "implemented", // The opposite of "rescind" is "enact" or "implement." While "rescind" means to revoke or cancel, "enact" means to make something into law, put a decision into effect, or officially establish a policy. 
             "incorporated"
           ],
           "ans": "C",
-          "main": "rescinded"
+          "main": "rescinded",
+          "remark": `"Rescinded" is a verb that refers to the action of revoking, canceling, or repealing a decision, order, law, agreement, or policy. When something is rescinded, it is officially annulled, and its legal or official status is reversed.`
         },
         {
           "id": 62,
@@ -777,10 +828,11 @@ let englishQuestions = [
             "expensive",
             "overrated",
             "priceless",
-            "cheap"
+            "cheap" // let's just say cheap is very close
           ],
           "ans": "D",
-          "main": "overpriced"
+          "main": "overpriced",
+          "remark": `Overprice is an adjective used to describe something that is priced higher than its perceived value or worth. When a product, service, or item is considered overpriced, it means that the cost is deemed excessive or not justified in relation to its quality, features, or market standards.`
         },
         {
           "id": 63,
@@ -789,10 +841,11 @@ let englishQuestions = [
             "absolutely",
             "essentially",
             "generally",
-            "seldom"
+            "seldom" // seldom is the answer
           ],
           "ans": "D",
-          "main": "predominantly"
+          "main": "predominantly",
+          "remark": `"Predominant" is an adjective used to describe something that is the most widespread, influential, or prevalent in a particular situation or context. When something is predominant, it holds a position of dominance or superiority compared to other elements.`
         },
         {
           "id": 64,
@@ -803,8 +856,9 @@ let englishQuestions = [
             "evil",
             "open"
           ],
-          "ans": "D",
-          "main": "covert"
+          "ans": "D", // covert means closed....
+          "main": "covert",
+          "remark": `As an adjective, "covert" describes something that is kept secret or not easily seen. For example, a covert operation is a secret mission or undertaking that is not intended to be known by the general public.`
         },
         {
           "id": 65,
@@ -815,8 +869,9 @@ let englishQuestions = [
             "a stable",
             "a hot"
           ],
-          "ans": "A",
-          "main": "sultry"
+          "ans": "A", // temperate
+          "main": "sultry",
+          'remark': `One common meaning of "sultry" is related to weather. It describes hot, humid conditions, often associated with a sense of oppressiveness. `
         },
         {
           "id": 66,
@@ -828,43 +883,47 @@ let englishQuestions = [
             "a difficult"
           ],
           "ans": "B",
-          "main": "arduous"
+          "main": "arduous",
+          "remark": `"Arduous" is an adjective used to describe something that requires a lot of effort, hard work, and is often challenging or strenuous. When a task, undertaking, or situation is described as arduous, it implies that it demands significant exertion, persistence, or difficulty.`
         },
         {
           "id": 67,
           "question": "What a harmless thought he has!.",
           "options": [
             "pleasant",
-            "pernicious",
+            "pernicious", // means harmful ,= makes sense... pernicious means harmful
             "perfect",
             "pertinent"
           ],
           "ans": "D",
-          "main": "harmless"
+          "main": "harmless",
+          "remark": `"Harmless" is an adjective used to describe something that does not cause harm, injury, or damage. Pernicious means harmful.`
         },
         {
           "id": 68,
           "question": "In his naivety, he believed all the stories his friend told him.",
           "options": [
-            "incredulity",
+            "incredulity", // "Incredulity" is a noun that refers to the state of being unwilling or unable to believe something. It involves a sense of skepticism, doubt, or disbelief in the truth or validity of a statement, claim, or situation. When someone reacts with incredulity, they express a lack of confidence or trust in what they are being told.
             "stupidity",
             "friendliness",
             "artlessness"
           ],
-          "ans": "D",
-          "main": "naivety"
+          "ans": "A",
+          "main": "naivety",
+          "remark": `"Naivety" (or "naiveté") is a noun that refers to the quality or state of being naive. Naivety is characterized by a lack of experience, sophistication, or worldliness, often resulting in a tendency to believe things easily or to trust others without questioning their intentions. It can also be associated with innocence or simplicity.`
         },
         {
           "id": 69,
           "question": "It is inconceivable that the rat devoured the cat.",
           "options": [
-            "credible",
+            "credible", //  When information, sources, or individuals are described as credible, it implies that they are reliable, have a good reputation, and are likely to be accurate or truthful.
             "unimaginable",
             "contestable",
             "incomprehensible"
           ],
-          "ans": "D",
-          "main": "inconceivable"
+          "ans": "A",
+          "main": "inconceivable",
+          "remark": `The term "inconceivable" is an adjective that describes something that is difficult or impossible to believe, imagine, or comprehend. When an idea or concept is considered inconceivable, it is so extreme, unlikely, or beyond comprehension that it is challenging for the mind to grasp or accept.`
         },
         {
           "id": 70,
@@ -875,20 +934,22 @@ let englishQuestions = [
             "anxious",
             "ambituous"
           ],
-          "ans": "D",
-          "main": "ambivalent"
+          "ans": "A",
+          "main": "ambivalent",
+          "remark": `"Ambivalent" is an adjective used to describe a state of having mixed or conflicting feelings, attitudes, or opinions about someone or something. When a person is ambivalent, they may experience simultaneous and opposing emotions or thoughts, making it challenging to express a clear and decisive stance.`
         },
         {
           "id": 71,
           "question": "The teacher taught the rudiments of Chemistry to the first grade.",
           "options": [
-            "theory",
+            "advanced",
             "fundamentals",
             "elements",
             "basics"
           ],
-          "ans": "D",
-          "main": "rudiments"
+          "ans": "A",
+          "main": "rudiments",
+          "remark": `the word "rudiments" as used here refers to the basic or fundamental principles and elements of Chemistry. In this context, "rudiments" implies the introductory or foundational aspects of the subject that are essential for beginners to understand.`
         },
         {
           "id": 72,
@@ -896,11 +957,12 @@ let englishQuestions = [
           "options": [
             "simplicity",
             "spectrum",
-            "shortage",
+            "shortage", // shortage is the direct opposite of plethora
             "complexity"
           ],
-          "ans": "D",
-          "main": "plethora"
+          "ans": "C",
+          "main": "plethora",
+          "remark": `"Plethora" is a noun that refers to an excessive or overabundant quantity of something. It indicates an abundance or surplus that goes beyond what is necessary or normal.`
         },
         {
           "id": 73,
@@ -911,8 +973,9 @@ let englishQuestions = [
             "on fire",
             "surprised"
           ],
-          "ans": "D",
-          "main": "agog"
+          "ans": "A",
+          "main": "agog",
+          "remark": `"Agog" is an adjective used to describe a state of eager anticipation, excitement, or intense curiosity about something. When someone is described as being agog, it means they are highly enthusiastic, eager, or keenly interested in a particular event, news, or experience.`
         },
         {
           "id": 74,
@@ -923,8 +986,9 @@ let englishQuestions = [
             "unending",
             "interesting"
           ],
-          "ans": "D",
-          "main": "interminable"
+          "ans": "B",
+          "main": "interminable",
+          "remark": `"Interminable" is an adjective used to describe something that is seemingly endless, incessant, or seemingly without an apparent conclusion.`
         },
         {
           "id": 75,
@@ -935,8 +999,9 @@ let englishQuestions = [
             "vitality",
             "bravery"
           ],
-          "ans": "D",
-          "main": "youthfulness"
+          "ans": "A",
+          "main": "youthfulness",
+          "remark": `"Youthfulness" is a noun that refers to the quality or state of being youthful. It encompasses characteristics associated with being young, such as vigor, energy, freshness, and a lack of the physical signs of aging`
         },
         {
           "id": 76,
@@ -948,7 +1013,8 @@ let englishQuestions = [
             "enthusiasm"
           ],
           "ans": "D",
-          "main": "apathy"
+          "main": "apathy",
+          "remark": `"Apathy" is a noun that refers to a lack of interest, enthusiasm, or concern. It describes a state of indifference or emotional detachment, where an individual shows little or no interest or engagement in matters that would typically evoke emotions, passion, or motivation.`
         },
         {
           "id": 77,
@@ -956,11 +1022,12 @@ let englishQuestions = [
           "options": [
             "argued",
             "confirmed",
-            "denied",
+            "denied", /// denied is the direct opposite here...
             "affirmed"
           ],
           "ans": "D",
-          "main": "averred"
+          "main": "averred",
+          "remark": `"Averred" is the past tense of the verb "aver," which means to assert or affirm with confidence. When someone avers a statement, they state it strongly or declare it to be true`
         },
         {
           "id": 78,
@@ -971,8 +1038,9 @@ let englishQuestions = [
             "recklessness",
             "prudence"
           ],
-          "ans": "D",
-          "main": "frugality"
+          "ans": "A", // => it is obvious that extravagance is the direct opposite here....
+          "main": "frugality",
+          "remark": `"Frugality" is a noun that refers to the quality or state of being economical, thrifty, and mindful of expenses. It involves the wise and judicious use of resources, including money, in order to avoid waste and unnecessary spending.`
         },
         {
           "id": 79,
@@ -981,10 +1049,11 @@ let englishQuestions = [
             "justifies",
             "emphasizes",
             "summarizes",
-            "contradicts"
+            "contradicts" // contradicts is the best antonym for underscore
           ],
           "ans": "D",
-          "main": "underscores"
+          "main": "underscores",
+          "remark": `As a verb, "underscores" means to emphasize, highlight, or draw attention to something. In this sense, it indicates the act of stressing the importance or significance of a particular point.`
         },
         {
           "id": 80,
@@ -995,8 +1064,9 @@ let englishQuestions = [
             "skillful",
             "clumsy"
           ],
-          "ans": "D",
-          "main": "adroit"
+          "ans": "B",
+          "main": "adroit",
+          "remark": `"Adroit" is an adjective used to describe someone who is skillful, clever, or adept at performing tasks, particularly those that require manual dexterity, intelligence, or finesse. An adroit individual is often able to handle situations with ease and efficiency.`
         },
         {
           "id": 81,
@@ -1007,8 +1077,9 @@ let englishQuestions = [
             "extraordinary",
             "dishonorable"
           ],
-          "ans": "D",
-          "main": "ignoble"
+          "ans": "B",
+          "main": "ignoble",
+          "remark": `The term "ignoble" is an adjective that describes something or someone characterized by a lack of honor, decency, or moral principles. It suggests actions or qualities that are shameful, dishonorable, or base. An ignoble act or person is often associated with actions or behaviors that go against accepted standards of morality or virtue. It can also imply actions that are mean-spirited, unprincipled, or unworthy of respect.`
         },
         {
           "id": 82,
@@ -1019,8 +1090,9 @@ let englishQuestions = [
             "well known",
             "renowned"
           ],
-          "ans": "D",
-          "main": "notorious"
+          "ans": "D", // popular and renowned is similar just the connotation that's all...
+          "main": "notorious",
+          "remark": `The term "notorious" is an adjective used to describe someone or something that is widely known, typically for unfavorable or infamous reasons.`
         },
         {
           "id": 83,
@@ -1032,7 +1104,8 @@ let englishQuestions = [
             "detracts from"
           ],
           "ans": "D",
-          "main": "redounds to"
+          "main": "redounds to",
+          "remark": `The term "redound" is a verb that means to have an effect or consequence, typically used in the context of something contributing to or benefiting someone or something.`
         },
         {
           "id": 84,
@@ -1043,8 +1116,9 @@ let englishQuestions = [
             "lively",
             "cold"
           ],
-          "ans": "D",
-          "main": "phlegmatic"
+          "ans": "C",
+          "main": "phlegmatic",
+          "remark": `"Phlegmatic" is an adjective used to describe a personality or temperament characterized by calmness, sluggishness, and an overall lack of emotional responsiveness. A person with a phlegmatic temperament tends to be calm, composed, and unemotional, often displaying a cool and steady demeanor in various situations. `
         },
         {
           "id": 85,
@@ -1056,7 +1130,8 @@ let englishQuestions = [
             "calm"
           ],
           "ans": "D",
-          "main": "restive"
+          "main": "restive",
+          "remark": `"Restive" is an adjective that describes a state of impatience, uneasiness, or resistance to control or restraint. `
         },
         {
           "id": 86,
@@ -1064,11 +1139,12 @@ let englishQuestions = [
           "options": [
             "a perfect",
             "a momentous",
-            "an insignificant",
-            "an unnecessary"
+            "an insignificant", /// insignifacnt.... 
+            "an unnecessary" 
           ],
-          "ans": "D",
-          "main": "unprecedented"
+          "ans": "C",
+          "main": "unprecedented",
+          "remark": `"Unprecedented" implies something that has not occurred before, is exceptional, or is without precedent.`
         },
         {
           "id": 87,
@@ -1079,20 +1155,22 @@ let englishQuestions = [
             "unruly",
             "unconquerable"
           ],
-          "ans": "D",
-          "main": "indomitable"
+          "ans": "A",
+          "main": "indomitable",
+          "remark": `"Indomitable" is an adjective used to describe a person, spirit, or attitude that cannot be subdued, overcome, or defeated. It conveys a sense of resilience, strength, and determination in the face of challenges or adversity. An indomitable spirit remains unyielding and steadfast, refusing to be conquered or broken.`
         },
         {
           "id": 88,
           "question": "The evidence the leader gave was incontrovertible",
           "options": [
-            "industable",
+            "indubitable",
             "contestable",
             "practicable",
             "logical"
           ],
-          "ans": "D",
-          "main": "incontrovertible"
+          "ans": "B",
+          "main": "incontrovertible",
+          "remark": `The term "incontrovertible" is an adjective used to describe something that is unquestionable, indisputable, or beyond doubt. When applied to a fact, argument, or evidence, it means that there is no room for disagreement or debate because the information is clear, evident, and cannot be disputed. `
         },
         {
           "id": 89,
@@ -1103,8 +1181,9 @@ let englishQuestions = [
             "planned",
             "unfavorable"
           ],
-          "ans": "D",
-          "main": "extemporaneous"
+          "ans": "C",
+          "main": "extemporaneous",
+          "remark": `"Extemporaneous" is an adjective used to describe something that is done, spoken, or performed without preparation or rehearsal. It often refers to impromptu or off-the-cuff actions, speeches, or performances that are carried out on the spot or without prior planning. `
         },
         {
           "id": 90,
@@ -1116,7 +1195,8 @@ let englishQuestions = [
             "astute"
           ],
           "ans": "D",
-          "main": "gullible"
+          "main": "gullible",
+          "remark": `"Gullible" is an adjective used to describe someone who is easily deceived or believes things without sufficient evidence.`
         },
         {
           "id": 91,
@@ -1127,8 +1207,10 @@ let englishQuestions = [
             "moderate",
             "sound"
           ],
-          "ans": "D",
-          "main": "inordinate"
+          "ans": "C",
+          "main": "inordinate",
+          "remark": `The term "inordinate" is an adjective that describes something that exceeds normal or reasonable limits, often suggesting an excessive or disproportionate amount. It implies a lack of restraint, balance, or moderation.`
+          // normally we need data to work with. 
         },
         {
           "id": 92,
@@ -1139,32 +1221,35 @@ let englishQuestions = [
             "covetuous",
             "pugnacious"
           ],
-          "ans": "D",
-          "main": "timid"
+          "ans": "A",
+          "main": "timid",
+          "remark": `"Timid" is an adjective used to describe someone who lacks self-confidence, is easily frightened, or tends to be shy and hesitant in social situations. `
         },
         {
           "id": 93,
           "question": "The witness decided to conceal the evidence.",
           "options": [
-            "divulge",
+            "divulge", // The verb "divulge" means to disclose, reveal, or make known information that was previously kept secret or private.
             "hide",
             "destroy",
             "pugnacious"
           ],
-          "ans": "D",
-          "main": "conceal"
+          "ans": "A",
+          "main": "conceal",
+          "remark": `The verb "conceal" means to hide or keep something secret, away from the view or knowledge of others. When you conceal something, you intentionally prevent it from being seen, known, or discovered. This act may involve physically hiding an object, information, or one's feelings, or it could involve actions to keep something from public knowledge or attention. Concealing is often done with the intention of maintaining privacy, avoiding disclosure, or preserving the confidentiality of certain matters.`
         },
         {
           "id": 94,
           "question": "The member of the congregation were inspired by the ovation.",
           "options": [
             "bewitched",
-            "enthralled",
+            "enthralled", // similar to inspired kind of...
             "disenchanted",
             "disoriented"
           ],
-          "ans": "D",
-          "main": "inspired"
+          "ans": "C",
+          "main": "inspired",
+          "remark": `The term "inspired" is an adjective used to describe someone or something that has been influenced, motivated, or stimulated by creative or uplifting ideas. When a person is inspired, they may feel a surge of motivation, enthusiasm, or creativity.`
         },
         {
           "id": 95,
@@ -1175,20 +1260,22 @@ let englishQuestions = [
             "pessimistic",
             "mad"
           ],
-          "ans": "D",
-          "main": "ecstatic"
+          "ans": "B",
+          "main": "ecstatic",
+          "remark": `"Ecstatic" is an adjective used to describe a state of overwhelming joy, delight, or intense happiness.`
         },
         {
           "id": 96,
-          "question": "The labor leader's recalcitran stance was applauded.",
+          "question": "The labor leader's recalcitrant stance was applauded.",
           "options": [
             "stubborn",
             "flexible",
             "uncompromising",
             "well informed"
           ],
-          "ans": "D",
-          "main": "recalcitran"
+          "ans": "B",
+          "main": "recalcitrant",
+          "remark": `it is an adjective used to describe a person or thing that is resistant to authority or control, often disobedient or uncooperative. A recalcitrant individual is stubborn, unwilling to comply with rules or authority, and tends to resist attempts to be managed or influenced.`
         },
         {
           "id": 97,
@@ -1200,7 +1287,8 @@ let englishQuestions = [
             "disgusting"
           ],
           "ans": "C",
-          "main": "invigorating"
+          "main": "invigorating",
+          "remark": `"Invigorating" is an adjective that describes something that has a refreshing, revitalizing, or energizing effect.`
         },
         {
           "id": 98,
@@ -1212,7 +1300,8 @@ let englishQuestions = [
             "unwilling"
           ],
           "ans": "A",
-          "main": "loath"
+          "main": "loath",
+          "remark": `"Loathe" is a verb that means to feel intense dislike or disgust for someone or something. When a person loathes something, they have a strong aversion or repulsion towards it.`
         //   she is basically unwillingly to do the assignment. imagine
         }
       ]
