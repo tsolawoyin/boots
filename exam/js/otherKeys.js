@@ -79,7 +79,7 @@ function toggle(cond) {
         changeColor() // changing color for score element
         // then we can update the score too...
         chooseQuestion(cond, currentQuestion.id) // this has a side effect
-        console.log(currentQuestion)
+
         questionBox.innerHTML = buildQuestion(currentQuestion) // the change will be displayed here
         // updateKeyColor(seenQuestions)
         showAnsweredQuestions(seenQuestions); // only seen questions are show... imagine...
