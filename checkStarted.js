@@ -9,9 +9,9 @@ const errMini = document.querySelector("#err")
 // console.log(started)
 
 
-if (started == "true") {
-    displayErr()
-}
+// if (started == "true") {
+//     displayErr()
+// }
 
 function displayErr() {
     homepage.remove(); // just remove none since we don't need it...

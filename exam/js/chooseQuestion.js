@@ -42,7 +42,7 @@ function chooseQuestion (condition, currentId) {
 
     if (condition == "next") {
         if (currentId + 1 <= numberOfQuestion) { // temporary solution...
-            if (isPresent(currentId + 1, seenQuestions)) {
+            if (isPresent(currentId + 1, seenQuestions)) { // checking to see if question is already seen
                 // the next question has already been seen, so just set currentQuestion to the question
                 currentQuestion = fetchQuestion(currentId + 1, seenQuestions) // go and bring the question for us... // that is all. 
                 // I think this is where the problem lies... 
@@ -67,7 +67,7 @@ function chooseQuestion (condition, currentId) {
         // using the prev key is pretty straight forward, you only prev to things you have seen before... shey you get
         // but we don't want to prev if the id of the current question is 1; there is nothing to prev to.
         // now prev is a lot of work too. I made a silly argument up here. 
-        // lol. getting this function right will greatly simply my code because this is the most important part, so no lazying around
+        // lol. getting this function right will greatly simplify my code because this is the most important part, so no lazying around
         // this is if question has already been seen before. honestly some user might jump and still want to prev, lol. it;s just a normal thing. no long thing shey you get...
         // now I understand...
         if (currentId - 1 >= 1) {

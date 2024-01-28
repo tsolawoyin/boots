@@ -1520,7 +1520,7 @@ let biologyQuestions = [
             },
             {
                 id:28,
-                question: "The soil swallowed the eartworm to form the worm cast is ground up in the",
+                question: "The soil swallowed the earthworm to form the worm cast is ground up in the",
                 options: ["clitellum", "prostomium", "mouth", "gizzard"],
                 ans: D
             },

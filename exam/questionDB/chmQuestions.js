@@ -1029,7 +1029,6 @@ let chemistryQuestions = [
                     "atom masses"
                 ],
                 ans: "D",
-
             },
             {
                 id: 2,
@@ -1042,7 +1041,6 @@ let chemistryQuestions = [
                     "protons and neutrons"
                 ],
                 ans: "E",
-
             },
             {
                 id: 3,
@@ -1055,7 +1053,6 @@ let chemistryQuestions = [
                     "90"
                 ],
                 ans: "D",
-
             },
             {
                 id: 4,
@@ -1068,7 +1065,6 @@ let chemistryQuestions = [
                     "127"
                 ],
                 ans: "D",
-
             },
             {
                 id: 5,
@@ -1081,7 +1077,6 @@ let chemistryQuestions = [
                     eConfig("1s", 2, "2s", 2, "2p", 6, "3s", 2, "3p", 6, "4s", 1),
                 ],
                 ans: "C",
-
             } ,
             {
                 id: 6,
@@ -1094,7 +1089,6 @@ let chemistryQuestions = [
                     "the sum of numbers of protons and neutrons in the nucleus of the atom"
                 ],
                 ans: "E",
-
             },
             {
                 id: 7,
@@ -1107,7 +1101,6 @@ let chemistryQuestions = [
                     "22.0"
                 ],
                 ans: "C",
-
             },
             {
                 id: 8,
@@ -1120,7 +1113,6 @@ let chemistryQuestions = [
                     "a transition element"
                 ],
                 ans: "D",
-
             },
             {
                 id: 9,
@@ -1133,7 +1125,6 @@ let chemistryQuestions = [
                     "the number of neutrons and electrons"
                 ],
                 ans: "D",
-
             },
             {
                 id: 10,
@@ -1145,7 +1136,6 @@ let chemistryQuestions = [
                     "36 neutrons and 17 protons",
                 ],
                 ans: "C",
-
             },
             {
                 id: 11,
@@ -1157,7 +1147,6 @@ let chemistryQuestions = [
                     "17.8",
                 ],
                 ans: "B",
-
             },
             {
                 id: 12,
@@ -1169,7 +1158,6 @@ let chemistryQuestions = [
                     "78 protons and 55 neutrons",
                 ],
                 ans: "B",
-
             },
             {
                 id: 13,
@@ -1181,7 +1169,6 @@ let chemistryQuestions = [
                     "S",
                 ],
                 ans: "B",
-
             },
             {
                 id: 14,
@@ -1193,7 +1180,6 @@ let chemistryQuestions = [
                     "4",
                 ],
                 ans: "B",
-
             },
             {
                 id: 15,
@@ -1205,7 +1191,6 @@ let chemistryQuestions = [
                     "4",
                 ],
                 ans: "A",
-
             },
             {
                 id: 16,
@@ -1217,7 +1202,6 @@ let chemistryQuestions = [
                     "anomers",
                 ],
                 ans: "C",
-
             },
             {
                 id: 17,
@@ -1229,7 +1213,6 @@ let chemistryQuestions = [
                     "4",
                 ],
                 ans: "D",
-
             },
             {
                 id: 18,
@@ -1241,7 +1224,6 @@ let chemistryQuestions = [
                     "they have the same atomic number and different number of electrons",
                 ],
                 ans: "D",
-
             },
             {
                 id: 19,
@@ -1253,7 +1235,6 @@ let chemistryQuestions = [
                     "18.0",
                 ],
                 ans: "A",
-
             },
             {
                 id: 20,
@@ -1265,7 +1246,6 @@ let chemistryQuestions = [
                     "group two element",
                 ],
                 ans: "C",
-
             },
             {
                 id: 21,
@@ -1277,7 +1257,6 @@ let chemistryQuestions = [
                     "Y",
                 ],
                 ans: "C",
-
             },
             {
                 id: 22,
@@ -1289,7 +1268,6 @@ let chemistryQuestions = [
                     "the mass of a proton is one-twelfth the molar mass of carbon",
                 ],
                 ans: "B",
-
             },
             {
                 id: 23,
@@ -1301,7 +1279,6 @@ let chemistryQuestions = [
                     "circular",
                 ],
                 ans: "A",
-
             },
             {
                 id: 24,
@@ -1313,7 +1290,6 @@ let chemistryQuestions = [
                     "75",
                 ],
                 ans: "B",
-
             },
             {
                 id: 25,
@@ -1325,7 +1301,6 @@ let chemistryQuestions = [
                     "proton",
                 ],
                 ans: "C",
-
             },
             {
                 id: 26,
@@ -1337,7 +1312,6 @@ let chemistryQuestions = [
                     "calcium",
                 ],
                 ans: "C",
-
             },
             {
                 id: 26,
@@ -1349,7 +1323,6 @@ let chemistryQuestions = [
                     "18",
                 ],
                 ans: "C",
-
             },
             {
                 id: 27,
@@ -1361,7 +1334,6 @@ let chemistryQuestions = [
                     "5",
                 ],
                 ans: "A",
-
             },
             {
                 id: 28,
@@ -1373,7 +1345,6 @@ let chemistryQuestions = [
                     "Na, P, O, and Cl",
                 ],
                 ans: "B",
-
             },
             {
                 id: 29,
@@ -1385,7 +1356,6 @@ let chemistryQuestions = [
                     "Z-Y",
                 ],
                 ans: "B",
-
             },
             {
                 id: 30,
@@ -1397,7 +1367,6 @@ let chemistryQuestions = [
                     "an isotopic mixture",
                 ],
                 ans: "D",
-
             },
             {
                 id: 31,
@@ -1409,7 +1378,6 @@ let chemistryQuestions = [
                     "spin",
                 ],
                 ans: "B",
-
             },
             {
                 id: 32,
@@ -1421,7 +1389,6 @@ let chemistryQuestions = [
                     "3",
                 ],
                 ans: "D",
-
             },
             {
                 id: 33,
@@ -1433,7 +1400,6 @@ let chemistryQuestions = [
                     "no. of shells",
                 ],
                 ans: "D",
-
             },
             {
                 id: 34,
@@ -1445,7 +1411,6 @@ let chemistryQuestions = [
                     "16",
                 ],
                 ans: "A",
-
             },
             {
                 id: 35,
@@ -1457,7 +1422,6 @@ let chemistryQuestions = [
                     "1",
                 ],
                 ans: "D",
-
             },
             {
                 id: 36,
@@ -1469,7 +1433,6 @@ let chemistryQuestions = [
                     "it has a completely filled p-orbital",
                 ],
                 ans: "C",
-
             },
             {
                 id: 37,
@@ -1481,7 +1444,6 @@ let chemistryQuestions = [
                     "27, 33, and 33",
                 ],
                 ans: "B",
-
             },
             {
                 id: 38,
@@ -1493,7 +1455,6 @@ let chemistryQuestions = [
                     "14.00",
                 ],
                 ans: "C",
-
             },
             {
                 id: 39,
@@ -1505,7 +1466,6 @@ let chemistryQuestions = [
                     "6.9",
                 ],
                 ans: "C",
-
             },
             {
                 id: 40,
@@ -1517,7 +1477,6 @@ let chemistryQuestions = [
                     "5",
                 ],
                 ans: "C",
-
             },
             {
                 id: 41,

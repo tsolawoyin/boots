@@ -2,6 +2,11 @@
 // imagine how easy the code is when you have the right plans. makes sense
 // this event listener has already simplified the job of the keys
 
+keys.addEventListener("keydown", e => {
+    if (e.key == "ArrowLeft") toggle("prev");
+    if (e.key == "ArrowRight") toggle("next");
+})
+
 keys.addEventListener("click", e => {
     // this is where everything is going to get up and running
     // the next and prev keys you get...
@@ -10,49 +15,8 @@ keys.addEventListener("click", e => {
 
     // the logic get as e be sha....
     if (mode == "practice") {
-        if (clicked.id == "next" && !currentQuestion.userAnswer && !submitted) {
-            // choose question and update UI
-            updateAnswer(currentQuestion) // seems like we need to update answer before nexting
-            // and update the score as well...
-            score = updateScoreEl(score, numberOfQuestion, currentQuestion.ans, currentQuestion.userAnswer)
-            changeColor() // changing color for score element
-            // then we can update the score too...
-            chooseQuestion("next", currentQuestion.id) // this has a side effect
-    
-            questionBox.innerHTML = buildQuestion(currentQuestion) // the change will be displayed here
-            // updateKeyColor(seenQuestions)
-            showAnsweredQuestions(seenQuestions); // only seen questions are show... imagine...
-            
-        }
-
-        if (clicked.id == "next" && (currentQuestion.userAnswer || submitted)) {
-            // choose question and update UI
-            // updateAnswer(currentQuestion) // seems like we need to update answer before nexting
-            chooseQuestion("next", currentQuestion.id) // this has a side effect
-            questionBox.innerHTML = buildQuestion(currentQuestion) // the change will be displayed here
-            // updateKeyColor(seenQuestions)
-        }
-    
-        if (clicked.id == "prev" && !currentQuestion.userAnswer && !submitted) {
-            // choose question and update UI
-            updateAnswer(currentQuestion) // seems like we need to update answer before nexting
-            // and update the score as well...
-            score = updateScoreEl(score, numberOfQuestion, currentQuestion.ans, currentQuestion.userAnswer)
-            changeColor() // changing color for score element
-            // then choose prev question
-            chooseQuestion("prev", currentQuestion.id) // this has a side effect
-            questionBox.innerHTML = buildQuestion(currentQuestion) // the change will be displayed here
-            // updateKeyColor(seenQuestions)
-            showAnsweredQuestions(seenQuestions);
-        }
-        
-        if (clicked.id == "prev" && (currentQuestion.userAnswer || submitted)) {
-            // updateAnswer(currentQuestion)
-            chooseQuestion("prev", currentQuestion.id) // this has a side effect
-    
-            questionBox.innerHTML = buildQuestion(currentQuestion) // the change will be displayed here
-            // updateKeyColor(seenQuestions)
-        }
+        if (clicked.id == "next") toggle("next");
+        if (clicked.id == "prev") toggle("prev");
     }
 
     if (clicked.className == "numbers") {
@@ -101,4 +65,31 @@ function calcScorePercent(a,b) {
 
 // now everything is working properly
 
+// maybe I need to abstract these function self
 
+
+function toggle(cond) {
+    if (!currentQuestion.userAnswer && !submitted) {
+        // if user hasn't answered and submitted yet
+        // choose question and update UI
+        updateAnswer(currentQuestion) // seems like we need to update answer before nexting
+        // and update the score as well...
+        score = updateScoreEl(score, numberOfQuestion, currentQuestion.ans, currentQuestion.userAnswer)
+
+        changeColor() // changing color for score element
+        // then we can update the score too...
+        chooseQuestion(cond, currentQuestion.id) // this has a side effect
+        console.log(currentQuestion)
+        questionBox.innerHTML = buildQuestion(currentQuestion) // the change will be displayed here
+        // updateKeyColor(seenQuestions)
+        showAnsweredQuestions(seenQuestions); // only seen questions are show... imagine...
+        
+    } else if (currentQuestion.userAnswer) { // this means if question has been answered
+        // choose question and update UI
+        // updateAnswer(currentQuestion) // seems like we need to update answer before nexting
+        chooseQuestion(cond, currentQuestion.id) // this has a side effect
+        questionBox.innerHTML = buildQuestion(currentQuestion) // the change will be displayed here
+        // updateKeyColor(seenQuestions)
+        // perhaps this conditioning is not correct
+    }
+}
