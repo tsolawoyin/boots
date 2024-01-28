@@ -381,7 +381,7 @@ let englishQuestions = [
           ],
           "ans": "A",
           "main": "inopportune",
-          "remark": `The term <strong>inopportune<strong> is an adjective that describes something as poorly timed, inconvenient, or happening at an inappropriate moment. It is used to convey that an event, action, or circumstance occurs at a time that is not favorable or suitable, often causing difficulties or inconvenience.`
+          "remark": `The term <strong>inopportune</strong> is an adjective that describes something as poorly timed, inconvenient, or happening at an inappropriate moment. It is used to convey that an event, action, or circumstance occurs at a time that is not favorable or suitable, often causing difficulties or inconvenience.`
           // normally I can take the main word and repackage it normally. anyhow joh...
         },
         {
@@ -1025,7 +1025,7 @@ let englishQuestions = [
             "denied", /// denied is the direct opposite here...
             "affirmed"
           ],
-          "ans": "D",
+          "ans": "C",
           "main": "averred",
           "remark": `"Averred" is the past tense of the verb "aver," which means to assert or affirm with confidence. When someone avers a statement, they state it strongly or declare it to be true`
         },
@@ -1253,7 +1253,7 @@ let englishQuestions = [
         },
         {
           "id": 95,
-          "question": "Agbenu was ecstatic abput her result.",
+          "question": "Agbenu was ecstatic abOut her result.",
           "options": [
             "disappointed",
             "sad",
@@ -1304,6 +1304,270 @@ let englishQuestions = [
           "remark": `"Loathe" is a verb that means to feel intense dislike or disgust for someone or something. When a person loathes something, they have a strong aversion or repulsion towards it.`
         //   she is basically unwillingly to do the assignment. imagine
         }
+      ]
+    },
+    {
+      "topic": "Antonyms II", 
+      "questions": [
+        {
+          "id": 1,
+          "question": "Toyin is married to an impatient, self-centered man.",
+          "options": [
+            "a fretful",
+            "a tolerant",
+            "an edgy",
+            "a tolerable"
+          ],
+          "ans": "A",
+          "main": "impatient",
+          'remark': "" ,
+        },
+        {
+          "id": 2,
+          "question": "Gregarious animals can be found in the zoo.",
+          "options": [
+            "Various",
+            "Wild",
+            "Lonely",
+            "Tame"
+          ],
+          "ans": "A",
+          "main": "Gregarious",
+          'remark': "" ,
+        },
+        {
+          "id": 3,
+          "question": "The doctor examined the patient painstakingly.",
+          "options": [
+            "perfunctorily",
+            "professionally",
+            "painfully",
+            "carefully"
+          ],
+          "ans": "A",
+          "main": "painstakingly",
+          'remark': "" ,
+        },
+        {
+          "id": 4,
+          "question": "A conservative estimate put the number of missing persons at forty.",
+          "options": [
+            "A rough",
+            "An accurate",
+            "A primitive",
+            "An incorrect"
+          ],
+          "ans": "A",
+          "main": "conservative",
+          'remark': "" ,
+        },
+        {
+          "id": 5,
+          "question": "The agency has sworn to deal with all the apostles of confededration..",
+          "options": [
+            "proponents",
+            "protagonists",
+            "apostates",
+            "opponents"
+          ],
+          "ans": "A",
+          "main": "apostles",
+          'remark': "" ,
+        },
+        {
+          "id": 6,
+          "question": "The ship was imperiled by high winds.",
+          "options": [
+            "destroyed",
+            "saved",
+            "piloted",
+            "received"
+          ],
+          "ans": "A",
+          "main": "imperiled",
+          'remark': "" ,
+        },
+        {
+          "id": 7,
+          "question": "Sailors are unusually dauntless in their exploits.",
+          "options": [
+            "frighted",
+            "selfless",
+            "ruthless",
+            "excited"
+          ],
+          "ans": "A",
+          "main": "imperiled",
+          'remark': "" ,
+        },
+        {
+          "id": 8,
+          "question": "The Flying Eagles put up a plucky defense against their opponents.",
+          "options": [
+            "careless",
+            "tactful",
+            "weak",
+            "strong"
+          ],
+          "ans": "A",
+          "main": "plucky",
+          'remark': "" ,
+        },
+        {
+          "id": 9,
+          "question": "The noise of the fans unnerved the near player.",
+          "options": [
+            "confused",
+            "helped",
+            "calmed",
+            "refreshed"
+          ],
+          "ans": "A",
+          "main": "unnerved",
+          'remark': "" ,
+        },
+        {
+          "id": 10,
+          "question": "Beauty queens sometime wear outlandish dresses.",
+          "options": [
+            "attractive",
+            "beautiful",
+            "flashy",
+            "familiar"
+          ],
+          "ans": "A",
+          "main": "outlandish",
+          'remark': "" ,
+        },
+        {
+          "id": 11,
+          "question": "The dictator want tractable men in his cabinet.",
+          "options": [
+            "unruly",
+            "tough",
+            "reliable",
+            "intelligent"
+          ],
+          "ans": "A",
+          "main": "tractable",
+          'remark': "" ,
+        },
+        {
+          "id": 12,
+          "question": "We found a shady place for the display.",
+          "options": [
+            "a stuffy",
+            "an enclosed",
+            "a safe",
+            "an open"
+          ],
+          "ans": "A",
+          "main": "shady",
+          'remark': "" ,
+        },
+        {
+          "id": 13,
+          "question": "The potency of the drug has been acknowledged.",
+          "options": [
+            "inefficacy",
+            "power",
+            "action"
+          ],
+          "ans": "A",
+          "main": "potency",
+          'remark': "" ,
+        },
+        {
+          "id": 14,
+          "question": "My father's presentation was rather unusual.",
+          "options": [
+            "vital",
+            "divisive",
+            "formal",
+            'informal'
+          ],
+          "ans": "A",
+          "main": "unusual",
+          'remark': "" ,
+        },
+        {
+          "id": 15,
+          "question": "The team got an ecstatic welcome from the crowd.",
+          "options": [
+            "a thunderous",
+            "a cold",
+            "a joyous",
+            'an unexpected'
+          ],
+          "ans": "A",
+          "main": "ecstatic",
+          'remark': "" ,
+        },
+        {
+          "id": 16,
+          "question": "After the war, the victors became increasingly vindictive.",
+          "options": [
+            "arrogant",
+            "treacherous",
+            "friendly",
+            'vociferous'
+          ],
+          "ans": "A",
+          "main": "vindictive",
+          'remark': "" ,
+        },
+        {
+          "id": 17,
+          "question": "The journalist said he was working freelance.",
+          "options": [
+            "without a pay",
+            "pendantly",
+            "tirelessly",
+            'vociferously'
+          ],
+          "ans": "A",
+          "main": "freelance",
+          'remark': "" ,
+        },
+        {
+          "id": 18,
+          "question": "After fifty years he could not find anyone who was contemporary with him at college.",
+          "options": [
+            "friendly with",
+            "contested against",
+            "strange to",
+            'belong to'
+          ],
+          "ans": "A",
+          "main": "contemporary",
+          'remark': "" ,
+        },
+        {
+          "id": 19,
+          "question": "Many Nigerians are wary of night journeys.",
+          "options": [
+            "unscared of",
+            "worried about",
+            "troubled about",
+            'satisfied with'
+          ],
+          "ans": "A",
+          "main": "wary of",
+          'remark': "" ,
+        },
+        {
+          "id": 20,
+          "question": "Some people consider the leather upholstery and thick rug a bit sumptuous.",
+          "options": [
+            "simple",
+            "lavish",
+            "expensive",
+            'desirable'
+          ],
+          "ans": "A",
+          "main": "sumptuous",
+          'remark': "" ,
+        },
       ]
     },
     {
