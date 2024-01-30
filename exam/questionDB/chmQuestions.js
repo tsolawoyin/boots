@@ -2948,7 +2948,7 @@ let chemistryQuestions = [
         ]
     },
     {
-        topic: 'covalent bonding',
+        topic: 'covalent bonding', // making sense...
         questions: [
             {
                 id: 1,
@@ -3269,7 +3269,7 @@ let chemistryQuestions = [
                     "no correct response",
                 ],
                 ans: "C",
-                "remark": `If the central atom of a molecule has four electron groups, it's possible geometry is one of<br /><strong>tetrahedral</strong>: all four are bond pairs. e,g ${formula("CH",4)}<br /><strong>trigonal pyramidal</strong>: three bond pairs and one lone pair. e.g ${formula("NH",3)}<br /><strong>angular/bent</strong>: two bond pairs and two lone pairs. e,g ${"H",2,"O"}`
+                "remark": `If the central atom of a molecule has four electron groups, it's possible geometry is one of<br /><strong>tetrahedral</strong>: all four are bond pairs. e,g ${formula("CH",4)}<br /><strong>trigonal pyramidal</strong>: three bond pairs and one lone pair. e.g ${formula("NH",3)}<br /><strong>angular/bent</strong>: two bond pairs and two lone pairs. e.g ${formula("H",2,"O")}`
             }, 
             {
                 id: 29,
