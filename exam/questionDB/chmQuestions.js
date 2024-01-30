@@ -3299,7 +3299,7 @@ let chemistryQuestions = [
                 options: [
                     `increase across a period in the periodic table`, 
                     `increase down a group of the periodic table`,
-                    `are loweest in the upper right corner of the periodic table`,
+                    `are lowest in the upper right corner of the periodic table`,
                     "no correct response",
                 ],
                 ans: "A",
@@ -3385,7 +3385,7 @@ let chemistryQuestions = [
                 id: 39,
                 question: `In which of the following situations is an incorrect numerical prefix present in the compound's name?`,
                 options: [
-                    `${formula("N",2,"O",5)}-dinitrogen trixode`, 
+                    `${formula("N",2,"O",5)}-dinitrogen pentaxode`, 
                     `${formula("NO",2)}-nitrogen dioxide`,
                     `${formula("N",2,"O",5)}-dinitrogen tetroxide`,
                     "no correct response",
@@ -3503,5 +3503,417 @@ let chemistryQuestions = [
                 ans: "B"
             },
         ],
+    },
+    {
+        "topic": "Ionic bonding",
+        questions: [
+            {
+                id: 1,
+                question: "The concept of <em>electron transfer</em> is closely associated with",
+                options: [
+                    "the ionic bond model", 
+                    "the covalent bond model",
+                    "both the ionic and covalent bond models",
+                    "no corrrect response",
+                ],
+                ans: "A",
+            },
+            {
+                id: 2,
+                question: "The concept of <em>electron sharing</em> is closely associated with",
+                options: [
+                    "the ionic bond model", 
+                    "the covalent bond model",
+                    "both the ionic and covalent bond models",
+                    "no corrrect response",
+                ],
+                ans: "B",
+            },
+            {
+                id: 3,
+                question: "Which of the following is a general characteristics of most ionic compounds?",
+                options: [
+                    "relatively low melting points", 
+                    "generally gases at room temperature",
+                    "good electrical conductors in the molten state",
+                    "no corrrect response",
+                ],
+                ans: "C",
+            },
+            {
+                id: 4,
+                question: `How many valence electrons are present in an atom with the electron configuration ${eConfig('1s', 2, "2s", 2, "2p", 6, "3s", 1)}`,
+                options: [
+                    "one", 
+                    "three", 
+                    "seven", 
+                    "no correct response"
+                ],
+                ans: "A"
+            },
+            {
+                id: 5,
+                question: `How many valence electrons are present in an atom with the electron configuration ${eConfig("1s",2,"2s",2,"2p",6,"3s",2,"3p",5)}`,
+                options: [
+                    "two", 
+                    "five", 
+                    "seven", 
+                    "no correct response"
+                ],
+                ans: "7"
+            },
+            {
+                id: 6,
+                question: `How many valence electrons are present in atoms of Li, a Group IA element?`,
+                options: [
+                    "one", 
+                    "two", 
+                    "three", 
+                    "no correct response"
+                ],
+                ans: "A"
+            },
+            {
+                id: 7,
+                question: `How many 'dots' are present in the Lewis symbol for the element oxygen, a Group VIA element`,
+                options: [
+                    "two", 
+                    "four", 
+                    "six", 
+                    "no correct response"
+                ],
+                ans: "C"
+            },
+            {
+                id: 7,
+                question: `Which of the following elements should have the same number of valence electrons as ${isotope("", "7", "N")}`,
+                options: [
+                    `${isotope("","6","C")}`, 
+                    `${isotope("","8","O")}`, 
+                    `${isotope("","15","P")}`, 
+                    "no correct response"
+                ],
+                ans: "C"
+            },
+            {
+                id: 8,
+                question: `The most stable of all valence electron configurations is that of the`,
+                options: [
+                    `element carbon`,
+                    `element oxygen`,
+                    `noble gases`,
+                    "no correct response"
+                ],
+                ans: "C"
+            },
+            {
+                id: 9,
+                question: `Which of the following is a very stable valence electron configuration?`,
+                options: [
+                    `${eConfig("ns",2,"np",2)}`,
+                    `${eConfig("ns",2,"np",4)}`,
+                    `${eConfig("ns",2,"np",6)}`,
+                    "no correct response"
+                ],
+                ans: "C"
+            },
+            {
+                id: 10,
+                question: `The octet rule relates to the number 8 because`,
+                options: [
+                    `Atoms undergo chemical reaction only if 8 valence electrons are present.`,
+                    `All electron subshells can hold 8 electrons`,
+                    `Atoms, during compound formation, frequently obtain 8 valence electrons`,
+                    "no correct response"
+                ],
+                ans: "C"
+            },
+            {
+                id: 11,
+                question: `In terms of subatomic particles, a ${ion("Ca", 2, "+")} ion contains`,
+                options: [
+                    `more electrons than protons`,
+                    `more protons than electrons`,
+                    `the same number of electrons and protons`,
+                    "no correct response"
+                ],
+                ans: "B"
+            },
+            {
+                id: 12,
+                question: `Which of the following is the correct symbol for an atom of X that has gained three electrons?`,
+                options: [
+                    `${ion("X",3,"+")}`,
+                    `${ion("X",3,"-")}`,
+                    `3${ion("X", "-")}`,
+                    "no correct response"
+                ],
+                ans: "B"
+            },
+            {
+                id: 13,
+                question: `An ${ion("Al",3,"+")} ion is an Al atom that has`,
+                options: [
+                    `lost three electrons`,
+                    `gained three electrons`,
+                    `lost three protons`,
+                    "no correct response"
+                ],
+                ans: "A"
+            },
+            {
+                id: 14,
+                question: `Ion formation through loss of electrons`,
+                options: [
+                    `always produces a negative ion`,
+                    `always produces a positive ion`,
+                    `can produce a negative or positive ion depending on element identity`,
+                    "no correct response"
+                ],
+                ans: "B"
+            },
+            {
+                id: 15,
+                question: `An atom with a ${eConfig("1s",2,"2s",2,"2p",4)} electron configuration would most likely form a`,
+                options: [
+                    `4- ion`,
+                    `6+ ion`,
+                    `2- ion`,
+                    "no correct response"
+                ],
+                ans: "C"
+            },
+            {
+                id: 16,
+                question: `An atom with one valence electron would most likely form a`,
+                options: [
+                    `1+ ion`,
+                    `1- ion`,
+                    `7+ ion`,
+                    "no correct response"
+                ],
+                ans: "A"
+            },
+            {
+                id: 17,
+                question: `Magnesium and Fluorine would, respectively, be expected to form ions with charges of`,
+                options: [
+                    `2+ and 1-`,
+                    `1+ and 2-`,
+                    `2+ and 7+`,
+                    "no correct response"
+                ],
+                ans: "A"
+            },
+            {
+                id: 18,
+                question: `Two ions that are isoelectric would have the same`,
+                options: [
+                    `nuclear charge`,
+                    `ionic charge`,
+                    `electron configuration`,
+                    "no correct response"
+                ],
+                ans: "C"
+            },
+            {
+                id: 19,
+                question: `The ion ${ion("O",2,"-")} is isoelectronic with a`,
+                options: [
+                    `N atom`,
+                    `F atom`,
+                    `Ne atom`,
+                    "no correct response"
+                ],
+                ans: "C"
+            },
+            {
+                id: 20,
+                question: `In forming the ionic compound ${formula("K",2,"O")} from K (1 valence electron) and O (6 valence electrons), how many electrons does each oxygen atom require via electron transfer?`,
+                options: [
+                    `one`,
+                    `two`,
+                    `three`,
+                    "no correct response"
+                ],
+                ans: "B"
+            },
+            {
+                id: 21,
+                question: `In forming an ionic compound from Ca(2 valence electrons) and S(6 valence electrons), how many calcium atoms are needed to meet the "electron needs" of one S atom?`,
+                options: [
+                    `one`,
+                    `two`,
+                    `three`,
+                    "no correct response"
+                ],
+                ans: "A"
+            },
+            {
+                id: 22,
+                question: `When magnesium(2 valence electrons) combines with chlorine(7 valence electrons) the resulting ionic compound has the chemical formula`,
+                options: [
+                    `${formula("MgCl")}`,
+                    `${formula("Mg",2,"Cl")}`,
+                    `${formula("MgCl",2)}`,
+                    "no correct response"
+                ],
+                ans: "C"
+            },
+            {
+                id: 23,
+                question: `What is the chemical formula of the ionic compound formed when ${ion("Ca",2,"+")} and ${ion("F","-","")} ions combine?`,
+                options: [
+                    `${formula("CaF")}`,
+                    `${formula("Ca",2,"F")}`,
+                    `${formula("CaF",2)}`,
+                    "no correct response"
+                ],
+                ans: "C"
+            },
+            {
+                id: 24,
+                question: `What is the chemical formula of the ionic compound formed when ${ion("Al",3,"+")} and ${ion("S","2","-")} ions combine?`,
+                options: [
+                    `${formula("Al",2,"S",3)}`,
+                    `${formula("Al",3,"S",2)}`,
+                    `${formula("Al",3,"S")}`,
+                    "no correct response"
+                ],
+                ans: "A"
+            },
+            {
+                id: 25,
+                question: `Given that ${ion("Z","2","-")} ions are present in the ionic compound ${formula("X",2,"Z")}, what is the charge on the X ions present?`,
+                options: [
+                    `1+`,
+                    "2+",
+                    "3+",
+                    "no correct response"
+                ],
+                ans: "A"
+            },
+            {
+                id: 26,
+                question: `The correct chemical formula for an ionic compound that contains ${ion("Z","2","-")} ions and ${ion("X",2,"+")} ions is`,
+                options: [
+                    `${formula("ZX")}`,
+                    `${formula("XZ")}`,
+                    `${formula("Z",2,"X",2)}`,
+                    "no correct response"
+                ],
+                ans: "B"
+            },
+            {
+                id: 27,
+                question: `The structure of an ionic compound, in the solid state, involves which of the following?`,
+                options: [
+                    `individual molecules in which positive and negative are present`,
+                    `a nonmolecular random arrangement of positive and negative ions`,
+                    `a nonmolecular highly ordered arrangement of positive and negative ions`,
+                    "no correct response"
+                ],
+                ans: "C"
+            },
+            {
+                id: 28,
+                question: `Which of the following is a correct description of the structure of the ionic compound NaCl?`,
+                options: [
+                    `Alternating layers of ${ion("Na","+","")} and ${ion("Cl","-","")} ions are present`,
+                    `Individual molecules containing ${ion("Na","+","")} and ${ion("Cl","-","")} ions are present`,
+                    `Each ion present is surrounded by six ions of opposite charge`,
+                    "no correct response"
+                ],
+                ans: "C"
+            },
+            {
+                id: 29,
+                question: `Which of the following is a characteristic of binary ionic compounds?`,
+                options: [
+                    `Two different metals are present.`,
+                    `Two different nonmetals are present`,
+                    `Both a metal and a nonmetal are present.`,
+                    "no correct response"
+                ],
+                ans: "C"
+            },
+            {
+                id: 30,
+                question: `Which of the following is a binary ionic compound`,
+                options: [
+                    `${formula("SO",3)}`,
+                    `${formula("CO",2)}`,
+                    `${formula("C",2,"H",6)}`,
+                    "no correct response"
+                ],
+                ans: "D"
+            },
+            {
+                id: 31,
+                question: `The correct name for the binary ionic compound NaF is`,
+                options: [
+                    `sodium fluoride`,
+                    `sodium fluorine`,
+                    `sodium fluorate`,
+                    "no correct response"
+                ],
+                ans: "A"
+            },
+            {
+                id: 32,
+                question: `Which of the following binary ionic compounds is paired with an incorrect name?`,
+                options: [
+                    `${formula("CaS")} -> calcium sulfide`,
+                    `${formula("K",2,"O")} -> dipotassium oxide`,
+                    `${formula("AlN")} -> aluminum nitride`,
+                    "no correct response"
+                ],
+                ans: "B"
+            },
+            {
+                id: 33,
+                question: `Which of the following is a variable charge metal?`,
+                options: [
+                    `Zn`,
+                    `Ag`,
+                    `K`,
+                    "no correct response"
+                ],
+                ans: "D"
+            },
+            {
+                id: 34,
+                question: `Which of the following binary ionic compounds has a name that includes a Roman numeral?`,
+                options: [
+                    `${formula("Na",2,"O")}`,
+                    `${formula("Fe",2,"O",3)}`,
+                    `${formula("MgCl",2)}`,
+                    "no correct response"
+                ],
+                ans: "B"
+            },
+            {
+                id: 35,
+                question: `The correct name for the binary ionic compound ${formula("Cu",2,"S")} is`,
+                options: [
+                    `copper sulfide`,
+                    `copper(I) sulfide`,
+                    `copper(II) sulfide`,
+                    "no correct response"
+                ],
+                ans: "B"
+            },
+            {
+                id: 36,
+                question: `What is the chemical formula for the compound tin(II) oxide`,
+                options: [
+                    `${formula("SnO")}`,
+                    `${formula("SnO",2)}`,
+                    `${formula("Sn",2,"O")}`,
+                    "no correct response"
+                ],
+                ans: "A"
+            },
+        ]
     }
 ]
