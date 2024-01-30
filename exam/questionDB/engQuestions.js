@@ -1568,6 +1568,45 @@ let englishQuestions = [
           "main": "sumptuous",
           'remark': "" ,
         },
+        {
+          "id": 21,
+          "question": "The professor accused Uche of silently acquiescing to the students demand.",
+          "options": [
+            "adjusting",
+            "resisting",
+            "compromising",
+            'submitting'
+          ],
+          "ans": "A",
+          "main": "aquiescing",
+          'remark': "" ,
+        },
+        {
+          "id": 22,
+          "question": "The teacher recounted two events that were analogous with each other.",
+          "options": [
+            "advantageous",
+            "similar with",
+            "different from",
+            'distant from'
+          ],
+          "ans": "A",
+          "main": "analogous",
+          'remark': "" ,
+        },
+        {
+          "id": 23,
+          "question": "The dramalist provided a satisfactory to the play.",
+          "options": [
+            "advantageous",
+            "introduction",
+            "audition",
+            'climax'
+          ],
+          "ans": "A",
+          "main": "satisfactory",
+          'remark': "" ,
+        },
       ]
     },
     {

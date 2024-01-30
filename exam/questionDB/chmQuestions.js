@@ -2946,5 +2946,562 @@ let chemistryQuestions = [
                 ans: "B",
             }, 
         ]
+    },
+    {
+        topic: 'covalent bonding',
+        questions: [
+            {
+                id: 1,
+                question: "Covalent bond formation most often involves electron sharing between",
+                options: [
+                    "two nonmetal atoms", 
+                    "a metal atom and a nonmetal atom",
+                    "a metal atom and a noble-gas atom",
+                    "no corrrect response",
+                ],
+                ans: "A",
+            }, 
+            {
+                id: 2,
+                question: "Which of the following concepts is closely associated with covalent bond model?",
+                options: [
+                    "attraction of two nuclei for each other", 
+                    "attraction of two valence electrons for each other",
+                    "attraction of two nuclei for shared valence electrons",
+                    "no corrrect response",
+                ],
+                ans: "C",
+            }, 
+            {
+                id: 3,
+                question: "Which of the following compounds would be expected to contain covalent bonds?",
+                options: [
+                    `${formula("CuCl",2)}`, 
+                    `${formula("FeCl",2)}`,
+                    `${formula("SCl",2)}`,
+                    "no corrrect response",
+                ],
+                ans: "C",
+            }, 
+            {
+                id: 4,
+                question: "Which of the following compounds has molecules as its basic structural unit?",
+                options: [
+                    `${formula("FeO")}`, 
+                    `${formula("Al",2,"O",3)}`,
+                    `${formula("SO",3)}`,
+                    "no corrrect response",
+                ],
+                ans: "C",
+            }, 
+            {
+                id: 5,
+                question: "Which of the following characterizations for the bond line in the Lewis structure H-F is incorrect",
+                options: [
+                    `it represents two shared electrons`, 
+                    `it represents a covalent bond`,
+                    `it represents an octet of electrons`,
+                    "no corrrect response",
+                ],
+                ans: "C",
+            }, 
+            {
+                id: 6,
+                question: "How many nonbonding valence electrons are present in the Lewis structure H-F?",
+                options: [
+                    `3`, 
+                    `6`, // there are six nonbonding electrons, but 3 nonbond pairs
+                    `8`,
+                    "no corrrect response",
+                ],
+                ans: "B",
+            }, 
+            {
+                id: 7,
+                question: "How many hydrogen atoms(1 valence electron) would be expected to bond to a phosphorus atom( 5 valence electrons) during covalent compound formation?",
+                options: [
+                    `1`, 
+                    `3`,
+                    `5`,
+                    "no corrrect response",
+                ],
+                ans: "B",
+            }, 
+            {
+                id: 8,
+                question: "Both Cl and F atoms contain seven valence electrons. The expected chemical formula for the simplest covalent compound formed between these two elements is",
+                options: [
+                    `${formula("Cl", "F", 7)}`, 
+                    `${formula("Cl",2,"F")}`,
+                    `${formula("ClF")}`,
+                    "no corrrect response",
+                ],
+                ans: "C",
+            }, 
+            {
+                id: 9,
+                question: "In covalent bond formation the two atoms sharing electrons",
+                options: [
+                    `must be identical`, 
+                    `must be different`,
+                    `can be the same or different`,
+                    "no corrrect response",
+                ],
+                ans: "C",
+            }, 
+            {
+                id: 10,
+                question: "In a completed Lewis structure for a molecular compound all atoms",
+                options: [
+                    `must have an octet of electrons`, 
+                    `except hydrogen must have an octet of electrons`,
+                    `excpet hydorgen and oxygen must have an octet of electrons`,
+                    "no corrrect response",
+                ],
+                ans: "B",
+            }, 
+            {
+                id: 11,
+                question: "The number of electrons present in a triple covalent bond is",
+                options: [
+                    `2`, 
+                    `3`,
+                    `6`,
+                    "no corrrect response",
+                ],
+                ans: "C",
+            }, 
+            {
+                id: 12,
+                question: "The number of single, double, and triple covalent bonds present, respectively, in a molecule whose Lewis structure H:O:O:H is",
+                options: [
+                    `1, 2, and 0`, 
+                    `1, 0, and 2`,
+                    `3, 0, and 0`,
+                    "no corrrect response",
+                ],
+                ans: "C",
+            }, 
+            {
+                id: 13,
+                question: "The number of single, double, and triple covalent bonds present, respectively, in a molecule whose Lewis structure is H:C:::N: is",
+                options: [
+                    `1, 1, and 0`, 
+                    `1, 0, and 1`,
+                    `0, 1 and 1`,
+                    "no corrrect response",
+                ],
+                ans: "B",
+            }, 
+            {
+                id: 14,
+                question: "The term multiple covalent bond applies to",
+                options: [
+                    `both single and double bonds`, 
+                    `both double and triple bonds`,
+                    `single, double, and triple bonds`,
+                    "no corrrect response",
+                ],
+                ans: "B",
+            }, 
+            {
+                id: 15,
+                question: "Single and double covalent bonds",
+                options: [
+                    `have about the same strength`, 
+                    `cannot be present in the same molecule`,
+                    `both involve sharing of two electron pairs`,
+                    "no corrrect response",
+                ],
+                ans: "D",
+            }, 
+            {
+                id: 16,
+                question: "Which of the following is an incorrect statement about coordinate covalent bonds?",
+                options: [
+                    `Both atoms involved in the bond contribute an equal number of electrons to the bond`, 
+                    `Both electrons of a shared electron pair come from the same atom.`,
+                    `Once formed, they are indistinguishable from other covalent bonds`,
+                    "no corrrect response",
+                ],
+                ans: "A",
+            }, 
+            {
+                id: 17,
+                question: "In which of the following molecules is a coordinate covalent bond present?",
+                options: [
+                    `Cl-Cl`, 
+                    `N-N(triple bond in between)`,
+                    `H-Br`,
+                    "no corrrect response",
+                ],
+                ans: "D",
+            }, 
+            {
+                id: 18,
+                question: "In Lewis structures depicting covalent bonding, an 'octet' of electrons for atoms of H means",
+                options: [
+                    `2 electrons`, 
+                    `4 electrons`,
+                    `8 electrons`,
+                    "no corrrect response",
+                ],
+                ans: "A",
+            }, 
+            {
+                id: 19,
+                question: `The Lewis structure for a ${formula("N",2)} containing a triple covalent bond, and a total of 10 valence electrons. How many nonbonding electrons are present in the Lewis structure`,
+                options: [
+                    `2 electrons`, 
+                    `4 electrons`,
+                    `8 electrons`,
+                    "no corrrect response",
+                ],
+                ans: "B",
+            }, 
+            {
+                id: 20,
+                question: `The Lewis structure for a ${formula("H",2,"S")} molecule contains eight valence electrons, four of which are nonbonding. How many single and double bonds are present, respectively in this molecule?`,
+                options: [
+                    `two and zero`, 
+                    `one and one`,
+                    `zero and two`,
+                    "no corrrect response",
+                ],
+                ans: "A",
+            }, 
+            {
+                id: 21,
+                question: `Carbon has four valence electrons and H has one valence electron. The Lewis structure for the ${formula("CH",4)} molecule contains how many nonbonding electrons`,
+                options: [
+                    `2 electrons`, 
+                    `4 electrons`,
+                    `8 electrons`,
+                    "no corrrect response",
+                ],
+                ans: "D",
+            }, 
+            {
+                id: 22,
+                question: `Nitrogen has five valence electrons and Cl has seven valence electrons. The Lewis structure for the molecule ${formula("NCl", 3)} contains?`,
+                options: [
+                    `three single bonds`, 
+                    `two single bonds and one double bond`,
+                    `three double bonds`,
+                    "no corrrect response",
+                ],
+                ans: "A",
+            }, 
+            {
+                id: 23,
+                question: `The bonding within a polyatomic ion is`,
+                options: [
+                    `ionic`, 
+                    `covalent`,
+                    `a combination of ionic and covalent`,
+                    "no corrrect response",
+                ],
+                ans: "B",
+            }, 
+            {
+                id: 24,
+                question: `Both ionic and covalent bonding are present in which of the following chemical species?`,
+                options: [
+                    `${ion(formula("SO", 4)), 2, "-"}`, 
+                    `${formula("H",2,"SO",4)}`,
+                    `${formula("Na",2,"SO",4)}`,
+                    "no corrrect response",
+                ],
+                ans: "C",
+            }, 
+            {
+                id: 24,
+                question: `Given that P has five valence electrons and O has six valence electrons, how many total valence electrons are present in the Lewis structure for the ${ion((formula("PO",4)), 2, "-")} ion?`,
+                options: [
+                    `11 electrons`, 
+                    `29 electrons`,
+                    `32 electrons`,
+                    "no correct response",
+                ],
+                ans: "C",
+            }, 
+            {
+                id: 25,
+                question: `In VSEPR theory, the geometric arrangement that minimizes repulsions among three valence electron pairs on a central atom is`,
+                options: [
+                    `tetrahedral`, 
+                    `trigonal pyramid`,
+                    `trigonal planar`,
+                    "no correct response",
+                ],
+                ans: "C",
+            }, 
+            {
+                id: 26,
+                question: `In VSEPR theory, an angular molecular geometry is associated with molecules in which the central atom has`,
+                options: [
+                    `three bonding groups and one nonbonding group`, 
+                    `two bonding groups and two nonbonding groups`,
+                    `two bonding groups and zero nonbonding group`,
+                    "no correct response",
+                ],
+                ans: "B",
+            }, 
+            {
+                id: 27,
+                question: `The molecular geometry associated with three bonding groups and one nonbonding group about a central atom is`,
+                options: [
+                    `linear`, 
+                    `angular`,
+                    `trigonal planar`,
+                    "no correct response",
+                ],
+                ans: "D",
+                remark: "no option is correct here. the answer is tetrahedral"
+            }, 
+            {
+                id: 28,
+                question: `Which of the following is not a possible geometry for molecules that have four electron groups about a central atom?`,
+                options: [
+                    `tetrahedral`, 
+                    `trigonal pyramidal`,
+                    `trigonal planar`,
+                    "no correct response",
+                ],
+                ans: "C",
+                "remark": `If the central atom of a molecule has four electron groups, it's possible geometry is one of<br /><strong>tetrahedral</strong>: all four are bond pairs. e,g ${formula("CH",4)}<br /><strong>trigonal pyramidal</strong>: three bond pairs and one lone pair. e.g ${formula("NH",3)}<br /><strong>angular/bent</strong>: two bond pairs and two lone pairs. e,g ${"H",2,"O"}`
+            }, 
+            {
+                id: 29,
+                question: `Which of the following molecules would have a linear geometry`,
+                options: [
+                    `${formula("H",2,"O")}`, 
+                    `${formula("CO", 2)}`,
+                    `${formula("NSF")}`,
+                    "no correct response",
+                ],
+                ans: "B",
+            }, 
+            {
+                id: 30,
+                question: `The most electronegative of all elements is`,
+                options: [
+                    `sodium`, 
+                    `fluorine`,
+                    `oxygen`,
+                    "no correct response",
+                ],
+                ans: "B",
+            }, 
+            {
+                id: 31,
+                question: `Electronegativity values of the elements`,
+                options: [
+                    `increase across a period in the periodic table`, 
+                    `increase down a group of the periodic table`,
+                    `are loweest in the upper right corner of the periodic table`,
+                    "no correct response",
+                ],
+                ans: "A",
+            }, 
+            {
+                id: 32,
+                question: `In general metallic elements have`,
+                options: [
+                    `higher electronegativities than nonmetallic elements`, 
+                    `lower electronegativities than nonmetallic elements`,
+                    `about the same electronegativities as nonmetallic elements`,
+                    "no correct response",
+                ],
+                ans: "B",
+            }, 
+            {
+                id: 33,
+                question: `The electronegativities of the elements C, N, and O are, respectively, 2.5, 3.0,and 3.5. Which of these elements exerts the greatest influence on the shared electrons in a covalent bond`,
+                options: [
+                    `carbon`, 
+                    `oxygen`,
+                    `nitrogen and oxygen exert about the same effect`,
+                    "no correct response",
+                ],
+                ans: "B",
+            }, 
+            {
+                id: 34,
+                question: `Which of the following diatomic molecules is polar?`,
+                options: [
+                    `Hydrogen`, 
+                    `Fluorine`,
+                    `Nitrogen`,
+                    "no correct response",
+                ],
+                ans: "D",
+            }, 
+            {
+                id: 35,
+                question: `Which of the following molecules, all of which are linear, is nonpolar?`,
+                options: [
+                    `carbon dioxide (OCO)`, 
+                    `hydrogen cyanide (HCN)`,
+                    `dinitrogen monoxide (NNO)`,
+                    "no correct response",
+                ],
+                ans: "A",
+            }, 
+            {
+                id: 36,
+                question: `Based on the given molecular geometry, which of the following molecules is nonpolar`,
+                options: [
+                    `${formula("NF",3)}(trigonal pyramidal)`, 
+                    `${formula("CH",4)}(tetrahedral)`,
+                    `${formula("H",2,"S")}`,
+                    "no correct response",
+                ],
+                ans: "B",
+            }, 
+            {
+                id: 37,
+                question: `Which of the following is a binary molecular compound?`,
+                options: [
+                    `${formula("HCN")}`, 
+                    `${formula("NaCl")}`,
+                    `${formula("CO",2)}`,
+                    "no correct response",
+                ],
+                ans: "C",
+            }, 
+            {
+                id: 38,
+                question: `Names for binary molecular compounds, except for a few common names, always`,
+                options: [
+                    `end with the suffix -ide`, 
+                    `contain two numerical prefixed`,
+                    `contain one numerical prefix`,
+                    "no correct response",
+                ],
+                ans: "A",
+            }, 
+            {
+                id: 39,
+                question: `In which of the following situations is an incorrect numerical prefix present in the compound's name?`,
+                options: [
+                    `${formula("N",2,"O",5)}-dinitrogen trixode`, 
+                    `${formula("NO",2)}-nitrogen dioxide`,
+                    `${formula("N",2,"O",5)}-dinitrogen tetroxide`,
+                    "no correct response",
+                ],
+                ans: "C",
+            }, 
+            {
+                id: 40,
+                question: `Which of the following is the correct name for the compound CO?`,
+                options: [
+                    `monocarbon monoxide`, 
+                    `carbon monoxide`,
+                    `carbon oxide`,
+                    "no correct response",
+                ],
+                ans: "B",
+            }, 
+            {
+                id: 41,
+                question: `Which of the following is the correct name for the compound HF?`,
+                options: [
+                    `monohydrogen monofluoride`, 
+                    `hydrogen monofluoride`,
+                    `hydrogen fluoride`,
+                    "no correct response",
+                ],
+                ans: "C",
+            }, 
+            {
+                id: 42,
+                question: `Which of the following binary molecular compounds is paired with an incorrect common name?`,
+                options: [
+                    `${formula("NO")}-nitric oxide`, 
+                    `${formula("NH",3)}-hydrazine`,
+                    `${formula("H",2,"O",2)}-hydrogen peroxide`,
+                    "no correct response",
+                ],
+                ans: "B",
+            }, 
+            {
+                id: 43,
+                question: `In a polar molecule there is`,
+                options: [
+                    `an unsymmetrical distribution of electronic charge`, 
+                    `a symmetrical distribution of electronic charge`,
+                    `an equal attraction for bonding electrons in all parts of the molecule`,
+                    "no correct response",
+                ],
+                ans: "A",
+            }, 
+            {
+                id: 44,
+                question: `Molecules containing polar covalent bonds`,
+                options: [
+                    `are always polar`, 
+                    `can be polar or nonpolar depending on the geometry`,
+                    `cannot be nonpolar`,
+                    "no correct response",
+                ],
+                ans: "B",
+            }, 
+            {
+                id: 45,
+                question: `The degree of inequality in electron sharing for a nonpolar covalent bond is`,
+                options: [
+                    `very small or zero`,
+                    `very large`,
+                    `moderately large to very large`,
+                    `no correct response`
+                ],
+                ans: "A"
+            },
+            {
+                id: 46,
+                question: `As the difference in electronegativity between two bonded atoms decrease the bond becomes more`,
+                options: [
+                    `ionic`,
+                    `covalent`,
+                    `polar`,
+                    `no correct response`
+                ],
+                ans: "B"
+            },
+            {
+                id: 47,
+                question: `In a polar covalent bond the atom of greater electronegativity bears a`,
+                options: [
+                    `fractional positive charge`,
+                    `fractional negative charge`,
+                    `full positive charge`,
+                    `no correct response`
+                ],
+                ans: "B"
+            },
+            {
+                id: 48,
+                question: `In a polar covalent bond the notation called a "delta plus symbol" is assigned to`,
+                options: [
+                    `all atoms with electronegativity greater than 1.5`,
+                    `the atom with the largest electronegativity`,
+                    `the atom with the smallest electronegativity`,
+                    `no correct response`
+                ],
+                ans: "C"
+            },
+            {
+                id: 49,
+                question: `A chemical bond for which the electronegativity difference between atoms is 1.2 is classified as a(n)`,
+                options: [
+                    `ionic bond`,
+                    `polar covalent bond`,
+                    `nonpolar covalent bond`,
+                    `no correct response`
+                ],
+                ans: "B"
+            },
+        ],
     }
 ]
