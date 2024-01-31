@@ -40,48 +40,48 @@ const leaderBoard = [
         }
     },
 ]
-const leaderBoardLegacy = [
-    {
-        posn: 3,
-        name: "Seun",
-        chm: [17.5,57.5,47.5,92.5], // an object will help me track their progress in each topic
-        bio: [0],
-        eng: [-12.5,20], 
-        calcScore() {
-            return this.chm.reduce((a, e ) => a + e) + this.bio.reduce((a,e) => a + e) + this.eng.reduce((a,c) => a + c); // makes sense...
-        }
-    },
-    {
-        posn: 2,
-        name: "Ayodeji",
-        chm: [22.5,72.5,90,62.5],
-        bio: [0],
-        eng: [5,10], 
-        calcScore() {
-            return this.chm.reduce((a, e ) => a + e) + this.bio.reduce((a,e) => a + e) + this.eng.reduce((a,c) => a + c); // makes sense...
-        }
-    },
-    {
-        posn: 4,
-        name: "Victoria",
-        chm: [30],
-        bio: [0],
-        eng: [0], 
-        calcScore() {
-            return this.chm.reduce((a, e ) => a + e) + this.bio.reduce((a,e) => a + e) + this.eng.reduce((a,c) => a + c); // makes sense...
-        }
-    },
-    {
-        posn: 1,
-        name: "Tosin",
-        chm: [17.5,90,40,67.5],
-        bio: [0],
-        eng: [55,32.5], 
-        calcScore() {
-            return this.chm.reduce((a, e ) => a + e) + this.bio.reduce((a,e) => a + e) + this.eng.reduce((a,c) => a + c); // makes sense...
-        }
-    },
-]
+// const leaderBoardLegacy = [
+//     {
+//         posn: 3,
+//         name: "Seun",
+//         chm: [17.5,57.5,47.5,92.5], // an object will help me track their progress in each topic
+//         bio: [0],
+//         eng: [-12.5,20], 
+//         calcScore() {
+//             return this.chm.reduce((a, e ) => a + e) + this.bio.reduce((a,e) => a + e) + this.eng.reduce((a,c) => a + c); // makes sense...
+//         }
+//     },
+//     {
+//         posn: 2,
+//         name: "Ayodeji",
+//         chm: [22.5,72.5,90,62.5],
+//         bio: [0],
+//         eng: [5,10], 
+//         calcScore() {
+//             return this.chm.reduce((a, e ) => a + e) + this.bio.reduce((a,e) => a + e) + this.eng.reduce((a,c) => a + c); // makes sense...
+//         }
+//     },
+//     {
+//         posn: 4,
+//         name: "Victoria",
+//         chm: [30],
+//         bio: [0],
+//         eng: [0], 
+//         calcScore() {
+//             return this.chm.reduce((a, e ) => a + e) + this.bio.reduce((a,e) => a + e) + this.eng.reduce((a,c) => a + c); // makes sense...
+//         }
+//     },
+//     {
+//         posn: 1,
+//         name: "Tosin",
+//         chm: [17.5,90,40,67.5],
+//         bio: [0],
+//         eng: [55,32.5], 
+//         calcScore() {
+//             return this.chm.reduce((a, e ) => a + e) + this.bio.reduce((a,e) => a + e) + this.eng.reduce((a,c) => a + c); // makes sense...
+//         }
+//     },
+// ]
 
 // get the leaderboard element
 

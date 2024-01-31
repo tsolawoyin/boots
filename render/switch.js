@@ -27,7 +27,6 @@ practiceBtn.forEach(e => {
 // for going back to home
 homeBtn.addEventListener("click", e => {
     // omo, removing home doesn't makes sense, remove ke?
-    notesPage.style.display = "none" // turn off notesPage in case it is opened...
     // we also need to turn off reading Guide section too
     readingGuideSection.style.display = "none" 
     // now we are doing all this thing manually... 
@@ -40,50 +39,11 @@ homeBtn.addEventListener("click", e => {
         examInterface.style.display = "none";
         // this will ensure that the time is reset...
         showTIme(minutes);
-        showQuote()
     } else {
         window.alert("please end current exam to continue");
         // a lot of things have happened in the code that only a refresh can bring it back to normal... jesus
     }
 })
-
-// for displaying notes
-notesLoader.addEventListener("click", e => {
-    // a lot of stuff will come in
-    let current = e.target;
-
-    let page = null;
-
-    for (let el of notesTray) {
-        if (current.textContent == el.topic.toLowerCase()) {
-            page = el.page; // it's only the page we need...
-            // do you get
-        }
-    }
-    // turn off home
-    homepage.style.display = "none"; 
-    // set content
-    notesPage.innerHTML = page;
-    // and display it...
-    notesPage.style.display = "block";
-})
-
-window.onload = showQuote
-
-
-function showQuote() {
-    // on loading, we should display a random quote
-    let quote = quotes[Math.floor(Math.random() * quotes.length)];
-    // this will select for me a random quote
-    quotesEl.innerHTML = 
-    `<p class="alert p-4 fs-4">${quote.note}</p>`
-    // should work like this...
-}
-
-// everything working together for good.
-// it's just a problem. And every problem has a solution...
-
-// let's try to display the content of reading guides appropriate
 
 readingGuideBtn.forEach(r => {
     r.addEventListener("click", e => {
@@ -127,6 +87,3 @@ function renderGuide(subject) {
         }
     }
 }
-// making sense like that. everything gonna make sense...
-// I solved all the problem in one go... Jesus, Dayo is a crazy programmer
-// I have amassed a lot of skills overtime but I don't know...
