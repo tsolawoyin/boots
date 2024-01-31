@@ -1945,7 +1945,7 @@ let englishQuestions = [
             "tense"
           ],
           "main": "restive",
-          "ans": "C"
+          "ans": "D"
         },
         {
           "id": 29,
