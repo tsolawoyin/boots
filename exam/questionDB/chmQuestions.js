@@ -3560,7 +3560,7 @@ let chemistryQuestions = [
                     "seven", 
                     "no correct response"
                 ],
-                ans: "7"
+                ans: "C"
             },
             {
                 id: 6,
@@ -3914,6 +3914,130 @@ let chemistryQuestions = [
                 ],
                 ans: "A"
             },
+            {
+                id: 37,
+                question: `Which of the following chemical formulas is that of a polyatomic ion?`,
+                options: [
+                    `${ion("Cl","-","")}`,
+                    `${ion("OH","-","")}`,
+                    `${ion("S",2,"-")}`,
+                    "no correct response"
+                ],
+                ans: "B"
+            },
+            {
+                id: 38,
+                question: `Which of the following statements about polyatomic ions is correct?`,
+                options: [
+                    `All must contain oxygen`,
+                    `All must carry a negavtive charge`,
+                    `All must have names that end in -ide`,
+                    "no correct response"
+                ],
+                ans: "D"
+            },
+            {
+                id: 39,
+                question: `The nitrate, sulfate, and phosphate ions have, respectively, the chemical formulas`,
+                options: [
+                    `${ion(formula("NO",4),"-","")}, ${ion(formula("SO",4),2,"-")}, and ${ion(formula("PO",4),"3", "-")}`,
+                    `${ion(formula("NO",3),"-","")}, ${ion(formula("SO",3),2,"-")}, and ${ion(formula("PO",3),"3", "-")}`,
+                    `${ion(formula("NO",3),"-","")}, ${ion(formula("SO",4),2,"-")}, and ${ion(formula("PO",4),"3", "-")}`,
+                    "no correct response"
+                ],
+                ans: "C"
+            },
+            {
+                id: 40,
+                question: `The hydronium, ammonium, and hydroxide ions have, respectively, the chemical formulas`,
+                options: [
+                    `${ion(formula("H",3,"O"),"+","")}, ${ion(formula("NH",4),"+")}, and ${ion(formula("OH"),"+")}`,
+                    `${ion(formula("H",3,"O"),"-","")}, ${ion(formula("NH",4),"-")}, and ${ion(formula("OH"),"-")}`,
+                    `${ion(formula("H",3,"O"),"+","")}, ${ion(formula("NH",4),"+")}, and ${ion(formula("OH"),"-")}`,
+                    "no correct response"
+                ],
+                ans: "C"
+            },
+            {
+                id: 41,
+                question: `The hydronium, ammonium, and hydroxide ions have, respectively, the chemical formulas`,
+                options: [
+                    `${ion(formula("H",3,"O"),"+","")}, ${ion(formula("NH",4),"+")}, and ${ion(formula("OH"),"+")}`,
+                    `${ion(formula("H",3,"O"),"-","")}, ${ion(formula("NH",4),"-")}, and ${ion(formula("OH"),"-")}`,
+                    `${ion(formula("H",3,"O"),"+","")}, ${ion(formula("NH",4),"+")}, and ${ion(formula("OH"),"-")}`,
+                    "no correct response"
+                ],
+                ans: "C"
+            },
+            {
+                id: 42,
+                question: `What is the chemical formula for a compound that contains ${ion("K","+")} ions and ${ion(formula("PO",4),3,"-")} ions`,
+                options: [
+                    `${formula("KPO",4)}`,
+                    `${formula("K",2,"PO",4)}`,
+                    `${formula("K",3,"PO",4)}`,
+                    "no correct response"
+                ],
+                ans: "C"
+            },
+            {
+                id: 43,
+                question: `What is the chemical formula for a compound that contains ${ion("Al",3,"+")} ions and ${ion("OH","-")} ions?`,
+                options: [
+                    `${formula("AlOH")}`,
+                    `${formula("AlOH",3)}`,
+                    `${formula("Al",formula("(OH)",3))}`,
+                    "no correct response"
+                ],
+                ans: "C"
+            },
+            {
+                id: 44,
+                question: `The compound ${formula("Mg", "(SCN)", 2)} contains ${ion("Mg",2,"+")} ions and polyatomic thiocyanate ions. WHat charge does the thiocyanate ion carry?`,
+                options: [
+                    `1+`,
+                    `1-`,
+                    `2-`,
+                    "no correct response"
+                ],
+                ans: "B"
+            },
+            {
+                id: 45,
+                question: `What is the name for the compound ${formula("Na",2,"CO",3)}?`,
+                options: [
+                    `disodium carbon trioxide`,
+                    `disodium carbonate`,
+                    `sodium carbonate`,
+                    "no correct response"
+                ],
+                ans: "C"
+            },
+            {
+                id: 46,
+                question: `What is the name for the compound ${formula(`(${formula("NH",4)})`,2,"S")}`,
+                options: [
+                    `ammonium sulfate`,
+                    `ammonium sulfide`,
+                    `hydronium sulfide`,
+                    "no correct response"
+                ],
+                ans: "B"
+            },
+            {
+                id: 47,
+                question: `What is the chemical formula for the compound copper(II) nitrate?`,
+                options: [
+                    `${formula("Cu", "NO",3)}`,
+                    `${formula("Cu", formula(`(${formula("NO",3)})`,2))}`,
+                    `${formula("Cu","(CN)",2)}`,
+                    "no correct response"
+                ],
+                ans: "B"
+            },
+            // a polyatomic ion is an ion formed from a group of atoms(held together by covalent bonds) through loss or gain of electrons
+
+            // another name for hydronium is oxonium ion...
         ]
     }
 ]

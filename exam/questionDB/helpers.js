@@ -34,7 +34,7 @@ const formula = (...rest) => {
 // this can also be in form 
 
 const ion = (a, b, c) => {
-    return `${a}<sup>${b}${c}</sup>`
+    return `${a}<sup>${b ? b : ""}${c ? c: ""}</sup>`
 }
 
 // physics helpers
