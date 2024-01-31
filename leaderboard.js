@@ -44,7 +44,7 @@ const leaderBoard= [
     {
         posn: 3,
         name: "Seun",
-        chm: [17.5,57.5,47.5,92.5], // an object will help me track their progress in each topic
+        chm: [25,32.5,17.5,57.5,47.5,92.5], // an object will help me track their progress in each topic
         bio: [0],
         eng: [-12.5,20], 
         calcScore() {
@@ -54,7 +54,7 @@ const leaderBoard= [
     {
         posn: 2,
         name: "Ayodeji",
-        chm: [22.5,72.5,90,62.5],
+        chm: [22.5,70,22.5,72.5,90,62.5],
         bio: [0],
         eng: [5,10], 
         calcScore() {
@@ -74,7 +74,7 @@ const leaderBoard= [
     {
         posn: 1,
         name: "Tosin",
-        chm: [17.5,90,40,67.5],
+        chm: [45,50,17.5,90,40,67.5],
         bio: [0],
         eng: [55,32.5], 
         calcScore() {
