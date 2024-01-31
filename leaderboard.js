@@ -1,5 +1,47 @@
 const leaderBoard = [
     {
+        posn: 2,
+        name: "Seun",
+        chm: [0], // an object will help me track their progress in each topic
+        bio: [0],
+        eng: [0], 
+        calcScore() {
+            return this.chm.reduce((a, e ) => a + e) + this.bio.reduce((a,e) => a + e) + this.eng.reduce((a,c) => a + c); // makes sense...
+        }
+    },
+    {
+        posn: 1,
+        name: "Ayodeji",
+        chm: [0],
+        bio: [0],
+        eng: [0], 
+        calcScore() {
+            return this.chm.reduce((a, e ) => a + e) + this.bio.reduce((a,e) => a + e) + this.eng.reduce((a,c) => a + c); // makes sense...
+        }
+    },
+    {
+        posn: 4,
+        name: "Victoria",
+        chm: [0],
+        bio: [0],
+        eng: [0], 
+        calcScore() {
+            return this.chm.reduce((a, e ) => a + e) + this.bio.reduce((a,e) => a + e) + this.eng.reduce((a,c) => a + c); // makes sense...
+        }
+    },
+    {
+        posn: 3,
+        name: "Tosin",
+        chm: [0],
+        bio: [0],
+        eng: [0], 
+        calcScore() {
+            return this.chm.reduce((a, e ) => a + e) + this.bio.reduce((a,e) => a + e) + this.eng.reduce((a,c) => a + c); // makes sense...
+        }
+    },
+]
+const leaderBoardLegacy = [
+    {
         posn: 3,
         name: "Seun",
         chm: [17.5,57.5,47.5,92.5], // an object will help me track their progress in each topic
