@@ -29,6 +29,7 @@ homeBtn.addEventListener("click", e => {
     // omo, removing home doesn't makes sense, remove ke?
     // we also need to turn off reading Guide section too
     readingGuideSection.style.display = "none" 
+    numberOfQuestion = 40;
     // now we are doing all this thing manually... 
     // that's why you should learn react.. lol
     // doing it manually helps you appreciate react even better...
@@ -37,6 +38,7 @@ homeBtn.addEventListener("click", e => {
         homepage.style.display = "block"
         loginInterface.style.display = "none"; // omo, there is something
         examInterface.style.display = "none";
+        
         // this will ensure that the time is reset...
         showTIme(minutes);
     } else {
