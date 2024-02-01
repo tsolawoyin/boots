@@ -615,175 +615,50 @@ let chemistryQuestions = [
         questions: [
             {
                 id: 1,
-                question: "Carbon is a nonmetal found in what group of the periodic table?",
-                options: ["I", "II", "IV", "VI", "V"],
-                ans: "C"
+                question: "The driest and the hardest form of coal is",
+                options: [
+                    "peat",
+                    "lignite",
+                    "bituminous",
+                    "anthracite"
+                ],
+                ans: "D"
             },
             {
                 id: 2,
-                question: "When carbon dioxide is bubbled into limewater a white precipitate is formed. If the passage of the gas is continued the precipitate disappears. The reason for this is?",
+                question: "The process whereby a solid matter is heated in absence of air is called",
                 options: [
-                    "Calcium carbonate is formed which gradually dissolves",
-                    "Calcium hydrogen carbonate is precipitated and then dissolves",
-                    "Calcium carbonate is formed which on reaction with further carbon dioxide forms soluble calcium hydrogen carbonate",
-                    "Concentration of the solution has occured with the deposition of calcium hydroxide",
-                    "The solution has become saturated and solid carbon dioxide has been deposited"
+                    "destructive distillation",
+                    "constructive distillation",
+                    "destructive crystallization",
+                    "constructive crystallization"
                 ],
-                ans: "C"
+                ans: "A"
             },
-            // from here on, I will not answer the questions
             {
                 id: 3,
-                question: `When ammonium, potassium, and calcium carbonates are separately heated`,
+                question: "Which of the following is produced by the destructive distillation of wood<br>I. Wood charcoal<br>II. Wood gas<br>III. Wood tar<br>IV. Pyroligneous acid",
                 options: [
-                    `none of them will decompose`,
-                    `each of them will decompose to give carbon dioxide and the respective oxide`,
-                    `ammonium carbonate and potassium carbonate will not decompose`,
-                    `only ammonium carbonate and calcium carbonate will decompose to give carbon dioxide and the respective oxide`,
-                    `ammonium carbonate will decompose to give carbon dioxide, water, and ammonia`
+                    "I and IV",
+                    "II and III",
+                    "I, II, and III",
+                    "all of the above"
                 ],
-                ans: "C"
+                ans: "D"
             },
             {
                 id: 4,
-                question: `When a bottle of coca-cola is opened, bubbles of gas evolve. The gas is?`,
+                question: "The solid residue of the distillation of coal is",
                 options: [
-                    `hydrogen`,
-                    `carbon monoxide`,
-                    `carbon dioxide`,
-                    `sulfur dioxide`,
-                    `chlorine`
+                    "coal gas",
+                    "ammoniacal liquor",
+                    "coal tar",
+                    "coke"
                 ],
-                ans: "C"
-            },
-            {
-                id: 5,
-                question: `Liquid X reacts with sodium trioxocarbonate (IV), ${formula("Na", 2, "CO", 3)} to give a gas which turns calcium chloride solution milky. X is?`,
-                options: [
-                    `${formula("Na", 2, "SO", 4)}`,
-                    `${formula("KI")}`,
-                    `an alkali`,
-                    `an acid`,
-                    `a hydrocarbon`
-                ],
-                ans: "C"
+                ans: "D"
             },
             {
                 id: 6,
-                question: `Lime water, which is used in the laboratory for the detection of carbon(IV) oxide is an aqueous  solution of`,
-                options: [
-                    `${formula("Ca(OH)", 2)}`,
-                    `${formula("Ca", "CO", 3)}`,
-                    `${formula("CaHCO", 3)}`,
-                    `${formula("CaSO", 4)}`,
-                    `${formula("Na", 2, "SO", 4)}`
-                ],
-                ans: "C"
-            },
-            {
-                id: 36,
-                question: `Which of the following is not true of carbon monoxide`,
-                options: [
-                    `CO is poisonous`,
-                    `CO is readily oxidized at room temperature by air to form ${formula("CO", 2)}`,
-                    `CO may be prepared by reducing ${formula("CO", 2)} mixed with coke heated to about 1000 degree celcius`,
-                    `CO may be prepared by heating charcoal with a limited amount of ${formula("O",2)}`,
-                    `CO is a good reducing agent`
-                ],
-                ans: "C"
-            },
-            {
-                id: 7,
-                question: `A piece of sea shell, when dropped into a dilute solution of hydrochloric acid, produces a colorless, odorless gas, which turns clear limewater milky. The shell contains`,
-                options: [
-                    `sodium chloride`,
-                    `ammonium nitrate`,
-                    `calcium carbonate`,
-                    `calcium chloride`,
-                    `magnesium chloride`
-                ],
-                ans: "C"
-            },
-            {
-                id: 8,
-                question: `Which of the following conducts electricity`,
-                options: [
-                    `Sulphur`,
-                    `Graphite`,
-                    `Diamond`,
-                    `Red phosphorus`,
-                    `Yellow phosphorus`
-                ],
-                ans: "B"
-            },
-            {
-                id: 9,
-                question: `Which of the following is used in fire extinguishers?`,
-                options: [
-                    `Carbon(II) oxide`,
-                    `Carbon(IV) oxide`,
-                    `Sulfur(IV) oxide`,
-                    `Ammonia`,
-                ],
-                ans: "B"
-            },
-            {
-                id: 35,
-                question: `Carbon(II) oxide may be collected over water because it`,
-                options: [
-                    `is heavier than air`,
-                    `is less dense than air`,
-                    `is insoluble in water`,
-                    `burns in oxygen to form carbon(IV) oxide`,
-                ],
-                ans: "B"
-            },
-            {
-                id: 10,
-                question: `What process would coal undergo to give coal gas, coal tar, ammonical liquor, and coke`,
-                options: [
-                    `steam distillation`,
-                    `destructive distillation`,
-                    `liquefaction`,
-                    `hydrolysis`,
-                ],
-                ans: "B"
-            },
-            {
-                id: 11,
-                question: `Some product of destructive distillation of coal are`,
-                options: [
-                    `carbon(IV) oxide and ethanoic acid`,
-                    `trioxocarbonate(IV) acid and methanoic acid`,
-                    `producer gas and water gas`,
-                    `coke and ammonia liquor`,
-                ],
-                ans: "B"
-            },
-            {
-                id: 12,
-                question: `Coal fire should not be used in poorly ventilated room because`,
-                options: [
-                    `of the accumulation of ${formula("CO", 2)} which cause deep sleep`,
-                    `it is usually too hot`,
-                    `of the accumulation CO of which causes suffocation`,
-                    `it removes most of the gases in the room`,
-                ],
-                ans: "B"
-            },
-            {
-                id: 13,
-                question: `Which of the following salts can be melted without decomposition?`,
-                options: [
-                    `${formula("Na", 2, "CO", 3)}`,
-                    `${formula("CaCO", 3)}`,
-                    `${formula("MgCO", 3)}`,
-                    `${formula("ZnCO", 3)}`,
-                ],
-                ans: "B"
-            },
-            {
-                id: 14,
                 question: `Coal gas is made up of carbon(II) oxide, hydrogen and`,
                 options: [
                     `nitrogen`,
@@ -791,10 +666,10 @@ let chemistryQuestions = [
                     `argon`,
                     `methane`,
                 ],
-                ans: "B"
+                ans: "D"
             },
             {
-                id: 15,
+                id: 7,
                 question: `The process employed in the production of anhydrous sodium trioxocarbonate(IV) is`,
                 options: [
                     `harber process`,
@@ -805,7 +680,7 @@ let chemistryQuestions = [
                 ans: "B"
             },
             {
-                id: 16,
+                id: 8,
                 question: `Which allotrope of carbon is a constituent of lead pencil`,
                 options: [
                     `graphite`,
@@ -816,7 +691,7 @@ let chemistryQuestions = [
                 ans: "A"
             },
             {
-                id: 17,
+                id: 9,
                 question: `Which of the statements is TRUE about carbon(IV) oxide`,
                 options: [
                     `it supports combustion`,
@@ -824,10 +699,10 @@ let chemistryQuestions = [
                     `it is very soluble in water`,
                     `it supports the burning of magnesium to produce magnesium oxide`,
                 ],
-                ans: "A"
+                ans: "D"
             },
             {
-                id: 18,
+                id: 10,
                 question: `Diamond cannot be used`,
                 options: [
                     `in making bicycle chains`,
@@ -838,18 +713,7 @@ let chemistryQuestions = [
                 ans: "A"
             },
             {
-                id: 19,
-                question: `The constituents of baking powder that makes dough to rise is`,
-                options: [
-                    `${formula("NaOH")}`,
-                    `${formula("Na", 2, "CO", 3)}`,
-                    `${formula("NaCl")}`,
-                    `${formula("NaHCO", 3)}`,
-                ],
-                ans: "A"
-            },
-            {
-                id: 20,
+                id: 11,
                 question: `Carbon(II) oxide is considered dangerous if inhaled mainly because it`,
                 options: [
                     `competes with oxygen in the blood`,
@@ -860,7 +724,7 @@ let chemistryQuestions = [
                 ans: "A"
             },
             {
-                id: 21,
+                id: 12,
                 question: `Diamond is used in making jewelry due to its`,
                 options: [
                     `high refractive index`,
@@ -871,7 +735,7 @@ let chemistryQuestions = [
                 ans: "A"
             },
             {
-                id: 22,
+                id: 13,
                 question: `Which of the following does not contain carbon?`,
                 options: [
                     `marble`,
@@ -883,7 +747,7 @@ let chemistryQuestions = [
                 ans: "D"
             },
             {
-                id: 23,
+                id: 14,
                 question: `The phenomenon where an element exist in more than one form in the same physical state is called?`,
                 options: [
                     `allotropy`,
@@ -894,7 +758,7 @@ let chemistryQuestions = [
                 ans: "A"
             },
             {
-                id: 24,
+                id: 15,
                 question: `The ability of carbon atoms to join to one another by covalent bond in a continuous fashion is called?`,
                 options: [
                     `cretinism`,
@@ -905,7 +769,7 @@ let chemistryQuestions = [
                 ans: "B"
             },
             {
-                id: 25,
+                id: 16,
                 question: `Which of the following is not an allotrope of carbon`,
                 options: [
                     `diamond`,
@@ -916,7 +780,7 @@ let chemistryQuestions = [
                 ans: "D"
             },
             {
-                id: 26,
+                id: 17,
                 question: `The least common form of carbon is`,
                 options: [
                     `diamond`,
@@ -926,30 +790,7 @@ let chemistryQuestions = [
                 ans: "C"
             },
             {
-                id: 27,
-                question: `Which of the following is true about diamond<br>I. It consists of carbon atoms that are covalently bonded in a regular tetrahedron<br> II. It has high melting point<br> III. It is the hardest substance known<br> IV. It conducts electricity`,
-                options: [
-                    `I, II, and III`,
-                    `II and IV`,
-                    `I, II, III`,
-                    `all of the above`
-                ],
-                ans: "C"
-            },
-            {
-                id: 28,
-                question: `The physical properties of diamond includes<br>I. Diamond is hard, colorless, and transparent<br>II. It forms octahedral crystals with high refractive index<br>III. Its density is 3.5${units("gcm", -3)}, and melts at 3600&deg;C<br>IV. It does not conduct electricity, since all the four valence<br>V. It is insoluble in any solvent`,
-                options: [
-                    `I only`,
-                    `I, and II`,
-                    `I, II, and III`,
-                    `I, II, III, and IV`,
-                    `all of the above`,
-                ],
-                ans: "E"
-            },
-            {
-                id: 29,
+                id: 18,
                 question: `Carbon exists in the pure form as`,
                 options: [
                     `Diamond and graphite`,
@@ -960,7 +801,202 @@ let chemistryQuestions = [
                 ans: "A"
             },
             {
+                id: 19,
+                question: "Carbon is a nonmetal found in what group of the periodic table?",
+                options: ["I", "II", "IV", "VI", "V"],
+                ans: "C"
+            },
+            {
+                id: 20,
+                question: "When carbon dioxide is bubbled into limewater a white precipitate is formed. If the passage of the gas is continued the precipitate disappears. The reason for this is?",
+                options: [
+                    "Calcium carbonate is formed which gradually dissolves",
+                    "Calcium hydrogen carbonate is precipitated and then dissolves",
+                    "Calcium carbonate is formed which on reaction with further carbon dioxide forms soluble calcium hydrogen carbonate",
+                    "Concentration of the solution has occured with the deposition of calcium hydroxide",
+                    "The solution has become saturated and solid carbon dioxide has been deposited"
+                ],
+                ans: "C"
+            },
+            {
+                id: 21,
+                question: `When ammonium, potassium, and calcium carbonates are separately heated`,
+                options: [
+                    `none of them will decompose`,
+                    `each of them will decompose to give carbon dioxide and the respective oxide`,
+                    `ammonium carbonate and potassium carbonate will not decompose`,
+                    `only ammonium carbonate and calcium carbonate will decompose to give carbon dioxide and the respective oxide`,
+                    `ammonium carbonate will decompose to give carbon dioxide, water, and ammonia`
+                ],
+                ans: "E",
+                remark: `Check understanding chemistry pg 275 for more information`
+            },
+            {
+                id: 22,
+                question: `When a bottle of coca-cola is opened, bubbles of gas evolve. The gas is?`,
+                options: [
+                    `hydrogen`,
+                    `carbon monoxide`,
+                    `carbon dioxide`,
+                    `sulfur dioxide`,
+                    `chlorine`
+                ],
+                ans: "C"
+            },
+            {
+                id: 23,
+                question: `Liquid X reacts with sodium trioxocarbonate (IV), ${formula("Na", 2, "CO", 3)} to give a gas which turns calcium chloride solution milky. X is?`,
+                options: [
+                    `${formula("Na", 2, "SO", 4)}`,
+                    `${formula("KI")}`,
+                    `an alkali`,
+                    `an acid`,
+                    `a hydrocarbon`
+                ],
+                ans: "D"
+            },
+            {
+                id: 24,
+                question: `Lime water, which is used in the laboratory for the detection of carbon(IV) oxide is an aqueous  solution of`,
+                options: [
+                    `${formula("Ca(OH)", 2)}`,
+                    `${formula("Ca", "CO", 3)}`,
+                    `${formula("CaHCO", 3)}`,
+                    `${formula("CaSO", 4)}`,
+                    `${formula("Na", 2, "SO", 4)}`
+                ],
+                ans: "A"
+            },
+            {
+                id: 25,
+                question: `Which of the following is not true of carbon monoxide`,
+                options: [
+                    `CO is poisonous`,
+                    `CO is readily oxidized at room temperature by air to form ${formula("CO", 2)}`,
+                    `CO may be prepared by reducing ${formula("CO", 2)} mixed with coke heated to about 1000 degree celcius`,
+                    `CO may be prepared by heating charcoal with a limited amount of ${formula("O",2)}`,
+                    `CO is a good reducing agent`
+                ],
+                ans: "B",
+                remark: `Though CO may be oxidized to form ${formula("CO",2)} this does not occur readily at room temperature. CO burns in air with a blue flame, forming carbon(IV) oxide.`
+            },
+            {
+                id: 26,
+                question: `A piece of sea shell, when dropped into a dilute solution of hydrochloric acid, produces a colorless, odorless gas, which turns clear limewater milky. The shell contains`,
+                options: [
+                    `sodium chloride`,
+                    `ammonium nitrate`,
+                    `calcium carbonate`, // CaCO3
+                    `calcium chloride`,
+                    `magnesium chloride`
+                ],
+                ans: "C"
+            },
+            {
+                id: 27,
+                question: `Which of the following conducts electricity`,
+                options: [
+                    `Sulphur`,
+                    `Graphite`,
+                    `Diamond`,
+                    `Red phosphorus`,
+                    `Yellow phosphorus`
+                ],
+                ans: "B"
+            },
+            {
+                id: 28,
+                question: `Which of the following is used in fire extinguishers?`,
+                options: [
+                    `Carbon(II) oxide`,
+                    `Carbon(IV) oxide`, // normally, CO2 is used in fire extinguishers
+                    `Sulfur(IV) oxide`,
+                    `Ammonia`,
+                ],
+                ans: "B"
+            },
+            {
+                id: 29,
+                question: `Carbon(II) oxide may be collected over water because it`,
+                options: [
+                    `is heavier than air`,
+                    `is less dense than air`,
+                    `is insoluble in water`,
+                    `burns in oxygen to form carbon(IV) oxide`,
+                ],
+                ans: "C"
+            },
+            {
                 id: 30,
+                question: `What process would coal undergo to give coal gas, coal tar, ammonical liquor, and coke`,
+                options: [
+                    `steam distillation`,
+                    `destructive distillation`,
+                    `liquefaction`,
+                    `hydrolysis`,
+                ],
+                ans: "B",
+                remark: "check page 278 of understanding chm."
+            },
+            {
+                id: 31,
+                question: `Coal gas is a mixture of`,
+                options: [
+                    `hydrogen, methane, and CO`,
+                    `ethane, ammonia, and Carbon(IV) oxide`,
+                    `hydrogen and CO`,
+                    `hydrogen sulfide and aqueos ammonia`,
+                ],
+                ans: "A",
+                remark: "Check page 278 of understanding chemistry"
+            },
+            {
+                id: 32,
+                question: `The main gaseous product of the destructive distillation of coal is`,
+                options: [
+                    `coal tar`,
+                    `coal gas`,
+                    `ammoniacal liquor`,
+                    `coke`,
+                ],
+                ans: "B",
+                "remark": "check pg 278 of understanding chm"
+            },
+            {
+                id: 33,
+                question: `Some product of destructive distillation of coal are`,
+                options: [
+                    `carbon(IV) oxide and ethanoic acid`,
+                    `trioxocarbonate(IV) acid and methanoic acid`,
+                    `producer gas and water gas`,
+                    `coke and ammoniacal liquor`,
+                ],
+                ans: "D"
+            },
+            {
+                id: 34,
+                question: `Coal fire should not be used in poorly ventilated room because`,
+                options: [
+                    `of the accumulation of ${formula("CO", 2)} which cause deep sleep`,
+                    `it is usually too hot`,
+                    `of the accumulation CO of which causes suffocation`,
+                    `it removes most of the gases in the room`,
+                ],
+                ans: "C"
+            },
+            {
+                id: 35,
+                question: `Which of the following salts can be melted without decomposition?`,
+                options: [
+                    `${formula("Na", 2, "CO", 3)}`,
+                    `${formula("CaCO", 3)}`,
+                    `${formula("MgCO", 3)}`,
+                    `${formula("ZnCO", 3)}`,
+                ],
+                ans: "A"
+            },
+            {
+                id: 36,
                 question: `_____ is to diamond and _____ is to graphite`,
                 options: [
                     `network octahedral structure and flat hexagonal structure`,
@@ -971,17 +1007,7 @@ let chemistryQuestions = [
                 ans: "A"
             },
             {
-                id: 31,
-                question: `The allotrope of carbon that is soft and slippery is`,
-                options: [
-                    `diamond`,
-                    `graphite`,
-                    `fullerene`
-                ],
-                ans: "B"
-            },
-            {
-                id: 32,
+                id: 37,
                 question: `Graphite conducts electricity because`,
                 options: [
                     `it has mobile electrons in its atoms`,
@@ -992,28 +1018,105 @@ let chemistryQuestions = [
                 ans: "A"
             },
             {
-                id: 33,
-                question: `Graphite is used for the following except`,
+                id: 38,
+                question: `Synthetic gas is a mixture of`,
                 options: [
-                    `used as inert electrodes during electrolysis`,
-                    `used in nuclear reactors`,
-                    `used in making lead pencils`,
-                    `used in drilling rocks`
+                    `${formula("CH",4)} and ${formula("H",2,"O")}`,
+                    `${formula("CO")} and ${formula("H",2)}`,
+                    `${formula("CO",2)} and ${formula("H",2)}`,
+                    `${formula("CH",4)} and ${formula("H",2)}`,
+                ],
+                ans: "B"
+            },
+            {
+                id: 39,
+                question: `A form of carbon used for absorbing poisonous gases and purification of noble gases is`,
+                options: [
+                    `carbon fibres`,
+                    `animal charcoal`,
+                    `wood charcoal`,
+                    `carbon black`
+                ],
+                ans: "C"
+            },
+            {
+                id: 40,
+                question: `The refreshing and characteristics taste of soda water and other soft drinks is a result of the presence in them of`,
+                options: [
+                    `soda`,
+                    `carbon(II) oxide`,
+                    `carbon(IV) oxide`,
+                    `glucose`
+                ],
+                ans: "C"
+            },
+            {
+                id: 41,
+                question: `The allotrope of carbon used in the decolorization of sugar is`,
+                options: [
+                    `graphite`,
+                    `soot`,
+                    `charcoal`,
+                    `lampblack`
+                ],
+                ans: "C"
+            },
+            {
+                id: 42,
+                question: `When steam is passed over red-hot carbon, the substances produced are`,
+                options: [
+                    `hydrogen and trioxocarbonate(IV) acid`,
+                    `hydrogen, oxygen and carbon(IV) oxide`,
+                    `hydrogen and carbon(II) oxide`,
+                    `hydrogen and carbon(IV) oxide`
+                ],
+                ans: "C"
+            },
+            {
+                id: 43,
+                question: `To obtain pure carbon(II) oxide from its mixture with carbon(IV) oxide, the mixture should be`,
+                options: [
+                    `bubbled through concentrated tetraoxosulfate(VI) acid`,
+                    `bubbled through sodium hydroxide`,
+                    `passed over heated copper(II) oxide`,
+                    `bubbled through water`
+                ],
+                ans: "B"
+            },
+            {
+                id: 44,
+                question: `A solution which on treatment with HCl acid produces a colorless, odorless gas which turns lime water milky is most likely to be a`,
+                options: [
+                    `chloride`,
+                    `hydroxide`,
+                    `nitrate`,
+                    `carbonate`
                 ],
                 ans: "D"
             },
             {
-                id: 34,
-                question: `Which of the following is <strong>not</strong> true?`,
+                id: 45,
+                question: `The gasification of coke is used for the manufacture of`,
                 options: [
-                    `graphite is harder and denser than diamond.`,
-                    `graphite is a conductor while diamond is not.`,
-                    `diamond forms octahedral crystals, while graphite forms hexagonal plates.`,
-                    `diamond is transparent, while graphite is opaque.`
+                    `producer gas`,
+                    `natural gas`,
+                    `industrial gas`,
+                    `synthetic gas`
                 ],
-                ans: "A"
+                ans: "D"
             },
-        ] // making sense? a sense of progress
+            {
+                id: 46,
+                question: `Carbon exist naturally in the combined state as`,
+                options: [
+                    `diamond`,
+                    `coal`,
+                    `wood`,
+                    `graphite`
+                ],
+                ans: "B"
+            },
+        ]
     },
     {
         topic: "atomic structure",
