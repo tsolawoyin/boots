@@ -4609,7 +4609,264 @@ let chemistryQuestions = [
                 ans: "C",
             },
         ]
+    },
+    {
+        "topic": "Chemical calculation I",
+        "questions": [
+            {
+                id: 1,
+                question: "The formula mass for a compound is calculated by summing which of the following numbers for all atoms in a formula unit of the compound?",
+                options: [
+                    "atomic number", 
+                    "mass number",
+                    "nuclear charge",
+                    "no correct response",
+                ],
+                ans: "D",
+            },
+            {
+                id: 2,
+                question: `The atomic mass of C is 12.01 amu and that of O is 16.00 amu. The formula mass for the compound ${formula("CO",2)} is:`,
+                options: [
+                    "28.01 amu", 
+                    "44.01 amu",
+                    "56.02 amu",
+                    "no correct response",
+                ],
+                ans: "B",
+            },
+            {
+                id: 3,
+                question: `The atomic mass of H is 1.01 amu and that of N is 14.01 amu. What is the value of x in the chemical formula NH<sub>x</sub>, given that the formula mass of this compound is 17.04 amu?`,
+                options: [
+                    "2", 
+                    "3",
+                    "4",
+                    "no correct response",
+                ],
+                ans: "B",
+            },
+            {
+                id: 4,
+                question: `The numerical value for Avogadro's number is`,
+                options: [
+                    `6.02 X ${exp(21)}`, 
+                    `6.02 X ${exp(24)}`, 
+                    `6.02 X ${exp(26)}`, 
+                    "no correct response",
+                ],
+                ans: "D",
+            },
+            {
+                id: 5,
+                question: `The numbrt of atoms present in 1 mole of P atoms is`,
+                options: [
+                    `6.02 X ${exp(21)}`, 
+                    `6.02 X ${exp(23)}`, 
+                    `6.02 X ${exp(25)}`, 
+                    "no correct response",
+                ],
+                ans: "B",
+            },
+            {
+                id: 6,
+                question: `One mole of S atoms contains twice as many atoms as`,
+                options: [
+                    `one mole of O atoms`, 
+                    `one-half mole of O atoms`, 
+                    `one-eight mole of O atoms`, 
+                    "no correct response",
+                ],
+                ans: "B",
+            },
+            {
+                id: 7,
+                question: `The number of molecules present in 1.50 moles of ${formula("CO", 2)} is`,
+                options: [
+                    `Avogadro's number`, 
+                    `1.50 times Avogadro's number`, 
+                    `Avogadro's number divided by 1.50`, 
+                    "no correct response",
+                ],
+                ans: "B",
+            },
+            {
+                id: 8,
+                question: `Which set of quantities is needed to calculate the molar mass of a compound?`,
+                options: [
+                    `chemical formula and Avogadro's number`, 
+                    `chemical formula and atomic masses`, 
+                    `atomic masses and Avogadro's number`, 
+                    "no correct response",
+                ],
+                ans: "B",
+            },
+            {
+                id: 9,
+                question: `The atomic mass of O is 16.00 amu. The molar mass for O atoms is`,
+                options: [
+                    `16.00 amu`, 
+                    `6.02 X ${exp(23)} amu`, 
+                    `16.00 g`, 
+                    "no correct response",
+                ],
+                ans: "C",
+            },
+            {
+                id: 10,
+                question: `The atomic masses of N and O are, respectively, 14.01 amu and 16.00 amu. The molar mass of the compound ${formula("NO", 2)} is`,
+                options: [
+                    `30.01 g`, 
+                    `44.02 g`, 
+                    `46.01 g`, 
+                    "no correct response",
+                ],
+                ans: "C",
+            },
+            {
+                id: 11,
+                question: `The molar mass of ${formula("CO",2)} is 44.01 g. WHat is the mass, in amu, of one molecule of ${formula("CO",2)}?`,
+                options: [
+                    `44.01 g`, 
+                    `44.01 amu`, 
+                    `44.01 amu times Avogadro's number`, 
+                    "no correct response",
+                ],
+                ans: "B",
+            },
+            {
+                id: 12,
+                question: `The formula mass of ${formula("N",2,"O")} is 44.02 amu. What is the mass, in grams, of one-half mole of ${formula("N",2,"O")}?`,
+                options: [
+                    `88.04 g`, 
+                    `44.02 g`, 
+                    `22.01 g`, 
+                    "no correct response",
+                ],
+                ans: "C",
+            },
+            {
+                id: 13,
+                question: `How many moles of H atoms are present in one mole of ${formula("H",3,"PO",4)} molecules?`,
+                options: [
+                    `1 mole`, 
+                    `2 moles`, 
+                    `3 moles`, 
+                    "no correct response",
+                ],
+                ans: "C",
+            },
+            {
+                id: 14,
+                question: `Which of the following samples contains 4.0 moles of O atoms?`,
+                options: [
+                    `1.0 mole ${formula("SO",2)}`, 
+                    `2.0 moles ${formula("SO",2)}`, 
+                    `1.0 mole ${formula("SO",3)}`, 
+                    "no correct response",
+                ],
+                ans: "B",
+            },
+            {
+                id: 15,
+                question: `The total number of moles of atoms present in 4.00 moles of ${formula("CO",2)} is`,
+                options: [
+                    `3.00 moles`,
+                    `8.00 moles`,
+                    `12.0 moles`,
+                    "no correct response",
+                ],
+                ans: "C",
+            },
+            {
+                id: 16,
+                question: `When the chemical equation Na + S -> ${formula("Na",2,"S")} is correctly balanced, the proper sequence of coefficients is`,
+                options: [
+                    `1,2,2`,
+                    `2,1,2`,
+                    `2,1,2`,
+                    "no correct response",
+                ],
+                ans: "D",
+            },
+            {
+                id: 17,
+                question: `When the chemical equation Al + ${formula("O",2)} -> ${formula("Al",2,"O",3)} is correctly balanced, which of the following expressions appears in it?`,
+                options: [
+                    `3 Al`,
+                    `3 ${formula("O",2)}`,
+                    `3 ${formula("Al",2,"O",3)}`,
+                    "no correct response",
+                ],
+                ans: "B",
+            },
+            {
+                id: 18,
+                question: `A balanced chemical equation contains the expression 2 ${formula("Fe", "Cl", 3)}. How many atoms does this expression represents?`,
+                options: [
+                    `two`,
+                    `four`,
+                    `eight`,
+                    "no correct response",
+                ],
+                ans: "C",
+            },
+            
+            {
+                id: 19,
+                question: `Which of the following elemental gases is not written as a diatomic molecule in a chemical equation?`,
+                options: [
+                    `hydrogen`,
+                    `nitrogen`,
+                    `helium`,
+                    "no correct response",
+                ],
+                ans: "C",
+            },
+            {
+                id: 20,
+                question: `Which of the following statements is true for all balanced chemical equations?`,
+                options: [
+                    `The sum of the coefficients on each side of the equation must be equal.`,
+                    `The sum of the formula subscripts on each side of the equation must be equal`,
+                    `The total number of atoms on each side of the equation must be equal.`,
+                    "no correct response",
+                ],
+                ans: "C",
+            },
+            {
+                id: 21,
+                question: `Which of the following statements is consistent with the information found in the chemical equation ${formula("N",2)} + 3${formula("H",2)} -> 2${formula("NH",3)}?`,
+                options: [
+                    `1 mole of ${formula("NH",3)} is produced when 1 mole of ${formula("N",2)} reacts`,
+                    `3 moles of ${formula("H",2)} are needed to produce 1 mole of ${formula("NH",3)}`,
+                    `${formula("N",2)} and ${formula("H",2)} react in a 1-to-3 molar ratio`,
+                    "no correct response",
+                ],
+                ans: "C",
+            },
+            {
+                id: 22,
+                question: `How many moles of Al are needed to produce 6.0 moles of ${formula("Al",2,"S",3)} via the chemical reaction 2${formula("Al")} + 3S -> ${formula("Al",2,"S",3)}`,
+                options: [
+                    `2.0 moles`,
+                    `6.0 moles`,
+                    `12.0 moles`,
+                    "no correct response",
+                ],
+                ans: "C",
+            },
+            {
+                id: 23,
+                question: `How many moles of ${formula("CO",2)} are formed at the same time 2.0 moles of ${formula("H",2,"O")} are formed in the chemical reaction ${formula("CH",4)} + 2${formula("O",2)} -> ${formula("CO",2)} + 2${formula("H",2,"O")}`,
+                options: [
+                    `2.0 moles`,
+                    `3.0 moles`,
+                    `4.0 moles`,
+                    "no correct response",
+                ],
+                ans: "D",
+            },          
+        ]
     }
 ]
-
-module.exports = chemistryQuestions
