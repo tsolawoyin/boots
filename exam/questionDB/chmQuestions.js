@@ -4611,3 +4611,5 @@ let chemistryQuestions = [
         ]
     }
 ]
+
+module.exports = chemistryQuestions

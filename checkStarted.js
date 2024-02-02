@@ -1,11 +1,11 @@
 
 let started = localStorage.getItem("started");
-const errorPage = document.querySelector(".error")
+const errorPage = document.querySelector(".error");
 const header = document.querySelector("header");
-const footer = document.querySelector("footer")
+const footer = document.querySelector("footer");
 const inputEl = document.querySelector("#unlock");
 const submitEl = document.querySelector("#unlock-btn");
-const errMini = document.querySelector("#err")
+const errMini = document.querySelector("#err");
 // console.log(started)
 
 

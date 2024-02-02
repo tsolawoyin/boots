@@ -46,7 +46,7 @@ const leaderBoard= [
         name: "Seun",
         chm: [50,25,32.5,17.5,57.5,47.5,92.5], // an object will help me track their progress in each topic
         bio: [0],
-        eng: [95,72.5,-12.5,20], 
+        eng: [30,95,72.5,-12.5,20], 
         calcScore() {
             return this.chm.reduce((a, e ) => a + e) + this.bio.reduce((a,e) => a + e) + this.eng.reduce((a,c) => a + c); // makes sense...
         }
@@ -56,7 +56,7 @@ const leaderBoard= [
         name: "Ayodeji",
         chm: [27.5,22.5,70,22.5,72.5,90,62.5],
         bio: [0],
-        eng: [0,52.5,5,10], 
+        eng: [30,0,52.5,5,10], 
         calcScore() {
             return this.chm.reduce((a, e ) => a + e) + this.bio.reduce((a,e) => a + e) + this.eng.reduce((a,c) => a + c); // makes sense...
         }
@@ -76,7 +76,7 @@ const leaderBoard= [
         name: "Tosin",
         chm: [55,45,50,17.5,90,40,67.5],
         bio: [0],
-        eng: [62.5,72.5,55,32.5], 
+        eng: [95,62.5,72.5,55,32.5], 
         calcScore() {
             return this.chm.reduce((a, e ) => a + e) + this.bio.reduce((a,e) => a + e) + this.eng.reduce((a,c) => a + c); // makes sense...
         }
