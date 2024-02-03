@@ -2000,7 +2000,7 @@ let englishQuestions = [
             "avoiding",
             "struggling with",
             "combating",
-            'repellinb',
+            'repelling',
           ],
           "ans": "A",
           "main": "contending",
@@ -2097,6 +2097,791 @@ let englishQuestions = [
           "main": "expert",
           'remark': "" ,
         },
+      ]
+    },
+    {
+      topic: "Antonyms III",
+      questions: [
+        {
+          "id": "1",
+          "question": "WIlfred was a mindless criminal",
+          "options": [
+            "strong",
+            "mindful",
+            "feeling",
+            "memorable"
+          ],
+          "ans": "B",
+          "main": "mindless",
+          "remark": ""
+        },
+        {
+          "id": "2",
+          "question": "The theives vandalized the vault's lock",
+          "options": [
+            "repaired",
+            "arranged",
+            "serviced",
+            "actuated"
+          ],
+          "ans": "A",
+          "main": "vandalized",
+          "remark": ""
+        },
+        {
+          "id": "3",
+          "question": "The angry waves swallowed the boat.",
+          "options": [
+            "gentle",
+            "unruffled",
+            "cool",
+            "serene"
+          ],
+          "ans": "A",
+          "main": "angry",
+          "remark": ""
+        },
+        {
+          "id": "4",
+          "question": "Lola was agitated when the sad news of her mother's accident was broken to her.",
+          "options": [
+            "excited",
+            "calm",
+            "uncontrollable",
+            "unreasonable"
+          ],
+          "ans": "B",
+          "main": "agitated",
+          "remark": ""
+        },
+        {
+          "id": "5",
+          "question": "Though his parents' poverty placed many obstacles in his path as a young man, Olu succeeded at last.",
+          "options": [
+            "hurdles",
+            "advantages",
+            "temptatins",
+            "diversions"
+          ],
+          "ans": "B",
+          "main": "obstacles",
+          "remark": ""
+        },
+        {
+          "id": "6",
+          "question": "BInta sobbed by the door because she had lost her mother's precious necklace.",
+          "options": [
+            "cried",
+            "smiled",
+            "wept",
+            "laughed"
+          ],
+          "ans": "D",
+          "main": "sobbed",
+          "remark": ""
+        },
+        {
+          "id": "7",
+          "question": "The president took exception to the ignoble role the young man played in the matter",
+          "options": [
+            "honorable",
+            "embarassing",
+            "dishonorable",
+            "extraordinary"
+          ],
+          "ans": "A",
+          "main": "ignoble",
+          "remark": ""
+        },
+        {
+          "id": "8",
+          "question": "The man who had been seriously ill was convalescing at a sea-side resort.",
+          "options": [
+            "regaining health",
+            "deteriorating in health",
+            "recuperating",
+            "relaxing"
+          ],
+          "ans": "B",
+          "main": "convalescing",
+          "remark": ""
+        },
+        {
+          "id": "9",
+          "question": "For million of years, the world's resources have remained boundless.",
+          "options": [
+            "unlimited",
+            "scarce",
+            "indomitable",
+            "limited"
+          ],
+          "ans": "D",
+          "main": "boundless",
+          "remark": ""
+        },
+        {
+          "id": "10",
+          "question": "It seems fashionable, in some quarters today, to decry examinations and the ability to pass them.",
+          "options": [
+            "extol",
+            "abuse",
+            "entreat",
+            "discourage"
+          ],
+          "ans": "A",
+          "main": "decry",
+          "remark": ""
+        },
+        {
+          "id": "11",
+          "question": "Ogedegbe was an intrepid fighter for human freedom and dignity.",
+          "options": [
+            "timid",
+            "half-hearted",
+            "fearless",
+            "undaunted"
+          ],
+          "ans": "A",
+          "main": "intrepid",
+          "remark": ""
+        },
+        {
+          "id": "12",
+          "question": "The difference between the experimental procedures was imperceptible to me",
+          "options": [
+            "negligible",
+            "significant",
+            "obvious",
+            "observe"
+          ],
+          "ans": "C",
+          "main": "imperceptible",
+          "remark": ""
+        },
+        {
+          "id": "13",
+          "question": "His antipathy to religious ideas makes him unpopular",
+          "options": [
+            "remedy",
+            "consciousness",
+            "hostility",
+            "receptiveness"
+          ],
+          "ans": "D",
+          "main": "antipathy",
+          "remark": ""
+        },
+        {
+          "id": "14",
+          "question": "My father is a very prosperous businessman.",
+          "options": [
+            "ungrateful",
+            "unscrupulous",
+            "unskillful",
+            "unsuccessful"
+          ],
+          "ans": "D",
+          "main": "prosperous",
+          "remark": ""
+        },
+        {
+          "id": "15",
+          "question": "THe hostess greeted her guests in a very relaxed manner",
+          "options": [
+            "enrgetic",
+            "athletic",
+            "stiff",
+            "perplexed"
+          ],
+          "ans": "A",
+          "main": "relaxed",
+          "remark": ""
+        },
+        {
+          "id": "16",
+          "question": "Ayo takes his studies rather lightly.",
+          "options": [
+            "humorously",
+            "tediously",
+            "carefully",
+            "seriously"
+          ],
+          "ans": "D",
+          "main": "lightly",
+          "remark": ""
+        },
+        {
+          "id": "17",
+          "question": "The doctor was very gentle with his patients in the examining room.",
+          "options": [
+            "harsh",
+            "rude",
+            "tough",
+            "unkind"
+          ],
+          "ans": "A",
+          "main": "gentle",
+          "remark": ""
+        },
+        {
+          "id": "18",
+          "question": "Ojo's response infuriated his wife.",
+          "options": [
+            "annoyed",
+            "pleased",
+            "surprised",
+            "confused"
+          ],
+          "ans": "B",
+          "main": "infuriated",
+          "remark": ""
+        },
+        {
+          "id": "19",
+          "question": "He accepted a mundane task without hesitation.",
+          "options": [
+            "great",
+            "lowly",
+            "menial",
+            "moderate"
+          ],
+          "ans": "A",
+          "main": "mundane",
+          "remark": ""
+        },
+        {
+          "id": "20",
+          "question": "It is a unique opportunity for her to demonstrate the reality of her faith.",
+          "options": [
+            "strange",
+            "usual",
+            "golden",
+            "unusual"
+          ],
+          "ans": "B",
+          "main": "unique",
+          "remark": ""
+        },
+        {
+          "id": "21",
+          "question": "Her identification with the king is publicly known.",
+          "options": [
+            "hatred",
+            "disassociation",
+            "relationship",
+            "intimacy"
+          ],
+          "ans": "B",
+          "main": "identification",
+          "remark": ""
+        },
+        {
+          "id": "22",
+          "question": "The economic situation in the country is obviously gloomy",
+          "options": [
+            "encouraging",
+            "moody",
+            "unknown",
+            "regrettable"
+          ],
+          "ans": "A",
+          "main": "gloomy",
+          "remark": ""
+        },
+        {
+          "id": "23",
+          "question": "One wonders if the situation will improve",
+          "options": [
+            "brighten",
+            "diminish",
+            "disintegrate",
+            "worsen"
+          ],
+          "ans": "D",
+          "main": "improve",
+          "remark": ""
+        },
+        {
+          "id": "24",
+          "question": "Language teachers believe that grammer exercises stretch the mind",
+          "options": [
+            "expand",
+            "ruin",
+            "enrich",
+            "restrict"
+          ],
+          "ans": "D",
+          "main": "stretch",
+          "remark": ""
+        },
+        {
+          "id": "25",
+          "question": "These two books are identical",
+          "options": [
+            "alike",
+            "similar",
+            "different",
+            "equal"
+          ],
+          "ans": "C",
+          "main": "identical",
+          "remark": ""
+        },
+        {
+          "id": "26",
+          "question": "The doctor tried to alleviate his patients pain",
+          "options": [
+            "relieve",
+            "worsen",
+            "kill",
+            "cure"
+          ],
+          "ans": "B",
+          "main": "alleviate",
+          "remark": ""
+        },
+        {
+          "id": "27",
+          "question": "The instructions on the examination paper are explicit",
+          "options": [
+            "simple",
+            "ambigous",
+            "detailed",
+            "definite"
+          ],
+          "ans": "B",
+          "main": "explicit",
+          "remark": ""
+        },
+        {
+          "id": "28",
+          "question": "Okoro is an amateur wrestler",
+          "options": [
+            "skillful",
+            "good",
+            "professional",
+            "strong"
+          ],
+          "ans": "C",
+          "main": "amateur",
+          "remark": ""
+        },
+        {
+          "id": "29",
+          "question": "The effect of rising prices has snowballed considerably",
+          "options": [
+            "risen",
+            "decreased",
+            "frozen",
+            "grown"
+          ],
+          "ans": "B",
+          "main": "snowballed",
+          "remark": ""
+        },
+        {
+          "id": "30",
+          "question": "THe economic situation is responsible for the recent discord in many families.",
+          "options": [
+            "division",
+            "resourcefulness",
+            "harmony",
+            "suffering"
+          ],
+          "ans": "C",
+          "main": "discord",
+          "remark": ""
+        },
+        {
+          "id": "31",
+          "question": "The college was worried about Tunji's garrulous tendencies",
+          "options": [
+            "reticent",
+            "loquacious",
+            "quarrelsome",
+            "outspoken"
+          ],
+          "ans": "A",
+          "main": "garrulous",
+          "remark": ""
+        },
+        {
+          "id": "32",
+          "question": "Surveying the sky in the quiet of the night gives me an ethereal feeling.",
+          "options": [
+            "human",
+            "earthly",
+            "mundane",
+            "commonplace"
+          ],
+          "ans": "B",
+          "main": "ethereal",
+          "remark": ""
+        },
+        {
+          "id": "33",
+          "question": "The awareness of mortality has always imposed some restaint on man's excesses",
+          "options": [
+            "celestiality",
+            "eternity",
+            "continuity",
+            "in existence"
+          ],
+          "ans": "B",
+          "main": "mortality",
+          "remark": ""
+        },
+        {
+          "id": "34",
+          "question": "The decision we have taken is irrevocable.",
+          "options": [
+            "responsible",
+            "irresponsible",
+            "reversible",
+            "irreversible"
+          ],
+          "ans": "C",
+          "main": "irrevocable",
+          "remark": ""
+        },
+        {
+          "id": "35",
+          "question": "The lawyer pointed out a discrepancy in the two stories",
+          "options": [
+            "similarity",
+            "gap",
+            "falsehood",
+            "difference"
+          ],
+          "ans": "A",
+          "main": "discrepancy",
+          "remark": ""
+        },
+        {
+          "id": "36",
+          "question": "Their high level of dishonesty has made that department infamous in the entire secretariat.",
+          "options": [
+            "reputable",
+            "notorious",
+            "unpopular",
+            "acceptable"
+          ],
+          "ans": "A",
+          "main": "infamous",
+          "remark": ""
+        },
+        {
+          "id": "37",
+          "question": "The paper carries many humourous cartoons on Saturdays.",
+          "options": [
+            "amorous",
+            "grievous",
+            "hilarious",
+            "grave"
+          ],
+          "ans": "D",
+          "main": "humourous",
+          "remark": ""
+        },
+        {
+          "id": "38",
+          "question": "All through his years in public office, he found his father's advice invaluable.",
+          "options": [
+            "priceless",
+            "hopeless",
+            "worthless",
+            "helpful"
+          ],
+          "ans": "C",
+          "main": "invaluable",
+          "remark": ""
+        },
+        {
+          "id": "39",
+          "question": "The lecturer was merely obfuscating the issue with his endless examples",
+          "options": [
+            "complicating",
+            "clarifying",
+            "confusing",
+            "summarizing"
+          ],
+          "ans": "B",
+          "main": "obfuscating",
+          "remark": ""
+        },
+        {
+          "id": "40",
+          "question": "Such measures end up exacerbating the pain",
+          "options": [
+            "aggravating",
+            "increasing",
+            "eliminating",
+            "alleviating"
+          ],
+          "ans": "D",
+          "main": "exacerbating",
+          "remark": ""
+        },
+        {
+          "id": "41",
+          "question": "In a sentence, there must always be concord between a subject and its verb.",
+          "options": [
+            "breach",
+            "departure",
+            "disagreement",
+            "dispute"
+          ],
+          "ans": "C",
+          "main": "concord",
+          "remark": ""
+        },
+        {
+          "id": "42",
+          "question": "In the course of the debate, the speakers were advised to summarize their points",
+          "options": [
+            "argue",
+            "develop",
+            "round off",
+            "round up"
+          ],
+          "ans": "B",
+          "main": "summarize",
+          "remark": ""
+        },
+        {
+          "id": "43",
+          "question": "We should discourage further investment in existing factories",
+          "options": [
+            "productive",
+            "prosperous",
+            "prospective",
+            "precious"
+          ],
+          "ans": "C",
+          "main": "existing",
+          "remark": ""
+        },
+        {
+          "id": "44",
+          "question": "Nigeria is gradually experiencing economic recession",
+          "options": [
+            "birth",
+            "discovery",
+            "recovery",
+            "destruction"
+          ],
+          "ans": "C",
+          "main": "recession",
+          "remark": ""
+        },
+        {
+          "id": "45",
+          "question": "Good students can easily identify spurious",
+          "options": [
+            "genuine",
+            "interesting",
+            "false",
+            "illogical"
+          ],
+          "ans": "A",
+          "main": "spurious",
+          "remark": ""
+        },
+        {
+          "id": "46",
+          "question": "Eze's skin now looks flabby as a result of his changed circumstances.",
+          "options": [
+            "neat",
+            "firm",
+            "weak",
+            "oily"
+          ],
+          "ans": "B",
+          "main": "flabby",
+          "remark": ""
+        },
+        {
+          "id": "47",
+          "question": "He and his lieutenants have been accused of remaining intransigent",
+          "options": [
+            "rigid",
+            "stubborn",
+            "comprosing",
+            "popular"
+          ],
+          "ans": "C",
+          "main": "intransigent",
+          "remark": ""
+        },
+        {
+          "id": "48",
+          "question": "In the opinion of most observers, it was a disinterested decision.",
+          "options": [
+            "neutral",
+            "impartial",
+            "biased",
+            "candid"
+          ],
+          "ans": "C",
+          "main": "disinterested",
+          "remark": ""
+        },
+        {
+          "id": "49",
+          "question": "We watched in wonder as she rattled away in the esoteric language",
+          "options": [
+            "inscrutable",
+            "familiar",
+            "secret",
+            "obscure"
+          ],
+          "ans": "B",
+          "main": "esoteric",
+          "remark": ""
+        },
+        {
+          "id": "50",
+          "question": "Many species in creation have mutated over the years into new forms of life.",
+          "options": [
+            "stabilized",
+            "manifested",
+            "transformed",
+            "standardized"
+          ],
+          "ans": "A",
+          "main": "mutated",
+          "remark": ""
+        },
+        {
+          "id": "51",
+          "question": "His textile business deals are ingress",
+          "options": [
+            "wholesale",
+            "imported",
+            "retailed",
+            "exported"
+          ],
+          "ans": "D",
+          "main": "ingress",
+          "remark": ""
+        },
+        {
+          "id": "52",
+          "question": "The government is intiating new effective programmes to boost production",
+          "options": [
+            "ending",
+            "reviewing",
+            "rearranging",
+            "terminating"
+          ],
+          "ans": "D",
+          "main": "initiating",
+          "remark": ""
+        },
+        {
+          "id": "53",
+          "question": "The culprit unwittingly subjected himself to great  humiliation.",
+          "options": [
+            "cunningly",
+            "curiously",
+            "foolishly",
+            "subtly"
+          ],
+          "ans": "A",
+          "main": "unwittingly",
+          "remark": ""
+        },
+        {
+          "id": "54",
+          "question": "In his quest for solidarity, the party leader undertook a nationwide tour.",
+          "options": [
+            "unity",
+            "resistance",
+            "mobilization",
+            "reorganization"
+          ],
+          "ans": "B",
+          "main": "solidarity",
+          "remark": ""
+        },
+        {
+          "id": "55",
+          "question": "Our party is wieding potent political power.",
+          "options": [
+            "assuming",
+            "renouncing",
+            "restoring",
+            "reappraising"
+          ],
+          "ans": "B",
+          "main": "wieding",
+          "remark": ""
+        },
+        {
+          "id": "56",
+          "question": "The ruler expects full allegiance from his subjects at all times.",
+          "options": [
+            "obedience",
+            "homage",
+            "disloyalty",
+            "disapproval"
+          ],
+          "ans": "C",
+          "main": "allegiance",
+          "remark": ""
+        },
+        {
+          "id": "57",
+          "question": "In spite of many days of fasting, Musa is still fastidious about his food",
+          "options": [
+            "particular",
+            "undecided",
+            "indifferent",
+            "unmindful"
+          ],
+          "ans": "D",
+          "main": "fastidious",
+          "remark": ""
+        },
+        {
+          "id": "58",
+          "question": "The leader called for concerted efforts in order to get over the problems.",
+          "options": [
+            "combined",
+            "definite",
+            "disparate",
+            "isolated"
+          ],
+          "ans": "C",
+          "main": "concerted",
+          "remark": ""
+        },
+        {
+          "id": "59",
+          "question": "The video tape recorder was made obsolete by the introduction of the satellite dish.",
+          "options": [
+            "antiquated",
+            "useless",
+            "fashionable",
+            "functional"
+          ],
+          "ans": "C",
+          "main": "obsolete",
+          "remark": ""
+        },
+        {
+          "id": "60",
+          "question": "Segun is somebody who always follows his own inclinations.",
+          "options": [
+            "impulses",
+            "aversions",
+            "dispositions",
+            "deviations"
+          ],
+          "ans": "B",
+          "main": "inclinations",
+          "remark": ""
+        }
       ]
     },
     {
