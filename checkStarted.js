@@ -13,10 +13,10 @@ if (started == "true") {
     displayErr()
 }
 
-window.addEventListener("blur", e => {
-    displayErr()
-    localStorage.setItem("started", true)
-})
+// window.addEventListener("blur", e => {
+//     displayErr()
+//     localStorage.setItem("started", true)
+// })
 
 function displayErr() {
     homepage.remove(); // just remove none since we don't need it...
