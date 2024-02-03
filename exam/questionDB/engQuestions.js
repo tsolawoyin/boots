@@ -1318,7 +1318,7 @@ let englishQuestions = [
             "an edgy",
             "a tolerable"
           ],
-          "ans": "A",
+          "ans": "B",
           "main": "impatient",
           'remark': "" ,
         },
@@ -1357,7 +1357,7 @@ let englishQuestions = [
             "A primitive",
             "An incorrect"
           ],
-          "ans": "A",
+          "ans": "B",
           "main": "conservative",
           'remark': "" ,
         },
@@ -1370,7 +1370,7 @@ let englishQuestions = [
             "apostates",
             "opponents"
           ],
-          "ans": "A",
+          "ans": "D",
           "main": "apostles",
           'remark': "" ,
         },
@@ -1383,7 +1383,7 @@ let englishQuestions = [
             "piloted",
             "received"
           ],
-          "ans": "A",
+          "ans": "B",
           "main": "imperiled",
           'remark': "" ,
         },
@@ -1397,7 +1397,7 @@ let englishQuestions = [
             "excited"
           ],
           "ans": "A",
-          "main": "imperiled",
+          "main": "dauntless",
           'remark': "" ,
         },
         {
@@ -1409,7 +1409,7 @@ let englishQuestions = [
             "weak",
             "strong"
           ],
-          "ans": "A",
+          "ans": "C",
           "main": "plucky",
           'remark': "" ,
         },
@@ -1422,7 +1422,7 @@ let englishQuestions = [
             "calmed",
             "refreshed"
           ],
-          "ans": "A",
+          "ans": "C",
           "main": "unnerved",
           'remark': "" ,
         },
@@ -1435,7 +1435,7 @@ let englishQuestions = [
             "flashy",
             "familiar"
           ],
-          "ans": "A",
+          "ans": "D",
           "main": "outlandish",
           'remark': "" ,
         },
@@ -1461,7 +1461,7 @@ let englishQuestions = [
             "a safe",
             "an open"
           ],
-          "ans": "A",
+          "ans": "D",
           "main": "shady",
           'remark': "" ,
         },
@@ -1479,7 +1479,7 @@ let englishQuestions = [
         },
         {
           "id": 14,
-          "question": "My father's presentation was rather unusual.",
+          "question": "My father's presentation was rather casual.",
           "options": [
             "vital",
             "divisive",
@@ -1487,7 +1487,7 @@ let englishQuestions = [
             'informal'
           ],
           "ans": "A",
-          "main": "unusual",
+          "main": "casual",
           'remark': "" ,
         },
         {
@@ -1499,7 +1499,7 @@ let englishQuestions = [
             "a joyous",
             'an unexpected'
           ],
-          "ans": "A",
+          "ans": "B",
           "main": "ecstatic",
           'remark': "" ,
         },
@@ -1512,7 +1512,7 @@ let englishQuestions = [
             "friendly",
             'vociferous'
           ],
-          "ans": "A",
+          "ans": "C",
           "main": "vindictive",
           'remark': "" ,
         },
@@ -1525,7 +1525,7 @@ let englishQuestions = [
             "tirelessly",
             'vociferously'
           ],
-          "ans": "A",
+          "ans": "B",
           "main": "freelance",
           'remark': "" ,
         },
@@ -1538,7 +1538,7 @@ let englishQuestions = [
             "strange to",
             'belong to'
           ],
-          "ans": "A",
+          "ans": "C",
           "main": "contemporary",
           'remark': "" ,
         },
@@ -1577,7 +1577,7 @@ let englishQuestions = [
             "compromising",
             'submitting'
           ],
-          "ans": "A",
+          "ans": "B",
           "main": "aquiescing",
           'remark': "" ,
         },
@@ -1590,21 +1590,8 @@ let englishQuestions = [
             "different from",
             'distant from'
           ],
-          "ans": "A",
+          "ans": "C",
           "main": "analogous",
-          'remark': "" ,
-        },
-        {
-          "id": 23,
-          "question": "The dramalist provided a satisfactory to the play.",
-          "options": [
-            "advantageous",
-            "introduction",
-            "audition",
-            'climax'
-          ],
-          "ans": "A",
-          "main": "satisfactory",
           'remark': "" ,
         },
         // start here
