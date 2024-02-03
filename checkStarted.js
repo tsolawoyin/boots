@@ -9,9 +9,14 @@ const errMini = document.querySelector("#err");
 // console.log(started)
 
 
-// if (started == "true") {
-//     displayErr()
-// }
+if (started == "true") {
+    displayErr()
+}
+
+window.addEventListener("blur", e => {
+    displayErr()
+    localStorage.setItem("started", true)
+})
 
 function displayErr() {
     homepage.remove(); // just remove none since we don't need it...
@@ -21,7 +26,7 @@ function displayErr() {
 }
 // can only be unlocked if you know the password
 submitEl.addEventListener("click", e => {
-    if (inputEl.value == "scabadoo") {
+    if (inputEl.value == "scabash") {
         localStorage.setItem("started", false);
         errMini.innerHTML += `<p class="text-white">You can now refresh the page.</p>`
     } else {
