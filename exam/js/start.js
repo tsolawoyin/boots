@@ -32,7 +32,7 @@ startBtn.addEventListener("click", (e) => {
     examInterface.style.display = "grid"; // display exam interface...
 
   } else {
-    window.alert("Sorry.You are not registered.");
+    window.alert("Please enter a valid name.");
   }
 });
 

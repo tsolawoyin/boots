@@ -1,10 +1,11 @@
 // this code will help validate
 
-let validUsers = ["adekizzy", "danny", "sen", "victoria", "temmy", 'olamide','nifemi', "blessed academy"]
+
 
 // return true if user is present
 function valid(user) {
-    return validUsers.includes(user.toLowerCase())
+    let regex = /[a-zA-Z]{3,}/
+    return regex.test(user)
 }
 
 username.addEventListener("keyup", e => {
