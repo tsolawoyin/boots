@@ -75,3 +75,10 @@ nav {
     border-radius: 5px;
     margin-top: 6px;
 }
+
+/* this is will be where will toggle on it's visibility */
+/* these guys must be extremely serious */
+#theory {
+    margin-top: 1em;
+    /* display: none;  */
+}
