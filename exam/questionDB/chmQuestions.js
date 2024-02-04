@@ -4611,7 +4611,7 @@ let chemistryQuestions = [
         ]
     },
     {
-        "topic": "Chemical calculation I",
+        "topic": "Chemical calculation LTE",
         "questions": [
             {
                 id: 1,
