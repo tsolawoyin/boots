@@ -1292,7 +1292,7 @@ let englishQuestions = [
         },
         {
           "id": 98,
-          "question": "Maryam loath to do the assignment.",
+          "question": "I am loath to do the assignment.",
           "options": [
             "willing",
             "waiting",
@@ -1376,7 +1376,7 @@ let englishQuestions = [
         },
         {
           "id": 6,
-          "question": "The ship was imperiled by high winds.",
+          "question": "The ship was imperilled by high winds.",
           "options": [
             "destroyed",
             "saved",
@@ -1384,7 +1384,7 @@ let englishQuestions = [
             "received"
           ],
           "ans": "B",
-          "main": "imperiled",
+          "main": "imperilled",
           'remark': "" ,
         },
         {
@@ -1521,7 +1521,7 @@ let englishQuestions = [
           "question": "The journalist said he was working freelance.",
           "options": [
             "without a pay",
-            "pendantly",
+            "dependently",
             "tirelessly",
             'vociferously'
           ],
@@ -1540,6 +1540,19 @@ let englishQuestions = [
           ],
           "ans": "C",
           "main": "contemporary",
+          'remark': "" ,
+        },
+        {
+          "id": 199,
+          "question": "The man who scared the girl was a bit deranged.",
+          "options": [
+            "dangerous",
+            "crazy",
+            "sane",
+            'amorous'
+          ],
+          "ans": "C",
+          "main": "deranged",
           'remark': "" ,
         },
         {
@@ -1570,7 +1583,7 @@ let englishQuestions = [
         },
         {
           "id": 21,
-          "question": "The professor accused Uche of silently acquiescing to the students demand.",
+          "question": "The proprietor accused Uche of silently acquiescing to the students demand.",
           "options": [
             "adjusting",
             "resisting",
@@ -1594,6 +1607,10 @@ let englishQuestions = [
           "main": "analogous",
           'remark': "" ,
         },
+        // ends here... thanks baby
+        // adekizzy love. muah
+        // all these love thing is beginning to wane in my head. lol.
+        // when affairs is involved, these girls misbehave.
         // start here
         {
           "id": 24,
@@ -2095,6 +2112,19 @@ let englishQuestions = [
           ],
           "ans": "B",
           "main": "expert",
+          'remark': "" ,
+        },
+        {
+          "id": 61,
+          "question": "Coastal plains are often very densely populated.",
+          "options": [
+            "badly",
+            "rarely",
+            "sparsely",
+            'weakly',
+          ],
+          "ans": "C",
+          "main": "densely",
           'remark': "" ,
         },
       ]
@@ -2883,6 +2913,636 @@ let englishQuestions = [
           "remark": ""
         }
       ]
+    },
+    {
+      topic: 'Antonyms IV',
+      questions: [
+        {
+          "id": "vq1s",
+          "question": "The dramatist provided a satisfactory denouement to the play",
+          "options": ["critism", "introduction", "audition", "climax"],
+          "ans": "B",
+          "main": "denouement",
+          "remark": ""
+        },
+        {
+          "id": "hno0",
+          "question": "Idris gives me a sour look anytime i pass by him",
+          "options": ["satisfactory", "friendly", "sinister", "bad"],
+          "ans": "B",
+          "main": "sour",
+          "remark": ""
+        },
+        {
+          "id": "9api",
+          "question": "The principal was filled with scorn when we gave our reason for coming late",
+          "options": ["sympathy", "contempt", "pity", "anger"],
+          "ans": "C",
+          "main": "scorn",
+          "remark": ""
+        },
+        {
+          "id": "b4r6",
+          "question": "Manu is hard hard to convince because he is an opinionated person",
+          "options": ["an imperative", "a dicursive", "subjective", "an objective"],
+          "ans": "D",
+          "main": "opinionated",
+          "remark": ""
+        },
+        {
+          "id": "ef60",
+          "question": "The officer was given an insidious task",
+          "options": ["a pleasant", "difficult", "vivid", "cruel"],
+          "ans": "A",
+          "main": "insidious",
+          "remark": ""
+        },
+        {
+          "id": "kuuh",
+          "question": "The usually hostile crowd was captivated by the player's winsome attitude",
+          "options": ["obnoxious", "friendly", "colourful", "drunken"],
+          "ans": "A",
+          "main": "winsome",
+          "remark": ""
+        },
+        {
+          "id": "4bu8",
+          "question": "The reporter made masterly analysis of the situation",
+          "options": ["an unskillfull", "a mistaken", "an in-depth", "a proper"],
+          "ans": "A",
+          "main": "masterly",
+          "remark": ""
+        },
+        {
+          "id": "osp7",
+          "question": "That little boy has become quite chubby",
+          "options": ["thin", "intelligent", "huge", "tall"],
+          "ans": "A",
+          "main": "chubby",
+          "remark": ""
+        },
+        {
+          "id": "qi4f",
+          "question": "Akpan was able douse the flame with the new piece of equipment",
+          "options": ["reduce", "extinguish", "ignite", "reinforce"],
+          "ans": "C",
+          "main": "douse",
+          "remark": ""
+        },
+        {
+          "id": "kcg7",
+          "question": "He gave himself up by his plebeian tastes",
+          "options": ["robust", "voracious", "patrician", "laughable"],
+          "ans": "C",
+          "main": "plebeian",
+          "remark": ""
+        },
+        {
+          "id": "an15",
+          "question": "The action was premeditated",
+          "options": ["unnecessary", "catastrophic", "unplanned", "uncoordinated"],
+          "ans": "C",
+          "main": "premeditated",
+          "remark": ""
+        },
+        {
+          "id": "kfiz",
+          "question": "A tentative solution was provided",
+          "options": ["a convincing", "a provisional", "an amicable", "a definitive"],
+          "ans": "D",
+          "main": "tentative",
+          "remark": ""
+        },
+        {
+          "id": "sqzj",
+          "question": "The chief said he will use the power inherent in his offfice to stop the celebration",
+          "options": ["unrelated to", "common to", "an amicable", "impervious to"],
+          "ans": "A",
+          "main": "inherent",
+          "remark": ""
+        },
+        {
+          "id": "wif0",
+          "question": "In our last play, Segun acted the hero",
+          "options": ["villian", "devil", "criminal", "assassin"],
+          "ans": "A",
+          "main": "hero",
+          "remark": ""
+        },
+        {
+          "id": "x3mk",
+          "question": "The police found a conclusive proof of the boy's guilt",
+          "options": [
+            "a corroborative",
+            "a doubtful",
+            "a consolatory",
+            "an incriminating"
+          ],
+          "ans": "B",
+          "main": "conclusive",
+          "remark": ""
+        },
+        {
+          "id": "p2h4",
+          "question": "The point you made is quite apt",
+          "options": ["illogical", "helpful", "irrelevant", "insensitive"],
+          "ans": "C",
+          "main": "apt",
+          "remark": ""
+        },
+        {
+          "id": "qptk",
+          "question": "The man drew a sword as people congregated round him",
+          "options": ["praised", "gathered round", "mobbed", "fled from"],
+          "ans": "D",
+          "main": "congregated",
+          "remark": ""
+        },
+        {
+          "id": "4qzq",
+          "question": "The notice reads, 'No cash transaction in the hall'",
+          "options": ["money", "gainful", "business", "cheque"],
+          "ans": "D",
+          "main": "No cash",
+          "remark": ""
+        },
+        {
+          "id": "resm",
+          "question": "Sola is apathetic about his work.",
+          "options": ["indifferent", "enthusiastic", "half-hearted", "bored"],
+          "ans": "B",
+          "main": "apathetic",
+          "remark": ""
+        },
+        {
+          "id": "5mw0",
+          "question": "The members of the family has a hasty breakfsst before starting out on their journey",
+          "options": ["hurried", "leisurely", "tasty", "nasty"],
+          "ans": "B",
+          "main": "hasty",
+          "remark": ""
+        },
+        {
+          "id": "zwud",
+          "question": "The poverty level among the masses is unbearable.",
+          "options": ["saturation", "affluence", "influence", "arrogance"],
+          "ans": "B",
+          "main": "poverty",
+          "remark": ""
+        },
+        {
+          "id": "jvf6",
+          "question": "The chairman was accused for implementing policies that favored the elites",
+          "options": ["oppressed", "executives", "jobless", "citizens"],
+          "ans": "D",
+          "main": "elite",
+          "remark": ""
+        },
+        {
+          "id": "a1uk",
+          "question": "The manager was impressed by the man's eagerness.",
+          "options": ["impatience", "indifference", "negligence", "calmness"],
+          "ans": "B",
+          "main": "eagerness",
+          "remark": ""
+        },
+        {
+          "id": "7v8v",
+          "question": "He is known for making threadbare arguments as a scholar",
+          "options": ["justifiable", "baseless", "empty", "militant"],
+          "ans": "A",
+          "main": "threadbare",
+          "remark": ""
+        },
+        {
+          "id": "46tk",
+          "question": "The lecture's obscure publications counted against him during promotion exercise.",
+          "options": ["widespread", "closed", "circulated", "restricted"],
+          "ans": "A",
+          "main": "obscure",
+          "remark": ""
+        },
+        {
+          "id": "2rvg",
+          "question": "The man found his wife physically repellant.",
+          "options": ["attractive", "fatuous", "unpleasant", "flamboyant"],
+          "ans": "A",
+          "main": "repellant",
+          "remark": ""
+        },
+        {
+          "id": "n165",
+          "question": "As an absolute ruler, Adayi brooks no opposition from his subordinates",
+          "options": [
+            "a despotic dictator",
+            "a shameless king",
+            " a benevolent leader",
+            "a magnanimous democrat"
+          ],
+          "ans": "D",
+          "main": "absolute",
+          "remark": ""
+        },
+        {
+          "id": "d3nk",
+          "question": "The response to the advertisement has been phenomenal",
+          "options": ["spiritual", "frightening", "unimpressive", "catastrophic"],
+          "ans": "C",
+          "main": "phenomenal",
+          "remark": ""
+        },
+        {
+          "id": "471k",
+          "question": "My father lived a spartan life before his death.",
+          "options": ["extravagant", "peaceful", "quiet", "luxurious"],
+          "ans": "D",
+          "main": "spartan",
+          "remark": ""
+        },
+        {
+          "id": "p0r1",
+          "question": "Bola's parent went through an acrimonious divorce",
+          "options": ["a bitter", "an acrid", "a sour", "a peaceful"],
+          "ans": "D",
+          "main": "acrimonious",
+          "remark": ""
+        },
+        {
+          "id": "d9pd",
+          "question": "Iliya's account of the incident is appaling.",
+          "options": ["tasking", "fascinating", "expatiated on", "reflected"],
+          "ans": "B",
+          "main": "appaling",
+          "remark": ""
+        },
+        {
+          "id": "2hi1",
+          "question": "She encapsulated her view of the nature of life in a poem.",
+          "options": ["summed up", "explained", "expatiated on", "reflected"],
+          "ans": "C",
+          "main": "encapsulated",
+          "remark": ""
+        },
+        {
+          "id": "mbus",
+          "question": "We were held spellbound by his eloquence",
+          "options": ["unimpressed", "freed", "deceived", "unenlightened"],
+          "ans": "A",
+          "main": "spellbound",
+          "remark": ""
+        },
+        {
+          "id": "jpag",
+          "question": "We had difficulty eating the meat because it was leathery",
+          "options": ["bitter", "stringy", "tough", "tender"],
+          "ans": "D",
+          "main": "leathery",
+          "remark": ""
+        },
+        {
+          "id": "i2g7",
+          "question": "The boy is too indolent to do well at school.",
+          "options": ["intelligent", "industrious", "inactive", "slothful"],
+          "ans": "B",
+          "main": "indolent",
+          "remark": ""
+        },
+        {
+          "id": "zyaf",
+          "question": "Salasi's tremendous effort has yielded results.",
+          "options": ["absolute", "insignificant", "unimaginable", "prohibitive"],
+          "ans": "B",
+          "main": "tremendous",
+          "remark": ""
+        },
+        {
+          "id": "9ux4",
+          "question": "The computerized service of the new banks is heart-warming.",
+          "options": ["manual", "mechanical", "electrical", "condense"],
+          "ans": "A",
+          "main": "computerized",
+          "remark": ""
+        },
+        {
+          "id": "aa5o",
+          "question": "Life has become a misery for many owing to the harsh economic condition in the country.",
+          "options": ["drudgery", "ridicule", "ritual", "comfort"],
+          "ans": "D",
+          "main": "misery",
+          "remark": ""
+        },
+        {
+          "id": "d4p8",
+          "question": "The company director has a vivacious personality.",
+          "options": [
+            "a positive",
+            "an unmanageable",
+            "an unimpressive",
+            "a gregarious"
+          ],
+          "ans": "C",
+          "main": "vivacious",
+          "remark": ""
+        },
+        {
+          "id": "dxax",
+          "question": "Young people have a penchant for fast cars.",
+          "options": ["likeness", "passion", "madness", "dislike"],
+          "ans": "D",
+          "main": "penchant",
+          "remark": ""
+        },
+        {
+          "id": "29rw",
+          "question": "Most of his latest actions are militant in nature.",
+          "options": ["commanding", "civil", "zealous", "passionate"],
+          "ans": "B",
+          "main": "militant",
+          "remark": ""
+        },
+        {
+          "id": "wr4h",
+          "question": "His ideas sounded quite palatable yet they were jettisoned by the group.",
+          "options": ["accepted", "dumped", "denied", "criticized"],
+          "ans": "A",
+          "main": "jettisoned",
+          "remark": ""
+        },
+        {
+          "id": "h705",
+          "question": "The compulsory leave made her feel listless.",
+          "options": ["restful", "great", "fat", "energetic"],
+          "ans": "D",
+          "main": "listless",
+          "remark": ""
+        },
+        {
+          "id": "00iy",
+          "question": "'A novel is an embellished falsehood' said the teacher.",
+          "options": ["enriched", "exaggerated", "adorned", "obliterated"],
+          "ans": "D",
+          "main": "embellished",
+          "remark": ""
+        },
+        {
+          "id": "rs3e",
+          "question": "I have had enough of your impudence.",
+          "options": ["politeness", "incivility", "arrogance", "boldness"],
+          "ans": "A",
+          "main": "impudence",
+          "remark": ""
+        },
+        {
+          "id": "5d0j",
+          "question": "We were collectively responsible for keeping the machine in good shape.",
+          "options": ["jointly", "severally", "dutifully", "socially"],
+          "ans": "B",
+          "main": "collectively",
+          "remark": ""
+        },
+        {
+          "id": "np9l",
+          "question": "His comment was not printable.",
+          "options": ["punishable", "suitable", "offensive", "unfair"],
+          "ans": "C",
+          "main": "printable",
+          "remark": ""
+        },
+        {
+          "id": "x9om",
+          "question": "Curiously, he escaped unhurt.",
+          "options": [
+            "uninterestingly",
+            "unsurprinsingly",
+            "annoyingly",
+            "unusually"
+          ],
+          "ans": "B",
+          "main": "Curiously",
+          "remark": ""
+        },
+        {
+          "id": "waf3",
+          "question": "The teacher said that Ali's essay was full of many redundant details.",
+          "options": ["necessary", "useful", "unexplained", "strange"],
+          "ans": "A",
+          "main": "redundant",
+          "remark": ""
+        },
+        {
+          "id": "6kmr",
+          "question": "His father surmounted the myriad of obstacles on his way.",
+          "options": ["most", "many", "most", "few"],
+          "ans": "D",
+          "main": "myriad",
+          "remark": ""
+        },
+        {
+          "id": "1qhh",
+          "question": "Her ingenious smile drew our attention.",
+          "options": ["clever", "arrogant", "witty", "naive"],
+          "ans": "C",
+          "main": "ingenious",
+          "remark": ""
+        },
+        {
+          "id": "zp44",
+          "question": "Ndeni gave a flawless speech at the party.",
+          "options": ["an interesting", "an imperfect", "a wonderful", "a careless"],
+          "ans": "B",
+          "main": "flawless",
+          "remark": ""
+        },
+        {
+          "id": "6bz3",
+          "question": "Beneath Ado's guff exterior, he's really very kind-hearted",
+          "options": ["rough", "gentle", "nice", "harsh"],
+          "ans": "C",
+          "main": "guff",
+          "remark": ""
+        },
+        {
+          "id": "60l6",
+          "question": "The captain says sports is being debased by commercial sponsorship",
+          "options": ["elevated", "overvalued", "localized", "perverted"],
+          "ans": "A",
+          "main": "debased",
+          "remark": ""
+        },
+        {
+          "id": "qej0",
+          "question": "Governing a country is not always as straightforward as people sometimes imagine.",
+          "options": ["untoward", "irksome", "complicated", "troublesome"],
+          "ans": "C",
+          "main": "straightforward",
+          "remark": ""
+        },
+        {
+          "id": "7kor",
+          "question": "The crowd was very receptive to the speaker's suggestion.",
+          "options": ["alert", "hostile", "disobedient", "repellent"],
+          "ans": "B",
+          "main": "receptive",
+          "remark": ""
+        },
+        {
+          "id": "4fdq",
+          "question": "There was a general acquiescence on the new drug law.",
+          "options": ["compromise", "agreement", "resistance", "discrepancy"],
+          "ans": "C",
+          "main": "acquiescence",
+          "remark": ""
+        },
+        {
+          "id": "vr0b",
+          "question": "Aisha seems to feel ambivalent about her future.",
+          "options": ["ambitious", "inconsiderate", "decisive", "anxious"],
+          "ans": "C",
+          "main": "ambivalent",
+          "remark": ""
+        },
+        {
+          "id": "w1uu",
+          "question": "The report of the committee contained a plethora of details.",
+          "options": ["multitude", "spectrum", "shortage", "simplicity"],
+          "ans": "C",
+          "main": "plethora",
+          "remark": ""
+        },
+        {
+          "id": "88mt",
+          "question": "The weather was still very heavy and sultry.",
+          "options": [
+            "cloudy and thundery",
+            "hot and uncomfortable",
+            "wintry and shadowy",
+            "cold and friendly"
+          ],
+          "ans": "D",
+          "main": "heavy and sultry",
+          "remark": ""
+        },
+        {
+          "id": "xdmx",
+          "question": "Ada gave her husband a look that made words superfluous.",
+          "options": ["unnecessary", "scanty", "redundant", "spurious"],
+          "ans": "B",
+          "main": "superfluous",
+          "remark": ""
+        },
+        {
+          "id": "57z6",
+          "question": "The warring communities were coerced into negotiating a settlement.",
+          "options": ["driven", "compelled", "persuaded", "pressured"],
+          "ans": "C",
+          "main": "coerced",
+          "remark": ""
+        },
+        {
+          "id": "vh94",
+          "question": "His father served as a mercenary in the army.",
+          "options": ["preacher", "regular", "recruit", "officer"],
+          "ans": "B",
+          "main": "mercenary",
+          "remark": ""
+        },
+        {
+          "id": "q1ie",
+          "question": "Jummal is cruel to her husband.",
+          "options": ["harsh", "brutal", "passionate", "ferocious"],
+          "ans": "C",
+          "main": "cruel",
+          "remark": ""
+        },
+        {
+          "id": "2sdx",
+          "question": "The teacher who beat the student was treated with mercy.",
+          "options": ["disrespect", "contempt", "vengeance", "kindness"],
+          "ans": "C",
+          "main": "mercy",
+          "remark": ""
+        },
+        {
+          "id": "vhvw",
+          "question": "His wife hates his garrulous attitude.",
+          "options": ["outspoken", "unfriendly", "reticent", "thoughtful"],
+          "ans": "C",
+          "main": "garrulous",
+          "remark": ""
+        },
+        {
+          "id": "n2sb",
+          "question": "'Agoshito is a callow youth', said the teacher.",
+          "options": ["an ignorant", "an experienced", "an idle", "an organized"],
+          "ans": "B",
+          "main": "callow youth",
+          "remark": ""
+        },
+        {
+          "id": "t07m",
+          "question": "What you are asking me to do is a herculean task.",
+          "options": ["strenuous", "a demanding", "a lovely", "an easy"],
+          "ans": "D",
+          "main": "herculean",
+          "remark": ""
+        },
+        {
+          "id": "bpu3",
+          "question": "Nkechi was a novice when she was first employed.",
+          "options": ["manager", "clerk", "supervisor", "professional"],
+          "ans": "D",
+          "main": "novice",
+          "remark": ""
+        },
+        {
+          "id": "7zl9",
+          "question": "'I do not trust him', he said, in a rare moment of candour.",
+          "options": ["reproach", "dishonesty", "frankness", "fairness"],
+          "ans": "B",
+          "main": "candour",
+          "remark": ""
+        },
+        {
+          "id": "iptk",
+          "question": "Mrs. AKunilo looks anaemic today.",
+          "options": ["strange", "sick", "weak", "strong"],
+          "ans": "D",
+          "main": "anaemic",
+          "remark": ""
+        },
+        {
+          "id": "zn63",
+          "question": "It is inconceivable that the sun shone in the night.",
+          "options": ["credible", "unthinkable", "impossible", "contestable"],
+          "ans": "A",
+          "main": "inconceivable",
+          "remark": ""
+        },
+        {
+          "id": "v22p",
+          "question": "She only gives a superficial impression of warmth and friendliness.",
+          "options": ["strong", "a fake", "a deep", "an unrealistic"],
+          "ans": "C",
+          "main": "a superficial",
+          "remark": ""
+        },
+        {
+          "id": "489b",
+          "question": "As a prudent businessman, Ajayi does not leave anything to chance.",
+          "options": ["frugal", "shrewd", "careless", "unsuccessful"],
+          "ans": "C",
+          "main": "prudent",
+          "remark": ""
+        },
+        {
+          "id": "2cc8",
+          "question": "His antipathy affected the growth of his business.",
+          "options": ["hatred", "receptiveness", "loyalty", "hostility"],
+          "ans": "B",
+          "main": "antipathy",
+          "remark": ""
+        }
+      ] 
     },
     {
       "topic": "Synonyms I",

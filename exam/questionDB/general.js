@@ -27,4 +27,4 @@ function choose(questions) {
     return questions[Math.floor(Math.random() * questions.length)];
 }
 
-console.log(general(chemistryQuestions))
+// console.log(general(chemistryQuestions))

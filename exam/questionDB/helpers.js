@@ -55,13 +55,15 @@ const exp = (pow) => {
 }
 
 // english helper
-//wetin you gain if you can write algorithms... sorry ooo...
+// wetin you gain if you can write algorithms... sorry ooo...
 const mainWord = (word, statement) => {
     // let's think of how to make this work...
     let posn = statement.search(word)
-    let fPart = statement.slice(0, posn)
-    let sPart = statement.slice(posn + word.length,)
-    return `${fPart}<span class="main-word"><em>${word}</em></span>${sPart}`
+    if (posn != -1) {
+        let fPart = statement.slice(0, posn)
+        let sPart = statement.slice(posn + word.length,)
+        return `${fPart}<span class="main-word"><em>${word}</em></span>${sPart}`
+    } else return statement;
 }
 
 // let o = mainWord('hello', "the man said hello to him")
