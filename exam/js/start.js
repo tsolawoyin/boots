@@ -1,97 +1,111 @@
-// this is actually nice to be honest... 
+// this is actually nice to be honest...
 // events that happens when the start button is clicked.
 
-startBtn.addEventListener("click", e => {
-    // load client detail into UI
-    choosenSubject = subject.value; // the choosen subject
-    
-    // mode = modeEl.value; // set the choosen mode...
+startBtn.addEventListener("click", (e) => {
+  // load client detail into UI
+  choosenSubject = subject.value; // the choosen subject
 
-    loadClientDetails()
+  // mode = modeEl.value; // set the choosen mode...
 
-    // if login is true, then we can proceed...
-    if (isMember) {
-        // set the global questions to the needed kind of questions and updating question length... too many things to be for God's sake. hmmmm
-        // now we can set login to true here
-        isLogin = true;
+  loadClientDetails();
 
-        localStorage.setItem("started", true) // normally, exam has started now...
-        
-        loadQuestionType(choosenTopic.value)
-        // console.log(choosenSubject)
-        // load the first question into UI
-        timeInterval = setInterval(time, 1000) // start countdown
-        
-        // load the first question
-        loadFirstQuestion()
+  // if login is true, then we can proceed...
+  if (isMember) {
+    // set the global questions to the needed kind of questions and updating question length... too many things to be for God's sake. hmmmm
+    // now we can set login to true here
+    isLogin = true;
 
-        loadKeys(unseenQuestions.length + 1) // makes sense
+    localStorage.setItem("started", true); // normally, exam has started now...
 
-        loginInterface.style.display = "none" // remove login interface
+    loadQuestionType(choosenTopic.value);
+    // console.log(choosenSubject)
+    // load the first question into UI
+    timeInterval = setInterval(time, 1000); // start countdown
 
-        examInterface.style.display = "grid" // display exam interface...
-    } else {
-        window.alert("Sorry.You are not registered.")
-    }
-})
+    // load the first question
+    loadFirstQuestion();
+
+    loadKeys(unseenQuestions.length + 1); // makes sense
+
+    loginInterface.style.display = "none"; // remove login interface
+
+    examInterface.style.display = "grid"; // display exam interface...
+  } else {
+    window.alert("Sorry.You are not registered.");
+  }
+});
 
 // this program is just to make my student become better. no long thing.... I don't have all these server time. honestly...
 // help update the user information
-function loadClientDetails () {
-    userEl.textContent = username.value;
-    sbjEl.textContent = subject.value
-    topicEl.textContent = choosenTopic.value;
+function loadClientDetails() {
+  userEl.textContent = username.value;
+  sbjEl.textContent = subject.value;
+  topicEl.textContent = choosenTopic.value;
 }
 
 // now refactoring the code is sth difficult... I don't even understand...
 function loadQuestionType(topic) {
-    // get questions
+  // get questions
+
+  if (topic == "general") {
+    // we return a different thing entirely...
+    switch (
+      choosenSubject // alright. thank you so much...
+    ) {
+      case "chemistry":
+        unseenQuestions = general(getQuestion("chemistry"));
+        break;
+    }
+  } else {
     let questionsList;
 
-    switch (choosenSubject) {
-        case "chemistry":
-            questionsList = getQuestion("chemistry");
-            break;
-        case "physics":
-            questionsList = getQuestion("physics");
-            break;
-        case "biology":
-            questionsList = getQuestion("biology");
-            break;
-        case "english":
-            questionsList = getQuestion("english")
-            break;
+    switch (
+      choosenSubject // alright. thank you so much...
+    ) {
+      case "chemistry":
+        questionsList = getQuestion("chemistry");
+        break;
+      case "physics":
+        questionsList = getQuestion("physics");
+        break;
+      case "biology":
+        questionsList = getQuestion("biology");
+        break;
+      case "english":
+        questionsList = getQuestion("english");
+        break;
     }
 
     for (let q of questionsList) {
-        if (topic == q.topic) {
-            unseenQuestions = q.questions; // set the global question to the question
-        } 
+      if (topic == q.topic) {
+        unseenQuestions = q.questions; // set the global question to the question
+      }
     }
+  }
 }
 
 function loadFirstQuestion() {
-    chooseQuestion("initial", 0) // this sets the currentQuestion to a value
-    questionBox.innerHTML = buildQuestion(currentQuestion) // this will currently display the question
+  chooseQuestion("initial", 0); // this sets the currentQuestion to a value
+  questionBox.innerHTML = buildQuestion(currentQuestion); // this will currently display the question
 }
 
-function loadKeys (keys) {
-    // let me just edit this section
-    let keyStr = ""
+function loadKeys(keys) {
+  // let me just edit this section
+  let keyStr = "";
 
-    if (keys < 40) {
-        for (let i = 1; i <= keys; i++) {
-            keyStr += `<p class="numbers" id="num${i}">${i}</p>`
-            numberOfQuestion = keys;
-        }
-    } else {
-        for (let i = 1; i <= 40; i++) {
-            keyStr += `<p class="numbers" id="num${i}">${i}</p>`
-            // this one is just the normal old style
-            // numberofquestion is 40 by default, so I don't get...
-        }
+  if (keys < 40) {
+    for (let i = 1; i <= keys; i++) {
+      keyStr += `<p class="numbers" id="num${i}">${i}</p>`;
+      numberOfQuestion = keys;
     }
-    numKeys.innerHTML = keyStr
+  } else {
+    for (let i = 1; i <= 40; i++) {
+      keyStr += `<p class="numbers" id="num${i}">${i}</p>`;
+      // this one is just the normal old style
+      // numberofquestion is 40 by default, so I don't get...
+    }
+  }
+  numKeys.innerHTML = keyStr;
 }
 
 // yeah. The startup engine is complete.

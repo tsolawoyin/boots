@@ -4870,3 +4870,6 @@ let chemistryQuestions = [
         ]
     }
 ]
+
+// the general test thing is not choosing at runtime, it's just going to choose randomly before it starts. You know, given an arbitrary number of topics, select 40 random questions before starting...
+// makes sense...
