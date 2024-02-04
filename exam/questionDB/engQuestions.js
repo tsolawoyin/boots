@@ -1681,7 +1681,7 @@ let englishQuestions = [
         },
         {
           "id": 30,
-          "question": "Politicians and holders of political appointments are generally asssumed to be cunning",
+          "question": "Politicians and holders of political appointments are generally asssumed to be cunny",
           "options": [
             "kind",
             "straightforward",
@@ -1885,8 +1885,8 @@ let englishQuestions = [
             'reprinted',
             'banned'
           ],
-          "ans": "B",
-          "main": "entitles",
+          "ans": "A",
+          "main": "abridged",
           'remark': "" ,
         },
         {
