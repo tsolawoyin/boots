@@ -1,6 +1,6 @@
 // this code will help validate
 
-let validUsers = ["adekizzy", "danny", "sen", "victoria", "temmy", 'olamide','nifemi']
+let validUsers = ["adekizzy", "danny", "sen", "victoria", "temmy", 'olamide','nifemi', "blessed academy"]
 
 // return true if user is present
 function valid(user) {
