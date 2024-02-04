@@ -9,9 +9,9 @@ const errMini = document.querySelector("#err");
 // console.log(started)
 
 
-if (started == "true") {
-    displayErr()
-}
+// if (started == "true") {
+//     displayErr()
+// }
 
 // window.addEventListener("blur", e => {
 //     displayErr()
