@@ -30,6 +30,7 @@ startBtn.addEventListener("click", (e) => {
     loginInterface.style.display = "none"; // remove login interface
 
     examInterface.style.display = "grid"; // display exam interface...
+
   } else {
     window.alert("Sorry.You are not registered.");
   }

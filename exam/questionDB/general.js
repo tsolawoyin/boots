@@ -13,9 +13,11 @@ function general(subject) {
         let topic = choose(subject); // this will choose one topic for us...
         let question = choose(topic.questions) // this will choose the question for us
         // now check if id is not already choosen to avoid choosing the same question twice...
-        if (!ids.includes(questions.id)) {
+        if (!ids.includes(question.id)) {
+            // console.log(question.id)
             questions.push(question); // push in question. shey you get...
             ids.push(question.id)
+            // console.log(ids)
         }
     }
 
@@ -27,4 +29,9 @@ function choose(questions) {
     return questions[Math.floor(Math.random() * questions.length)];
 }
 
+// the problem is that we are having duplicates...
 // console.log(general(chemistryQuestions))
+// for (let i = 0; i < 1000; i++) {
+//     console.log(i, "=>", general(chemistryQuestions).length)
+// }
+general(chemistryQuestions)
