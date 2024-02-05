@@ -45,7 +45,7 @@ let isMember = false // a registered user
 // submit state
 let submitted = false;
 // time status
-let defaultTime = 30;
+let defaultTime = 10;
 let seconds = 0;
 let minutes = defaultTime;
 let timeInterval = null;
