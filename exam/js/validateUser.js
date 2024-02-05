@@ -4,7 +4,7 @@
 
 // return true if user is present
 function valid(user) {
-    let regex = /[a-zA-Z]{3,}/
+    let regex = /^[a-zA-Z]{3,}$/
     return regex.test(user)
 }
 
