@@ -80,7 +80,7 @@ nav {
 /* these guys must be extremely serious */
 #theory {
     margin-top: 1em;
-    display: none; 
+    /* display: none;  */
 }
 
 #login-info {
