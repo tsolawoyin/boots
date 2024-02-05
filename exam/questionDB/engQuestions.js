@@ -2911,6 +2911,287 @@ let englishQuestions = [
           "ans": "B",
           "main": "inclinations",
           "remark": ""
+        },{
+          "id": "iemc",
+          "question": "Okonkwo's lethal right foot did the magic in the football match.",
+          "options": ["weak", "wicked", "fat", "harmless"],
+          "ans": "D",
+          "main": "lethal",
+          "remark": ""
+        },
+        {
+          "id": "14xu",
+          "question": "As an idiot, the boy is weak in class.",
+          "options": ["a deviant", "a dunce", "an expert", "a genius"],
+          "ans": "D",
+          "main": "idiot",
+          "remark": ""
+        },
+        {
+          "id": "hx5x",
+          "question": "We were shocked by the news that he had lost the money.",
+          "options": ["astonished", "disconcerted", "unconcerned", "surprised"],
+          "ans": "C",
+          "main": "shocked",
+          "remark": ""
+        },
+        {
+          "id": "41lt",
+          "question": "The principal was advised to be flexible on critical issues.",
+          "options": ["livid", "cautious", "evasive", "rigid"],
+          "ans": "D",
+          "main": "flexible",
+          "remark": ""
+        },
+        {
+          "id": "lw9e",
+          "question": "Bola always looks sober.",
+          "options": ["excited", "serious", "worried", "helpless"],
+          "ans": "A",
+          "main": "sober",
+          "remark": ""
+        },
+        {
+          "id": "3ssy",
+          "question": "Dupe was promoted for her efficiency.",
+          "options": ["ability", "incompetence", "inconsistency", "rudeness"],
+          "ans": "B",
+          "main": "efficiency",
+          "remark": ""
+        },
+        {
+          "id": "gsvx",
+          "question": "The management wants to consider her reticent behaviour in due course.",
+          "options": [
+            "disapproving",
+            "disciplinarian",
+            "contemplative",
+            "loquacious"
+          ],
+          "ans": "D",
+          "main": "reticent",
+          "remark": ""
+        },
+        {
+          "id": "11l8",
+          "question": "Election processes often become volatile.",
+          "options": ["calm", "strange", "sudden", "latent"],
+          "ans": "A",
+          "main": "volatile",
+          "remark": ""
+        },
+        {
+          "id": "xidi",
+          "question": "Oche entered the principal's office in a rather abrasive manner.",
+          "options": ["gentle", "rude", "lackadaisical", "indifferent"],
+          "ans": "A",
+          "main": "abrasive",
+          "remark": ""
+        },
+        {
+          "id": "r7oe",
+          "question": "Otokpa is a member of the ad hoc committee on stock acquisition.",
+          "options": ["improvised", "formal", "temporary", "fact-finding"],
+          "ans": "B",
+          "main": "ad hoc",
+          "remark": ""
+        },
+        {
+          "id": "ohkl",
+          "question": "His gift to the poor was always infinitesimal.",
+          "options": ["large", "small", "supportive", "shameful"],
+          "ans": "A",
+          "main": "infinitesimal",
+          "remark": ""
+        },
+        {
+          "id": "2voo",
+          "question": "The economist concluded that several factors have been adduced to explain the fall in the birth rate.",
+          "options": ["affirmed", "diffused", "mentioned", "refuted"],
+          "ans": "D",
+          "main": "adduced",
+          "remark": ""
+        },
+        {
+          "id": "x1y7",
+          "question": "The presidential system is an antidote to some political ailments.",
+          "options": ["an answer", "a reply", "an inquiry", "an obstacle"],
+          "ans": "D",
+          "main": "antidote",
+          "remark": ""
+        },
+        {
+          "id": "jf68",
+          "question": "He is very much respected, though he had no temporal power.",
+          "options": ["spiritual", "mundane", "permanent", "ephemeral"],
+          "ans": "A",
+          "main": "temporal",
+          "remark": ""
+        },
+        {
+          "id": "pnpt",
+          "question": "Ola thought that her father was callous.",
+          "options": ["parious", "compassionate", "wicked", "cheerful"],
+          "ans": "B",
+          "main": "callous",
+          "remark": ""
+        },
+        {
+          "id": "lf3v",
+          "question": "Prolonged strike action debilitated the industry.",
+          "options": ["invigorated", "isolated", "weakened", "destroyed"],
+          "ans": "A",
+          "main": "debilitated",
+          "remark": ""
+        },
+        {
+          "id": "13cw",
+          "question": "One of the students bought a plagiarized copy of the book.",
+          "options": ["a used", "an original", "a revised", "an annotated"],
+          "ans": "B",
+          "main": "plagiarized",
+          "remark": ""
+        },
+        {
+          "id": "0qhk",
+          "question": "The young girl was taken aback by her father's gift of a car.",
+          "options": ["shocked", "unmoved", "surprised", "non-plussed"],
+          "ans": "B",
+          "main": "taken aback",
+          "remark": ""
+        },
+        {
+          "id": "y2uy",
+          "question": "Musa is a gifted but erratic player.",
+          "options": ["strong", "regular", "unpredictable", "unstable"],
+          "ans": "B",
+          "main": "erratic",
+          "remark": ""
+        },
+        {
+          "id": "1nj8",
+          "question": "The lamp shades were transclucent.",
+          "options": ["opaque", "intersected", "luminous", "transparent"],
+          "ans": "A",
+          "main": "transclucent",
+          "remark": ""
+        },
+        {
+          "id": "st6j",
+          "question": "My niece has an unquenchable thirst for adventure stories.",
+          "options": [
+            "a spurious",
+            "an illegitimate",
+            "a reduced",
+            "an inextinguishable"
+          ],
+          "ans": "C",
+          "main": "an unquenchable",
+          "remark": ""
+        },
+        {
+          "id": "yy0b",
+          "question": "Some of my neighbors have an antipathy to dogs.",
+          "options": ["enimity towards", "affection for", "acronym for", "alarm for"],
+          "ans": "B",
+          "main": "antipathy",
+          "remark": ""
+        },
+        {
+          "id": "mw3j",
+          "question": "The dressmaker unpicked the seam of the shirt.",
+          "options": ["threaded", "seweed up", "picked up", "tore up"],
+          "ans": "B",
+          "main": "unpicked",
+          "remark": ""
+        },
+        {
+          "id": "rt77",
+          "question": "The testimony of the witness was vague.",
+          "options": ["disturbing", "true", "ambigous", "clear"],
+          "ans": "D",
+          "main": "vague",
+          "remark": ""
+        },
+        {
+          "id": "nmwy",
+          "question": "As a student, Isa tried communal living for a few years.",
+          "options": ["collective", "general", "shared", "private"],
+          "ans": "D",
+          "main": "communal",
+          "remark": ""
+        },
+        {
+          "id": "mq2w",
+          "question": "It is important not to let mistake blight your life.",
+          "options": ["damage", "impart", "improve", "ruin"],
+          "ans": "C",
+          "main": "blight",
+          "remark": ""
+        },
+        {
+          "id": "s3n1",
+          "question": "Jumoke is fond of carping her sister.",
+          "options": ["praising", "joking with", "complaining about", "faulting"],
+          "ans": "A",
+          "main": "carping",
+          "remark": ""
+        },
+        {
+          "id": "8mu5",
+          "question": "A cup of coffee invigorated him.",
+          "options": ["destroyed", "energized", "angered", "debilitated"],
+          "ans": "D",
+          "main": "invigorated",
+          "remark": ""
+        },
+        {
+          "id": "ga1b",
+          "question": "It is ludicrous to suggest that she was a government agent.",
+          "options": ["odd", "exciting", "farcical", "sensible"],
+          "ans": "D",
+          "main": "ludicrous",
+          "remark": ""
+        },
+        {
+          "id": "n24x",
+          "question": "The idea makes me cringe.",
+          "options": ["quiver", "tremble", "resolute", "writhe"],
+          "ans": "C",
+          "main": "cringe",
+          "remark": ""
+        },
+        {
+          "id": "2b1w",
+          "question": "His books was one of those books that galvanized democracy.",
+          "options": ["stimulated", "encouraged", "dissuaded", "promoted"],
+          "ans": "C",
+          "main": "galvanized",
+          "remark": ""
+        },
+        {
+          "id": "qzcv",
+          "question": "He walks in a gawky way.",
+          "options": ["suitable", "clumsy", "lumbering", "graceful"],
+          "ans": "D",
+          "main": "gawky",
+          "remark": ""
+        },
+        {
+          "id": "x6ck",
+          "question": "The nation is in period of economic flux.",
+          "options": ["modification", "change", "fluidity", "stability"],
+          "ans": "D",
+          "main": "flux",
+          "remark": ""
+        },
+        {
+          "id": "z3lp",
+          "question": "Our son was highly active and exuberant.",
+          "options": ["subdued", "fulsome", "lively", "bright"],
+          "ans": "A",
+          "main": "exuberant",
+          "remark": ""
         }
       ]
     },
