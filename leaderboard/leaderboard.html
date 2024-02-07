@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leaderboard</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/styles.css">
+  </head>
+  <body class="p-1">
+    <header class="pt-3">
+      <h1 class="text-center p-1" id="home"><a href="../index.html">Boots</a></h1>
+    </header>
+    <section id="leaderboard">
+      <table class="table table-sm">
+        <caption class="text-center caption-top">
+          Leaderboard
+        </caption>
+        <thead class="table-dark">
+          <tr>
+            <th class="col">Rank</th>
+            <th class="col">Name</th>
+            <th class="col">Chm</th>
+            <th class="col">Eng</th>
+            <th class="col">Bio</th>
+            <th class="col">Total</th>
+          </tr>
+        </thead>
+
+        <tbody id="leaderboard-body"></tbody>
+      </table>
+    </section>
+
+    <p>
+      Note: The first must have at least 260 jamb score to win the 10k cash
+      price!
+    </p>
+
+    <table class="table table-striped table-sm">
+      <caption class="text-center caption-top">
+        Students data
+      </caption>
+      <thead class="table-dark">
+        <tr>
+          <th class="col">Name</th>
+          <th class="col">Gender</th>
+          <th class="col">Aspiring course</th>
+          <th class="col">Aspiring university</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th class="fst-italic" scope="row">Seun</th>
+          <td class="">F</td>
+          <td class="">Nursing</td>
+          <td class="">UI</td>
+        </tr>
+        <tr>
+          <th class="fst-italic" scope="row">Ayodeji</th>
+          <td>M</td>
+          <td>Nursing</td>
+          <td>UI</td>
+        </tr>
+        <tr>
+          <th class="fst-italic" scope="row">Tosin</th>
+          <td>M</td>
+          <td>Medicine and Surgery</td>
+          <td>UI</td>
+        </tr>
+        <tr>
+          <th class="fst-italic" scope="row">Victoria</th>
+          <td>F</td>
+          <td>Nursing</td>
+          <td>UI</td>
+        </tr>
+      </tbody>
+    </table>
+    <script src="./leaderboard.js"></script>
+  </body>
+</html>

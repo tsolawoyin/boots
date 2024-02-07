@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice</title>
+    <link rel="stylesheet" href="../css/exam-interface.css" />
+    <link rel="stylesheet" href="../css/login-interface.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="p-1">
+    <header class="pt-3">
+      <h1 class="text-center p-1" id="home"><a href="../index.html">Boots</a></h1>
+    </header>
+    <!-- login page -->
+    <main>
+        <section id="login-interface">
+          <div id="info">
+            <input
+              type="text"
+              name=""
+              id="username"
+              placeholder="enter your name"
+              class="border-bottom-2 border-top-0 border-start-0 border-end-0 fs-4 mb-3 form-control"
+            />
+            <div id="subject-info">
+              <label class="form-label">Select subject and topic</label>
+              <select name="subjects" id="subjects" class="form-select mb-2">
+                <option value="chemistry">CHEMISTRY</option>
+                <option value="biology">BIOLOGY</option>
+                <option value="english">ENGLISH</option>
+              </select>
+              <select name="chm" id="chm" class="form-select mb-2">
+                <option value="atomic structure">Atomic structure</option>
+                <option value="atomic structure II">Atomic structure II</option>
+                <option value="Ionic bonding">Ionic bonding</option>
+                <option value="covalent bonding">Covalent bonding</option>
+                <option value="chemical bonding">Chemical bonding</option>
+                <option value="carbon">Carbon</option>
+                <option value="nitrogen">Nitrogen</option>
+                <option value="general">General</option>
+              </select>
+              <select name="bio" id="bio" class="options">
+                <option value="The Cell Structure And Functions Of Cell Components">
+                  Cell structure
+                </option>
+                <option value="Living Organisms And Level Of Organisation">
+                  Level of Organisation
+                </option>
+                <option value="The Cell And Its Environment">
+                  Cell and its Environment
+                </option>
+                <option value="Evolution Among Viruses Monera, Protista And Fungi">
+                  Monera, Protista, Fungi
+                </option>
+                <option value="Evolution among plants">
+                  Evolution among plants
+                </option>
+                <option value="Higher Plants">Higher plants</option>
+                <option value="Evolution Among Invertebrates">
+                  Evolution among Inverterbrates
+                </option>
+              </select>
+              <select name="eng" id="eng" class="d-none form-select mb-2">
+                <option value="Synonyms I">Synonyms I</option>
+                <option value="Synonyms II">Synonyms II</option>
+                <option value="Antonyms I">Antonyms I</option>
+                <option value="Antonyms II">Antonyms II</option>
+                <option value="Antonyms III">Antonyms III</option>
+                <option value="Antonyms IV">Antonyms IV</option>
+                <!-- <option value="oxygen" disabled>Organic chm</option> -->
+              </select>
+            </div>
+            <button id="start" class="btn btn-md btn-primary">Start</button>
+    
+            <!-- <p class="text-success pt-2">
+              The chemistry-general test has been fixed. Please let me know if there is any anomaly.<br>
+              The biology test has been reviewed. Feel free to practice recursively 💪
+            </p> -->
+            <ul id="login-info">
+              <li class="text-primary pt-2">
+                Boots is live! You can refer Boots to others.
+              </li>
+              <li class="text-success pt-2">
+                The chemistry-general test has been fixed. Please let me know if
+                there is any anomaly.
+              </li>
+              <li class="text-success pt-2">
+                The biology test has been reviewed. Feel free to practice
+                recursively 💪
+              </li>
+              <li class="text-primary pt-2">
+                Antonyms is now completely uploaded. You can practice as much as you
+                like now. Thanks.
+              </li>
+              <li class="text-primary pt-2">
+                Antonyms IV have been added. Antonym is much honestly.
+              </li>
+            </ul>
+    
+            <p>
+              BOOTS is live!
+              <a href="#" class="text-secondary">Click here for more info</a>
+            </p>
+          </div>
+        </section>
+        <!-- exam-interface -->
+        <section id="exam-interface">
+          <header>
+            <div id="user-state">
+              <h1 id="userEl">Adekizzy</h1>
+              <span id="current-score" class="fs-1" style="color: crimson">0</span>
+              <span id="time" class="fs-2"
+                ><span id="min">25</span>:<span id="sec">00</span></span
+              >
+            </div>
+            <div id="user-info">
+              <p class="info-detail" id="sbjel">
+                <strong>Subject:</strong>
+                <span id="sbj">Nitrogen and its compoound</span>
+              </p>
+              <p class="info-detail" id="topicel">
+                <strong>Topic:</strong>
+                <span id="topic">Nitrogen and its compoound</span>
+              </p>
+            </div>
+          </header>
+    
+          <section id="question-frame">
+            <div id="question" class="p-4"></div>
+          </section>
+    
+          <div id="keys" class="p-4">
+            <div id="pns">
+              <button id="prev" class="btn btn-warning">prev</button>
+              <button id="next" class="btn btn-primary">next</button>
+              <button id="submit" class="btn btn-danger">submit</button>
+            </div>
+            <div id="num-keys"></div>
+          </div>
+        </section>
+    </main>
+
+    <footer>
+      <ul class="p-2" style="list-style-type: none">
+        <li class="text-center trademark">BOOTS &copy; 2024</li>
+        <li class="text-center author">
+          <span class="text-primary"
+            ><a href="https://github.com/tsolawoyin">Contact us</a></span
+          >
+        </li>
+      </ul>
+    </footer>
+
+    <!-- In this way, I can make Boot really big. At least. -->
+
+    <!-- exam scripts -->
+    <!-- <script src="./checkStarted.js"></script> -->
+    <script src="./questionDB/helpers.js"></script>
+    <script src="./questionDB/chmQuestions.js"></script>
+    <script src="./questionDB/engQuestions.js"></script>
+    <script src="././questionDB/bioQuestions.js"></script>
+    <script src="./questionDB/local.js"></script>
+    <script src="./js/declarations.js"></script>
+    <script src="./js/selectTopic.js"></script>
+    <script src="./js/chooseQuestion.js"></script>
+    <script src="./js/buildQuestion.js"></script>
+    <script src="./js/endExam.js"></script>
+    <script src="./js/time.js"></script>
+    <script src="./js/validateUser.js"></script>
+    <script src="./js/start.js"></script>
+    <script src="./js/updateAnswer.js"></script>
+    <script src="./js/changeScoreColor.js"></script>
+    <script src="./js/otherKeys.js"></script>
+    <script src="./js/showAnswers.js"></script>
+    <script src="./js/markQuestions.js"></script>
+    <script src="././questionDB/general.js"></script>
+    <!-- exam script ends here...-->
+
+    <!-- in this kind of way, I can rebuild exam script to be modular. shey you get -->
+  </body>
+</html>

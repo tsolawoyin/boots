@@ -37,8 +37,7 @@
 
 #login-interface {
     min-height: 90vh;
-    /* display: grid; */
-    display: none;
+    display: grid;
     align-items: center;
     grid-template-columns: 80%;
     justify-content: center;
