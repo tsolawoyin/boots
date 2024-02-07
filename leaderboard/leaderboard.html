@@ -10,12 +10,24 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css" />
   </head>
   <body class="p-1">
     <header class="pt-3">
-      <h1 class="text-center p-1" id="home"><a href="../index.html">Boots</a></h1>
+      <h1 class="text-center p-1" id="home">
+        <a href="../index.html">Boots</a>
+      </h1>
     </header>
+
+    <nav class="d-flex pt-2 flex-row justify-content-around nav">
+      <p class="nav-item"><a href="../exam/practice.html">Practice</a></p>
+      <!-- we may have more than one reading guide btn shey you get. hmmm -->
+      <p class="nav-item"><a href="../notes.html">Notes</a></p>
+      <p class="nav-item"><a href="./leaderboard.html">Leaderboard</a></p>
+    </nav>
+    <p class="mt-2">
+      This leaderboard is only available to our physical students. Thanks.
+    </p>
     <section id="leaderboard">
       <table class="table table-sm">
         <caption class="text-center caption-top">
@@ -80,6 +92,18 @@
         </tr>
       </tbody>
     </table>
+
+    <footer>
+      <ul class="p-2" style="list-style-type: none">
+        <li class="text-center trademark">BOOTS &copy; 2024</li>
+        <li class="text-center author">
+          <span class="text-primary"
+            ><a href="https://github.com/tsolawoyin">Contact us</a></span
+          >
+        </li>
+      </ul>
+    </footer>
+
     <script src="./leaderboard.js"></script>
   </body>
 </html>
