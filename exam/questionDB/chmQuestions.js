@@ -5223,7 +5223,7 @@ let chemistryQuestions = [
           `pyrogallol solution`,
           `slaked lime`,
         ],
-        ans: "A",
+        ans: "C",
       },
       {
         id: 55,
@@ -5245,7 +5245,7 @@ let chemistryQuestions = [
           `water and oxygen`,
           `water and carbon(IV)`,
         ],
-        ans: "A",
+        ans: "C",
       },
       {
         id: 56,
@@ -5256,13 +5256,13 @@ let chemistryQuestions = [
           `${formula("CO", 2)}`,
           `noble gases`,
         ],
-        ans: "A",
+        ans: "B",
       },
       {
         id: 57,
         question: `The nitrogen obtained from air has a density higher than the one from nitrogen-containing compounds because the one from air is contaminated with?`,
         options: [`oxygen`, `rare gases`, `carbon(IV) oxide`, `water vapor`],
-        ans: "A",
+        ans: "B",
       },
       {
         id: 58,
@@ -5273,14 +5273,14 @@ let chemistryQuestions = [
           `convert chemical waste to harmless substances before releasing them into the environment`,
           `improve machinery so that the substances released from combustion are less harmful`,
         ],
-        ans: "A",
+        ans: "C",
       },
 
       {
         id: 50,
         question: `The noble gas with a high power of fog penetration used in aerodome beacons is`,
         options: [`argon`, `helium`, `neon`, `krypton`],
-        ans: "A",
+        ans: "C",
       },
     ],
   },
