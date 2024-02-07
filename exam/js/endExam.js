@@ -12,11 +12,9 @@ function endExam() {
         // what else should be done?
         localStorage.setItem(username.value, score) // this is for people who don't want to tell us their answer...
         
-        localStorage.setItem("started", false); // once exam is over, the started should be set to false...
+        // localStorage.setItem("started", false); // once exam is over, the started should be set to false...
 
         alert(`Your score is ${score}`)
-
-        setDefaultParams();
 
     } else if (!submitted) {
     
@@ -25,19 +23,7 @@ function endExam() {
         questionFrame.innerHTML = `<h1>Exam ended. Thank you for taking the exam.<h1>`
     }
 
-    submitted = true
+    // submitted = true
 }
 
 // in fact, the end exam code is simply maintained here.
-
-function setDefaultParams() {
-    isLogin = false;
-    // reseting time
-    seconds = 0;
-    minutes = defaultTime;
-    // reseting the score too...
-    score = 0;
-    //
-    submitted = true;
-
-}

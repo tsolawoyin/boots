@@ -4,14 +4,21 @@
 /* mobile first design */
 /* since this time around, it will be viewed majorly on phones... */
 /* the rest is just design */
-.fashakin {
-    color: #ff0;
-    font-weight: bold;
-}
 
 #home {
     cursor: pointer;
 }
+
+header a, nav a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover, nav a:hover {
+    color: white;
+    text-decoration: none;
+}
+
 
 h1 {
     font-family: "Leckerli One";
