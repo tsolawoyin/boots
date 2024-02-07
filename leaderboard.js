@@ -1,52 +1,11 @@
-// const leaderBoard = [
-//     {
-//         posn: 2,
-//         name: "Seun",
-//         chm: [0], // an object will help me track their progress in each topic
-//         bio: [0],
-//         eng: [0], 
-//         calcScore() {
-//             return this.chm.reduce((a, e ) => a + e) + this.bio.reduce((a,e) => a + e) + this.eng.reduce((a,c) => a + c); // makes sense...
-//         }
-//     },
-//     {
-//         posn: 1,
-//         name: "Ayodeji",
-//         chm: [0],
-//         bio: [0],
-//         eng: [0], 
-//         calcScore() {
-//             return this.chm.reduce((a, e ) => a + e) + this.bio.reduce((a,e) => a + e) + this.eng.reduce((a,c) => a + c); // makes sense...
-//         }
-//     },
-//     {
-//         posn: 4,
-//         name: "Victoria",
-//         chm: [0],
-//         bio: [0],
-//         eng: [0], 
-//         calcScore() {
-//             return this.chm.reduce((a, e ) => a + e) + this.bio.reduce((a,e) => a + e) + this.eng.reduce((a,c) => a + c); // makes sense...
-//         }
-//     },
-//     {
-//         posn: 3,
-//         name: "Tosin",
-//         chm: [0],
-//         bio: [0],
-//         eng: [0], 
-//         calcScore() {
-//             return this.chm.reduce((a, e ) => a + e) + this.bio.reduce((a,e) => a + e) + this.eng.reduce((a,c) => a + c); // makes sense...
-//         }
-//     },
-// ]
+
 const leaderBoard= [
     {
         posn: 2,
         name: "Seun",
-        chm: [32.5,67.5,50,25,32.5,17.5,57.5,47.5,92.5], // an object will help me track their progress in each topic
+        chm: [50,32.5,67.5,50,25,32.5,17.5,57.5,47.5,92.5], // an object will help me track their progress in each topic
         bio: [0],
-        eng: [100,30,95,72.5,-12.5,20], 
+        eng: [-2.50,100,30,95,72.5,-12.5,20], 
         calcScore() {
             return this.chm.reduce((a, e ) => a + e) + this.bio.reduce((a,e) => a + e) + this.eng.reduce((a,c) => a + c); // makes sense...
         }
@@ -54,9 +13,9 @@ const leaderBoard= [
     {
         posn: 3,
         name: "Ayodeji",
-        chm: [42.5,62,5,27.5,22.5,70,22.5,72.5,90,62.5],
+        chm: [65,42.5,62,5,27.5,22.5,70,22.5,72.5,90,62.5],
         bio: [0],
-        eng: [40,30,0,52.5,5,10], 
+        eng: [10,40,30,0,52.5,5,10], 
         calcScore() {
             return this.chm.reduce((a, e ) => a + e) + this.bio.reduce((a,e) => a + e) + this.eng.reduce((a,c) => a + c); // makes sense...
         }
@@ -64,9 +23,9 @@ const leaderBoard= [
     {
         posn: 4,
         name: "Victoria",
-        chm: [40,82.5,30],
+        chm: [30,40,82.5,30],
         bio: [0],
-        eng: [0], 
+        eng: [-5.0,0], 
         calcScore() {
             return this.chm.reduce((a, e ) => a + e) + this.bio.reduce((a,e) => a + e) + this.eng.reduce((a,c) => a + c); // makes sense...
         }
@@ -74,9 +33,9 @@ const leaderBoard= [
     {
         posn: 1,
         name: "Tosin",
-        chm: [65,90,55,45,50,17.5,90,40,67.5],
+        chm: [62.5,65,90,55,45,50,17.5,90,40,67.5],
         bio: [0],
-        eng: [100,95,62.5,72.5,55,32.5], 
+        eng: [65,100,95,62.5,72.5,55,32.5], 
         calcScore() {
             return this.chm.reduce((a, e ) => a + e) + this.bio.reduce((a,e) => a + e) + this.eng.reduce((a,c) => a + c); // makes sense...
         }
