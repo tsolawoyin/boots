@@ -6449,5 +6449,549 @@ let englishQuestions = [
           "main": "abreast"
         }
       ]
+    },
+    {
+      "topic": "Spelling mistakes",
+      "questions": [
+        {
+          "id": "b1of",
+          "question": "They ___ our donation with thanks.",
+          "options": ["received", "recived", "recieved", "receved", "receipt"],
+          "ans": "A",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "x9kj",
+          "question": "On such an important __ all the guests were expected to be at their best.",
+          "options": ["occasion", "ocassion", "occasion", "ocason"],
+          "ans": "A",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "vaw2",
+          "question": "I have applied for __ on the campus and I am almost certain I shall get it.",
+          "options": [
+            "acommodation",
+            "accommodation",
+            "accomodation",
+            "accomoddation",
+            "accommodation"
+          ],
+          "ans": "E",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "xq3d",
+          "question": "Choose the option which is wrongly spelt",
+          "options": ["disappointed", "embarassed", "equipped", "rhythm"],
+          "ans": "B",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "2ngn",
+          "question": "Choose the option which is wrongly spelt",
+          "options": ["occurence", "surprise", "personnel", "possess"],
+          "ans": "A",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "95kd",
+          "question": "Choose the option that is wrongly spelt",
+          "options": ["quiet", "beleive", "proceed", "precede", "opportunity"],
+          "ans": "B",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "ahtp",
+          "question": "I was seriously disappointed when the __ between the two teams ended in a goalless draw.",
+          "options": ["march", "marsh", "match", "mash", "martch"],
+          "ans": "C",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "2a0b",
+          "question": "The __ in an attempt to please the workers promised to provide __ for them as soon as possible",
+          "options": [
+            "committee|accommodation",
+            "committee|acommodation",
+            "committee|accomodation",
+            "committee|acommoddation",
+            "committee|accomondation"
+          ],
+          "ans": "A",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "k8sy",
+          "question": "Very few students have satisfactory __ these days. Because the student population has increased tremendously",
+          "options": [
+            "acommondation",
+            "accomodation",
+            "accommodation",
+            "acommoddation",
+            "acommodation"
+          ],
+          "ans": "C",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "aqc2",
+          "question": "That single __ was enough to spoil a whole life time of good living.",
+          "options": [
+            "occurence",
+            "ocurence",
+            "occurrence",
+            "occurrense",
+            "ocurrence"
+          ],
+          "ans": "C",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "m442",
+          "question": "Whilst the thief was __ the passengers, he kept apologizing for the inconvenience he was causing them.",
+          "options": ["robbing", "rubbing", "robing", "rubing", "robbed"],
+          "ans": "A",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "gfz4",
+          "question": "Four persons accused of currency __ are being held by the security agents.",
+          "options": ["traficking", "traviking", "trafficking", "traffiking"],
+          "ans": "C",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "jm4u",
+          "question": "The committee was frustrated because the Chief withheld his __",
+          "options": ["accent", "access", "assent", "ascent"],
+          "ans": "C",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "hfgt",
+          "question": "He did not attend the final burial __",
+          "options": ["rite", "rights", "rites", "right"],
+          "ans": "C",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "2d5w",
+          "question": "The officer was compelled to __ the suspect's car.",
+          "options": ["sieze", "cease", "sieze", "sease"],
+          "ans": "C",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "qzrr",
+          "question": "He missed the point because he took the statement __",
+          "options": ["literally", "literarily", "literacy", "unilaterally"],
+          "ans": "A",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "nj2n",
+          "question": "Their high __ was an advantage.",
+          "options": ["moral", "morality", "morale", "morals"],
+          "ans": "C",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "4t0q",
+          "question": "My wife and I were to celebrate our silver wedding anniversary last Sunday.Unfortunately on that __ day, my father-in-law died mysteriously. ",
+          "options": ["fruitless", "faithful", "futile", "fateful"],
+          "ans": "D",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "5saw",
+          "question": "The hunter brought home __ antelope",
+          "options": ["alive", "a life", "a live", "a living"],
+          "ans": "C",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "1wki",
+          "question": "You can never find Okwu; he is a very __ person.",
+          "options": ["delusive", "elusive", "illusive", "deceptive"],
+          "ans": "B",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "pmhj",
+          "question": "What bothered me about the lecture was that the speaker __ too many irrelevant works.",
+          "options": ["slighted", "sighted", "sited", "cited"],
+          "ans": "D",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "t6ze",
+          "question": "I have the __ of meeting him.",
+          "options": ["previlege", "privilege", "previledge", "priviledge"],
+          "ans": "B",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "dr3m",
+          "question": "The pastor said 'lay __ your hearts to God'.",
+          "options": ["bier", "bare", "bare", "bar"],
+          "ans": "C",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "h3dn",
+          "question": "Ebun Ojo __ international fame as an actress",
+          "options": ["aquired", "acquired", "acquared", "aqcuired"],
+          "ans": "B",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "y8mv",
+          "question": "The man rose to an important position as a result of __ hardwork.",
+          "options": ["sheer", "cheer", "share", "shear"],
+          "ans": "A",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "bghb",
+          "question": "The story on the lost jewel was quite __",
+          "options": ["unbelievable", "unbelivable", "unbelieveable", "unbelivable"],
+          "ans": "A",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "usmm",
+          "question": "The patient is suffering from__",
+          "options": ["reumatism", "rheumantism", "rhuematism", "rheumatism"],
+          "ans": "D",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "6s04",
+          "question": "She has a set of gold __",
+          "options": ["earing", "earings", "earrings", "ear-ring"],
+          "ans": "C",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "e3pa",
+          "question": "The attitude of my students to __ baffles me.",
+          "options": [
+            "pronunciation",
+            "pronounciation",
+            "pronunceation",
+            "pronounceation"
+          ],
+          "ans": "A",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "aznc",
+          "question": "I have no respect for individuals who are too __",
+          "options": ["compliance", "complaint", "compliable", "complicated"],
+          "ans": "B",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "l89f",
+          "question": "She usually works hard; but __ she could be very lazy.",
+          "options": ["at times", "atimes", "attimes", "at time"],
+          "ans": "A",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "2ouw",
+          "question": "My __ is for you to refuse the __",
+          "options": [
+            "advise|advice",
+            "advice|advice",
+            "advice|advise",
+            "advise|advise"
+          ],
+          "ans": "B",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "74gk",
+          "question": "She has the __ of being intellgent when in fact she is not.",
+          "options": ["elision", "illusion", "delusion", "allusion"],
+          "ans": "C",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "ua27",
+          "question": "The __ engineer was unhappy with the shoddy work done by the contractors.",
+          "options": ["cite", "sight", "site", "side"],
+          "ans": "C",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "3gqy",
+          "question": "The development is to be carried to the __ level",
+          "options": ["grass root", "grassroots", "grassroot", "grass-root"],
+          "ans": "B",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "g1ul",
+          "question": "Soyinka's masterful __ of the atmosphere of his childhood helped to make his book, Ake, an outright.",
+          "options": ["evocation", "invocation", "convocation", "revocation"],
+          "ans": "A",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "yffs",
+          "question": "They were all behaving like a bunch of __ children",
+          "options": ["querulous", "querrulous", "querrullous", "quarrelous"],
+          "ans": "A",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "9qxm",
+          "question": "The Governor rejected the bill and withheld his __",
+          "options": ["access", "accent", "assent", "ascent"],
+          "ans": "C",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "ahcv",
+          "question": "The warring officer said that more__ would be needed to prosecute the war.",
+          "options": ["geurillas", "guerrillas", "geurrilas", "geurrillas"],
+          "ans": "B",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "rypt",
+          "question": "The warring factions need words of __",
+          "options": ["advise", "advises", "advice", "adverse"],
+          "ans": "C",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "mo7r",
+          "question": "The sergeant spoke to me in a __ manner.",
+          "options": ["coerce", "coarse", "course", "casual"],
+          "ans": "B",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "d75t",
+          "question": "I have the __ of meeting the president",
+          "options": ["privilege", "priviledge", "privelege", "previlege"],
+          "ans": "A",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "wggq",
+          "question": "I shall find time or my __ when I get __",
+          "options": [
+            "pass-time|over",
+            "pastime|through",
+            "past-time|over",
+            "passtime|through"
+          ],
+          "ans": "B",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "p1r5",
+          "question": "No teacher of honor would subject his student to any form of __",
+          "options": ["harrasment", "harrassment", "harassment", "harassement"],
+          "ans": "C",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "vvi1",
+          "question": "All God's prophets were given the great __ to preach salvation to people.",
+          "options": ["comission", "commission", "commision", "commition"],
+          "ans": "B",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "t826",
+          "question": "A nursery rhyme is used to teach pupils how to spell the word __",
+          "options": [
+            "hippoppotemus",
+            "hippopotamus",
+            "hipoppotemus",
+            "hipoppotamus"
+          ],
+          "ans": "B",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "e7gt",
+          "question": "Did you have__ when you went to visit the medical doctor?",
+          "options": ["diarrhoea", "diarrhae", "diarhoea", "diarhea"],
+          "ans": "A",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "hi1j",
+          "question": "When we looked up, we __  the plane some miles away",
+          "options": ["sited", "sighted", "site", "cited"],
+          "ans": "B",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "t2ed",
+          "question": "The __ part of a new book is often written by a more experienced wirter than the author",
+          "options": ["foreward", "foreword", "forward", "forword"],
+          "ans": "B",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "4h0b",
+          "question": "It is important that you clear the refuse in front of your house every __",
+          "options": ["fourtnight", "fortnight", "fourthnight", "forthnight"],
+          "ans": "B",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "bggp",
+          "question": "There are many ways to kill a rat, so we should be __ in our approach to the taks ahead of us.",
+          "options": ["ecletic", "eclectic", "eclektic", "eclectik"],
+          "ans": "B",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "yraw",
+          "question": "Here is Mr Odumusu who teaches English __ in our school.",
+          "options": [
+            "pronuntiation",
+            "pronounciation",
+            "pronunciation",
+            "pronountiation"
+          ],
+          "ans": "C",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "r4km",
+          "question": "Please sit on the __",
+          "options": ["carier", "career", "carrier", "carrear"],
+          "ans": "C",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "sm62",
+          "question": "I want to __ this chance to acquaint you with the latest development.",
+          "options": ["size", "seize", "sieze", "cease"],
+          "ans": "B",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "t6sg",
+          "question": "He started his career as an __ teacher",
+          "options": ["auxillary", "auxilliary", "auxilary", "auxiliary"],
+          "ans": "D",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "hygv",
+          "question": "__ a good leader must have two characteristics",
+          "options": [
+            "first and formost",
+            "first and formust",
+            "first and farmost",
+            "first and foremost"
+          ],
+          "ans": "D",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "c17z",
+          "question": "This professor of __ medicine has __ the mystery of bird flu.",
+          "options": [
+            "vetinary|unraveled",
+            "vertinary|unravelled",
+            "veterinary|unraveled",
+            "veterinary|unravelled"
+          ],
+          "ans": "D",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "zweo",
+          "question": "Our teacher defined __ in his introductory lesson.",
+          "options": ["onomatopoeia", "onomatopeia", "onomatopiea", "onomatopaeia"],
+          "ans": "A",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "1gpz",
+          "question": "The students had a __ on Independence Day.",
+          "options": ["march pass", "match pass", "march past", "match pass"],
+          "ans": "C",
+          "main": "",
+          "remark": ""
+        },
+        {
+          "id": "h5r5",
+          "question": "His father hardly misses the news because he goes about with his __ radio",
+          "options": ["pointable", "pottable", "potable", "portable"],
+          "ans": "D",
+          "main": "",
+          "remark": ""
+        }
+      ]      
     }
   ]
