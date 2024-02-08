@@ -5167,7 +5167,7 @@ let chemistryQuestions = [
           `${formula("CH", 4)}`,
           `${formula("H", 2)}`,
         ],
-        ans: "C",
+        ans: "D",
       },
       {
         id: 29,
@@ -5281,6 +5281,24 @@ let chemistryQuestions = [
         question: `The noble gas with a high power of fog penetration used in aerodome beacons is`,
         options: [`argon`, `helium`, `neon`, `krypton`],
         ans: "C",
+      },
+      {
+        id: 60,
+        question: `Which of the following gases makes up the largest percentage of atmospheric air`,
+        options: ['carbon(IV) oxide', 'Hydrogen', 'Nitrogen', 'Noble gases', 'Oxygen'],
+        ans: "C",
+      },
+      {
+        id: 61,
+        question: `Which of the following is not a natural component of the air`,
+        options: ['water vapor', 'carbon(II) oxide', 'Nitrogen', 'Carbon(IV) oxide'],
+        ans: "B",
+      },
+      {
+        id: 62,
+        question: `The uncovered raw food that is sold along major roads is likely to contain some amounts of`,
+        options: ['Pb','Cu','Ag','Na'],
+        ans: "A",
       },
     ],
   },
