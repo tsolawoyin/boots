@@ -91,7 +91,7 @@ function toggle(cond) {
         // updateKeyColor(seenQuestions)
         showAnsweredQuestions(seenQuestions); // only seen questions are show... imagine...
         
-    } else if (currentQuestion.userAnswer) { // this means if question has been answered
+    } else if (currentQuestion.userAnswer || submitted) { // this means if question has been answered
         // choose question and update UI
         // updateAnswer(currentQuestion) // seems like we need to update answer before nexting
         chooseQuestion(cond, currentQuestion.id) // this has a side effect

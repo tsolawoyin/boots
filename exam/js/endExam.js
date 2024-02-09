@@ -16,6 +16,8 @@ function endExam() {
 
         alert(`Your score is ${score}`)
 
+        submitted = true;
+
     } else if (!submitted) {
     
         localStorage.setItem(username.value, score) // this will help write result in local storage, at least for now.
