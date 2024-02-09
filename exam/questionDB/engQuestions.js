@@ -6464,7 +6464,7 @@ let englishQuestions = [
         {
           "id": "x9kj",
           "question": "On such an important __ all the guests were expected to be at their best.",
-          "options": ["occasion", "ocassion", "occasion", "ocason"],
+          "options": ["occassion", "occasion", "ocassion", "occasion","ocason"],
           "ans": "A",
           "main": "",
           "remark": ""
@@ -6474,7 +6474,7 @@ let englishQuestions = [
           "question": "I have applied for __ on the campus and I am almost certain I shall get it.",
           "options": [
             "acommodation",
-            "accommodation",
+            "accommondation",
             "accomodation",
             "accomoddation",
             "accommodation"
@@ -6489,7 +6489,7 @@ let englishQuestions = [
           "options": ["disappointed", "embarassed", "equipped", "rhythm"],
           "ans": "B",
           "main": "",
-          "remark": ""
+          "remark": "Embarrassed. 'rr' and 'ss'"
         },
         {
           "id": "2ngn",
@@ -6656,10 +6656,11 @@ let englishQuestions = [
         {
           "id": "dr3m",
           "question": "The pastor said 'lay __ your hearts to God'.",
-          "options": ["bier", "bare", "bare", "bar"],
+          "options": ["bier", "bear", "bare", "bar"],
           "ans": "C",
           "main": "",
           "remark": ""
+          // bear as opposed to bare... bare is the correct answer.
         },
         {
           "id": "h3dn",
@@ -6712,7 +6713,7 @@ let englishQuestions = [
           ],
           "ans": "A",
           "main": "",
-          "remark": ""
+          "remark": "pro<strong>nun</strong>ciation"
         },
         {
           "id": "aznc",
@@ -6741,7 +6742,7 @@ let englishQuestions = [
           ],
           "ans": "B",
           "main": "",
-          "remark": ""
+          "remark": "adivce(noun) is used in both cases."
         },
         {
           "id": "74gk",
@@ -6825,7 +6826,7 @@ let englishQuestions = [
         },
         {
           "id": "wggq",
-          "question": "I shall find time or my __ when I get __",
+          "question": "I shall find time for my __ when I get __",
           "options": [
             "pass-time|over",
             "pastime|through",
@@ -6843,6 +6844,7 @@ let englishQuestions = [
           "ans": "C",
           "main": "",
           "remark": ""
+          // harassment is a single r and double ss
         },
         {
           "id": "vvi1",
@@ -6979,7 +6981,7 @@ let englishQuestions = [
         {
           "id": "1gpz",
           "question": "The students had a __ on Independence Day.",
-          "options": ["march pass", "match pass", "march past", "match pass"],
+          "options": ["march pass", "match pass", "march past", "match past"],
           "ans": "C",
           "main": "",
           "remark": ""
