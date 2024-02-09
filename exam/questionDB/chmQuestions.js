@@ -4977,7 +4977,7 @@ let chemistryQuestions = [
           `${formula("N", 2)} and the inert gases`,
           `Water vapour, ${formula("N", 2)} and the inert gases`,
         ],
-        ans: "D",
+        ans: "C",
       },
       {
         id: 11,

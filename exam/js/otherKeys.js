@@ -18,8 +18,12 @@ keys.addEventListener("click", e => {
 
     // the logic get as e be sha....
     if (mode == "practice") {
-        if (clicked.id == "next") toggle("next");
-        if (clicked.id == "prev") toggle("prev");
+        if (clicked.id == "next") {
+            toggle("next")
+        };
+        if (clicked.id == "prev") {
+            toggle("prev")
+        };
     }
 
     if (clicked.className == "numbers") {

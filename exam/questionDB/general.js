@@ -1,4 +1,4 @@
-
+'use-strict'
 // generate 40 random questions
 
 function general(subject) {
@@ -34,4 +34,4 @@ function choose(questions) {
 // for (let i = 0; i < 1000; i++) {
 //     console.log(i, "=>", general(chemistryQuestions).length)
 // }
-general(chemistryQuestions)
+// general(chemistryQuestions)

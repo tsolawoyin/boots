@@ -20,6 +20,8 @@ startBtn.addEventListener("click", (e) => {
     loadQuestionType(choosenTopic.value);
     // console.log(choosenSubject)
     // load the first question into UI
+    // setting time
+    minutes = Number(userTime.value)
     timeInterval = setInterval(time, 1000); // start countdown
 
     // load the first question
@@ -39,7 +41,12 @@ startBtn.addEventListener("click", (e) => {
 // this program is just to make my student become better. no long thing.... I don't have all these server time. honestly...
 // help update the user information
 function loadClientDetails() {
-  userEl.textContent = username.value;
+  if(username.value.trim().toUpperCase() == "KIZZYLOVE") {
+    // userEl.textContent = "Adekizzy";
+    userEl.textContent = username.value;
+  } else {
+    userEl.textContent = username.value;
+  }
   sbjEl.textContent = subject.value;
   topicEl.textContent = choosenTopic.value;
 }

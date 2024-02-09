@@ -3,6 +3,7 @@ const startBtn = document.querySelector("#start");
 // input value
 const username = document.querySelector("#username")
 const subject = document.querySelector("#subjects")
+const userTime = document.querySelector("#user-time")
 // const modeEl = document.querySelector("#mode")
 // mode is one of -> 
 let mode = "practice"; // the reason why I am keeping this for now is that a significant part of the code relies on this to work...
@@ -45,9 +46,8 @@ let isMember = false // a registered user
 // submit state
 let submitted = false;
 // time status
-let defaultTime = 30;
 let seconds = 0;
-let minutes = defaultTime;
+let minutes = Number(userTime.value);
 let timeInterval = null;
 // now that's one problem noticed... always looking for problem...
 // now I understand the problem...

@@ -16,3 +16,5 @@ setQuestion("chemistry", chemistryQuestions)
 setQuestion("english", englishQuestions)
 // setQuestion("physics", physicsQuestions)
 setQuestion("biology", biologyQuestions)
+
+// I set it everytime.
