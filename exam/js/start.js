@@ -56,6 +56,9 @@ function loadQuestionType(topic) {
       case "chemistry":
         unseenQuestions = general(getQuestion("chemistry"));
         break;
+      case "english":
+        unseenQuestions = general(getQuestion("english"));
+        break
     }
   } else {
     let questionsList;
