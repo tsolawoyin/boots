@@ -37,7 +37,8 @@ let sampleQuestion3 = {
 
 // Question -> build question
 function buildQuestion(question) {
-  return `<p class="question-text">${question.id}. ${
+  // append info if present then continue rendering
+  return `${question.info ? `<p class='question-info'>${question.info}</p>`: ""}<p class="question-text">${question.id}. ${
     question.question
   }</p>${generateOptions(
     question.id,
@@ -80,3 +81,6 @@ function generateOptions(id, options, answer, remark) {
 
   return structure;
 }
+
+
+// inserting info to the top of question
