@@ -55,4 +55,6 @@ function showAnsweredQuestions (questions) { // which one will I iterate over? t
     }   
 }
 
+export { showAnsweredQuestions }
+
 // when you know algorithms and ds, you are a programmer.

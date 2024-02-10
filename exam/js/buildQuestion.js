@@ -1,5 +1,6 @@
 // imagine how the function is simplified when you know what you are supposed to do already.
 // question already seen but haven't answered
+// modularizing the code is better. I will work hard to refactor it.
 let sampleQuestion1 = {
   id: 1,
   question:
@@ -84,3 +85,6 @@ function generateOptions(id, options, answer, remark) {
 
 
 // inserting info to the top of question
+// the build function doesn't need any external module....
+
+export { buildQuestion }

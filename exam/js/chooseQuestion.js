@@ -1,11 +1,18 @@
+import { mainWord } from "../questionDB/helpers.js"; // we need mainWord in for english repackaging
+// my major goal with this functions is to make them reusable...
+// I don't want to hard code anything in it.
+// but because of rush hour and perhaps because we really need the stuff, I have to neglect such goal. but now, I can start working on it underG.
 
+// =========================PLEASE READ THE BELOW CAREFULLY TO UNDERSTAND HOW THIS FUNCTION IS WORKING===============================================
 // condition currentId
 // the function has three side effects
 // 1. it updates the current question
 // 2. it pushes the chosen question into the seenQuestion
 // 3. it removes the chosen question from the unseenQuestion
 
-
+// unseenQuestions is a list of questions the user haven't seen yet.
+// seenQuestions is a list of questions that the user have seen already.
+// currentQuestion is a Question object that the user is currently seeing, i.e, currently looking at or currently working on. something like that.
 
 // condition is one of:
 // - prev
@@ -17,15 +24,16 @@
 
 // where prev key goes back to a question 1 less than the current question
 // next key have two behaviours
-//    1. if the next question (i.e current question.id + 1) is already seen, we simply go to the next question by calling the fetchQuestion, which performs a quick run through the list
-//    2. if the question does not exist in the seen questions, then we choose a new question at random and push to seen
-// if initial, i.e load first question, then we just choose a new question at random
+//    1. if the next question (i.e current question.id + 1) is already seen, we simply go to the next question by calling the fetchQuestion, which performs a quick run through the list (seenQuestions)
+//    2. if the question does not exist in the seen questions, then we choose a new question at random and push to seenQuestions
+// if initial, i.e load first question, then we just choose a new question at random and push to seenQuestion as well
 // if num-key, somewhat like next but a little more work. that's all...
 
 // let's do some little testings
 // little testing ke, abi serious testing...
 // main function...
-function chooseQuestion (condition, currentId) {
+
+function chooseQuestion (unseenQuestions, seenQuestions, currentQuestion, condition, currentId) {
 
     if (condition == "initial") {
         // choosing question at random
@@ -45,7 +53,6 @@ function chooseQuestion (condition, currentId) {
             if (isPresent(currentId + 1, seenQuestions)) { // checking to see if question is already seen
                 // the next question has already been seen, so just set currentQuestion to the question
                 currentQuestion = fetchQuestion(currentId + 1, seenQuestions) // go and bring the question for us... // that is all. 
-                // I think this is where the problem lies... 
             } else {
                 // we just do a new thing here...
                 let choice = randomQuestion(unseenQuestions) // choose a random question asap...
@@ -122,6 +129,7 @@ function chooseQuestion (condition, currentId) {
 
 function randomQuestion(questions) {
     return questions[Math.floor(Math.random() * questions.length)]
+    // no hardcoding done here... everything is cool
 }
 // cond is one of initial, next, prev, and num
 // oldId is the id of the currentQUESTION
@@ -129,8 +137,8 @@ function randomQuestion(questions) {
 function repackaged(choice, cond, oldId) {
     // the userAnswer is supposed to check for old answers shey you get...
     // let's repackaged everything here joh...
-    // english repacking,, please no vex sha oo... please. thanks
     if (choice.main) {
+        // english repacking. This is specifically done for english functions. see mainWord function for more explanation
         choice.question = mainWord(choice.main, choice.question)
     }
 
@@ -153,6 +161,7 @@ function repackaged(choice, cond, oldId) {
         choice.id = oldId;
         choice.userAnswer = null;
     }
+    // just side effect. nothing much.
 }
 
 // removing choice from list
@@ -179,7 +188,12 @@ function isPresent(id, questions) {
     return false;
 }
 
+// honestly, not bad to refactor as I've thought earlier on...
 // that's all.
+
+// ================= SAMPLE TO GO IN HERE =======================
+// it is tedious to test DOMelements stuff but what shall we do?
+// ==============================================================
 
 // test for initial is passed alright
 // chooseQuestion("initial", 0) // for initial state, id must be zero 
@@ -279,3 +293,7 @@ function isPresent(id, questions) {
 // logical reasoning. That's why you are a programmer my nigga...
 
 // this function is where questions gets choosen so I can check for potential problem here...
+
+// now this question will be highly problematic because it relies heavily on the global namespace. Jesus
+// since we are done testing, we can just export the function, easy peasy...
+export { chooseQuestion }

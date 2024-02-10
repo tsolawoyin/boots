@@ -20,3 +20,4 @@ function markQuestions (questions) {
     return score.toFixed(2);
 }
 
+export { markQuestions }
