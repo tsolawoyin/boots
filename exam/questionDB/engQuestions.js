@@ -5457,4 +5457,530 @@ let englishQuestions = [
       },
     ],
   },
+  {
+    'topic': "Common mistakes",
+    'questions': [
+      {
+        "id": "d9k0",
+        "question": "As he was still owing me two Naira, I was careful not to __ him any more money",
+        "options": ["lend", "loan", "borrow", "extend"],
+        "ans": "A",
+        "main": "",
+        "remark": "'Lend' involves giving while 'borrow' is taking. You lend sb your money or borrow their money; or they lend you their money or they borrow your money."
+      },
+      {
+        "id": "qe3m",
+        "question": "They __ receive visitors at short notice.",
+        "options": ["use to", "are used to", "used to", "are always", "are use to"],
+        "ans": "C",
+        "main": "",
+        "remark": "They did receive visitors on short notice in the past but no longer do so nowadays"
+      },
+      {
+        "id": "rbn2",
+        "question": "For __ he is secretary, we shall not have correct minutes.",
+        "options": ["because", "as long as", "so long", "in as much", "although"],
+        "ans": "B",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": "jco1",
+        "question": "Before we left the airport. each passenger was made to __ certain forms.",
+        "options": ["fill in", "write in", "enter in", "flew down", "stopped"],
+        "ans": "A",
+        "main": "",
+        "remark": "Never omit the preposition 'in' from 'fill in certain forms'"
+      },
+      {
+        "id": "fhq5",
+        "question": "We should take care __ the robbers come back",
+        "options": ["may be", "should in case", "perhaps", "probably", "in case"],
+        "ans": "E",
+        "main": "",
+        "remark": "should = in case. It is no less tautological to say 'I cannot be able' than to say 'should in case'. Both are errors!"
+      },
+      {
+        "id": "cbhx",
+        "question": "Isn't it hight time you __ your office?",
+        "options": ["are leaving", "do leave", "leave", "left", "did leave"],
+        "ans": "D",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": "msj2",
+        "question": "Mr. Thomas talked __ about the successes of his institute in the past year.",
+        "options": [
+          "at a great length",
+          "for great length",
+          "at great length",
+          "for a great length",
+          "at great lengths"
+        ],
+        "ans": "C",
+        "main": "",
+        "remark": "At length or at great length (no article involved)"
+      },
+      {
+        "id": "q1a7",
+        "question": "The members of the panels were __",
+        "options": [
+          "discussing about it",
+          "discussing on it",
+          "discussing upon it",
+          "discussing it",
+          "discussing around it"
+        ],
+        "ans": "D",
+        "main": "",
+        "remark": "'Discuss' does not require a preposition"
+      },
+      {
+        "id": "du9a",
+        "question": "This writer analyses the evils of the society __",
+        "options": [
+          "so masterly",
+          "very masterly",
+          "in such a masterly way",
+          "in a masterly way",
+          "in so masterly away"
+        ],
+        "ans": "D",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": "ydbn",
+        "question": "It was a long poem but he learnt it __",
+        "options": ["off head", "in memory", "by heart", "at heart", "from memory"],
+        "ans": "C",
+        "main": "",
+        "remark": "You learn by heart, commit to memory, recite offhand (not off head), young at heart, in memory of, to the memory of sb."
+      },
+      {
+        "id": "ba9h",
+        "question": "We ought to stay away __ the robbers come back.",
+        "options": ["provided", "should in case", "although", "in case", "since"],
+        "ans": "D",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": "p2qs",
+        "question": "Ikorodu is not far from here., it is only an __",
+        "options": [
+          "hour of driving",
+          "hour's drive",
+          "hour by driving",
+          "hour in driving",
+          "hours drive"
+        ],
+        "ans": "B",
+        "main": "",
+        "remark": "Similar examples: two days' journey; five weeks' wages; six hours' drive; six-hour drive"
+      },
+      {
+        "id": "uc2r",
+        "question": "It is time we __",
+        "options": ["should be going", "ought to go", "are going", "went", "go"],
+        "ans": "D",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": "b3n3",
+        "question": "You __ to know better than illiterate farmer.",
+        "options": [
+          "are suppose",
+          "are supposed",
+          "suppose",
+          "have supposed",
+          "are supposing"
+        ],
+        "ans": "B",
+        "main": "",
+        "remark": "Pattern: be + supposed + to + infinitive"
+      },
+      {
+        "id": "lo0r",
+        "question": "The Executive President honored the messenger with the Grand commander of the NIger award __ his industry and meritorious service to the nation.",
+        "options": [
+          "on recognition of",
+          "in recognition to",
+          "by recognition of",
+          "in recognition of"
+        ],
+        "ans": "D",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": "8toj",
+        "question": "A society __ individuals each of whom has hit attributes and distinct characteristics.",
+        "options": [
+          "is constituted of",
+          "comprises of",
+          "consists of",
+          "contains of",
+          "is made from"
+        ],
+        "ans": "C",
+        "main": "",
+        "remark": "Comprises and contains require no preposition after them."
+      },
+      {
+        "id": "aaxf",
+        "question": "Olukayode __ as a mechanic when he younh, but now he is a driver.",
+        "options": [
+          "had been working",
+          "used to work",
+          "would work",
+          "would have worked",
+          "used to worked"
+        ],
+        "ans": "B",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": "zt6n",
+        "question": "If we went to any European country, __ Britain, we should need a substantial amount of money to pay our way.",
+        "options": ["like", "let us say", "as an example", "like say", "if we say"],
+        "ans": "B",
+        "main": "",
+        "remark": "To cite examples, you use expression 'let us say' (or let's say) or just 'say'"
+      },
+      {
+        "id": "c33s",
+        "question": "The horse is a winner, ___",
+        "options": [
+          "you can take that from me",
+          "you can say I say so",
+          "you can take my word for it",
+          "it is my word against theirs",
+          "you may or may not believe it"
+        ],
+        "ans": "A",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": "q2xx",
+        "question": "The prices __ are too high for us",
+        "options": [
+          "you lent me",
+          "you quoted",
+          "you attended",
+          "you gave me",
+          "you want to buy"
+        ],
+        "ans": "B",
+        "main": "",
+        "remark": "You quote a customer a price for sth/for doing sth."
+      },
+      {
+        "id": "lr9k",
+        "question": "The method __ does not give the expected results.",
+        "options": [
+          "you recommended",
+          "you visited",
+          "you told",
+          "you sent me",
+          "you wanted"
+        ],
+        "ans": "A",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": "3uyg",
+        "question": "Oxygen is necessary to life. Nothing can live without it. It was __ a century ago.",
+        "options": ["invented", "found out", "discovered", "learnt", "extracted"],
+        "ans": "C",
+        "main": "",
+        "remark": "You 'discovered' sth which is naturally occuring but hitherto unknown to others but you 'invented' a new thing which never existed naturally."
+      },
+      {
+        "id": "kx9s",
+        "question": "I am afraid you cannot use this telephone; it is __",
+        "options": [
+          "out of order",
+          "in order",
+          "for order",
+          "at order",
+          "with order"
+        ],
+        "ans": "A",
+        "main": "",
+        "remark": "to be 'out of order' is 'not' to be working properly/correctly"
+      },
+      {
+        "id": "42bq",
+        "question": "Must you always __ lies? Why don't you __ the truth for once.",
+        "options": ["speak", "say", "talk", "tell", "utter"],
+        "ans": "D",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": "al3w",
+        "question": "Could I ring him up? I'd rather you __",
+        "options": [
+          "visit him",
+          "visited him",
+          "would visit him",
+          "visiting him",
+          "will visit him"
+        ],
+        "ans": "B",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": "inuw",
+        "question": "Shall we go to the Union meeting? No thank you, I do not feel like __ anywhere",
+        "options": ["go", "going", "to go", "to have gone", "went"],
+        "ans": "B",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": "xoz4",
+        "question": "I was able to __ Olu my book because he promised to return it the following day",
+        "options": ["borrow", "give", "lend", "lease", "secure"],
+        "ans": "C",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": "zbbk",
+        "question": "No sooner had the examination ended __ the students started vacating the halls of residence",
+        "options": ["when", "that", "than", "before", "and"],
+        "ans": "C",
+        "main": "",
+        "remark": "No sooner...than"
+      },
+      {
+        "id": "c3sl",
+        "question": "The Chairman ruled the impertinent speaker __",
+        "options": [
+          "according to order",
+          "out of order",
+          "contrary to order",
+          "disorderly",
+          "correctly"
+        ],
+        "ans": "B",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": "ymqm",
+        "question": "He bought a typewriter with a view __ to type",
+        "options": [
+          "to learning",
+          "to learnt",
+          "to be learning",
+          "to be learnt",
+          "to have learnt"
+        ],
+        "ans": "A",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": "21b2",
+        "question": "It is time we __ this irresponsible member",
+        "options": [
+          "expel",
+          "are to expel",
+          "will expel",
+          "are expelling",
+          "expelled"
+        ],
+        "ans": "E",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": "hdap",
+        "question": "Although he was invited __ he was not welcome.",
+        "options": ["but", "yet", "so", "since", "no correct response"],
+        "ans": "E",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": "7iuh",
+        "question": "Excuse me, do you mind __ I smoke?",
+        "options": ["because", "if", "since", "while", "against"],
+        "ans": "B",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": "3bf8",
+        "question": "Without __ words he accused him directly of treachery",
+        "options": ["amending", "modifying", "mixing", "mincing", "meaning"],
+        "ans": "D",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": "t98c",
+        "question": "He is easily the __ of the lot.",
+        "options": [
+          "brightest",
+          "brighter",
+          "more bright",
+          "most brightest",
+          "most bright"
+        ],
+        "ans": "A",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": "fghn",
+        "question": "He devoted himself __ homeless children",
+        "options": [
+          "to helping",
+          "to help",
+          "by helping",
+          "with helping",
+          "helping"
+        ],
+        "ans": "A",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": "d40b",
+        "question": "I wish I __ to swim when I was younger.",
+        "options": ["had learnt", "learn", "learnt", "was learning", "have learnt"],
+        "ans": "A",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": "2hi6",
+        "question": "It was a blind alley. I could not walk any __",
+        "options": ["far", "farthest", "furthest", "farther", "further"],
+        "ans": "E",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": "zx5n",
+        "question": "My younger brother looked ill last night, and was evidently __ this morning.",
+        "options": ["worse", "worst", "more ill", "leaner", "brighter"],
+        "ans": "A",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": "myeg",
+        "question": "Joe had found a flat, so __ he will not be sleeping here, even if he still comes for meals.",
+        "options": ["lastly", "least", "last", "at last", "at least"],
+        "ans": "E",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": "knqi",
+        "question": "I was in such a hurry, I didn't have time to __ 'Hello'.",
+        "options": ["tell", "speak", "talk", "say", "utter"],
+        "ans": "D",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": "bw41",
+        "question": "The old shoemaker at the corner of our street is __ so I hope you will patronize him.",
+        "options": [
+          "mine shoemaker",
+          "a tight friend",
+          "a good customer",
+          "my customer",
+          "a close friend"
+        ],
+        "ans": "E",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": "nw5o",
+        "question": "You can go on; I __ what you are saying.",
+        "options": [
+          "am understanding",
+          "may be understanding",
+          "was understanding",
+          "will be understanding",
+          "understand"
+        ],
+        "ans": "E",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": "rwrv",
+        "question": "I have refused to give him my pen because I don't want him to __ it again.",
+        "options": ["loss", "loose", "lose", "lost", "lend"],
+        "ans": "C",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": "ll92",
+        "question": "We were all delighted when the beautiful lady in our house__ a bouncing baby boy.",
+        "options": [
+          "delivered",
+          "born",
+          "brought forth",
+          "gave birth to",
+          "gave bath to"
+        ],
+        "ans": "D",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": "ftf7",
+        "question": "The wicked boy threw a stone at the bird smashing __ two legs.",
+        "options": ["its", "it's", "it", "is", "its'"],
+        "ans": "A",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": "kpus",
+        "question": "Would you mind __ the door, please?",
+        "options": [
+          "to shut",
+          "to be shutting",
+          "shutting",
+          "to have been shutting",
+          "to have shut"
+        ],
+        "ans": "C",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": "um4x",
+        "question": "I am not used to __ on left",
+        "options": [
+          "drive",
+          "having driven",
+          "driving",
+          "have driven",
+          "being driving"
+        ],
+        "ans": "C",
+        "main": "",
+        "remark": ""
+      }
+    ]    
+  }
 ];

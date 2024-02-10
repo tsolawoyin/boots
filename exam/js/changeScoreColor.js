@@ -5,6 +5,7 @@ function changeColor() {
     let percentScore = (score / numberOfQuestion) * 100;
 
     if (percentScore == 100) {
+        scoreUpdate.textContent += " 👽"
         scoreUpdate.style.color = "goldenrod"
     } else if (percentScore >= 80) {
         scoreUpdate.style.color = "blue";
