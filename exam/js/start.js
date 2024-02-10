@@ -57,7 +57,6 @@ start.addEventListener("click", (e) => {
     // this started thing is not that useful unless I want to 
 
     loadQuestionType(subject.value, choosenTopic.value);
-    console.log(unseenQuestions) // makes sense... we choose any random question from the stuff...
     // console.log(choosenSubject)
     // load the first question into UI
     // setting time
@@ -172,5 +171,6 @@ function loadKeys(keys) {
 // I need to think of this modularly else it will and shall not work. Trust me.
 export {
   unseenQuestions,
-  seenQuestions
+  seenQuestions,
+  numberOfQuestion
 }

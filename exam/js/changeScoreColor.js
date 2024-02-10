@@ -3,7 +3,7 @@
 
 // Number, DOMelement -> update the color based on the percentage score
 // this function only has side effect. Makes sense. may be...
-export default function changeColor(numberOfQuestion, element) {
+function changeColor(numberOfQuestion, element) {
     let percentScore = (score / numberOfQuestion) * 100;
 
     if (percentScore == 100) {
@@ -17,6 +17,8 @@ export default function changeColor(numberOfQuestion, element) {
         element.style.color = "crimson"
     }
 }
+
+export { changeColor }
 
 // code modularization helps make function easy to test individual
 // and even if not testable, makes it easy to understand and reason about

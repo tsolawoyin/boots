@@ -26,8 +26,6 @@ const examInterface = document.querySelector("#exam-interface");
 const questionFrame = document.querySelector("#question-frame");
 const questionBox = document.querySelector("#question");
 const numKeys = document.querySelector("#num-keys");
-// key elements
-const keys = document.querySelector("#keys");
 // time elements
 const timeEl = document.querySelector("#time");
 const minEl = document.querySelector("#min");
@@ -39,12 +37,10 @@ const scoreEl = document.querySelector("#current-score");
 // the ones with the const is ok... 
 
 // the reason I am using let here that I want to change it later...
-let score = 0;
+// still going to work on score kind of...
 
 let isLogin = false; // isLogin will do that stuff for us...
 
-// submit state
-let submitted = false;
 // time status
 let seconds = 0;
 let minutes = Number(userTime.value);
@@ -54,7 +50,6 @@ let timeInterval = null;
 // question
 // let unseenQuestions = null; // the questions to be done will be loaded once the user starts.
 // let seenQuestions = []; // list of question that have been seen. Seen doesn't necessarily mean done anyways.
-let numberOfQuestion = 40; // let the number of questions be 40. jamb style.
 
 // exporting a lot of things that I am not even sure will still work...
 export {
@@ -74,20 +69,20 @@ export {
   questionFrame,
   questionBox,
   numKeys,
-  keys,
+//   keys,
   timeEl,
   minEl,
   secEl,
   scoreUpdate,
   scoreEl,
-  score,
+//   score,
   isLogin,
-  submitted,
+//   submitted,
   seconds,
   minutes,
   timeInterval,
 //   unseenQuestions,
 //   seenQuestions,
 //   currentQuestion,
-  numberOfQuestion,
+//   numberOfQuestion,
 };

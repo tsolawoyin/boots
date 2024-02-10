@@ -32,6 +32,9 @@ import { mainWord } from "../questionDB/helpers.js"; // we need mainWord in for 
 // let's do some little testings
 // little testing ke, abi serious testing...
 // main function...
+// olagbara o...
+
+// this program is a bad program, it works but the side effect is too much...
 
 function chooseQuestion (unseenQuestions, seenQuestions, currentQuestion, condition, currentId) {
 
@@ -121,10 +124,11 @@ function chooseQuestion (unseenQuestions, seenQuestions, currentQuestion, condit
             // update current question
             currentQuestion = choice;
         }
-        
     }
 
-    return currentQuestion
+    return {currentQuestion, unseenQuestions, seenQuestions};
+    // hello world... ..
+    // this is serious... o ti di gidi gan ni...
 }
 
 // that is all. no long thing. O ti tan beyen...

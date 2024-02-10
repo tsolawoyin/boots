@@ -16,6 +16,7 @@ function updateAnswer(currentQuestion) {
             currentQuestion.userAnswer = ans.value;
         }
     }
+    return currentQuestion;
 } 
 
 export { updateAnswer } // this is also dope. no hardcoding stuff..
