@@ -1,5 +1,5 @@
 // To be turned on only when changes want to be made.
-
+import { exp, formula, units, ion, eConfig, isotope } from "./helpers.js"
 let chemistryQuestions = [
   {
     topic: "nitrogen",
@@ -5306,3 +5306,4 @@ let chemistryQuestions = [
 
 // the general test thing is not choosing at runtime, it's just going to choose randomly before it starts. You know, given an arbitrary number of topics, select 40 random questions before starting...
 // makes sense...
+export { chemistryQuestions }

@@ -18,4 +18,5 @@ function updateAnswer(currentQuestion) {
     }
 } 
 
+export { updateAnswer } // this is also dope. no hardcoding stuff..
 // this is not easy to test as we need UI elements to do proper testing. Thanks

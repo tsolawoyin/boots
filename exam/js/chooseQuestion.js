@@ -123,6 +123,8 @@ function chooseQuestion (unseenQuestions, seenQuestions, currentQuestion, condit
         }
         
     }
+
+    return currentQuestion
 }
 
 // that is all. no long thing. O ti tan beyen...

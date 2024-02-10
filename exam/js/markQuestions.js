@@ -6,7 +6,7 @@
 
 // web programming is not bad. When you know HOW TO CODE!
 // there shouldn't be negative marking henceforth...
-function markQuestions (questions) {
+function markQuestions (numberOfQuestion, questions) {
     let score = 0;
 
     for (let q of questions) {

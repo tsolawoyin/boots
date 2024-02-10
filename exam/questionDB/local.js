@@ -1,3 +1,6 @@
+import { chemistryQuestions } from "./chmQuestions.js"
+import { biologyQuestions } from "./bioQuestions.js"
+import { englishQuestions } from "./engQuestions.js"
 // to prevent having all the questions loaded on load, I will parse all the questions and send to local storage
 
 // I will just have to modify the code a bit
@@ -18,3 +21,4 @@ setQuestion("english", englishQuestions)
 setQuestion("biology", biologyQuestions)
 
 // I set it everytime.
+export { getQuestion }

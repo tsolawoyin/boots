@@ -35,3 +35,5 @@ function choose(questions) {
 //     console.log(i, "=>", general(chemistryQuestions).length)
 // }
 // general(chemistryQuestions)
+
+export { general }

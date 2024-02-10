@@ -1,28 +1,69 @@
+import { chooseQuestion } from "./chooseQuestion.js";
+import { buildQuestion } from "./buildQuestion.js";
+import { getQuestion } from "../questionDB/local.js";
+import { general } from "../questionDB/general.js";
+import { choosenTopic } from "./selectTopic.js"; // that's what I am talking about. You need to reason this thing properly... else, you will just keep banging on the keyboard like a monkey...
+import { isMember } from "./validateUser.js"; // now things are making sense... This will surely make me learn more about module...
+import { 
+  startBtn as start, // likewise this
+  subject, // this is very important rn
+  username,
+  userEl,
+  topicEl,
+  sbjEl,
+  numKeys,
+  questionBox,
+  loginInterface,
+  examInterface
+} from "./declarations.js"; 
+// it's clear that unseenQuestion and seenQuestions pops up on the click of start
+
+
+let unseenQuestions = [];
+let seenQuestions = [];
+let currentQuestion = null;
+let numberOfQuestion = 40;
+
+// environmental conditioning. this get as e be. lol...
+
+// import { unseenQuestions } from "./declarations.js";
+// apart from that, modules helps reason about code better. making it easy to write resuable code. now I get React philosophy..
+// practicals is more important than theory.
+
+
+// surely surely this cannot work...
 // this is actually nice to be honest...
 // events that happens when the start button is clicked.
 
-startBtn.addEventListener("click", (e) => {
-  // load client detail into UI
-  choosenSubject = subject.value; // the choosen subject
+// start engine will need serious modification.
+// if it will start, we will fix the rest. trust me.
 
+// we will therefore need to make local declarations. This is dope but frustrating. hmmm...
+// let login = isLogin
+
+start.addEventListener("click", (e) => {
+  // load client detail into UI
   // mode = modeEl.value; // set the choosen mode...
 
-  loadClientDetails();
+  loadClientDetails(); // we need to load client's detail first...
+  // loadClientDetails is ok...
 
   // if login is true, then we can proceed...
-  if (isMember) {
+  if (isMember) { // isMember is gotten from another programmer. lol..
     // set the global questions to the needed kind of questions and updating question length... too many things to be for God's sake. hmmmm
     // now we can set login to true here
-    isLogin = true;
 
-    localStorage.setItem("started", true); // normally, exam has started now...
+    // localStorage.setItem("started", true); // normally, exam has started now...
+    // this started thing is not that useful unless I want to 
 
-    loadQuestionType(choosenTopic.value);
+    loadQuestionType(subject.value, choosenTopic.value);
+    console.log(unseenQuestions) // makes sense... we choose any random question from the stuff...
     // console.log(choosenSubject)
     // load the first question into UI
     // setting time
-    minutes = Number(userTime.value)
-    timeInterval = setInterval(time, 1000); // start countdown
+    // minutes = Number(userTime.value); // this will surely cause trouble.... 
+
+    // timeInterval = setInterval(time, 1000); // start countdown
 
     // load the first question
     loadFirstQuestion();
@@ -32,7 +73,6 @@ startBtn.addEventListener("click", (e) => {
     loginInterface.style.display = "none"; // remove login interface
 
     examInterface.style.display = "grid"; // display exam interface...
-
   } else {
     window.alert("Please enter a valid name.");
   }
@@ -40,38 +80,36 @@ startBtn.addEventListener("click", (e) => {
 
 // this program is just to make my student become better. no long thing.... I don't have all these server time. honestly...
 // help update the user information
+// I don't think loadcline should have any personal issue...
 function loadClientDetails() {
-  if(username.value.trim().toUpperCase() == "KIZZYLOVE") {
-    // userEl.textContent = "Adekizzy";
-    userEl.textContent = username.value;
-  } else {
-    userEl.textContent = username.value;
-  }
-  sbjEl.textContent = subject.value;
+  userEl.textContent = username.value; // making sense...
+  sbjEl.textContent = subject.value; // 
   topicEl.textContent = choosenTopic.value;
 }
 
+
 // now refactoring the code is sth difficult... I don't even understand...
-function loadQuestionType(topic) {
+// what's up about unseenQueston
+function loadQuestionType(subject, topic) {
   // get questions
 
   if (topic == "general") {
     // we return a different thing entirely...
     switch (
-      choosenSubject // alright. thank you so much...
+      subject// alright. thank you so much...
     ) {
       case "chemistry":
         unseenQuestions = general(getQuestion("chemistry"));
         break;
       case "english":
         unseenQuestions = general(getQuestion("english"));
-        break
+        break;
     }
   } else {
     let questionsList;
 
     switch (
-      choosenSubject // alright. thank you so much...
+      subject// alright. thank you so much...
     ) {
       case "chemistry":
         questionsList = getQuestion("chemistry");
@@ -89,14 +127,14 @@ function loadQuestionType(topic) {
 
     for (let q of questionsList) {
       if (topic == q.topic) {
-        unseenQuestions = q.questions; // set the global question to the question
+        unseenQuestions = q.questions;
       }
     }
   }
 }
 
 function loadFirstQuestion() {
-  chooseQuestion("initial", 0); // this sets the currentQuestion to a value
+  currentQuestion = chooseQuestion(unseenQuestions, seenQuestions, currentQuestion, "initial", 0); // this sets the currentQuestion to a value
   questionBox.innerHTML = buildQuestion(currentQuestion); // this will currently display the question
 }
 
@@ -116,7 +154,7 @@ function loadKeys(keys) {
       // numberofquestion is 40 by default, so I don't get...
     }
   }
-  numKeys.innerHTML = keyStr;
+  numKeys.innerHTML = keyStr; // num keys...
 }
 
 // yeah. The startup engine is complete.
@@ -125,3 +163,14 @@ function loadKeys(keys) {
 
 // what is the essence of loading up a server
 // anyhow sha... I want to keep this simple so that I can focus on my exam and math and other things that I need...
+
+// this modular thing will take some to getting used to... it's terribly difficult
+
+
+
+
+// I need to think of this modularly else it will and shall not work. Trust me.
+export {
+  unseenQuestions,
+  seenQuestions
+}

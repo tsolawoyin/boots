@@ -7,7 +7,7 @@ function addInfo(questions, info) {
     }
 }
 
-addInfo(englishQuestions[3].questions, "Choose the word <strong>opposite</strong> in meaning to the underline word in the sentence.")
+// addInfo(englishQuestions[3].questions, "Choose the word <strong>opposite</strong> in meaning to the underline word in the sentence.")
 
-console.log(JSON.stringify(englishQuestions[3].questions))
+// console.log(JSON.stringify(englishQuestions[3].questions))
 

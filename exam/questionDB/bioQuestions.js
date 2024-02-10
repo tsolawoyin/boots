@@ -1619,3 +1619,4 @@ let biologyQuestions = [
 
 ]
     
+export { biologyQuestions }

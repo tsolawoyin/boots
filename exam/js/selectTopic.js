@@ -1,7 +1,9 @@
+import { subject, chemistry, biology, english } from "./declarations.js";
 
-// initially before anything changes, we need some default values
+// modules will make your code extremely modular... lolzzz.
+// let choosenSubject = "chemistry"
+let choosenTopic = null;
 
-choosenSubject = "chemistry"
 choosenTopic = document.querySelector("#chm")
 chemistry.style.display = "block"
 
@@ -25,3 +27,6 @@ subject.addEventListener("change", e => {
         choosenTopic = document.querySelector("#eng")
     }
 })
+
+// this is not a function thing, slightly difficult to modularize but we can do this...
+export { choosenTopic } // this is the only thing we will need kind of...

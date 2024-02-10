@@ -1,6 +1,9 @@
+import { examInterface } from "./declarations.js";
 // this is where the functionality of the remaining keys reside
 // imagine how easy the code is when you have the right plans. makes sense
 // this event listener has already simplified the job of the keys
+
+// nothing much though/// I am coming...
 
 examInterface.addEventListener("keydown", e => {
     if (e.key == "ArrowLeft") toggle("prev");

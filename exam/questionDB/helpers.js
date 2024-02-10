@@ -66,7 +66,7 @@ const mainWord = (word, statement) => {
     } else return statement;
 }
 
-export { mainWord }
+export { mainWord, exp, formula, units, ion, eConfig, isotope }
 
 // let o = mainWord('hello', "the man said hello to him")
 // console.log(o)

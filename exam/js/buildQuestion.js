@@ -38,8 +38,9 @@ let sampleQuestion3 = {
 
 // Question -> build question
 function buildQuestion(question) {
+  console.log(question)
   // append info if present then continue rendering
-  return `${question.info ? `<p class='question-info'>${question.info}</p>`: ""}<p class="question-text">${question.id}. ${
+  return `${question?.info ? `<p class='question-info'>${question.info}</p>`: ""}<p class="question-text">${question.id}. ${
     question.question
   }</p>${generateOptions(
     question.id,

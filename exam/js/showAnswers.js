@@ -3,6 +3,7 @@
 // it is not difficult at all...
 
 // we only show answer if mode is practice. otherwise, nope nope...
+// there is no more exam mode joh... Boot philosophy is clear and static... I don't know sha, may change over time.
 
 // now, at this point, what we have is the questions...
 
@@ -23,7 +24,7 @@ function showAnsweredQuestions (questions) { // which one will I iterate over? t
     // how do we compare. lolz...
     for (let i = 1; i <= numberOfQuestion; i++ ) {
         let node = document.querySelector(`#num${i}`); 
-
+        // it's not hard coded...
         let found = false; // this is to know if the number has been found... you understand?
 
         for (let q of questions) {
@@ -35,12 +36,15 @@ function showAnsweredQuestions (questions) { // which one will I iterate over? t
 
                 if (!q.userAnswer) {
                     // just leave the stuff white
+                    // haven't answered
                     node.style.backgroundColor = "white";
                     node.style.color = "black";
                } else if (q.ans != q.userAnswer) {
+                    // answered wrongly
                     node.style.backgroundColor = "crimson";
                     node.style.color = "white";    
                } else if (q.ans == q.userAnswer) {
+                    // answered correctly
                     node.style.backgroundColor = "green";
                     node.style.color = "white";
                }
