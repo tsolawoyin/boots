@@ -17,6 +17,7 @@ class Exam {
     this.unseenQuestions = fetchQuestions(questions, topic, this.quantity); // instead of having a lot of questions inside unseen and picking anyone at random, we should be specific in terms of amount
     this.seenQuestions = []; // the start btn will take another shape. that is not a problem...
     // but I think I can have many other helper functions outside here normally now... yes..
+    this.score = 0;
   }
 
   nextQuestion() {
@@ -122,13 +123,6 @@ class Exam {
       // maybe not yet sha, I will work on the errors later...
     }
   }
-
-  endExam() {}
 }
 
-export { Exam }; // it will be really fun :)
-// displaying questions is not the job of the exam class. Exam is just there. rendering it is the job of buildExam...
-
-// this is not even necessary
-// this is going to represent a full blown exam
-// this will make the code very modular and very simplistic and easy to understand and maintain...
+export { Exam };

@@ -178,11 +178,5 @@ function loadKeys(keys) {
 
 // oya
 
-export {
-  unseenQuestions,
-  seenQuestions,
-  numberOfQuestion
-}
-
 // it only ran once... this thing is very stupif....
 // i hate looking at seun honestly. She is seriously tempting me. But why...
