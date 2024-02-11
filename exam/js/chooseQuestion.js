@@ -127,6 +127,7 @@ function chooseQuestion (unseenQuestions, seenQuestions, currentQuestion, condit
     }
 
     return {currentQuestion, unseenQuestions, seenQuestions};
+    // this chooseQuestion function is not making sense at all...
     // hello world... ..
     // this is serious... o ti di gidi gan ni...
 }
@@ -303,3 +304,6 @@ function isPresent(id, questions) {
 // now this question will be highly problematic because it relies heavily on the global namespace. Jesus
 // since we are done testing, we can just export the function, easy peasy...
 export { chooseQuestion }
+
+
+// now, I am having a very new perception of this thing

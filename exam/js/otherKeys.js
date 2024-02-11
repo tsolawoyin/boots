@@ -5,19 +5,26 @@ import { questionBox } from "./declarations.js";
 import { endExam } from "./endExam.js";
 import { scoreEl } from "./declarations.js";
 import {
-  seenQuestions as seen,
-  unseenQuestions as unseen,
+  seenQuestions,
+  unseenQuestions,
 } from "./start.js";
 import { changeColor } from "./changeScoreColor.js";
 import { buildQuestion } from "./buildQuestion.js";
 import { showAnsweredQuestions } from "./showAnswers.js";
 import { numberOfQuestion } from "./start.js";
 
+
+// there is serious problem with the way this things is working...
+// I will surely find a way for sure... 
 // this is where the functionality of the remaining keys reside
 // imagine how easy the code is when you have the right plans. makes sense
 // this event listener has already simplified the job of the keys
 
 // you will not appreciate modular programming unless you've done nonmodular programming.
+
+// the importing is done once... thank you
+
+// now this is a very big problem. how will I solve tihs like this......
 
 // nothing much though/// I am coming...
 const keys = document.querySelector("#keys"); // harnessing the power of event propagation...
@@ -39,7 +46,7 @@ examInterface.addEventListener("keydown", (e) => {
 keys.addEventListener("click", (e) => {
   // this is where everything is going to get up and running
   // the next and prev keys you get...
-
+    console.log(unseenQuests, seenQuestions)
   let clicked = e.target; // 
 
   // the logic get as e be sha....

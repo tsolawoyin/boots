@@ -63,7 +63,7 @@ start.addEventListener("click", (e) => {
     // minutes = Number(userTime.value); // this will surely cause trouble.... 
 
     // timeInterval = setInterval(time, 1000); // start countdown
-
+    console.log(choosenTopic.value)
     // load the first question
     loadFirstQuestion();
 
@@ -123,7 +123,6 @@ function loadQuestionType(subject, topic) {
         questionsList = getQuestion("english");
         break;
     }
-
     for (let q of questionsList) {
       if (topic == q.topic) {
         unseenQuestions = q.questions;
@@ -133,7 +132,12 @@ function loadQuestionType(subject, topic) {
 }
 
 function loadFirstQuestion() {
-  currentQuestion = chooseQuestion(unseenQuestions, seenQuestions, currentQuestion, "initial", 0); // this sets the currentQuestion to a value
+
+  let questionPackage = chooseQuestion(unseenQuestions, seenQuestions, currentQuestion, "initial", 0); // this sets the currentQuestion to a value
+  // console.log(questionPackage)
+  currentQuestion = questionPackage.currentQuestion;
+  unseenQuestions = questionPackage.unseenQuestions
+  seenQuestions = questionPackage.seenQuestions
   questionBox.innerHTML = buildQuestion(currentQuestion); // this will currently display the question
 }
 
@@ -169,8 +173,16 @@ function loadKeys(keys) {
 
 
 // I need to think of this modularly else it will and shall not work. Trust me.
+
+
+
+// oya
+
 export {
   unseenQuestions,
   seenQuestions,
   numberOfQuestion
 }
+
+// it only ran once... this thing is very stupif....
+// i hate looking at seun honestly. She is seriously tempting me. But why...

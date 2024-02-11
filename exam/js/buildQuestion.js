@@ -39,7 +39,10 @@ let sampleQuestion3 = {
 // Question -> build question
 function buildQuestion(question) {
   // append info if present then continue rendering
-  return `${question?.info ? `<p class='question-info'>${question.info}</p>`: ""}<p class="question-text">${question.id}. ${
+  return `${
+    question?.info ? 
+    `<p class='question-info'>${question.info}</p>` : ""
+  }<p class="question-text">${question.id}. ${
     question.question
   }</p>${generateOptions(
     question.id,
@@ -83,8 +86,9 @@ function generateOptions(id, options, answer, remark) {
   return structure;
 }
 
-
 // inserting info to the top of question
 // the build function doesn't need any external module....
 
-export { buildQuestion }
+export { buildQuestion };
+
+// this function is very much ok. like very much ok...
