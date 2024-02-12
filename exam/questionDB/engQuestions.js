@@ -5502,7 +5502,7 @@ let englishQuestions = [
       },
       {
         "id": "cbhx",
-        "question": "Isn't it hight time you __ your office?",
+        "question": "Isn't it high time you __ your office?",
         "options": ["are leaving", "do leave", "leave", "left", "did leave"],
         "ans": "D",
         "main": "",
