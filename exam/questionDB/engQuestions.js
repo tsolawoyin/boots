@@ -5982,5 +5982,335 @@ let englishQuestions = [
         "remark": ""
       }
     ]    
+  },
+  {
+    topic: "Noun | Pronouns",
+    questions: [
+      {
+        "id": 1,
+        "question": "If you travel by air you will be given an allowance to cover __",
+        "options": ["a luggage", "luggage", "luggages", "a baggage", "baggages"],
+        "ans": "B",
+        "main": "",
+        "remark": "Luggage and baggage are uncountable nouns hence cannot be preceded by \"a\", \"an\", \"one\", \"two\" etc. An ending -s is similarly grammatically offensive."
+      },
+      {
+        "id": 2,
+        "question": "The green snake which lives in the green grass is using a perfect __",
+        "options": ["ambush", "under cover", "camouflage", "shelter", "subterfuge"],
+        "ans": "C",
+        "main": "",
+        "remark": "Camouflage(n) = Blending with environment with an intention to hide."
+      },
+      {
+        "id": 3,
+        "question": "Remember this matter is strictly __",
+        "options": [
+          "between you and I",
+          "among you and I",
+          "among you and me",
+          "between you and me",
+          "between you and myself"
+        ],
+        "ans": "D",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 4,
+        "question": "Invariably, he ends all his letters with '___ amicably'",
+        "options": ["you", "yours", "yours'", "your's", "your own"],
+        "ans": "B",
+        "main": "",
+        "remark": "Yours simply means \"your own\" and avoid the pitfall of your's (= your is) because it makes no sense."
+      },
+      {
+        "id": 5,
+        "question": "My father cannot bear the __ of the concoction that emanates from my mother's soup pot.",
+        "options": ["sweet", "savouring", "aroma", "smell", "scent"],
+        "ans": "C",
+        "main": "",
+        "remark": "Aroma = sweet, noticeable smell"
+      },
+      {
+        "id": 6,
+        "question": "Although he is in all respect a poor student, he has managed to buy a tape recorder to improve his ___ of French.",
+        "options": ["mastery", "mastering", "speaking", "ideas", "thinking"],
+        "ans": "A",
+        "main": "",
+        "remark": "Mastery = knowledge or understanding of something; firm grip; a good grasp; good command of."
+      },
+      {
+        "id": 7,
+        "question": "___ marked an important step in the history of the industrial revolution.",
+        "options": [
+          "The invention of the locomotive engine",
+          "The discovery of locomotion",
+          "The discovery of the engine",
+          "Inquiry into locomotion",
+          "The process of locomotion"
+        ],
+        "ans": "A",
+        "main": "",
+        "remark": "Invention = producing sth which is not natural"
+      },
+      {
+        "id": 8,
+        "question": "In West Africa the ___ of sickle cell is about 25 per cent.",
+        "options": ["incident", "incidence", "accident", "accidence", "incense"],
+        "ans": "B",
+        "main": "",
+        "remark": "Incidence = Frequency of an event, number of victims of disease/disaster etc."
+      },
+      {
+        "id": 9,
+        "question": "David can only become more mature through ___ to life outside his home.",
+        "options": ["posting", "exposure", "exposition", "exposing", "positioning"],
+        "ans": "B",
+        "main": "",
+        "remark": "Exposure = being exposed (to experiencing sth)"
+      },
+      {
+        "id": 10,
+        "question": "The Nigerian Society of Engineers has set up ___ to study the nation's problem",
+        "options": [
+          "a brain trust",
+          "a tribunal",
+          "an enquiry",
+          "an inquest",
+          "a task force"
+        ],
+        "ans": "E",
+        "main": "",
+        "remark": "Task force = a group of people assigned to do sth such as making an enquiry or solving a problem."
+      },
+      {
+        "id": 11,
+        "question": "The giant hydro-electric project is among the ___ of colonial rule in Southern Africa",
+        "options": ["inheritance", "remnants", "legacies", "evidence", "trappings"],
+        "ans": "C",
+        "main": "",
+        "remark": "legacy is sth(usually good) left behind"
+      },
+      {
+        "id": 12,
+        "question": "The Head of State in his New Year Broadcast to the nation emphasized the need for Nigerians to regard ___ as members of the same family.",
+        "options": [
+          "themselves",
+          "one another",
+          "each other",
+          "yourselves",
+          "theirselves"
+        ],
+        "ans": "B",
+        "main": "",
+        "remark": "One another is used when three or more persons or things are involved while each other for two. These pronouns must not be confused with reflexive pronouns (themselves, ourselves, yourselves)"
+      },
+      {
+        "id": 13,
+        "question": "The neighbour's children always make ___ when she is not at home.",
+        "options": [
+          "noises",
+          "plenty of noises",
+          "plenty noise",
+          "lots of noises",
+          "a lot of noise"
+        ],
+        "ans": "E",
+        "main": "",
+        "remark": "noise is both countable and uncountable. However, noises doesn't exist"
+      },
+      {
+        "id": 14,
+        "question": "The Land Decree does not concern itself with achieving ___ in landed property ownership, since those who already own large estates can keep them for good.",
+        "options": ["equality", "balance", "fifty-fifty", "sanity", "efficiency"],
+        "ans": "A",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 15,
+        "question": "You should make an ___ to improve the situation.",
+        "options": [
+          "effect",
+          "efficiency",
+          "effectiveness",
+          "effort",
+          "effectualness"
+        ],
+        "ans": "D",
+        "main": "",
+        "remark": "effort = attempt"
+      },
+      {
+        "id": 16,
+        "question": "Ogendegbe kept goal for his club team because there wasn't ___ to do it.",
+        "options": [
+          "somebody else",
+          "nobody else",
+          "any other body",
+          "no other body",
+          "anybody else"
+        ],
+        "ans": "E",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 17,
+        "question": "Now that I realize the full extent of your ___ I am afraid it will be impossible for me to ever trust you again.",
+        "options": [
+          "dubiousness",
+          "corruption",
+          "deceptiveness",
+          "duplicity",
+          "inconsistency"
+        ],
+        "ans": "D",
+        "main": "",
+        "remark": "Duplicity = dishonest behavior, deceit, deception. Please note that dubiousness and deceptiveness are not english words"
+      },
+      {
+        "id": 18,
+        "question": "It is very difficult to capture the subtle ___ of words when translated from one language to another.",
+        "options": [
+          "essence",
+          "denotations",
+          "connotations",
+          "inflexions",
+          "insults"
+        ],
+        "ans": "C",
+        "main": "",
+        "remark": "connotations = the meaning of word in addition to the idea it contrues"
+      },
+      {
+        "id": 19,
+        "question": "As it holds true that, unless you train your body you cannot be an athlete, so also unless you train your ___ you cannot be a ___",
+        "options": [
+          "kicking-footballer",
+          "voice-choirmaster",
+          "mind-scholar",
+          "courage-hero",
+          "arms-swimmer"
+        ],
+        "ans": "C",
+        "main": "",
+        "remark": "training your mind actually makes you a scholar."
+      },
+      {
+        "id": 20,
+        "question": "You surely want ___ in your tea, don't you?",
+        "options": ["all milk", "a milk", "some milk", "every milk", "any milk"],
+        "ans": "C",
+        "main": "",
+        "remark": "MIlk as uncountable noun"
+      },
+      {
+        "id": 21,
+        "question": "Peter's ___ a cold upsets our plan.",
+        "options": [
+          "catches",
+          "will catch",
+          "to catch",
+          "to have caught",
+          "catching"
+        ],
+        "ans": "E",
+        "main": "",
+        "remark": "\"Peter's\" denotes possession and must be followed by a noun (catching as a gerund). Peter's catching is a noun phrase."
+      },
+      {
+        "id": 22,
+        "question": "As ___ of you as can come are welcome.",
+        "options": ["each", "any", "many", "more", "most"],
+        "ans": "C",
+        "main": "",
+        "remark": "\"Many\" denotes a large number; no upper limit is targeted."
+      },
+      {
+        "id": 23,
+        "question": "Some people think that ___ are potentially a nuissance",
+        "options": [
+          "parent-in-law",
+          "parents-in-law",
+          "parents-in-laws",
+          "parent-in-laws",
+          "parents-ins-laws"
+        ],
+        "ans": "B",
+        "main": "",
+        "remark": "Parent is key in this compound noun hence takes the -s for plural"
+      },
+      {
+        "id": 24,
+        "question": "Shakespearian ___ are generally the victims of circumstances",
+        "options": ["heros", "heres", "heroses", "hero", "heroes"],
+        "ans": "E",
+        "main": "",
+        "remark": "Heroes not heros. take note."
+      },
+      {
+        "id": 25,
+        "question": "Asmau, did you see the snapshot of ___",
+        "options": ["yourself", "you", "yours", "yourselves", "herself"],
+        "ans": "A",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 26,
+        "question": "I can't mind the light. I don't know ___ about electricity.",
+        "options": ["something", "nothing", "anything", "nobody", "anybody"],
+        "ans": "C",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 27,
+        "question": "___ reached 18.7% of the U.S population.",
+        "options": [
+          "Employed",
+          "Unemployment",
+          "Employers",
+          "Employees",
+          "Underemployment"
+        ],
+        "ans": "B",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 28,
+        "question": "The schoolboy screamed loudly when he saw a snake ___ looked terrifying.",
+        "options": ["it", "who", "and", "he", "which"],
+        "ans": "E",
+        "main": "",
+        "remark": "Using appropriate relative pronoun; who is used for human"
+      },
+      {
+        "id": 29,
+        "question": "Eko bridge, linking Lagos island to Surulere, has",
+        "options": [
+          "many traffic",
+          "numerous vehicles",
+          "uncontrollable traffic",
+          "plenty traffic",
+          "a lot of traffic"
+        ],
+        "ans": "E",
+        "main": "",
+        "remark": "traffic is an uncountable noun."
+      },
+      {
+        "id": 30,
+        "question": "The passenger waited patiently whilst they transferred his __ from the taxi to the bus.",
+        "options": ["properties", "baggages", "luggage", "luggages", "property"],
+        "ans": "C",
+        "main": "",
+        "remark": ""
+      }
+    ]
+    
   }
 ];

@@ -3,9 +3,9 @@ const leaderBoard= [
     {
         posn: 2,
         name: "Seun",
-        chm: [45,45,10.00,23,32.5,67.5,50,25,32.5,17.5,57.5,47.5,92.5], // an object will help me track their progress in each topic
+        chm: [75,45,45,10.00,23,32.5,67.5,50,25,32.5,17.5,57.5,47.5,92.5], // an object will help me track their progress in each topic
         bio: [0],
-        eng: [105,100,2.50,-2.50,100,30,95,72.5,-12.5,20], 
+        eng: [100,105,100,2.50,-2.50,100,30,95,72.5,-12.5,20], 
         calcScore() {
             return this.chm.reduce((a, e ) => a + e) + this.bio.reduce((a,e) => a + e) + this.eng.reduce((a,c) => a + c); // makes sense...
         }
@@ -33,9 +33,9 @@ const leaderBoard= [
     {
         posn: 1,
         name: "Tosin",
-        chm: [50,60,50,23,65,90,55,45,50,17.5,90,40,67.5],
+        chm: [67.5,50,60,50,23,65,90,55,45,50,17.5,90,40,67.5],
         bio: [0],
-        eng: [115,100,35,65,100,95,62.5,72.5,55,32.5], 
+        eng: [100,115,100,35,65,100,95,62.5,72.5,55,32.5],
         calcScore() {
             return this.chm.reduce((a, e ) => a + e) + this.bio.reduce((a,e) => a + e) + this.eng.reduce((a,c) => a + c); // makes sense...
         }

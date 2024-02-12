@@ -5,7 +5,7 @@ English
 - Interpretation of words and expressions
 - Idioms: Sayings
 - Phrasal verbs
-- Noun | Pronouns
+- Noun | Pronouns                              (in progress)
 - Verbs | Tenses
 - Preposition
 - Adjective | Article | Determiners
