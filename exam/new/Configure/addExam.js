@@ -1,4 +1,4 @@
-import { addBtn, addedSubjectsEl } from "./constants.js";
+import { addBtn, addedSubjectsEl, subjectEl, topicEl } from "./constants.js";
 // obviously it doesn't come from that side
 
 // the code will later break in the future and it will be difficult to debug..
@@ -20,10 +20,10 @@ let counter = 1;
 addBtn.addEventListener("click", (e) => {
   // yup yup, we only push if present
   if (
-    !checkForDuplicates(choosenSubjects, subject.value, topic.value) &&
+    !checkForDuplicates(choosenSubjects, subjectEl.value, topicEl.value) &&
     counter < 5
   ) {
-    choosenSubjects.push({ subject: subject.value, topic: topic.value });
+    choosenSubjects.push({ subject: subjectEl.value, topic: topicEl.value });
     // it will be here simply
     let current = choosenSubjects[choosenSubjects.length - 1];
 

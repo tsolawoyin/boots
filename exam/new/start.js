@@ -6,7 +6,7 @@ import { questionEl, numKeys } from "./Configure/constants.js";
 import { timeEl } from "./Configure/constants.js";
 // interface
 import { loginInterface, examInterface } from "./Configure/constants.js";
-// 
+//
 import { isMember } from "./validateUser.js";
 
 const exams = []; // the exams are alive at this point...
@@ -24,18 +24,19 @@ document.querySelector("#start").addEventListener("click", (e) => {
   // let's rumble
   // loading client details is not a problem bruv...
   // let's do what's necessary
-  if (isMember) {
+  if (isMember) { // makes sense...
+    try { // this is a very useful use case of try and catch...
       generateExamBtn(generateExam()); // generating exam buttons... we will need one now. // after generating exam keys, another notable start event is generating first exam
-    
+
       exams.push(createFirstExam(40)); // bringing only the first question to life!
       // it works like magic this time around....
       // first exam events....
       let firstExam = exams[0];
-    
+
       firstExam.nextQuestion(); // bringing the first question to life normally...
-    
+
       questionEl.innerHTML = buildQuestion(firstExam.currentQuestion); // displaying question....
-    
+
       numKeys.innerHTML = firstExam.loadKeys();
       // that's all for the first question stuff.
       // no marking is done yet, nothing special, just display the first question in addition to some auxiliary stuffs...
@@ -44,22 +45,25 @@ document.querySelector("#start").addEventListener("click", (e) => {
       // the time function is the only thing left to make everything click...
       // we need to start time as well....
       minutes = Number(timeEl.value);
+
       timeInterval = setInterval(time, 1000); // start countdown
       // there are still many more stuffs to do...
       // like load keys..
       //   this is a very serious somethng...
       // will complete this function later
-      loginInterface.remove()
-      examInterface.style.display = "grid";
-  } else {
-    alert("Please enter a valid name")
-  }
+      loginInterface.remove();
 
-  
+      examInterface.style.display = "grid";
+    } catch (e) {
+      alert(e.message);
+    }
+  } else {
+    alert("Please enter a valid name");
+  }
 });
 
 // this way I can work with generate exam in any module... :-)
-
+// I know what I am doing sha... Nobody can fuck up my plans... The world is full of treachery... trust me.
 function generateExamBtn(exams) {
   if (exams) {
     const examEL = document.querySelector("#exams");
@@ -80,9 +84,14 @@ function generateExamBtn(exams) {
 }
 
 function createFirstExam(qty) {
-  let first = generateExam();
-  
-  return createExam(first[0].subject, first[0].topic, qty);
+  try {
+    let first = generateExam();
+    return createExam(first[0].subject, first[0].topic, qty); // if there is any erro
+  } catch (e) {
+    console.log("error in getting questions");
+  }
+
+  // I need to refactor this code with care and seriousness...
 }
 
 function loadClientDetails() {

@@ -60,6 +60,7 @@ examKeys.addEventListener("click", (e) => {
     current.markQuestions(currentScoreEl);
     current.showAnsweredQuestions(); // update color to match the color of current exam
     // that is it is present
+    numKeys.innerHTML = current.loadKeys();
     questionEl.innerHTML = buildQuestion(current.currentQuestion);
   } else {
     // then we get questions at runtime...
@@ -71,7 +72,7 @@ examKeys.addEventListener("click", (e) => {
     current = ex; // normally...
     current.markQuestions(currentScoreEl);
     current.showAnsweredQuestions(); // update color to match the color of current exam /
-
+    numKeys.innerHTML = current.loadKeys();
     questionEl.innerHTML = buildQuestion(current.currentQuestion);
     // then build question
   }
@@ -92,8 +93,7 @@ examKeys.addEventListener("click", (e) => {
       console.log("yes");
       c.className = "btn btn-secondary";
     } else {
-      console.log("no");
-      c.className = "btn btn-primary";
+      c.className = "btn";
     }
   }
 
