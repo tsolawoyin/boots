@@ -66,7 +66,10 @@ const mainWord = (word, statement) => {
     } else return statement;
 }
 
+export { mainWord, exp, formula, units, ion, eConfig, isotope }
+
 // let o = mainWord('hello', "the man said hello to him")
 // console.log(o)
+
 
 // the repacking must be done before displaying

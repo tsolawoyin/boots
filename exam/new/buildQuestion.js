@@ -1,5 +1,6 @@
 // imagine how the function is simplified when you know what you are supposed to do already.
 // question already seen but haven't answered
+// modularizing the code is better. I will work hard to refactor it.
 let sampleQuestion1 = {
   id: 1,
   question:
@@ -39,7 +40,8 @@ let sampleQuestion3 = {
 function buildQuestion(question) {
   // append info if present then continue rendering
   return `${
-    question.info ? `<p class='question-info'>${question.info}</p>` : ""
+    question?.info ? 
+    `<p class='question-info'>${question.info}</p>` : ""
   }<p class="question-text">${question.id}. ${
     question.question
   }</p>${generateOptions(
@@ -81,7 +83,12 @@ function generateOptions(id, options, answer, remark) {
 
   structure += "</div>";
 
-  return structure;
+  return structure; // it is returning a question string... makes sense
 }
 
 // inserting info to the top of question
+// the build function doesn't need any external module....
+
+export { buildQuestion };
+
+// this function is very much ok. like very much ok...
