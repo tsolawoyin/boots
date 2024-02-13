@@ -7,8 +7,8 @@ function valid(user) {
     return regex.test(user)
 }
 
-username.addEventListener("keyup", e => {
-    if (valid(username.value)) {
+document.querySelector("#username").addEventListener("keyup", e => {
+    if (valid(username.value.trim())) {
         isMember = true;
         username.style.borderBottom = "2px solid green";
     } else {
