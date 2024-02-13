@@ -14,7 +14,7 @@ class Exam {
     this.topic = topic;
     this.currentQuestion = null;
     this.unseenQuestions = fetchQuestions(questions, topic, quantity); // instead of having a lot of questions inside unseen and picking anyone at random, we should be specific in terms of amount
-    this.quantity = this.unseenQuestions.length; // the number of questions user is taking
+    this.quantity = this.unseenQuestions.length; // the number of questions user is taking // unseen questions changes overtime. this is utterly unreasonable to some degree
     this.seenQuestions = []; // the start btn will take another shape. that is not a problem...
     // but I think I can have many other helper functions outside here normally now... yes..
     this.score = 0;
@@ -125,15 +125,16 @@ class Exam {
     }
   }
 
-  loadKeys() {
+  loadKeys(element) {
     // helps generate appropriate number of keys for this particular subject...
-    let keyStr = "";
+    let keyStr = ""; // 
 
     for (let i = 1; i <= this.quantity; i++) {
-      keyStr += `<p class="numbers" id="num${i}">${i}</p>`;
+      keyStr += `<p class="numbers" id="num${i}">${i}</p>`; // this will generate the keys for me
     }
 
-    return keyStr;
+    element.innerHTML = keyStr; // this will set the keys to the keyStr which depends on the quantity of the question of this exam
+    // no extra addition, just set it to it. shikena
   }
 
   showAnsweredQuestions() {
@@ -144,6 +145,7 @@ class Exam {
     // how do we compare. lolz...
     for (let i = 1; i <= this.quantity; i++) {
       let node = document.querySelector(`#num${i}`);
+      // this will work if node is found...
       // it's not hard coded...
       let found = false; // this is to know if the number has been found... you understand?
 

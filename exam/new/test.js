@@ -2,30 +2,44 @@ import { Exam } from "./Exam/Exam.js";
 import { chemistryQuestions } from "../questionDB/chmQuestions.js";
 
 let chemistryExam = new Exam("Chemistry", "Nitrogen", chemistryQuestions, 40);
-console.log(chemistryExam)
 
 chemistryExam.nextQuestion()
-console.log(chemistryExam.currentQuestion);
 chemistryExam.nextQuestion()
-console.log(chemistryExam.currentQuestion);
-chemistryExam.jumpToQuestion(34)
+chemistryExam.nextQuestion()
+chemistryExam.nextQuestion()
+chemistryExam.nextQuestion()
+chemistryExam.nextQuestion()
+chemistryExam.nextQuestion()
+chemistryExam.nextQuestion()
+chemistryExam.nextQuestion()
+chemistryExam.nextQuestion()
+chemistryExam.nextQuestion()
+chemistryExam.nextQuestion()
+chemistryExam.nextQuestion()
+chemistryExam.nextQuestion()
+chemistryExam.nextQuestion()
+chemistryExam.nextQuestion()
+chemistryExam.nextQuestion()
+chemistryExam.nextQuestion()
+chemistryExam.nextQuestion()
+chemistryExam.nextQuestion()
+chemistryExam.nextQuestion()
+chemistryExam.nextQuestion()
+chemistryExam.nextQuestion()
+chemistryExam.nextQuestion()
+chemistryExam.nextQuestion()
+chemistryExam.nextQuestion()
+chemistryExam.nextQuestion()
+chemistryExam.nextQuestion()
+chemistryExam.nextQuestion()
+chemistryExam.nextQuestion()
+chemistryExam.nextQuestion()
+chemistryExam.nextQuestion()
 console.log(chemistryExam.currentQuestion)
-chemistryExam.nextQuestion()
-console.log(chemistryExam.currentQuestion);
-chemistryExam.nextQuestion()
-console.log(chemistryExam.currentQuestion)
-chemistryExam.nextQuestion()
-console.log(chemistryExam.currentQuestion)
-chemistryExam.previousQuestion()
-console.log(chemistryExam.currentQuestion)
-chemistryExam.nextQuestion()
-console.log(chemistryExam.currentQuestion)
-chemistryExam.nextQuestion()
-chemistryExam.nextQuestion()
-chemistryExam.nextQuestion()
-chemistryExam.nextQuestion()
-chemistryExam.nextQuestion()
-chemistryExam.previousQuestion()
-console.log(chemistryExam.currentQuestion)
+console.log(chemistryExam.unseenQuestions.length)
+console.log(chemistryExam.seenQuestions.length)
+console.log(chemistryExam.quantity);
+
+// stand gidi gba...
 
 // the next function is not problematic...

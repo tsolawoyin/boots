@@ -37,7 +37,7 @@ document.querySelector("#start").addEventListener("click", (e) => {
 
       questionEl.innerHTML = buildQuestion(firstExam.currentQuestion); // displaying question....
 
-      numKeys.innerHTML = firstExam.loadKeys();
+      firstExam.loadKeys(numKeys);
       // that's all for the first question stuff.
       // no marking is done yet, nothing special, just display the first question in addition to some auxiliary stuffs...
       loadClientDetails(); // loading client details...
@@ -56,6 +56,7 @@ document.querySelector("#start").addEventListener("click", (e) => {
       examInterface.style.display = "grid";
     } catch (e) {
       alert(e.message);
+      console.log(e)
     }
   } else {
     alert("Please enter a valid name");
@@ -141,3 +142,5 @@ function showTIme(minutes) {
 // ================
 
 export { exams, timeInterval };
+
+// there doesn't seem to be any form of error with the start exam stuff...
