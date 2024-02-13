@@ -16,6 +16,7 @@ const chemistry = new Subject("Chemistry", [
   "Air and air pollution",
   "Nitrogen",
   "Carbon",
+  "Nature of matter",
   "general"
 ]);
 
