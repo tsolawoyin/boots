@@ -71,9 +71,6 @@ keys.addEventListener("click", (e) => {
 // how will I be able to get the true stuff from startBtn like this... hmmm.
 
 function toggle(cond) {
-    console.log(currentQuestion, "supposed current")
-    console.log(unseenQuests, "supposed unseen")
-    console.log(seenQuestions, 'supposed seen')
     if (!currentQuestion.userAnswer && !submitted) { // <= erroic from here...
         // is there a way for all this things to share a global namespace
       // if user hasn't answered and submitted yet
