@@ -41,6 +41,7 @@ class Exam {
       // the only other thing that can happen is if the user wants to go to the next question in the tray...
       // two things is possible, if the question has been seen or not
       // we need to check if the next question has already been seen
+      // this is the place where I can check for questions
       let nextQuestionId = this.currentQuestion.id + 1;
       // all this should happen if we go forward
       if (nextQuestionId <= this.quantity) {
