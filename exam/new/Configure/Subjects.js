@@ -16,6 +16,7 @@ const chemistry = new Subject("Chemistry", [
   "Air and air pollution",
   "Nitrogen",
   "Carbon",
+  "general"
 ]);
 
 const biology = new Subject("Biology", [
@@ -26,6 +27,7 @@ const biology = new Subject("Biology", [
     "Evolution among plants",
     "Higher Plants",
     "Evolution Among Invertebrates",
+    "general"
 ]);
 
 const english = new Subject("English", [
@@ -37,6 +39,7 @@ const english = new Subject("English", [
     "Synonyms II",
     "Spelling mistakes",
     "Common mistakes",
+    "general"
 ]);
 
 const available = [english, biology, chemistry];
