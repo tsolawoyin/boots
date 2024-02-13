@@ -96,3 +96,9 @@ nav {
     max-height: 20vh;
     overflow: auto;
 }
+
+#added-subjects {
+    height: 70px;
+    overflow-y: auto;
+    list-style-type: none;
+}

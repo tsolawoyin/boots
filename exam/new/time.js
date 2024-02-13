@@ -1,6 +1,6 @@
 
 import { endExam } from "./endExam.js"
-// we will import more stuffs here...
+
 function time(minutes, seconds) {
     if (seconds == 0) {
         seconds = 59
@@ -24,16 +24,16 @@ function appendZero(s) {
 
 function showTIme(minutes) {
     if (minutes < 10) {
-        timeEl.style.color = "crimson"
+        time.style.color = "crimson"
     }
 
     if (minutes < 0) {
         minEl.textContent = "00";
         secEl.textContent = "00"
     } else {
-        minEl.textContent = appendZero(String(minutes))
-        secEl.textContent = appendZero(String(seconds))
+        min.textContent = appendZero(String(minutes))
+        sec.textContent = appendZero(String(seconds))
     }
 }
 
-// no, maybe the endExam function should be standalone
+export { time }

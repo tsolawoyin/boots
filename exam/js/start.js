@@ -1,5 +1,5 @@
 import { chooseQuestion } from "./chooseQuestion.js";
-import { buildQuestion } from "./buildQuestion.js";
+import { buildQuestion } from "../new/buildQuestion.js";
 import { getQuestion } from "../questionDB/local.js";
 import { general } from "../questionDB/general.js";
 import { choosenTopic } from "./selectTopic.js"; // that's what I am talking about. You need to reason this thing properly... else, you will just keep banging on the keyboard like a monkey...
@@ -62,7 +62,7 @@ start.addEventListener("click", (e) => {
     // setting time
     // minutes = Number(userTime.value); // this will surely cause trouble.... 
 
-    // timeInterval = setInterval(time, 1000); // start countdown
+    timeInterval = setInterval(time, 1000); // start countdown
     console.log(choosenTopic.value)
     // load the first question
     loadFirstQuestion();
@@ -141,24 +141,7 @@ function loadFirstQuestion() {
   questionBox.innerHTML = buildQuestion(currentQuestion); // this will currently display the question
 }
 
-function loadKeys(keys) {
-  // let me just edit this section
-  let keyStr = "";
 
-  if (keys < 40) {
-    for (let i = 1; i <= keys; i++) {
-      keyStr += `<p class="numbers" id="num${i}">${i}</p>`;
-      numberOfQuestion = keys;
-    }
-  } else {
-    for (let i = 1; i <= 40; i++) {
-      keyStr += `<p class="numbers" id="num${i}">${i}</p>`;
-      // this one is just the normal old style
-      // numberofquestion is 40 by default, so I don't get...
-    }
-  }
-  numKeys.innerHTML = keyStr; // num keys...
-}
 
 // yeah. The startup engine is complete.
 

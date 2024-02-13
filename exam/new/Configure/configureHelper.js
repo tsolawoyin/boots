@@ -2,7 +2,7 @@ import { available } from "./Subjects.js";
 
 function loadSubjects(el) {
   for (let a of available) {
-    el.innerHTML += `<option value="${a.title.toLowerCase()}">${a.title.toUpperCase()}</option>`;
+    el.innerHTML += `<option value="${a.title}">${a.title.toUpperCase()}</option>`;
   }
 }
 
@@ -20,7 +20,7 @@ function changeSubjects(subject, topic) {
     subject.addEventListener("change", (e) => {
       // here we just simply load the topic for the subject
       for (let a of available) {
-        if (subject.value == a.title.toLowerCase()) {
+        if (subject.value == a.title) {
           let options = "";
           for (let t of a.topic) {
             options += `<option value="${t}">${t}</option>`;

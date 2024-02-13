@@ -83,7 +83,7 @@ function generateOptions(id, options, answer, remark) {
 
   structure += "</div>";
 
-  return structure;
+  return structure; // it is returning a question string... makes sense
 }
 
 // inserting info to the top of question

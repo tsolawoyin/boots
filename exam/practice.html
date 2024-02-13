@@ -51,79 +51,18 @@
             class="border-bottom-2 border-top-0 border-start-0 border-end-0 fs-4 mb-3 form-control"
           />
           <div id="subject-info">
-            <!-- these ones are easy to generate. not a big deal. at all -->
             <label class="form-label">Select subject and topic</label>
-            <select name="subjects" id="subjects" class="form-select mb-2">
-              <option value="chemistry">CHEMISTRY</option>
-              <option value="biology">BIOLOGY</option>
-              <option value="english">ENGLISH</option>
-            </select>
-            <select name="chm" id="chm" class="form-select mb-2">
-              <option value="atomic structure">Atomic structure</option>
-              <option value="atomic structure II">Atomic structure II</option>
-              <option value="Ionic bonding">Ionic bonding</option>
-              <option value="covalent bonding">Covalent bonding</option>
-              <option value="chemical bonding">Chemical bonding</option>
-              <option value="carbon">Carbon</option>
-              <option value="nitrogen">Nitrogen</option>
-              <option value="air and air pollution">Air and air pollution</option>
-              <option value="general">General</option>
-            </select>
-            <select name="bio" id="bio" class="options">
-              <option
-                value="The Cell Structure And Functions Of Cell Components"
-              >
-                Cell structure
-              </option>
-              <option value="Living Organisms And Level Of Organisation">
-                Level of Organisation
-              </option>
-              <option value="The Cell And Its Environment">
-                Cell and its Environment
-              </option>
-              <option
-                value="Evolution Among Viruses Monera, Protista And Fungi"
-              >
-                Monera, Protista, Fungi
-              </option>
-              <option value="Evolution among plants">
-                Evolution among plants
-              </option>
-              <option value="Higher Plants">Higher plants</option>
-              <option value="Evolution Among Invertebrates">
-                Evolution among Inverterbrates
-              </option>
-            </select>
-            <select name="eng" id="eng" class="d-none form-select mb-2">
-              <option value="Synonyms I">Synonyms I</option>
-              <option value="Synonyms II">Synonyms II</option>
-              <option value="Antonyms I">Antonyms I</option>
-              <option value="Antonyms II">Antonyms II</option>
-              <option value="Antonyms III">Antonyms III</option>
-              <option value="Antonyms IV">Antonyms IV</option>
-              <option value="Spelling mistakes">Spelling mistakes</option>
-              <option value="Common mistakes">Common mistakes in English</option>
-              <option value="general">General</option>
-              <!-- <option value="oxygen" disabled>Organic chm</option> -->
-            </select>
+            <select
+              name="subject"
+              id="subject"
+              class="form-select mb-2"
+            ></select>
+            <select name="" id="topic" class="form-select mb-2"></select>
           </div>
           <div class="pb-2">
-            <select name="user-time" id="user-time" class="p-1">
-              <option value="5">5 min</option>
-              <option value="10">10 min</option>
-              <option value="15">15 min</option>
-              <option value="20">20 min</option>
-              <option value="25">25 min</option>
-              <option value="30" selected>30 min</option>
-              <option value="35">35 min</option>
-              <option value="40">40 min</option>
-              <option value="45">45 min</option>
-              <option value="50">50 min</option>
-              <option value="55">55 min</option>
-              <option value="60">60 min</option>
-            </select>
+            <button id="add" class="btn btn-md btn-warning">Add</button>
+            <select name="user-time" id="user-time" class="p-1"></select>
           </div>
-          <button id="add" class="btn btn-md btn-warning">Add</button>
           <button id="start" class="btn btn-md btn-primary">Start</button>
 
           <!-- <p class="text-success pt-2">
@@ -135,6 +74,8 @@
             <li>Answer the ones you know.</li>
             <li>And you will be fine.</li>
           </ul>
+
+          <ul id="added-subjects"></ul>
         </div>
       </section>
       <!-- exam-interface -->
@@ -148,11 +89,6 @@
             <span id="time" class="fs-2"
               ><span id="min">-</span>:<span id="sec">-</span></span
             >
-          </div>
-          <div id="user-info">
-            <p>Chemistry</p>
-            <p>English</p>
-            <p>Biology</p>
           </div>
         </header>
 
@@ -169,6 +105,9 @@
             <button id="next" class="btn btn-primary">next</button>
             <button id="submit" class="btn btn-danger">submit</button>
           </div>
+
+          <div id="exams" class="mt-3"></div>
+
           <div id="num-keys"></div>
         </div>
       </section>
@@ -185,31 +124,10 @@
       </ul>
     </footer>
 
-    <!-- In this way, I can make Boot really big. At least. -->
-    <!-- I can easily work on this stuff without affecting the whole page -->
-    <!-- I just turn myself to motivatio champion -->
-    <!-- exam scripts -->
-    <!-- <script src="./checkStarted.js"></script> -->
-    <script src="./questionDB/helpers.js" type="module"></script>
-    <script src="./questionDB/chmQuestions.js" type="module"></script>
-    <script src="./questionDB/engQuestions.js" type="module"></script>
-    <script src="././questionDB/bioQuestions.js" type="module"></script>
-    <script src="./questionDB/local.js" type="module"></script>
-    <script src="./js/declarations.js" type="module"></script>
-    <script src="./js/selectTopic.js" type="module"></script>
-    <script src="./js/chooseQuestion.js" type="module"></script>
-    <script src="./js/buildQuestion.js" type="module"></script>
-    <script src="./js/endExam.js" type="module"></script>
-    <script src="./js/time.js" type="module"></script>
-    <script src="./js/validateUser.js" type="module"></script>
-    <script src="./js/start.js" type="module"></script>
-    <script src="./js/updateAnswer.js" type="module"></script>
-    <script src="./js/changeScoreColor.js" type="module"></script>
-    <script src="./js/otherKeys.js" type="module"></script>
-    <script src="./js/showAnswers.js" type="module"></script>
-    <script src="./js/markQuestions.js" type="module"></script>
-    <script src="././questionDB/general.js" type="module"></script>
-    <!-- exam script ends here...-->
+    <script src="./new/Configure/insertOptions.js" type="module"></script>
+    <script src="./new/Configure/addExam.js" type="module"></script>
+    <script src="./new/start.js" type="module"></script>
+    <script src="./new/other.js" type="module"></script>
 
     <!-- in this kind of way, I can rebuild exam script to be modular. shey you get -->
   </body>

@@ -84,7 +84,6 @@ function choose(questions) {
 
 function findTopic(subject, topic) {
     for (let s of subject) {
-        console.log(s)
         if (s.topic == topic) {
             return s
         }

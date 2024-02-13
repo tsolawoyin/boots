@@ -12,9 +12,9 @@ class Exam {
     // subject and topic will be choosen before exam...
     this.subject = subject;
     this.topic = topic;
-    this.quantity = quantity; // the number of questions user is taking
     this.currentQuestion = null;
-    this.unseenQuestions = fetchQuestions(questions, topic, this.quantity); // instead of having a lot of questions inside unseen and picking anyone at random, we should be specific in terms of amount
+    this.unseenQuestions = fetchQuestions(questions, topic, quantity); // instead of having a lot of questions inside unseen and picking anyone at random, we should be specific in terms of amount
+    this.quantity = this.unseenQuestions.length; // the number of questions user is taking
     this.seenQuestions = []; // the start btn will take another shape. that is not a problem...
     // but I think I can have many other helper functions outside here normally now... yes..
     this.score = 0;
@@ -122,6 +122,17 @@ class Exam {
       this.currentQuestion = fetchQuestion(num, this.seenQuestions);
       // maybe not yet sha, I will work on the errors later...
     }
+  }
+
+  loadKeys() {
+    // helps generate appropriate number of keys for this particular subject...
+    let keyStr = "";
+  
+    for (let i = 1; i <= this.quantity; i++) {
+      keyStr += `<p class="numbers" id="num${i}">${i}</p>`
+    }
+
+    return keyStr
   }
 }
 

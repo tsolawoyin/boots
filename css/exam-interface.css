@@ -1,6 +1,6 @@
 
 #exam-interface {
-    display: none;
+    /* display: none; */
     position: relative;
     height: 85vh;
     grid-template-rows: 10% 90% ;
