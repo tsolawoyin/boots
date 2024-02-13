@@ -3,7 +3,7 @@ import { generateExam, createExam } from "./generateExam.js";
 import { buildQuestion } from "./buildQuestion.js";
 // writing another start up engine
 import { questionEl, numKeys } from "./Configure/constants.js";
-import { timeEl } from "./Configure/constants.js";
+import { timeEl, userEl, username } from "./Configure/constants.js";
 // interface
 import { loginInterface, examInterface } from "./Configure/constants.js";
 //
@@ -96,7 +96,7 @@ function createFirstExam(qty) {
 }
 
 function loadClientDetails() {
-  userEl.textContent = username.value; // making sense...
+  userEl.textContent = username.value;
 }
 
 // always checking for errors. o la gbara.

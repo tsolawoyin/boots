@@ -1,5 +1,7 @@
 const subjectEl = document.querySelector("#subject");
 const topicEl = document.querySelector("#topic");
+const userEl = document.querySelector("#userEl")
+const username = document.querySelector("#username")
 const timeEl = document.querySelector("#user-time");
 const addBtn = document.querySelector("#add");
 const startBtn = document.querySelector("#start");
@@ -28,5 +30,7 @@ export {
   examKeys,
   currentScoreEl,
   loginInterface,
-  examInterface
+  examInterface,
+  userEl,
+  username
 };
