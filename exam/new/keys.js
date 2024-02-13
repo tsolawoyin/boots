@@ -102,6 +102,9 @@ examKeys.addEventListener("click", (e) => {
     // the only thing we need to do is load keys properly
     current.loadKeys(numKeys); 
     // and render the first question.
+    // update scores after loading the keys...
+    current.markQuestions(currentScoreEl);
+
     questionEl.innerHTML = buildQuestion(current.currentQuestion);
   }
   // working perfectly
@@ -189,7 +192,7 @@ function calcTotalScore(exams) {
   for (let e of exams) {
     score += e.score;
   }
-  return score;
+  return score.toFixed(2);
 }
 
 function endExam() {
