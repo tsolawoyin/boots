@@ -3,7 +3,9 @@
 // I love this room, can give me enough time to study on my own without stress.
 function endExam(score, submitted, timeInterval) {
     // well, all these things are previous philosophies...
-    clearInterval(timeInterval) // we will solve this one later...
+    clearInterval(timeInterval)
+    let totalScore = calcTotalScore(exams);
+    alert(`Your overall score is ${totalScore}`);
     
     if (!submitted) { // should only submit once. and in fact, I want to add are you sure function...
 

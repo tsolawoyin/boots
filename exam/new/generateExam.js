@@ -38,22 +38,4 @@ function createExam(subject, topic, qty) {
 
 }
 
-function loadKeys(keys) {
-    // let me just edit this section
-    let keyStr = "";
-  
-    if (keys < 40) {
-      for (let i = 1; i <= keys; i++) {
-        keyStr += `<p class="numbers" id="num${i}">${i}</p>`;
-      }
-    } else {
-      for (let i = 1; i <= 40; i++) {
-        keyStr += `<p class="numbers" id="num${i}">${i}</p>`;
-        // this one is just the normal old style
-        // numberofquestion is 40 by default, so I don't get...
-      }
-    }
-    return keyStr
-  }
-
 export { generateExam , createExam }

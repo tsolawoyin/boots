@@ -127,13 +127,100 @@ class Exam {
   loadKeys() {
     // helps generate appropriate number of keys for this particular subject...
     let keyStr = "";
-  
+
     for (let i = 1; i <= this.quantity; i++) {
-      keyStr += `<p class="numbers" id="num${i}">${i}</p>`
+      keyStr += `<p class="numbers" id="num${i}">${i}</p>`;
     }
 
-    return keyStr
+    return keyStr;
+  }
+
+  showAnsweredQuestions() {
+    // which one will I iterate over? the question or the nodes..
+    // it seems I will have to iterate multiple times for now... I don't seem to have a choice.
+    // I will write a better algorithm some later time...
+    // hmmm... what's going to sup
+    // how do we compare. lolz...
+    for (let i = 1; i <= this.quantity; i++) {
+      let node = document.querySelector(`#num${i}`);
+      // it's not hard coded...
+      let found = false; // this is to know if the number has been found... you understand?
+
+      for (let q of this.seenQuestions) {
+        // iterating over list of questions too...
+        if (q.id == i) {
+          // if question is found
+          // then update the color
+          // it is sure to find or not find..
+          found = true;
+
+          if (!q.userAnswer) {
+            // just leave the stuff white
+            // haven't answered
+            node.style.backgroundColor = "white";
+            node.style.color = "black";
+          } else if (q.ans != q.userAnswer) {
+            // answered wrongly
+            node.style.backgroundColor = "crimson";
+            node.style.color = "white";
+          } else if (q.ans == q.userAnswer) {
+            // answered correctly
+            node.style.backgroundColor = "green";
+            node.style.color = "white";
+          }
+        }
+      }
+      // how do I know it hasn't been found
+
+      if (!found) {
+        node.style.backgroundColor = "white";
+        node.style.color = "black";
+      }
+    }
+  }
+
+  updateAnswer() {
+    // the only thing we need is the current question
+    let id = this.currentQuestion.id;
+    // getting the answer of the list elements
+    let answerList = document.getElementsByName(`Q${id}`);
+    // searching through the list to see which one is checked...
+    for (let ans of answerList) {
+      if (ans.checked) {
+        this.currentQuestion.userAnswer = ans.value;
+      }
+    }
+  }
+
+  markQuestions(element) {
+    let score = 0
+    for (let q of this.seenQuestions) {
+      if (!q.userAnswer) continue;
+      if (q.ans == q.userAnswer) score += 1;
+      if (q.ans != q.userAnswer) score -= 1; // let's make it even...
+    }
+
+    this.score = ( score / this.quantity) * 100;
+
+    element.textContent = this.score.toFixed(2);
+  }
+
+  changeColor(element) {
+    let percentScore = this.score;
+
+    if (percentScore == 100) {
+      element.style.color = "goldenrod";
+    } else if (percentScore >= 80) {
+      element.style.color = "blue";
+    } else if (percentScore >= 70) {
+      element.style.color = "green";
+    } else {
+      element.style.color = "crimson";
+    }
   }
 }
 
 export { Exam };
+
+// an exam a lot of stuff going on in it. opor se...
+// just adding some little info to the stuff and everything is cool...

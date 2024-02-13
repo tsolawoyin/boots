@@ -5,6 +5,9 @@ const addBtn = document.querySelector("#add");
 const startBtn = document.querySelector("#start");
 const addedSubjectsEl = document.querySelector("#added-subjects");
 const questionEl = document.querySelector("#question");
+const currentScoreEl = document.querySelector("#current-score");
+const loginInterface = document.querySelector("#login-interface");
+const examInterface = document.querySelector("#exam-interface");
 // keys
 const numKeys = document.querySelector("#num-keys");
 const pns = document.querySelector("#pns");
@@ -22,5 +25,8 @@ export {
   questionEl,
   numKeys,
   pns,
-  examKeys
+  examKeys,
+  currentScoreEl,
+  loginInterface,
+  examInterface
 };

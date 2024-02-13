@@ -139,6 +139,8 @@ function calcScorePercent(a, b) {
   return ((a / b) * 100).toFixed(2);
 }
 
+// this functions are gone...
+
 // it's not supposed to be like this sha, it should be easy...
 
 // now everything is working properly

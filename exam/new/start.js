@@ -5,9 +5,12 @@ import { buildQuestion } from "./buildQuestion.js";
 import { questionEl, numKeys } from "./Configure/constants.js";
 import { timeEl } from "./Configure/constants.js";
 import { endExam } from "./endExam.js";
+// interface
+import { loginInterface, examInterface } from "./Configure/constants.js";
 
 const exams = []; // the exams are alive at this point...
 let timeInterval;
+
 // time stuff =======================================
 const countDownEl = document.querySelector("#time");
 const minEl = document.querySelector("#min");
@@ -42,8 +45,12 @@ document.querySelector("#start").addEventListener("click", (e) => {
   timeInterval = setInterval(time, 1000); // start countdown
   // there are still many more stuffs to do...
   // like load keys..
-//   this is a very serious somethng...
-// will complete this function later
+  //   this is a very serious somethng...
+  // will complete this function later
+  loginInterface.remove()
+  examInterface.style.display = "grid";
+
+  
 });
 
 // this way I can work with generate exam in any module... :-)
@@ -56,6 +63,7 @@ function generateExamBtn(exams) {
       let li = document.createElement("li");
       li.textContent = e.subject;
       li.className = "btn";
+      li.id = `${e.subject}-${e.topic}`;
 
       if (i == 0) {
         li.className = "btn btn-secondary";
@@ -68,6 +76,7 @@ function generateExamBtn(exams) {
 
 function createFirstExam(qty) {
   let first = generateExam();
+  
   return createExam(first[0].subject, first[0].topic, qty);
 }
 
