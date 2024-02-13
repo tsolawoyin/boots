@@ -4,7 +4,6 @@ import { buildQuestion } from "./buildQuestion.js";
 // writing another start up engine
 import { questionEl, numKeys } from "./Configure/constants.js";
 import { timeEl } from "./Configure/constants.js";
-import { endExam } from "./endExam.js";
 // interface
 import { loginInterface, examInterface } from "./Configure/constants.js";
 // 

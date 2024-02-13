@@ -68,7 +68,32 @@ examKeys.addEventListener("click", (e) => {
     questionEl.innerHTML = buildQuestion(current.currentQuestion);
     // then build question
   }
+
+
 });
+
+// helps focus
+examKeys.addEventListener("click", e => {
+    let clicked = e.target.id.split("-")
+
+    let curEx = findExam(exams, clicked[0], clicked[1]); // this is kind of faulty...
+    
+    let children = Array.from(examKeys.children);
+    
+    for (let c of children) {
+        let sbj = c.id.split("-");
+
+        if (curEx.subject == sbj[0] && curEx.topic && sbj[1]) {
+            console.log("yes")
+            c.className = "btn btn-secondary"
+        } else {
+            console.log("no")
+            c.className = "btn btn-primary"
+        }
+    }
+
+    // this thing requires calculation
+})
 
 function findExam(exams, subject, topic) {
   for (let e of exams) {
@@ -82,15 +107,15 @@ function findExam(exams, subject, topic) {
 function toggleExam(exam, cond) {
   if (cond == "next" && !submitted) {
     exam.updateAnswer() // update the answer of the current question before moving on
-    exam.showAnsweredQuestions() // core feature of boots... show red/green/white
     exam.markQuestions(currentScoreEl); // mark questions
+    exam.showAnsweredQuestions() // core feature of boots... show red/green/white
     exam.changeColor(currentScoreEl); // update the color
     exam.nextQuestion(); // then next
     questionEl.innerHTML = buildQuestion(exam.currentQuestion); // and build
   } else if (cond == "prev" && !submitted) {
     exam.updateAnswer() // update the answer of the current question before moving on
-    exam.showAnsweredQuestions() // core feature of boots... show red/green/white
     exam.markQuestions(currentScoreEl)
+    exam.showAnsweredQuestions() // core feature of boots... show red/green/white
     exam.changeColor(currentScoreEl);
     exam.previousQuestion();
     questionEl.innerHTML = buildQuestion(exam.currentQuestion);

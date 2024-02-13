@@ -7,6 +7,7 @@ function generateExam() {
     // this will only be called on the startBtn
     if (choosenExams.length == 0) {
         alert("Please add at least one exam to start");
+        // not doing anything is not that informative.
     } else {
         // let's continue
         let exams = choosenExams.map(e => {
