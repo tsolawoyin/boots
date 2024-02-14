@@ -40,6 +40,7 @@ const english = new Subject("English", [
     "Synonyms II",
     "Spelling mistakes",
     "Common mistakes",
+    "Noun | Pronoun",
     "general"
 ]);
 
