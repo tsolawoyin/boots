@@ -69,7 +69,7 @@ let natureOfMatter = [
       `evaporation followed by sublimation`,
       `filtration followed by sublimation`,
     ],
-    ans: "E",
+    ans: "D",
     // not yet solved
   },
   {
@@ -241,7 +241,7 @@ let natureOfMatter = [
       `addition of water followed by filtration and sublimation`,
       `addition of water followed by crystallization and sublimation`,
     ],
-    ans: "B",
+    ans: "A",
     // not yet answered
   },
   {
@@ -253,7 +253,7 @@ let natureOfMatter = [
       `at a lower temperature than the impure one`,
       `at the same temperature as the impure one`,
     ],
-    ans: "A",
+    ans: "B",
   },
   {
     id: 25,
@@ -265,5 +265,330 @@ let natureOfMatter = [
       `sedimentation`,
     ],
     ans: "B",
+  },
+  {
+    id: 26,
+    question: `Which of the following is an example of chemical change.`,
+    options: [
+      `Dissolution of salt in water`,
+      `Rusting of iron`,
+      `Melting of ice`,
+      `Separation of a mixture by distillation`,
+    ],
+    ans: "A",
+  },
+  {
+    id: 27,
+    question: `The addition of water to calcium oxide leads to.`,
+    options: [
+      `a physical change`,
+      `a chemical change`,
+      `the formation of a mixture`,
+      `an endothermic change`,
+    ],
+    ans: "B",
+  },
+  {
+    id: 28,
+    question: `A mixture of iron and sulphur can be best separated by dissolving the mixture in`,
+    options: [
+      `steam`,
+      `dilute hydrochloric acid`,
+      `dilute sodium hydroxide`,
+      `benzene`,
+    ],
+    ans: "B",
+  },
+  {
+    id: 29,
+    question: `Sieving is a technique used to separate mixtures containing solid particles of`,
+    options: [
+      `small sizes`,
+      `large sizes`,
+      `the same size`,
+      `different sizes`,
+    ],
+    ans: "D",
+  },
+  {
+    id: 30,
+    question: `A mixture of iodine and sulfur crystals can be separated by treatment with`,
+    options: [
+      `water to filter of sulfur`,
+      `methanol to filter off iodine`,
+      `ethanoic acid to filter off sulphur`,
+      `carbon(IV) sulfide to filter off iodine`,
+    ],
+    ans: "D",
+  },
+  {
+    id: 31,
+    question: `Pure solvents are obtained by`,
+    options: [
+      `distillation`,
+      `condensation`,
+      `extraction`,
+      `evaporation`,
+    ],
+    ans: "A",
+  },
+  {
+    id: 32,
+    question: `A little quantity of trichloromethance (b.pt.60&deg;C) was added to a large quantity of ethanol (b.pt 78&deg;C). The most probable boiling point of the resultant mixture is from`,
+    options: [
+      `69&deg;-70&deg;C`,
+      `82&deg;-84&deg;C`,
+      `60&deg;-78&deg;C`,
+      `70&deg;-74&deg;`,
+    ],
+    ans: "B",
+  },
+  {
+    id: 33,
+    question: `The chromatographic separation of ink is based on the ability of components to`,
+    options: [
+      `react with each other`,
+      `react with solvent`,
+      `dissolve in each other in the column`,
+      `move at different speeds in the column`,
+    ],
+    ans: "D",
+  },
+  {
+    id: 34,
+    question: `Which of the following is a physical change`,
+    options: [
+      `Freezing ice-cream`,
+      `Exposing white phosphorus to air`,
+      `Burning kerosine`,
+      `Dissolving calcium in water`,
+    ],
+    ans: "A",
+  },
+  {
+    id: 35,
+    question: `When a solid substance disappears completely as a gas on heating, the substance is said to have undergone`,
+    options: [
+      `evaporation`,
+      `distillation`,
+      `crystallization`,
+      `sublimation`,
+    ],
+    ans: "D",
+  },
+  {
+    id: 36,
+    question: `A chemical reaction is always associated with`,
+    options: [
+      `an increase in the composition of one of the substances`,
+      `a change in the volume of the reactants`,
+      `a change in the nature of the reactants`,
+      `the formation of new substances`,
+    ],
+    ans: "D",
+  },
+  {
+    id: 37,
+    question: `The property used in the industrial preparation of Nitrogen and Oxygen from air is`,
+    options: [
+      `rate of diffusion`,
+      `solubility`,
+      `density`,
+      `boiling point`,
+    ],
+    ans: "D",
+  },
+  {
+    id: 38,
+    question: `A heterogenous mixture can be defined as any mixture`,
+    options: [
+      `whose composition is uniform`,
+      `whose composition is not uniform`,
+      `formed by solids and liquids`,
+      `of a solute and a solvent`,
+    ],
+    ans: "B",
+  },
+  {
+    id: 39,
+    question: `Sugar is separated from its impurities by`,
+    options: [
+      `distillation`,
+      `evaporation`,
+      `precipitation`,
+      `crystallization`,
+    ],
+    ans: "D",
+  },
+  {
+    id: 40,
+    question: `The order in which a mixture of sand, ammonium chloride and sodium chloride can be separated is`,
+    options: [
+      `sublimation -> dissolution -> filtration -> evaporation`,
+      `dissolution -> dryness -> filtration -> evaporation`,
+      `filtration -> sublimation -> evaporation -> dryness`,
+      `dissolution -> filtration -> sublimation -> evaporation`,
+    ],
+    ans: "A",
+  },
+  {
+    id: 41,
+    question: `A difference between chemical and physical changes is that in a chemical change`,
+    options: [
+      `heat is supplied`,
+      `a new substance is formed`,
+      `oxygen is consumed`,
+      `a reversible process occurs`,
+    ],
+    ans: "B",
+  },
+  {
+    id: 42,
+    question: `A mixture of petrol and water can be best separated through`,
+    options: [
+      `the use of filter paper`,
+      `the use of a separating funnel`,
+      `centrifugation`,
+      `distillation`,
+    ],
+    ans: "B",
+  },
+  {
+    id: 43,
+    question: `Chlorophyll obtained from green leaves of plant can be shown to be composed of more than one colored components by the technique of`,
+    options: [
+      `crystallization`,
+      `hydrolysis`,
+      `chromatography`,
+      `sublimation`,
+    ],
+    ans: "C",
+  },
+  {
+    id: 44,
+    question: `In countries where the temperature falls below 273K, salt is always sprinkled on the icy roads in order to`,
+    options: [
+      `lower the melting point of ice`,
+      `increase the density of ice`,
+      `make the ice impure`,
+      `raise the melting point of ice`,
+    ],
+    ans: "A",
+  },
+  {
+    id: 45,
+    question: `A mixture of sugar and sulfur can be separated by`,
+    options: [
+      `dissolution in water, evaporation and filtration`,
+      `filtration, evaporation, and dissolution in water`,
+      `dissolution in water, filtration and evaporation`,
+      `evaporation, dissolution in water and filtration`,
+    ],
+    ans: "C",
+  },
+  {
+    id: 46,
+    question: `Which of the following is a physical change`,
+    options: [
+      `freezing ice cream`,
+      `dissolving calcium in water`,
+      `burning kerosene`,
+      `exposing white phosphorus to air`,
+    ],
+    ans: "A",
+  },
+  {
+    id: 47,
+    question: `Which of the following is an example of a mixture?`,
+    options: [
+      `blood`,
+      `sand`,
+      `washing soda`,
+      `common salt`,
+    ],
+    ans: "A",
+  },
+  {
+    id: 48,
+    question: `The principle of column chromatography is based on the ability of the constituents to`,
+    options: [
+      `dissolve in each other in the column`,
+      `react with the solvent in the column`,
+      `react with each other in the column`,
+      `move at different speeds in the column`,
+    ],
+    ans: "D",
+  },
+  {
+    id: 49,
+    question: `Which of the following methods can be used to obtain pure water from a mixture of sand, water and methanoic acid?`,
+    options: [
+      `neutralization with NaOH followed by filtration`,
+      `neutralization with NaOH followed by distillation`,
+      `fractional distillation`,
+      `filtration followed by distillation`,
+    ],
+    ans: "B",
+    // to be researched personally
+  },
+  {
+    id: 50,
+    question: `The presence of impurities in a solid will cause the melting point to`,
+    options: [
+      `be stable`,
+      `be zero`,
+      `reduce`,
+      `increase`,
+    ],
+    ans: "C",
+    // look up the answer later
+  },
+  {
+    id: 51,
+    question: `A mixture is different from a compound because`,
+    options: [
+      `constituents of a compound are chemically bound together while those of a mixture are not`,
+      `a mixture is always homogenous while a compound is not`,
+      `a mixture can be represented by a chemical formula while a compound cannot`,
+      `the properties of a compound are those of its individual constituents while those of a mixture differ from its constituents.`,
+    ],
+    ans: "A",
+    // look up the answer later
+  },
+  {
+    id: 52,
+    question: `The presence of impurities in a solid will make the melting point`,
+    options: [
+      `decrease`,
+      `increase`,
+      `remain unchanged`,
+      `be zero`
+    ],
+    ans: "A",
+    // look up the answer later
+  },
+  {
+    id: 53,
+    question: `The process whereby a gaseous body loses some of its kinetic energy to a colder body is referred to as`,
+    options: [
+      `condensation`,
+      `melting`,
+      `evaporation`,
+      `freezing`
+    ],
+    ans: "A",
+    // look up the answer later
+  },
+  {
+    id: 54,
+    question: `The separation technique that is based on the principle of solubility of a solid in two miscible liquids is`,
+    options: [
+      `fractional distillation`,
+      `distillation`,
+      `precipitation`,
+      `filtration`
+    ],
+    ans: "C",
+    // look up the answer later
   },
 ];
