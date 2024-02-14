@@ -6309,6 +6309,721 @@ let englishQuestions = [
         "ans": "C",
         "main": "",
         "remark": ""
+      },
+      {
+        "id": 31,
+        "question": "Will you know if that dog is ___? He has lost a brown and black one.",
+        "options": [
+          "Adebowale's",
+          "Adebowales'",
+          "Adebowale's own",
+          "the Adebowales",
+          "the Adebowale's"
+        ],
+        "ans": "A",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 32,
+        "question": "Jane and Jarawa love ___ very much.",
+        "options": [
+          "themselves",
+          "each other",
+          "one another",
+          "theirselves",
+          "each others"
+        ],
+        "ans": "B",
+        "main": "",
+        "remark": "when two people are involved, each other is correct, when three or more are involved, one another is correct."
+      },
+      {
+        "id": 33,
+        "question": "She got into trouble because she refused to listen to the ___ given by her friends and relatives.",
+        "options": [
+          "many of the advice",
+          "series of advices",
+          "piece of advices",
+          "advice",
+          "lots of advices"
+        ],
+        "ans": "D",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 34,
+        "question": "When we were coming back from the picnic last Friday, there ___ on Eko bridge.",
+        "options": [
+          "were many traffics",
+          "was much traffic",
+          "were plenty traffic",
+          "were lots of traffic",
+          "was a few traffic"
+        ],
+        "ans": "B",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 35,
+        "question": "I'm sorry I can't go to the theatre with you as I have ___ to do.",
+        "options": [
+          "many works",
+          "a work",
+          "plenty work",
+          "much work",
+          "lots and lots of work"
+        ],
+        "ans": "D",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 36,
+        "question": "When the policemen received ___ about the hide-out of the armed robbers, they went there in full force to arrest them.",
+        "options": [
+          "full informations",
+          "all the necessary informations",
+          "some informations",
+          "an information",
+          "full information"
+        ],
+        "ans": "E",
+        "main": "",
+        "remark": "Information is an uncountable noun, it cannot take any form of article, a/an/the, and it cannot take an s"
+      },
+      {
+        "id": 37,
+        "question": "The violent storm that occured on Easter Monday destroyed many houses and caused ___ in Lagos generally.",
+        "options": [
+          "heavy damages",
+          "much damage",
+          "several damages",
+          "plenty damages",
+          "many damages"
+        ],
+        "ans": "B",
+        "main": "",
+        "remark": "Whatever the extent of the damage is, the noun damage remains uncountable"
+      },
+      {
+        "id": 38,
+        "question": "The farmer has brought the insecticide because he was bent on ___ the insects in his farm.",
+        "options": [
+          "exterminating",
+          "estimating",
+          "extenuating",
+          "extinguishing",
+          "exemplifying"
+        ],
+        "ans": "A",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 39,
+        "question": "The school Board has placed an order for ___",
+        "options": [
+          "all the furniture and equipments required in the new schools",
+          "all the furniture and equipment required in the new schools",
+          "all of the furniture and equipments required in the new schools",
+          "many of the furnitures and equipments required in the new schools"
+        ],
+        "ans": "B",
+        "main": "",
+        "remark": "Furniture and equipment are uncountable nouns"
+      },
+      {
+        "id": 40,
+        "question": "The candidate made ___ at the village square a day before the elections.",
+        "options": ["a sermon", "an address", "a eulogy", "a lecture", "a speech"],
+        "ans": "E",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 41,
+        "question": "One of the ___ during the football match led to fight between the teams.",
+        "options": [
+          "incidence",
+          "incidences",
+          "incidents",
+          "occasions",
+          "linesmen"
+        ],
+        "ans": "C",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 42,
+        "question": "The hotel ___ is at Wurno Road.",
+        "options": [
+          "which I am staying",
+          "in where I am staying",
+          "that I am staying",
+          "at which I am staying",
+          "I stay"
+        ],
+        "ans": "E",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 43,
+        "question": "The government suffered a ___ when they lost two elections",
+        "options": ["check", "set-back", "hindrance", "disturbance", "recession"],
+        "ans": "B",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 45,
+        "question": "Wherever the leader went people struggle to catch a ___ of him",
+        "options": ["look", "view", "glimpse", "portrait", "picture"],
+        "ans": "C",
+        "main": "",
+        "remark": "glimpse = a brief look at sth/sb"
+      },
+      {
+        "id": 44,
+        "question": "The principal went to buy some __ for the physics laboratory.",
+        "options": [
+          "equipment",
+          "pieces of equipments",
+          "equipments",
+          "items of equipments",
+          "list of equipment"
+        ],
+        "ans": "A",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 46,
+        "question": "The market women ___ profit ranges from thirty to fifty percent are making ___ difficult for the ordinary people.",
+        "options": [
+          "for who | to live",
+          "for whom | lives",
+          "by whose | living",
+          "whose | life",
+          "whose | leaving"
+        ],
+        "ans": "D",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 47,
+        "question": "After we have taken our share, we shall give __ to them.",
+        "options": ["their", "their's", "theirs", "there", "there's"],
+        "ans": "C",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 48,
+        "question": "I gave the book to the library attendant ___I think works in the evenings",
+        "options": ["whom", "whose", "which", "who", "of whom"],
+        "ans": "A",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 49,
+        "question": "The politicians are responsible for the ___ of events have taken in this country",
+        "options": ["course", "curse", "coarse", "cause", "corse"],
+        "ans": "A",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 50,
+        "question": "I do not want __ from such a friend as Jimoh.",
+        "options": [
+          "any more advices",
+          "no more advice",
+          "any advices",
+          "no advice",
+          "any advice"
+        ],
+        "ans": "E",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 51,
+        "question": "The court ordered the lorry driver to pay for the __ to my car.",
+        "options": [
+          "damages",
+          "heavy damages",
+          "destruction",
+          "many damages",
+          "damage"
+        ],
+        "ans": "E",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 52,
+        "question": "Journalists always collect and publish ___",
+        "options": [
+          "informations",
+          "an information",
+          "some informations",
+          "information",
+          "much informations"
+        ],
+        "ans": "D",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 53,
+        "question": "I have received the answer scripts of Peter and John. What about __?",
+        "options": ["Ngozi", "Ngozi's own", "Ngozis", "Ngozis'", "Ngozi's"],
+        "ans": "E",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 54,
+        "question": "Jilbril found that thieves had entered his house in his absence. He went to the police to report the __",
+        "options": ["break out", "break up", "break in", "break into"],
+        "ans": "C",
+        "main": "",
+        "remark": "break in = forceful entry into a biulding usually to steal"
+      },
+      {
+        "id": 55,
+        "question": "\"I'm sorry I can't give you any of the oranges, I have __ left\"",
+        "options": ["few", "little", "only a little", "a few"],
+        "ans": "A",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 56,
+        "question": "__ yet about the Principal?",
+        "options": [
+          "Are there any news",
+          "Are there some news",
+          "Is there any news",
+          "Is their any news"
+        ],
+        "ans": "C",
+        "main": "",
+        "remark": "News is an uncountable noun; must take \"is\" not \"are\""
+      },
+      {
+        "id": 57,
+        "question": "Their high __ was an advantage",
+        "options": ["moral", "morality", "morale", "morals"],
+        "ans": "C",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 59,
+        "question": "The way that big boy bullied his sister with relish makes me think he could be a __",
+        "options": ["bully", "sadist", "pugilist", "tyrant"],
+        "ans": "B",
+        "main": "",
+        "remark": "Sadist is a person who derives joy from others' suffering."
+      },
+      {
+        "id": 58,
+        "question": "He decided to wait for the bus because he had",
+        "options": [
+          "too many luggage",
+          "many luggages",
+          "a lot of luggage",
+          "plenty luggages"
+        ],
+        "ans": "C",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 60,
+        "question": "The man insisted on giving unsolicited __",
+        "options": ["advice", "advices", "advise", "advises"],
+        "ans": "A",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 61,
+        "question": "Dapo has made good use of some useful __ on the chemical composition of chalk.",
+        "options": [
+          "information",
+          "piece of information",
+          "informations",
+          "piece of informations"
+        ],
+        "ans": "A",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 62,
+        "question": "The students went on whispering in __ of the teacher.",
+        "options": ["dishonor", "disagreement", "defiance", "disobedience"],
+        "ans": "C",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 63,
+        "question": "The __ of the participating countries will hold a preconference on the eve of the conference.",
+        "options": [
+          "Auditor Generals",
+          "Auditor General",
+          "Auditors General",
+          "Auditors Generals"
+        ],
+        "ans": "C",
+        "main": "",
+        "remark": "The key noun here is auditor"
+      },
+      {
+        "id": 64,
+        "question": "The chairman's laughter was with no __ to ridicule the applicant.",
+        "options": ["intention", "intent", "intendment", "intent"],
+        "ans": "D",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 65,
+        "question": "There was a __ of steps",
+        "options": ["stair", "height", "flight", "climb"],
+        "ans": "C",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 66,
+        "question": "The dancers were all in __ before their departure",
+        "options": ["good spirits", "good spirit", "high spirit", "high spirits"],
+        "ans": "D",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 67,
+        "question": "The host insisted on __ what he called 'a little gift'",
+        "options": [
+          "me to accept",
+          "me accepting",
+          "my accepting",
+          "my acceptance"
+        ],
+        "ans": "C",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 68,
+        "question": "We heard the ___ of breaks, which was followed by a crashing noise.",
+        "options": ["screaming", "screeching", "scraping", "streaking"],
+        "ans": "B",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 69,
+        "question": "__ are good friends.",
+        "options": ["He and I", "I and him", "I and he", "He and me"],
+        "ans": "A",
+        "main": "",
+        "remark": "He and I are the subjects of the verb \"are.\""
+      },
+      {
+        "id": 70,
+        "question": "Animals in __ behave differently from animals living in their natural habitat",
+        "options": ["prison", "bondage", "captivity", "slavery"],
+        "ans": "C",
+        "main": "",
+        "remark": "Captivity is a state of being kept in a confined space."
+      },
+      {
+        "id": 71,
+        "question": "After months of tedious climbing, the team reached the __ of the mountain.",
+        "options": ["end", "summit", "height", "terminal"],
+        "ans": "B",
+        "main": "",
+        "remark": "Summit means peak"
+      },
+      {
+        "id": 72,
+        "question": "Dan and Tina met on the ship and greeted __",
+        "options": ["one another", "themselves", "each other", "theirselves"],
+        "ans": "C",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 73,
+        "question": "Olu, Akpan, and Ovblagele's __ make people believe that they belong to the same school of thought.",
+        "options": ["philosophy", "philosophys", "philosophies", "philosophy's"],
+        "ans": "C",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 74,
+        "question": "The college bus was traveling at a high __ when the accident occurred.",
+        "options": ["velocity", "acceleration", "rapidity", "speed"],
+        "ans": "D",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 75,
+        "question": "Note that only senior members of staff have the __ of using the toilet upstairs.",
+        "options": ["permission", "occasion", "privilege", "habit"],
+        "ans": "C",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 76,
+        "question": "The African extended family system gives security to __ members.",
+        "options": ["his", "her", "its", "their"],
+        "ans": "C",
+        "main": "",
+        "remark": "The noun \"system\" (non-person) requires the possessive from its"
+      },
+      {
+        "id": 77,
+        "question": "Baba and __ participated in the tournament.",
+        "options": ["him", "his", "he", "he's"],
+        "ans": "C",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 78,
+        "question": "It was __ who fought the civil war.",
+        "options": ["they", "them", "those", "theirs"],
+        "ans": "A",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 79,
+        "question": "The physicians have more people in __ waiting rooms than __ have ever had.",
+        "options": ["his | he", "there | their", "they | they", "them | they"],
+        "ans": "C",
+        "main": "",
+        "remark": "their shows possession for the plural noun \"Physicians\" as well as the plural pronoun \"they\""
+      },
+      {
+        "id": 80,
+        "question": "On his __ of office, the new president announced some drastic measures.",
+        "options": ["assumption", "ascension", "acceptance", "appointment"],
+        "ans": "A",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 81,
+        "question": "I sent __ news to the press yesterday.",
+        "options": ["a parcel", "a flash", "an item of", "number of"],
+        "ans": "C",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 82,
+        "question": "The University has a large collection of sporting __",
+        "options": ["equipment", "equipments", "costumes", "aids"],
+        "ans": "A",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 83,
+        "question": "He keeps his __ clean always",
+        "options": ["surroundings", "surrounding", "premise", "environments"],
+        "ans": "A",
+        "main": "",
+        "remark": "Surroundings(pl) should never be written without the ending -s if it is a noun."
+      },
+      {
+        "id": 84,
+        "question": "People who live by __ what loneliness is like.",
+        "options": [
+          "each other know",
+          "one another know",
+          "oneself knows",
+          "themselves know"
+        ],
+        "ans": "D",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 85,
+        "question": "You must forbid __ coming.",
+        "options": ["he's", "that he is", "him for", "his"],
+        "ans": "D",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 86,
+        "question": "They spent the last holiday with their __",
+        "options": [
+          "sister-in-laws",
+          "sisters-in-law",
+          "sisters-in-laws",
+          "sisters-in-laws"
+        ],
+        "ans": "B",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 87,
+        "question": "The __ discouraged me from reading it.",
+        "options": [
+          "story's length",
+          "length of the story",
+          "story length",
+          "stories length"
+        ],
+        "ans": "B",
+        "main": "",
+        "remark": "The possessive form of \"story\" is not allowed"
+      },
+      {
+        "id": 88,
+        "question": "You think she doesn't have any friends? Of course, she's got __",
+        "options": ["many more", "quite much", "quite a few", "few"],
+        "ans": "C",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 89,
+        "question": "He moved out of the house because the landlord and his wife were always fighting __",
+        "options": ["themselves", "theirselves", "each other", "one another"],
+        "ans": "C",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 90,
+        "question": "Do you think all __ not enough to help the investigator?",
+        "options": [
+          "these informations are",
+          "this information are",
+          "this information is",
+          "these information are"
+        ],
+        "ans": "C",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 91,
+        "question": "The army ran short of",
+        "options": [
+          "arm and ammunitions",
+          "arms and ammunitions",
+          "arms and ammunition",
+          "arm and ammunition"
+        ],
+        "ans": "C",
+        "main": "",
+        "remark": "\"Arms\" as in weapons, is always written with the ending -s and treat ammunition as an uncountable noun."
+      },
+      {
+        "id": 92,
+        "question": "The journalist's unpopular views made him the subject of much___",
+        "options": ["admiration", "derison", "admonition", "suspicion"],
+        "ans": "B",
+        "main": "",
+        "remark": "derison means scorn, disdain."
+      },
+      {
+        "id": 93,
+        "question": "The pen which you have just picked up is __",
+        "options": ["Charle's", "Charles'", "Charless'", "Charles's"],
+        "ans": "D",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 94,
+        "question": "There are __ on spelling and pronunciation at the end of the book.",
+        "options": ["appendexes", "appendix", "appendices", "appendixes"],
+        "ans": "C",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 95,
+        "question": "Most of his personal __ stolen.",
+        "options": ["affects was", "affects were", "effect was", "effects were"],
+        "ans": "D",
+        "main": "",
+        "remark": "Effects, belongings, and possessions must all be written with an ending -s to mean sth you own. And they must all use plural verbs. (were but not was)"
+      },
+      {
+        "id": 96,
+        "question": "The hospital can now boast of more __",
+        "options": [
+          "women doctor",
+          "woman doctors",
+          "women doctors",
+          "woman's doctors"
+        ],
+        "ans": "C",
+        "main": "",
+        "remark": ""
+      },
+      {
+        "id": 97,
+        "question": "Did the boys enjoy __ when they went on vacation?",
+        "options": ["each other", "one another", "themselves", "theirselves"],
+        "ans": "C",
+        "main": "",
+        "remark": "Reflexive pronoun is used here as opposed to distributive pronouns. "
+      },
+      {
+        "id": 98,
+        "question": "The panel's ___ was stretched to the limit by what they heard.",
+        "options": ["credit", "credence", "credibility", "credulity"],
+        "ans": "D",
+        "main": "",
+        "remark": "Credulity = believability"
+      },
+      {
+        "id": 99,
+        "question": "The policemen pointed out a __ between Mr. Ogene's two accounts of the incident.",
+        "options": ["discrepancy", "discord", "distinction", "disagreement"],
+        "ans": "A",
+        "main": "",
+        "remark": "Discrepancy = difference, inconsistency, disparity"
+      },
+      {
+        "id": 100,
+        "question": "You must study hard this semester in order to avoid being made __ ridicule",
+        "options": [
+          "an object",
+          "an object for",
+          "a subject for",
+          "an subject with"
+        ],
+        "ans": "B",
+        "main": "",
+        "remark": "A target for mockery"
       }
     ]
     
