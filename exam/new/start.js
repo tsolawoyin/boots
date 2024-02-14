@@ -8,7 +8,7 @@ import { timeEl, userEl, username } from "./Configure/constants.js";
 import { loginInterface, examInterface } from "./Configure/constants.js";
 //
 import { isMember } from "./validateUser.js";
-
+import { endExam } from "./keys.js";
 const exams = []; // the exams are alive at this point...
 let timeInterval;
 
@@ -17,6 +17,7 @@ const countDownEl = document.querySelector("#time");
 const minEl = document.querySelector("#min");
 const secEl = document.querySelector("#sec");
 let minutes = Number(timeEl.value);
+// let minutes = Number(timeEl.value);
 let seconds = 0;
 // =================================================
 

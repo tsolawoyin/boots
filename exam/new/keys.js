@@ -201,3 +201,5 @@ function endExam() {
   alert(`Your overall score is ${totalScore}`); // and inform user of it
   submitted = true; // and stop all marking
 }
+
+export { endExam }

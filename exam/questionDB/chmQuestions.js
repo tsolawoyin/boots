@@ -5897,7 +5897,7 @@ let chemistryQuestions = [
         ans: "C",
         // look up the answer later
       },
-    ];
+    ]
   }
 ];
 
