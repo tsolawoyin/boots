@@ -9,6 +9,8 @@ import { loginInterface, examInterface } from "./Configure/constants.js";
 //
 import { isMember } from "./validateUser.js";
 import { endExam } from "./keys.js";
+
+const start = document.querySelector("#start")
 const exams = []; // the exams are alive at this point...
 let timeInterval;
 
@@ -21,7 +23,7 @@ let minutes = Number(timeEl.value);
 let seconds = 0;
 // =================================================
 
-document.querySelector("#start").addEventListener("click", (e) => {
+start.addEventListener("click", (e) => {
   // let's rumble
   // loading client details is not a problem bruv...
   // let's do what's necessary
