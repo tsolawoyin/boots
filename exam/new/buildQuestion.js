@@ -67,6 +67,7 @@ function generateOptions(id, options, answer, remark) {
   for (let i = 0; i < options.length; i++) {
     if (optionVal[i] == answer) {
       // if question has already be answered
+      // if user answered too....
       structure += `<input type="radio" name="Q${id}" id="q${id}${optionVal[i]}" value="${optionVal[i]}" checked>
             <label for="q${id}${optionVal[i]}" class="answers"> ${options[i]}</label><br />`;
     } else {
@@ -92,3 +93,4 @@ function generateOptions(id, options, answer, remark) {
 export { buildQuestion };
 
 // this function is very much ok. like very much ok...
+// this is where the code... 
