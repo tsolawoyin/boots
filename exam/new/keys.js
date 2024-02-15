@@ -27,7 +27,7 @@ pns.addEventListener("click", (e) => {
     toggleExam(current, "next");
   } else if (clicked.id == "prev") {
     toggleExam(current, "prev");
-  } else {
+  } else if (clicked.id == "submit") {
     // if submit, just clear interval
     endExam();
   }
@@ -50,64 +50,65 @@ numKeys.addEventListener("click", (e) => {
 // used for changing between exams
 examKeys.addEventListener("click", (e) => {
   // it's just about changing questions and those sort of things that's all...
-
-  let clicked = e.target.id.split("-"); // this is the btn that was actually clicked...
-  // this is the one that I find confusing actually, and its high time I write an efficient algorithm...
-  // one that works perfectly...
-
-  // I am in full reasoning mode so I think I should be able to reason about it properly.
-
-  // getting childNode sef seems useless
-  let choice = findExam(exams, clicked[0], clicked[1]); // find exam 
-  // this will return the exam the clicked element is pointing to
-  // console.log(choice)
-  // this has two possible outcome;
-  // either return an exam object or false
-
-  if (choice) {
-    // if choice is already present, then we should do the following
-    // if exam is already present, just set current to the exam and buildup the current question
-    current = choice // this is the exam we got back from find exams shey you get.
-
-    // there are several possibilities to this stuff.
-    // 1) the first element, and the user is just clicking unnecessarily,
-    // 2) the user is coming back to such question
-
-    // either case, the user might have answered some questions already, thus
-    // we need to mark already answered questions, to update the score element
-
-    current.markQuestions(currentScoreEl);
-    // and after marking, we need to show answered questions as well...
-    // these things are just a matter of displaying things to the user, nothing much is happening
-    // keys are supposed to be loaded before showing answers.
-    // you know, in some exam scenarios, the number of questions may not be the same
-    current.loadKeys(numKeys); // loading keys before showing answer makes perfect sense.
-
-    current.showAnsweredQuestions(); // update color to match the color of current exam
-    // that is it is present
-    // then after that, the proper keys need to be loaded. 
-    // then buiild question...
-    questionEl.innerHTML = buildQuestion(current.currentQuestion); // makes sense. this is working as expected.
-  } else {
-    // but if questions haven't been found normally, now that is another case entirely
-    let newExam = createExam(clicked[0], clicked[1], 40); // this helps create exact amount of exam...
-    // after creating new exam, we need to set its current question to question 1
-    newExam.nextQuestion() // this moves the pointer to 1
-    // then it makes sense to push the question into the exams array
-    exams.push(newExam);
-    // now, we set the currentExam to newExam
-    current = newExam; // normally...
-    // I don't think there is anything to mark here, honestly, it's just a fresh exam for crying out loud
-    // and there is no need to show any answer
-    // the only thing we need to do is load keys properly
-    current.loadKeys(numKeys); 
-    // and render the first question.
-    // update scores after loading the keys...
-    current.markQuestions(currentScoreEl);
-
-    questionEl.innerHTML = buildQuestion(current.currentQuestion);
+  if (e.target.id != "exams") {
+    let clicked = e.target.id.split("-"); // this is the btn that was actually clicked...
+    // this is the one that I find confusing actually, and its high time I write an efficient algorithm...
+    // one that works perfectly...
+    // I am in full reasoning mode so I think I should be able to reason about it properly.
+  
+    // getting childNode sef seems useless
+    let choice = findExam(exams, clicked[0], clicked[1]); // find exam 
+    // this will return the exam the clicked element is pointing to
+    // console.log(choice)
+    // this has two possible outcome;
+    // either return an exam object or false
+  
+    if (choice) {
+      // if choice is already present, then we should do the following
+      // if exam is already present, just set current to the exam and buildup the current question
+      current = choice // this is the exam we got back from find exams shey you get.
+  
+      // there are several possibilities to this stuff.
+      // 1) the first element, and the user is just clicking unnecessarily,
+      // 2) the user is coming back to such question
+  
+      // either case, the user might have answered some questions already, thus
+      // we need to mark already answered questions, to update the score element
+  
+      current.markQuestions(currentScoreEl);
+      // and after marking, we need to show answered questions as well...
+      // these things are just a matter of displaying things to the user, nothing much is happening
+      // keys are supposed to be loaded before showing answers.
+      // you know, in some exam scenarios, the number of questions may not be the same
+      current.loadKeys(numKeys); // loading keys before showing answer makes perfect sense.
+  
+      current.showAnsweredQuestions(); // update color to match the color of current exam
+      // that is it is present
+      // then after that, the proper keys need to be loaded. 
+      // then buiild question...
+      questionEl.innerHTML = buildQuestion(current.currentQuestion); // makes sense. this is working as expected.
+    } else {
+      // but if questions haven't been found normally, now that is another case entirely
+      let newExam = createExam(clicked[0], clicked[1], 40); // this helps create exact amount of exam...
+      // after creating new exam, we need to set its current question to question 1
+      newExam.nextQuestion() // this moves the pointer to 1
+      // then it makes sense to push the question into the exams array
+      exams.push(newExam);
+      // now, we set the currentExam to newExam
+      current = newExam; // normally...
+      // I don't think there is anything to mark here, honestly, it's just a fresh exam for crying out loud
+      // and there is no need to show any answer
+      // the only thing we need to do is load keys properly
+      current.loadKeys(numKeys); 
+      // and render the first question.
+      // update scores after loading the keys...
+      current.markQuestions(currentScoreEl);
+  
+      questionEl.innerHTML = buildQuestion(current.currentQuestion);
+    }
+    // working perfectly
   }
-  // working perfectly
+
 });
 
 // helps focus // coming back to focus later
@@ -116,23 +117,25 @@ examKeys.addEventListener("click", (e) => {
 // now, let's work on this one...
 examKeys.addEventListener("click", (e) => {
   // getting the clicked element
-  let clicked = e.target.id.split("-"); // and getting the classname, and splitting things up...
-  // this clicked element is what is clicked gangan...
-  // currentExam is the exam that we just got from clicking the element
-  // and it's not faulty...
-  let currentExam = findExam(exams, clicked[0], clicked[1]);
-  // it is absolutely fine...
-
-  let children = Array.from(examKeys.children);
-  // now, getting the 
-
-  for (let c of children) {
-    let sbj = c.id.split("-");
-
-    if (currentExam.subject == sbj[0] && currentExam.topic == sbj[1]) {
-      c.className = "btn btn-secondary";
-    } else {
-      c.className = "btn";
+  if (e.target.id != "exams") {
+    let clicked = e.target.id.split("-"); // and getting the classname, and splitting things up...
+    // this clicked element is what is clicked gangan...
+    // currentExam is the exam that we just got from clicking the element
+    // and it's not faulty...
+    let currentExam = findExam(exams, clicked[0], clicked[1]);
+    // it is absolutely fine...
+  
+    let children = Array.from(examKeys.children);
+    // now, getting the 
+  
+    for (let c of children) {
+      let sbj = c.id.split("-");
+  
+      if (currentExam.subject == sbj[0] && currentExam.topic == sbj[1]) {
+        c.className = "btn btn-secondary";
+      } else {
+        c.className = "btn";
+      }
     }
   }
 
