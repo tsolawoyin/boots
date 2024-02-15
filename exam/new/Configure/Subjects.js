@@ -41,6 +41,7 @@ const english = new Subject("English", [
     "Spelling mistakes",
     "Common mistakes",
     "Noun | Pronoun",
+    "Noun | Pronoun II",
     "general"
 ]);
 
