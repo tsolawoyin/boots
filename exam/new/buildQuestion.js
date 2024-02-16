@@ -43,7 +43,7 @@ function buildQuestion(question) {
   if (!question.ans) { // this is two create an ans property in case the question object is not having question.ans property. Everything is something of case.
     question["ans"] = question.answer;   
   }
-  
+
   return `${
     question?.info // don't forget to check for undefined back here.
       ? `<p class='question-info'>${question.info}</p>`
@@ -89,7 +89,7 @@ function generateOptions(id, options, answer, mainAns, remark) {
         }
 
         if (optionVal[i] == mainAns) {
-          structure += `<input type="radio" name="Q${id}" id="q${id}${optionVal[i]}" value="${optionVal[i]}" checked>
+          structure += `<input type="radio" name="Q${id}" id="q${id}${optionVal[i]}" value="${optionVal[i]}">
         <label for="q${id}${optionVal[i]}" class="answers"> ${options[i]} ✅</label><br />`;
         }
 
