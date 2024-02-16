@@ -6,7 +6,7 @@ let sampleQuestion1 = {
   question:
     "Nitrogen is a non-metal which is found in what group of the periodic table?",
   options: ["I", "II", "III", "VI", "V"],
-  answer: "E",
+  ans: "E",
   userAnswer: null,
 };
 // question already answered
@@ -15,8 +15,8 @@ let sampleQuestion2 = {
   question:
     "Nitrogen is a non-metal which is found in what group of the periodic table?",
   options: ["I", "II", "III", "VI", "V"],
-  answer: "E",
-  userAnswer: "B",
+  ans: "E",
+  userAnswer: "E",
 };
 
 let sampleQuestion3 = {
@@ -28,31 +28,38 @@ let sampleQuestion3 = {
     "for prevention of fire",
     "in the manufacture of CO<sub>2</sub>",
   ],
-  answer: "D",
+  ans: "D",
   userAnswer: null,
 };
 
-// console.log(buildQuestion(sampleQuestion1))
-// console.log(buildQuestion(sampleQuestion2))
+// console.log(buildQuestion(sampleQuestion1));
+console.log(buildQuestion(sampleQuestion2))
 // console.log(buildQuestion(sampleQuestion3))
 
 // Question -> build question
 function buildQuestion(question) {
   // append info if present then continue rendering
+  // this is just a very short way of writing a very long stuff. lolzzzz.
+  if (!question.ans) { // this is two create an ans property in case the question object is not having question.ans property. Everything is something of case.
+    question["ans"] = question.answer;   
+  }
+  
   return `${
-    question?.info ? 
-    `<p class='question-info'>${question.info}</p>` : ""
+    question?.info // don't forget to check for undefined back here.
+      ? `<p class='question-info'>${question.info}</p>`
+      : ""
   }<p class="question-text">${question.id}. ${
     question.question
   }</p>${generateOptions(
     question.id,
     question.options,
     question.userAnswer,
+    question.ans,
     question.remark
   )}`;
 }
 
-function generateOptions(id, options, answer, remark) {
+function generateOptions(id, options, answer, mainAns, remark) {
   // GENERATING OPTIONS
   let optionVal = {
     0: "A",
@@ -65,16 +72,37 @@ function generateOptions(id, options, answer, remark) {
   let structure = `<div id="options">`;
 
   for (let i = 0; i < options.length; i++) {
-    if (optionVal[i] == answer) {
-      // if question has already be answered
-      // if user answered too....
-      structure += `<input type="radio" name="Q${id}" id="q${id}${optionVal[i]}" value="${optionVal[i]}" checked>
-            <label for="q${id}${optionVal[i]}" class="answers"> ${options[i]}</label><br />`;
-    } else {
+    // now let's think about this thing properly...
+    // there are many possible stuffs,
+    if (!answer) {
+      // that is user don't have an answer yet, do this
       structure += `<input type="radio" name="Q${id}" id="q${id}${optionVal[i]}" value="${optionVal[i]}">
-            <label for="q${id}${optionVal[i]}" class="answers"> ${options[i]}</label><br />`;
+        <label for="q${id}${optionVal[i]}" class="answers"> ${options[i]}</label><br />`;
+    } else {
+      if (optionVal[i] == answer && optionVal[i] == mainAns) { // checking only just one, shey you get...
+        structure += `<input type="radio" name="Q${id}" id="q${id}${optionVal[i]}" value="${optionVal[i]}" checked>
+        <label for="q${id}${optionVal[i]}" class="answers"> ${options[i]} ✅</label><br />`;
+      } else {
+        if (optionVal[i] == answer) {
+          structure += `<input type="radio" name="Q${id}" id="q${id}${optionVal[i]}" value="${optionVal[i]}" checked>
+        <label for="q${id}${optionVal[i]}" class="answers"> ${options[i]} ❌</label><br />`;
+        }
+
+        if (optionVal[i] == mainAns) {
+          structure += `<input type="radio" name="Q${id}" id="q${id}${optionVal[i]}" value="${optionVal[i]}" checked>
+        <label for="q${id}${optionVal[i]}" class="answers"> ${options[i]} ✅</label><br />`;
+        }
+
+        if (optionVal[i] !== answer && optionVal[i] !== mainAns) {
+          structure += `<input type="radio" name="Q${id}" id="q${id}${optionVal[i]}" value="${optionVal[i]}">
+        <label for="q${id}${optionVal[i]}" class="answers"> ${options[i]}</label><br />`;
+        }
+      }
     }
   }
+
+  // this is great
+  // one gats reason this stuff properly...
 
   // adding remark if there is one before leaving
   // I thought it would be a big deal honestly...
@@ -93,4 +121,14 @@ function generateOptions(id, options, answer, remark) {
 export { buildQuestion };
 
 // this function is very much ok. like very much ok...
-// this is where the code... 
+// this is where the code...
+
+// if question has already be answered
+// if user answered too....
+// if (optionVal[i] == answer) { // this is just checking if checked
+//   structure += `<input type="radio" name="Q${id}" id="q${id}${optionVal[i]}" value="${optionVal[i]}" checked>
+//         <label for="q${id}${optionVal[i]}" class="answers"> ${options[i]}</label><br />`;
+// } else {
+//   structure += `<input type="radio" name="Q${id}" id="q${id}${optionVal[i]}" value="${optionVal[i]}">
+//         <label for="q${id}${optionVal[i]}" class="answers"> ${options[i]}</label><br />`;
+// }

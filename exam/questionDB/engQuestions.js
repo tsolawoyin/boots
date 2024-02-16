@@ -730,7 +730,7 @@ let englishQuestions = [
         id: 67,
         question: "What a harmless thought he has!.",
         options: ["pleasant", "pernicious", "perfect", "pertinent"],
-        ans: "D",
+        ans: "B",
         main: "harmless",
         remark:
           '"Harmless" is an adjective used to describe something that does not cause harm, injury, or damage. Pernicious means harmful.',
