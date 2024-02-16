@@ -17,6 +17,7 @@ const chemistry = new Subject("Chemistry", [
   "Nitrogen",
   "Carbon",
   "Nature of matter",
+  "Sulphur",
   "general"
 ]);
 
