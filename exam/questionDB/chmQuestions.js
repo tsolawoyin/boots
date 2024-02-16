@@ -6321,6 +6321,436 @@ let chemistryQuestions = [
       },
     ],
   },
+  // let's start work. Thank you.
+  {
+    "topic": "Nomenclature",
+    "questions": [
+      {
+        id: 1,
+        question: `Which element is named first in a binary compound of S and Cl`,
+        options: ["S", "Cl"],
+        ans: `A`
+      },
+      {
+        id: 2,
+        question: `Which element is named first in a binary compound of O and S`,
+        options: ["O", "S"],
+        ans: `B`
+      },
+      {
+        id: 3,
+        question: `Which element is named first in a binary compound of O and Xe`,
+        options: ["O", "Xe"],
+        ans: `B`
+      },
+      {
+        id: 4,
+        question: `Which element is named first in a binary compound of S and I`,
+        options: ["S", "I"],
+        ans: `A`
+      },
+      {
+        id: 5,
+        question: `The name of the compound ${formula("IF")} is`,
+        options: [
+          "Iodine Fluorine",
+          "Monoiodine monofluoride",
+          "Iodine monofluoride",
+          "Iodine fluoride"
+        ],
+        ans: `C`
+      },
+      {
+        id: 6,
+        question: `The name of the compound ${formula("NO")} is`,
+        options: [
+          "Nitrogen oxygen",
+          "Nitrogen oxide",
+          "Nitrogen monoxide",
+          "Mononitrogen oxide"
+        ],
+        ans: `C`
+      },
+      {
+        id: 7,
+        question: `The name of the compound ${formula("NO")} is`,
+        options: [
+          "Nitrogen oxygen",
+          "Nitrogen oxide",
+          "Nitrogen monoxide",
+          "Mononitrogen oxide"
+        ],
+        ans: `C`
+      },
+      {
+        id: 8,
+        question: `The name of the compound ${formula("SO",3)} is`,
+        options: [
+          "Sulphur trioxide",
+          "Sulphur oxide",
+          "Sulphur tetroxide",
+          "Sulphuric oxide"
+        ],
+        ans: `A`
+      },
+      {
+        id: 9,
+        question: `The name of the compound ${formula("CO",2)} is`,
+        options: [
+          "Carbon dioxygen",
+          "Carbon trioxide",
+          "Monocarbon dioxide",
+          "Carbon dioxide"
+        ],
+        ans: `D`
+      },
+      {
+        id: 10,
+        question: `The name of the compound ${formula("As",2, "O", 5)} is`,
+        options: [
+          "Arsenic pentoxide",
+          "Diarsenic pentoxide",
+          "Arsenic oxide",
+          "Arsenous acid"
+        ],
+        ans: `B`
+      },
+      {
+        id: 11,
+        question: `The name of the compound ${formula("H",2,"S")} is`,
+        options: [
+          "Dihydrogen monosulfide",
+          "Hydrogen sulfide",
+          "Hydrogen monosulfide",
+          "Sulphuric acid"
+        ],
+        ans: `B`
+      },
+      {
+        id: 12,
+        question: `The name of the compound ${formula("Si","Cl",4)} is`,
+        options: [
+          "Silicon tetrachloride",
+          "Silicon tetrachlorine",
+          "Monosilicon chloride",
+          "Silicon chloride"
+        ],
+        ans: `A`
+      },
+      {
+        id: 13,
+        question: `The name of the compound ${formula("PBr",5)} is`,
+        options: [
+          "Phosphate acid",
+          "Phosphorus pentbromide",
+          "Phosphorus pentabromide",
+          "Phosphorus bromide"
+        ],
+        ans: `C`
+      },
+      {
+        id: 14,
+        question: `The name of the compound ${formula("P",4,"O", 10)} is`,
+        options: [
+          "tetraphosphorus decoxide",
+          "Monophosphate decoxide",
+          "Monophosphorus decoxide",
+          "Phosphoric acid"
+        ],
+        ans: `A`
+      },
+      {
+        id: 15,
+        question: `The formula for Dinitrogen pentoxide is`,
+        options: [
+          `${formula("NO",5)}`,
+          `${formula("N",2,"O")}`,
+          `${formula("N",2, "O",5)}`,
+          `${formula("N",3,"O",6)}`,
+        ],
+        ans: `C`
+      },
+      {
+        id: 16,
+        question: `The formula for Tetrarsenic hexoxide is`,
+        options: [
+          `${formula("As",4,"O","6")}`,
+          `${formula("As",3,"O",3)}`,
+          `${formula("As",2, "O",3)}`,
+          `${formula("As",6,"O",8)}`,
+        ],
+        ans: `A`
+      },
+      {
+        id: 17,
+        question: `The name of ${ion("Co", 2, "+")} is`,
+        options: [
+          `Cobalt`,
+          `Cobalt(II)`,
+          `cobalt ion`,
+          `Cobalt(II) ion`,
+        ],
+        ans: `D`
+      },
+      {
+        id: 18,
+        question: `What is the charge of chromium ion in the compound ${formula("CrCl",2)}`,
+        options: [
+          `1+`,
+          `2+`,
+          `3+`,
+          `4+`,
+        ],
+        ans: `B`
+      },
+      {
+        id: 19,
+        question: `What is the charge on the anion in (${formula("NH",4)})<sub>3</sub>${formula("VO",4)}?`,
+        options: [
+          `1-`,
+          `2-`,
+          `3-`,
+          `4-`,
+        ],
+        ans: `C`
+      },
+      {
+        id: 20,
+        question: `The formula of Magnesium sulfide is`,
+        options: [
+          `${formula("Mg",2,"S")}`,
+          `${formula("Mg", "S")}`,
+          `${formula("MgS",2)}`,
+          `${formula("Mg","S",3)}`,
+        ],
+        ans: `B`
+      },
+      {
+        id: 21,
+        question: `The formula of Sodium iodide is`,
+        options: [
+          `${formula("Na",2,"I")}`,
+          `${formula("Na", "I")}`,
+          `${formula("Na","I",2)}`,
+          `${formula("Na",2,"I",3)}`,
+        ],
+        ans: `B`
+      },
+      {
+        id: 22,
+        question: `The formula of Lead(IV) oxide is`,
+        options: [
+          `${formula("Pb",4,"O")}`,
+          `${formula("Pb","O",4)}`,
+          `${formula("Pb","O",2)}`,
+          `${formula("Pb",2,"O",4)}`,
+        ],
+        ans: `C`
+      },
+      {
+        id: 23,
+        question: `The formula of Aluminum oxide is`,
+        options: [
+          `${formula("Al","O")}`,
+          `${formula("Al","O",3)}`,
+          `${formula("Al",2,"O",3)}`,
+          `${formula("Al","O",3)}`,
+        ],
+        ans: `C`
+      },
+      {
+        id: 24,
+        question: `The name of ${formula("Cr",2,"O",3)} is`,
+        options: [
+          `Dichromium trioxide`,
+          `Chromium trioxide`,
+          `Chromium(III) oxide`,
+          `Chromium oxide`,
+        ],
+        ans: `C`
+      },
+      {
+        id: 25,
+        question: `The name of ${formula("Al",2,"O",3)} is`,
+        options: [
+          `Aluminum trioxide`,
+          `Aluminum(III) oxide`,
+          `Dialuminum oxide`,
+          `Aluminum oxide`,
+        ],
+        ans: `D` // this is simply the answer...
+      },
+      {
+        id: 26,
+        question: `The name of CuS and ${formula("Cu",2,"S")} are respectively?`,
+        options: [
+          `Copper sulfide and Dicopper sulfide`,
+          `Copper(I) sulfide and Copper(II) sulfide`,
+          `Copper(II) sulfide and Copper(I) sulfide`,
+          `Cuprite and Culprous`,
+        ],
+        ans: `C` // this is simply the answer...
+      },
+      {
+        id: 27,
+        question: `Which of these is named wrongly<br />
+        A. ${ion(formula("SO",4), 2, "-")} : Sulfate ion,<br />
+        B. ${ion(formula("CO",3), 2, "-")} : Carbonite ion,<br />
+        C. ${ion(formula("NO",3), "", "-")} : Nitrous ion,<br />
+        D. ${ion(formula("ClO",3), "", "-")} : Chlorite ion`,
+        options: [
+          `A only`,
+          `B, C, and D`,
+          `A, and B`,
+          `B, and C`,
+        ],
+        ans: `B` // this is simply the answer...
+      },
+      {
+        id: 28,
+        question: `Name ${formula("NaNO",3)}`,
+        options: [
+          `Sodium nitrogen oxide`,
+          `Sodium(I) nitrate`,
+          `Sodium nitrate`,
+          `Sodium trinitrate`,
+        ],
+        ans: `C` // this is simply the answer...
+      },
+      {
+        id: 29,
+        question: `The formula for cobalt(III) hypochlorite.`,
+        options: [
+          `${formula("Co", "(ClO)",3)}`,
+          `${formula("Co",2,"(ClO)",3)}`,
+          `${formula("Co","(ClO)")}`,
+          `${formula("Co","(ClO)",4)}`,
+        ],
+        ans: `A` // this is simply the answer...
+      },
+      {
+        id: 30,
+        question: `The name of ${formula("HNO",3)} is`,
+        options: [
+          `Hydrogen nitrate acid`,
+          `Nitric acid`,
+          `Nitrous acid`,
+          `Nitrogen oxalic acid`,
+        ],
+        ans: `B` // this is simply the answer...
+      },
+      {
+        id: 31,
+        question: `The name of ${formula("HClO",4)} is`,
+        options: [
+          `Chlorate acid`,
+          `Perchlorate acid`,
+          `Perchloric acid`,
+          `chloric acid`,
+        ],
+        ans: `C`
+      },
+      {
+        id: 32,
+        question: `The formula of Hypophosphorus acid is`,
+        options: [
+          `${formula("H",3,"PO",2)}`,
+          `${formula("H","PO",2)}`,
+          `${formula("H",2,"PO",2)}`,
+          `${formula("H",2,"PO",3)}`,
+        ],
+        ans: `A`
+      },
+      {
+        id: 33,
+        question: `The name of ${formula("CuSO",4)}.5${formula("H",2,"O")} is`,
+        options: [
+          `Copper(II) sulphate pentahydrate`,
+          `Copper(I) sulphate tetrahydrate`,
+          `Copper sulfate pentahydrate`,
+          `Copper sulfate tetrahydrate`,
+        ],
+        ans: `A`
+      },
+      {
+        id: 34,
+        question: `Which of the following is mapped wrongly`,
+        options: [
+          `${ion(formula("NO",2),"-")} -> nitrite ion`,
+          `${ion("ClO",4,"-")} -> perchlorate ion`,
+          `${ion(formula("Cr",2,'O',7),2,"-")} -> dichromate ion`,
+          `${ion("CN", "","-")} -> carbon nitride ion`,
+        ],
+        ans: `C`
+      },
+      {
+        id: 35,
+        question: `The name of ${formula("CuClO")} is?`,
+        options: [
+          `Copper hypochlorite`,
+          `Copper(I) hypochlorite`,
+          `Copper hypochloride`,
+          `Copper(I) hypochloride`,
+        ],
+        ans: `B`
+      },
+      {
+        id: 36,
+        question: `The name of ${formula("Hg",2,"SO",4)} is?`,
+        options: [
+          `Mercury(II) sulfide`,
+          `Mercury(I) sulfate`,
+          `Mercury(I) sulfide`,
+          `Mercury(II) sulfate`,
+        ],
+        ans: `B`
+      },
+      {
+        id: 37,
+        question: `The name of ${formula("Li",2,"S")} is?`,
+        options: [
+          `Dilithium sulfate`,
+          `Lithium sulfate`,
+          `Lithium sulfide`,
+          `Dilithium sulfide`,
+        ],
+        ans: `C`
+      },
+      {
+        id: 38,
+        question: `What is the formula for potassium fluoride?`,
+        options: [
+          `${formula("KF",2)}`,
+          `${formula("KF")}`,
+          `${formula("K",2,"F")}`,
+          `${ion("KF", "", "-")}`, // making sense
+        ],
+        ans: `B`
+      },
+      {
+        id: 39,
+        question: `What prefix is used if there are three atoms of an element in a given compound`,
+        options: [
+          `Mono-`,
+          `Tri-`,
+          `Di-`,
+          `Tetra-`, // making sense
+        ],
+        ans: `B`
+      },
+      {
+        id: 40,
+        question: `If a compound is made from a metal element and a non-metal element, which element goes first in the name?`,
+        options: [
+          "Non-metal element",
+          "Metal element",
+          "It's alphabetical",
+          "It's based on their position in the periodic table"
+        ],
+        ans: `B`
+      },
+    ]
+  }
 ];
 
 // the general test thing is not choosing at runtime, it's just going to choose randomly before it starts. You know, given an arbitrary number of topics, select 40 random questions before starting...

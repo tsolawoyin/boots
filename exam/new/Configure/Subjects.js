@@ -18,6 +18,7 @@ const chemistry = new Subject("Chemistry", [
   "Carbon",
   "Nature of matter",
   "Sulphur",
+  "Nomenclature",
   "general"
 ]);
 
