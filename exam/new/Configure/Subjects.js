@@ -12,25 +12,32 @@ const chemistry = new Subject("Chemistry", [
   "Ionic bonding",
   "Covalent bonding",
   "Chemical bonding",
-  "Chemical calculation LTE",
+  "Nomenclature",
+  "Formula calculations",
   "Air and air pollution",
   "Nitrogen",
   "Carbon",
   "Nature of matter",
   "Sulphur",
-  "Nomenclature",
   "general"
 ]);
 
 const biology = new Subject("Biology", [
-    "The Cell Structure And Functions Of Cell Components",
-    "Living Organisms And Level Of Organisation",
+    // "The Cell Structure And Functions Of Cell Components",
+    // "Living Organisms And Level Of Organisation",
     "The Cell And Its Environment",
-    "Evolution Among Viruses Monera, Protista And Fungi",
-    "Evolution among plants",
-    "Higher Plants",
-    "Evolution Among Invertebrates",
-    "general"
+    // "Evolution Among Viruses Monera, Protista And Fungi",
+    // "Evolution among plants",
+    // "Higher Plants",
+    // "Evolution Among Invertebrates",
+    // "The Vertebrates Pisces. Amphibians. Reptiles",
+    // "The Vertebrate II-Birds And Mammals",
+    // "Plant Nutrition",
+    // "Animal nutrition and food substances",
+    // "Digestive system, Digestive enzyme and Dentition",
+    // "Supporting Tissues In Plants And Movement",
+    // "Supporting Tissues In Animals",
+    // "general"
 ]);
 
 const english = new Subject("English", [
@@ -40,10 +47,11 @@ const english = new Subject("English", [
     "Antonyms IV",
     "Synonyms I",
     "Synonyms II",
-    "Spelling mistakes",
-    "Common mistakes",
     "Noun | Pronoun",
     "Noun | Pronoun II",
+    "Verb I",
+    "Spelling mistakes",
+    "Common mistakes",
     "general"
 ]);
 

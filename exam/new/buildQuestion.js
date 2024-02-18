@@ -33,7 +33,7 @@ let sampleQuestion3 = {
 };
 
 // console.log(buildQuestion(sampleQuestion1));
-console.log(buildQuestion(sampleQuestion2))
+// console.log(buildQuestion(sampleQuestion2))
 // console.log(buildQuestion(sampleQuestion3))
 
 // Question -> build question
@@ -41,7 +41,7 @@ function buildQuestion(question) {
   // append info if present then continue rendering
   // this is just a very short way of writing a very long stuff. lolzzzz.
   if (!question.ans) { // this is two create an ans property in case the question object is not having question.ans property. Everything is something of case.
-    question["ans"] = question.answer;   
+    question["ans"] = question.answer; // alright, that means it can have a question.answer property instead... hmmm   
   }
 
   return `${
@@ -54,7 +54,7 @@ function buildQuestion(question) {
     question.id,
     question.options,
     question.userAnswer,
-    question.ans,
+    question.ans.toUpperCase(), // this is to turn all lowercase answers to uppercase. The problem is majorly in biology. can write an algorithm to help me change all lowercase to uppercase stuff but I am lazy at the moment to do that.
     question.remark
   )}`;
 }

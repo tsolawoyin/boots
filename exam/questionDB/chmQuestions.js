@@ -1,5 +1,5 @@
 // To be turned on only when changes want to be made.
-import { exp, formula, units, ion, eConfig, isotope } from "./helpers.js";
+import { exp, formula, ion, eConfig, isotope } from "./helpers.js";
 let chemistryQuestions = [
   {
     topic: "Nitrogen",
@@ -4555,178 +4555,7 @@ let chemistryQuestions = [
   {
     topic: "Chemical calculation LTE",
     questions: [
-      {
-        id: 1,
-        question:
-          "The formula mass for a compound is calculated by summing which of the following numbers for all atoms in a formula unit of the compound?",
-        options: [
-          "atomic number",
-          "mass number",
-          "nuclear charge",
-          "no correct response",
-        ],
-        ans: "D",
-      },
-      {
-        id: 2,
-        question: `The atomic mass of C is 12.01 amu and that of O is 16.00 amu. The formula mass for the compound ${formula(
-          "CO",
-          2
-        )} is:`,
-        options: ["28.01 amu", "44.01 amu", "56.02 amu", "no correct response"],
-        ans: "B",
-      },
-      {
-        id: 3,
-        question: `The atomic mass of H is 1.01 amu and that of N is 14.01 amu. What is the value of x in the chemical formula NH<sub>x</sub>, given that the formula mass of this compound is 17.04 amu?`,
-        options: ["2", "3", "4", "no correct response"],
-        ans: "B",
-      },
-      {
-        id: 4,
-        question: `The numerical value for Avogadro's number is`,
-        options: [
-          `6.02 X ${exp(21)}`,
-          `6.02 X ${exp(24)}`,
-          `6.02 X ${exp(26)}`,
-          "no correct response",
-        ],
-        ans: "D",
-      },
-      {
-        id: 5,
-        question: `The numbrt of atoms present in 1 mole of P atoms is`,
-        options: [
-          `6.02 X ${exp(21)}`,
-          `6.02 X ${exp(23)}`,
-          `6.02 X ${exp(25)}`,
-          "no correct response",
-        ],
-        ans: "B",
-      },
-      {
-        id: 6,
-        question: `One mole of S atoms contains twice as many atoms as`,
-        options: [
-          `one mole of O atoms`,
-          `one-half mole of O atoms`,
-          `one-eight mole of O atoms`,
-          "no correct response",
-        ],
-        ans: "B",
-      },
-      {
-        id: 7,
-        question: `The number of molecules present in 1.50 moles of ${formula(
-          "CO",
-          2
-        )} is`,
-        options: [
-          `Avogadro's number`,
-          `1.50 times Avogadro's number`,
-          `Avogadro's number divided by 1.50`,
-          "no correct response",
-        ],
-        ans: "B",
-      },
-      {
-        id: 8,
-        question: `Which set of quantities is needed to calculate the molar mass of a compound?`,
-        options: [
-          `chemical formula and Avogadro's number`,
-          `chemical formula and atomic masses`,
-          `atomic masses and Avogadro's number`,
-          "no correct response",
-        ],
-        ans: "B",
-      },
-      {
-        id: 9,
-        question: `The atomic mass of O is 16.00 amu. The molar mass for O atoms is`,
-        options: [
-          `16.00 amu`,
-          `6.02 X ${exp(23)} amu`,
-          `16.00 g`,
-          "no correct response",
-        ],
-        ans: "C",
-      },
-      {
-        id: 10,
-        question: `The atomic masses of N and O are, respectively, 14.01 amu and 16.00 amu. The molar mass of the compound ${formula(
-          "NO",
-          2
-        )} is`,
-        options: [`30.01 g`, `44.02 g`, `46.01 g`, "no correct response"],
-        ans: "C",
-      },
-      {
-        id: 11,
-        question: `The molar mass of ${formula(
-          "CO",
-          2
-        )} is 44.01 g. WHat is the mass, in amu, of one molecule of ${formula(
-          "CO",
-          2
-        )}?`,
-        options: [
-          `44.01 g`,
-          `44.01 amu`,
-          `44.01 amu times Avogadro's number`,
-          "no correct response",
-        ],
-        ans: "B",
-      },
-      {
-        id: 12,
-        question: `The formula mass of ${formula(
-          "N",
-          2,
-          "O"
-        )} is 44.02 amu. What is the mass, in grams, of one-half mole of ${formula(
-          "N",
-          2,
-          "O"
-        )}?`,
-        options: [`88.04 g`, `44.02 g`, `22.01 g`, "no correct response"],
-        ans: "C",
-      },
-      {
-        id: 13,
-        question: `How many moles of H atoms are present in one mole of ${formula(
-          "H",
-          3,
-          "PO",
-          4
-        )} molecules?`,
-        options: [`1 mole`, `2 moles`, `3 moles`, "no correct response"],
-        ans: "C",
-      },
-      {
-        id: 14,
-        question: `Which of the following samples contains 4.0 moles of O atoms?`,
-        options: [
-          `1.0 mole ${formula("SO", 2)}`,
-          `2.0 moles ${formula("SO", 2)}`,
-          `1.0 mole ${formula("SO", 3)}`,
-          "no correct response",
-        ],
-        ans: "B",
-      },
-      {
-        id: 15,
-        question: `The total number of moles of atoms present in 4.00 moles of ${formula(
-          "CO",
-          2
-        )} is`,
-        options: [
-          `3.00 moles`,
-          `8.00 moles`,
-          `12.0 moles`,
-          "no correct response",
-        ],
-        ans: "C",
-      },
+
       {
         id: 16,
         question: `When the chemical equation Na + S -> ${formula(
@@ -6681,7 +6510,7 @@ let chemistryQuestions = [
           `${ion(formula("Cr",2,'O',7),2,"-")} -> dichromate ion`,
           `${ion("CN", "","-")} -> carbon nitride ion`,
         ],
-        ans: `C`
+        ans: `D`
       },
       {
         id: 35,
@@ -6699,7 +6528,7 @@ let chemistryQuestions = [
         question: `The name of ${formula("Hg",2,"SO",4)} is?`,
         options: [
           `Mercury(II) sulfide`,
-          `Mercury(I) sulfate`,
+          `Mercury(I) sulfate`,// hmmmm...
           `Mercury(I) sulfide`,
           `Mercury(II) sulfate`,
         ],
@@ -6750,8 +6579,353 @@ let chemistryQuestions = [
         ans: `B`
       },
     ]
+  },
+  {
+    topic: "Formula calculations",
+    questions: [
+      // I want to work on it such that even if it is 40 questions, it should be enlightening
+      {
+        id: 1,
+        question: `The atomic and molecular mass of nitrogen are respectively`,
+        options: [
+          "14.00 amu and 28.00 amu",
+          "28.00 amu and 14.00 amu",
+          "14.00 amu and 14.00 amu",
+          "28.00 amu and 28.00 amu",
+        ],
+        ans: `A`,
+        remark: `Atomic mass is the mass of one atom of nitrogen while molecular mass is the mass of a molecule of ${formula("N",2)}. Nitrogen exists as a diatomic molecule.`
+      },
+      {
+        id: 2,
+        question: `What is the molecular mass of ${formula("(",formula("NH",4),")",2,"SO",4)}
+        <br />
+        { N = 14, H = 1, S = 32, O = 16 }`,
+        options: [
+          "132.00 amu",
+          "134.00 amu",
+          "136.00 amu",
+          "no correct response",
+        ],
+        ans: `D`,
+        remark: `${formula("(",formula("NH",4),")",2,"SO",4)} is an ionic compound and ionic compounds don't have molecules as their basic structural unit, hence <strong>NO</strong> molecular mass but formula mass`
+      },
+      {
+        id: 3,
+        question: `Which of the following have molecular mass`,
+        options: [
+          `${formula("Cl",2,"O")}`,
+          `${formula("Na",2,"SO",3)}`,
+          `${formula("Al",2,"O",3)}`,
+          `no correct response`,
+        ],
+        ans: `A`,
+        remark: `Only compounds that have covalent bonds between its atoms exist as molecules.`
+      },
+      {
+        id: 4,
+        question: `Calculate the formula mass of ${formula("(",formula("NH",4),")",2,"SO",4)},
+        <br />
+        { N = 14, H = 1, S = 32, O = 16 }`,
+        options: [
+          "132.00 amu",
+          "134.00 amu",
+          "136.00 amu",
+          "no correct response",
+        ],
+        ans: `A`,
+      },
+      {
+        id: 5,
+        question: `Calculate the formula mass of ${formula("Fe","(",formula("NO",3),")",2)}
+        <br />
+        { Fe = 56, N = 14, O = 16 }`,
+        options: [
+          "180 amu",
+          "178 amu",
+          "176 amu",
+          "no correct response",
+        ],
+        ans: `A`,
+      },
+      {
+        id: 6,
+        question: `Calculate the formula mass of ${formula("Zn", "(", formula("C",2,"H",3,"O",2), ")", 2)}
+        <br />
+        { Zn = 65, C = 12, H = 1, O = 16 }`, // making sense // I can render these stuff but abeg jare...
+        options: [
+          "182 amu",
+          "183 amu",
+          "184 amu",
+          "no correct response",
+        ],
+        ans: `B`,
+      },
+      {
+        id: 7,
+        question: `Calculate the percent composition of ${formula("Fe","(",formula("NO",3),")",2)}
+        <br />
+        { Fe = 56, N = 14, O = 16 }`,
+        options: [
+          "29% Fe, 17% N, 54% O",
+          "31% Fe, 16% N, 53% O",
+          "16% Fe, 54% N, 31% O",
+          "no correct response",
+        ],
+        ans: `B`,
+      },
+      {
+        id: 8,
+        question: `Calculate the formula mass of ${formula("Na",2,"Cr",2,"O",7)}
+        <br />
+        { Na = 23, Cr = 52, O = 16 }`,
+        options: [
+          "190 amu",
+          "263 amu",
+          "268 amu",
+          "no correct response",
+        ],
+        ans: `D`, // => the answer is 262 amu...
+      },
+      {
+        id: 9,
+        question: `Calculate the percent composition of ${formula("CH",4,"O")}
+        <br />
+        { C = 12, H = 1, O = 16 }`,
+        options: [
+          "37.5% C, 12.5% H, 50% O",// <= correcto...
+          "12.5% C, 37.5% C, 50% O",
+          "50% C, 12.5% H, 37.5% O",
+          "no correct response",
+        ],
+        ans: `A`,
+      },
+      {
+        // must be calculated correctly if I don't want any anomaly...
+        // not yet calculated
+        id: 10,
+        question: `Calculate the percent composition of TNT ${formula("C",7,"H",5,"N",3,"O",6)}
+        <br />
+        { C = 12, H = 1, N = 14, O = 16 }`,
+        options: [
+          "41.38% C, 2.46% H, 20.69% N, 35% O",
+          "42% C, 2.5% H, 21% N, 36% O",
+          "41.3% C, 3.00% H, 20.69% N, 35.47% O",
+          "no correct response",
+        ],
+        ans: `D`, // ans is 41.38% C, 2.46% H, 20.69% N, 35.47% O
+      },
+      {
+        id: 11,
+        question:
+          "The formula mass for a compound is calculated by summing which of the following numbers for all atoms in a formula unit of the compound?",
+        options: [
+          "atomic number",
+          "mass number",
+          "nuclear charge",
+          "no correct response",
+        ],
+        ans: "D",
+      },
+      {
+        id: 12,
+        question: `The atomic mass of C is 12.01 amu and that of O is 16.00 amu. The formula mass for the compound ${formula(
+          "CO",
+          2
+        )} is:`,
+        options: ["28.01 amu", "44.01 amu", "56.02 amu", "no correct response"],
+        ans: "B",
+      },
+      {
+        id: 13,
+        question: `The atomic mass of H is 1.01 amu and that of N is 14.01 amu. What is the value of x in the chemical formula NH<sub>x</sub>, given that the formula mass of this compound is 17.04 amu?`,
+        options: ["2", "3", "4", "no correct response"],
+        ans: "B",
+      },
+      {
+        id: 14,
+        question: `The numerical value for Avogadro's number is`,
+        options: [
+          `6.02 X ${exp(21)}`,
+          `6.02 X ${exp(24)}`,
+          `6.02 X ${exp(26)}`,
+          "no correct response",
+        ],
+        ans: "D",
+      },
+      {
+        id: 15,
+        question: `The number of atoms present in 1 mole of P atoms is`,
+        options: [
+          `6.02 X ${exp(21)}`,
+          `6.02 X ${exp(23)}`,
+          `6.02 X ${exp(25)}`,
+          "no correct response",
+        ],
+        ans: "B",
+      },
+      {
+        id: 16,
+        question: `One mole of S atoms contains twice as many atoms as`,
+        options: [
+          `one mole of O atoms`,
+          `one-half mole of O atoms`,
+          `one-eight mole of O atoms`,
+          "no correct response",
+        ],
+        ans: "B",
+      },
+      {
+        id: 17,
+        question: `The number of molecules present in 1.50 moles of ${formula(
+          "CO",
+          2
+        )} is`,
+        options: [
+          `Avogadro's number`,
+          `1.50 times Avogadro's number`,
+          `Avogadro's number divided by 1.50`,
+          "no correct response",
+        ],
+        ans: "B",
+      },
+      {
+        id: 18,
+        question: `Which set of quantities is needed to calculate the molar mass of a compound?`,
+        options: [
+          `chemical formula and Avogadro's number`,
+          `chemical formula and atomic masses`,
+          `atomic masses and Avogadro's number`,
+          "no correct response",
+        ],
+        ans: "B",
+      },
+      {
+        id: 19,
+        question: `The atomic mass of O is 16.00 amu. The molar mass for O atoms is`,
+        options: [
+          `16.00 amu`,
+          `6.02 X ${exp(23)} amu`,
+          `16.00 g`,
+          "no correct response",
+        ],
+        ans: "C",
+      },
+      {
+        id: 20,
+        question: `The atomic masses of N and O are, respectively, 14.01 amu and 16.00 amu. The molar mass of the compound ${formula(
+          "NO",
+          2
+        )} is`,
+        options: [`30.01 g`, `44.02 g`, `46.01 g`, "no correct response"],
+        ans: "C",
+      },
+      {
+        id: 21,
+        question: `The molar mass of ${formula(
+          "CO",
+          2
+        )} is 44.01 g. What is the mass, in amu, of one molecule of ${formula(
+          "CO",
+          2
+        )}?`,
+        options: [
+          `44.01 g`,
+          `44.01 amu`,
+          `44.01 amu times Avogadro's number`,
+          "no correct response",
+        ],
+        ans: "B",
+      },
+      {
+        id: 22,
+        question: `The formula mass of ${formula(
+          "N",
+          2,
+          "O"
+        )} is 44.02 amu. What is the mass, in grams, of one-half mole of ${formula(
+          "N",
+          2,
+          "O"
+        )}?`,
+        options: [`88.04 g`, `44.02 g`, `22.01 g`, "no correct response"],
+        ans: "C",
+      },
+      {
+        id: 23,
+        question: `How many moles of H atoms are present in one mole of ${formula(
+          "H",
+          3,
+          "PO",
+          4
+        )} molecules?`,
+        options: [`1 mole`, `2 moles`, `3 moles`, "no correct response"],
+        ans: "C",
+      },
+      {
+        id: 24,
+        question: `Which of the following samples contains 4.0 moles of O atoms?`,
+        options: [
+          `1.0 mole ${formula("SO", 2)}`,
+          `2.0 moles ${formula("SO", 2)}`,
+          `1.0 mole ${formula("SO", 3)}`,
+          "no correct response",
+        ],
+        ans: "B",
+      },
+      {
+        id: 25,
+        question: `The total number of moles of atoms present in 4.00 moles of ${formula(
+          "CO",
+          2
+        )} is`,
+        options: [
+          `3.00 moles`,
+          `8.00 moles`,
+          `12.0 moles`,
+          "no correct response",
+        ],
+        ans: "C",
+      },
+      {
+        id: 26,
+        question: `Determine the empirical formula of a compound that has a percent composition of 43.7% P and 56.3% O`,
+        options: [
+          `${formula("P",2,"O",4)}`,
+          `${formula("P",2,"O",5)}`,
+          `${formula("P",3,"O",5)}`,
+          "no correct response",
+        ],
+        ans: "B",
+      },
+      {
+        id: 27,
+        question: `Determine the empirical formula of a compound if a sample of the compound contains 3.524 g of iron, 3.034 g of sulfur, and 4.542 g of oxygen.`,
+        options: [
+          `${formula("Fe","S","O")}`,
+          `${formula("Fe",2,"S",3,"O",9)}`,
+          `${formula("Fe",2,"S",3,"O",5)}`,
+          "no correct response",
+        ],
+        ans: "B",
+      },
+      {
+        id: 28,
+        question: `Determine the molecular formula of styrene, used to prepare the plastic wrapping material polystyrene. It is a compound of carbon and hydrogen only that contains 92.26% carbon, and has a molar mass of 104 g/mol.`,
+        options: [
+          `${formula("CH")}`,
+          `${formula("C",3,"H",3)}`,
+          `${formula("C",8,"H",8)}`,
+          "no correct response",
+        ],
+        ans: "C",
+      },
+    ]
   }
 ];
+
+//
+// this is a wonderful project... lol. I am serious
 
 // the general test thing is not choosing at runtime, it's just going to choose randomly before it starts. You know, given an arbitrary number of topics, select 40 random questions before starting...
 // makes sense...

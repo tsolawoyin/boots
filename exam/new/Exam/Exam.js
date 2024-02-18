@@ -162,11 +162,11 @@ class Exam {
             // haven't answered
             node.style.backgroundColor = "white";
             node.style.color = "black";
-          } else if (q.ans != q.userAnswer) {
+          } else if (q.ans.toUpperCase() != q.userAnswer) {
             // answered wrongly
             node.style.backgroundColor = "crimson";
             node.style.color = "white";
-          } else if (q.ans == q.userAnswer) {
+          } else if (q.ans.toUpperCase() == q.userAnswer) {
             // answered correctly
             node.style.backgroundColor = "green";
             node.style.color = "white";
@@ -199,8 +199,8 @@ class Exam {
     let score = 0
     for (let q of this.seenQuestions) {
       if (!q.userAnswer) continue;
-      if (q.ans == q.userAnswer) score += 1;
-      if (q.ans != q.userAnswer) score -= 1; // let's make it even...
+      if (q.ans.toUpperCase() == q.userAnswer) score += 1;
+      if (q.ans.toUpperCase() != q.userAnswer) score -= 1; // let's make it even...
     }
 
     this.score = ( score / this.quantity) * 100;
