@@ -5,12 +5,12 @@ English
 - Interpretation of words and expressions
 - Idioms: Sayings
 - Phrasal verbs
-- Noun | Pronouns                              (in progress)
-- Verbs | Tenses
+- Noun | Pronouns                               (done)
+- Verbs | Tenses                               (in progress)
 - Preposition
 - Adjective | Article | Determiners
 - Adeverbs | Conjuction | Punctuation
 - Rule of concord | Collocation
 - Question tags
-- Spelling mistake
-- Common mistake in English                    (almost done)
+- Spelling mistake                              (done)
+- Common mistake in English                     (done)

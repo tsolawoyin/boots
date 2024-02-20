@@ -41,15 +41,10 @@ const biology = new Subject("Biology", [
 ]);
 
 const english = new Subject("English", [
-    "Antonyms I",
-    "Antonyms II",
-    "Antonyms III",
-    "Antonyms IV",
-    "Synonyms I",
-    "Synonyms II",
+    "Antonyms",
+    "Synonyms",
     "Noun | Pronoun",
-    "Noun | Pronoun II",
-    "Verb I",
+    "Verb",
     "Spelling mistakes",
     "Common mistakes",
     "general"
