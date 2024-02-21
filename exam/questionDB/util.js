@@ -22,6 +22,6 @@ function assignId(questions) {
 
 
 import { englishQuestions } from "./engQuestions.js";
+import { chemistryQuestions } from "./chmQuestions.js";
 
-
-assignId(englishQuestions[4].questions)
+assignId(chemistryQuestions[2].questions)
