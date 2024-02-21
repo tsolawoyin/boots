@@ -8,7 +8,6 @@ class Subject {
 
 const chemistry = new Subject("Chemistry", [
   "Atomic structure",
-  "Atomic structure II",
   "Ionic bonding",
   "Covalent bonding",
   "Chemical bonding",
