@@ -1,4 +1,3 @@
-import { addedSubjectsEl } from "./Configure/constants.js";
 import { generateExam, createExam } from "./generateExam.js";
 import { buildQuestion } from "./buildQuestion.js";
 // writing another start up engine
@@ -10,7 +9,7 @@ import { loginInterface, examInterface } from "./Configure/constants.js";
 import { isMember } from "./validateUser.js";
 import { endExam } from "./keys.js";
 
-const start = document.querySelector("#start")
+const start = document.querySelector("#start");
 const exams = []; // the exams are alive at this point...
 let timeInterval;
 
@@ -27,8 +26,10 @@ start.addEventListener("click", (e) => {
   // let's rumble
   // loading client details is not a problem bruv...
   // let's do what's necessary
-  if (isMember) { // makes sense...
-    try { // this is a very useful use case of try and catch...
+  if (isMember) {
+    // makes sense...
+    try {
+      // this is a very useful use case of try and catch...
       generateExamBtn(generateExam()); // generating exam buttons... we will need one now. // after generating exam keys, another notable start event is generating first exam
 
       exams.push(createFirstExam(40)); // bringing only the first question to life!
@@ -59,7 +60,7 @@ start.addEventListener("click", (e) => {
       examInterface.style.display = "grid";
     } catch (e) {
       alert(e.message);
-      console.log(e)
+      console.log(e);
     }
   } else {
     alert("Please enter a valid name");
@@ -99,7 +100,16 @@ function createFirstExam(qty) {
 }
 
 function loadClientDetails() {
-  userEl.textContent = username.value;
+  // someone needs to be humble. Pardon this side of the code thanks.
+  if (
+    username.value.toLowerCase() == "kizzylove" ||
+    username.value.toLowerCase() == "miamor" ||
+    username.value.toLowerCase() == "lizzygold"
+  ) {
+    userEl.textContent = "Seun";
+  } else {
+    userEl.textContent = username.value;
+  }
 }
 
 // always checking for errors. o la gbara.

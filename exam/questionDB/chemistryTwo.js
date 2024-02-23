@@ -1,291 +1,452 @@
-import { exp, units, formula, eConfig } from "./helpers";
-
-let stoichiometry = [
+import { units, formula, eConfig, isotope, ion, exp } from "./helpers.js"
+let kineticTheoryOfMatter = [
   {
     id: 1,
     question:
-      "How many moles of calcium trioxocarbonate(IV) are there in 2.5g of calcium trioxocarbonate(IV) <br /> { C = 12; O = 16; Ca = 40 }",
-    options: [`0.0025`, `0.025`, `0.25`, `2.5`],
-    ans: "E",
+      "Which of the following is correct?",
+    options: [
+      "The average kinetic energy of a gas is directly proportional to its temperature",
+      "At constant temperature, the volume of a gas increase as the pressure increases",
+      "Pressure of a gas is inversely proportional to its volume",
+      "The temperature of a gas is directly proportional to its volume",
+      "The collisions of molecules with each other are inelastic",
+    ],
+    ans: "D",
   },
   {
     id: 2,
     question:
-      "One mole of a substance contains the",
+      `30${units("cm",3)} of oxygen diffuses through a porous pot in 7 seconds, how long will it take 60${"cm",3} of chlorine to diffuse through the same pot, if the vapor density of oxygen and chlorine are 16 and 36 respectively.`,
     options: [
-      `atomic number of particles`,
-      `faraday's number of particles`,
-      `Avogadro's number of particles`,
-      `quantum number of particles`
+      `9.3sec`,
+      `14sec`,
+      `21sec`,
+      `28sec`,
+      `30.3sec`
     ],
-    ans: "E",
+    ans: "D",
   },
   {
     id: 3,
     question:
-      "The number of hydrogen ions in 9.8g of tetraoxosulphate(VI) acid solution is",
+      `The normal boiling point of a liquid is defined as`,
     options: [
-      `6.02 X ${exp(23)}`,
-      `6.02 X ${exp(22)}`,
-      `1.20 X ${exp(22)}`,
-      `1.20 X ${exp(23)}`
+      `the temperature at which its vapor pressure equals the atmospheric pressure`,
+      `the teperature at which bubbles begin to form`,
+      `the temperature at which the vapor pressure equals 1 atmosphere`,
+      `the temperature at which the rate of condensation of vapor equals the rate of vaporization of the liquid`,
+      `the temperature at which the space above the liquid is saturated`
     ],
-    ans: "E",
+    ans: "D",
   },
   {
     id: 4,
     question:
-      `What mass of ${formula("SO",2)} contains the same number of molecules of 0.8g of ${formula("CH",4)} <br /> { ${formula("SO", 2)} = 64g/mol; ${formula("CH",4)} = 16g/mol }`,
+      `50${units("cm",3)} of hydrogen are sparked with 20${units("cm",3)} of oxygen at 100&deg; and 1 atm. The total volume of the residual gases is`,
     options: [
-      `3.2g`,
-      `0.32g`,
-      `6.4g`,
-      `0.64g`
+      `50${units("cm",3)}`,
+      `10${units("cm",3)}`,
+      `40${units("cm",3)}`,
+      `30${units("cm",3)}`,
+      `70${units("cm",3)}`,
     ],
-    ans: "E",
+    ans: "D",
   },
   {
     id: 5,
     question:
-      `One mole of a compound ${formula("MHCO",3)} has a mass of 84g. Calculate the relative atomic mass of M. <br /> { H = 1; C = 12, O = 16 }`,
+      `Which of the following statement is true?`,
     options: [
-      `61`,
-      `42`,
-      `26`,
-      `23`
+      `An increase in the temperature of a given mass of a gas increases the number of gas molecules.`,
+      `An increase in the temperature of the gas does not affect the kinetic energy`,
+      `An increase in the pressure of he gas is proportional to the increase in volume`,
+      `A decrease in the pressure of the gas is proportional to the increase in volume at constant temperature`,
+      `A decrease in the pressure of the gas decreases the number of gas molecules present`,
     ],
-    ans: "E",
+    ans: "D",
   },
   {
     id: 6,
     question:
-      `How many molecules of phosphorus (${formula("P",4)}) are present in 496g of the substance? <br /> { P = 31; N<sub>A</sub> = 6.0 X ${exp(23)}${units("mol",-1)} }`,
+      `The vapor density of a gas may be defined as?`,
     options: [
-      `1.20 X ${exp(23)}`,
-      `1.20 X ${exp(24)}`,
-      `2.40 X ${exp(23)}`,
-      `2.40 X ${exp(24)}`,
+      `the mass of a unit volume of water vapor`,
+      `the mass of a unit volume of the gas compared to an equal volume of hydrogen`,
+      `the mass of a unit volume of the gas compared to an equal volume of oxygen`,
+      `the mass of a unit volume of the gas minus the vapor pressure of water`,
+      `two times the relative molecular mass of the gas.`,
     ],
-    ans: "E",
+    ans: "D",
   },
   {
     id: 7,
     question:
-      `Upon heating 1.25g of a solid, 280${units("cm",3)} of a gas measured at S.T.P  were evolved and a residue of 0.7g was left. Calculate the molar mass of the gas? [Molar volume of a gas at s.t.p = 22.4${units("dm",3)}]`,
+      `A gas occupies 30.0${units("dm",3)} at S.T.P. What volume would it occupy at 91&deg;C and 380mmHg?`,
     options: [
-      `64g`,
-      `44g`,
-      `32g`,
-      `16g`,
+      `20.0${units("dm",3)}`,
+      `40.0${units("dm",3)}`,
+      `60.0${units("dm",3)}`,
+      `80.0${units("dm",3)}`,
+      `100.0${units("dm",3)}`,
     ],
-    ans: "E",
+    ans: "D",
   },
   {
     id: 8,
     question:
-      `What is the mass of 2.3 mole of sodium`,
+      `10${units("cm",3)} of CO is mixed and sparked with 100${units("cm",3)} of air containing 21% ${formula("O",2)}. If all the volumes are measured at S.T.P the volume of resulting gases would be`,
     options: [
-      `53g`,
-      `230g`,
-      `23g`,
-      `46g`,
+      `90.0${units("cm",3)}`,
+      `100.0${units("cm",3)}`,
+      `105.0${units("cm",3)}`,
+      `110.0${units("cm",3)}`,
+      `115.0${units("cm",3)}`,
     ],
-    ans: "E",
+    ans: "D",
   },
   {
     id: 9,
     question:
-      `How many moles of iron(III) oxide are contained in 1kg of the compound? <br /> { Fe = 56; O = 16 }`,
+      `On heating, under suitable conditions, 1 liter of a monoatomic gas, X, combines with 1.5 liter of Oxygen to form an oxide. What is the formula of the oxide`,
     options: [
-      `3.125 moles`,
-      `0.3125 mole`,
-      `0.625 mole`,
-      `6.25 moles`,
+      `${formula("XO",3)}`,
+      `${formula("X",2,"O",3)}`,
+      `${formula("X",3,"O",2)}`,
+      `${formula("XO",2)}`,
+      `none of the above`,
     ],
-    ans: "E",
+    ans: "D",
   },
   {
     id: 10,
     question:
-      `The number of atoms of chlorine present in 7,45g of KCl is`,
+      `Under high pressure, real gases do not obey gas laws because their molecules`,
     options: [
-      `6.02 X ${exp(23)}`,
-      `6.02 X ${exp(22)}`,
-      `7.45 X ${exp(23)}`,
-      `7.45 X ${exp(22)}`,
+      `have become more energetic`,
+      `have become less energetic`,
+      `have become smaller in size`,
+      `decompose into atoms`,
+      `start repelling each other`,
     ],
-    ans: "E",
+    ans: "D",
   },
   {
     id: 11,
     question:
-      `How many atoms of oxygen are present in 8.8g of carbon(IV) oxide?`,
+      `500${units("cm",3)} was collected over water at 30&deg;C and 752mmhHg pressure. What is the volume of dry oxygen at S.T.P?<br />(vapor pressure of dry oxygen at 30&deg;C = 32mmHg)`,
     options: [
-      `6.02 X ${exp(22)}`,
-      `2.41 X ${exp(22)}`,
-      `2.41 X ${exp(23)}`,
-      `2.41 X ${exp(24)}`,
+      `475${"cm",3}`,
+      `415${"cm",3}`,
+      `586${"cm",3}`,
+      `500${"cm",3}`,
+      `427${"cm",3}`,
     ],
-    ans: "E",
+    ans: "D",
   },
   {
     id: 12,
     question:
-      `What is the mass of potassium hydroxide present in 500${units("cm",3)} of 2${units("moldm",-3)} solution of the compound <br /> { K = 39; O = 16; H = 1}`,
+      `Which of the following statement is an exception in the assumptions of kinetic theory of gases?`,
     options: [
-      `40g`,
-      `56g`,
-      `112g`,
-      `28g`
+      `Gases are composed of many elastic particles`,
+      `the particles are of neglible size`,
+      `the particles are in constant random motion`,
+      `the particles are of negligible mass`,
+      `the particles collide with each other`,
     ],
-    ans: "E",
+    ans: "D",
   },
   {
     id: 13,
     question:
-      `The ratio of the number of molecules of 4g of hydrogen to that in 20g of oxygen is`,
+      `The best way of collecting chlorine is`,
     options: [
-      `2 : 1`,
-      `1 : 1`,
-      `1 : 2`,
-      `1 : 4`
+      `by downward displacement of air`,
+      `by upward displacement of air`,
+      `over water`,
+      `under water`,
+      `over mercury`,
     ],
-    ans: "E",
+    ans: "D",
   },
   {
     id: 14,
     question:
-      `Which of the following is the same as 24g of magnesium? <br /> { Mg = 24; H = 1; O = 16; Cl = 35.5 }`,
+      `When air is compressed`,
     options: [
-      `1g of hydrogen molecules`,
-      `16g of oxygen molecules`,
-      `32g of oxygen molecules`,
-      `35.5g of chlorine molecules`
+      `its temperature increases`,
+      `its solidifies`,
+      `its temperature decreases`,
+      `its temperature increases`,
+      `its temperature remains unchanged`,
     ],
-    ans: "E",
+    ans: "D",
   },
   {
     id: 15,
     question:
-      `The chloride of a metal (M) consists of 79.78% of chlorine by mass. What is the empirical formual of the chloride? (M = 27; Cl = 35,5)`,
+      `28.8${units("cm",3)} of nitrogen at 15&deg;C is cooled at 0&deg;C at constant pressure, the new volume of nitrogen is`,
     options: [
-      `MCl`,
-      `${formula("MCl",2)}`,
-      `${formula("MCl",3)}`,
-      `${formula("MCl",4)}`
+      `17.4${units("cm",3)}`,
+      `14.7${units("cm",3)}`,
+      `27.3${units("cm",3)}`,
+      `31.7${units("cm",3)}`,
+      `34.7${units("cm",3)}`,
     ],
-    ans: "E",
+    ans: "D",
   },
   {
-    id: 16,
+    id: 15,
     question:
-      `An oxide of nitrogen contains 69.6% of oxygen by mass. Its empirical formula is`,
+      `28.8${units("cm",3)} of nitrogen at 15&deg;C is cooled at 0&deg;C at constant pressure, the new volume of nitrogen is`,
     options: [
-      `${formula("N",2,O,3)}`,
-      `${formula("N",2,"O",2)}`,
-      `${formula("N",2,"O")}`,
-      `${formula("NO",2)}`
+      `17.4${units("cm",3)}`,
+      `14.7${units("cm",3)}`,
+      `27.3${units("cm",3)}`,
+      `31.7${units("cm",3)}`,
+      `34.7${units("cm",3)}`,
     ],
-    ans: "E",
+    ans: "D",
   },
   {
     id: 17,
     question:
-      `Upon heating 1${units("dm",3)} of a monoatomic gas, Y, it combines with 1.5${units("dm",3)} of oxygen to form an oxide. The empirical formula of the oxide is`,
+      `Which of the following is not a true statement of kinetic theory of gases?`,
     options: [
-      `${formula("Y",3,"O",2)}`,
-      `${formula("Y",2,"O",3)}`,
-      `${formula("YO",2)}`,
-      `${formula("YO",3)}`
+      `The molecules moves at random`,
+      `The size of the molecule is negligible comapared to the volume of the gas`,
+      `The molecular collisions are perfectly elastic`,
+      `Every molecule has the same kinetic energy at a particular temperature`,
+      `The average kinetic energy is proportional to the absolute temperature of the gas`,
     ],
-    ans: "E",
+    ans: "D",
   },
   {
     id: 18,
     question:
-      `5.00g of an oxide of a metal (M) gave 4.00g of the metal when reduced with hydrogen. What is the empirical formula of the oxide? <br /> { M = 64; O = 16 }`,
+      `A mixture contains 20${units("cm",3)} of ${formula("H",2)}, 35${units("cm",3)} of oxygen, 15${units("cm",3)} of carbon monoxide and 10${units("cm",3)} of nitrogen. Which of the following gives the mole fraction of hydrogen in this mixture?`,
     options: [
-      `${formula("Y",3,"O",2)}`,
-      `${formula("Y",2,"O",3)}`,
-      `${formula("YO",2)}`,
-      `${formula("YO",3)}`
+      `0.02`, `0.16`, `0.20`, `0.25`, `20`
     ],
-    ans: "E",
+    ans: "D",
   },
   {
     id: 19,
     question:
-      `What is the empirical formula of an organic compound containing 40% carbon and 6.67% hydrogen by mass? <br /> { C = 12; H = 1; O = 16 }`,
+      `0.07g of a hydride of carbon occupies 56.0${units("cm",3)} at S.T.P. When vaporized it contains 14.29% by mass of hydrogen. The formula of the hydrocarbon is`,
     options: [
-      `${formula("CH",2)}`
-      `${formula("CH",3)}`
-      `${formula("CH",2,"O")}`
-      `${formula("CH",3,"O")}`
+      `${formula("CH",4)}`,
+      `${formula("C",2,"H",2)}`,
+      `${formula("C",2,"H",4)}`,
+      `${formula("C",2,"H",6)}`,
+      `${formula("C",3,"H",8)},`
     ],
-    ans: "E",
+    ans: "D",
   },
   {
     id: 20,
     question:
-      `An element, A, has the electronic configuration ${eConfig("1s",2,"2s",2,"2p",6,"3s",2,"3p",3)}. The combination of A with a halogen X can give compounds of formula(e)`,
+      `The pressure  on 100${units("cm",3)} of oxygen at 35&deg;C is 750mmHg/ What would be the volume of the gas if the pressure is increased to 1000mmHg without changing the temperature`,
     options: [
-      `${formula("AX",3)} and ${formula("AX",5)}`
-      `${formula("AX",3)} only`
-      `${formula("AX",5)}`
-      `${formula("AX")} and ${formula("AX",2)}`
+      `133.3${units("cm",3)}`,
+      `85${units("cm",3)}`,
+      `75${units("cm",3)}`,
+      `65${units("cm",3)}`,
+      `58.3${units("cm",3)}`,
     ],
-    ans: "E",
+    ans: "D",
   },
   {
     id: 21,
     question:
-      `The molar ratio of hydrogen to carbon in an organic liquid compound is 2 : 1. On evaporation at s.t.p, 0.24g of compound produced 64${units("cm",3)} of vapour. What is the molecular formula of the liquid compound? <br /> { C= 12; H = 1, molar volume of a gas at s.t.p = 22.4${units("dm",3)} }`,
+      `When a pressure cooker is half filled with water, and heated to boiling point, then the pressure inside the cooker will`,
     options: [
-      `${formula("C",4,"H",8)}`
-      `${formula("C",5,"H",10)}`
-      `${formula("C",6,"H",6)}`
-      `${formula("C",6,"H",12)}`
+      `decrease, since only a fraction of the water molecules has changed to vapour`,
+      `remain constant because the total number of water molecules has not changed`,
+      `increase because the water molecules can now reach every part of the sealed tube`,
+      `decrease since water boils under reduced pressure`,
+      `increase because the water vapor molecules now strike the walls of the tube more frequently because of their increased velocity`,
     ],
-    ans: "E",
+    ans: "D",
   },
   {
     id: 22,
     question:
-      `Which of the following formula is correct for compounds of an element Y having a combining power of 3?`,
+      `60${units("cm",3)} of Hydrogen are sparked with 20${units("cm",3)} of Oxygen at 100&deg;C and 1 atm. The total volume of the residual gases is`,
     options: [
-      `${formula("YSO",4)}`
-      `${formula("Y",2,"O",3)}`
-      `${formula("YS",3)}`
-      `${formula("Y",3,"Cl",2)}`
+      `60${units("cm",3)}`,
+      `10${units("cm",3)}`,
+      `40${units("cm",3)}`,
+      `30${units("cm",3)}`,
+      `70${units("cm",3)}`,
     ],
-    ans: "E",
+    ans: "D",
   },
   {
     id: 23,
     question:
-      `What is the percentage by mass of carbon in the compound ${formula("Na",2,"CO",3)}.10${formula("H",2,"O")}? <br /> { H = 1, C = 12, O = 16, Na = 23 }`,
+      `If the rate of diffusion of oxygen gas is taken as 1, what will be the rate of diffusion of methane whose relative molar mass is 16`,
     options: [
-      `16.1`, `16.8`, `28.1`, `9.4`
+      `2.0`,
+      `11.8`,
+      `1.4`,
+      `1.0`,
+      `0.5`,
     ],
-    ans: "E",
+    ans: "D",
   },
   {
     id: 24,
     question:
-      `What is the percentage by mass of aluminum in ${formula("Al",2,`(${formula("SO",4)}), 3`)}? <br /> { Al = 27, S = 32, O = 16 }`,
+      `If the temperature of a gas is increased`,
     options: [
-      `15.8`, `14.7`, `28.1`, `9.4`
+      `the kinetic energy of the molecules will decrease`,
+      `the pressure will decrease if the volume is constant`,
+      `the gas will occupy a greater volume if the pressure is constant`,
+      `the mass of the gas will decrease`,
+      `the pressure and the volume will increase`,
     ],
-    ans: "E",
+    ans: "D",
   },
   {
     id: 25,
     question:
-      `What is the value of x in the molecular formula, ${formula("Pb", `(${formula("NO",3)}),"x`)} if the percentage by mass of nitrogen is 8.46? <br /> { Pb = 207; N = 14; O = 16 }`,
+      `100cm${units("cm",3)} of oxygen are made to react with 50${units("cm",3)} of hydrogen and the whole reaction mixture was then passed through anhydrous calcium chloride. WHat is the volume of the gas left?`,
     options: [
-      `1`, `2`, `3`, `4`
+      `5${units("cm",3)}`,
+      `250${units("cm",3)}`,
+      `50${units("cm",3)}`,
+      `75${units("cm",3)}`,
+      `100${units("cm",3)}`,
     ],
-    ans: "E",
+    ans: "D",
   },
-  // makes sense. Lol. Thinking about it. this things get as e be... 
+  {
+    id: 26,
+    question:
+      `Which of the following relationships between the pressure P, the volume, V and the temperature T, represents an ideal gas behaviour`,
+    options: [
+      `P&VT`,
+      `P&T/V`,
+      `PT&V`,
+      `PV&1/T`,
+      `P&V/T`,
+    ],
+    ans: "D",
+  },
+  {
+    id: 28,
+    question:
+      `Increasing the pressure of a gas.`,
+    options: [
+      `lowers the average kinetic energy of the molecules`,
+      `decreases the density of the gas`,
+      `decreases the temperature of the gas`,
+      `increases the density of the gas`,
+      `increases the volume of the gas`,
+    ],
+    ans: "D",
+  },
+  {
+    id: 29,
+    question:
+      `20${units("cm",3)} of hydrogen gas are sparked with 20${units("cm",3)} of oxygen gas in an endiometer at 373K(100&deg;C) and at 1 atmosphere. The resulting mixture is cooled to 298K(25&deg;C) and passed over calcium chloride. The volume of the residual gas is`,
+    options: [
+      `40${units("cm",3)}`,
+      `20${units("cm",3)}`,
+      `30${units("cm",3)}`,
+      `10${units("cm",3)}`,
+      `5${units("cm",3)}`,
+    ],
+    ans: "D",
+  },
+  {
+    id: 31,
+    question:
+      `An organic compound with a vapour density 56.5 has the following percentage composition: C = 53.1%, N = 12.4%, O = 28.3%, H = 6.2%. The molecular formula of the compound is`,
+    options: [
+      `${formula("C",3,"H",8,"O",2,"N")}`,
+      `${formula("C",5,"H",8,"O",2,"N")}`,
+      `(${formula("C",6,"H",7,"O",2,"N")})1/2`,
+      `${formula("C",5,"H",7,"O",2,"N")}`,
+      `(${formula("C",3,"H",8,"O",2,"N")})<sub>2</sub>`,
+    ],
+    ans: "D",
+  },
+  {
+    id: 32,
+    question:
+      `Hydrogen diffuses through a porous plug`,
+    options: [
+      `at the same rate as oxygen`,
+      `at a slower rate than oxygen`,
+      `twice as fast as oxygen`,
+      `three times as fast as oxygen`,
+      `four times as fast as oxygen`,
+    ],
+    ans: "D",
+  },
+  {
+    id: 33,
+    question:
+      `A cetain volume of a gas at 298K is heated such that its volume and pressure are now four times the original values. What is the new temperature?`,
+    options: [
+      `18.6K`,
+      `100.0K`,
+      `298.0K`,
+      `1192.0K`,
+      `47689.0K`,
+    ],
+    ans: "D",
+  },
+  {
+    id: 34,
+    question:
+      `The bioling points of water, ethanol, toluene and butan-2-ol are 373.0K, 351.3K, 383.6K and 372.5K respectively. Which liquid has the highest vapor pressure at 323.0K?`,
+    options: [
+      `Water`,
+      `Toluene`,
+      `Ethanol`,
+      `Butan-2-ol`,
+      `None`,
+    ],
+    ans: "D",
+  },
+  {
+    id: 35,
+    question:
+      `When pollen grains are suspended in water and viewed through a microscope, they apear to be in a state of constant but erratic motion. This is due to`,
+    options: [
+      `convection currents`,
+      `small changes in pressure`,
+      `small changes in temperature`,
+      `a chemical reaction between the pollen graisn and water`,
+      `the bombardment of the pollen grains by molecules of water`,
+    ],
+    ans: "D",
+  },
+  {
+    id: 36,
+    question:
+      `The movement of liquid molecules from the surface of the liquid of the gaseous phase above it is known as`,
+    options: [
+      `cBrownnian movement`,
+      `Condensation`,
+      `Evaporation`,
+      `Liquefaction`,
+    ],
+    ans: "D",
+  },
+  {
+    id: 37,
+    question:
+      `10${units("cm",3)} of hydrogen fluoride gas reacts with 5${units("cm",3)} of Dinitrogen difluoride gas (${formula("N",2,"F",2)}) to form 10${units("cm",3)} of a single gas. Which of the following `,
+    options: [
+      `cBrownnian movement`,
+      `Condensation`,
+      `Evaporation`,
+      `Liquefaction`,
+    ],
+    ans: "D",
+  },
 ]

@@ -8,11 +8,9 @@ class Subject {
 
 const chemistry = new Subject("Chemistry", [
   "Atomic structure",
-  "Ionic bonding",
-  "Covalent bonding",
   "Chemical bonding",
   "Nomenclature",
-  "Formula calculations",
+  "Chemical calculations",
   "Air and air pollution",
   "Nitrogen",
   "Carbon",
@@ -23,7 +21,7 @@ const chemistry = new Subject("Chemistry", [
 
 const biology = new Subject("Biology", [
     "The Cell Structure And Functions Of Cell Components",
-    // "Living Organisms And Level Of Organisation",
+    "Living Organisms And Level Of Organisation",
     "The Cell And Its Environment",
     // "Evolution Among Viruses Monera, Protista And Fungi",
     // "Evolution among plants",

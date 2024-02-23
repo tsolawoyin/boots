@@ -1,6 +1,11 @@
 // To be turned on only when changes want to be made.
-import { exp, formula, ion, eConfig, isotope } from "./helpers.js";
+import { exp, formula, units, ion, eConfig, isotope } from "./helpers.js";
 let chemistryQuestions = [
+  // ===============================================================
+  // ===============================================================
+  //                      INORGANIC CHEMISTRY
+  // ===============================================================
+  // ===============================================================
   {
     topic: "Nitrogen",
     questions: [
@@ -1093,6 +1098,1446 @@ let chemistryQuestions = [
     ],
   },
   {
+    topic: "Sulphur",
+    questions: [
+      {
+        id: 1,
+        question: `When ${formula(
+          "SO",
+          2
+        )} is passed into a solution of acidified potassium heptaoxodichromate(VI), ${formula(
+          "K",
+          2,
+          "Cr",
+          2,
+          "O",
+          7
+        )}, the solution turn?`,
+        options: [`green`, `orange`, `purple`, `yellow`],
+        ans: "A",
+      },
+      {
+        id: 2,
+        question: `Tetraoxosulphate(VI) acid burns the skin by`,
+        options: [`hydrolysis`, `hydration`, `heating`, `dehydration`],
+        ans: "D",
+      },
+      {
+        id: 3,
+        question: `The salt that reacts with dilute hydrochloric acid to produce a pungent smelling gas which decolorize acidified purple potassium tetraoxomanganate(VII) solution is?`,
+        options: [
+          `${formula("Na", 2, "SO", 4)}`,
+          `${formula("Na", 2, "SO", 3)}`,
+          `${formula("Na", 2, "S")}`,
+          `${formula("Na", 2, "CO", 4)}`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 4,
+        question: `Sulphur(IV) oxide bleaches by?`,
+        options: [`oxidation`, `reduction`, `decomposition`, `sulphurnization`],
+        ans: "B",
+      },
+      {
+        id: 5,
+        question: `Which of the following is true of Sulphur(VI) oxide`,
+        options: [
+          `it forms tetraoxosulphate(VI) acid with water`,
+          `it is an odorless gas`,
+          `it is an acid anhydride`,
+          `it forms white precipitate with acidified barium chloride solution`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 6,
+        question: `A solution of a salt was acidified by HCl. When a few drops of ${formula(
+          "BaCl",
+          2
+        )} solution were added, a white precipitate was formed. Which of the following ions is present in the salt?`,
+        options: [
+          `${ion(formula("CO", 3), 2, "-")}`,
+          `${ion(formula("NO", 3), "-", "")}`,
+          `${ion(formula("SO", 3), 2, "-")}`,
+          `${ion(formula("SO", 4), 2, "-")}`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 7,
+        question: `A rock sample was added to a cold dilute ${formula(
+          "HNO",
+          3
+        )}. The gas evolved was passed into a solution of acidified ${formula(
+          "K",
+          2,
+          "Cr",
+          2,
+          "O",
+          7
+        )} and the solution turned green. The rock sample contains?`,
+        options: [
+          `${ion(formula("CO", 3), 2, "-")}`,
+          `${ion(formula("NO", 3), "-", "")}`,
+          `${ion(formula("SO", 3), 2, "-")}`,
+          `${ion(formula("SO", 4), 2, "-")}`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 8,
+        question: `Rhombic sulfur comsists of which molecule?`,
+        options: [
+          `${formula("S", 6)} molecule`,
+          `${formula("S", 4)} molecule`,
+          `${formula("S", 2)} molecule`,
+          `${formula("S", 8)} molecule`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 9,
+        question: `Sulfuric acid is manufactured by:`,
+        options: [
+          `Haber's process`,
+          `Ostwald' process`,
+          `Contact process`,
+          `Dow's process`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 10,
+        question: `${formula("SO", 2)} react with ${formula("NaOH")} forming`,
+        options: [
+          `Sodium sulphate`,
+          `Sulfur trixoxide`,
+          `Hydrogen sulphite`,
+          `Sodium sulphite`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 11,
+        question: `Sulphur when burnt in air forms`,
+        options: [
+          `${formula("SO", 3)}`,
+          `${formula("SO", 2)}`,
+          `${formula("H", 2, "SO", 3)}`,
+          `${formula("H", 2, "SO", 4)}`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 12,
+        question: `The number of S-S bonds in sulhpur trioxide trime (${formula(
+          "S",
+          3,
+          "O",
+          9
+        )}) is?`,
+        options: [`zero`, `three`, `one`, `two`],
+        ans: "A",
+      },
+      {
+        id: 13,
+        question: `The temperature above which beta sulphur is stable is?`,
+        options: [`369 &deg;C`, `369K`, `298K`, `273.15K`],
+        ans: "B",
+      },
+      {
+        id: 14,
+        question: `Sulphur dioxde reacts with chlorine in the presence of charcoal to give?`,
+        options: [
+          `Sulphuryl chloride`,
+          `Oleum`,
+          `Sulphur trioxide`,
+          `Sulphuric acid`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 15,
+        question: `The allotrope of sulphur that is more stable at room temperature is`,
+        options: [
+          `rhombic sulfur`,
+          `monoclinic sulfur`,
+          `beta sulfur`,
+          `none of these`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 16,
+        question: `The maximum covalency of sulfur is?`,
+        options: [`2`, `6`, `4`, `8`],
+        ans: "B",
+      },
+      {
+        id: 17,
+        question: `The geometry of ${formula(
+          "H",
+          2,
+          "S"
+        )} and its dipole moment are`,
+        options: [
+          `Angular and zero`,
+          `Linear and non-zero`,
+          `Linear and zero`,
+          `Angular and non-zero`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 18,
+        question: `Pick out the odd property of rhombic sulfur`,
+        options: [
+          `melting point 385.8K`,
+          `yellow solid`,
+          `insoluble in carbon disulfide`,
+          `insoluble in water`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 19,
+        question: `The number of S-S bond in pyrosulfuric acid(oleum) is?`,
+        options: [`1`, `2`, `0`, `3`],
+        ans: "C",
+      },
+      {
+        id: 20,
+        question: `Solid ${formula("SO", 3)} exists as?`,
+        options: [
+          `Plane triangular structure`,
+          `Bent structure`,
+          `Linear structure`,
+          `Cyclic trimer structure`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 21,
+        question: `The basicity of sulphurous acid is?`,
+        options: [`5`, `3`, `2`, `4`],
+        ans: "C",
+      },
+      // start here
+      {
+        id: 22,
+        question: `Hydrogen sulphide gas can act as?`,
+        options: [
+          `an oxidizing agent`,
+          `a dehydrating agent`,
+          `a bleaching agent`,
+          `a precipitating agent`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 23,
+        question: `The acid that is used to remove rust is`,
+        options: [
+          `boric`,
+          `hydrochloric`,
+          `trioxonitrate(V)`,
+          `tetraoxosulfate(VI)`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 24,
+        question: `When chlorine gas is passed into a solution of sulfur dioxide?`,
+        options: [
+          `sulfur dioxide is reduced to sulfur`,
+          `the chlorine is oxidezed to hydrochloric acid`,
+          `dilute sulfuric acid and hydrochloric acid are produced`,
+          `hydrochloric acid and sulfur are produced`,
+          `sulfur trioxide is the only product`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 25,
+        question: `${formula("SO", 2)} + ${formula("O", 2)} -> 2${formula(
+          "SO",
+          3
+        )}<br />In the reaction above, the most suitable catalyst is?`,
+        options: [
+          `chromium(VI) oxide`,
+          `Iron(III) oxide`,
+          `copper(I) oxide`,
+          `vanadium(V) oxide`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 26,
+        question: `The sulphide that is commonly used in coating electric fluorescent tubes is?`,
+        options: [
+          `Irom(II) sulfide`,
+          `Tin(II) sulfide`,
+          `Zinc sulfide`,
+          `Lead(IV) sulfide`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 27,
+        question: `What is the atomic number of sulfur`,
+        options: [`8`, `16`, `32`, `64`],
+        ans: "C",
+      },
+      {
+        id: 28,
+        question: `Which of the following is a common allotrope of sulfur`,
+        options: [
+          `sulfur dioxide`,
+          `sulfur hexafluoride`,
+          `sulfuric acid`,
+          `rhombic sulfur`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 29,
+        question: `What is the smell commonly associated with hydorgen sulfide, a compound of sulfur`,
+        options: [`sweet`, `sour`, `rotten eggs`, `minty`],
+        ans: "C",
+      },
+      {
+        id: 30,
+        question: `Sulfur is an essential element for which biological molecules?`,
+        options: [`carbohydrates`, `lipids`, `proteins`, `nucleic acids`],
+        ans: "C",
+      },
+      {
+        id: 31,
+        question: `What is the chemical symbol for sulfur?`,
+        options: [`Su`, `Sf`, `Sr`, `S`],
+        ans: "D",
+      },
+      {
+        id: 32,
+        question: `What is the main environmental concern associated with sulfur dioxide (SO2) emissions?`,
+        options: [
+          `Depletin of the ozone layer`,
+          `Acid rain formation`,
+          `Global warming potential`,
+          `Ground level ozone production`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 33,
+        question: `Who first recognized sulfur as an element?`,
+        options: [
+          `John Dalton`,
+          `Humphry Davy`,
+          `Loius Pasteur`,
+          `Antoine Lavoiser`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 34,
+        question: `What is the name of the process of extracting sulfur on commercial scale`,
+        options: [
+          `Bosch process`,
+          `Boyle process`,
+          `Ostwald process`,
+          `Frasch process`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 35,
+        question: `Which of the following is used for vulcanization purposes in the rubber industry?`,
+        options: [
+          `Sulfuric acid`,
+          `Sulfur dioxide`,
+          `Sulfur`,
+          `Sulfur trioxide`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 36,
+        question: `Which is a more vital source of elemental sulfur?`,
+        options: [`oceans`, `wind`, `soil`, `volcanoes`],
+        ans: "D",
+      },
+      {
+        id: 37,
+        question: `What is the transition temperature of alpha- and beta-sulfur?`,
+        options: [`369&deg;C`, `369&deg;F`, `95.9&deg;C`, `95.9&deg;F`],
+        ans: "C",
+      },
+      {
+        id: 38,
+        question: ` Which characteristic of crude petroleum is a consequence of sulfur?`,
+        options: [`Acidity`, `Sourness`, `Alkalinity`, `Foul odor`],
+        ans: "A",
+      },
+      {
+        id: 39,
+        question: `What percentage of Earth’s mass is sulfur?`,
+        options: [`3%`, `5%`, `0.032%`, `2%`],
+        ans: "A",
+      },
+      {
+        id: 40,
+        question: `What is the chemical structure and formula of sulfur?`,
+        options: [
+          `${formula("S", 8)}, S`,
+          `S, ${formula("S", 8)}`,
+          `S`,
+          "S",
+          `${formula("S", 8)}, ${formula("S", 8)}`,
+        ],
+        ans: "A",
+      },
+    ],
+  },
+  // ====== General chemsitry questions end here =====================
+  // =================================================================
+  // ============ OTHER TOPICS =======================================
+  {
+    topic: "Air and air pollution",
+    questions: [
+      {
+        id: 1,
+        question:
+          "When air which contains the gases oxygen, nitrogen, carbon dioxide, water vapor and the rare gases is passed through alkaline pyrogallol and then over quicklime, the only gases left are",
+        options: [
+          "nitrogen and carbon dixoide.",
+          "the rare gases.",
+          "nitrogen and oxygen.",
+          "nitrogen and the rare gases",
+          "nitrogen, carbon dioxide and the rare gases",
+        ],
+        ans: "E",
+      },
+      {
+        id: 2,
+        question:
+          "A gas jar was inverted over burning yellow phosphorus floating over water in a beaker. After burning, the water level was found to rise in the gas jar. The water level rises because",
+        options: [
+          "pressure inside the gas jar is greater than pressure outside it.",
+          "the air in the gas jar had been used up by burning.",
+          "oxygen in the gas jar had been used up by burning.",
+          "nitrogen in the gas jar had been used up by burning",
+          "the temperature in the jar had risen considerably.",
+        ],
+        ans: "C",
+      },
+      {
+        id: 3,
+        question:
+          "When a piece of charcoal enclosed in a cylinder containing air is ignited.",
+        options: [
+          "the total volume of air is increased",
+          "the relative amount of oxygen present is increased",
+          "the relative amount of nitrogen present is decreased",
+          "the relative amount of carbon dioxide present is increased",
+          "the ratio of oxygen to nitrogen in the system is increased.",
+        ],
+        ans: "D",
+      },
+      {
+        id: 4,
+        question: "For iron to rust, there should be present",
+        options: [
+          "oxygen",
+          "moisture",
+          "carbon dioxide",
+          "oxygen and moisture",
+          "oxygen, moisture and carbon dioxide.",
+        ],
+        ans: "D",
+      },
+      {
+        id: 5,
+        question:
+          "The nitrogen gas obtained by burning an excess of phosphorus in air has a density higher than the nitrogen from nitrogen compounds because the nitrogen from air is contaminated with",
+        options: [
+          "some unhurt phosphorus",
+          `${formula("P", 2, "O", 5)} vapour`,
+          "some oxygen",
+          "rare gases",
+          "carbon dioxide.",
+        ],
+        ans: "D",
+      },
+      {
+        id: 6,
+        question:
+          "When air is passed through alkaline pyrogallol and then over quicklime, the only gases left are",
+        options: [
+          "nitrogen and carbon dioxide",
+          `the rare gases`,
+          "nitrogen and oxygen",
+          "nitrogen and the rare gases",
+          "nitrogen, carbon dioxide and the rare gases",
+        ],
+        ans: "E",
+      },
+      {
+        id: 7,
+        question: `In what respect will two dry samples of nitrogen gas differ from each other if sample 1 is prepared by completely removing ${formula(
+          "CO",
+          2
+        )} and ${formula(
+          "O",
+          2
+        )} is prepared by passing purified nitrogen(I) oxide over heated copper? Sample 1 is`,
+        options: [
+          "purer than sample 2",
+          `slightly denser than sample2`,
+          "in all respects the same as sample 2",
+          "colorless but sample 2 has light brown",
+          "slightly less reactive than sample 2",
+        ],
+        ans: "B",
+      },
+      {
+        id: 8,
+        question: `The approximate volume of air containing ${exp(
+          3
+        )}cm<sup>3</sup> of oxygen is`,
+        options: [
+          "20cm<sup>3</sup>",
+          "25cm<sup>3</sup>",
+          "50cm<sup>3</sup>",
+          "100cm<sup>3</sup>",
+        ],
+        ans: "C",
+      },
+      {
+        id: 9,
+        question: `The exhaust fumes from a garage in a place that uses petrol of high sulphur content are bound to contain`,
+        options: [
+          `${formula("CO")} and ${formula("SO", 3)}`,
+          `${formula("CO")} and ${formula("SO", 2)}`,
+          `${formula("CO")}, ${formula("SO", 2)}, and ${formula("SO", 3)}`,
+          `${formula("CO")} and ${formula("H", 2, "S")}`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 10,
+        question: `A stream of air was successively passed through three tubes X, Y, and Z containing a concentrated aqueous solution of KOH, red hot copper powder and fused calcium chloride respectively. What was the composition of gas emanating from tube Z?`,
+        options: [
+          `${formula("CO", 2)} and the intert gases`,
+          `${formula("N", 2)}, ${formula("CO", 2)} and the inert gases`,
+          `${formula("N", 2)} and the inert gases`,
+          `Water vapour, ${formula("N", 2)} and the inert gases`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 11,
+        question: `Corrosion is exhibited by`,
+        options: [
+          `iron only`,
+          `electropositive metals`,
+          `metals below hydrogen in the electrochemical series`,
+          `all metals`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 12,
+        question: `The molar ratio of oxygen to nitrogen in dissolved air is 2:1 whereas the ratio is 4:1 in atmospheric air because`,
+        options: [
+          `nitrogen is less soluble than oxygen`,
+          `oxygen is heavier than nitrogen`,
+          `nitrogen has a higher partial pressure in air`,
+          `gases are hydrated in water`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 13,
+        question: `A quantity of air was passed through a weighed amount of alkaline pyrogallol. An increase in the weight of the pyrogallol would result from the absorption of`,
+        options: [`nitrogen`, `neon`, `argon`, `oxygen`],
+        ans: "D",
+      },
+      {
+        id: 14,
+        question: `The pollutants that are likely to be present in an industrial environment are`,
+        options: [
+          `${formula("H", 2, "S")}, ${formula("SO", 2)} and oxides of nitrogen`,
+          `${formula("NH", 3)}, ${formula("HCl")}, ${formula("CO")}`,
+          `${formula("CO", 2)}, ${formula("NH", 3)} and ${formula(
+            "H",
+            2,
+            "S"
+          )}`,
+          `Dust, NO and ${formula("Cl", 2)}`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 15,
+        question: `Which of the following gases dissolves in water vapour to produce acid rain during rainfall`,
+        options: [
+          `Oxygen`,
+          `Carbon(II) oxide`,
+          `Nitrogen`,
+          `Sulphur(IV) oxide`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 16,
+        question: `Argon is used in gas-filled electric lamps because it helps to`,
+        options: [
+          `prevent the reduction of the lamp filament`,
+          `prevent oxidation of lamp filament`,
+          `make lamp filaments glow brightly`,
+          `keep the atmosphere in the lamp inert`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 17,
+        question: `The air around a petroleum refinery is most likely to contain`,
+        options: [
+          `${formula("CO", 2)}, ${formula("SO", 3)}, and ${formula(
+            "N",
+            2,
+            "O"
+          )}`,
+          `${formula("CO", 2)}, ${formula("CO")}, and ${formula("N", 2, "O")}`,
+          `${formula("SO", 2)}, ${formula("CO")}, and ${formula("N", "O", 2)}`,
+          `${formula("PH", 3)}, ${formula("H", 2, "O")}, and ${formula(
+            "C",
+            "O",
+            "2"
+          )}`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 18,
+        question: `Helium is often used in observation ballons because it is`,
+        options: [
+          `light and combustible`,
+          `light and non-combustible`,
+          `heavy and combustible`,
+          `heavy and non-combustible`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 19,
+        question: `When plastics and packaging materials made from chloroethene are burnt in the open, the mixture of gases released into the atmosphere is most likely to contain`,
+        options: [`ethane`, `chlorine`, `hydrogen chloride`, `ethene`],
+        ans: "C",
+      },
+      {
+        id: 20,
+        question: `Which of the following gases is the most dangerous pollutant`,
+        options: [
+          `Hydrogen sulphide`,
+          `Carbon(IV) oxide`,
+          `Sulfur(IV) oxide`,
+          `Carbon(II) oxide`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 21,
+        question: `The property used in obtaining oxygen and nitrogen industrially from air is the`,
+        options: [
+          `boiling point`,
+          `density`,
+          `rate of diffustion`,
+          `solubility`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 22,
+        question: `Excess phosphorus was burnt in gas jar and the residual gas passed successively over concentrated KOH solution and concentrated ${formula(
+          "H",
+          2,
+          "SO",
+          4
+        )} before being collected in a flask. The gases collected are`,
+        options: [
+          `Carbon(IV) oxide, nitrogen, and the rare gases`,
+          `nitrogen(IV) oxide and the rare gases`,
+          `nitrogen and the rare gases`,
+          `carbon(IV) oxide, nitrogen(IV) oxide, and the rare gases`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 23,
+        question: `Which of the following will have its mass increase when heated in air`,
+        options: [`helium`, `magnesium`, `copper pyrites`, `glass`],
+        ans: "B",
+      },
+      {
+        id: 24,
+        question: `Nitrogen obtained from the liquefaction of air has a higher density than that obtained from nitrogen-containing compounds because the former contains`,
+        options: [`Water vapour`, `Oxygen`, `Carbon(IV) oxide`, `Rare gases`],
+        ans: "D",
+      },
+      {
+        id: 25,
+        question: `The set of pollutants that is most likely to be produced when petrol is accidentally spilled on plastic materials and ignited is`,
+        options: [
+          `${formula("CO")}, ${formula("CO", 2)}, and ${formula("SO", 2)}`,
+          `${formula("CO")}, ${formula("HCl")}, and ${formula("SO", 2)}`,
+          `${formula("CO")}, ${formula("CO", 2)}, and ${formula("HCl")}`,
+          `${formula("SO", 2)}, ${formula("CO", 2)}, and ${formula("HCl")}`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 26,
+        question: `The noble gas, argon, is used for`,
+        options: [
+          `steel welding`,
+          `brass welding`,
+          `underwater welding`,
+          `electric arc welding`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 27,
+        question: `The air pollutant unknown in nature is`,
+        options: [`DDT`, `CO`, `HCHO`, `NO`],
+        ans: "A",
+      },
+      {
+        id: 28,
+        question: `The gas that is not associated with global warming is`,
+        options: [
+          `${formula("CO", 2)}`,
+          `${formula("SO", 2)}`,
+          `${formula("CH", 4)}`,
+          `${formula("H", 2)}`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 29,
+        question: `The pollutant from petroleum spillage in rivers and lakes can best be dispersed by`,
+        options: [
+          `pouring detergents`,
+          `passing of ships through the area`,
+          `pouring organic solvents`,
+          `evaporation`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 30,
+        question: `What is the decrease in volume of air when pyrogallol is shaken with 30.00cm<sup>3</sup> of air?`,
+        options: [
+          `15.00cm<sup>3</sup>`,
+          `6.30cm<sup>3</sup>`,
+          `0.63cm<sup>3</sup>`,
+          `0.06cm<sup>3</sup>`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 31,
+        question: `Environment pollutant is worsened by the release from automobile exhausts of?`,
+        options: [`water vapour`, `steam`, `smoke`, `heavy metals`],
+        ans: "D",
+      },
+      {
+        id: 32,
+        question: `Phosphorus is stored under water to prevent it from`,
+        options: [`dehydrating`, `becoming inert`, `smelling`, `catching fire`],
+        ans: "D",
+      },
+      {
+        id: 33,
+        question: `The substance least considered as a source of environmental pollution is`,
+        options: [
+          `silicate minerals`,
+          `uranium`,
+          `lead`,
+          `organophosphorus compounds`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 59,
+        question: `Oxygen in air can be removed using`,
+        options: [
+          `lime water`,
+          `caustic soda solution`,
+          `pyrogallol solution`,
+          `slaked lime`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 55,
+        question: `Which of the following pollutants is associated with brain damage`,
+        options: [
+          `Carbon(II) oxide`,
+          `radioactive fallout`,
+          `biodegradable waste`,
+          `Sulfur(IV) oxide`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 53,
+        question: `The condition required for corrosion to take place is the presence of `,
+        options: [
+          `water, carbon(IV) oxide, and oxygen`,
+          `oxygen and carbon(IV) oxide`,
+          `water and oxygen`,
+          `water and carbon(IV)`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 56,
+        question: `The constituent of air that acts as a diluent is `,
+        options: [
+          `${formula("O", 2)}`,
+          `${formula("N", 2)}`,
+          `${formula("CO", 2)}`,
+          `noble gases`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 57,
+        question: `The nitrogen obtained from air has a density higher than the one from nitrogen-containing compounds because the one from air is contaminated with?`,
+        options: [`oxygen`, `rare gases`, `carbon(IV) oxide`, `water vapor`],
+        ans: "B",
+      },
+      {
+        id: 58,
+        question: `The major and most effective way of controlling pollution is to`,
+        options: [
+          `pass strict laws against it by individuals and companies`,
+          `educate people on the causes and effect of pollution`,
+          `convert chemical waste to harmless substances before releasing them into the environment`,
+          `improve machinery so that the substances released from combustion are less harmful`,
+        ],
+        ans: "C",
+      },
+
+      {
+        id: 50,
+        question: `The noble gas with a high power of fog penetration used in aerodome beacons is`,
+        options: [`argon`, `helium`, `neon`, `krypton`],
+        ans: "C",
+      },
+      {
+        id: 60,
+        question: `Which of the following gases makes up the largest percentage of atmospheric air`,
+        options: [
+          "carbon(IV) oxide",
+          "Hydrogen",
+          "Nitrogen",
+          "Noble gases",
+          "Oxygen",
+        ],
+        ans: "C",
+      },
+      {
+        id: 61,
+        question: `Which of the following is not a natural component of the air`,
+        options: [
+          "water vapor",
+          "carbon(II) oxide",
+          "Nitrogen",
+          "Carbon(IV) oxide",
+        ],
+        ans: "B",
+      },
+      {
+        id: 62,
+        question: `The uncovered raw food that is sold along major roads is likely to contain some amounts of`,
+        options: ["Pb", "Cu", "Ag", "Na"],
+        ans: "A",
+      },
+    ],
+  },
+  {
+    topic: "Nature of matter",
+    questions: [
+      {
+        id: 1,
+        question: `A small quantity of solid ammonium chloride ${formula(
+          "NH",
+          4,
+          "Cl"
+        )}was heated gently in a test-tube, the solid gradually disappeared to produce a mixture of two gases. Later a white cloudy deposit was observed on the cooler part of the test tube. The ammonium chloride is said to have undergone`,
+        options: [
+          `distillation`,
+          `sublimation`,
+          `precipitation`,
+          `evaporation`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 2,
+        question: `Which of the following changes is physical?`,
+        options: [
+          `adding iron fillings to aerated water`,
+          `cooling a solution of iron(II) sulphate to obtain the hydrated salt`,
+          `cooling water to obtain ice`,
+          `adding sodium metal to water`,
+          `burning domestic gas`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 3,
+        question: `By means of filtration one compound can be obtained pure from an aqueous mixture of sodium chloride and`,
+        options: [
+          `potassium nitrate`,
+          `sand`,
+          `lead nitrate`,
+          `sugar(glucose)`,
+          `starch`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 4,
+        question: `Methanoic acid mixes with water in all proportions and has the same boiling point as water. Which of the following methods would you adopt to obtain pure water from sand and methanoic acid`,
+        options: [
+          `fractional distillation`,
+          `filtration followed by distillation`,
+          `neutralization with sodium hydroxide followed by distillation`,
+          `neutralization with sodium hydroxide followed by filtration`,
+          `esterification with ethanol followed by distillation`,
+        ],
+        ans: "B",
+        // not yet solved
+      },
+      {
+        id: 5,
+        question: `One of the following techniques can be used to show that chlorophyll pigments is a mixture of chemical compounds and not a single compound`,
+        options: [
+          `crystallization`,
+          `hydrolysis`,
+          `sublimation`,
+          `filtration`,
+          `chromatography`,
+        ],
+        ans: "E",
+        // not yet solved
+      },
+      {
+        id: 6,
+        question: `In an attempt to remove sugar from a beaker containing a quantity of sand and sugar, 2M ammonium chloride solution was accidentally added instead of water. Which of the following methods could be used to remove ammonium chloride from the mixture.`,
+        options: [
+          `fractional distillation`,
+          `crystallization`,
+          `filtration followed by sublimation`,
+          `evaporation followed by sublimation`,
+          `filtration followed by sublimation`,
+        ],
+        ans: "D",
+        // not yet solved
+      },
+      {
+        id: 7,
+        question: `Which of the following compounds and elements would sublime on exposure to the atmosphere`,
+        options: [`ice`, `sulphur`, `phosphorus`, `iodine`, `potassium iodide`],
+        ans: "D",
+      },
+      {
+        id: 8,
+        question: `Which of the following process does NOT lead to chemical change.`,
+        options: [
+          `stirring iron in sulphur(VI) acid`,
+          `stirring sodium carbonate in water`,
+          `stirring glucose in conc. Sulphuric acid`,
+          `mixing sulphuric acid with potassium carbonate`,
+          `titrating an acid against a base`,
+        ],
+        ans: "B",
+        remark: "B is just adding salt to water which produces nothing new.",
+      },
+      {
+        id: 9,
+        question: `A mixture of common salt, ammonium chloride and barium sulphate can best be separated by`,
+        options: [
+          `addition of water followed by filtration then sublimation`,
+          `addition of water followed by sublimation then filtration`,
+          `sublimation followed by addition of water then filtration`,
+          `mixing sulphuric acid with potassium carbonate`,
+          `fractional crystallization`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 10,
+        question: `Sodium chloride may be obtained from brine by`,
+        options: [
+          `titration`,
+          `decantation`,
+          `evaporation`,
+          `sublimation`,
+          `distillation`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 11,
+        question: `In an experiment, which of the following observation would suggest that a solid sample is a mixture? The`,
+        options: [
+          `solid can be ground to a fine powder`,
+          `density of the solid is 2.25 g/dm3`,
+          `solid begins to melt at 573K but is not completely melted until 648K`,
+          `solid absorbs moisture from the atmosphere and turns into a liquid`,
+          `solid melts at 300K`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 12,
+        question: `A brand of ink containing cobalt(II), copper(II) and Iron(II) ions can best be separated into its various components by`,
+        options: [
+          `fractional crystallization`,
+          `fractional distillation`,
+          `sublimation`,
+          `chromatography`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 13,
+        question: `Which of the following substances is a mixture?`,
+        options: [
+          `granulated sugar`,
+          `sea-water`,
+          `sodium chloride`,
+          `iron fillings`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 15,
+        question: `Which of the following would support the conclusion that a solid sample is a mixture`,
+        options: [
+          `The solid can be ground to a fine powder`,
+          `The density of the solid is 2.2 g/dm3`,
+          `The solid has a melting range of 300 degree celcius to 375 degree celcius`,
+          `The solid absorbs moisture from the atmosphere`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 16,
+        question: `Which of the following is a physical change?`,
+        options: [
+          `The bubbling of chlorine in a jar containing hydrogen`,
+          `The bubbling of chlorine into water`,
+          `The dissolution of sodium chlorine in water`,
+          `The passing of steam over heated iron.`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 18,
+        question: `Which of the following are mixture<br>I. Petroleum<br> II. Rubber<br>III. Vulcanizer's solution<br>IV. Carbon(II) Sulphide`,
+        options: [
+          `I, II, and III`,
+          `I, II, and IV`,
+          `I and II only`,
+          `I and IV`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 19,
+        question: `Which of the following can be obtained by fractional distillation?`,
+        options: [
+          `Nitrogen from liquid air.`,
+          `Sodium chloride from sea water.`,
+          `Iodine from a solution of iodine in carbon tetrachloride.`,
+          `Sulfur from a solution of sulfur in carbon disulfide.`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 20,
+        question: `Which of the following substances is not a homogenous mixture?`,
+        options: [
+          `Filtered sea water`,
+          `Soft drink`,
+          `Flood water`,
+          `Writing Ink`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 21,
+        question: `The dissolution of common salt in water is a physical change because`,
+        options: [
+          `the salt can be obtained by crystallization`,
+          `the salt can be recovered by the evaporation of the water`,
+          `heat is not generated during mixing`,
+          `the solution will not boil at 100 deg celcius`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 22,
+        question: `Which of the following substances is a mixture`,
+        options: [`sulphur powder`, `bronze`, `distilled water`, `ethanol`],
+        ans: "B",
+      },
+      {
+        id: 23,
+        question: `A mixture of sand, ammonium chloride and sodium chloride is best separated by`,
+        options: [
+          `sublimation followed by addition of water and filtration`,
+          `sublimation followed by addition of water and evaporation`,
+          `addition of water followed by filtration and sublimation`,
+          `addition of water followed by crystallization and sublimation`,
+        ],
+        ans: "A",
+        // not yet answered
+      },
+      {
+        id: 24,
+        question: `A pure solid usually melts`,
+        options: [
+          `over a wide range of temperature`,
+          `over a narrow range of temperature`,
+          `at a lower temperature than the impure one`,
+          `at the same temperature as the impure one`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 25,
+        question: `Chromatography is used to separate components of mixtures which differs in their rates of`,
+        options: [`diffusion`, `migration`, `reaction`, `sedimentation`],
+        ans: "B",
+      },
+      {
+        id: 26,
+        question: `Which of the following is an example of chemical change.`,
+        options: [
+          `Dissolution of salt in water`,
+          `Rusting of iron`,
+          `Melting of ice`,
+          `Separation of a mixture by distillation`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 27,
+        question: `The addition of water to calcium oxide leads to.`,
+        options: [
+          `a physical change`,
+          `a chemical change`,
+          `the formation of a mixture`,
+          `an endothermic change`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 28,
+        question: `A mixture of iron and sulphur can be best separated by dissolving the mixture in`,
+        options: [
+          `steam`,
+          `dilute hydrochloric acid`,
+          `dilute sodium hydroxide`,
+          `benzene`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 29,
+        question: `Sieving is a technique used to separate mixtures containing solid particles of`,
+        options: [
+          `small sizes`,
+          `large sizes`,
+          `the same size`,
+          `different sizes`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 30,
+        question: `A mixture of iodine and sulfur crystals can be separated by treatment with`,
+        options: [
+          `water to filter of sulfur`,
+          `methanol to filter off iodine`,
+          `ethanoic acid to filter off sulphur`,
+          `carbon(IV) sulfide to filter off iodine`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 31,
+        question: `Pure solvents are obtained by`,
+        options: [`distillation`, `condensation`, `extraction`, `evaporation`],
+        ans: "A",
+      },
+      {
+        id: 32,
+        question: `A little quantity of trichloromethance (b.pt.60&deg;C) was added to a large quantity of ethanol (b.pt 78&deg;C). The most probable boiling point of the resultant mixture is from`,
+        options: [
+          `69&deg;-70&deg;C`,
+          `82&deg;-84&deg;C`,
+          `60&deg;-78&deg;C`,
+          `70&deg;-74&deg;`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 33,
+        question: `The chromatographic separation of ink is based on the ability of components to`,
+        options: [
+          `react with each other`,
+          `react with solvent`,
+          `dissolve in each other in the column`,
+          `move at different speeds in the column`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 34,
+        question: `Which of the following is a physical change`,
+        options: [
+          `Freezing ice-cream`,
+          `Exposing white phosphorus to air`,
+          `Burning kerosine`,
+          `Dissolving calcium in water`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 35,
+        question: `When a solid substance disappears completely as a gas on heating, the substance is said to have undergone`,
+        options: [
+          `evaporation`,
+          `distillation`,
+          `crystallization`,
+          `sublimation`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 36,
+        question: `A chemical reaction is always associated with`,
+        options: [
+          `an increase in the composition of one of the substances`,
+          `a change in the volume of the reactants`,
+          `a change in the nature of the reactants`,
+          `the formation of new substances`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 37,
+        question: `The property used in the industrial preparation of Nitrogen and Oxygen from air is`,
+        options: [
+          `rate of diffusion`,
+          `solubility`,
+          `density`,
+          `boiling point`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 38,
+        question: `A heterogenous mixture can be defined as any mixture`,
+        options: [
+          `whose composition is uniform`,
+          `whose composition is not uniform`,
+          `formed by solids and liquids`,
+          `of a solute and a solvent`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 39,
+        question: `Sugar is separated from its impurities by`,
+        options: [
+          `distillation`,
+          `evaporation`,
+          `precipitation`,
+          `crystallization`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 40,
+        question: `The order in which a mixture of sand, ammonium chloride and sodium chloride can be separated is`,
+        options: [
+          `sublimation -> dissolution -> filtration -> evaporation`,
+          `dissolution -> dryness -> filtration -> evaporation`,
+          `filtration -> sublimation -> evaporation -> dryness`,
+          `dissolution -> filtration -> sublimation -> evaporation`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 41,
+        question: `A difference between chemical and physical changes is that in a chemical change`,
+        options: [
+          `heat is supplied`,
+          `a new substance is formed`,
+          `oxygen is consumed`,
+          `a reversible process occurs`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 42,
+        question: `A mixture of petrol and water can be best separated through`,
+        options: [
+          `the use of filter paper`,
+          `the use of a separating funnel`,
+          `centrifugation`,
+          `distillation`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 43,
+        question: `Chlorophyll obtained from green leaves of plant can be shown to be composed of more than one colored components by the technique of`,
+        options: [
+          `crystallization`,
+          `hydrolysis`,
+          `chromatography`,
+          `sublimation`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 44,
+        question: `In countries where the temperature falls below 273K, salt is always sprinkled on the icy roads in order to`,
+        options: [
+          `lower the melting point of ice`,
+          `increase the density of ice`,
+          `make the ice impure`,
+          `raise the melting point of ice`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 45,
+        question: `A mixture of sugar and sulfur can be separated by`,
+        options: [
+          `dissolution in water, evaporation and filtration`,
+          `filtration, evaporation, and dissolution in water`,
+          `dissolution in water, filtration and evaporation`,
+          `evaporation, dissolution in water and filtration`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 46,
+        question: `Which of the following is a physical change`,
+        options: [
+          `freezing ice cream`,
+          `dissolving calcium in water`,
+          `burning kerosene`,
+          `exposing white phosphorus to air`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 47,
+        question: `Which of the following is an example of a mixture?`,
+        options: [`blood`, `sand`, `washing soda`, `common salt`],
+        ans: "A",
+      },
+      {
+        id: 48,
+        question: `The principle of column chromatography is based on the ability of the constituents to`,
+        options: [
+          `dissolve in each other in the column`,
+          `react with the solvent in the column`,
+          `react with each other in the column`,
+          `move at different speeds in the column`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 49,
+        question: `Which of the following methods can be used to obtain pure water from a mixture of sand, water and methanoic acid?`,
+        options: [
+          `neutralization with NaOH followed by filtration`,
+          `neutralization with NaOH followed by distillation`,
+          `fractional distillation`,
+          `filtration followed by distillation`,
+        ],
+        ans: "B",
+        // to be researched personally
+      },
+      {
+        id: 50,
+        question: `The presence of impurities in a solid will cause the melting point to`,
+        options: [`be stable`, `be zero`, `reduce`, `increase`],
+        ans: "C",
+        // look up the answer later
+      },
+      {
+        id: 51,
+        question: `A mixture is different from a compound because`,
+        options: [
+          `constituents of a compound are chemically bound together while those of a mixture are not`,
+          `a mixture is always homogenous while a compound is not`,
+          `a mixture can be represented by a chemical formula while a compound cannot`,
+          `the properties of a compound are those of its individual constituents while those of a mixture differ from its constituents.`,
+        ],
+        ans: "A",
+        // look up the answer later
+      },
+      {
+        id: 52,
+        question: `The presence of impurities in a solid will make the melting point`,
+        options: [`decrease`, `increase`, `remain unchanged`, `be zero`],
+        ans: "A",
+        // look up the answer later
+      },
+      {
+        id: 53,
+        question: `The process whereby a gaseous body loses some of its kinetic energy to a colder body is referred to as`,
+        options: [`condensation`, `melting`, `evaporation`, `freezing`],
+        ans: "A",
+        // look up the answer later
+      },
+      {
+        id: 54,
+        question: `The separation technique that is based on the principle of solubility of a solid in two miscible liquids is`,
+        options: [
+          `fractional distillation`,
+          `distillation`,
+          `precipitation`,
+          `filtration`,
+        ],
+        ans: "C",
+        // look up the answer later
+      },
+    ],
+  },
+  // ========== OTHER TOPIC END HERE ================================
+  // ================================================================
+  // ================================================================
+  //                GENERAL CHEMISTRY QUESTIONS
+  // ================================================================
+  // ================================================================
+  {   /// done and enough for now
     topic: "Atomic structure",
     questions: [
       {
@@ -2254,7 +3699,7 @@ let chemistryQuestions = [
         ans: "D",
       },
       {
-        id:104,
+        id: 104,
         question:
           "How many electrons are required to equal the mass of one proton?",
         options: ["1", "23", "about 1800", "no corrrect response"],
@@ -2706,680 +4151,8 @@ let chemistryQuestions = [
       },
     ],
   },
-  {
-    // loading new questions
+  {   /// done and enough as well
     topic: "Chemical bonding",
-    questions: [
-      {
-        id: 1,
-        question:
-          "When ammonia and hydrogen bond together to form ammonium ion, the bond formed is called",
-        options: [
-          "Ionic bond",
-          "electrovalent bond",
-          "covalent bond",
-          "co-ordinate bond",
-          "hydrogen bond",
-        ],
-        ans: "D",
-      },
-      {
-        id: 2,
-        question:
-          "Which of the following statements is true when the potassium atom forms its ion",
-        options: [
-          "It gains one electron and becomes neutral",
-          "its atomic number decreases",
-          "it achieves electronic configuration of argon",
-          "it loses one proton",
-          "it loses one neutron",
-        ],
-        ans: "C",
-      },
-      {
-        id: 3,
-        question: "Helium atoms are chemically unreactive because",
-        options: [
-          "there are no electrons around the nucleus",
-          "the number of protons equals the number of electrons",
-          "there are equal number of protons and neutrons in the nucleus",
-          "the outermost electron shell is completely filled",
-          "the atoms contains only protons",
-        ],
-        ans: "D",
-      },
-      {
-        id: 4,
-        question: "The boiling point of water is higher than methanol because",
-        options: [
-          "water is an oxide while methanol is an alcohol",
-          "inter-molecular forces in water are stronger than methanol",
-          "water is an ionic compound while methanol is a covalent compound",
-          "water is an inorganic compound while methanol is organic",
-          "water is more reactive than methanol",
-        ],
-        ans: "B",
-      },
-      {
-        id: 5,
-        question:
-          "Which of the following is NOT true of electrovalent compounds",
-        options: [
-          "they are solids",
-          "they do not vaporize easily",
-          "the elements forming the compounds normally have their valence eletrons in shared state",
-          "they conduct electricity",
-        ],
-        ans: "C",
-      },
-      {
-        id: 6,
-        question:
-          "The electronic configuration of elements X and Y are X = 2,8,6; Y = 2,8,7. The bond in the compound formed by X and Y is expected to be",
-        options: [
-          "ionic",
-          "covalent",
-          "dative covalent",
-          "metallic",
-          "none of the above",
-        ],
-        ans: "B",
-      },
-      {
-        id: 7,
-        question: `Which of the following bonds exist in crystalline ammonium chloride (${formula(
-          "NH",
-          4,
-          "Cl"
-        )})`,
-        options: [
-          "ionic and covalent",
-          "ionic, covalent, and co-ordinate covalent",
-          "ionic and co-ordinate covalent",
-          "covalent, co-ordinate and metallic",
-          "ionic, covalent, and metallic",
-        ],
-        ans: "B",
-      },
-      {
-        id: 8,
-        question: `If an atom X with six electrons in its outermost shell combine with atom Y with only one electron in its outermost shell to form an ionic compound then`,
-        options: [
-          "six atoms of X would combine with one of Y",
-          "two atoms of X would combine with six of Y",
-          "one atom of X would combine with two of Y",
-          "two atoms of X would combine with two atoms of Y",
-          "two atoms of X would combine with six atoms of Y",
-        ],
-        ans: "C",
-      },
-      {
-        id: 9,
-        question: `The three dimensional shape of methane is`,
-        options: ["hexagonal", "trigonal", "linear", "tetrahedral", "cubical"],
-        ans: "D",
-      },
-      {
-        id: 10,
-        question: `${isotope(3, 1, "R")}, ${isotope(19, 9, "U")}, ${isotope(
-          24,
-          12,
-          "S"
-        )}, ${isotope(20, 10, "T")}, ${isotope(
-          19,
-          7,
-          "Y"
-        )}. Which of the following statements is NOT true of the elements R, U, S, T, Y?`,
-        options: [
-          "R is an isotope of hydrogen",
-          "U and Y are isotopes",
-          "T is a noble gas",
-          "S will react with oxygen to form SO",
-        ],
-        ans: "B",
-      },
-      {
-        id: 11,
-        question: `An element with atomic number twelve is likely to be`,
-        options: [
-          "electrovalent withl a valency of 1",
-          "electrovalent with a valency of 2",
-          "covalent with a valency of 2",
-          "covalent with a valency of 4",
-        ],
-        ans: "B",
-      },
-      {
-        id: 12,
-        question: `The atomic numbers of two elements X and Y are 12 and 9 respectively. The compound formed between the atoms of these two elements is`,
-        options: ["ionic", "covalent", "neutral", "co-ordinate"],
-        ans: "A",
-      },
-      {
-        id: 13,
-        question: `The greater the difference in electronegativity between bonded atoms, the`,
-        options: [
-          "lower the polarity of the bond",
-          "higher the polarity of the bond",
-          "weaker the bond",
-          "higher possiblity of the substance formed being a molecule",
-        ],
-        ans: "B",
-      },
-      {
-        id: 14,
-        question: `The forces holding naphthalene crystal together can be overcome when naphthalene is heated to a temperature of 354K resulting in the crystals melting. These forces are known as`,
-        options: ["columbic", "ionic", "covalent", "van der waals"],
-        ans: "D",
-      },
-      {
-        id: 15,
-        question: `A metallic ion ${ion(
-          "X",
-          2,
-          "+"
-        )} with an inert gas structure contains 18 electrons. How many protons are there in this ion`,
-        options: ["20", "18", "16", "2"],
-        ans: "A",
-      },
-      {
-        id: 16,
-        question: `What are the potential oxidation numbers for an element if its atomic number is 17?`,
-        options: ["-1 and 7", "-1 and 6", "3 and 5", "-2 and 6"],
-        ans: "A",
-      },
-      {
-        id: 17,
-        question: `Elements X and Y have electronic configurations ${eConfig(
-          "1s",
-          2,
-          "2s",
-          2,
-          "2p",
-          4
-        )} and ${eConfig(
-          "1s",
-          2,
-          "2s",
-          2,
-          "2p",
-          6,
-          "3s",
-          2,
-          "3p",
-          1
-        )} respectively. When they combine, the formula of the compound formed is`,
-        options: [
-          "XY",
-          "YX",
-          `${formula("X", 2, "Y", 3)}`,
-          `${formula("X", 3, "Y", 2)}`,
-        ],
-        ans: "D",
-      },
-      {
-        id: 18,
-        question: `Which of the following terms indicate the number of bonds that can be formed by atom`,
-        options: [
-          "oxidation number",
-          "valence",
-          `atomic number`,
-          `electronegativity`,
-        ],
-        ans: "A",
-      },
-      {
-        id: 19,
-        question: `Atoms of the element X (with 2 electrons in the outer shell) combine with atoms of Y (with 7 electrons in the outer shell). Which of the following statement is FALSE? The compound formed`,
-        options: [
-          "has formula XY",
-          "likely to be ionic",
-          `contains ${ion("X", 2, "+")} ions`,
-          `contains ${ion("Y", "-", "")} ions`,
-        ],
-        ans: "A",
-      },
-      {
-        id: 20,
-        question: `Which of the following represents the type of bonding present in ammonium chloride molecule?`,
-        options: [
-          "ionic only",
-          "covalent only",
-          `ionic, covalent, and dative covalent`,
-          `dative covalent only`,
-        ],
-        ans: "C",
-      },
-      {
-        id: 21,
-        question: `How many lone pairs of electron are there on the central atom of ${formula(
-          "H",
-          2,
-          "O"
-        )} molecules?`,
-        options: ["1", "2", `3`, `4`],
-        ans: "B",
-      },
-      {
-        id: 22,
-        question: `An element, E, has the electronic configuration ${eConfig(
-          "1s",
-          2,
-          "2s",
-          2,
-          "2p",
-          6,
-          "3s",
-          2,
-          "3p",
-          3
-        )}. The reaction of E with a halogen X can give.`,
-        options: [
-          `${formula("EX", 3)} and ${formula("EX", 5)}`,
-          `${formula("EX", 3)} only`,
-          `${formula("EX", 5)} only`,
-          `${formula("EX", 2)} and ${formula("EX", 3)}`,
-        ],
-        ans: "A",
-      },
-      {
-        id: 23,
-        question: `As the difference in electronegativity between bonded atoms increase, polarity of the bond`,
-        options: [
-          `decreases`,
-          `increase`,
-          `remains unchanged`,
-          `reduces to zero`,
-        ],
-        ans: "B",
-      },
-      {
-        id: 24,
-        question: `Which group of elements forms hydrides that are pyramidal in structure?`,
-        options: [`III`, `IV`, `V`, `VI`],
-        ans: "C",
-      },
-      {
-        id: 25,
-        question: `Water has a rather high boiling point despite its low molecular mass because of the presence of`,
-        options: [
-          `hydrogen bonding`,
-          `covalent bonding`,
-          `ionic bonding`,
-          `metallic bonding`,
-        ],
-        ans: "A",
-      },
-      {
-        id: 26,
-        question: `Elements X, Y and Z belongs to groups I, V, and VII respectively. Which of the following is TRUE about the bond types of XZ and YZ.`,
-        options: [
-          `both are electrovalent`,
-          `both are covalent`,
-          `XZ is electrovalent and YZ is covalent`,
-          `XZ is covalent and ${formula("YZ", 3)}`,
-        ],
-        ans: "C",
-      },
-      {
-        id: 27,
-        question: `A particle that contains 8 protons, 9 neutrons and 7 electrons could be written as`,
-        options: [
-          `${isotope(16, 8, "O")}`,
-          `${isotope(17, 8, "O<sup>+</sup>")}`,
-          `${isotope(17, 9, "O")}<sup>-</sup>`,
-          `${isotope(17, 8, "O")}<sup>-</sup>`,
-        ],
-        ans: "B",
-      },
-      {
-        id: 28,
-        question: `Two elements, P and Q with atomic numbers 11 and 8 respectively, combine chemically to form the compound P<sub>x</sub>R<sub>y</sub>. The respective values of x and y are`,
-        options: [`1 and 1`, `1 and 2`, `2 and 1`, `3 and 1`],
-        ans: "C",
-      },
-      {
-        id: 29,
-        question: `Given the electronegativity increases across a period and decreases down a group in the periodic table, in which of the following compounds will the molecules be held together by the strongest hydrogen bond`,
-        options: [
-          `${formula("HF", "aq")}`,
-          `${formula("NH", 3, "aq")}`,
-          `${formula("CH", 4, "aq")}`,
-          `${formula("HCl", "g")}`,
-        ],
-        ans: "A",
-      },
-      {
-        id: 30,
-        question: `The electronic configuration of <sub>22</sub>X<sup>2+</sup> ion is`,
-        options: [
-          `${eConfig(
-            "1s",
-            2,
-            "2s",
-            2,
-            "2p",
-            6,
-            "3s",
-            2,
-            "3p",
-            6,
-            "4s",
-            2,
-            "3d",
-            2
-          )}`,
-          `${eConfig(
-            "1s",
-            2,
-            "2s",
-            2,
-            "2p",
-            6,
-            "3s",
-            2,
-            "3p",
-            6,
-            "4s",
-            2,
-            "3d",
-            1
-          )}`,
-          `${eConfig("1s", 2, "2s", 2, "2p", 6, "3s", 2, "3p", 6, "4s", 2)}`,
-          `${eConfig("1s", 2, "2s", 2, "2p", 6, "3s", 2, "3p", 6)}`,
-        ],
-        ans: "C",
-      },
-      {
-        id: 31,
-        question: `Which of the following types of bonding does not involve the formation of new substances`,
-        options: ["covalent", "metallic", "co-ordinate", "electrovalent"],
-        ans: "B",
-      },
-      {
-        id: 32,
-        question: `The shapes of ${formula("CO", 2)} ${formula(
-          "H",
-          2,
-          "O"
-        )}, and ${formula("CH", 4)} respectively are`,
-        options: [
-          "bent, linear, and tetrahedral",
-          "bent, tetrahedral, and linear",
-          "linear, bent, and tetrahedral",
-          "tetrahedral, linear, and bent",
-        ],
-        ans: "C",
-      },
-      {
-        id: 33,
-        question: `A particle that contains 9 protons, 10 neutrons and 10 electrons is`,
-        options: [
-          "positive ion",
-          "neutral atom of a metal",
-          "neutral atom of a non-metal",
-          "negative ion",
-        ],
-        ans: "D",
-      },
-      {
-        id: 34,
-        question: `Which of the following chlorides would exhibit the least ionic character?`,
-        options: [
-          "LiCl",
-          `${formula("MgCl", 2)}`,
-          `${formula("CaCl", 2)}`,
-          `${formula("AlCl", 3)}`,
-        ],
-        ans: "D",
-      },
-      {
-        id: 35,
-        question: `Neutral atoms of neon with atomic number 10 have the same number of electrons as`,
-        options: [
-          `${ion("O", 2, "-")}`,
-          `${ion("Ca", 2, "+")}`,
-          `${ion("K", "+", "")}`,
-          `${ion("Mg", "+", "")}`,
-        ],
-        ans: "A",
-      },
-      {
-        id: 36,
-        question: `The noble gases owe their inactivity to`,
-        options: [
-          "octet configuration",
-          "cyclic shape",
-          "hexagonal shape",
-          "obtuse configuration",
-        ],
-        ans: "A",
-      },
-      {
-        id: 37,
-        question: `The weakest attractive forces that can be observed between two molecules is`,
-        options: ["ionic", "covalent", "coordinate covalent", "van der waals"],
-        ans: "D",
-      },
-      {
-        id: 38,
-        question: `An electron can be added to a halogen atom to form a halide ion with`,
-        options: [
-          "8 valence electrons",
-          "7 valence electrons",
-          "2 valence electrons",
-          "3 valence electrons",
-        ],
-        ans: "A",
-      },
-      {
-        id: 39,
-        question: `The property of chlorine which cause hydrogen chloride to be more ionic than the chlorine molecule is its.`,
-        options: [
-          "electronegativity",
-          "electropositivity",
-          "electron affinity",
-          "electrovalency",
-        ],
-        ans: "A",
-      },
-      {
-        id: 40,
-        question: `What is the valence shell electron configuration of the element with atomic number 17?`,
-        options: [
-          `${eConfig("1s", 2, "2s", 2, "2p", 6, "3s", 2, "3p", 4)}`,
-          `${eConfig("1s", 2, "2s", 2, "2p", 6, "3s", 2, "3p", 5)}`,
-          `${eConfig("3s", 2, "3p", 5)}`,
-          `${eConfig("2s", 2, "2p", 6)}`,
-        ],
-        ans: "C",
-      },
-      {
-        id: 41,
-        question: `An element will readily form an electrovalent compound if its electron configuration is`,
-        options: [`2:8:8`, `2:8:4`, `2:8:5`, `2:8:1`],
-        ans: "D",
-      },
-      {
-        id: 42,
-        question: `The shape of the hydrocarbon compound ${formula(
-          "CH",
-          4
-        )} is`,
-        options: [`square`, `planar`, `tetrahedral`, `planar`, `linear`],
-        ans: "C",
-      },
-      {
-        id: 43,
-        question: `Which of these properties gives a solid its definite shape?`,
-        options: [
-          `weak intermolecular attraction`,
-          `high boiling point`,
-          `high melting point`,
-          `strong intermolecular attraction`,
-        ],
-        ans: "D",
-      },
-      {
-        id: 44,
-        question: `A particle that contains 11 protons, 12 neutrons, and 10 electrons is probably`,
-        options: [
-          `metallic ion`,
-          `non-metallic ion`,
-          `neutral ion`,
-          `neutral non-metal`,
-        ],
-        ans: "A",
-      },
-      {
-        id: 45,
-        question: `A metal X forms two bromides with the formulae ${formula(
-          "XBr",
-          2
-        )} and ${formula(
-          "XBr",
-          3
-        )}. What type of bonding exist between X and bromine in the bromides`,
-        options: [
-          `metallic bonding`,
-          `ionic bonding`,
-          `covalent bonding`,
-          `dative bonding`,
-        ],
-        ans: "B",
-      },
-      {
-        id: 46,
-        question: `If an atom is represented as ${isotope(
-          23,
-          11,
-          "X"
-        )}, which of the following deduction is correct?`,
-        options: [
-          `it contains 12 protons`,
-          `it forms a covalent chloride`,
-          `its atomic number is 23`,
-          `it is an alkali metal`,
-        ],
-        ans: "D",
-      },
-      {
-        id: 47,
-        question: `The type of bonding in [Cu(${formula(
-          "NH",
-          3
-        )})<sub>4</sub>]<sup>2+</sup> is`,
-        options: [`coordinate`, `electrovalent`, `metallic`, `covalent`],
-        ans: "A",
-      },
-      {
-        id: 48,
-        question: `Hydrogen bonding can be found in`,
-        options: [
-          `hydrogen sulfide`,
-          `hydorgen bromide`,
-          `hydrogen fluoride`,
-          `hydrogen chloride`,
-        ],
-        ans: "C",
-      },
-      {
-        id: 49,
-        question: `The number of lone pair of electrons in water molecule is`,
-        options: [`2`, `4`, `3`, `1`],
-        ans: "A",
-      },
-      {
-        id: 50,
-        question: `The ability of an atom in a molecule to attract shared electrons to itself is`,
-        options: [
-          `electron affinity`,
-          `ionic radius`,
-          `ionization`,
-          `electronegativity`,
-        ],
-        ans: "D",
-      },
-      {
-        id: 51,
-        question: `The type of chemical bond that exists between potassium and oxygen in potassium oxide is`,
-        options: [`ionic`, `metallic`, `covalent`, `dative`],
-        ans: "A",
-      },
-      {
-        id: 52,
-        question: `The atom of an element x has six electrons in its outermost shell. What is the formula of the compound formed when x combines with aluminium (${isotope(
-          "",
-          13,
-          "Al"
-        )})`,
-        options: [
-          `${formula("AlX", 2)}`,
-          `${formula("Al", 2, "X")}`,
-          `${formula("Al", 2, "X", 2)}`,
-          `${formula("Al", 2, "X", 3)}`,
-        ],
-        ans: "D",
-      },
-      {
-        id: 53,
-        question: `The shapes of ${formula("CO", 2)}, ${formula(
-          "H",
-          2,
-          "O"
-        )}, and ${formula("CH", 4)} respectively are`,
-        options: [
-          `bent, linear, and tetrahedral`,
-          `bent, tetrahedral, and linear`,
-          `tetrahedral, linear, and bent`,
-          `linear, bent, and tetrahedral`,
-        ],
-        ans: "D",
-      },
-      {
-        id: 54,
-        question: `Among the following the maximum covalent character is shown by the compound`,
-        options: [
-          `${formula("MgCl", 2)}`,
-          `${formula("FeCl", 2)}`,
-          `${formula("SnCl", 2)}`,
-          `${formula("AlCl", 3)}`,
-        ],
-        ans: "A", // I didn't think properly...
-      },
-      {
-        id: 55,
-        question: `Which combination of atoms can form a polar covalent bond?`,
-        options: [`H and Br`, `H and H`, `Na and Br`, `N and N`],
-        ans: "A",
-      },
-      {
-        id: 56,
-        question: `The total number of bonded electrons in an ammonia molecule is?`,
-        options: [`6`, `8`, `10`, `12`],
-        ans: "A",
-      },
-      {
-        id: 57,
-        question: `An oxonium ion contains the following pairs of bonds`,
-        options: [
-          `covalent and dative`,
-          `covalent and ionic`,
-          `van der waals and covalent`,
-          `hydrogen and dative`,
-        ],
-        ans: "A",
-      },
-      {
-        id: 58,
-        question: `How many bond pairs are present in a water molecule?`,
-        options: [`1`, `2`, `3`, `4`],
-        ans: "B",
-      },
-    ],
-  },
-  {
-    topic: "Covalent bonding", // making sense...
     questions: [
       {
         id: 1,
@@ -3950,13 +4723,674 @@ let chemistryQuestions = [
         ],
         ans: "B",
       },
-    ],
-  },
-  {
-    topic: "Ionic bonding",
-    questions: [
       {
-        id: 1,
+        id: 50,
+        question:
+          "When ammonia and hydrogen bond together to form ammonium ion, the bond formed is called",
+        options: [
+          "Ionic bond",
+          "electrovalent bond",
+          "covalent bond",
+          "co-ordinate bond",
+          "hydrogen bond",
+        ],
+        ans: "D",
+      },
+      {
+        id: 51,
+        question:
+          "Which of the following statements is true when the potassium atom forms its ion",
+        options: [
+          "It gains one electron and becomes neutral",
+          "its atomic number decreases",
+          "it achieves electronic configuration of argon",
+          "it loses one proton",
+          "it loses one neutron",
+        ],
+        ans: "C",
+      },
+      {
+        id: 52,
+        question: "Helium atoms are chemically unreactive because",
+        options: [
+          "there are no electrons around the nucleus",
+          "the number of protons equals the number of electrons",
+          "there are equal number of protons and neutrons in the nucleus",
+          "the outermost electron shell is completely filled",
+          "the atoms contains only protons",
+        ],
+        ans: "D",
+      },
+      {
+        id: 53,
+        question: "The boiling point of water is higher than methanol because",
+        options: [
+          "water is an oxide while methanol is an alcohol",
+          "inter-molecular forces in water are stronger than methanol",
+          "water is an ionic compound while methanol is a covalent compound",
+          "water is an inorganic compound while methanol is organic",
+          "water is more reactive than methanol",
+        ],
+        ans: "B",
+      },
+      {
+        id: 54,
+        question:
+          "Which of the following is NOT true of electrovalent compounds",
+        options: [
+          "they are solids",
+          "they do not vaporize easily",
+          "the elements forming the compounds normally have their valence eletrons in shared state",
+          "they conduct electricity",
+        ],
+        ans: "C",
+      },
+      {
+        id: 55,
+        question:
+          "The electronic configuration of elements X and Y are X = 2,8,6; Y = 2,8,7. The bond in the compound formed by X and Y is expected to be",
+        options: [
+          "ionic",
+          "covalent",
+          "dative covalent",
+          "metallic",
+          "none of the above",
+        ],
+        ans: "B",
+      },
+      {
+        id: 56,
+        question: `Which of the following bonds exist in crystalline ammonium chloride (${formula(
+          "NH",
+          4,
+          "Cl"
+        )})`,
+        options: [
+          "ionic and covalent",
+          "ionic, covalent, and co-ordinate covalent",
+          "ionic and co-ordinate covalent",
+          "covalent, co-ordinate and metallic",
+          "ionic, covalent, and metallic",
+        ],
+        ans: "B",
+      },
+      {
+        id: 57,
+        question: `If an atom X with six electrons in its outermost shell combine with atom Y with only one electron in its outermost shell to form an ionic compound then`,
+        options: [
+          "six atoms of X would combine with one of Y",
+          "two atoms of X would combine with six of Y",
+          "one atom of X would combine with two of Y",
+          "two atoms of X would combine with two atoms of Y",
+          "two atoms of X would combine with six atoms of Y",
+        ],
+        ans: "C",
+      },
+      {
+        id: 58,
+        question: `The three dimensional shape of methane is`,
+        options: ["hexagonal", "trigonal", "linear", "tetrahedral", "cubical"],
+        ans: "D",
+      },
+      {
+        id: 59,
+        question: `${isotope(3, 1, "R")}, ${isotope(19, 9, "U")}, ${isotope(
+          24,
+          12,
+          "S"
+        )}, ${isotope(20, 10, "T")}, ${isotope(
+          19,
+          7,
+          "Y"
+        )}. Which of the following statements is NOT true of the elements R, U, S, T, Y?`,
+        options: [
+          "R is an isotope of hydrogen",
+          "U and Y are isotopes",
+          "T is a noble gas",
+          "S will react with oxygen to form SO",
+        ],
+        ans: "B",
+      },
+      {
+        id: 60,
+        question: `An element with atomic number twelve is likely to be`,
+        options: [
+          "electrovalent withl a valency of 1",
+          "electrovalent with a valency of 2",
+          "covalent with a valency of 2",
+          "covalent with a valency of 4",
+        ],
+        ans: "B",
+      },
+      {
+        id: 61,
+        question: `The atomic numbers of two elements X and Y are 12 and 9 respectively. The compound formed between the atoms of these two elements is`,
+        options: ["ionic", "covalent", "neutral", "co-ordinate"],
+        ans: "A",
+      },
+      {
+        id: 62,
+        question: `The greater the difference in electronegativity between bonded atoms, the`,
+        options: [
+          "lower the polarity of the bond",
+          "higher the polarity of the bond",
+          "weaker the bond",
+          "higher possiblity of the substance formed being a molecule",
+        ],
+        ans: "B",
+      },
+      {
+        id: 63,
+        question: `The forces holding naphthalene crystal together can be overcome when naphthalene is heated to a temperature of 354K resulting in the crystals melting. These forces are known as`,
+        options: ["columbic", "ionic", "covalent", "van der waals"],
+        ans: "D",
+      },
+      {
+        id: 64,
+        question: `A metallic ion ${ion(
+          "X",
+          2,
+          "+"
+        )} with an inert gas structure contains 18 electrons. How many protons are there in this ion`,
+        options: ["20", "18", "16", "2"],
+        ans: "A",
+      },
+      {
+        id: 65,
+        question: `What are the potential oxidation numbers for an element if its atomic number is 17?`,
+        options: ["-1 and 7", "-1 and 6", "3 and 5", "-2 and 6"],
+        ans: "A",
+      },
+      {
+        id: 66,
+        question: `Elements X and Y have electronic configurations ${eConfig(
+          "1s",
+          2,
+          "2s",
+          2,
+          "2p",
+          4
+        )} and ${eConfig(
+          "1s",
+          2,
+          "2s",
+          2,
+          "2p",
+          6,
+          "3s",
+          2,
+          "3p",
+          1
+        )} respectively. When they combine, the formula of the compound formed is`,
+        options: [
+          "XY",
+          "YX",
+          `${formula("X", 2, "Y", 3)}`,
+          `${formula("X", 3, "Y", 2)}`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 67,
+        question: `Which of the following terms indicate the number of bonds that can be formed by atom`,
+        options: [
+          "oxidation number",
+          "valence",
+          `atomic number`,
+          `electronegativity`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 68,
+        question: `Atoms of the element X (with 2 electrons in the outer shell) combine with atoms of Y (with 7 electrons in the outer shell). Which of the following statement is FALSE? The compound formed`,
+        options: [
+          "has formula XY",
+          "likely to be ionic",
+          `contains ${ion("X", 2, "+")} ions`,
+          `contains ${ion("Y", "-", "")} ions`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 69,
+        question: `Which of the following represents the type of bonding present in ammonium chloride molecule?`,
+        options: [
+          "ionic only",
+          "covalent only",
+          `ionic, covalent, and dative covalent`,
+          `dative covalent only`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 70,
+        question: `How many lone pairs of electron are there on the central atom of ${formula(
+          "H",
+          2,
+          "O"
+        )} molecules?`,
+        options: ["1", "2", `3`, `4`],
+        ans: "B",
+      },
+      {
+        id: 71,
+        question: `An element, E, has the electronic configuration ${eConfig(
+          "1s",
+          2,
+          "2s",
+          2,
+          "2p",
+          6,
+          "3s",
+          2,
+          "3p",
+          3
+        )}. The reaction of E with a halogen X can give.`,
+        options: [
+          `${formula("EX", 3)} and ${formula("EX", 5)}`,
+          `${formula("EX", 3)} only`,
+          `${formula("EX", 5)} only`,
+          `${formula("EX", 2)} and ${formula("EX", 3)}`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 72,
+        question: `As the difference in electronegativity between bonded atoms increase, polarity of the bond`,
+        options: [
+          `decreases`,
+          `increase`,
+          `remains unchanged`,
+          `reduces to zero`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 73,
+        question: `Which group of elements forms hydrides that are pyramidal in structure?`,
+        options: [`III`, `IV`, `V`, `VI`],
+        ans: "C",
+      },
+      {
+        id: 74,
+        question: `Water has a rather high boiling point despite its low molecular mass because of the presence of`,
+        options: [
+          `hydrogen bonding`,
+          `covalent bonding`,
+          `ionic bonding`,
+          `metallic bonding`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 75,
+        question: `Elements X, Y and Z belongs to groups I, V, and VII respectively. Which of the following is TRUE about the bond types of XZ and YZ.`,
+        options: [
+          `both are electrovalent`,
+          `both are covalent`,
+          `XZ is electrovalent and YZ is covalent`,
+          `XZ is covalent and ${formula("YZ", 3)}`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 76,
+        question: `A particle that contains 8 protons, 9 neutrons and 7 electrons could be written as`,
+        options: [
+          `${isotope(16, 8, "O")}`,
+          `${isotope(17, 8, "O<sup>+</sup>")}`,
+          `${isotope(17, 9, "O")}<sup>-</sup>`,
+          `${isotope(17, 8, "O")}<sup>-</sup>`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 77,
+        question: `Two elements, P and Q with atomic numbers 11 and 8 respectively, combine chemically to form the compound P<sub>x</sub>R<sub>y</sub>. The respective values of x and y are`,
+        options: [`1 and 1`, `1 and 2`, `2 and 1`, `3 and 1`],
+        ans: "C",
+      },
+      {
+        id: 78,
+        question: `Given the electronegativity increases across a period and decreases down a group in the periodic table, in which of the following compounds will the molecules be held together by the strongest hydrogen bond`,
+        options: [
+          `${formula("HF", "aq")}`,
+          `${formula("NH", 3, "aq")}`,
+          `${formula("CH", 4, "aq")}`,
+          `${formula("HCl", "g")}`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 79,
+        question: `The electronic configuration of <sub>22</sub>X<sup>2+</sup> ion is`,
+        options: [
+          `${eConfig(
+            "1s",
+            2,
+            "2s",
+            2,
+            "2p",
+            6,
+            "3s",
+            2,
+            "3p",
+            6,
+            "4s",
+            2,
+            "3d",
+            2
+          )}`,
+          `${eConfig(
+            "1s",
+            2,
+            "2s",
+            2,
+            "2p",
+            6,
+            "3s",
+            2,
+            "3p",
+            6,
+            "4s",
+            2,
+            "3d",
+            1
+          )}`,
+          `${eConfig("1s", 2, "2s", 2, "2p", 6, "3s", 2, "3p", 6, "4s", 2)}`,
+          `${eConfig("1s", 2, "2s", 2, "2p", 6, "3s", 2, "3p", 6)}`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 80,
+        question: `Which of the following types of bonding does not involve the formation of new substances`,
+        options: ["covalent", "metallic", "co-ordinate", "electrovalent"],
+        ans: "B",
+      },
+      {
+        id: 81,
+        question: `The shapes of ${formula("CO", 2)} ${formula(
+          "H",
+          2,
+          "O"
+        )}, and ${formula("CH", 4)} respectively are`,
+        options: [
+          "bent, linear, and tetrahedral",
+          "bent, tetrahedral, and linear",
+          "linear, bent, and tetrahedral",
+          "tetrahedral, linear, and bent",
+        ],
+        ans: "C",
+      },
+      {
+        id: 82,
+        question: `A particle that contains 9 protons, 10 neutrons and 10 electrons is`,
+        options: [
+          "positive ion",
+          "neutral atom of a metal",
+          "neutral atom of a non-metal",
+          "negative ion",
+        ],
+        ans: "D",
+      },
+      {
+        id: 83,
+        question: `Which of the following chlorides would exhibit the least ionic character?`,
+        options: [
+          "LiCl",
+          `${formula("MgCl", 2)}`,
+          `${formula("CaCl", 2)}`,
+          `${formula("AlCl", 3)}`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 84,
+        question: `Neutral atoms of neon with atomic number 10 have the same number of electrons as`,
+        options: [
+          `${ion("O", 2, "-")}`,
+          `${ion("Ca", 2, "+")}`,
+          `${ion("K", "+", "")}`,
+          `${ion("Mg", "+", "")}`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 85,
+        question: `The noble gases owe their inactivity to`,
+        options: [
+          "octet configuration",
+          "cyclic shape",
+          "hexagonal shape",
+          "obtuse configuration",
+        ],
+        ans: "A",
+      },
+      {
+        id: 86,
+        question: `The weakest attractive forces that can be observed between two molecules is`,
+        options: ["ionic", "covalent", "coordinate covalent", "van der waals"],
+        ans: "D",
+      },
+      {
+        id: 87,
+        question: `An electron can be added to a halogen atom to form a halide ion with`,
+        options: [
+          "8 valence electrons",
+          "7 valence electrons",
+          "2 valence electrons",
+          "3 valence electrons",
+        ],
+        ans: "A",
+      },
+      {
+        id: 88,
+        question: `The property of chlorine which cause hydrogen chloride to be more ionic than the chlorine molecule is its.`,
+        options: [
+          "electronegativity",
+          "electropositivity",
+          "electron affinity",
+          "electrovalency",
+        ],
+        ans: "A",
+      },
+      {
+        id: 89,
+        question: `What is the valence shell electron configuration of the element with atomic number 17?`,
+        options: [
+          `${eConfig("1s", 2, "2s", 2, "2p", 6, "3s", 2, "3p", 4)}`,
+          `${eConfig("1s", 2, "2s", 2, "2p", 6, "3s", 2, "3p", 5)}`,
+          `${eConfig("3s", 2, "3p", 5)}`,
+          `${eConfig("2s", 2, "2p", 6)}`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 90,
+        question: `An element will readily form an electrovalent compound if its electron configuration is`,
+        options: [`2:8:8`, `2:8:4`, `2:8:5`, `2:8:1`],
+        ans: "D",
+      },
+      {
+        id: 91,
+        question: `The shape of the hydrocarbon compound ${formula(
+          "CH",
+          4
+        )} is`,
+        options: [`square`, `planar`, `tetrahedral`, `planar`, `linear`],
+        ans: "C",
+      },
+      {
+        id: 92,
+        question: `Which of these properties gives a solid its definite shape?`,
+        options: [
+          `weak intermolecular attraction`,
+          `high boiling point`,
+          `high melting point`,
+          `strong intermolecular attraction`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 93,
+        question: `A particle that contains 11 protons, 12 neutrons, and 10 electrons is probably`,
+        options: [
+          `metallic ion`,
+          `non-metallic ion`,
+          `neutral ion`,
+          `neutral non-metal`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 94,
+        question: `A metal X forms two bromides with the formulae ${formula(
+          "XBr",
+          2
+        )} and ${formula(
+          "XBr",
+          3
+        )}. What type of bonding exist between X and bromine in the bromides`,
+        options: [
+          `metallic bonding`,
+          `ionic bonding`,
+          `covalent bonding`,
+          `dative bonding`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 95,
+        question: `If an atom is represented as ${isotope(
+          23,
+          11,
+          "X"
+        )}, which of the following deduction is correct?`,
+        options: [
+          `it contains 12 protons`,
+          `it forms a covalent chloride`,
+          `its atomic number is 23`,
+          `it is an alkali metal`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 96,
+        question: `The type of bonding in [Cu(${formula(
+          "NH",
+          3
+        )})<sub>4</sub>]<sup>2+</sup> is`,
+        options: [`coordinate`, `electrovalent`, `metallic`, `covalent`],
+        ans: "A",
+      },
+      {
+        id: 97,
+        question: `Hydrogen bonding can be found in`,
+        options: [
+          `hydrogen sulfide`,
+          `hydorgen bromide`,
+          `hydrogen fluoride`,
+          `hydrogen chloride`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 98,
+        question: `The number of lone pair of electrons in water molecule is`,
+        options: [`2`, `4`, `3`, `1`],
+        ans: "A",
+      },
+      {
+        id: 99,
+        question: `The ability of an atom in a molecule to attract shared electrons to itself is`,
+        options: [
+          `electron affinity`,
+          `ionic radius`,
+          `ionization`,
+          `electronegativity`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 100,
+        question: `The type of chemical bond that exists between potassium and oxygen in potassium oxide is`,
+        options: [`ionic`, `metallic`, `covalent`, `dative`],
+        ans: "A",
+      },
+      {
+        id: 101,
+        question: `The atom of an element x has six electrons in its outermost shell. What is the formula of the compound formed when x combines with aluminium (${isotope(
+          "",
+          13,
+          "Al"
+        )})`,
+        options: [
+          `${formula("AlX", 2)}`,
+          `${formula("Al", 2, "X")}`,
+          `${formula("Al", 2, "X", 2)}`,
+          `${formula("Al", 2, "X", 3)}`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 102,
+        question: `The shapes of ${formula("CO", 2)}, ${formula(
+          "H",
+          2,
+          "O"
+        )}, and ${formula("CH", 4)} respectively are`,
+        options: [
+          `bent, linear, and tetrahedral`,
+          `bent, tetrahedral, and linear`,
+          `tetrahedral, linear, and bent`,
+          `linear, bent, and tetrahedral`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 103,
+        question: `Among the following the maximum covalent character is shown by the compound`,
+        options: [
+          `${formula("MgCl", 2)}`,
+          `${formula("FeCl", 2)}`,
+          `${formula("SnCl", 2)}`,
+          `${formula("AlCl", 3)}`,
+        ],
+        ans: "A", // I didn't think properly...
+      },
+      {
+        id: 104,
+        question: `Which combination of atoms can form a polar covalent bond?`,
+        options: [`H and Br`, `H and H`, `Na and Br`, `N and N`],
+        ans: "A",
+      },
+      {
+        id: 105,
+        question: `The total number of bonded electrons in an ammonia molecule is?`,
+        options: [`6`, `8`, `10`, `12`],
+        ans: "A",
+      },
+      {
+        id: 106,
+        question: `An oxonium ion contains the following pairs of bonds`,
+        options: [
+          `covalent and dative`,
+          `covalent and ionic`,
+          `van der waals and covalent`,
+          `hydrogen and dative`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 107,
+        question: `How many bond pairs are present in a water molecule?`,
+        options: [`1`, `2`, `3`, `4`],
+        ans: "B",
+      },
+      {
+        id: 108,
         question:
           "The concept of <em>electron transfer</em> is closely associated with",
         options: [
@@ -3968,7 +5402,7 @@ let chemistryQuestions = [
         ans: "A",
       },
       {
-        id: 2,
+        id: 109,
         question:
           "The concept of <em>electron sharing</em> is closely associated with",
         options: [
@@ -3980,7 +5414,7 @@ let chemistryQuestions = [
         ans: "B",
       },
       {
-        id: 3,
+        id: 110,
         question:
           "Which of the following is a general characteristics of most ionic compounds?",
         options: [
@@ -3992,7 +5426,7 @@ let chemistryQuestions = [
         ans: "C",
       },
       {
-        id: 4,
+        id: 111,
         question: `How many valence electrons are present in an atom with the electron configuration ${eConfig(
           "1s",
           2,
@@ -4007,7 +5441,7 @@ let chemistryQuestions = [
         ans: "A",
       },
       {
-        id: 5,
+        id: 112,
         question: `How many valence electrons are present in an atom with the electron configuration ${eConfig(
           "1s",
           2,
@@ -4024,19 +5458,19 @@ let chemistryQuestions = [
         ans: "C",
       },
       {
-        id: 6,
+        id: 113,
         question: `How many valence electrons are present in atoms of Li, a Group IA element?`,
         options: ["one", "two", "three", "no correct response"],
         ans: "A",
       },
       {
-        id: 7,
+        id: 114,
         question: `How many 'dots' are present in the Lewis symbol for the element oxygen, a Group VIA element`,
         options: ["two", "four", "six", "no correct response"],
         ans: "C",
       },
       {
-        id: 7,
+        id: 115,
         question: `Which of the following elements should have the same number of valence electrons as ${isotope(
           "",
           "7",
@@ -4051,7 +5485,7 @@ let chemistryQuestions = [
         ans: "C",
       },
       {
-        id: 8,
+        id: 116,
         question: `The most stable of all valence electron configurations is that of the`,
         options: [
           `element carbon`,
@@ -4062,7 +5496,7 @@ let chemistryQuestions = [
         ans: "C",
       },
       {
-        id: 9,
+        id: 117,
         question: `Which of the following is a very stable valence electron configuration?`,
         options: [
           `${eConfig("ns", 2, "np", 2)}`,
@@ -4073,7 +5507,7 @@ let chemistryQuestions = [
         ans: "C",
       },
       {
-        id: 10,
+        id: 118,
         question: `The octet rule relates to the number 8 because`,
         options: [
           `Atoms undergo chemical reaction only if 8 valence electrons are present.`,
@@ -4084,7 +5518,7 @@ let chemistryQuestions = [
         ans: "C",
       },
       {
-        id: 11,
+        id: 119,
         question: `In terms of subatomic particles, a ${ion(
           "Ca",
           2,
@@ -4099,7 +5533,7 @@ let chemistryQuestions = [
         ans: "B",
       },
       {
-        id: 12,
+        id: 120,
         question: `Which of the following is the correct symbol for an atom of X that has gained three electrons?`,
         options: [
           `${ion("X", 3, "+")}`,
@@ -4110,7 +5544,7 @@ let chemistryQuestions = [
         ans: "B",
       },
       {
-        id: 13,
+        id: 121,
         question: `An ${ion("Al", 3, "+")} ion is an Al atom that has`,
         options: [
           `lost three electrons`,
@@ -4121,7 +5555,7 @@ let chemistryQuestions = [
         ans: "A",
       },
       {
-        id: 14,
+        id: 122,
         question: `Ion formation through loss of electrons`,
         options: [
           `always produces a negative ion`,
@@ -4132,7 +5566,7 @@ let chemistryQuestions = [
         ans: "B",
       },
       {
-        id: 15,
+        id: 123,
         question: `An atom with a ${eConfig(
           "1s",
           2,
@@ -4145,19 +5579,19 @@ let chemistryQuestions = [
         ans: "C",
       },
       {
-        id: 16,
+        id: 124,
         question: `An atom with one valence electron would most likely form a`,
         options: [`1+ ion`, `1- ion`, `7+ ion`, "no correct response"],
         ans: "A",
       },
       {
-        id: 17,
+        id: 125,
         question: `Magnesium and Fluorine would, respectively, be expected to form ions with charges of`,
         options: [`2+ and 1-`, `1+ and 2-`, `2+ and 7+`, "no correct response"],
         ans: "A",
       },
       {
-        id: 18,
+        id: 126,
         question: `Two ions that are isoelectric would have the same`,
         options: [
           `nuclear charge`,
@@ -4168,13 +5602,13 @@ let chemistryQuestions = [
         ans: "C",
       },
       {
-        id: 19,
+        id: 127,
         question: `The ion ${ion("O", 2, "-")} is isoelectronic with a`,
         options: [`N atom`, `F atom`, `Ne atom`, "no correct response"],
         ans: "C",
       },
       {
-        id: 20,
+        id: 128,
         question: `In forming the ionic compound ${formula(
           "K",
           2,
@@ -4184,13 +5618,13 @@ let chemistryQuestions = [
         ans: "B",
       },
       {
-        id: 21,
+        id: 129,
         question: `In forming an ionic compound from Ca(2 valence electrons) and S(6 valence electrons), how many calcium atoms are needed to meet the "electron needs" of one S atom?`,
         options: [`one`, `two`, `three`, "no correct response"],
         ans: "A",
       },
       {
-        id: 22,
+        id: 130,
         question: `When magnesium(2 valence electrons) combines with chlorine(7 valence electrons) the resulting ionic compound has the chemical formula`,
         options: [
           `${formula("MgCl")}`,
@@ -4201,7 +5635,7 @@ let chemistryQuestions = [
         ans: "C",
       },
       {
-        id: 23,
+        id: 131,
         question: `What is the chemical formula of the ionic compound formed when ${ion(
           "Ca",
           2,
@@ -4216,7 +5650,7 @@ let chemistryQuestions = [
         ans: "C",
       },
       {
-        id: 24,
+        id: 132,
         question: `What is the chemical formula of the ionic compound formed when ${ion(
           "Al",
           3,
@@ -4231,7 +5665,7 @@ let chemistryQuestions = [
         ans: "A",
       },
       {
-        id: 25,
+        id: 133,
         question: `Given that ${ion(
           "Z",
           "2",
@@ -4245,7 +5679,7 @@ let chemistryQuestions = [
         ans: "A",
       },
       {
-        id: 26,
+        id: 134,
         question: `The correct chemical formula for an ionic compound that contains ${ion(
           "Z",
           "2",
@@ -4260,7 +5694,7 @@ let chemistryQuestions = [
         ans: "B",
       },
       {
-        id: 27,
+        id: 135,
         question: `The structure of an ionic compound, in the solid state, involves which of the following?`,
         options: [
           `individual molecules in which positive and negative are present`,
@@ -4271,7 +5705,7 @@ let chemistryQuestions = [
         ans: "C",
       },
       {
-        id: 28,
+        id: 136,
         question: `Which of the following is a correct description of the structure of the ionic compound NaCl?`,
         options: [
           `Alternating layers of ${ion("Na", "+", "")} and ${ion(
@@ -4290,7 +5724,7 @@ let chemistryQuestions = [
         ans: "C",
       },
       {
-        id: 29,
+        id: 137,
         question: `Which of the following is a characteristic of binary ionic compounds?`,
         options: [
           `Two different metals are present.`,
@@ -4301,7 +5735,7 @@ let chemistryQuestions = [
         ans: "C",
       },
       {
-        id: 30,
+        id: 138,
         question: `Which of the following is a binary ionic compound`,
         options: [
           `${formula("SO", 3)}`,
@@ -4312,7 +5746,7 @@ let chemistryQuestions = [
         ans: "D",
       },
       {
-        id: 31,
+        id: 139,
         question: `The correct name for the binary ionic compound NaF is`,
         options: [
           `sodium fluoride`,
@@ -4323,7 +5757,7 @@ let chemistryQuestions = [
         ans: "A",
       },
       {
-        id: 32,
+        id: 140,
         question: `Which of the following binary ionic compounds is paired with an incorrect name?`,
         options: [
           `${formula("CaS")} -> calcium sulfide`,
@@ -4334,13 +5768,13 @@ let chemistryQuestions = [
         ans: "B",
       },
       {
-        id: 33,
+        id: 142,
         question: `Which of the following is a variable charge metal?`,
         options: [`Zn`, `Ag`, `K`, "no correct response"],
         ans: "D",
       },
       {
-        id: 34,
+        id: 142,
         question: `Which of the following binary ionic compounds has a name that includes a Roman numeral?`,
         options: [
           `${formula("Na", 2, "O")}`,
@@ -4351,7 +5785,7 @@ let chemistryQuestions = [
         ans: "B",
       },
       {
-        id: 35,
+        id: 143,
         question: `The correct name for the binary ionic compound ${formula(
           "Cu",
           2,
@@ -4366,7 +5800,7 @@ let chemistryQuestions = [
         ans: "B",
       },
       {
-        id: 36,
+        id: 144,
         question: `What is the chemical formula for the compound tin(II) oxide`,
         options: [
           `${formula("SnO")}`,
@@ -4377,7 +5811,7 @@ let chemistryQuestions = [
         ans: "A",
       },
       {
-        id: 37,
+        id: 145,
         question: `Which of the following chemical formulas is that of a polyatomic ion?`,
         options: [
           `${ion("Cl", "-", "")}`,
@@ -4388,7 +5822,7 @@ let chemistryQuestions = [
         ans: "B",
       },
       {
-        id: 38,
+        id: 146,
         question: `Which of the following statements about polyatomic ions is correct?`,
         options: [
           `All must contain oxygen`,
@@ -4399,7 +5833,7 @@ let chemistryQuestions = [
         ans: "D",
       },
       {
-        id: 39,
+        id: 147,
         question: `The nitrate, sulfate, and phosphate ions have, respectively, the chemical formulas`,
         options: [
           `${ion(formula("NO", 4), "-", "")}, ${ion(
@@ -4422,7 +5856,7 @@ let chemistryQuestions = [
         ans: "C",
       },
       {
-        id: 40,
+        id: 148,
         question: `The hydronium, ammonium, and hydroxide ions have, respectively, the chemical formulas`,
         options: [
           `${ion(formula("H", 3, "O"), "+", "")}, ${ion(
@@ -4442,7 +5876,7 @@ let chemistryQuestions = [
         ans: "C",
       },
       {
-        id: 41,
+        id: 149,
         question: `The hydronium, ammonium, and hydroxide ions have, respectively, the chemical formulas`,
         options: [
           `${ion(formula("H", 3, "O"), "+", "")}, ${ion(
@@ -4462,7 +5896,7 @@ let chemistryQuestions = [
         ans: "C",
       },
       {
-        id: 42,
+        id: 150,
         question: `What is the chemical formula for a compound that contains ${ion(
           "K",
           "+"
@@ -4476,7 +5910,7 @@ let chemistryQuestions = [
         ans: "C",
       },
       {
-        id: 43,
+        id: 152,
         question: `What is the chemical formula for a compound that contains ${ion(
           "Al",
           3,
@@ -4491,7 +5925,7 @@ let chemistryQuestions = [
         ans: "C",
       },
       {
-        id: 44,
+        id: 152,
         question: `The compound ${formula("Mg", "(SCN)", 2)} contains ${ion(
           "Mg",
           2,
@@ -4501,7 +5935,7 @@ let chemistryQuestions = [
         ans: "B",
       },
       {
-        id: 45,
+        id: 153,
         question: `What is the name for the compound ${formula(
           "Na",
           2,
@@ -4517,7 +5951,7 @@ let chemistryQuestions = [
         ans: "C",
       },
       {
-        id: 46,
+        id: 154,
         question: `What is the name for the compound ${formula(
           `(${formula("NH", 4)})`,
           2,
@@ -4532,7 +5966,7 @@ let chemistryQuestions = [
         ans: "B",
       },
       {
-        id: 47,
+        id: 155,
         question: `What is the chemical formula for the compound copper(II) nitrate?`,
         options: [
           `${formula("Cu", "NO", 3)}`,
@@ -4542,1636 +5976,831 @@ let chemistryQuestions = [
         ],
         ans: "B",
       },
-      // a polyatomic ion is an ion formed from a group of atoms(held together by covalent bonds) through loss or gain of electrons
+    ],
+  },
+  // {   /// more questions
+  //   topic: "Chemical calculations",
+  //   questions: [
+  //     {
+  //       id: 16,
+  //       question: `When the chemical equation Na + S -> ${formula(
+  //         "Na",
+  //         2,
+  //         "S"
+  //       )} is correctly balanced, the proper sequence of coefficients is`,
+  //       options: [`1,2,2`, `2,1,2`, `2,1,2`, "no correct response"],
+  //       ans: "D",
+  //     },
+  //     {
+  //       id: 17,
+  //       question: `When the chemical equation Al + ${formula(
+  //         "O",
+  //         2
+  //       )} -> ${formula(
+  //         "Al",
+  //         2,
+  //         "O",
+  //         3
+  //       )} is correctly balanced, which of the following expressions appears in it?`,
+  //       options: [
+  //         `3 Al`,
+  //         `3 ${formula("O", 2)}`,
+  //         `3 ${formula("Al", 2, "O", 3)}`,
+  //         "no correct response",
+  //       ],
+  //       ans: "B",
+  //     },
+  //     {
+  //       id: 18,
+  //       question: `A balanced chemical equation contains the expression 2 ${formula(
+  //         "Fe",
+  //         "Cl",
+  //         3
+  //       )}. How many atoms does this expression represents?`,
+  //       options: [`two`, `four`, `eight`, "no correct response"],
+  //       ans: "C",
+  //     },
 
-      // another name for hydronium is oxonium ion...
-    ],
-  },
-  {
-    topic: "Chemical calculation LTE",
+  //     {
+  //       id: 19,
+  //       question: `Which of the following elemental gases is not written as a diatomic molecule in a chemical equation?`,
+  //       options: [`hydrogen`, `nitrogen`, `helium`, "no correct response"],
+  //       ans: "C",
+  //     },
+  //     {
+  //       id: 20,
+  //       question: `Which of the following statements is true for all balanced chemical equations?`,
+  //       options: [
+  //         `The sum of the coefficients on each side of the equation must be equal.`,
+  //         `The sum of the formula subscripts on each side of the equation must be equal`,
+  //         `The total number of atoms on each side of the equation must be equal.`,
+  //         "no correct response",
+  //       ],
+  //       ans: "C",
+  //     },
+  //     {
+  //       id: 21,
+  //       question: `Which of the following statements is consistent with the information found in the chemical equation ${formula(
+  //         "N",
+  //         2
+  //       )} + 3${formula("H", 2)} -> 2${formula("NH", 3)}?`,
+  //       options: [
+  //         `1 mole of ${formula("NH", 3)} is produced when 1 mole of ${formula(
+  //           "N",
+  //           2
+  //         )} reacts`,
+  //         `3 moles of ${formula(
+  //           "H",
+  //           2
+  //         )} are needed to produce 1 mole of ${formula("NH", 3)}`,
+  //         `${formula("N", 2)} and ${formula(
+  //           "H",
+  //           2
+  //         )} react in a 1-to-3 molar ratio`,
+  //         "no correct response",
+  //       ],
+  //       ans: "C",
+  //     },
+  //     {
+  //       id: 22,
+  //       question: `How many moles of Al are needed to produce 6.0 moles of ${formula(
+  //         "Al",
+  //         2,
+  //         "S",
+  //         3
+  //       )} via the chemical reaction 2${formula("Al")} + 3S -> ${formula(
+  //         "Al",
+  //         2,
+  //         "S",
+  //         3
+  //       )}`,
+  //       options: [
+  //         `2.0 moles`,
+  //         `6.0 moles`,
+  //         `12.0 moles`,
+  //         "no correct response",
+  //       ],
+  //       ans: "C",
+  //     },
+  //     {
+  //       id: 23,
+  //       question: `How many moles of ${formula(
+  //         "CO",
+  //         2
+  //       )} are formed at the same time 2.0 moles of ${formula(
+  //         "H",
+  //         2,
+  //         "O"
+  //       )} are formed in the chemical reaction ${formula("CH", 4)} + 2${formula(
+  //         "O",
+  //         2
+  //       )} -> ${formula("CO", 2)} + 2${formula("H", 2, "O")}`,
+  //       options: [`2.0 moles`, `3.0 moles`, `4.0 moles`, "no correct response"],
+  //       ans: "D",
+  //     },
+  //     {
+  //       id: 24,
+  //       question:
+  //         "How many moles of calcium trioxocarbonate(IV) are there in 2.5g of calcium trioxocarbonate(IV) <br /> { C = 12; O = 16; Ca = 40 }",
+  //       options: [`0.0025`, `0.025`, `0.25`, `2.5`],
+  //       ans: "E",
+  //     },
+  //     {
+  //       id: 25,
+  //       question: "One mole of a substance contains the",
+  //       options: [
+  //         `atomic number of particles`,
+  //         `faraday's number of particles`,
+  //         `Avogadro's number of particles`,
+  //         `quantum number of particles`,
+  //       ],
+  //       ans: "E",
+  //     },
+  //     {
+  //       id: 26,
+  //       question:
+  //         "The number of hydrogen ions in 9.8g of tetraoxosulphate(VI) acid solution is",
+  //       options: [
+  //         `6.02 X ${exp(23)}`,
+  //         `6.02 X ${exp(22)}`,
+  //         `1.20 X ${exp(22)}`,
+  //         `1.20 X ${exp(23)}`,
+  //       ],
+  //       ans: "E",
+  //     },
+  //     {
+  //       id: 27,
+  //       question: `What mass of ${formula(
+  //         "SO",
+  //         2
+  //       )} contains the same number of molecules of 0.8g of ${formula(
+  //         "CH",
+  //         4
+  //       )} <br /> { ${formula("SO", 2)} = 64g/mol; ${formula(
+  //         "CH",
+  //         4
+  //       )} = 16g/mol }`,
+  //       options: [`3.2g`, `0.32g`, `6.4g`, `0.64g`],
+  //       ans: "E",
+  //     },
+  //     {
+  //       id: 28,
+  //       question: `One mole of a compound ${formula(
+  //         "MHCO",
+  //         3
+  //       )} has a mass of 84g. Calculate the relative atomic mass of M. <br /> { H = 1; C = 12, O = 16 }`,
+  //       options: [`61`, `42`, `26`, `23`],
+  //       ans: "E",
+  //     },
+  //     {
+  //       id: 28,
+  //       question: `How many molecules of phosphorus (${formula(
+  //         "P",
+  //         4
+  //       )}) are present in 496g of the substance? <br /> { P = 31; N<sub>A</sub> = 6.0 X ${exp(
+  //         23
+  //       )}${units("mol", -1)} }`,
+  //       options: [
+  //         `1.20 X ${exp(23)}`,
+  //         `1.20 X ${exp(24)}`,
+  //         `2.40 X ${exp(23)}`,
+  //         `2.40 X ${exp(24)}`,
+  //       ],
+  //       ans: "E",
+  //     },
+  //     {
+  //       id: 29,
+  //       question: `Upon heating 1.25g of a solid, 280${units(
+  //         "cm",
+  //         3
+  //       )} of a gas measured at S.T.P  were evolved and a residue of 0.7g was left. Calculate the molar mass of the gas? [Molar volume of a gas at s.t.p = 22.4${units(
+  //         "dm",
+  //         3
+  //       )}]`,
+  //       options: [`64g`, `44g`, `32g`, `16g`],
+  //       ans: "E",
+  //     },
+  //     {
+  //       id: 30,
+  //       question: `What is the mass of 2.3 mole of sodium`,
+  //       options: [`53g`, `230g`, `23g`, `46g`],
+  //       ans: "E",
+  //     },
+  //     {
+  //       id: 31,
+  //       question: `How many moles of iron(III) oxide are contained in 1kg of the compound? <br /> { Fe = 56; O = 16 }`,
+  //       options: [`3.125 moles`, `0.3125 mole`, `0.625 mole`, `6.25 moles`],
+  //       ans: "E",
+  //     },
+  //     {
+  //       id: 32,
+  //       question: `The number of atoms of chlorine present in 7,45g of KCl is`,
+  //       options: [
+  //         `6.02 X ${exp(23)}`,
+  //         `6.02 X ${exp(22)}`,
+  //         `7.45 X ${exp(23)}`,
+  //         `7.45 X ${exp(22)}`,
+  //       ],
+  //       ans: "E",
+  //     },
+  //     {
+  //       id: 34,
+  //       question: `How many atoms of oxygen are present in 8.8g of carbon(IV) oxide?`,
+  //       options: [
+  //         `6.02 X ${exp(22)}`,
+  //         `2.41 X ${exp(22)}`,
+  //         `2.41 X ${exp(23)}`,
+  //         `2.41 X ${exp(24)}`,
+  //       ],
+  //       ans: "E",
+  //     },
+  //     {
+  //       id: 35,
+  //       question: `What is the mass of potassium hydroxide present in 500${units(
+  //         "cm",
+  //         3
+  //       )} of 2${units(
+  //         "moldm",
+  //         -3
+  //       )} solution of the compound <br /> { K = 39; O = 16; H = 1}`,
+  //       options: [`40g`, `56g`, `112g`, `28g`],
+  //       ans: "E",
+  //     },
+  //     {
+  //       id: 36,
+  //       question: `The ratio of the number of molecules of 4g of hydrogen to that in 20g of oxygen is`,
+  //       options: [`2 : 1`, `1 : 1`, `1 : 2`, `1 : 4`],
+  //       ans: "E",
+  //     },
+  //     {
+  //       id: 37,
+  //       question: `Which of the following is the same as 24g of magnesium? <br /> { Mg = 24; H = 1; O = 16; Cl = 35.5 }`,
+  //       options: [
+  //         `1g of hydrogen molecules`,
+  //         `16g of oxygen molecules`,
+  //         `32g of oxygen molecules`,
+  //         `35.5g of chlorine molecules`,
+  //       ],
+  //       ans: "E",
+  //     },
+  //     {
+  //       id: 38,
+  //       question: `The chloride of a metal (M) consists of 79.78% of chlorine by mass. What is the empirical formual of the chloride? (M = 27; Cl = 35,5)`,
+  //       options: [
+  //         `MCl`,
+  //         `${formula("MCl", 2)}`,
+  //         `${formula("MCl", 3)}`,
+  //         `${formula("MCl", 4)}`,
+  //       ],
+  //       ans: "E",
+  //     },
+  //     {
+  //       id: 39,
+  //       question: `An oxide of nitrogen contains 69.6% of oxygen by mass. Its empirical formula is`,
+  //       options: [
+  //         `${formula("N", 2, "O", 3)}`,
+  //         `${formula("N", 2, "O", 2)}`,
+  //         `${formula("N", 2, "O")}`,
+  //         `${formula("NO", 2)}`,
+  //       ],
+  //       ans: "E",
+  //     },
+  //     {
+  //       id: 40,
+  //       question: `Upon heating 1${units(
+  //         "dm",
+  //         3
+  //       )} of a monoatomic gas, Y, it combines with 1.5${units(
+  //         "dm",
+  //         3
+  //       )} of oxygen to form an oxide. The empirical formula of the oxide is`,
+  //       options: [
+  //         `${formula("Y", 3, "O", 2)}`,
+  //         `${formula("Y", 2, "O", 3)}`,
+  //         `${formula("YO", 2)}`,
+  //         `${formula("YO", 3)}`,
+  //       ],
+  //       ans: "E",
+  //     },
+  //     {
+  //       id: 41,
+  //       question: `5.00g of an oxide of a metal (M) gave 4.00g of the metal when reduced with hydrogen. What is the empirical formula of the oxide? <br /> { M = 64; O = 16 }`,
+  //       options: [
+  //         `${formula("Y", 3, "O", 2)}`,
+  //         `${formula("Y", 2, "O", 3)}`,
+  //         `${formula("YO", 2)}`,
+  //         `${formula("YO", 3)}`,
+  //       ],
+  //       ans: "E",
+  //     },
+  //     // {
+  //     //   id: 42,
+  //     //   question: `What is the empirical formula of an organic compound containing 40% carbon and 6.67% hydrogen by mass? <br /> { C = 12; H = 1; O = 16 }`,
+  //     //   options: [
+  //     //     `${formula("CH", 2)}``${formula("CH", 3)}``${formula(
+  //     //       "CH",
+  //     //       2,
+  //     //       "O"
+  //     //     )}``${formula("CH", 3, "O")}`,
+  //     //   ],
+  //     //   ans: "E",
+  //     // },
+  //     {
+  //       id: 43,
+  //       question: `An element, A, has the electronic configuration ${eConfig(
+  //         "1s",
+  //         2,
+  //         "2s",
+  //         2,
+  //         "2p",
+  //         6,
+  //         "3s",
+  //         2,
+  //         "3p",
+  //         3
+  //       )}. The combination of A with a halogen X can give compounds of formula(e)`,
+  //       options: [
+  //         `${formula("AX", 3)} and ${formula("AX", 5)}``${formula(
+  //           "AX",
+  //           3
+  //         )} only``${formula("AX", 5)}``${formula("AX")} and ${formula(
+  //           "AX",
+  //           2
+  //         )}`,
+  //       ],
+  //       ans: "E",
+  //     },
+  //     {
+  //       id: 44,
+  //       question: `The molar ratio of hydrogen to carbon in an organic liquid compound is 2 : 1. On evaporation at s.t.p, 0.24g of compound produced 64${units(
+  //         "cm",
+  //         3
+  //       )} of vapour. What is the molecular formula of the liquid compound? <br /> { C= 12; H = 1, molar volume of a gas at s.t.p = 22.4${units(
+  //         "dm",
+  //         3
+  //       )} }`,
+  //       options: [
+  //         `${formula("C", 4, "H", 8)}``${formula("C", 5, "H", 10)}``${formula(
+  //           "C",
+  //           6,
+  //           "H",
+  //           6
+  //         )}``${formula("C", 6, "H", 12)}`,
+  //       ],
+  //       ans: "E",
+  //     },
+  //     {
+  //       id: 45,
+  //       question: `Which of the following formula is correct for compounds of an element Y having a combining power of 3?`,
+  //       options: [
+  //         `${formula("YSO", 4)}``${formula("Y", 2, "O", 3)}``${formula(
+  //           "YS",
+  //           3
+  //         )}``${formula("Y", 3, "Cl", 2)}`,
+  //       ],
+  //       ans: "E",
+  //     },
+  //     {
+  //       id: 45,
+  //       question: `What is the percentage by mass of carbon in the compound ${formula(
+  //         "Na",
+  //         2,
+  //         "CO",
+  //         3
+  //       )}.10${formula(
+  //         "H",
+  //         2,
+  //         "O"
+  //       )}? <br /> { H = 1, C = 12, O = 16, Na = 23 }`,
+  //       options: [`16.1`, `16.8`, `28.1`, `9.4`],
+  //       ans: "E",
+  //     },
+  //     {
+  //       id: 46,
+  //       question: `What is the percentage by mass of aluminum in ${formula(
+  //         "Al",
+  //         2,
+  //         `(${formula("SO", 4)}), 3`
+  //       )}? <br /> { Al = 27, S = 32, O = 16 }`,
+  //       options: [`15.8`, `14.7`, `28.1`, `9.4`],
+  //       ans: "E",
+  //     },
+  //     {
+  //       id: 47,
+  //       question: `What is the value of x in the molecular formula, ${formula(
+  //         "Pb",
+  //         `(${formula("NO", 3)}),"x`
+  //       )} if the percentage by mass of nitrogen is 8.46? <br /> { Pb = 207; N = 14; O = 16 }`,
+  //       options: [`1`, `2`, `3`, `4`],
+  //       ans: "E",
+  //     },
+  //     {
+  //       id: 48,
+  //       question: `The atomic and molecular mass of nitrogen are respectively`,
+  //       options: [
+  //         "14.00 amu and 28.00 amu",
+  //         "28.00 amu and 14.00 amu",
+  //         "14.00 amu and 14.00 amu",
+  //         "28.00 amu and 28.00 amu",
+  //       ],
+  //       ans: `A`,
+  //       remark: `Atomic mass is the mass of one atom of nitrogen while molecular mass is the mass of a molecule of ${formula(
+  //         "N",
+  //         2
+  //       )}. Nitrogen exists as a diatomic molecule.`,
+  //     },
+  //     {
+  //       id: 49,
+  //       question: `What is the molecular mass of ${formula(
+  //         "(",
+  //         formula("NH", 4),
+  //         ")",
+  //         2,
+  //         "SO",
+  //         4
+  //       )}
+  //       <br />
+  //       { N = 14, H = 1, S = 32, O = 16 }`,
+  //       options: [
+  //         "132.00 amu",
+  //         "134.00 amu",
+  //         "136.00 amu",
+  //         "no correct response",
+  //       ],
+  //       ans: `D`,
+  //       remark: `${formula(
+  //         "(",
+  //         formula("NH", 4),
+  //         ")",
+  //         2,
+  //         "SO",
+  //         4
+  //       )} is an ionic compound and ionic compounds don't have molecules as their basic structural unit, hence <strong>NO</strong> molecular mass but formula mass`,
+  //     },
+  //     {
+  //       id: 49,
+  //       question: `Which of the following have molecular mass`,
+  //       options: [
+  //         `${formula("Cl", 2, "O")}`,
+  //         `${formula("Na", 2, "SO", 3)}`,
+  //         `${formula("Al", 2, "O", 3)}`,
+  //         `no correct response`,
+  //       ],
+  //       ans: `A`,
+  //       remark: `Only compounds that have covalent bonds between its atoms exist as molecules.`,
+  //     },
+  //     {
+  //       id: 50,
+  //       question: `Calculate the formula mass of ${formula(
+  //         "(",
+  //         formula("NH", 4),
+  //         ")",
+  //         2,
+  //         "SO",
+  //         4
+  //       )},
+  //       <br />
+  //       { N = 14, H = 1, S = 32, O = 16 }`,
+  //       options: [
+  //         "132.00 amu",
+  //         "134.00 amu",
+  //         "136.00 amu",
+  //         "no correct response",
+  //       ],
+  //       ans: `A`,
+  //     },
+  //     {
+  //       id: 51,
+  //       question: `Calculate the formula mass of ${formula(
+  //         "Fe",
+  //         "(",
+  //         formula("NO", 3),
+  //         ")",
+  //         2
+  //       )}
+  //       <br />
+  //       { Fe = 56, N = 14, O = 16 }`,
+  //       options: ["180 amu", "178 amu", "176 amu", "no correct response"],
+  //       ans: `A`,
+  //     },
+  //     {
+  //       id: 52,
+  //       question: `Calculate the formula mass of ${formula(
+  //         "Zn",
+  //         "(",
+  //         formula("C", 2, "H", 3, "O", 2),
+  //         ")",
+  //         2
+  //       )}
+  //       <br />
+  //       { Zn = 65, C = 12, H = 1, O = 16 }`, // making sense // I can render these stuff but abeg jare...
+  //       options: ["182 amu", "183 amu", "184 amu", "no correct response"],
+  //       ans: `B`,
+  //     },
+  //     {
+  //       id: 53,
+  //       question: `Calculate the percent composition of ${formula(
+  //         "Fe",
+  //         "(",
+  //         formula("NO", 3),
+  //         ")",
+  //         2
+  //       )}
+  //       <br />
+  //       { Fe = 56, N = 14, O = 16 }`,
+  //       options: [
+  //         "29% Fe, 17% N, 54% O",
+  //         "31% Fe, 16% N, 53% O",
+  //         "16% Fe, 54% N, 31% O",
+  //         "no correct response",
+  //       ],
+  //       ans: `B`,
+  //     },
+  //     {
+  //       id: 54,
+  //       question: `Calculate the formula mass of ${formula(
+  //         "Na",
+  //         2,
+  //         "Cr",
+  //         2,
+  //         "O",
+  //         7
+  //       )}
+  //       <br />
+  //       { Na = 23, Cr = 52, O = 16 }`,
+  //       options: ["190 amu", "263 amu", "268 amu", "no correct response"],
+  //       ans: `D`, // => the answer is 262 amu...
+  //     },
+  //     {
+  //       id: 55,
+  //       question: `Calculate the percent composition of ${formula("CH", 4, "O")}
+  //       <br />
+  //       { C = 12, H = 1, O = 16 }`,
+  //       options: [
+  //         "37.5% C, 12.5% H, 50% O", // <= correcto...
+  //         "12.5% C, 37.5% C, 50% O",
+  //         "50% C, 12.5% H, 37.5% O",
+  //         "no correct response",
+  //       ],
+  //       ans: `A`,
+  //     },
+  //     {
+  //       // must be calculated correctly if I don't want any anomaly...
+  //       // not yet calculated
+  //       id: 56,
+  //       question: `Calculate the percent composition of TNT ${formula(
+  //         "C",
+  //         7,
+  //         "H",
+  //         5,
+  //         "N",
+  //         3,
+  //         "O",
+  //         6
+  //       )}
+  //       <br />
+  //       { C = 12, H = 1, N = 14, O = 16 }`,
+  //       options: [
+  //         "41.38% C, 2.46% H, 20.69% N, 35% O",
+  //         "42% C, 2.5% H, 21% N, 36% O",
+  //         "41.3% C, 3.00% H, 20.69% N, 35.47% O",
+  //         "no correct response",
+  //       ],
+  //       ans: `D`, // ans is 41.38% C, 2.46% H, 20.69% N, 35.47% O
+  //     },
+  //     {
+  //       id: 57,
+  //       question:
+  //         "The formula mass for a compound is calculated by summing which of the following numbers for all atoms in a formula unit of the compound?",
+  //       options: [
+  //         "atomic number",
+  //         "mass number",
+  //         "nuclear charge",
+  //         "no correct response",
+  //       ],
+  //       ans: "D",
+  //     },
+  //     {
+  //       id: 58,
+  //       question: `The atomic mass of C is 12.01 amu and that of O is 16.00 amu. The formula mass for the compound ${formula(
+  //         "CO",
+  //         2
+  //       )} is:`,
+  //       options: ["28.01 amu", "44.01 amu", "56.02 amu", "no correct response"],
+  //       ans: "B",
+  //     },
+  //     {
+  //       id: 59,
+  //       question: `The atomic mass of H is 1.01 amu and that of N is 14.01 amu. What is the value of x in the chemical formula NH<sub>x</sub>, given that the formula mass of this compound is 17.04 amu?`,
+  //       options: ["2", "3", "4", "no correct response"],
+  //       ans: "B",
+  //     },
+  //     {
+  //       id: 60,
+  //       question: `The numerical value for Avogadro's number is`,
+  //       options: [
+  //         `6.02 X ${exp(21)}`,
+  //         `6.02 X ${exp(24)}`,
+  //         `6.02 X ${exp(26)}`,
+  //         "no correct response",
+  //       ],
+  //       ans: "D",
+  //     },
+  //     {
+  //       id: 61,
+  //       question: `The number of atoms present in 1 mole of P atoms is`,
+  //       options: [
+  //         `6.02 X ${exp(21)}`,
+  //         `6.02 X ${exp(23)}`,
+  //         `6.02 X ${exp(25)}`,
+  //         "no correct response",
+  //       ],
+  //       ans: "B",
+  //     },
+  //     {
+  //       id: 62,
+  //       question: `One mole of S atoms contains twice as many atoms as`,
+  //       options: [
+  //         `one mole of O atoms`,
+  //         `one-half mole of O atoms`,
+  //         `one-eight mole of O atoms`,
+  //         "no correct response",
+  //       ],
+  //       ans: "B",
+  //     },
+  //     {
+  //       id: 63,
+  //       question: `The number of molecules present in 1.50 moles of ${formula(
+  //         "CO",
+  //         2
+  //       )} is`,
+  //       options: [
+  //         `Avogadro's number`,
+  //         `1.50 times Avogadro's number`,
+  //         `Avogadro's number divided by 1.50`,
+  //         "no correct response",
+  //       ],
+  //       ans: "B",
+  //     },
+  //     {
+  //       id: 64,
+  //       question: `Which set of quantities is needed to calculate the molar mass of a compound?`,
+  //       options: [
+  //         `chemical formula and Avogadro's number`,
+  //         `chemical formula and atomic masses`,
+  //         `atomic masses and Avogadro's number`,
+  //         "no correct response",
+  //       ],
+  //       ans: "B",
+  //     },
+  //     {
+  //       id: 65,
+  //       question: `The atomic mass of O is 16.00 amu. The molar mass for O atoms is`,
+  //       options: [
+  //         `16.00 amu`,
+  //         `6.02 X ${exp(23)} amu`,
+  //         `16.00 g`,
+  //         "no correct response",
+  //       ],
+  //       ans: "C",
+  //     },
+  //     {
+  //       id: 66,
+  //       question: `The atomic masses of N and O are, respectively, 14.01 amu and 16.00 amu. The molar mass of the compound ${formula(
+  //         "NO",
+  //         2
+  //       )} is`,
+  //       options: [`30.01 g`, `44.02 g`, `46.01 g`, "no correct response"],
+  //       ans: "C",
+  //     },
+  //     {
+  //       id: 67,
+  //       question: `The molar mass of ${formula(
+  //         "CO",
+  //         2
+  //       )} is 44.01 g. What is the mass, in amu, of one molecule of ${formula(
+  //         "CO",
+  //         2
+  //       )}?`,
+  //       options: [
+  //         `44.01 g`,
+  //         `44.01 amu`,
+  //         `44.01 amu times Avogadro's number`,
+  //         "no correct response",
+  //       ],
+  //       ans: "B",
+  //     },
+  //     {
+  //       id: 68,
+  //       question: `The formula mass of ${formula(
+  //         "N",
+  //         2,
+  //         "O"
+  //       )} is 44.02 amu. What is the mass, in grams, of one-half mole of ${formula(
+  //         "N",
+  //         2,
+  //         "O"
+  //       )}?`,
+  //       options: [`88.04 g`, `44.02 g`, `22.01 g`, "no correct response"],
+  //       ans: "C",
+  //     },
+  //     {
+  //       id: 69,
+  //       question: `How many moles of H atoms are present in one mole of ${formula(
+  //         "H",
+  //         3,
+  //         "PO",
+  //         4
+  //       )} molecules?`,
+  //       options: [`1 mole`, `2 moles`, `3 moles`, "no correct response"],
+  //       ans: "C",
+  //     },
+  //     {
+  //       id: 70,
+  //       question: `Which of the following samples contains 4.0 moles of O atoms?`,
+  //       options: [
+  //         `1.0 mole ${formula("SO", 2)}`,
+  //         `2.0 moles ${formula("SO", 2)}`,
+  //         `1.0 mole ${formula("SO", 3)}`,
+  //         "no correct response",
+  //       ],
+  //       ans: "B",
+  //     },
+  //     {
+  //       id: 71,
+  //       question: `The total number of moles of atoms present in 4.00 moles of ${formula(
+  //         "CO",
+  //         2
+  //       )} is`,
+  //       options: [
+  //         `3.00 moles`,
+  //         `8.00 moles`,
+  //         `12.0 moles`,
+  //         "no correct response",
+  //       ],
+  //       ans: "C",
+  //     },
+  //     {
+  //       id: 72,
+  //       question: `Determine the empirical formula of a compound that has a percent composition of 43.7% P and 56.3% O`,
+  //       options: [
+  //         `${formula("P", 2, "O", 4)}`,
+  //         `${formula("P", 2, "O", 5)}`,
+  //         `${formula("P", 3, "O", 5)}`,
+  //         "no correct response",
+  //       ],
+  //       ans: "B",
+  //     },
+  //     {
+  //       id: 73,
+  //       question: `Determine the empirical formula of a compound if a sample of the compound contains 3.524 g of iron, 3.034 g of sulfur, and 4.542 g of oxygen.`,
+  //       options: [
+  //         `${formula("Fe", "S", "O")}`,
+  //         `${formula("Fe", 2, "S", 3, "O", 9)}`,
+  //         `${formula("Fe", 2, "S", 3, "O", 5)}`,
+  //         "no correct response",
+  //       ],
+  //       ans: "B",
+  //     },
+  //     {
+  //       id: 74,
+  //       question: `Determine the molecular formula of styrene, used to prepare the plastic wrapping material polystyrene. It is a compound of carbon and hydrogen only that contains 92.26% carbon, and has a molar mass of 104 g/mol.`,
+  //       options: [
+  //         `${formula("CH")}`,
+  //         `${formula("C", 3, "H", 3)}`,
+  //         `${formula("C", 8, "H", 8)}`,
+  //         "no correct response",
+  //       ],
+  //       ans: "C",
+  //     },
+  //   ],
+  // },
+  {   /// enough as well
+    topic: "Nomenclature",
     questions: [
-
-      {
-        id: 16,
-        question: `When the chemical equation Na + S -> ${formula(
-          "Na",
-          2,
-          "S"
-        )} is correctly balanced, the proper sequence of coefficients is`,
-        options: [`1,2,2`, `2,1,2`, `2,1,2`, "no correct response"],
-        ans: "D",
-      },
-      {
-        id: 17,
-        question: `When the chemical equation Al + ${formula(
-          "O",
-          2
-        )} -> ${formula(
-          "Al",
-          2,
-          "O",
-          3
-        )} is correctly balanced, which of the following expressions appears in it?`,
-        options: [
-          `3 Al`,
-          `3 ${formula("O", 2)}`,
-          `3 ${formula("Al", 2, "O", 3)}`,
-          "no correct response",
-        ],
-        ans: "B",
-      },
-      {
-        id: 18,
-        question: `A balanced chemical equation contains the expression 2 ${formula(
-          "Fe",
-          "Cl",
-          3
-        )}. How many atoms does this expression represents?`,
-        options: [`two`, `four`, `eight`, "no correct response"],
-        ans: "C",
-      },
-
-      {
-        id: 19,
-        question: `Which of the following elemental gases is not written as a diatomic molecule in a chemical equation?`,
-        options: [`hydrogen`, `nitrogen`, `helium`, "no correct response"],
-        ans: "C",
-      },
-      {
-        id: 20,
-        question: `Which of the following statements is true for all balanced chemical equations?`,
-        options: [
-          `The sum of the coefficients on each side of the equation must be equal.`,
-          `The sum of the formula subscripts on each side of the equation must be equal`,
-          `The total number of atoms on each side of the equation must be equal.`,
-          "no correct response",
-        ],
-        ans: "C",
-      },
-      {
-        id: 21,
-        question: `Which of the following statements is consistent with the information found in the chemical equation ${formula(
-          "N",
-          2
-        )} + 3${formula("H", 2)} -> 2${formula("NH", 3)}?`,
-        options: [
-          `1 mole of ${formula("NH", 3)} is produced when 1 mole of ${formula(
-            "N",
-            2
-          )} reacts`,
-          `3 moles of ${formula(
-            "H",
-            2
-          )} are needed to produce 1 mole of ${formula("NH", 3)}`,
-          `${formula("N", 2)} and ${formula(
-            "H",
-            2
-          )} react in a 1-to-3 molar ratio`,
-          "no correct response",
-        ],
-        ans: "C",
-      },
-      {
-        id: 22,
-        question: `How many moles of Al are needed to produce 6.0 moles of ${formula(
-          "Al",
-          2,
-          "S",
-          3
-        )} via the chemical reaction 2${formula("Al")} + 3S -> ${formula(
-          "Al",
-          2,
-          "S",
-          3
-        )}`,
-        options: [
-          `2.0 moles`,
-          `6.0 moles`,
-          `12.0 moles`,
-          "no correct response",
-        ],
-        ans: "C",
-      },
-      {
-        id: 23,
-        question: `How many moles of ${formula(
-          "CO",
-          2
-        )} are formed at the same time 2.0 moles of ${formula(
-          "H",
-          2,
-          "O"
-        )} are formed in the chemical reaction ${formula("CH", 4)} + 2${formula(
-          "O",
-          2
-        )} -> ${formula("CO", 2)} + 2${formula("H", 2, "O")}`,
-        options: [`2.0 moles`, `3.0 moles`, `4.0 moles`, "no correct response"],
-        ans: "D",
-      },
-    ],
-  },
-  {
-    topic: "Air and air pollution",
-    questions: [
-      {
-        id: 1,
-        question:
-          "When air which contains the gases oxygen, nitrogen, carbon dioxide, water vapor and the rare gases is passed through alkaline pyrogallol and then over quicklime, the only gases left are",
-        options: [
-          "nitrogen and carbon dixoide.",
-          "the rare gases.",
-          "nitrogen and oxygen.",
-          "nitrogen and the rare gases",
-          "nitrogen, carbon dioxide and the rare gases",
-        ],
-        ans: "E",
-      },
-      {
-        id: 2,
-        question:
-          "A gas jar was inverted over burning yellow phosphorus floating over water in a beaker. After burning, the water level was found to rise in the gas jar. The water level rises because",
-        options: [
-          "pressure inside the gas jar is greater than pressure outside it.",
-          "the air in the gas jar had been used up by burning.",
-          "oxygen in the gas jar had been used up by burning.",
-          "nitrogen in the gas jar had been used up by burning",
-          "the temperature in the jar had risen considerably.",
-        ],
-        ans: "C",
-      },
-      {
-        id: 3,
-        question:
-          "When a piece of charcoal enclosed in a cylinder containing air is ignited.",
-        options: [
-          "the total volume of air is increased",
-          "the relative amount of oxygen present is increased",
-          "the relative amount of nitrogen present is decreased",
-          "the relative amount of carbon dioxide present is increased",
-          "the ratio of oxygen to nitrogen in the system is increased.",
-        ],
-        ans: "D",
-      },
-      {
-        id: 4,
-        question: "For iron to rust, there should be present",
-        options: [
-          "oxygen",
-          "moisture",
-          "carbon dioxide",
-          "oxygen and moisture",
-          "oxygen, moisture and carbon dioxide.",
-        ],
-        ans: "D",
-      },
-      {
-        id: 5,
-        question:
-          "The nitrogen gas obtained by burning an excess of phosphorus in air has a density higher than the nitrogen from nitrogen compounds because the nitrogen from air is contaminated with",
-        options: [
-          "some unhurt phosphorus",
-          `${formula("P", 2, "O", 5)} vapour`,
-          "some oxygen",
-          "rare gases",
-          "carbon dioxide.",
-        ],
-        ans: "D",
-      },
-      {
-        id: 6,
-        question:
-          "When air is passed through alkaline pyrogallol and then over quicklime, the only gases left are",
-        options: [
-          "nitrogen and carbon dioxide",
-          `the rare gases`,
-          "nitrogen and oxygen",
-          "nitrogen and the rare gases",
-          "nitrogen, carbon dioxide and the rare gases",
-        ],
-        ans: "E",
-      },
-      {
-        id: 7,
-        question: `In what respect will two dry samples of nitrogen gas differ from each other if sample 1 is prepared by completely removing ${formula(
-          "CO",
-          2
-        )} and ${formula(
-          "O",
-          2
-        )} is prepared by passing purified nitrogen(I) oxide over heated copper? Sample 1 is`,
-        options: [
-          "purer than sample 2",
-          `slightly denser than sample2`,
-          "in all respects the same as sample 2",
-          "colorless but sample 2 has light brown",
-          "slightly less reactive than sample 2",
-        ],
-        ans: "B",
-      },
-      {
-        id: 8,
-        question: `The approximate volume of air containing ${exp(
-          3
-        )}cm<sup>3</sup> of oxygen is`,
-        options: [
-          "20cm<sup>3</sup>",
-          "25cm<sup>3</sup>",
-          "50cm<sup>3</sup>",
-          "100cm<sup>3</sup>",
-        ],
-        ans: "C",
-      },
-      {
-        id: 9,
-        question: `The exhaust fumes from a garage in a place that uses petrol of high sulphur content are bound to contain`,
-        options: [
-          `${formula("CO")} and ${formula("SO", 3)}`,
-          `${formula("CO")} and ${formula("SO", 2)}`,
-          `${formula("CO")}, ${formula("SO", 2)}, and ${formula("SO", 3)}`,
-          `${formula("CO")} and ${formula("H", 2, "S")}`,
-        ],
-        ans: "C",
-      },
-      {
-        id: 10,
-        question: `A stream of air was successively passed through three tubes X, Y, and Z containing a concentrated aqueous solution of KOH, red hot copper powder and fused calcium chloride respectively. What was the composition of gas emanating from tube Z?`,
-        options: [
-          `${formula("CO", 2)} and the intert gases`,
-          `${formula("N", 2)}, ${formula("CO", 2)} and the inert gases`,
-          `${formula("N", 2)} and the inert gases`,
-          `Water vapour, ${formula("N", 2)} and the inert gases`,
-        ],
-        ans: "C",
-      },
-      {
-        id: 11,
-        question: `Corrosion is exhibited by`,
-        options: [
-          `iron only`,
-          `electropositive metals`,
-          `metals below hydrogen in the electrochemical series`,
-          `all metals`,
-        ],
-        ans: "D",
-      },
-      {
-        id: 12,
-        question: `The molar ratio of oxygen to nitrogen in dissolved air is 2:1 whereas the ratio is 4:1 in atmospheric air because`,
-        options: [
-          `nitrogen is less soluble than oxygen`,
-          `oxygen is heavier than nitrogen`,
-          `nitrogen has a higher partial pressure in air`,
-          `gases are hydrated in water`,
-        ],
-        ans: "A",
-      },
-      {
-        id: 13,
-        question: `A quantity of air was passed through a weighed amount of alkaline pyrogallol. An increase in the weight of the pyrogallol would result from the absorption of`,
-        options: [`nitrogen`, `neon`, `argon`, `oxygen`],
-        ans: "D",
-      },
-      {
-        id: 14,
-        question: `The pollutants that are likely to be present in an industrial environment are`,
-        options: [
-          `${formula("H", 2, "S")}, ${formula("SO", 2)} and oxides of nitrogen`,
-          `${formula("NH", 3)}, ${formula("HCl")}, ${formula("CO")}`,
-          `${formula("CO", 2)}, ${formula("NH", 3)} and ${formula(
-            "H",
-            2,
-            "S"
-          )}`,
-          `Dust, NO and ${formula("Cl", 2)}`,
-        ],
-        ans: "A",
-      },
-      {
-        id: 15,
-        question: `Which of the following gases dissolves in water vapour to produce acid rain during rainfall`,
-        options: [
-          `Oxygen`,
-          `Carbon(II) oxide`,
-          `Nitrogen`,
-          `Sulphur(IV) oxide`,
-        ],
-        ans: "D",
-      },
-      {
-        id: 16,
-        question: `Argon is used in gas-filled electric lamps because it helps to`,
-        options: [
-          `prevent the reduction of the lamp filament`,
-          `prevent oxidation of lamp filament`,
-          `make lamp filaments glow brightly`,
-          `keep the atmosphere in the lamp inert`,
-        ],
-        ans: "B",
-      },
-      {
-        id: 17,
-        question: `The air around a petroleum refinery is most likely to contain`,
-        options: [
-          `${formula("CO", 2)}, ${formula("SO", 3)}, and ${formula(
-            "N",
-            2,
-            "O"
-          )}`,
-          `${formula("CO", 2)}, ${formula("CO")}, and ${formula("N", 2, "O")}`,
-          `${formula("SO", 2)}, ${formula("CO")}, and ${formula("N", "O", 2)}`,
-          `${formula("PH", 3)}, ${formula("H", 2, "O")}, and ${formula(
-            "C",
-            "O",
-            "2"
-          )}`,
-        ],
-        ans: "C",
-      },
-      {
-        id: 18,
-        question: `Helium is often used in observation ballons because it is`,
-        options: [
-          `light and combustible`,
-          `light and non-combustible`,
-          `heavy and combustible`,
-          `heavy and non-combustible`,
-        ],
-        ans: "B",
-      },
-      {
-        id: 19,
-        question: `When plastics and packaging materials made from chloroethene are burnt in the open, the mixture of gases released into the atmosphere is most likely to contain`,
-        options: [`ethane`, `chlorine`, `hydrogen chloride`, `ethene`],
-        ans: "C",
-      },
-      {
-        id: 20,
-        question: `Which of the following gases is the most dangerous pollutant`,
-        options: [
-          `Hydrogen sulphide`,
-          `Carbon(IV) oxide`,
-          `Sulfur(IV) oxide`,
-          `Carbon(II) oxide`,
-        ],
-        ans: "D",
-      },
-      {
-        id: 21,
-        question: `The property used in obtaining oxygen and nitrogen industrially from air is the`,
-        options: [
-          `boiling point`,
-          `density`,
-          `rate of diffustion`,
-          `solubility`,
-        ],
-        ans: "A",
-      },
-      {
-        id: 22,
-        question: `Excess phosphorus was burnt in gas jar and the residual gas passed successively over concentrated KOH solution and concentrated ${formula(
-          "H",
-          2,
-          "SO",
-          4
-        )} before being collected in a flask. The gases collected are`,
-        options: [
-          `Carbon(IV) oxide, nitrogen, and the rare gases`,
-          `nitrogen(IV) oxide and the rare gases`,
-          `nitrogen and the rare gases`,
-          `carbon(IV) oxide, nitrogen(IV) oxide, and the rare gases`,
-        ],
-        ans: "C",
-      },
-      {
-        id: 23,
-        question: `Which of the following will have its mass increase when heated in air`,
-        options: [`helium`, `magnesium`, `copper pyrites`, `glass`],
-        ans: "B",
-      },
-      {
-        id: 24,
-        question: `Nitrogen obtained from the liquefaction of air has a higher density than that obtained from nitrogen-containing compounds because the former contains`,
-        options: [`Water vapour`, `Oxygen`, `Carbon(IV) oxide`, `Rare gases`],
-        ans: "D",
-      },
-      {
-        id: 25,
-        question: `The set of pollutants that is most likely to be produced when petrol is accidentally spilled on plastic materials and ignited is`,
-        options: [
-          `${formula("CO")}, ${formula("CO", 2)}, and ${formula("SO", 2)}`,
-          `${formula("CO")}, ${formula("HCl")}, and ${formula("SO", 2)}`,
-          `${formula("CO")}, ${formula("CO", 2)}, and ${formula("HCl")}`,
-          `${formula("SO", 2)}, ${formula("CO", 2)}, and ${formula("HCl")}`,
-        ],
-        ans: "C",
-      },
-      {
-        id: 26,
-        question: `The noble gas, argon, is used for`,
-        options: [
-          `steel welding`,
-          `brass welding`,
-          `underwater welding`,
-          `electric arc welding`,
-        ],
-        ans: "D",
-      },
-      {
-        id: 27,
-        question: `The air pollutant unknown in nature is`,
-        options: [`DDT`, `CO`, `HCHO`, `NO`],
-        ans: "A",
-      },
-      {
-        id: 28,
-        question: `The gas that is not associated with global warming is`,
-        options: [
-          `${formula("CO", 2)}`,
-          `${formula("SO", 2)}`,
-          `${formula("CH", 4)}`,
-          `${formula("H", 2)}`,
-        ],
-        ans: "D",
-      },
-      {
-        id: 29,
-        question: `The pollutant from petroleum spillage in rivers and lakes can best be dispersed by`,
-        options: [
-          `pouring detergents`,
-          `passing of ships through the area`,
-          `pouring organic solvents`,
-          `evaporation`,
-        ],
-        ans: "C",
-      },
-      {
-        id: 30,
-        question: `What is the decrease in volume of air when pyrogallol is shaken with 30.00cm<sup>3</sup> of air?`,
-        options: [
-          `15.00cm<sup>3</sup>`,
-          `6.30cm<sup>3</sup>`,
-          `0.63cm<sup>3</sup>`,
-          `0.06cm<sup>3</sup>`,
-        ],
-        ans: "B",
-      },
-      {
-        id: 31,
-        question: `Environment pollutant is worsened by the release from automobile exhausts of?`,
-        options: [`water vapour`, `steam`, `smoke`, `heavy metals`],
-        ans: "D",
-      },
-      {
-        id: 32,
-        question: `Phosphorus is stored under water to prevent it from`,
-        options: [`dehydrating`, `becoming inert`, `smelling`, `catching fire`],
-        ans: "D",
-      },
-      {
-        id: 33,
-        question: `The substance least considered as a source of environmental pollution is`,
-        options: [
-          `silicate minerals`,
-          `uranium`,
-          `lead`,
-          `organophosphorus compounds`,
-        ],
-        ans: "A",
-      },
-      {
-        id: 59,
-        question: `Oxygen in air can be removed using`,
-        options: [
-          `lime water`,
-          `caustic soda solution`,
-          `pyrogallol solution`,
-          `slaked lime`,
-        ],
-        ans: "C",
-      },
-      {
-        id: 55,
-        question: `Which of the following pollutants is associated with brain damage`,
-        options: [
-          `Carbon(II) oxide`,
-          `radioactive fallout`,
-          `biodegradable waste`,
-          `Sulfur(IV) oxide`,
-        ],
-        ans: "A",
-      },
-      {
-        id: 53,
-        question: `The condition required for corrosion to take place is the presence of `,
-        options: [
-          `water, carbon(IV) oxide, and oxygen`,
-          `oxygen and carbon(IV) oxide`,
-          `water and oxygen`,
-          `water and carbon(IV)`,
-        ],
-        ans: "C",
-      },
-      {
-        id: 56,
-        question: `The constituent of air that acts as a diluent is `,
-        options: [
-          `${formula("O", 2)}`,
-          `${formula("N", 2)}`,
-          `${formula("CO", 2)}`,
-          `noble gases`,
-        ],
-        ans: "B",
-      },
-      {
-        id: 57,
-        question: `The nitrogen obtained from air has a density higher than the one from nitrogen-containing compounds because the one from air is contaminated with?`,
-        options: [`oxygen`, `rare gases`, `carbon(IV) oxide`, `water vapor`],
-        ans: "B",
-      },
-      {
-        id: 58,
-        question: `The major and most effective way of controlling pollution is to`,
-        options: [
-          `pass strict laws against it by individuals and companies`,
-          `educate people on the causes and effect of pollution`,
-          `convert chemical waste to harmless substances before releasing them into the environment`,
-          `improve machinery so that the substances released from combustion are less harmful`,
-        ],
-        ans: "C",
-      },
-
-      {
-        id: 50,
-        question: `The noble gas with a high power of fog penetration used in aerodome beacons is`,
-        options: [`argon`, `helium`, `neon`, `krypton`],
-        ans: "C",
-      },
-      {
-        id: 60,
-        question: `Which of the following gases makes up the largest percentage of atmospheric air`,
-        options: [
-          "carbon(IV) oxide",
-          "Hydrogen",
-          "Nitrogen",
-          "Noble gases",
-          "Oxygen",
-        ],
-        ans: "C",
-      },
-      {
-        id: 61,
-        question: `Which of the following is not a natural component of the air`,
-        options: [
-          "water vapor",
-          "carbon(II) oxide",
-          "Nitrogen",
-          "Carbon(IV) oxide",
-        ],
-        ans: "B",
-      },
-      {
-        id: 62,
-        question: `The uncovered raw food that is sold along major roads is likely to contain some amounts of`,
-        options: ["Pb", "Cu", "Ag", "Na"],
-        ans: "A",
-      },
-    ],
-  },
-  {
-    topic: "Nature of matter",
-    questions: [
-      {
-        id: 1,
-        question: `A small quantity of solid ammonium chloride ${formula(
-          "NH",
-          4,
-          "Cl"
-        )}was heated gently in a test-tube, the solid gradually disappeared to produce a mixture of two gases. Later a white cloudy deposit was observed on the cooler part of the test tube. The ammonium chloride is said to have undergone`,
-        options: [
-          `distillation`,
-          `sublimation`,
-          `precipitation`,
-          `evaporation`,
-        ],
-        ans: "B",
-      },
-      {
-        id: 2,
-        question: `Which of the following changes is physical?`,
-        options: [
-          `adding iron fillings to aerated water`,
-          `cooling a solution of iron(II) sulphate to obtain the hydrated salt`,
-          `cooling water to obtain ice`,
-          `adding sodium metal to water`,
-          `burning domestic gas`,
-        ],
-        ans: "C",
-      },
-      {
-        id: 3,
-        question: `By means of filtration one compound can be obtained pure from an aqueous mixture of sodium chloride and`,
-        options: [
-          `potassium nitrate`,
-          `sand`,
-          `lead nitrate`,
-          `sugar(glucose)`,
-          `starch`,
-        ],
-        ans: "B",
-      },
-      {
-        id: 4,
-        question: `Methanoic acid mixes with water in all proportions and has the same boiling point as water. Which of the following methods would you adopt to obtain pure water from sand and methanoic acid`,
-        options: [
-          `fractional distillation`,
-          `filtration followed by distillation`,
-          `neutralization with sodium hydroxide followed by distillation`,
-          `neutralization with sodium hydroxide followed by filtration`,
-          `esterification with ethanol followed by distillation`,
-        ],
-        ans: "B",
-        // not yet solved
-      },
-      {
-        id: 5,
-        question: `One of the following techniques can be used to show that chlorophyll pigments is a mixture of chemical compounds and not a single compound`,
-        options: [
-          `crystallization`,
-          `hydrolysis`,
-          `sublimation`,
-          `filtration`,
-          `chromatography`,
-        ],
-        ans: "E",
-        // not yet solved
-      },
-      {
-        id: 6,
-        question: `In an attempt to remove sugar from a beaker containing a quantity of sand and sugar, 2M ammonium chloride solution was accidentally added instead of water. Which of the following methods could be used to remove ammonium chloride from the mixture.`,
-        options: [
-          `fractional distillation`,
-          `crystallization`,
-          `filtration followed by sublimation`,
-          `evaporation followed by sublimation`,
-          `filtration followed by sublimation`,
-        ],
-        ans: "D",
-        // not yet solved
-      },
-      {
-        id: 7,
-        question: `Which of the following compounds and elements would sublime on exposure to the atmosphere`,
-        options: [`ice`, `sulphur`, `phosphorus`, `iodine`, `potassium iodide`],
-        ans: "D",
-      },
-      {
-        id: 8,
-        question: `Which of the following process does NOT lead to chemical change.`,
-        options: [
-          `stirring iron in sulphur(VI) acid`,
-          `stirring sodium carbonate in water`,
-          `stirring glucose in conc. Sulphuric acid`,
-          `mixing sulphuric acid with potassium carbonate`,
-          `titrating an acid against a base`,
-        ],
-        ans: "B",
-        remark: "B is just adding salt to water which produces nothing new.",
-      },
-      {
-        id: 9,
-        question: `A mixture of common salt, ammonium chloride and barium sulphate can best be separated by`,
-        options: [
-          `addition of water followed by filtration then sublimation`,
-          `addition of water followed by sublimation then filtration`,
-          `sublimation followed by addition of water then filtration`,
-          `mixing sulphuric acid with potassium carbonate`,
-          `fractional crystallization`,
-        ],
-        ans: "C",
-      },
-      {
-        id: 10,
-        question: `Sodium chloride may be obtained from brine by`,
-        options: [
-          `titration`,
-          `decantation`,
-          `evaporation`,
-          `sublimation`,
-          `distillation`,
-        ],
-        ans: "C",
-      },
-      {
-        id: 11,
-        question: `In an experiment, which of the following observation would suggest that a solid sample is a mixture? The`,
-        options: [
-          `solid can be ground to a fine powder`,
-          `density of the solid is 2.25 g/dm3`,
-          `solid begins to melt at 573K but is not completely melted until 648K`,
-          `solid absorbs moisture from the atmosphere and turns into a liquid`,
-          `solid melts at 300K`,
-        ],
-        ans: "C",
-      },
-      {
-        id: 12,
-        question: `A brand of ink containing cobalt(II), copper(II) and Iron(II) ions can best be separated into its various components by`,
-        options: [
-          `fractional crystallization`,
-          `fractional distillation`,
-          `sublimation`,
-          `chromatography`,
-        ],
-        ans: "D",
-      },
-      {
-        id: 13,
-        question: `Which of the following substances is a mixture?`,
-        options: [
-          `granulated sugar`,
-          `sea-water`,
-          `sodium chloride`,
-          `iron fillings`,
-        ],
-        ans: "B",
-      },
-      {
-        id: 15,
-        question: `Which of the following would support the conclusion that a solid sample is a mixture`,
-        options: [
-          `The solid can be ground to a fine powder`,
-          `The density of the solid is 2.2 g/dm3`,
-          `The solid has a melting range of 300 degree celcius to 375 degree celcius`,
-          `The solid absorbs moisture from the atmosphere`,
-        ],
-        ans: "C",
-      },
-      {
-        id: 16,
-        question: `Which of the following is a physical change?`,
-        options: [
-          `The bubbling of chlorine in a jar containing hydrogen`,
-          `The bubbling of chlorine into water`,
-          `The dissolution of sodium chlorine in water`,
-          `The passing of steam over heated iron.`,
-        ],
-        ans: "C",
-      },
-      {
-        id: 18,
-        question: `Which of the following are mixture<br>I. Petroleum<br> II. Rubber<br>III. Vulcanizer's solution<br>IV. Carbon(II) Sulphide`,
-        options: [
-          `I, II, and III`,
-          `I, II, and IV`,
-          `I and II only`,
-          `I and IV`,
-        ],
-        ans: "A",
-      },
-      {
-        id: 19,
-        question: `Which of the following can be obtained by fractional distillation?`,
-        options: [
-          `Nitrogen from liquid air.`,
-          `Sodium chloride from sea water.`,
-          `Iodine from a solution of iodine in carbon tetrachloride.`,
-          `Sulfur from a solution of sulfur in carbon disulfide.`,
-        ],
-        ans: "A",
-      },
-      {
-        id: 20,
-        question: `Which of the following substances is not a homogenous mixture?`,
-        options: [
-          `Filtered sea water`,
-          `Soft drink`,
-          `Flood water`,
-          `Writing Ink`,
-        ],
-        ans: "C",
-      },
-      {
-        id: 21,
-        question: `The dissolution of common salt in water is a physical change because`,
-        options: [
-          `the salt can be obtained by crystallization`,
-          `the salt can be recovered by the evaporation of the water`,
-          `heat is not generated during mixing`,
-          `the solution will not boil at 100 deg celcius`,
-        ],
-        ans: "B",
-      },
-      {
-        id: 22,
-        question: `Which of the following substances is a mixture`,
-        options: [`sulphur powder`, `bronze`, `distilled water`, `ethanol`],
-        ans: "B",
-      },
-      {
-        id: 23,
-        question: `A mixture of sand, ammonium chloride and sodium chloride is best separated by`,
-        options: [
-          `sublimation followed by addition of water and filtration`,
-          `sublimation followed by addition of water and evaporation`,
-          `addition of water followed by filtration and sublimation`,
-          `addition of water followed by crystallization and sublimation`,
-        ],
-        ans: "A",
-        // not yet answered
-      },
-      {
-        id: 24,
-        question: `A pure solid usually melts`,
-        options: [
-          `over a wide range of temperature`,
-          `over a narrow range of temperature`,
-          `at a lower temperature than the impure one`,
-          `at the same temperature as the impure one`,
-        ],
-        ans: "B",
-      },
-      {
-        id: 25,
-        question: `Chromatography is used to separate components of mixtures which differs in their rates of`,
-        options: [`diffusion`, `migration`, `reaction`, `sedimentation`],
-        ans: "B",
-      },
-      {
-        id: 26,
-        question: `Which of the following is an example of chemical change.`,
-        options: [
-          `Dissolution of salt in water`,
-          `Rusting of iron`,
-          `Melting of ice`,
-          `Separation of a mixture by distillation`,
-        ],
-        ans: "A",
-      },
-      {
-        id: 27,
-        question: `The addition of water to calcium oxide leads to.`,
-        options: [
-          `a physical change`,
-          `a chemical change`,
-          `the formation of a mixture`,
-          `an endothermic change`,
-        ],
-        ans: "B",
-      },
-      {
-        id: 28,
-        question: `A mixture of iron and sulphur can be best separated by dissolving the mixture in`,
-        options: [
-          `steam`,
-          `dilute hydrochloric acid`,
-          `dilute sodium hydroxide`,
-          `benzene`,
-        ],
-        ans: "B",
-      },
-      {
-        id: 29,
-        question: `Sieving is a technique used to separate mixtures containing solid particles of`,
-        options: [
-          `small sizes`,
-          `large sizes`,
-          `the same size`,
-          `different sizes`,
-        ],
-        ans: "D",
-      },
-      {
-        id: 30,
-        question: `A mixture of iodine and sulfur crystals can be separated by treatment with`,
-        options: [
-          `water to filter of sulfur`,
-          `methanol to filter off iodine`,
-          `ethanoic acid to filter off sulphur`,
-          `carbon(IV) sulfide to filter off iodine`,
-        ],
-        ans: "D",
-      },
-      {
-        id: 31,
-        question: `Pure solvents are obtained by`,
-        options: [`distillation`, `condensation`, `extraction`, `evaporation`],
-        ans: "A",
-      },
-      {
-        id: 32,
-        question: `A little quantity of trichloromethance (b.pt.60&deg;C) was added to a large quantity of ethanol (b.pt 78&deg;C). The most probable boiling point of the resultant mixture is from`,
-        options: [
-          `69&deg;-70&deg;C`,
-          `82&deg;-84&deg;C`,
-          `60&deg;-78&deg;C`,
-          `70&deg;-74&deg;`,
-        ],
-        ans: "B",
-      },
-      {
-        id: 33,
-        question: `The chromatographic separation of ink is based on the ability of components to`,
-        options: [
-          `react with each other`,
-          `react with solvent`,
-          `dissolve in each other in the column`,
-          `move at different speeds in the column`,
-        ],
-        ans: "D",
-      },
-      {
-        id: 34,
-        question: `Which of the following is a physical change`,
-        options: [
-          `Freezing ice-cream`,
-          `Exposing white phosphorus to air`,
-          `Burning kerosine`,
-          `Dissolving calcium in water`,
-        ],
-        ans: "A",
-      },
-      {
-        id: 35,
-        question: `When a solid substance disappears completely as a gas on heating, the substance is said to have undergone`,
-        options: [
-          `evaporation`,
-          `distillation`,
-          `crystallization`,
-          `sublimation`,
-        ],
-        ans: "D",
-      },
-      {
-        id: 36,
-        question: `A chemical reaction is always associated with`,
-        options: [
-          `an increase in the composition of one of the substances`,
-          `a change in the volume of the reactants`,
-          `a change in the nature of the reactants`,
-          `the formation of new substances`,
-        ],
-        ans: "D",
-      },
-      {
-        id: 37,
-        question: `The property used in the industrial preparation of Nitrogen and Oxygen from air is`,
-        options: [
-          `rate of diffusion`,
-          `solubility`,
-          `density`,
-          `boiling point`,
-        ],
-        ans: "D",
-      },
-      {
-        id: 38,
-        question: `A heterogenous mixture can be defined as any mixture`,
-        options: [
-          `whose composition is uniform`,
-          `whose composition is not uniform`,
-          `formed by solids and liquids`,
-          `of a solute and a solvent`,
-        ],
-        ans: "B",
-      },
-      {
-        id: 39,
-        question: `Sugar is separated from its impurities by`,
-        options: [
-          `distillation`,
-          `evaporation`,
-          `precipitation`,
-          `crystallization`,
-        ],
-        ans: "D",
-      },
-      {
-        id: 40,
-        question: `The order in which a mixture of sand, ammonium chloride and sodium chloride can be separated is`,
-        options: [
-          `sublimation -> dissolution -> filtration -> evaporation`,
-          `dissolution -> dryness -> filtration -> evaporation`,
-          `filtration -> sublimation -> evaporation -> dryness`,
-          `dissolution -> filtration -> sublimation -> evaporation`,
-        ],
-        ans: "A",
-      },
-      {
-        id: 41,
-        question: `A difference between chemical and physical changes is that in a chemical change`,
-        options: [
-          `heat is supplied`,
-          `a new substance is formed`,
-          `oxygen is consumed`,
-          `a reversible process occurs`,
-        ],
-        ans: "B",
-      },
-      {
-        id: 42,
-        question: `A mixture of petrol and water can be best separated through`,
-        options: [
-          `the use of filter paper`,
-          `the use of a separating funnel`,
-          `centrifugation`,
-          `distillation`,
-        ],
-        ans: "B",
-      },
-      {
-        id: 43,
-        question: `Chlorophyll obtained from green leaves of plant can be shown to be composed of more than one colored components by the technique of`,
-        options: [
-          `crystallization`,
-          `hydrolysis`,
-          `chromatography`,
-          `sublimation`,
-        ],
-        ans: "C",
-      },
-      {
-        id: 44,
-        question: `In countries where the temperature falls below 273K, salt is always sprinkled on the icy roads in order to`,
-        options: [
-          `lower the melting point of ice`,
-          `increase the density of ice`,
-          `make the ice impure`,
-          `raise the melting point of ice`,
-        ],
-        ans: "A",
-      },
-      {
-        id: 45,
-        question: `A mixture of sugar and sulfur can be separated by`,
-        options: [
-          `dissolution in water, evaporation and filtration`,
-          `filtration, evaporation, and dissolution in water`,
-          `dissolution in water, filtration and evaporation`,
-          `evaporation, dissolution in water and filtration`,
-        ],
-        ans: "C",
-      },
-      {
-        id: 46,
-        question: `Which of the following is a physical change`,
-        options: [
-          `freezing ice cream`,
-          `dissolving calcium in water`,
-          `burning kerosene`,
-          `exposing white phosphorus to air`,
-        ],
-        ans: "A",
-      },
-      {
-        id: 47,
-        question: `Which of the following is an example of a mixture?`,
-        options: [`blood`, `sand`, `washing soda`, `common salt`],
-        ans: "A",
-      },
-      {
-        id: 48,
-        question: `The principle of column chromatography is based on the ability of the constituents to`,
-        options: [
-          `dissolve in each other in the column`,
-          `react with the solvent in the column`,
-          `react with each other in the column`,
-          `move at different speeds in the column`,
-        ],
-        ans: "D",
-      },
-      {
-        id: 49,
-        question: `Which of the following methods can be used to obtain pure water from a mixture of sand, water and methanoic acid?`,
-        options: [
-          `neutralization with NaOH followed by filtration`,
-          `neutralization with NaOH followed by distillation`,
-          `fractional distillation`,
-          `filtration followed by distillation`,
-        ],
-        ans: "B",
-        // to be researched personally
-      },
-      {
-        id: 50,
-        question: `The presence of impurities in a solid will cause the melting point to`,
-        options: [`be stable`, `be zero`, `reduce`, `increase`],
-        ans: "C",
-        // look up the answer later
-      },
-      {
-        id: 51,
-        question: `A mixture is different from a compound because`,
-        options: [
-          `constituents of a compound are chemically bound together while those of a mixture are not`,
-          `a mixture is always homogenous while a compound is not`,
-          `a mixture can be represented by a chemical formula while a compound cannot`,
-          `the properties of a compound are those of its individual constituents while those of a mixture differ from its constituents.`,
-        ],
-        ans: "A",
-        // look up the answer later
-      },
-      {
-        id: 52,
-        question: `The presence of impurities in a solid will make the melting point`,
-        options: [`decrease`, `increase`, `remain unchanged`, `be zero`],
-        ans: "A",
-        // look up the answer later
-      },
-      {
-        id: 53,
-        question: `The process whereby a gaseous body loses some of its kinetic energy to a colder body is referred to as`,
-        options: [`condensation`, `melting`, `evaporation`, `freezing`],
-        ans: "A",
-        // look up the answer later
-      },
-      {
-        id: 54,
-        question: `The separation technique that is based on the principle of solubility of a solid in two miscible liquids is`,
-        options: [
-          `fractional distillation`,
-          `distillation`,
-          `precipitation`,
-          `filtration`,
-        ],
-        ans: "C",
-        // look up the answer later
-      },
-    ],
-  },
-  {
-    topic: "Sulphur",
-    questions: [
-      {
-        id: 1,
-        question: `When ${formula("SO",2)} is passed into a solution of acidified potassium heptaoxodichromate(VI), ${formula("K",2,"Cr",2,"O",7)}, the solution turn?`,
-        options: [
-          `green`,
-          `orange`,
-          `purple`,
-          `yellow`
-        ],
-        ans: "A",
-      },
-      {
-        id: 2,
-        question: `Tetraoxosulphate(VI) acid burns the skin by`,
-        options: [
-          `hydrolysis`,
-          `hydration`,
-          `heating`,
-          `dehydration`
-        ],
-        ans: "D",
-      },
-      {
-        id: 3,
-        question: `The salt that reacts with dilute hydrochloric acid to produce a pungent smelling gas which decolorize acidified purple potassium tetraoxomanganate(VII) solution is?`,
-        options: [
-          `${formula("Na",2,"SO",4)}`,
-          `${formula("Na",2,"SO",3)}`,
-          `${formula("Na",2,"S")}`,
-          `${formula("Na",2,"CO",4)}`,
-        ],
-        ans: "C",
-      },
-      {
-        id: 4,
-        question: `Sulphur(IV) oxide bleaches by?`,
-        options: [
-          `oxidation`,
-          `reduction`,
-          `decomposition`,
-          `sulphurnization`
-        ],
-        ans: "B",
-      },
-      {
-        id: 5,
-        question: `Which of the following is true of Sulphur(VI) oxide`,
-        options: [
-          `it forms tetraoxosulphate(VI) acid with water`,
-          `it is an odorless gas`,
-          `it is an acid anhydride`,
-          `it forms white precipitate with acidified barium chloride solution`
-        ],
-        ans: "C",
-      },
-      {
-        id: 6,
-        question: `A solution of a salt was acidified by HCl. When a few drops of ${formula("BaCl",2)} solution were added, a white precipitate was formed. Which of the following ions is present in the salt?`,
-        options: [
-          `${ion(formula("CO",3), 2, "-")}`,
-          `${ion(formula("NO",3), "-", "")}`,
-          `${ion(formula("SO",3), 2, "-")}`,
-          `${ion(formula("SO",4), 2, "-")}`
-        ],
-        ans: "D",
-      },
-      {
-        id: 7,
-        question: `A rock sample was added to a cold dilute ${formula("HNO",3)}. The gas evolved was passed into a solution of acidified ${formula("K",2,"Cr",2,"O",7)} and the solution turned green. The rock sample contains?`,
-        options: [
-          `${ion(formula("CO",3), 2, "-")}`,
-          `${ion(formula("NO",3), "-", "")}`,
-          `${ion(formula("SO",3), 2, "-")}`,
-          `${ion(formula("SO",4), 2, "-")}`
-        ],
-        ans: "C",
-      },
-      {
-        id: 8,
-        question: `Rhombic sulfur comsists of which molecule?`,
-        options: [
-          `${formula("S",6)} molecule`,
-          `${formula("S",4)} molecule`,
-          `${formula("S",2)} molecule`,
-          `${formula("S",8)} molecule`,
-        ],
-        ans: "D",
-      },
-      {
-        id: 9,
-        question: `Sulfuric acid is manufactured by:`,
-        options: [
-          `Haber's process`,          
-          `Ostwald' process`,          
-          `Contact process`,          
-          `Dow's process`,          
-        ],
-        ans: "C",
-      },
-      {
-        id: 10,
-        question: `${formula("SO",2)} react with ${formula("NaOH")} forming`,
-        options: [
-          `Sodium sulphate`,          
-          `Sulfur trixoxide`,          
-          `Hydrogen sulphite`,          
-          `Sodium sulphite`,          
-        ],
-        ans: "D",
-      },
-      {
-        id: 11,
-        question: `Sulphur when burnt in air forms`,
-        options: [
-          `${formula("SO",3)}`,          
-          `${formula("SO",2)}`,          
-          `${formula("H",2,"SO",3)}`,          
-          `${formula("H",2,"SO",4)}`,                   
-        ],
-        ans: "B",
-      },
-      {
-        id: 12,
-        question: `The number of S-S bonds in sulhpur trioxide trime (${formula("S",3,"O",9)}) is?`,
-        options: [
-          `zero`,
-          `three`,
-          `one`,
-          `two`                
-        ],
-        ans: "A",
-      },
-      {
-        id: 13,
-        question: `The temperature above which beta sulphur is stable is?`,
-        options: [
-          `369 &deg;C`,
-          `369K`,
-          `298K`,
-          `273.15K`                
-        ],
-        ans: "B",
-      },
-      {
-        id: 14,
-        question: `Sulphur dioxde reacts with chlorine in the presence of charcoal to give?`,
-        options: [
-          `Sulphuryl chloride`,
-          `Oleum`,
-          `Sulphur trioxide`,
-          `Sulphuric acid`                
-        ],
-        ans: "A",
-      },
-      {
-        id: 15,
-        question: `The allotrope of sulphur that is more stable at room temperature is`,
-        options: [
-          `rhombic sulfur`,
-          `monoclinic sulfur`,
-          `beta sulfur`,
-          `none of these`                
-        ],
-        ans: "A",
-      },
-      {
-        id: 16,
-        question: `The maximum covalency of sulfur is?`,
-        options: [
-         `2`,
-         `6`,
-         `4`,
-         `8`               
-        ],
-        ans: "B",
-      },
-      {
-        id: 17,
-        question: `The geometry of ${formula("H",2,"S")} and its dipole moment are`,
-        options: [
-         `Angular and zero`,
-         `Linear and non-zero`,
-         `Linear and zero`,
-         `Angular and non-zero`               
-        ],
-        ans: "D",
-      },
-      {
-        id: 18,
-        question: `Pick out the odd property of rhombic sulfur`,
-        options: [
-         `melting point 385.8K`,
-         `yellow solid`,
-         `insoluble in carbon disulfide`,
-         `insoluble in water`               
-        ],
-        ans: "C",
-      },
-      {
-        id: 19,
-        question: `The number of S-S bond in pyrosulfuric acid(oleum) is?`,
-        options: [
-         `1`,
-         `2`,
-         `0`,
-         `3`               
-        ],
-        ans: "C",
-      },
-      {
-        id: 20,
-        question: `Solid ${formula("SO",3)} exists as?`,
-        options: [
-         `Plane triangular structure`,
-         `Bent structure`,
-         `Linear structure`,
-         `Cyclic trimer structure`               
-        ],
-        ans: "D",
-      },
-      {
-        id: 21,
-        question: `The basicity of sulphurous acid is?`,
-        options: [
-         `5`,
-         `3`,
-         `2`,
-         `4`               
-        ],
-        ans: "C",
-      },
-      // start here
-      {
-        id: 22,
-        question: `Hydrogen sulphide gas can act as?`,
-        options: [
-          `an oxidizing agent`,
-          `a dehydrating agent`,
-          `a bleaching agent`,
-          `a precipitating agent`            
-        ],
-        ans: "D",
-      },
-      {
-        id: 23,
-        question: `The acid that is used to remove rust is`,
-        options: [
-          `boric`,
-          `hydrochloric`,
-          `trioxonitrate(V)`,
-          `tetraoxosulfate(VI)`            
-        ],
-        ans: "B",
-      },
-      {
-        id: 24,
-        question: `When chlorine gas is passed into a solution of sulfur dioxide?`,
-        options: [
-          `sulfur dioxide is reduced to sulfur`,
-          `the chlorine is oxidezed to hydrochloric acid`,
-          `dilute sulfuric acid and hydrochloric acid are produced`,
-          `hydrochloric acid and sulfur are produced`,
-          `sulfur trioxide is the only product`            
-        ],
-        ans: "C",
-      },
-      {
-        id: 25,
-        question: `${formula("SO",2)} + ${formula("O",2)} -> 2${formula("SO",3)}<br />In the reaction above, the most suitable catalyst is?`,
-        options: [
-          `chromium(VI) oxide`,
-          `Iron(III) oxide`,
-          `copper(I) oxide`,
-          `vanadium(V) oxide`,
-        ],
-        ans: "D",
-      },
-      {
-        id: 26,
-        question: `The sulphide that is commonly used in coating electric fluorescent tubes is?`,
-        options: [
-          `Irom(II) sulfide`,
-          `Tin(II) sulfide`,
-          `Zinc sulfide`,
-          `Lead(IV) sulfide`,
-        ],
-        ans: "C",
-      },
-      {
-        id: 27,
-        question: `What is the atomic number of sulfur`,
-        options: [
-          `8`,
-          `16`,
-          `32`,
-          `64`,
-        ],
-        ans: "C",
-      },
-      {
-        id: 28,
-        question: `Which of the following is a common allotrope of sulfur`,
-        options: [
-          `sulfur dioxide`,
-          `sulfur hexafluoride`,
-          `sulfuric acid`,
-          `rhombic sulfur`,
-        ],
-        ans: "D",
-      },
-      {
-        id: 29,
-        question: `What is the smell commonly associated with hydorgen sulfide, a compound of sulfur`,
-        options: [
-          `sweet`,
-          `sour`,
-          `rotten eggs`,
-          `minty`,
-        ],
-        ans: "C",
-      },
-      {
-        id: 30,
-        question: `Sulfur is an essential element for which biological molecules?`,
-        options: [
-          `carbohydrates`,
-          `lipids`,
-          `proteins`,
-          `nucleic acids`,
-        ],
-        ans: "C",
-      },
-      {
-        id: 31,
-        question: `What is the chemical symbol for sulfur?`,
-        options: [
-          `Su`,
-          `Sf`,
-          `Sr`,
-          `S`,
-        ],
-        ans: "D",
-      },
-      {
-        id: 32,
-        question: `What is the main environmental concern associated with sulfur dioxide (SO2) emissions?`,
-        options: [
-          `Depletin of the ozone layer`,
-          `Acid rain formation`,
-          `Global warming potential`,
-          `Ground level ozone production`,
-        ],
-        ans: "B",
-      },
-      {
-        id: 33,
-        question: `Who first recognized sulfur as an element?`,
-        options: [
-          `John Dalton`,
-          `Humphry Davy`,
-          `Loius Pasteur`,
-          `Antoine Lavoiser`,
-        ],
-        ans: "D",
-      },
-      {
-        id: 34,
-        question: `What is the name of the process of extracting sulfur on commercial scale`,
-        options: [
-          `Bosch process`,
-          `Boyle process`,
-          `Ostwald process`,
-          `Frasch process`,
-        ],
-        ans: "D",
-      },
-      {
-        id: 35,
-        question: `Which of the following is used for vulcanization purposes in the rubber industry?`,
-        options: [
-          `Sulfuric acid`,
-          `Sulfur dioxide`,
-          `Sulfur`,
-          `Sulfur trioxide`,
-        ],
-        ans: "C",
-      },
-      {
-        id: 36,
-        question: `Which is a more vital source of elemental sulfur?`,
-        options: [
-          `oceans`,
-          `wind`,
-          `soil`,
-          `volcanoes`,
-        ],
-        ans: "D",
-      },
-      {
-        id: 37,
-        question: `What is the transition temperature of alpha- and beta-sulfur?`,
-        options: [
-          `369&deg;C`,
-          `369&deg;F`,
-          `95.9&deg;C`,
-          `95.9&deg;F`,
-        ],
-        ans: "C",
-      },
-      {
-        id: 38,
-        question: ` Which characteristic of crude petroleum is a consequence of sulfur?`,
-        options: [
-          `Acidity`,
-          `Sourness`,
-          `Alkalinity`,
-          `Foul odor`,
-        ],
-        ans: "A",
-      },
-      {
-        id: 39,
-        question: `What percentage of Earth’s mass is sulfur?`,
-        options: [
-          `3%`,
-          `5%`,
-          `0.032%`,
-          `2%`,
-        ],
-        ans: "A",
-      },
-      {
-        id: 40,
-        question: `What is the chemical structure and formula of sulfur?`,
-        options: [
-          `${formula("S",8)}, S`,
-          `S, ${formula("S", 8)}`,
-          `S`, "S" ,
-          `${formula("S",8)}, ${formula("S", 8)}`, 
-        ],
-        ans: "A",
-      },
-    ],
-  },
-  // let's start work. Thank you.
-  {
-    "topic": "Nomenclature",
-    "questions": [
       {
         id: 1,
         question: `Which element is named first in a binary compound of S and Cl`,
         options: ["S", "Cl"],
-        ans: `A`
+        ans: `A`,
       },
       {
         id: 2,
         question: `Which element is named first in a binary compound of O and S`,
         options: ["O", "S"],
-        ans: `B`
+        ans: `B`,
       },
       {
         id: 3,
         question: `Which element is named first in a binary compound of O and Xe`,
         options: ["O", "Xe"],
-        ans: `B`
+        ans: `B`,
       },
       {
         id: 4,
         question: `Which element is named first in a binary compound of S and I`,
         options: ["S", "I"],
-        ans: `A`
+        ans: `A`,
       },
       {
         id: 5,
@@ -6180,9 +6809,9 @@ let chemistryQuestions = [
           "Iodine Fluorine",
           "Monoiodine monofluoride",
           "Iodine monofluoride",
-          "Iodine fluoride"
+          "Iodine fluoride",
         ],
-        ans: `C`
+        ans: `C`,
       },
       {
         id: 6,
@@ -6191,9 +6820,9 @@ let chemistryQuestions = [
           "Nitrogen oxygen",
           "Nitrogen oxide",
           "Nitrogen monoxide",
-          "Mononitrogen oxide"
+          "Mononitrogen oxide",
         ],
-        ans: `C`
+        ans: `C`,
       },
       {
         id: 7,
@@ -6202,310 +6831,304 @@ let chemistryQuestions = [
           "Nitrogen oxygen",
           "Nitrogen oxide",
           "Nitrogen monoxide",
-          "Mononitrogen oxide"
+          "Mononitrogen oxide",
         ],
-        ans: `C`
+        ans: `C`,
       },
       {
         id: 8,
-        question: `The name of the compound ${formula("SO",3)} is`,
+        question: `The name of the compound ${formula("SO", 3)} is`,
         options: [
           "Sulphur trioxide",
           "Sulphur oxide",
           "Sulphur tetroxide",
-          "Sulphuric oxide"
+          "Sulphuric oxide",
         ],
-        ans: `A`
+        ans: `A`,
       },
       {
         id: 9,
-        question: `The name of the compound ${formula("CO",2)} is`,
+        question: `The name of the compound ${formula("CO", 2)} is`,
         options: [
           "Carbon dioxygen",
           "Carbon trioxide",
           "Monocarbon dioxide",
-          "Carbon dioxide"
+          "Carbon dioxide",
         ],
-        ans: `D`
+        ans: `D`,
       },
       {
         id: 10,
-        question: `The name of the compound ${formula("As",2, "O", 5)} is`,
+        question: `The name of the compound ${formula("As", 2, "O", 5)} is`,
         options: [
           "Arsenic pentoxide",
           "Diarsenic pentoxide",
           "Arsenic oxide",
-          "Arsenous acid"
+          "Arsenous acid",
         ],
-        ans: `B`
+        ans: `B`,
       },
       {
         id: 11,
-        question: `The name of the compound ${formula("H",2,"S")} is`,
+        question: `The name of the compound ${formula("H", 2, "S")} is`,
         options: [
           "Dihydrogen monosulfide",
           "Hydrogen sulfide",
           "Hydrogen monosulfide",
-          "Sulphuric acid"
+          "Sulphuric acid",
         ],
-        ans: `B`
+        ans: `B`,
       },
       {
         id: 12,
-        question: `The name of the compound ${formula("Si","Cl",4)} is`,
+        question: `The name of the compound ${formula("Si", "Cl", 4)} is`,
         options: [
           "Silicon tetrachloride",
           "Silicon tetrachlorine",
           "Monosilicon chloride",
-          "Silicon chloride"
+          "Silicon chloride",
         ],
-        ans: `A`
+        ans: `A`,
       },
       {
         id: 13,
-        question: `The name of the compound ${formula("PBr",5)} is`,
+        question: `The name of the compound ${formula("PBr", 5)} is`,
         options: [
           "Phosphate acid",
           "Phosphorus pentbromide",
           "Phosphorus pentabromide",
-          "Phosphorus bromide"
+          "Phosphorus bromide",
         ],
-        ans: `C`
+        ans: `C`,
       },
       {
         id: 14,
-        question: `The name of the compound ${formula("P",4,"O", 10)} is`,
+        question: `The name of the compound ${formula("P", 4, "O", 10)} is`,
         options: [
           "tetraphosphorus decoxide",
           "Monophosphate decoxide",
           "Monophosphorus decoxide",
-          "Phosphoric acid"
+          "Phosphoric acid",
         ],
-        ans: `A`
+        ans: `A`,
       },
       {
         id: 15,
         question: `The formula for Dinitrogen pentoxide is`,
         options: [
-          `${formula("NO",5)}`,
-          `${formula("N",2,"O")}`,
-          `${formula("N",2, "O",5)}`,
-          `${formula("N",3,"O",6)}`,
+          `${formula("NO", 5)}`,
+          `${formula("N", 2, "O")}`,
+          `${formula("N", 2, "O", 5)}`,
+          `${formula("N", 3, "O", 6)}`,
         ],
-        ans: `C`
+        ans: `C`,
       },
       {
         id: 16,
         question: `The formula for Tetrarsenic hexoxide is`,
         options: [
-          `${formula("As",4,"O","6")}`,
-          `${formula("As",3,"O",3)}`,
-          `${formula("As",2, "O",3)}`,
-          `${formula("As",6,"O",8)}`,
+          `${formula("As", 4, "O", "6")}`,
+          `${formula("As", 3, "O", 3)}`,
+          `${formula("As", 2, "O", 3)}`,
+          `${formula("As", 6, "O", 8)}`,
         ],
-        ans: `A`
+        ans: `A`,
       },
       {
         id: 17,
         question: `The name of ${ion("Co", 2, "+")} is`,
-        options: [
-          `Cobalt`,
-          `Cobalt(II)`,
-          `cobalt ion`,
-          `Cobalt(II) ion`,
-        ],
-        ans: `D`
+        options: [`Cobalt`, `Cobalt(II)`, `cobalt ion`, `Cobalt(II) ion`],
+        ans: `D`,
       },
       {
         id: 18,
-        question: `What is the charge of chromium ion in the compound ${formula("CrCl",2)}`,
-        options: [
-          `1+`,
-          `2+`,
-          `3+`,
-          `4+`,
-        ],
-        ans: `B`
+        question: `What is the charge of chromium ion in the compound ${formula(
+          "CrCl",
+          2
+        )}`,
+        options: [`1+`, `2+`, `3+`, `4+`],
+        ans: `B`,
       },
       {
         id: 19,
-        question: `What is the charge on the anion in (${formula("NH",4)})<sub>3</sub>${formula("VO",4)}?`,
-        options: [
-          `1-`,
-          `2-`,
-          `3-`,
-          `4-`,
-        ],
-        ans: `C`
+        question: `What is the charge on the anion in (${formula(
+          "NH",
+          4
+        )})<sub>3</sub>${formula("VO", 4)}?`,
+        options: [`1-`, `2-`, `3-`, `4-`],
+        ans: `C`,
       },
       {
         id: 20,
         question: `The formula of Magnesium sulfide is`,
         options: [
-          `${formula("Mg",2,"S")}`,
+          `${formula("Mg", 2, "S")}`,
           `${formula("Mg", "S")}`,
-          `${formula("MgS",2)}`,
-          `${formula("Mg","S",3)}`,
+          `${formula("MgS", 2)}`,
+          `${formula("Mg", "S", 3)}`,
         ],
-        ans: `B`
+        ans: `B`,
       },
       {
         id: 21,
         question: `The formula of Sodium iodide is`,
         options: [
-          `${formula("Na",2,"I")}`,
+          `${formula("Na", 2, "I")}`,
           `${formula("Na", "I")}`,
-          `${formula("Na","I",2)}`,
-          `${formula("Na",2,"I",3)}`,
+          `${formula("Na", "I", 2)}`,
+          `${formula("Na", 2, "I", 3)}`,
         ],
-        ans: `B`
+        ans: `B`,
       },
       {
         id: 22,
         question: `The formula of Lead(IV) oxide is`,
         options: [
-          `${formula("Pb",4,"O")}`,
-          `${formula("Pb","O",4)}`,
-          `${formula("Pb","O",2)}`,
-          `${formula("Pb",2,"O",4)}`,
+          `${formula("Pb", 4, "O")}`,
+          `${formula("Pb", "O", 4)}`,
+          `${formula("Pb", "O", 2)}`,
+          `${formula("Pb", 2, "O", 4)}`,
         ],
-        ans: `C`
+        ans: `C`,
       },
       {
         id: 23,
         question: `The formula of Aluminum oxide is`,
         options: [
-          `${formula("Al","O")}`,
-          `${formula("Al","O",3)}`,
-          `${formula("Al",2,"O",3)}`,
-          `${formula("Al","O",3)}`,
+          `${formula("Al", "O")}`,
+          `${formula("Al", "O", 3)}`,
+          `${formula("Al", 2, "O", 3)}`,
+          `${formula("Al", "O", 3)}`,
         ],
-        ans: `C`
+        ans: `C`,
       },
       {
         id: 24,
-        question: `The name of ${formula("Cr",2,"O",3)} is`,
+        question: `The name of ${formula("Cr", 2, "O", 3)} is`,
         options: [
           `Dichromium trioxide`,
           `Chromium trioxide`,
           `Chromium(III) oxide`,
           `Chromium oxide`,
         ],
-        ans: `C`
+        ans: `C`,
       },
       {
         id: 25,
-        question: `The name of ${formula("Al",2,"O",3)} is`,
+        question: `The name of ${formula("Al", 2, "O", 3)} is`,
         options: [
           `Aluminum trioxide`,
           `Aluminum(III) oxide`,
           `Dialuminum oxide`,
           `Aluminum oxide`,
         ],
-        ans: `D` // this is simply the answer...
+        ans: `D`, // this is simply the answer...
       },
       {
         id: 26,
-        question: `The name of CuS and ${formula("Cu",2,"S")} are respectively?`,
+        question: `The name of CuS and ${formula(
+          "Cu",
+          2,
+          "S"
+        )} are respectively?`,
         options: [
           `Copper sulfide and Dicopper sulfide`,
           `Copper(I) sulfide and Copper(II) sulfide`,
           `Copper(II) sulfide and Copper(I) sulfide`,
           `Cuprite and Culprous`,
         ],
-        ans: `C` // this is simply the answer...
+        ans: `C`, // this is simply the answer...
       },
       {
         id: 27,
         question: `Which of these is named wrongly<br />
-        A. ${ion(formula("SO",4), 2, "-")} : Sulfate ion,<br />
-        B. ${ion(formula("CO",3), 2, "-")} : Carbonite ion,<br />
-        C. ${ion(formula("NO",3), "", "-")} : Nitrous ion,<br />
-        D. ${ion(formula("ClO",3), "", "-")} : Chlorite ion`,
-        options: [
-          `A only`,
-          `B, C, and D`,
-          `A, and B`,
-          `B, and C`,
-        ],
-        ans: `B` // this is simply the answer...
+        A. ${ion(formula("SO", 4), 2, "-")} : Sulfate ion,<br />
+        B. ${ion(formula("CO", 3), 2, "-")} : Carbonite ion,<br />
+        C. ${ion(formula("NO", 3), "", "-")} : Nitrous ion,<br />
+        D. ${ion(formula("ClO", 3), "", "-")} : Chlorite ion`,
+        options: [`A only`, `B, C, and D`, `A, and B`, `B, and C`],
+        ans: `B`, // this is simply the answer...
       },
       {
         id: 28,
-        question: `Name ${formula("NaNO",3)}`,
+        question: `Name ${formula("NaNO", 3)}`,
         options: [
           `Sodium nitrogen oxide`,
           `Sodium(I) nitrate`,
           `Sodium nitrate`,
           `Sodium trinitrate`,
         ],
-        ans: `C` // this is simply the answer...
+        ans: `C`, // this is simply the answer...
       },
       {
         id: 29,
         question: `The formula for cobalt(III) hypochlorite.`,
         options: [
-          `${formula("Co", "(ClO)",3)}`,
-          `${formula("Co",2,"(ClO)",3)}`,
-          `${formula("Co","(ClO)")}`,
-          `${formula("Co","(ClO)",4)}`,
+          `${formula("Co", "(ClO)", 3)}`,
+          `${formula("Co", 2, "(ClO)", 3)}`,
+          `${formula("Co", "(ClO)")}`,
+          `${formula("Co", "(ClO)", 4)}`,
         ],
-        ans: `A` // this is simply the answer...
+        ans: `A`, // this is simply the answer...
       },
       {
         id: 30,
-        question: `The name of ${formula("HNO",3)} is`,
+        question: `The name of ${formula("HNO", 3)} is`,
         options: [
           `Hydrogen nitrate acid`,
           `Nitric acid`,
           `Nitrous acid`,
           `Nitrogen oxalic acid`,
         ],
-        ans: `B` // this is simply the answer...
+        ans: `B`, // this is simply the answer...
       },
       {
         id: 31,
-        question: `The name of ${formula("HClO",4)} is`,
+        question: `The name of ${formula("HClO", 4)} is`,
         options: [
           `Chlorate acid`,
           `Perchlorate acid`,
           `Perchloric acid`,
           `chloric acid`,
         ],
-        ans: `C`
+        ans: `C`,
       },
       {
         id: 32,
         question: `The formula of Hypophosphorus acid is`,
         options: [
-          `${formula("H",3,"PO",2)}`,
-          `${formula("H","PO",2)}`,
-          `${formula("H",2,"PO",2)}`,
-          `${formula("H",2,"PO",3)}`,
+          `${formula("H", 3, "PO", 2)}`,
+          `${formula("H", "PO", 2)}`,
+          `${formula("H", 2, "PO", 2)}`,
+          `${formula("H", 2, "PO", 3)}`,
         ],
-        ans: `A`
+        ans: `A`,
       },
       {
         id: 33,
-        question: `The name of ${formula("CuSO",4)}.5${formula("H",2,"O")} is`,
+        question: `The name of ${formula("CuSO", 4)}.5${formula(
+          "H",
+          2,
+          "O"
+        )} is`,
         options: [
           `Copper(II) sulphate pentahydrate`,
           `Copper(I) sulphate tetrahydrate`,
           `Copper sulfate pentahydrate`,
           `Copper sulfate tetrahydrate`,
         ],
-        ans: `A`
+        ans: `A`,
       },
       {
         id: 34,
         question: `Which of the following is mapped wrongly`,
         options: [
-          `${ion(formula("NO",2),"-")} -> nitrite ion`,
-          `${ion("ClO",4,"-")} -> perchlorate ion`,
-          `${ion(formula("Cr",2,'O',7),2,"-")} -> dichromate ion`,
-          `${ion("CN", "","-")} -> carbon nitride ion`,
+          `${ion(formula("NO", 2), "-")} -> nitrite ion`,
+          `${ion("ClO", 4, "-")} -> perchlorate ion`,
+          `${ion(formula("Cr", 2, "O", 7), 2, "-")} -> dichromate ion`,
+          `${ion("CN", "", "-")} -> carbon nitride ion`,
         ],
-        ans: `D`
+        ans: `D`,
       },
       {
         id: 35,
@@ -6516,40 +7139,40 @@ let chemistryQuestions = [
           `Copper hypochloride`,
           `Copper(I) hypochloride`,
         ],
-        ans: `B`
+        ans: `B`,
       },
       {
         id: 36,
-        question: `The name of ${formula("Hg",2,"SO",4)} is?`,
+        question: `The name of ${formula("Hg", 2, "SO", 4)} is?`,
         options: [
           `Mercury(II) sulfide`,
-          `Mercury(I) sulfate`,// hmmmm...
+          `Mercury(I) sulfate`, // hmmmm...
           `Mercury(I) sulfide`,
           `Mercury(II) sulfate`,
         ],
-        ans: `B`
+        ans: `B`,
       },
       {
         id: 37,
-        question: `The name of ${formula("Li",2,"S")} is?`,
+        question: `The name of ${formula("Li", 2, "S")} is?`,
         options: [
           `Dilithium sulfate`,
           `Lithium sulfate`,
           `Lithium sulfide`,
           `Dilithium sulfide`,
         ],
-        ans: `C`
+        ans: `C`,
       },
       {
         id: 38,
         question: `What is the formula for potassium fluoride?`,
         options: [
-          `${formula("KF",2)}`,
+          `${formula("KF", 2)}`,
           `${formula("KF")}`,
-          `${formula("K",2,"F")}`,
+          `${formula("K", 2, "F")}`,
           `${ion("KF", "", "-")}`, // making sense
         ],
-        ans: `B`
+        ans: `B`,
       },
       {
         id: 39,
@@ -6560,7 +7183,7 @@ let chemistryQuestions = [
           `Di-`,
           `Tetra-`, // making sense
         ],
-        ans: `B`
+        ans: `B`,
       },
       {
         id: 40,
@@ -6569,354 +7192,12 @@ let chemistryQuestions = [
           "Non-metal element",
           "Metal element",
           "It's alphabetical",
-          "It's based on their position in the periodic table"
+          "It's based on their position in the periodic table",
         ],
-        ans: `B`
+        ans: `B`,
       },
-    ]
+    ],
   },
-  {
-    topic: "Formula calculations",
-    questions: [
-      // I want to work on it such that even if it is 40 questions, it should be enlightening
-      {
-        id: 1,
-        question: `The atomic and molecular mass of nitrogen are respectively`,
-        options: [
-          "14.00 amu and 28.00 amu",
-          "28.00 amu and 14.00 amu",
-          "14.00 amu and 14.00 amu",
-          "28.00 amu and 28.00 amu",
-        ],
-        ans: `A`,
-        remark: `Atomic mass is the mass of one atom of nitrogen while molecular mass is the mass of a molecule of ${formula("N",2)}. Nitrogen exists as a diatomic molecule.`
-      },
-      {
-        id: 2,
-        question: `What is the molecular mass of ${formula("(",formula("NH",4),")",2,"SO",4)}
-        <br />
-        { N = 14, H = 1, S = 32, O = 16 }`,
-        options: [
-          "132.00 amu",
-          "134.00 amu",
-          "136.00 amu",
-          "no correct response",
-        ],
-        ans: `D`,
-        remark: `${formula("(",formula("NH",4),")",2,"SO",4)} is an ionic compound and ionic compounds don't have molecules as their basic structural unit, hence <strong>NO</strong> molecular mass but formula mass`
-      },
-      {
-        id: 3,
-        question: `Which of the following have molecular mass`,
-        options: [
-          `${formula("Cl",2,"O")}`,
-          `${formula("Na",2,"SO",3)}`,
-          `${formula("Al",2,"O",3)}`,
-          `no correct response`,
-        ],
-        ans: `A`,
-        remark: `Only compounds that have covalent bonds between its atoms exist as molecules.`
-      },
-      {
-        id: 4,
-        question: `Calculate the formula mass of ${formula("(",formula("NH",4),")",2,"SO",4)},
-        <br />
-        { N = 14, H = 1, S = 32, O = 16 }`,
-        options: [
-          "132.00 amu",
-          "134.00 amu",
-          "136.00 amu",
-          "no correct response",
-        ],
-        ans: `A`,
-      },
-      {
-        id: 5,
-        question: `Calculate the formula mass of ${formula("Fe","(",formula("NO",3),")",2)}
-        <br />
-        { Fe = 56, N = 14, O = 16 }`,
-        options: [
-          "180 amu",
-          "178 amu",
-          "176 amu",
-          "no correct response",
-        ],
-        ans: `A`,
-      },
-      {
-        id: 6,
-        question: `Calculate the formula mass of ${formula("Zn", "(", formula("C",2,"H",3,"O",2), ")", 2)}
-        <br />
-        { Zn = 65, C = 12, H = 1, O = 16 }`, // making sense // I can render these stuff but abeg jare...
-        options: [
-          "182 amu",
-          "183 amu",
-          "184 amu",
-          "no correct response",
-        ],
-        ans: `B`,
-      },
-      {
-        id: 7,
-        question: `Calculate the percent composition of ${formula("Fe","(",formula("NO",3),")",2)}
-        <br />
-        { Fe = 56, N = 14, O = 16 }`,
-        options: [
-          "29% Fe, 17% N, 54% O",
-          "31% Fe, 16% N, 53% O",
-          "16% Fe, 54% N, 31% O",
-          "no correct response",
-        ],
-        ans: `B`,
-      },
-      {
-        id: 8,
-        question: `Calculate the formula mass of ${formula("Na",2,"Cr",2,"O",7)}
-        <br />
-        { Na = 23, Cr = 52, O = 16 }`,
-        options: [
-          "190 amu",
-          "263 amu",
-          "268 amu",
-          "no correct response",
-        ],
-        ans: `D`, // => the answer is 262 amu...
-      },
-      {
-        id: 9,
-        question: `Calculate the percent composition of ${formula("CH",4,"O")}
-        <br />
-        { C = 12, H = 1, O = 16 }`,
-        options: [
-          "37.5% C, 12.5% H, 50% O",// <= correcto...
-          "12.5% C, 37.5% C, 50% O",
-          "50% C, 12.5% H, 37.5% O",
-          "no correct response",
-        ],
-        ans: `A`,
-      },
-      {
-        // must be calculated correctly if I don't want any anomaly...
-        // not yet calculated
-        id: 10,
-        question: `Calculate the percent composition of TNT ${formula("C",7,"H",5,"N",3,"O",6)}
-        <br />
-        { C = 12, H = 1, N = 14, O = 16 }`,
-        options: [
-          "41.38% C, 2.46% H, 20.69% N, 35% O",
-          "42% C, 2.5% H, 21% N, 36% O",
-          "41.3% C, 3.00% H, 20.69% N, 35.47% O",
-          "no correct response",
-        ],
-        ans: `D`, // ans is 41.38% C, 2.46% H, 20.69% N, 35.47% O
-      },
-      {
-        id: 11,
-        question:
-          "The formula mass for a compound is calculated by summing which of the following numbers for all atoms in a formula unit of the compound?",
-        options: [
-          "atomic number",
-          "mass number",
-          "nuclear charge",
-          "no correct response",
-        ],
-        ans: "D",
-      },
-      {
-        id: 12,
-        question: `The atomic mass of C is 12.01 amu and that of O is 16.00 amu. The formula mass for the compound ${formula(
-          "CO",
-          2
-        )} is:`,
-        options: ["28.01 amu", "44.01 amu", "56.02 amu", "no correct response"],
-        ans: "B",
-      },
-      {
-        id: 13,
-        question: `The atomic mass of H is 1.01 amu and that of N is 14.01 amu. What is the value of x in the chemical formula NH<sub>x</sub>, given that the formula mass of this compound is 17.04 amu?`,
-        options: ["2", "3", "4", "no correct response"],
-        ans: "B",
-      },
-      {
-        id: 14,
-        question: `The numerical value for Avogadro's number is`,
-        options: [
-          `6.02 X ${exp(21)}`,
-          `6.02 X ${exp(24)}`,
-          `6.02 X ${exp(26)}`,
-          "no correct response",
-        ],
-        ans: "D",
-      },
-      {
-        id: 15,
-        question: `The number of atoms present in 1 mole of P atoms is`,
-        options: [
-          `6.02 X ${exp(21)}`,
-          `6.02 X ${exp(23)}`,
-          `6.02 X ${exp(25)}`,
-          "no correct response",
-        ],
-        ans: "B",
-      },
-      {
-        id: 16,
-        question: `One mole of S atoms contains twice as many atoms as`,
-        options: [
-          `one mole of O atoms`,
-          `one-half mole of O atoms`,
-          `one-eight mole of O atoms`,
-          "no correct response",
-        ],
-        ans: "B",
-      },
-      {
-        id: 17,
-        question: `The number of molecules present in 1.50 moles of ${formula(
-          "CO",
-          2
-        )} is`,
-        options: [
-          `Avogadro's number`,
-          `1.50 times Avogadro's number`,
-          `Avogadro's number divided by 1.50`,
-          "no correct response",
-        ],
-        ans: "B",
-      },
-      {
-        id: 18,
-        question: `Which set of quantities is needed to calculate the molar mass of a compound?`,
-        options: [
-          `chemical formula and Avogadro's number`,
-          `chemical formula and atomic masses`,
-          `atomic masses and Avogadro's number`,
-          "no correct response",
-        ],
-        ans: "B",
-      },
-      {
-        id: 19,
-        question: `The atomic mass of O is 16.00 amu. The molar mass for O atoms is`,
-        options: [
-          `16.00 amu`,
-          `6.02 X ${exp(23)} amu`,
-          `16.00 g`,
-          "no correct response",
-        ],
-        ans: "C",
-      },
-      {
-        id: 20,
-        question: `The atomic masses of N and O are, respectively, 14.01 amu and 16.00 amu. The molar mass of the compound ${formula(
-          "NO",
-          2
-        )} is`,
-        options: [`30.01 g`, `44.02 g`, `46.01 g`, "no correct response"],
-        ans: "C",
-      },
-      {
-        id: 21,
-        question: `The molar mass of ${formula(
-          "CO",
-          2
-        )} is 44.01 g. What is the mass, in amu, of one molecule of ${formula(
-          "CO",
-          2
-        )}?`,
-        options: [
-          `44.01 g`,
-          `44.01 amu`,
-          `44.01 amu times Avogadro's number`,
-          "no correct response",
-        ],
-        ans: "B",
-      },
-      {
-        id: 22,
-        question: `The formula mass of ${formula(
-          "N",
-          2,
-          "O"
-        )} is 44.02 amu. What is the mass, in grams, of one-half mole of ${formula(
-          "N",
-          2,
-          "O"
-        )}?`,
-        options: [`88.04 g`, `44.02 g`, `22.01 g`, "no correct response"],
-        ans: "C",
-      },
-      {
-        id: 23,
-        question: `How many moles of H atoms are present in one mole of ${formula(
-          "H",
-          3,
-          "PO",
-          4
-        )} molecules?`,
-        options: [`1 mole`, `2 moles`, `3 moles`, "no correct response"],
-        ans: "C",
-      },
-      {
-        id: 24,
-        question: `Which of the following samples contains 4.0 moles of O atoms?`,
-        options: [
-          `1.0 mole ${formula("SO", 2)}`,
-          `2.0 moles ${formula("SO", 2)}`,
-          `1.0 mole ${formula("SO", 3)}`,
-          "no correct response",
-        ],
-        ans: "B",
-      },
-      {
-        id: 25,
-        question: `The total number of moles of atoms present in 4.00 moles of ${formula(
-          "CO",
-          2
-        )} is`,
-        options: [
-          `3.00 moles`,
-          `8.00 moles`,
-          `12.0 moles`,
-          "no correct response",
-        ],
-        ans: "C",
-      },
-      {
-        id: 26,
-        question: `Determine the empirical formula of a compound that has a percent composition of 43.7% P and 56.3% O`,
-        options: [
-          `${formula("P",2,"O",4)}`,
-          `${formula("P",2,"O",5)}`,
-          `${formula("P",3,"O",5)}`,
-          "no correct response",
-        ],
-        ans: "B",
-      },
-      {
-        id: 27,
-        question: `Determine the empirical formula of a compound if a sample of the compound contains 3.524 g of iron, 3.034 g of sulfur, and 4.542 g of oxygen.`,
-        options: [
-          `${formula("Fe","S","O")}`,
-          `${formula("Fe",2,"S",3,"O",9)}`,
-          `${formula("Fe",2,"S",3,"O",5)}`,
-          "no correct response",
-        ],
-        ans: "B",
-      },
-      {
-        id: 28,
-        question: `Determine the molecular formula of styrene, used to prepare the plastic wrapping material polystyrene. It is a compound of carbon and hydrogen only that contains 92.26% carbon, and has a molar mass of 104 g/mol.`,
-        options: [
-          `${formula("CH")}`,
-          `${formula("C",3,"H",3)}`,
-          `${formula("C",8,"H",8)}`,
-          "no correct response",
-        ],
-        ans: "C",
-      },
-    ]
-  }
 ];
 
 //

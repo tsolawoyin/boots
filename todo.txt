@@ -2,15 +2,20 @@ English
 =======
 - Lexis I: Synonyms                             (done)
 - Lexis II: Antonyms                            (done)
+
 - Interpretation of words and expressions
 - Idioms: Sayings
 - Phrasal verbs
+
 - Noun | Pronouns                               (done)
-- Verbs | Tenses                               (in progress)
-- Preposition
-- Adjective | Article | Determiners
-- Adeverbs | Conjuction | Punctuation
-- Rule of concord | Collocation
-- Question tags
+- Verbs | Tenses                                (done)
+
+- Preposition                          =>       (next)
+
+- Adjective | Article | Determiners             -----------
+- Adeverbs | Conjuction | Punctuation                     | 
+- Rule of concord | Collocation                 UNDONE    |
+- Question tags                                 -----------
+
 - Spelling mistake                              (done)
 - Common mistake in English                     (done)
