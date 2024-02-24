@@ -42,6 +42,7 @@ const english = new Subject("English", [
     "Synonyms",
     "Noun | Pronoun",
     "Verb",
+    "Prepositions",
     "Spelling mistakes",
     "Common mistakes",
     "general"
