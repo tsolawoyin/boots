@@ -23,7 +23,7 @@ const biology = new Subject("Biology", [
     "The Cell Structure And Functions Of Cell Components",
     "Living Organisms And Level Of Organisation",
     "The Cell And Its Environment",
-    // "Evolution Among Viruses Monera, Protista And Fungi",
+    "Evolution Among Viruses Monera, Protista And Fungi",
     // "Evolution among plants",
     // "Higher Plants",
     // "Evolution Among Invertebrates",
@@ -43,6 +43,8 @@ const english = new Subject("English", [
     "Noun | Pronoun",
     "Verb",
     "Prepositions",
+    "Adjectives, Articles, and Determiners",
+    "Rules of concord",
     "Spelling mistakes",
     "Common mistakes",
     "general"

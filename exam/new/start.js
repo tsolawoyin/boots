@@ -100,13 +100,13 @@ function createFirstExam(qty) {
 }
 
 function loadClientDetails() {
-  // someone needs to be humble. Pardon this side of the code thanks.
   if (
     username.value.toLowerCase() == "kizzylove" ||
     username.value.toLowerCase() == "miamor" ||
-    username.value.toLowerCase() == "lizzygold"
+    username.value.toLowerCase() == "lizzygold" ||
+    username.value.toLowerCase() == "adekizzy" 
   ) {
-    userEl.textContent = "Seun";
+    userEl.textContent = "kizzylove";
   } else {
     userEl.textContent = username.value;
   }

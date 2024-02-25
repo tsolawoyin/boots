@@ -1,4 +1,4 @@
-English
+English (9/14)
 =======
 - Lexis I: Synonyms                             (done)
 - Lexis II: Antonyms                            (done)
@@ -10,12 +10,12 @@ English
 - Noun | Pronouns                               (done)
 - Verbs | Tenses                                (done)
 
-- Preposition                          =>       (next)
+- Preposition                                   (done)
 
-- Adjective | Article | Determiners             -----------
-- Adeverbs | Conjuction | Punctuation                     | 
-- Rule of concord | Collocation                 UNDONE    |
-- Question tags                                 -----------
+- Adjective | Article | Determiners             (done)
+- Adeverbs | Conjuction | Punctuation                     
+- Rule of concord | Collocation                 (done)
+- Question tags                               
 
 - Spelling mistake                              (done)
 - Common mistake in English                     (done)
