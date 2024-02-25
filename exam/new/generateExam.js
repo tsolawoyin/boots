@@ -29,7 +29,7 @@ function createExam(subject, topic, qty) {
     // given a subject and a topic, create an exam object instance...
     // qty reps the number of questions needed.
     // now this function will do a good job at finding the necessary subject and topics and return a valid exam instance
-    let sub = Questions.find(e => e.subject == subject);
+    let sub = Questions.find(e => e.subject == subject); // fetching the subject as a whole
     
     if (sub) {
         return new Exam(subject, topic, sub.questions, qty)

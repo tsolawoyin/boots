@@ -4788,7 +4788,7 @@ let biologyQuestions = [
 
   {
     topic: "Digestive system, Digestive enzyme and Dentition",
-    question: [
+    questions: [
       {
         id: 1,
         question: "When proteins are broken down they also provide",
@@ -5472,7 +5472,7 @@ let biologyQuestions = [
 
   {
     topic: "Supporting Tissues In Plants And Movement",
-    question: [
+    questions: [
       {
         id: 1,
         question: "One of the functions of the xylem is",

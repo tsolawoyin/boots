@@ -1,15 +1,15 @@
 import { Exam } from "./Exam/Exam.js";
 import { chemistryQuestions } from "../questionDB/chmQuestions.js";
+import { biologyQuestions } from "../questionDB/bioQuestions.js";
 
-let chemistryExam = new Exam("Chemistry", "Nitrogen", chemistryQuestions, 40);
+let biologyQuestion = new Exam(
+  "Biology",
+  "general",
+  biologyQuestions,
+  40
+);
 
-chemistryExam.nextQuestion();
-chemistryExam.nextQuestion();
-console.log(chemistryExam.currentQuestion);
-console.log(chemistryExam.unseenQuestions.length);
-console.log(chemistryExam.seenQuestions.length);
-console.log(chemistryExam.quantity);
-
+console.log(biologyQuestion);
 // stand gidi gba...
 
 // the next function is not problematic...

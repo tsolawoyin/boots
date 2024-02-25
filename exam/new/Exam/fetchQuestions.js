@@ -51,12 +51,12 @@ function general(subject, quantity) {
   // to prevent infinite loop stuff, you know
   let count = 0;
 
-  while (choosenQuestions.length < quantity) {
+  while (choosenQuestions.length < quantity) { // trying to get up to qty...
     // let's just keep picking questions
-    if (count >= 100) break;
+    if (count >= 100) break; // infinite loop checker...
 
     let { topic, questions } = choose(subject); // this will choose one topic for us...
-
+    // how this is returning undefined
     let question = choose(questions); // this will choose the question for us
 
     // now check if id is not already choosen to avoid choosing the same question twice...
