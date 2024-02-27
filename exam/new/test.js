@@ -1,6 +1,6 @@
 import { Exam } from "./Exam/Exam.js";
-import { chemistryQuestions } from "../questionDB/chmQuestions.js";
-import { biologyQuestions } from "../questionDB/bioQuestions.js";
+import { chemistryQuestions } from "../chmQuestions.js";
+import { biologyQuestions } from "../bioQuestions.js";
 
 let biologyQuestion = new Exam(
   "Biology",

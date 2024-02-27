@@ -45,6 +45,7 @@ const english = new Subject("English", [
     "Prepositions",
     "Adjectives, Articles, and Determiners",
     "Rules of concord",
+    "Interrogative question tags, reported speech",
     "Spelling mistakes",
     "Common mistakes",
     "general"
