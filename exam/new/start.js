@@ -100,16 +100,7 @@ function createFirstExam(qty) {
 }
 
 function loadClientDetails() {
-  if (
-    username.value.toLowerCase() == "kizzylove" ||
-    username.value.toLowerCase() == "miamor" ||
-    username.value.toLowerCase() == "lizzygold" ||
-    username.value.toLowerCase() == "adekizzy" 
-  ) {
-    userEl.textContent = "kizzylove";
-  } else {
-    userEl.textContent = username.value;
-  }
+  userEl.textContent = username.value;
 }
 
 // always checking for errors. o la gbara.
