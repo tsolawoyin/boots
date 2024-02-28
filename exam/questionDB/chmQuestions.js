@@ -4781,17 +4781,17 @@ let chemistryQuestions = [
         options: [`ionic`, `covalent`, `polar`, `no correct response`],
         ans: "B",
       },
-      {
-        id: 47,
-        question: `In a polar covalent bond the atom of greater electronegativity bears a`,
-        options: [
-          `fractional positive charge`,
-          `fractional negative charge`,
-          `full positive charge`,
-          `no correct response`,
-        ],
-        ans: "B",
-      },
+      // {
+      //   id: 47,
+      //   question: `In a polar covalent bond the atom of greater electronegativity bears a`,
+      //   options: [
+      //     `fractional positive charge`,
+      //     `fractional negative charge`,
+      //     `full positive charge`,
+      //     `no correct response`,
+      //   ],
+      //   ans: "B",
+      // },
       {
         id: 48,
         question: `In a polar covalent bond the notation called a "delta plus symbol" is assigned to`,
