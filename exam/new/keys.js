@@ -210,4 +210,4 @@ function endExam() {
   submitted = true; // and stop all marking
 }
 
-export { endExam };
+export { endExam , submitted };

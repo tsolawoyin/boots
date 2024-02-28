@@ -1,6 +1,8 @@
 // imagine how the function is simplified when you know what you are supposed to do already.
 // question already seen but haven't answered
 // modularizing the code is better. I will work hard to refactor it.
+import { submitted } from "./keys.js";
+
 let sampleQuestion1 = {
   id: 1,
   question:
@@ -40,8 +42,9 @@ let sampleQuestion3 = {
 function buildQuestion(question) {
   // append info if present then continue rendering
   // this is just a very short way of writing a very long stuff. lolzzzz.
-  if (!question.ans) { // this is two create an ans property in case the question object is not having question.ans property. Everything is something of case.
-    question["ans"] = question.answer; // alright, that means it can have a question.answer property instead... hmmm   
+  if (!question.ans) {
+    // this is two create an ans property in case the question object is not having question.ans property. Everything is something of case.
+    question["ans"] = question.answer; // alright, that means it can have a question.answer property instead... hmmm
   }
 
   return `${
@@ -71,15 +74,31 @@ function generateOptions(id, options, answer, mainAns, remark) {
 
   let structure = `<div id="options">`;
 
+  // don't be lazy my nigga...
   for (let i = 0; i < options.length; i++) {
     // now let's think about this thing properly...
     // there are many possible stuffs,
     if (!answer) {
+      // if user don't have answers yet, it can be submitted or not
       // that is user don't have an answer yet, do this
-      structure += `<input type="radio" name="Q${id}" id="q${id}${optionVal[i]}" value="${optionVal[i]}">
+      // just do the normal buildup
+      // this is for the submitted state...
+      if (!submitted) {
+        structure += `<input type="radio" name="Q${id}" id="q${id}${optionVal[i]}" value="${optionVal[i]}">
         <label for="q${id}${optionVal[i]}" class="answers"> ${options[i]}</label><br />`;
+      } else {
+        // if submitted, then let's do some other things
+        if (optionVal[i] == mainAns) {
+          structure += `<input type="radio" name="Q${id}" id="q${id}${optionVal[i]}" value="${optionVal[i]}">
+        <label for="q${id}${optionVal[i]}" class="answers"> ${options[i]} ✅</label><br />`;
+        } else {
+          structure += `<input type="radio" name="Q${id}" id="q${id}${optionVal[i]}" value="${optionVal[i]}">
+        <label for="q${id}${optionVal[i]}" class="answers"> ${options[i]}</label><br />`;
+        }
+      }
     } else {
-      if (optionVal[i] == answer && optionVal[i] == mainAns) { // checking only just one, shey you get...
+      if (optionVal[i] == answer && optionVal[i] == mainAns) {
+        // checking only just one, shey you get...
         structure += `<input type="radio" name="Q${id}" id="q${id}${optionVal[i]}" value="${optionVal[i]}" checked>
         <label for="q${id}${optionVal[i]}" class="answers"> ${options[i]} ✅</label><br />`;
       } else {
