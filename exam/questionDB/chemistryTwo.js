@@ -442,7 +442,7 @@ let kineticTheoryOfMatter = [
     question:
       `10${units("cm",3)} of hydrogen fluoride gas reacts with 5${units("cm",3)} of Dinitrogen difluoride gas (${formula("N",2,"F",2)}) to form 10${units("cm",3)} of a single gas. Which of the following `,
     options: [
-      `cBrownnian movement`,
+      `Brownnian movement`,
       `Condensation`,
       `Evaporation`,
       `Liquefaction`,
@@ -450,3 +450,408 @@ let kineticTheoryOfMatter = [
     ans: "D",
   },
 ]
+
+
+let sulphur =   {
+  topic: "Sulphur",
+  questions: [
+    {
+      id: 1,
+      question: `When ${formula(
+        "SO",
+        2
+      )} is passed into a solution of acidified potassium heptaoxodichromate(VI), ${formula(
+        "K",
+        2,
+        "Cr",
+        2,
+        "O",
+        7
+      )}, the solution turn?`,
+      options: [`green`, `orange`, `purple`, `yellow`],
+      ans: "A",
+    },
+    {
+      id: 2,
+      question: `Tetraoxosulphate(VI) acid burns the skin by`,
+      options: [`hydrolysis`, `hydration`, `heating`, `dehydration`],
+      ans: "D",
+    },
+    {
+      id: 3,
+      question: `The salt that reacts with dilute hydrochloric acid to produce a pungent smelling gas which decolorize acidified purple potassium tetraoxomanganate(VII) solution is?`,
+      options: [
+        `${formula("Na", 2, "SO", 4)}`,
+        `${formula("Na", 2, "SO", 3)}`,
+        `${formula("Na", 2, "S")}`,
+        `${formula("Na", 2, "CO", 4)}`,
+      ],
+      ans: "C",
+    },
+    {
+      id: 4,
+      question: `Sulphur(IV) oxide bleaches by?`,
+      options: [`oxidation`, `reduction`, `decomposition`, `sulphurnization`],
+      ans: "B",
+    },
+    {
+      id: 5,
+      question: `Which of the following is true of Sulphur(VI) oxide`,
+      options: [
+        `it forms tetraoxosulphate(VI) acid with water`,
+        `it is an odorless gas`,
+        `it is an acid anhydride`,
+        `it forms white precipitate with acidified barium chloride solution`,
+      ],
+      ans: "C",
+    },
+    {
+      id: 6,
+      question: `A solution of a salt was acidified by HCl. When a few drops of ${formula(
+        "BaCl",
+        2
+      )} solution were added, a white precipitate was formed. Which of the following ions is present in the salt?`,
+      options: [
+        `${ion(formula("CO", 3), 2, "-")}`,
+        `${ion(formula("NO", 3), "-", "")}`,
+        `${ion(formula("SO", 3), 2, "-")}`,
+        `${ion(formula("SO", 4), 2, "-")}`,
+      ],
+      ans: "D",
+    },
+    {
+      id: 7,
+      question: `A rock sample was added to a cold dilute ${formula(
+        "HNO",
+        3
+      )}. The gas evolved was passed into a solution of acidified ${formula(
+        "K",
+        2,
+        "Cr",
+        2,
+        "O",
+        7
+      )} and the solution turned green. The rock sample contains?`,
+      options: [
+        `${ion(formula("CO", 3), 2, "-")}`,
+        `${ion(formula("NO", 3), "-", "")}`,
+        `${ion(formula("SO", 3), 2, "-")}`,
+        `${ion(formula("SO", 4), 2, "-")}`,
+      ],
+      ans: "C",
+    },
+    {
+      id: 8,
+      question: `Rhombic sulfur comsists of which molecule?`,
+      options: [
+        `${formula("S", 6)} molecule`,
+        `${formula("S", 4)} molecule`,
+        `${formula("S", 2)} molecule`,
+        `${formula("S", 8)} molecule`,
+      ],
+      ans: "D",
+    },
+    {
+      id: 9,
+      question: `Sulfuric acid is manufactured by:`,
+      options: [
+        `Haber's process`,
+        `Ostwald' process`,
+        `Contact process`,
+        `Dow's process`,
+      ],
+      ans: "C",
+    },
+    {
+      id: 10,
+      question: `${formula("SO", 2)} react with ${formula("NaOH")} forming`,
+      options: [
+        `Sodium sulphate`,
+        `Sulfur trixoxide`,
+        `Hydrogen sulphite`,
+        `Sodium sulphite`,
+      ],
+      ans: "D",
+    },
+    {
+      id: 11,
+      question: `Sulphur when burnt in air forms`,
+      options: [
+        `${formula("SO", 3)}`,
+        `${formula("SO", 2)}`,
+        `${formula("H", 2, "SO", 3)}`,
+        `${formula("H", 2, "SO", 4)}`,
+      ],
+      ans: "B",
+    },
+    {
+      id: 12,
+      question: `The number of S-S bonds in sulhpur trioxide trime (${formula(
+        "S",
+        3,
+        "O",
+        9
+      )}) is?`,
+      options: [`zero`, `three`, `one`, `two`],
+      ans: "A",
+    },
+    {
+      id: 13,
+      question: `The temperature above which beta sulphur is stable is?`,
+      options: [`369 &deg;C`, `369K`, `298K`, `273.15K`],
+      ans: "B",
+    },
+    {
+      id: 14,
+      question: `Sulphur dioxde reacts with chlorine in the presence of charcoal to give?`,
+      options: [
+        `Sulphuryl chloride`,
+        `Oleum`,
+        `Sulphur trioxide`,
+        `Sulphuric acid`,
+      ],
+      ans: "A",
+    },
+    {
+      id: 15,
+      question: `The allotrope of sulphur that is more stable at room temperature is`,
+      options: [
+        `rhombic sulfur`,
+        `monoclinic sulfur`,
+        `beta sulfur`,
+        `none of these`,
+      ],
+      ans: "A",
+    },
+    {
+      id: 16,
+      question: `The maximum covalency of sulfur is?`,
+      options: [`2`, `6`, `4`, `8`],
+      ans: "B",
+    },
+    {
+      id: 17,
+      question: `The geometry of ${formula(
+        "H",
+        2,
+        "S"
+      )} and its dipole moment are`,
+      options: [
+        `Angular and zero`,
+        `Linear and non-zero`,
+        `Linear and zero`,
+        `Angular and non-zero`,
+      ],
+      ans: "D",
+    },
+    {
+      id: 18,
+      question: `Pick out the odd property of rhombic sulfur`,
+      options: [
+        `melting point 385.8K`,
+        `yellow solid`,
+        `insoluble in carbon disulfide`,
+        `insoluble in water`,
+      ],
+      ans: "C",
+    },
+    {
+      id: 19,
+      question: `The number of S-S bond in pyrosulfuric acid(oleum) is?`,
+      options: [`1`, `2`, `0`, `3`],
+      ans: "C",
+    },
+    {
+      id: 20,
+      question: `Solid ${formula("SO", 3)} exists as?`,
+      options: [
+        `Plane triangular structure`,
+        `Bent structure`,
+        `Linear structure`,
+        `Cyclic trimer structure`,
+      ],
+      ans: "D",
+    },
+    {
+      id: 21,
+      question: `The basicity of sulphurous acid is?`,
+      options: [`5`, `3`, `2`, `4`],
+      ans: "C",
+    },
+    // start here
+    {
+      id: 22,
+      question: `Hydrogen sulphide gas can act as?`,
+      options: [
+        `an oxidizing agent`,
+        `a dehydrating agent`,
+        `a bleaching agent`,
+        `a precipitating agent`,
+      ],
+      ans: "D",
+    },
+    {
+      id: 23,
+      question: `The acid that is used to remove rust is`,
+      options: [
+        `boric`,
+        `hydrochloric`,
+        `trioxonitrate(V)`,
+        `tetraoxosulfate(VI)`,
+      ],
+      ans: "B",
+    },
+    {
+      id: 24,
+      question: `When chlorine gas is passed into a solution of sulfur dioxide?`,
+      options: [
+        `sulfur dioxide is reduced to sulfur`,
+        `the chlorine is oxidezed to hydrochloric acid`,
+        `dilute sulfuric acid and hydrochloric acid are produced`,
+        `hydrochloric acid and sulfur are produced`,
+        `sulfur trioxide is the only product`,
+      ],
+      ans: "C",
+    },
+    {
+      id: 25,
+      question: `${formula("SO", 2)} + ${formula("O", 2)} -> 2${formula(
+        "SO",
+        3
+      )}<br />In the reaction above, the most suitable catalyst is?`,
+      options: [
+        `chromium(VI) oxide`,
+        `Iron(III) oxide`,
+        `copper(I) oxide`,
+        `vanadium(V) oxide`,
+      ],
+      ans: "D",
+    },
+    {
+      id: 26,
+      question: `The sulphide that is commonly used in coating electric fluorescent tubes is?`,
+      options: [
+        `Irom(II) sulfide`,
+        `Tin(II) sulfide`,
+        `Zinc sulfide`,
+        `Lead(IV) sulfide`,
+      ],
+      ans: "C",
+    },
+    {
+      id: 27,
+      question: `What is the atomic number of sulfur`,
+      options: [`8`, `16`, `32`, `64`],
+      ans: "C",
+    },
+    {
+      id: 28,
+      question: `Which of the following is a common allotrope of sulfur`,
+      options: [
+        `sulfur dioxide`,
+        `sulfur hexafluoride`,
+        `sulfuric acid`,
+        `rhombic sulfur`,
+      ],
+      ans: "D",
+    },
+    {
+      id: 29,
+      question: `What is the smell commonly associated with hydorgen sulfide, a compound of sulfur`,
+      options: [`sweet`, `sour`, `rotten eggs`, `minty`],
+      ans: "C",
+    },
+    {
+      id: 30,
+      question: `Sulfur is an essential element for which biological molecules?`,
+      options: [`carbohydrates`, `lipids`, `proteins`, `nucleic acids`],
+      ans: "C",
+    },
+    {
+      id: 31,
+      question: `What is the chemical symbol for sulfur?`,
+      options: [`Su`, `Sf`, `Sr`, `S`],
+      ans: "D",
+    },
+    {
+      id: 32,
+      question: `What is the main environmental concern associated with sulfur dioxide (SO2) emissions?`,
+      options: [
+        `Depletin of the ozone layer`,
+        `Acid rain formation`,
+        `Global warming potential`,
+        `Ground level ozone production`,
+      ],
+      ans: "B",
+    },
+    {
+      id: 33,
+      question: `Who first recognized sulfur as an element?`,
+      options: [
+        `John Dalton`,
+        `Humphry Davy`,
+        `Loius Pasteur`,
+        `Antoine Lavoiser`,
+      ],
+      ans: "D",
+    },
+    {
+      id: 34,
+      question: `What is the name of the process of extracting sulfur on commercial scale`,
+      options: [
+        `Bosch process`,
+        `Boyle process`,
+        `Ostwald process`,
+        `Frasch process`,
+      ],
+      ans: "D",
+    },
+    {
+      id: 35,
+      question: `Which of the following is used for vulcanization purposes in the rubber industry?`,
+      options: [
+        `Sulfuric acid`,
+        `Sulfur dioxide`,
+        `Sulfur`,
+        `Sulfur trioxide`,
+      ],
+      ans: "C",
+    },
+    {
+      id: 36,
+      question: `Which is a more vital source of elemental sulfur?`,
+      options: [`oceans`, `wind`, `soil`, `volcanoes`],
+      ans: "D",
+    },
+    {
+      id: 37,
+      question: `What is the transition temperature of alpha- and beta-sulfur?`,
+      options: [`369&deg;C`, `369&deg;F`, `95.9&deg;C`, `95.9&deg;F`],
+      ans: "C",
+    },
+    {
+      id: 38,
+      question: ` Which characteristic of crude petroleum is a consequence of sulfur?`,
+      options: [`Acidity`, `Sourness`, `Alkalinity`, `Foul odor`],
+      ans: "A",
+    },
+    {
+      id: 39,
+      question: `What percentage of Earth’s mass is sulfur?`,
+      options: [`3%`, `5%`, `0.032%`, `2%`],
+      ans: "A",
+    },
+    {
+      id: 40,
+      question: `What is the chemical structure and formula of sulfur?`,
+      options: [
+        `${formula("S", 8)}, S`,
+        `S, ${formula("S", 8)}`,
+        `S`,
+        "S",
+        `${formula("S", 8)}, ${formula("S", 8)}`,
+      ],
+      ans: "A",
+    },
+  ],
+}

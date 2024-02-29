@@ -41,7 +41,6 @@ numKeys.addEventListener("click", (e) => {
     // probably because exam has just started
     current = exams[0];
   }
-  console.log(e.target.id)
   if (e.target.id != "num-keys") {
     let clicked = e.target;
     // there is no need for checking anything
@@ -82,7 +81,10 @@ examKeys.addEventListener("click", (e) => {
       // these things are just a matter of displaying things to the user, nothing much is happening
       // keys are supposed to be loaded before showing answers.
       // you know, in some exam scenarios, the number of questions may not be the same
+      current.changeColor(currentScoreEl); // update the color of the score element
+      // update color of the currentScoreEl too match the stuff... Today, I am making signifant modification to d program which makes sense...
       current.loadKeys(numKeys); // loading keys before showing answer makes perfect sense.
+
 
       current.showAnsweredQuestions(); // update color to match the color of current exam
       // that is it is present

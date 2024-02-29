@@ -7,7 +7,7 @@ const { A, B, C, D, E, c } = { A: "A", B: "B", C: "C", D: "D", E: "E", c: "C" };
 let biologyQuestions = [
   // biology questions under review... thank you. one by one...
   {
-    topic: "The Cell Structure And Functions Of Cell Components",
+    topic: "1. The Cell Structure And Functions Of Cell Components",
     questions: [
       {
         id: 1,
@@ -419,7 +419,7 @@ let biologyQuestions = [
   },
 
   {
-    topic: "Living Organisms And Level Of Organisation",
+    topic: "2. Living Organisms And Level Of Organisation",
     questions: [
       {
         id: "tjfdj4",
@@ -570,7 +570,7 @@ let biologyQuestions = [
   },
   //   done and dusted
   {
-    topic: "The Cell And Its Environment",
+    topic: "3. The Cell And Its Environment",
     questions: [
       {
         id: 1,
@@ -840,7 +840,7 @@ let biologyQuestions = [
   },
   // they are all here currently... 
   {
-    topic: "Evolution Among Viruses, Monera, Protista And Fungi",
+    topic: "4. Evolution Among Viruses, Monera, Protista And Fungi",
     questions: [
       {
         id: 1,
@@ -1292,14 +1292,14 @@ let biologyQuestions = [
       {
         id: 52,
         question: "Blue-green algea belongs to what kingdom?",
-        options: ["Plantae", "Fungi", "Moneran", "Protista"],
+        options: ["Plantae", "Fungi", "Monera", "Protista"],
         ans: C,
       },
     ],
   },
   // to be edited... the breakdown of this thing sef makes it easy. I mean seriously easy...
   {
-    topic: "Evolution among plants",
+    topic: "5. Evolution among plants",
     questions: [
       {
         id: 1,
@@ -1744,7 +1744,7 @@ let biologyQuestions = [
   },
 
   {
-    topic: "Higher Plants",
+    topic: "6. Higher Plants",
     questions: [
       {
         id: 1,
@@ -2121,7 +2121,7 @@ let biologyQuestions = [
   },
 
   {
-    topic: "Evolution Among Invertebrates",
+    topic: "6. Evolution Among Invertebrates",
     questions: [
       {
         id: 1,
@@ -2510,7 +2510,7 @@ let biologyQuestions = [
   },
 
   {
-    topic: "The Arthropods",
+    topic: "7. The Arthropods",
     questions: [
       {
         id: 1,
@@ -3049,7 +3049,7 @@ let biologyQuestions = [
   },
 
   {
-    topic: "The Vertebrates Pisces. Amphibians. Reptiles",
+    topic: "8. The Vertebrates Pisces. Amphibians. Reptiles",
     questions: [
       {
         id: 1,
@@ -3502,7 +3502,7 @@ let biologyQuestions = [
   },
 
   {
-    topic: "The Vertebrate II-Birds And Mammals",
+    topic: "9. The Vertebrate II-Birds And Mammals",
     questions: [
       {
         id: 1,
@@ -3797,7 +3797,7 @@ let biologyQuestions = [
   },
 
   {
-    topic: "Plant Nutrition",
+    topic: "10. Plant Nutrition",
     questions: [
       {
         id: 1,
@@ -4360,7 +4360,7 @@ let biologyQuestions = [
   },
 
   {
-    topic: "Animal nutrition and food substances",
+    topic: "11. Animal nutrition and food substances",
     questions: [
       {
         id: 4,
@@ -4782,7 +4782,7 @@ let biologyQuestions = [
   },
 
   {
-    topic: "Digestive system, Digestive enzyme and Dentition",
+    topic: "12. Digestive system, Digestive enzyme and Dentition",
     questions: [
       {
         id: 1,
@@ -5466,7 +5466,7 @@ let biologyQuestions = [
   },
 
   {
-    topic: "Supporting Tissues In Plants And Movement",
+    topic: "13. Supporting Tissues In Plants And Movement",
     questions: [
       {
         id: 1,
@@ -5870,7 +5870,7 @@ let biologyQuestions = [
   },
 
   {
-    topic: "Supporting Tissues In Animals",
+    topic: "14. Supporting Tissues In Animals",
     questions: [
       {
         id: 1,

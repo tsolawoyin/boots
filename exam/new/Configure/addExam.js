@@ -12,6 +12,7 @@ import { addBtn, addedSubjectsEl, subjectEl, topicEl } from "./constants.js";
 
 const choosenSubjects = [];
 let counter = 1;
+let allowed = 20;
 
 // where does this subject come from
 // console.log(subject.value);
@@ -21,7 +22,7 @@ addBtn.addEventListener("click", (e) => {
   // yup yup, we only push if present
   if (
     !checkForDuplicates(choosenSubjects, subjectEl.value, topicEl.value) &&
-    counter < 5
+    counter < allowed
   ) {
     choosenSubjects.push({ subject: subjectEl.value, topic: topicEl.value });
     // it will be here simply
@@ -35,9 +36,9 @@ addBtn.addEventListener("click", (e) => {
 
     addedSubjectsEl.append(li)
 
-    counter += 1; // this will ensure that user only selects max of four....
-  } else if (counter >= 5) {
-    alert("Maximum of only four questions is allowed"); // this is terribly serious
+    counter += 1; // the user can add as much as they like. It's none of my business joh.
+  } else if (counter >= allowed) {
+    alert("Max number of exams added."); // this is terribly serious
   }
 
   // this is another dimension of coding. o deep...
