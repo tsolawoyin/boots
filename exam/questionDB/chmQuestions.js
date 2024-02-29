@@ -5670,7 +5670,7 @@ let chemistryQuestions = [
     topic: "4. Chemical calculations",
     questions: [
       {
-        id: 16,
+        id: 1,
         question: `When the chemical equation Na + S -> ${formula(
           "Na",
           2,
@@ -5680,7 +5680,7 @@ let chemistryQuestions = [
         ans: "D",
       },
       {
-        id: 17,
+        id: 2,
         question: `When the chemical equation Al + ${formula(
           "O",
           2
@@ -5699,7 +5699,7 @@ let chemistryQuestions = [
         ans: "B",
       },
       {
-        id: 18,
+        id: 3,
         question: `A balanced chemical equation contains the expression 2 ${formula(
           "Fe",
           "Cl",
@@ -5710,13 +5710,13 @@ let chemistryQuestions = [
       },
 
       {
-        id: 19,
+        id: 4,
         question: `Which of the following elemental gases is not written as a diatomic molecule in a chemical equation?`,
         options: [`hydrogen`, `nitrogen`, `helium`, "no correct response"],
         ans: "C",
       },
       {
-        id: 20,
+        id: 5,
         question: `Which of the following statements is true for all balanced chemical equations?`,
         options: [
           `The sum of the coefficients on each side of the equation must be equal.`,
@@ -5727,7 +5727,7 @@ let chemistryQuestions = [
         ans: "C",
       },
       {
-        id: 21,
+        id: 6,
         question: `Which of the following statements is consistent with the information found in the chemical equation ${formula(
           "N",
           2
@@ -5750,7 +5750,7 @@ let chemistryQuestions = [
         ans: "C",
       },
       {
-        id: 22,
+        id: 7,
         question: `How many moles of Al are needed to produce 6.0 moles of ${formula(
           "Al",
           2,
@@ -5771,7 +5771,7 @@ let chemistryQuestions = [
         ans: "C",
       },
       {
-        id: 23,
+        id: 8,
         question: `How many moles of ${formula(
           "CO",
           2
@@ -5787,14 +5787,14 @@ let chemistryQuestions = [
         ans: "D",
       },
       {
-        id: 24,
+        id: 9,
         question:
           "How many moles of calcium trioxocarbonate(IV) are there in 2.5g of calcium trioxocarbonate(IV) <br /> { C = 12; O = 16; Ca = 40 }",
         options: [`0.0025`, `0.025`, `0.25`, `2.5`],
         ans: "E",
       },
       {
-        id: 25,
+        id: 10,
         question: "One mole of a substance contains the",
         options: [
           `atomic number of particles`,
@@ -5805,7 +5805,7 @@ let chemistryQuestions = [
         ans: "E",
       },
       {
-        id: 26,
+        id: 11,
         question:
           "The number of hydrogen ions in 9.8g of tetraoxosulphate(VI) acid solution is",
         options: [
@@ -5817,7 +5817,7 @@ let chemistryQuestions = [
         ans: "E",
       },
       {
-        id: 27,
+        id: 12,
         question: `What mass of ${formula(
           "SO",
           2
@@ -5832,7 +5832,7 @@ let chemistryQuestions = [
         ans: "E",
       },
       {
-        id: 28,
+        id: 13,
         question: `One mole of a compound ${formula(
           "MHCO",
           3
@@ -5841,7 +5841,7 @@ let chemistryQuestions = [
         ans: "E",
       },
       {
-        id: 28,
+        id: 14,
         question: `How many molecules of phosphorus (${formula(
           "P",
           4
@@ -5857,7 +5857,7 @@ let chemistryQuestions = [
         ans: "E",
       },
       {
-        id: 29,
+        id: 15,
         question: `Upon heating 1.25g of a solid, 280${units(
           "cm",
           3
@@ -5869,19 +5869,19 @@ let chemistryQuestions = [
         ans: "E",
       },
       {
-        id: 30,
+        id: 16,
         question: `What is the mass of 2.3 mole of sodium`,
         options: [`53g`, `230g`, `23g`, `46g`],
         ans: "E",
       },
       {
-        id: 31,
+        id: 17,
         question: `How many moles of iron(III) oxide are contained in 1kg of the compound? <br /> { Fe = 56; O = 16 }`,
         options: [`3.125 moles`, `0.3125 mole`, `0.625 mole`, `6.25 moles`],
         ans: "E",
       },
       {
-        id: 32,
+        id: 18,
         question: `The number of atoms of chlorine present in 7,45g of KCl is`,
         options: [
           `6.02 X ${exp(23)}`,
@@ -5892,7 +5892,7 @@ let chemistryQuestions = [
         ans: "E",
       },
       {
-        id: 34,
+        id: 19,
         question: `How many atoms of oxygen are present in 8.8g of carbon(IV) oxide?`,
         options: [
           `6.02 X ${exp(22)}`,
@@ -5903,7 +5903,7 @@ let chemistryQuestions = [
         ans: "E",
       },
       {
-        id: 35,
+        id: 20,
         question: `What is the mass of potassium hydroxide present in 500${units(
           "cm",
           3
@@ -5915,13 +5915,13 @@ let chemistryQuestions = [
         ans: "E",
       },
       {
-        id: 36,
+        id: 21,
         question: `The ratio of the number of molecules of 4g of hydrogen to that in 20g of oxygen is`,
         options: [`2 : 1`, `1 : 1`, `1 : 2`, `1 : 4`],
         ans: "E",
       },
       {
-        id: 37,
+        id: 22,
         question: `Which of the following is the same as 24g of magnesium? <br /> { Mg = 24; H = 1; O = 16; Cl = 35.5 }`,
         options: [
           `1g of hydrogen molecules`,
@@ -5932,7 +5932,7 @@ let chemistryQuestions = [
         ans: "E",
       },
       {
-        id: 38,
+        id: 23,
         question: `The chloride of a metal (M) consists of 79.78% of chlorine by mass. What is the empirical formual of the chloride? (M = 27; Cl = 35,5)`,
         options: [
           `MCl`,
@@ -5943,7 +5943,7 @@ let chemistryQuestions = [
         ans: "E",
       },
       {
-        id: 39,
+        id: 24,
         question: `An oxide of nitrogen contains 69.6% of oxygen by mass. Its empirical formula is`,
         options: [
           `${formula("N", 2, "O", 3)}`,
@@ -5954,7 +5954,7 @@ let chemistryQuestions = [
         ans: "E",
       },
       {
-        id: 40,
+        id: 25,
         question: `Upon heating 1${units(
           "dm",
           3
@@ -5971,7 +5971,7 @@ let chemistryQuestions = [
         ans: "E",
       },
       {
-        id: 41,
+        id: 26,
         question: `5.00g of an oxide of a metal (M) gave 4.00g of the metal when reduced with hydrogen. What is the empirical formula of the oxide? <br /> { M = 64; O = 16 }`,
         options: [
           `${formula("Y", 3, "O", 2)}`,
@@ -5982,7 +5982,7 @@ let chemistryQuestions = [
         ans: "E",
       },
       {
-        id: 42,
+        id: 27,
         question: `What is the empirical formula of an organic compound containing 40% carbon and 6.67% hydrogen by mass? <br /> { C = 12; H = 1; O = 16 }`,
         options: [
           `${formula("CH", 2)}`,
@@ -5997,7 +5997,7 @@ let chemistryQuestions = [
         ans: "E",
       },
       {
-        id: 43,
+        id: 28,
         question: `An element, A, has the electronic configuration ${eConfig(
           "1s",
           2,
@@ -6025,7 +6025,7 @@ let chemistryQuestions = [
         ans: "E",
       },
       {
-        id: 44,
+        id: 29,
         question: `The molar ratio of hydrogen to carbon in an organic liquid compound is 2 : 1. On evaporation at s.t.p, 0.24g of compound produced 64${units(
           "cm",
           3
@@ -6047,7 +6047,7 @@ let chemistryQuestions = [
         ans: "E",
       },
       {
-        id: 45,
+        id: 30,
         question: `Which of the following formula is correct for compounds of an element Y having a combining power of 3?`,
         options: [
           `${formula("YSO", 4)}`,
@@ -6061,7 +6061,7 @@ let chemistryQuestions = [
         ans: "E",
       },
       {
-        id: 45,
+        id: 31,
         question: `What is the percentage by mass of carbon in the compound ${formula(
           "Na",
           2,
@@ -6076,7 +6076,7 @@ let chemistryQuestions = [
         ans: "E",
       },
       {
-        id: 46,
+        id: 32,
         question: `What is the percentage by mass of aluminum in ${formula(
           "Al",
           2,
@@ -6086,7 +6086,7 @@ let chemistryQuestions = [
         ans: "E",
       },
       {
-        id: 47,
+        id: 33,
         question: `What is the value of x in the molecular formula, ${formula(
           "Pb",
           `(${formula("NO", 3)}),"x`
@@ -6095,7 +6095,7 @@ let chemistryQuestions = [
         ans: "E",
       },
       {
-        id: 48,
+        id: 34,
         question: `The atomic and molecular mass of nitrogen are respectively`,
         options: [
           "14.00 amu and 28.00 amu",
@@ -6110,7 +6110,7 @@ let chemistryQuestions = [
         )}. Nitrogen exists as a diatomic molecule.`,
       },
       {
-        id: 49,
+        id: 35,
         question: `What is the molecular mass of ${formula(
           "(",
           formula("NH", 4),
@@ -6138,7 +6138,7 @@ let chemistryQuestions = [
         )} is an ionic compound and ionic compounds don't have molecules as their basic structural unit, hence <strong>NO</strong> molecular mass but formula mass`,
       },
       {
-        id: 49,
+        id: 36,
         question: `Which of the following have molecular mass`,
         options: [
           `${formula("Cl", 2, "O")}`,
@@ -6150,7 +6150,7 @@ let chemistryQuestions = [
         remark: `Only compounds that have covalent bonds between its atoms exist as molecules.`,
       },
       {
-        id: 50,
+        id: 37,
         question: `Calculate the formula mass of ${formula(
           "(",
           formula("NH", 4),
@@ -6170,7 +6170,7 @@ let chemistryQuestions = [
         ans: `A`,
       },
       {
-        id: 51,
+        id: 38,
         question: `Calculate the formula mass of ${formula(
           "Fe",
           "(",
@@ -6184,7 +6184,7 @@ let chemistryQuestions = [
         ans: `A`,
       },
       {
-        id: 52,
+        id: 39,
         question: `Calculate the formula mass of ${formula(
           "Zn",
           "(",
@@ -6198,7 +6198,7 @@ let chemistryQuestions = [
         ans: `B`,
       },
       {
-        id: 53,
+        id: 40,
         question: `Calculate the percent composition of ${formula(
           "Fe",
           "(",
@@ -6217,7 +6217,7 @@ let chemistryQuestions = [
         ans: `B`,
       },
       {
-        id: 54,
+        id: 41,
         question: `Calculate the formula mass of ${formula(
           "Na",
           2,
@@ -6232,7 +6232,7 @@ let chemistryQuestions = [
         ans: `D`, // => the answer is 262 amu...
       },
       {
-        id: 55,
+        id: 42,
         question: `Calculate the percent composition of ${formula("CH", 4, "O")}
         <br />
         { C = 12, H = 1, O = 16 }`,
@@ -6247,7 +6247,7 @@ let chemistryQuestions = [
       {
         // must be calculated correctly if I don't want any anomaly...
         // not yet calculated
-        id: 56,
+        id: 43,
         question: `Calculate the percent composition of TNT ${formula(
           "C",
           7,
@@ -6269,7 +6269,7 @@ let chemistryQuestions = [
         ans: `D`, // ans is 41.38% C, 2.46% H, 20.69% N, 35.47% O
       },
       {
-        id: 57,
+        id: 44,
         question:
           "The formula mass for a compound is calculated by summing which of the following numbers for all atoms in a formula unit of the compound?",
         options: [
@@ -6281,7 +6281,7 @@ let chemistryQuestions = [
         ans: "D",
       },
       {
-        id: 58,
+        id: 45,
         question: `The atomic mass of C is 12.01 amu and that of O is 16.00 amu. The formula mass for the compound ${formula(
           "CO",
           2
@@ -6290,13 +6290,13 @@ let chemistryQuestions = [
         ans: "B",
       },
       {
-        id: 59,
+        id: 46,
         question: `The atomic mass of H is 1.01 amu and that of N is 14.01 amu. What is the value of x in the chemical formula NH<sub>x</sub>, given that the formula mass of this compound is 17.04 amu?`,
         options: ["2", "3", "4", "no correct response"],
         ans: "B",
       },
       {
-        id: 60,
+        id: 47,
         question: `The numerical value for Avogadro's number is`,
         options: [
           `6.02 X ${exp(21)}`,
@@ -6307,7 +6307,7 @@ let chemistryQuestions = [
         ans: "D",
       },
       {
-        id: 61,
+        id: 48,
         question: `The number of atoms present in 1 mole of P atoms is`,
         options: [
           `6.02 X ${exp(21)}`,
@@ -6318,7 +6318,7 @@ let chemistryQuestions = [
         ans: "B",
       },
       {
-        id: 62,
+        id: 49,
         question: `One mole of S atoms contains twice as many atoms as`,
         options: [
           `one mole of O atoms`,
@@ -6329,7 +6329,7 @@ let chemistryQuestions = [
         ans: "B",
       },
       {
-        id: 63,
+        id: 50,
         question: `The number of molecules present in 1.50 moles of ${formula(
           "CO",
           2
@@ -6343,7 +6343,7 @@ let chemistryQuestions = [
         ans: "B",
       },
       {
-        id: 64,
+        id: 51,
         question: `Which set of quantities is needed to calculate the molar mass of a compound?`,
         options: [
           `chemical formula and Avogadro's number`,
@@ -6354,7 +6354,7 @@ let chemistryQuestions = [
         ans: "B",
       },
       {
-        id: 65,
+        id: 52,
         question: `The atomic mass of O is 16.00 amu. The molar mass for O atoms is`,
         options: [
           `16.00 amu`,
@@ -6365,7 +6365,7 @@ let chemistryQuestions = [
         ans: "C",
       },
       {
-        id: 66,
+        id: 53,
         question: `The atomic masses of N and O are, respectively, 14.01 amu and 16.00 amu. The molar mass of the compound ${formula(
           "NO",
           2
@@ -6374,7 +6374,7 @@ let chemistryQuestions = [
         ans: "C",
       },
       {
-        id: 67,
+        id: 54,
         question: `The molar mass of ${formula(
           "CO",
           2
@@ -6391,7 +6391,7 @@ let chemistryQuestions = [
         ans: "B",
       },
       {
-        id: 68,
+        id: 55,
         question: `The formula mass of ${formula(
           "N",
           2,
@@ -6405,7 +6405,7 @@ let chemistryQuestions = [
         ans: "C",
       },
       {
-        id: 69,
+        id: 56,
         question: `How many moles of H atoms are present in one mole of ${formula(
           "H",
           3,
@@ -6416,7 +6416,7 @@ let chemistryQuestions = [
         ans: "C",
       },
       {
-        id: 70,
+        id: 57,
         question: `Which of the following samples contains 4.0 moles of O atoms?`,
         options: [
           `1.0 mole ${formula("SO", 2)}`,
@@ -6427,7 +6427,7 @@ let chemistryQuestions = [
         ans: "B",
       },
       {
-        id: 71,
+        id: 58,
         question: `The total number of moles of atoms present in 4.00 moles of ${formula(
           "CO",
           2
@@ -6441,7 +6441,7 @@ let chemistryQuestions = [
         ans: "C",
       },
       {
-        id: 72,
+        id: 59,
         question: `Determine the empirical formula of a compound that has a percent composition of 43.7% P and 56.3% O`,
         options: [
           `${formula("P", 2, "O", 4)}`,
@@ -6452,7 +6452,7 @@ let chemistryQuestions = [
         ans: "B",
       },
       {
-        id: 73,
+        id: 60,
         question: `Determine the empirical formula of a compound if a sample of the compound contains 3.524 g of iron, 3.034 g of sulfur, and 4.542 g of oxygen.`,
         options: [
           `${formula("Fe", "S", "O")}`,
@@ -6463,7 +6463,7 @@ let chemistryQuestions = [
         ans: "B",
       },
       {
-        id: 74,
+        id: 61,
         question: `Determine the molecular formula of styrene, used to prepare the plastic wrapping material polystyrene. It is a compound of carbon and hydrogen only that contains 92.26% carbon, and has a molar mass of 104 g/mol.`,
         options: [
           `${formula("CH")}`,

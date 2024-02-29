@@ -21,7 +21,7 @@
 // }
 
 
-// import { englishQuestions } from "./engQuestions.js";
+// // import { englishQuestions } from "./engQuestions.js";
 // import { chemistryQuestions } from "./chmQuestions.js";
 
-// assignId(chemistryQuestions[2].questions)
+// assignId(chemistryQuestions[6].questions)
