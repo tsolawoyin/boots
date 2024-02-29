@@ -417,7 +417,7 @@ let biologyQuestions = [
       },
     ],
   },
-  // will work on this tmrw...
+
   {
     topic: "Living Organisms And Level Of Organisation",
     questions: [
@@ -838,7 +838,7 @@ let biologyQuestions = [
       },
     ],
   },
-
+  // they are all here currently... 
   {
     topic: "Evolution Among Viruses, Monera, Protista And Fungi",
     questions: [
@@ -1190,7 +1190,7 @@ let biologyQuestions = [
         question: "A blue green alga is not a protophyte because",
         options: [
           "It is aquatic",
-          "Its cells are prokaryotic", // hmmm
+          "Its cells are prokaryotic", // hmmm // protophytes are eukaryotes. 
           "It cannot move",
           "It is not a green plant",
         ],
@@ -1210,7 +1210,7 @@ let biologyQuestions = [
         options: [
           "Spores",
           "No chlorophyll",
-          "Many fruiting bodies",
+          "Many fruiting bodies", /// perhaps but it is true...
           "Sexual and sexual reproduction",
         ],
         ans: C,
@@ -1258,7 +1258,7 @@ let biologyQuestions = [
           "Conjugation",
           "Budding",
           "Spore formation",
-          "Binary fission",
+          "Binary fission", // simplest obviously... binary fission is the simplest...
         ],
         ans: D,
       },
@@ -1275,12 +1275,14 @@ let biologyQuestions = [
         ans: D,
       },
       {
+        // bacillus is rod like....
         id: 50,
         question: "The shape of a Bacillus is",
         options: ["Cocci", "Vibrio", "Rod", "Spirochetes"],
         ans: C,
       },
       {
+        // both yeast and hydra bud off...
         id: 51,
         question:
           "The type of reproduction that is common to both hydra and yeast is",
@@ -1293,16 +1295,9 @@ let biologyQuestions = [
         options: ["Plantae", "Fungi", "Moneran", "Protista"],
         ans: C,
       },
-      // I am not sure if this question belongs to this place...
-      // {
-      //   id: 53,
-      //   question: "The soil type that has highest capillarity is",
-      //   options: ["Clay", "Loam", "Humus", "Sand"],
-      //   ans: B,
-      // },
     ],
   },
-
+  // to be edited... the breakdown of this thing sef makes it easy. I mean seriously easy...
   {
     topic: "Evolution among plants",
     questions: [
