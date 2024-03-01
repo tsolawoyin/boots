@@ -5671,25 +5671,13 @@ let chemistryQuestions = [
     questions: [
       {
         id: 1,
-        question: `When the chemical equation Na + S -> ${formula(
-          "Na",
-          2,
-          "S"
-        )} is correctly balanced, the proper sequence of coefficients is`,
+        question: `When the chemical equation Na + S -> ${formula("Na",2,"S")} is correctly balanced, the proper sequence of coefficients is`,
         options: [`1,2,2`, `2,1,2`, `2,1,2`, "no correct response"],
         ans: "D",
       },
       {
         id: 2,
-        question: `When the chemical equation Al + ${formula(
-          "O",
-          2
-        )} -> ${formula(
-          "Al",
-          2,
-          "O",
-          3
-        )} is correctly balanced, which of the following expressions appears in it?`,
+        question: `When the chemical equation Al + ${formula("O",2)} -> ${formula("Al",2,"O",3)} is correctly balanced, which of the following expressions appears in it?`,
         options: [
           `3 Al`,
           `3 ${formula("O", 2)}`,
@@ -5700,13 +5688,9 @@ let chemistryQuestions = [
       },
       {
         id: 3,
-        question: `A balanced chemical equation contains the expression 2 ${formula(
-          "Fe",
-          "Cl",
-          3
-        )}. How many atoms does this expression represents?`,
+        question: `A balanced chemical equation contains the expression 2 ${formula("Fe","Cl",3)}. How many atoms does this expression represents?`,
         options: [`two`, `four`, `eight`, "no correct response"],
-        ans: "C",
+        ans: "C", // this questions are straight forward and easy....
       },
 
       {
@@ -5728,40 +5712,18 @@ let chemistryQuestions = [
       },
       {
         id: 6,
-        question: `Which of the following statements is consistent with the information found in the chemical equation ${formula(
-          "N",
-          2
-        )} + 3${formula("H", 2)} -> 2${formula("NH", 3)}?`,
+        question: `Which of the following statements is consistent with the information found in the chemical equation ${formula("N",2)} + 3${formula("H", 2)} -> 2${formula("NH", 3)}?`,
         options: [
-          `1 mole of ${formula("NH", 3)} is produced when 1 mole of ${formula(
-            "N",
-            2
-          )} reacts`,
-          `3 moles of ${formula(
-            "H",
-            2
-          )} are needed to produce 1 mole of ${formula("NH", 3)}`,
-          `${formula("N", 2)} and ${formula(
-            "H",
-            2
-          )} react in a 1-to-3 molar ratio`,
+          `1 mole of ${formula("NH", 3)} is produced when 1 mole of ${formula("N",2)} reacts`,
+          `3 moles of ${formula("H",2)} are needed to produce 1 mole of ${formula("NH", 3)}`,
+          `${formula("N", 2)} and ${formula("H",2)} react in a 1-to-3 molar ratio`,
           "no correct response",
         ],
         ans: "C",
       },
       {
         id: 7,
-        question: `How many moles of Al are needed to produce 6.0 moles of ${formula(
-          "Al",
-          2,
-          "S",
-          3
-        )} via the chemical reaction 2${formula("Al")} + 3S -> ${formula(
-          "Al",
-          2,
-          "S",
-          3
-        )}`,
+        question: `How many moles of Al are needed to produce 6.0 moles of ${formula("Al",2,"S",3)} via the chemical reaction 2Al + 3S -> ${formula("Al",2,"S",3)}`,
         options: [
           `2.0 moles`,
           `6.0 moles`,
@@ -5772,26 +5734,18 @@ let chemistryQuestions = [
       },
       {
         id: 8,
-        question: `How many moles of ${formula(
-          "CO",
-          2
-        )} are formed at the same time 2.0 moles of ${formula(
-          "H",
-          2,
-          "O"
-        )} are formed in the chemical reaction ${formula("CH", 4)} + 2${formula(
-          "O",
-          2
-        )} -> ${formula("CO", 2)} + 2${formula("H", 2, "O")}`,
+        question: `How many moles of ${formula("CO",2)} are formed at the same time 2.0 moles of ${formula("H",2,"O")} are formed in the chemical reaction ${formula("CH", 4)} + 2${formula("O",2)} -> ${formula("CO", 2)} + 2${formula("H", 2, "O")}`,
         options: [`2.0 moles`, `3.0 moles`, `4.0 moles`, "no correct response"],
         ans: "D",
+        remark: `The answer is in the balanced equation which is 1.0 mole`
       },
       {
         id: 9,
         question:
-          "How many moles of calcium trioxocarbonate(IV) are there in 2.5g of calcium trioxocarbonate(IV) <br /> { C = 12; O = 16; Ca = 40 }",
+          "How many moles of calcium carbonate are there in 2.5g of calcium carbonate <br /> { C = 12; O = 16; Ca = 40 }",
         options: [`0.0025`, `0.025`, `0.25`, `2.5`],
-        ans: "E",
+        ans: "B",
+        remark: `mass given/molar mass => 2.5/100. Note that it is essential to know how to write chemicals from their name. It is very important.`
       },
       {
         id: 10,
@@ -5799,10 +5753,10 @@ let chemistryQuestions = [
         options: [
           `atomic number of particles`,
           `faraday's number of particles`,
-          `Avogadro's number of particles`,
+          `Avogadro's number of particles`, // 6.022 * 10^23
           `quantum number of particles`,
         ],
-        ans: "E",
+        ans: "C",
       },
       {
         id: 11,
@@ -5814,82 +5768,59 @@ let chemistryQuestions = [
           `1.20 X ${exp(22)}`,
           `1.20 X ${exp(23)}`,
         ],
-        ans: "E",
+        ans: "D", // under consideration but I am right
       },
       {
         id: 12,
-        question: `What mass of ${formula(
-          "SO",
-          2
-        )} contains the same number of molecules of 0.8g of ${formula(
-          "CH",
-          4
-        )} <br /> { ${formula("SO", 2)} = 64g/mol; ${formula(
-          "CH",
-          4
-        )} = 16g/mol }`,
+        question: `What mass of ${formula("SO",2)} contains the same number of molecules of 0.8g of ${formula("CH",4)} <br /> { ${formula("SO", 2)} = 64g/mol; ${formula("CH",4)} = 16g/mol }`,
         options: [`3.2g`, `0.32g`, `6.4g`, `0.64g`],
-        ans: "E",
+        ans: "A",
       },
       {
         id: 13,
-        question: `One mole of a compound ${formula(
-          "MHCO",
-          3
-        )} has a mass of 84g. Calculate the relative atomic mass of M. <br /> { H = 1; C = 12, O = 16 }`,
+        question: `One mole of a compound ${formula("MHCO",3)} has a mass of 84g. Calculate the relative atomic mass of M. <br /> { H = 1; C = 12, O = 16 }`,
         options: [`61`, `42`, `26`, `23`],
-        ans: "E",
+        ans: "D",
       },
       {
         id: 14,
-        question: `How many molecules of phosphorus (${formula(
-          "P",
-          4
-        )}) are present in 496g of the substance? <br /> { P = 31; N<sub>A</sub> = 6.0 X ${exp(
-          23
-        )}${units("mol", -1)} }`,
+        question: `How many molecules of phosphorus (${formula("P",4)}) are present in 496g of the substance? <br /> { P = 31; N<sub>A</sub> = 6.0 X ${exp(23)}${units("mol", -1)} }`,
         options: [
           `1.20 X ${exp(23)}`,
           `1.20 X ${exp(24)}`,
           `2.40 X ${exp(23)}`,
           `2.40 X ${exp(24)}`,
         ],
-        ans: "E",
+        ans: "D",
       },
       {
         id: 15,
-        question: `Upon heating 1.25g of a solid, 280${units(
-          "cm",
-          3
-        )} of a gas measured at S.T.P  were evolved and a residue of 0.7g was left. Calculate the molar mass of the gas? [Molar volume of a gas at s.t.p = 22.4${units(
-          "dm",
-          3
-        )}]`,
+        question: `Upon heating 1.25g of a solid, 280${units("cm",3)} of a gas measured at S.T.P were evolved and a residue of 0.7g was left. Calculate the molar mass of the gas? [Molar volume of a gas at s.t.p = 22.4${units("dm",3)}]`,
         options: [`64g`, `44g`, `32g`, `16g`],
-        ans: "E",
+        ans: "B",
       },
       {
         id: 16,
         question: `What is the mass of 2.3 mole of sodium`,
         options: [`53g`, `230g`, `23g`, `46g`],
-        ans: "E",
+        ans: "A",
       },
       {
         id: 17,
         question: `How many moles of iron(III) oxide are contained in 1kg of the compound? <br /> { Fe = 56; O = 16 }`,
         options: [`3.125 moles`, `0.3125 mole`, `0.625 mole`, `6.25 moles`],
-        ans: "E",
+        ans: "D",
       },
       {
         id: 18,
-        question: `The number of atoms of chlorine present in 7,45g of KCl is`,
+        question: `The number of atoms of chlorine present in 7.45g of KCl is`,
         options: [
           `6.02 X ${exp(23)}`,
           `6.02 X ${exp(22)}`,
           `7.45 X ${exp(23)}`,
           `7.45 X ${exp(22)}`,
         ],
-        ans: "E",
+        ans: "B",
       },
       {
         id: 19,
@@ -5900,25 +5831,19 @@ let chemistryQuestions = [
           `2.41 X ${exp(23)}`,
           `2.41 X ${exp(24)}`,
         ],
-        ans: "E",
+        ans: "C",
       },
       {
         id: 20,
-        question: `What is the mass of potassium hydroxide present in 500${units(
-          "cm",
-          3
-        )} of 2${units(
-          "moldm",
-          -3
-        )} solution of the compound <br /> { K = 39; O = 16; H = 1}`,
+        question: `What is the mass of potassium hydroxide present in 500${units("cm",3)} of 2${units("moldm",-3)} solution of the compound <br /> { K = 39; O = 16; H = 1}`,
         options: [`40g`, `56g`, `112g`, `28g`],
-        ans: "E",
+        ans: "B",
       },
       {
         id: 21,
-        question: `The ratio of the number of molecules of 4g of hydrogen to that in 20g of oxygen is`,
+        question: `The ratio of the number of molecules of 4g of hydrogen to that in 32g of oxygen is`,
         options: [`2 : 1`, `1 : 1`, `1 : 2`, `1 : 4`],
-        ans: "E",
+        ans: "A",
       },
       {
         id: 22,
@@ -5929,7 +5854,7 @@ let chemistryQuestions = [
           `32g of oxygen molecules`,
           `35.5g of chlorine molecules`,
         ],
-        ans: "E",
+        ans: "C",
       },
       {
         id: 23,
@@ -5940,7 +5865,7 @@ let chemistryQuestions = [
           `${formula("MCl", 3)}`,
           `${formula("MCl", 4)}`,
         ],
-        ans: "E",
+        ans: "B",
       },
       {
         id: 24,
@@ -5951,35 +5876,30 @@ let chemistryQuestions = [
           `${formula("N", 2, "O")}`,
           `${formula("NO", 2)}`,
         ],
-        ans: "E",
+        ans: "D",
       },
       {
         id: 25,
-        question: `Upon heating 1${units(
-          "dm",
-          3
-        )} of a monoatomic gas, Y, it combines with 1.5${units(
-          "dm",
-          3
-        )} of oxygen to form an oxide. The empirical formula of the oxide is`,
+        question: `Upon heating 1${units("dm",3)} of a monoatomic gas, Y, it combines with 1.5${units("dm",3)} of oxygen to form an oxide. The empirical formula of the oxide is`,
         options: [
           `${formula("Y", 3, "O", 2)}`,
           `${formula("Y", 2, "O", 3)}`,
           `${formula("YO", 2)}`,
           `${formula("YO", 3)}`,
         ],
-        ans: "E",
+        ans: "D",
+        // to be solved later...
       },
       {
         id: 26,
         question: `5.00g of an oxide of a metal (M) gave 4.00g of the metal when reduced with hydrogen. What is the empirical formula of the oxide? <br /> { M = 64; O = 16 }`,
         options: [
-          `${formula("Y", 3, "O", 2)}`,
-          `${formula("Y", 2, "O", 3)}`,
-          `${formula("YO", 2)}`,
-          `${formula("YO", 3)}`,
+          `${formula("M",2,"O")}`,
+          `${formula("MO")}`,
+          `${formula("MO",2)}`,
+          `${formula("M",2,"O",3)}`,
         ],
-        ans: "E",
+        ans: "B",
       },
       {
         id: 27,
@@ -5987,112 +5907,61 @@ let chemistryQuestions = [
         options: [
           `${formula("CH", 2)}`,
           `${formula("CH", 3)}`,
-          `${formula(
-            "CH",
-            2,
-            "O"
-          )}`,
+          `${formula("CH",2,"O")}`,
           `${formula("CH", 3, "O")}`,
         ],
-        ans: "E",
+        ans: "C",
       },
       {
         id: 28,
-        question: `An element, A, has the electronic configuration ${eConfig(
-          "1s",
-          2,
-          "2s",
-          2,
-          "2p",
-          6,
-          "3s",
-          2,
-          "3p",
-          3
-        )}. The combination of A with a halogen X can give compounds of formula(e)`,
+        question: `An element, A, has the electronic configuration ${eConfig("1s",2,"2s",2,"2p",6,"3s",2,"3p",3)}. The combination of A with a halogen X can give compounds of formula(e)`,
         options: [
           `${formula("AX", 3)} and ${formula("AX", 5)}`,
-          `${formula(
-            "AX",
-            3
-          )} only`,
+          `${formula("AX", 3)} only`,
           `${formula("AX", 5)}`,
-          `${formula("AX")} and ${formula(
-            "AX",
-            2
-          )}`,
+          `${formula("AX")} and ${formula( "AX",2)}`,
         ],
-        ans: "E",
+        ans: "A",
       },
-      {
-        id: 29,
-        question: `The molar ratio of hydrogen to carbon in an organic liquid compound is 2 : 1. On evaporation at s.t.p, 0.24g of compound produced 64${units(
-          "cm",
-          3
-        )} of vapour. What is the molecular formula of the liquid compound? <br /> { C= 12; H = 1, molar volume of a gas at s.t.p = 22.4${units(
-          "dm",
-          3
-        )} }`,
-        options: [
-          `${formula("C", 4, "H", 8)}`,
-          `${formula("C", 5, "H", 10)}`,
-          `${formula(
-            "C",
-            6,
-            "H",
-            6
-          )}`,
-          `${formula("C", 6, "H", 12)}`,
-        ],
-        ans: "E",
-      },
+      // {
+      //   id: 29,
+      //   question: `The molar ratio of hydrogen to carbon in an organic liquid compound is 2 : 1. On evaporation at s.t.p, 0.24g of compound produced 64${units("cm",3)} of vapour. What is the molecular formula of the liquid compound? <br /> { C= 12; H = 1, molar volume of a gas at s.t.p = 22.4${units("dm",3)}}`,
+      //   options: [
+      //     `${formula("C", 4, "H", 8)}`,
+      //     `${formula("C", 5, "H", 10)}`,
+      //     `${formula("C",6,"H",6)}`,
+      //     `${formula("C", 6, "H", 12)}`,
+      //   ],
+      //   ans: "E",
+      // },
       {
         id: 30,
         question: `Which of the following formula is correct for compounds of an element Y having a combining power of 3?`,
         options: [
           `${formula("YSO", 4)}`,
           `${formula("Y", 2, "O", 3)}`,
-          `${formula(
-            "YS",
-            3
-          )}`,
+          `${formula("YS",3)}`,
           `${formula("Y", 3, "Cl", 2)}`,
         ],
-        ans: "E",
+        ans: "B",
       },
       {
         id: 31,
-        question: `What is the percentage by mass of carbon in the compound ${formula(
-          "Na",
-          2,
-          "CO",
-          3
-        )}.10${formula(
-          "H",
-          2,
-          "O"
-        )}? <br /> { H = 1, C = 12, O = 16, Na = 23 }`,
-        options: [`16.1`, `16.8`, `28.1`, `9.4`],
-        ans: "E",
+        question: `What is the percentage by mass of carbon in the compound ${formula("Na",2, "CO",3)}.10${formula("H",2,"O")}? <br /> { H = 1, C = 12, O = 16, Na = 23 }`,
+        options: [`16.1`, `16.8`, `28.1`, `4.2`],
+        ans: "D",
       },
       {
         id: 32,
-        question: `What is the percentage by mass of aluminum in ${formula(
-          "Al",
-          2,
-          `(${formula("SO", 4)}), 3`
-        )}? <br /> { Al = 27, S = 32, O = 16 }`,
+        question: `What is the percentage by mass of aluminum in ${formula("Al",2,`(${formula("SO", 4)})`,3)}? <br /> { Al = 27, S = 32, O = 16 }`,
         options: [`15.8`, `14.7`, `28.1`, `9.4`],
-        ans: "E",
+        ans: "A",
       },
       {
         id: 33,
-        question: `What is the value of x in the molecular formula, ${formula(
-          "Pb",
-          `(${formula("NO", 3)}),"x`
-        )} if the percentage by mass of nitrogen is 8.46? <br /> { Pb = 207; N = 14; O = 16 }`,
+        question: `What is the value of x in the molecular formula, Pb(NO<sub>3</sub>)<sub>x</sub> if the percentage by mass of nitrogen is 8.46? <br /> { Pb = 207; N = 14; O = 16 }`,
         options: [`1`, `2`, `3`, `4`],
-        ans: "E",
+        ans: "B",
       },
       {
         id: 34,
@@ -6111,14 +5980,7 @@ let chemistryQuestions = [
       },
       {
         id: 35,
-        question: `What is the molecular mass of ${formula(
-          "(",
-          formula("NH", 4),
-          ")",
-          2,
-          "SO",
-          4
-        )}
+        question: `What is the molecular mass of ${formula("(",formula("NH", 4),")",2,"SO",4)}
         <br />
         { N = 14, H = 1, S = 32, O = 16 }`,
         options: [
