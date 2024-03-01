@@ -838,7 +838,7 @@ let biologyQuestions = [
       },
     ],
   },
-  // they are all here currently... 
+  // they are all here currently...
   {
     topic: "4. Evolution Among Viruses, Monera, Protista And Fungi",
     questions: [
@@ -1174,7 +1174,8 @@ let biologyQuestions = [
       },
       {
         id: 37,
-        question: "The chromosomes of members of the kingdom Monera are found within the",
+        question:
+          "The chromosomes of members of the kingdom Monera are found within the",
         options: ["Nucleoplasm", "Cytoplasm", "Nucleus", "Nucleolus"],
         ans: B,
       },
@@ -1190,7 +1191,7 @@ let biologyQuestions = [
         question: "A blue green alga is not a protophyte because",
         options: [
           "It is aquatic",
-          "Its cells are prokaryotic", // hmmm // protophytes are eukaryotes. 
+          "Its cells are prokaryotic", // hmmm // protophytes are eukaryotes.
           "It cannot move",
           "It is not a green plant",
         ],
@@ -1303,8 +1304,13 @@ let biologyQuestions = [
     questions: [
       {
         id: 1,
-        question:
-          "The following events take place during conjugation in spirogyra 1. The protoplasm in each of the conjugating cells separated from the call wall to form a gamete; the gamate of one filament passes through the conjugation tube to meet the gamete of the other filament 2. The zygote soon become surrounded by a thick brown wall to become zygospore which Bursts after a short rest and germinates to produce a new filament 3. The nucei of the gametes fuse to form a zygote 4. The protuberances meet and where they touch the cell-wall disappears so that a conjugation tube joining the two cells is formed 5. Protuberances appear on the walls of cells of two filaments of anoher. Now, what is the correct sequence in which the above events occur?",
+        question: `The following events take place during conjugation in spirogyra 
+          <br />1. The protoplasm in each of the conjugating cells separated from the call wall to form a gamete; the gamate of one filament passes through the conjugation tube to meet the gamete of the other filament. 
+          <br />2The zygote soon become surrounded by a thick brown wall to become zygospore which bursts after a short rest and germinates to produce a new filament 
+          <br />3. The nuclei of the gametes fuse to form a zygote 
+          <br />4. The protuberances meet and where they touch the cell-wall disappears so that a conjugation tube joining the two cells is formed 
+          <br />5. Protuberances appear on the walls of cells of two filaments. 
+          <br />What is the correct sequence in which the above events occur?`,
         options: [
           "1,2,3,4,5",
           "1,2,4,5,3",
@@ -1319,7 +1325,7 @@ let biologyQuestions = [
         question: "One of the following statements is NOT true of spirogyra",
         options: [
           "It is a simple multicellular plant",
-          "During conjugation, its gametes, which are structurally and physiologically similar, fuse to form zygote",
+          "During conjugation, its gametes, which are structurally and physiologically similar, fuse to form a zygote",
           "It possesses spiral chloroplast which enables the plant to photosynthesize",
           "Its cells are protected externally by a layer of mucilage",
           "There are pyrenoids along the chloroplast",
@@ -1335,14 +1341,19 @@ let biologyQuestions = [
           "Show alternation of generation",
           "Reproduce by means of conjugation",
           "Can survive dry conditionns",
-          "Have no seeds",
+          "Have no seeds", // yeah, they all have no seed... I have to be at my peak again... lol...
         ],
         ans: E,
       },
       {
+        // I have already have chairs and a board... And I have a big house too. That's enough trust me....
         id: 4,
-        question:
-          "Which of the following represents the evolutionary sequence in these plants? 1. Flowering plants 2. Ferns, 3. Mosses, 4. Algae, 5. Conifers",
+        question: `Which of the following represents the evolutionary sequence in these plants? 
+          <br />1. Flowering plants 
+          <br />2. Ferns, 
+          <br />3. Mosses, 
+          <br />4. Algae, 
+          <br />5. Conifers`,
         options: [
           "2->1->4->3->5",
           "5->4->3->2->1",
@@ -1381,11 +1392,11 @@ let biologyQuestions = [
       {
         id: 7,
         question:
-          "Which of the following is INCORRECT the prothallus of a fern",
+          "Which of the following is INCORRECT of the prothallus of a fern",
         options: [
-          "Is a flattened heart-shape suture",
+          "Is a flattened heart-shape structure",
           "Is green because its cells contain chloroplasts",
-          "The dominat plant",
+          "It is the dominant plant",
           "Bears the sexual organs",
           "Is attached to the ground by numerous rhizoids",
         ],
@@ -1397,27 +1408,27 @@ let biologyQuestions = [
         options: [
           "Excrete waste products",
           "Is suspended by cytoplasmic strands",
-          "The dominate plant",
-          "Bears the sexual organs",
+          "The dominant plant",
+          "usually contains starch",
           "Is attached to the ground by numerous rhizoids",
         ],
-        ans: D,
+        ans: D, // hmmm. Are you sure about this?
       },
       {
         id: 9,
-        question: "Byrophytes are different from flowing plants because they",
+        question: "Bryophytes are different from flowering plants because they",
         options: [
           "live in moist habitats",
           "Are small plants",
           "Have small leaves",
-          "Have no vascular tissues",
+          "Have no vascular tissues", // this is the answer normally, bryophytes are non tracheophytes
         ],
-        ans: C,
+        ans: D,
       },
       {
         id: 10,
         question:
-          "In lower plants like mosses, the structure which prforms the functions of roots of higher plants is called",
+          "In lower plants like mosses, the structure which performs the functions of roots of higher plants is called",
         options: ["Root hairs", "Rootles", "Hyphae", "Rhizoids", "Thalli"],
         ans: D,
       },
@@ -1435,14 +1446,15 @@ let biologyQuestions = [
       {
         id: 12,
         question:
-          "In a plant exhibiting alternation d generations, the diploid multicellular stage is knows as",
+          "In a plant exhibiting alternation d generations, the diploid multicellular stage is known as",
         options: ["Gametophyte", "Spermatophyte", "Holophyte", "Sporophyte"],
         ans: D,
+        // haploid is known as gametophyte
       },
       {
         id: 13,
         question:
-          "A characteristic that distinguishesbryophytes from flowering plants is the",
+          "A characteristic that distinguishes bryophytes from flowering plants is the",
         options: [
           "Possession of true stems and leaves",
           "Ability to reproduce asexually",
@@ -1453,13 +1465,13 @@ let biologyQuestions = [
       },
       {
         id: 14,
-        question: "In most true ferns sporangia are grouped into",
+        question: "In most true ferns, sporangia are grouped into",
         options: ["Indusium", "Fronds", "Prothalli", "Sori"],
         ans: D,
       },
       {
         id: 15,
-        question: "In the reproduction of mosses, waer is essential because",
+        question: "In the reproduction of mosses, water is essential because",
         options: [
           "They live in moist habitats",
           "They cannot reproduce without water",
@@ -1472,9 +1484,9 @@ let biologyQuestions = [
         id: 16,
         question: "The term Thallophyta refers to",
         options: [
-          "Ferns and mosses",
-          "Algae and fungi",
-          "Mosses and liverworts",
+          "Ferns and mosses", // hmm
+          "Algae and simple green plants", // algae and fungi ke
+          "Mosses and liverworts", // bryophytes
           "Fungi and ferns",
         ],
         ans: B,
@@ -1498,7 +1510,7 @@ let biologyQuestions = [
         options: [
           "Are sea weeds",
           "Have no vascular tissues",
-          "Require moisture for fertilization",
+          "Require moisture for fertilization", // yeah,,,
           "Are microscopic plants",
         ],
         ans: C,
@@ -1510,9 +1522,10 @@ let biologyQuestions = [
         ans: A,
       },
       {
+        // this is becoming repetitive...
         id: 20,
         question: "In bryophytes, sex organs are produced in the",
-        options: ["Gametphyte", "Rhizoid", "Protonema", "Sporophyte"],
+        options: ["Gametophyte", "Rhizoid", "Protonema", "Sporophyte"],
         ans: A,
       },
       {
@@ -1520,13 +1533,13 @@ let biologyQuestions = [
         question:
           "Which of the following are differntiated into true roots, stems and leaves?",
         options: ["Algae", "Schizophyta", "Pteridophyta", "Bryophyta"],
-        ans: C,
+        ans: C, // these are cones etc...
       },
       {
         id: 22,
         question: "The annulus of fern sporangium helps in",
         options: [
-          "Spore dispersal",
+          "Spore dispersal", // annulus helps in dispersal of spores .... hmm
           "Conduction of minerals salt",
           "Trapping or light energy",
           "Water retention",
@@ -1536,19 +1549,19 @@ let biologyQuestions = [
       {
         id: 23,
         question:
-          "Which of the following cerrectly summarizes the life cycle of a fern plant?",
+          "Which of the following correctly summarizes the life cycle of a fern plant?",
         options: [
-          "Spore->prothallus->thallus->sporangium",
-          "Male and female->gametangia->zygospore->sporangium->spores",
-          "Spore->thallus->spermatozoa->ovum->sporangium",
-          "prothallus->spermatozoid->egg->cell->leafy plant->sporangiospore",
+          "Spore -> prothallus -> thallus -> sporangium",
+          "Male and female- ->gametangia -> zygospore -> sporangium -> spores",
+          "Spore -> thallus -> spermatozoa -> ovum -> sporangium",
+          "prothallus -> spermatozoid ->egg -> cell -> leafy plant -> sporangium -> spore",
         ],
-        ans: A,
+        ans: D,
       },
       {
         id: 24,
         question:
-          "in which of these features do bryophytes differ from peridophytes?",
+          "in which of these features do bryophytes differ from pteridophytes?",
         options: [
           "Absence of flower",
           "Aiternation of generation",
@@ -1567,23 +1580,23 @@ let biologyQuestions = [
       {
         id: 26,
         question:
-          "Which is the correct order in an evolutionary sequence for the following plants groups?",
+          "Which is the correct order in an evolutionary sequence for the following plant groups?",
         options: [
-          "Bacteria->fern->algae->mosses->seed plant",
-          "Bateria->ferns->mosses->algae->seed plant",
-          "Bacteria->algae->mosses->fern->seed plant",
-          "Bacteria->mosses->algae->ferns->seed plant",
+          "Bacteria -> fern -> algae ->mosses -> seed plant",
+          "Bateria -> ferns -> mosses -> algae -> seed plant",
+          "Bacteria -> algae -> mosses -> fern -> seed plant",
+          "Bacteria -> mosses -> algae -> ferns-> seed plant",
         ],
         ans: C,
       },
       {
         id: 27,
         question:
-          "One commoon characteristic of fungi algae, mosses and ferns is that they",
+          "One commoon characteristic of fungi, algae, mosses and ferns is that they",
         options: [
           "show alternation of generations",
           "reproduce sexually by conjugation",
-          "produce spores hat are dispersed",
+          "produce spores that are dispersed",
           "possess chlorophyll in their tissue",
         ],
         ans: C,
@@ -1595,9 +1608,10 @@ let biologyQuestions = [
           "Ascospores and ascocarp",
           "antherozoids and rhizoid",
           "Sorus and indusium",
-          "Srobili and inflorescene",
+          "Strobili and inflorescene",
         ],
         ans: C,
+        // what is sorus and what is indusium
       },
       {
         id: 29,
@@ -1606,7 +1620,7 @@ let biologyQuestions = [
           "Develop from a haploid zygote",
           "Reproduce sexually to produce spores",
           "Is haploid and dependent on the gametophyte",
-          "Diploid and independent of the gametophyte",
+          "is diploid and independent of the gametophyte",
         ],
         ans: D,
       },
@@ -1664,6 +1678,7 @@ let biologyQuestions = [
         question: "The dominant phase in the life cycle of a fern is the",
         options: ["Prothallus", "Sporophyte", "Antheridium", "Gametophyte"],
         ans: B,
+        // the dominant in ferm is sporophyte. wow. makes sense and cool....
       },
       {
         id: 37,
@@ -1678,7 +1693,7 @@ let biologyQuestions = [
           "monocotyledons and cotyledons",
           "thallophytes and bryophytes",
           "tracheophytes and ferns",
-          "anglosperms and gymnosperms",
+          "angiosperms and gymnosperms",
         ],
         ans: D,
       },
@@ -1690,29 +1705,33 @@ let biologyQuestions = [
       },
       {
         id: 40,
-        question: "The spores of ferns are disperse by",
+        question: "The spores of ferns are dispersed by",
         options: ["wind", "water", "insecs", "explosive mechanism"],
         ans: A,
       },
       {
         id: 41,
-        question: "which of the following is the most advace plant?",
-        options: ["merchantia", "dryopteris", "chamydomona", "spirogyra"],
+        question: "Which of the following is the most advanced plant?",
+        options: ["merchantia", "dryopteris", "chlamydomonas", "spirogyra"],
         ans: B,
+        // dryopteris is a fern, I am sure of c and d but a hmmm...
       },
       {
         id: 42,
         question: "Double fertilization is a unique feature of",
         options: ["angiosperm", "bryophytes", "pteridophytes", "algae"],
         ans: A,
+        // double fertilization is a major characteristic of flowering plants (angiosperms)
       },
       {
+        // fragmentation or spore
         id: 43,
         question: "Asexual reproduction in spirogya is by",
         options: ["fragmentation", "binary fission", "conjugation", "budding"],
         ans: A,
       },
       {
+        // just met this, annulus of a fern helps in spore dispersal
         id: 44,
         question: "The annulus of fern sporangium helps in",
         options: [
@@ -1725,32 +1744,35 @@ let biologyQuestions = [
       },
       {
         id: 45,
-        question: "Which of the generation is in which of these?",
+        question: "Alternation of generation is present in which of these?",
         options: ["ferns", "fungi", "coelenterate", "moneran"],
         ans: A,
       },
       {
         id: 46,
-        question: "Which of the following are thallophytes?",
+        question: "Which of the following are thallophytes?", // hmm... perhaps thallophytes have a broad meaning
         options: [
           "mosses and ferns",
           "mosses and liverworts",
-          "fungi and algae".charAt,
+          "fungi and algae",
           "fungi and ferns",
         ],
         ans: A,
+        // Thallophytes are a polyphyletic group of non-mobile organisms that are grouped together on the basis of similarity of characteristics but do not share a common ancestor. They were formerly categorized as a sub-kingdom of kingdom Plantae. These include lichens, algae, fungus, bacteria and slime moulds and bryophytes.  makes sense... Tolani, thank you...
       },
     ],
   },
-
+  // these stuffs helps summarize everything... Higher plants is next... abi now sef. which one is next...b
   {
     topic: "6. Higher Plants",
     questions: [
       {
         id: 1,
-        question: "one of the signficant between roots and stem is that",
+        question:
+          "One of the signficant difference between roots and stem is that",
         options: [
-          "branch root originate in the pericycle while branch stems do not",
+          "branch root originate in the pericycle while branch stems do not", // this is right from what I remembered the last time..
+          // the thing seeems easy to study while reviewing than studying per se...
           "stems are always above the ground while roots are always below the ground",
           "stem are positive geotropic while roots are negative geotropic",
           "stem are sometimes used in storage and roots are never so used",
@@ -1760,30 +1782,30 @@ let biologyQuestions = [
       },
       {
         id: 2,
-        question: "roots hair are developed from the",
+        question: "Roots hair are developed from the",
         options: ["root apex", "epidermis", "vascuar bundles", "endodermis"],
         ans: B,
       },
       {
         id: 3,
         question:
-          "in a dicot leaf, guard cells differ from other epidermal cells because they",
+          "In a dicot leaf, guard cells differ from other epidermal cells because they",
         options: [
           "have no definite shape",
           "lack nuclei",
-          "are snaler",
-          "contain chloreplast",
+          "are smaller",
+          "contain chloroplast", // guard cell has chlorophyll...
           "lack vacuole",
         ],
         ans: D,
       },
       {
         id: 5,
-        question: "herbs differ from shrubs because they",
+        question: "Herbs differ from shrubs because they",
         options: [
-          "do not produce fruis",
+          "do not produce fruits",
           "are useful to herbalists",
-          "do not become woody",
+          "do not become woody", // yeah, herbs do not become woody
           "are only annuals",
           "are only perennials",
         ],
@@ -1792,9 +1814,9 @@ let biologyQuestions = [
       {
         id: 6,
         question:
-          "which of the following is not a characteristic of monocot plants?",
+          "Which of the following is not a characteristic of monocot plants?",
         options: [
-          "occurrence of secondary thickening",
+          "occurrence of secondary thickening", // eudicot exhibit secondary thickening
           "parallel venation",
           "scattered vascular bundles",
           "flora parts arranged in threes",
@@ -1805,7 +1827,7 @@ let biologyQuestions = [
       {
         id: 6,
         question:
-          "which of the following statements is NOT not true of he piliferous layer of a root?",
+          "Which of the following statements is NOT true of he piliferous layer of a root?",
         options: [
           "it has a very thin cuticle",
           "is the outermost layer of the cortex",
@@ -1817,7 +1839,7 @@ let biologyQuestions = [
       },
       {
         id: 7,
-        question: "which of the following is seed bearing?",
+        question: "Which of the following is seed bearing?",
         options: [
           "mosses",
           "whisting pine",
@@ -1829,7 +1851,7 @@ let biologyQuestions = [
       },
       {
         id: 8,
-        question: "in an angiosperm leaf, the xylem is",
+        question: "In an angiosperm leaf, the xylem is",
         options: [
           "beside the phloem",
           "surrounded by the phloem",
@@ -1842,19 +1864,19 @@ let biologyQuestions = [
       {
         id: 9,
         question:
-          "which of the following pals are fully adapted to terrestrial life?",
+          "Which of the following pairs are fully adapted to terrestrial life?",
         options: [
           "ferns and algae",
           "fern and mosses",
-          "cryophyte and flowering plants",
-          "flowering plans and conifers",
+          "bryophyte and flowering plants",
+          "flowering plants and conifers",
         ],
         ans: D,
       },
       {
         id: 10,
         question:
-          "which of the following is common to a dicotylendonous stem and a monocotyledonous root?",
+          "Which of the following is common to a dicotyledonous stem and a monocotyledonous root?",
         options: [
           "medulary rays",
           "central pith",
@@ -1867,7 +1889,7 @@ let biologyQuestions = [
       {
         id: 11,
         question:
-          "the stem differs from the root in having the xylem and phloem strands",
+          "The stem differs from the root in having the xylem and phloem strands",
         options: [
           "on the same radii",
           "scattered",
@@ -1879,7 +1901,7 @@ let biologyQuestions = [
       {
         id: 12,
         question:
-          "the correct sequence of tissue in the anatomy of a young dicotyledonoes stem from inside to outside is",
+          "The correct sequence of tissue in the anatomy of a young dicotyledonous stem from inside to outside is",
         options: [
           "pith, phloem, cambium, xylem, parenchyma, collenchyma and epidermis",
           "xylem, phloem, cambium, cortex, endodermis, collenchyma and epidermis",
@@ -1891,19 +1913,19 @@ let biologyQuestions = [
       {
         id: 13,
         question:
-          "secondary thickening is initiated in a dicotyledonous stem by the",
+          "Secondary thickening is initiated in a dicotyledonous stem by the",
         options: [
           "xylem parenchyma",
           "secondary phloem",
           "endodermis",
-          "cambium",
+          "cambium", // CORRECT
         ],
         ans: D,
       },
       {
         id: 14,
         question:
-          "which of the following statement gives the BEST description of bark?",
+          "Which of the following statement gives the BEST description of bark?",
         options: [
           "tissues outside the vascular cambium",
           "cork like tissues found in stems",
@@ -1915,7 +1937,7 @@ let biologyQuestions = [
       {
         id: 15,
         question:
-          "in the transverves section of the leaf of maize vascular bundles are arranged in",
+          "In the transverve section of the leaf of maize, vascular bundles are arranged in",
         options: ["arrow", "one circle", "alternate positions", "two circles"],
         ans: B,
       },
@@ -1923,25 +1945,25 @@ let biologyQuestions = [
         id: 16,
         question: "Double fertilization is unique feature of",
         options: ["angiosperms", "bryophytes", "pteridophytes", "algae"],
-        ans: B,
+        ans: A,
       },
       {
         id: 17,
         question:
-          "anglosperms and gymnosperms belong to the plant group knows as",
+          "Anglosperms and gymnosperms belong to the plant group known as",
         options: ["schizophyta", "bryophyta", "pteridophyta", "spermatophyta"],
         ans: D,
       },
       {
         id: 18,
         question: "To faciliate gaseous exchange, breathing roots have",
-        options: ["stomata", "mictochondria", "cuticle", "lenticles"],
-        ans: D,
+        options: ["stomata", "mitochondria", "cuticle", "lenticles"],
+        ans: D, // lenticels facilitate breathing roots...
       },
       {
         id: 19,
         question:
-          "A wide pith with a ring of condoctin tissue is characeristic of roots of",
+          "A wide pith with a ring of conduction tissue is characeristic of roots of",
         options: ["maize", "sunflower", "bean", "okra"],
         ans: B,
       },
@@ -1959,18 +1981,18 @@ let biologyQuestions = [
       {
         id: 21,
         question:
-          "which of the following structures is capable of producing more tissues in the stem of a herbaceous flowing plant?",
+          "Which of the following structures is capable of producing more tissues in the stem of a herbaceous flowering plant?",
         options: ["epidermis", "pericycle", "xylem", "cambium"],
-        ans: c,
+        ans: D,
       },
       {
         id: 22,
         question:
-          "which of the following features are all associated with monocots?",
+          "Which of the following features are all associated with monocots?",
         options: [
           "fibrous roots aystem, branched network of veins and one seed leaf",
           "fibrous roots system, two seed leaves and flora parts in threes",
-          "one seed leaf, petals in threes or groups or hrees and parallel venation of leaves",
+          "one seed leaf, petals in threes or groups or threes and parallel venation of leaves",
           "one seed leaf, one-veied leaves and petals in three or multiple of three",
         ],
         ans: C,
@@ -1978,17 +2000,17 @@ let biologyQuestions = [
       {
         id: 23,
         question:
-          "Peripherial arrangement iof vascular tissues in dicots is a characteristic of the internal structure of the",
+          "Peripherial arrangement of vascular tissues in dicots is a characteristic of the internal structure of the",
         options: ["leaf", "petiole", "stem", "roots"],
         ans: C,
       },
       {
         id: 24,
-        question: "mos monocots are easily recognized by their",
+        question: "Most monocots are easily recognized by their",
         options: [
           "short leaves with petioles",
           "long and sword-like leaves",
-          "long and palm-like leavves",
+          "long and palm-like leaves",
           "short leaves with many veinlets",
         ],
         ans: B,
@@ -1996,7 +2018,7 @@ let biologyQuestions = [
       {
         id: 25,
         question:
-          "in the internal structure of plants, a wide pith in the centre is coomon to",
+          "In the internal structure of plants, a wide pith in the centre is common to",
         options: [
           "dicot stems and monocot stem",
           "dicot stems and monocot roots",
@@ -2014,15 +2036,16 @@ let biologyQuestions = [
       {
         id: 28,
         question:
-          "In the traverse section of a dicot sterm the region lying between the endodermis and vascular bundle is the",
+          "In the traverse section of a dicot stem the region lying between the endodermis and vascular bundle is the",
         options: ["parenchyma", "pericycle", "phloem", "hypodermis"],
         ans: B,
       },
       {
         id: 29,
-        question: "Monocot stems differ from dicot stems in tha monoots have",
+        question: "Monocot stems differ from dicot stems in that monocots have",
         options: [
-          "no cambium",
+          "no cambium", //cambium is not present in monocot...
+          // but everything seem to me like revision, despite all these years... probably that's why everything is boring to read sef...
           "no pith",
           "fewer vascular bundles",
           "phloems with parenchyma",
@@ -2031,7 +2054,7 @@ let biologyQuestions = [
       },
       {
         id: 30,
-        question: "The opening and dosing of the stoma are regulated by",
+        question: "The opening and closing of the stomata are regulated by",
         options: ["transpiration", "respiration", "diffusion", "osmosis"],
         ans: D,
       },
@@ -2056,7 +2079,7 @@ let biologyQuestions = [
       },
       {
         id: 32,
-        question: "Seed plants are divided into ",
+        question: "Seed plants are divided into",
         options: [
           "monocotyledons and dicotyledons",
           "tracheophytes and ferns",
@@ -2068,7 +2091,7 @@ let biologyQuestions = [
       {
         id: 33,
         question:
-          "Plants that shows secondary growth are usually found among the",
+          "Plants that show secondary growth are usually found among the",
         options: ["halophye", "pteridophye", "monocotyledons", "dicotyledons"],
         ans: D,
       },
@@ -2082,11 +2105,11 @@ let biologyQuestions = [
       {
         id: 35,
         question:
-          "Which of the following plant secondary thickening in plants?",
+          "Which of the following enables secondary thickening in plants?",
         options: [
           "colenchyma and xylem cells",
           "vascular cambium and colenchyma cells",
-          "vascular cambium and cork canbium",
+          "vascular cambium and cork cambium",
           "cork cambium and cork sclerenchyma",
         ],
         ans: C,
@@ -2106,7 +2129,7 @@ let biologyQuestions = [
       {
         id: 37,
         question:
-          "In the transverse section of the leaf maize vascular bundles are arranged in",
+          "In the transverse section of the leaf of maize vascular bundles are arranged in",
         options: ["row", "one circle", "alternate positions", "two circle"],
         ans: B,
       },
