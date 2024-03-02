@@ -34,7 +34,11 @@ function changeSubjects(subject, topic) {
 
 function addTime(el, time) {
   for (let i = 5; i <= time; i += 5) {
-    el.innerHTML += `<option value="${i}">${i} min</option>`;
+    if (i == 45) {
+      el.innerHTML += `<option value="${i}" selected>${i} min</option>`  
+    } else {
+      el.innerHTML += `<option value="${i}">${i} min</option>`;
+    }
   }
 }
 
