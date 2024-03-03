@@ -16,7 +16,7 @@ function loadFirstTopics(el) {
 
   el.innerHTML = options;
 }
-
+ 
 function changeSubjects(subject, topic) {
     subject.addEventListener("change", (e) => {
       // here we just simply load the topic for the subject

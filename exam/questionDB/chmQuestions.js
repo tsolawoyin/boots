@@ -1621,7 +1621,7 @@ let chemistryQuestions = [
           `neutralization with sodium hydroxide followed by filtration`,
           `esterification with ethanol followed by distillation`,
         ],
-        ans: "B",
+        ans: "C",
         // not yet solved
       },
       {
@@ -1645,9 +1645,10 @@ let chemistryQuestions = [
           `crystallization`,
           `filtration followed by sublimation`,
           `evaporation followed by sublimation`,
-          `filtration followed by sublimation`,
+          `filtration`,
         ],
         ans: "D",
+        remark: `The answer to this in my opinion is D because evaporation drives off water and sublimation removes ammonium chloride, which return us back to square 1, a mixture of sand and sugar again. But note that the question is particularly about the removal of ammonium chloride.`
         // not yet solved
       },
       {
@@ -1837,7 +1838,7 @@ let chemistryQuestions = [
           `Melting of ice`,
           `Separation of a mixture by distillation`,
         ],
-        ans: "A",
+        ans: "B",
       },
       {
         id: 27,
