@@ -35,7 +35,8 @@ const biology = new Subject("Biology", [
     "14. Supporting Tissues In Animals",
     "general"
 ]);
-
+// this is going to be all english for now...
+// I will finish this as soon as possible...
 const english = new Subject("English", [
     "1. Antonyms",
     "2. Synonyms",
@@ -43,13 +44,17 @@ const english = new Subject("English", [
     "4. Verb",
     "5. Prepositions",
     "6. Adjectives, Articles, and Determiners",
-    "7. Rules of concord",
-    "8. Interrogative question tags, reported speech",
-    "9. Spelling mistakes",
-    "10. Common mistakes",
+    "7. Adverbs, Conjunctions, Interjection, Punctuation",
+    "8. Rules of concord",
+    '9. Interpretation of words and expressions',
+    "10. Idioms and sayings",
+    "11. Phrasal verbs",
+    "12. Interrogative question tags, reported speech",
+    "13. Spelling mistakes",
+    "14. Common mistakes",
     "general"
 ]);
 
 const available = [english, biology, chemistry];
 
-export { available };
+export { available }; // makes sense for now. honestly... let me just finish things up.

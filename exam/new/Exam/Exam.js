@@ -5,7 +5,7 @@ import { isPresent, removeQuestion, fetchQuestion } from "./helpers.js";
 
 // Subject: String (describing subject type)
 // Topic: String (describing topic)
-// Questions: listOfQuestions
+// Questions: Array: listOfQuestionObjects
 // Quantity: Number (amount of questions users want to answer)
 class Exam {
   constructor(subject, topic, questions, quantity) {
