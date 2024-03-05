@@ -106,13 +106,24 @@ function leaderBoardHelper() {
   leaderBoard.sort((a, b) => a.posn - b.posn); // this will surely sort the stuff for us
 
   for (let el of leaderBoard) {
-    leaderBoardEl.innerHTML += `<tr>
+    if (el.posn == 1) {
+      leaderBoardEl.innerHTML += `<tr>
                 <td class="col rank" id=${posn[el.posn]}>${el.posn}</td>
-                <td class="col name">${el.name}</td>
+                <td class="col name">${el.name} <i class="fa-solid fa-fire" style="color:red;"></i></td>
                 <td class="col chm">${el.chm.reduce((a, c) => a + c)}</td>
                 <td class="col eng">${el.eng.reduce((a, c) => a + c)}</td>
                 <td class="col bio">${el.bio.reduce((a, c) => a + c)}</td>
                 <td class="col total">${el.calcScore()}</td>
             </tr>`;
+    } else {
+      leaderBoardEl.innerHTML += `<tr>
+                  <td class="col rank" id=${posn[el.posn]}>${el.posn}</td>
+                  <td class="col name">${el.name}</td>
+                  <td class="col chm">${el.chm.reduce((a, c) => a + c)}</td>
+                  <td class="col eng">${el.eng.reduce((a, c) => a + c)}</td>
+                  <td class="col bio">${el.bio.reduce((a, c) => a + c)}</td>
+                  <td class="col total">${el.calcScore()}</td>
+              </tr>`;
+    }
   }
 }
