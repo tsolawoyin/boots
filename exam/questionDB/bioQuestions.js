@@ -425,7 +425,7 @@ let biologyQuestions = [
         id: "tjfdj4",
         question: "All living organisms",
         options: ["Photosynthesize", "Respire", "Move", "Feed", "Transpire"],
-        ans: C,
+        ans: D,
         remark: `<p>The correct option is: Feed</p>
         <p>All living organisms require energy to carry out life processes, and they obtain this energy by feeding in various ways, such as consuming other organisms or organic matter, or by synthesizing organic molecules through processes like photosynthesis (for autotrophs). While most organisms respire to release energy from nutrients, not all organisms respire in the same way (some organisms like anaerobes don't respire aerobically). Movement (option C) and transpiration (option E) are not universal to all living organisms, as some organisms are immobile and others do not undergo transpiration.</p>`,
       },
