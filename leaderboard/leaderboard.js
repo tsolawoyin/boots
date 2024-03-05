@@ -14,11 +14,7 @@ const leaderBoard = [
       -12.5, 20,
     ],
     calcScore() {
-      return (
-        this.chm.reduce((a, e) => a + e) +
-        this.bio.reduce((a, e) => a + e) +
-        this.eng.reduce((a, c) => a + c)
-      ); // makes sense...
+      return calcTotal(this.bio, this.chm, this.eng) // makes sense...
     },
   },
   {
@@ -33,11 +29,7 @@ const leaderBoard = [
       20,80,80,62.5,60, 55, 60, 60, 52.5, 67, 52.5, 30, 75, 80, 15, 10, 40, 30, 0, 52.5, 5, 10,
     ],
     calcScore() {
-      return (
-        this.chm.reduce((a, e) => a + e) +
-        this.bio.reduce((a, e) => a + e) +
-        this.eng.reduce((a, c) => a + c)
-      ); // makes sense...
+      return calcTotal(this.bio, this.chm, this.eng)
     },
   },
   {
@@ -53,11 +45,7 @@ const leaderBoard = [
       32.5,
     ],
     calcScore() {
-      return (
-        this.chm.reduce((a, e) => a + e) +
-        this.bio.reduce((a, e) => a + e) +
-        this.eng.reduce((a, c) => a + c)
-      ); // makes sense...
+      return calcTotal(this.bio, this.chm, this.eng) // makes sense...
     },
   },
   // she is no longer participating...
@@ -77,53 +65,58 @@ const leaderBoard = [
   },
 ];
 
-// seun is currently in
-// Bio -evolution among viruses
-// Eng -synonyms
-// Chm -nomenclature
-// deji is currently in
-// Bio -4
-// Eng -4
-// Chm -4
-// TOSIN
-// Bio -evolution among viruses
-// Eng -verb
-// Chm -chemical bonding
+// returns total score...
+function calcTotal (...res) {
+  return res.reduce((a,b) => a + calcScore(b), 0);
+}
+// calculate individual score...
+function calcScore(subj) {
+  return subj.reduce((a, c) => a + c)
+}
 
-// for (let e of leaderBoard) {
-//   console.log(e.name, e.eng.length); // making sense
-// }
-
-// get the leaderboard element
+// finding max score 
+// subj is one of:
+// "chm", "bio", "eng" => all in string
+// function returns {name: String, score: Number}
+function max(leaderBoard, subj) {
+  let maxScore = {name: null, score: 0};
+  for (let i of leaderBoard) {
+    // going through the leaderboad
+    calcScore
+    if (calcScore(i[subj]) > maxScore.score) {
+      maxScore.name = i.name;
+      maxScore.score = calcScore(i[subj]);
+    }
+  }
+  return maxScore.name
+}
 
 let leaderBoardEl = document.querySelector("#leaderboard-body");
 // load it up....
 leaderBoardHelper();
 
+// now this leaderboard function is going to get more interesting...
 function leaderBoardHelper() {
   const posn = { 1: "first", 2: "second", 3: "third", 4: "fourth" };
 
   leaderBoard.sort((a, b) => a.posn - b.posn); // this will surely sort the stuff for us
+  // this is about sorting the stuff accordingly...
 
+  // I need to somehow find a way to get the highest in each subject...
   for (let el of leaderBoard) {
-    if (el.posn == 1) {
-      leaderBoardEl.innerHTML += `<tr>
-                <td class="col rank" id=${posn[el.posn]}>${el.posn}</td>
-                <td class="col name">${el.name} <i class="fa-solid fa-fire" style="color:red;"></i></td>
-                <td class="col chm">${el.chm.reduce((a, c) => a + c)}</td>
-                <td class="col eng">${el.eng.reduce((a, c) => a + c)}</td>
-                <td class="col bio">${el.bio.reduce((a, c) => a + c)}</td>
-                <td class="col total">${el.calcScore()}</td>
-            </tr>`;
-    } else {
+    // but I think I need some other algorithm here...
+    // find max...
       leaderBoardEl.innerHTML += `<tr>
                   <td class="col rank" id=${posn[el.posn]}>${el.posn}</td>
                   <td class="col name">${el.name}</td>
-                  <td class="col chm">${el.chm.reduce((a, c) => a + c)}</td>
-                  <td class="col eng">${el.eng.reduce((a, c) => a + c)}</td>
-                  <td class="col bio">${el.bio.reduce((a, c) => a + c)}</td>
+                  <td class="col chm">${calcScore(el.chm)}${max(leaderBoard, "chm") == el.name ? ' <i class="fa-solid fa-fire" style="color:red;"></i>' : ""}</td>
+                  <td class="col eng">${calcScore(el.eng)}${max(leaderBoard, "eng") == el.name ? ' <i class="fa-solid fa-fire" style="color:red;"></i>' : ''}</td>
+                  <td class="col bio">${calcScore(el.bio)}${max(leaderBoard, "bio") == el.name ? ' <i class="fa-solid fa-fire" style="color:red;"></i>' : ""}</td>
                   <td class="col total">${el.calcScore()}</td>
               </tr>`;
     }
-  }
 }
+
+// I will be able to do don't worry...
+
+{/* <i class="fa-solid fa-fire" style="color:red;"></i> */}
