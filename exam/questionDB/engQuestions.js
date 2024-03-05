@@ -7714,7 +7714,7 @@ let englishQuestions = [
       {
         id: 62,
         question:
-          "Do come tonight, but don't expect me to speak ti you because I __ an interesting programme on television when you arrive.",
+          "Do come tonight, but don't expect me to speak to you because I __ an interesting programme on television when you arrive.",
         options: [
           "am watching",
           "watch",
@@ -7722,7 +7722,7 @@ let englishQuestions = [
           "shall be watching",
           "have watched",
         ],
-        ans: "C",
+        ans: "D",
         main: "",
         remark: "",
       },
@@ -11142,7 +11142,7 @@ let englishQuestions = [
     ],
   },
   {
-    topic: "6. Adjectives, Articles, and Determiners",
+    topic: "6. Adjectives, Articles, and Determiners | Adverbs",
     questions: [
       {
         id: 1,
@@ -11244,7 +11244,7 @@ let englishQuestions = [
       {
         id: 8,
         question:
-          "Many good.... tape recorders and cameras find a ready market in every country",
+          "Many goods .... tape recorders and cameras find a ready market in every country",
         options: ["like", "such a", "such as", "such", "as"],
         ans: "C",
         main: "",
@@ -12023,14 +12023,8 @@ let englishQuestions = [
         main: "",
         remark: "",
       },
-    ],
-  },
-
-  {
-    topic: "7. Adverbs, Conjunctions, Interjection, Punctuation",
-    questions: [
       {
-        id: 1,
+        id: 83,
         question: "He went up quickly and returned __",
         options: ["fastest", "fastly", "as fastly", "as fast", "in fastness"],
         ans: "D",
@@ -12038,7 +12032,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 2,
+        id: 84,
         question: "There were so many children __",
         options: [
           "that she couldn't feed them all",
@@ -12052,7 +12046,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 3,
+        id: 85,
         question: "He sent the children out to play __ he might be alone",
         options: ["because", "so that", "yet", "since", "while"],
         ans: "B",
@@ -12060,7 +12054,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 4,
+        id: 86,
         question:
           "We couldn't find the official who was to act as our guide __, he had left before we arrived",
         options: ["moreover", "actually", "nevertheless", "however", "even"],
@@ -12069,7 +12063,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 5,
+        id: 87,
         question: "This exercise must be done __ possible.",
         options: [
           "as quick as",
@@ -12083,7 +12077,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 6,
+        id: 88,
         question: "He passed so well __ he was awarded a scholarship",
         options: ["since", "because", "that", "while", "thus"],
         ans: "C",
@@ -12091,7 +12085,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 7,
+        id: 89,
         question: "I told him __ he had no chance",
         options: [
           "quite by frankness",
@@ -12105,7 +12099,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 8,
+        id: 90,
         question: "I am not attending __ is my wife.",
         options: ["whereas", "neither", "either", "but"],
         ans: "B",
@@ -12113,7 +12107,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 9,
+        id: 91,
         question: "There was __ much noise at night that we couldn't sleep.",
         options: ["such a", "such", "that", "very", "so"],
         ans: "E",
@@ -12121,7 +12115,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 10,
+        id: 92,
         question: "We talked quietly __ wake the baby",
         options: [
           "so that not",
@@ -12135,7 +12129,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 11,
+        id: 93,
         question:
           "The students in my junior class seem to have performed __ they did last year.",
         options: [
@@ -12150,7 +12144,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 12,
+        id: 94,
         question:
           "The angry woman shouted and cursed in language __ shocking for words",
         options: ["very", "far", "so", "quite", "too"],
@@ -12159,7 +12153,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 13,
+        id: 95,
         question: "He was __ he had no time to eat.",
         options: [
           "so busy that",
@@ -12173,7 +12167,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 14,
+        id: 96,
         question:
           "The driver of that lorry __ lost his life during the collision.",
         options: ["barely", "hardly", "nearly", "closely", "narrowly"],
@@ -12182,7 +12176,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 15,
+        id: 97,
         question: "Kelechi hardly ever falls sick",
         options: [
           "most often",
@@ -12196,7 +12190,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 16,
+        id: 98,
         question: "He lost his voice momentarily",
         options: [
           "in a moment",
@@ -12210,7 +12204,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 17,
+        id: 99,
         question:
           "Roli failed because the examination was __ difficult for her",
         options: ["so", "very", "highly", "too"],
@@ -12219,7 +12213,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 18,
+        id: 100,
         question:
           "Tonye said that he was going to bed because he was __ to do any more work.",
         options: ["tired out", "very tired", "too tired", "extremely tired"],
@@ -12228,7 +12222,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 19,
+        id: 101,
         question: "You could see that Akpan did not give the evidence __",
         options: [
           "honestly completely",
@@ -12241,7 +12235,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 20,
+        id: 102,
         question:
           "The girl that my brother introduced to us last week is pretty __ ill-mannered.",
         options: ["and", "but also", "as well as", "but"],
@@ -12250,7 +12244,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 21,
+        id: 103,
         question:
           "Many people believe that nuclear power will solve our energy problems __ this has no been proved to be true.",
         options: ["indeed", "but", "however", "on the contrary"],
@@ -12259,7 +12253,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 22,
+        id: 104,
         question: "Wodu will not come __ she is asked",
         options: ["after", "provided", "unless", "because"],
         ans: "C",
@@ -12267,7 +12261,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 23,
+        id: 105,
         question: "No sooner __ to fall",
         options: [
           "did we set out when the rain had started",
@@ -12280,7 +12274,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 24,
+        id: 106,
         question:
           "Based on the facts before me. I have no alternative __ to terminate your appointment",
         options: ["but", "than", "as", "only"],
@@ -12289,7 +12283,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 26,
+        id: 107,
         question: "He did not explain what happened __ did she",
         options: ["either", "never", "neither", "rather"],
         ans: "B",
@@ -12297,7 +12291,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 25,
+        id: 108,
         question: "I shall never be so tired __ to write to you",
         options: [
           "as not to be able",
@@ -12310,7 +12304,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 27,
+        id: 109,
         question: "AIDS is __ disease that it kills slowly but surely",
         options: [
           "too much a deadly",
@@ -12323,7 +12317,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 28,
+        id: 110,
         question: "We had a dull evening because __",
         options: [
           "hardly the talk had begun when the lights went off",
@@ -12336,7 +12330,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 29,
+        id: 111,
         question:
           "Our economic programme is __ commitment to Nigeria's economic growth",
         options: [
@@ -12350,7 +12344,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 30,
+        id: 112,
         question: "He is so credulous __ my story about the ghost.",
         options: [
           "to believe",
@@ -12363,7 +12357,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 31,
+        id: 113,
         question:
           "I can't stand people prying into my private life; Ladi said: __agreed Agbenu",
         options: ["me neither", "me too", "I also", "likewise myself"],
@@ -12372,7 +12366,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 32,
+        id: 114,
         question: "Idankwo ran __ miss the train",
         options: [
           "lest he almost",
@@ -12385,7 +12379,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 33,
+        id: 115,
         question: "Tsadu always cautions that difficult jobs should be done __",
         options: [
           "step by step",
@@ -12398,7 +12392,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 34,
+        id: 116,
         question:
           "We have been living peacefully here but __ hear rumors of wars",
         options: ["again", "slowly", "occasionally", "eventually"],
@@ -12407,7 +12401,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 35,
+        id: 117,
         question: "They are the __ dresses.",
         options: ["babies", "babies'", "babys'", "baby"],
         ans: "B",
@@ -12415,7 +12409,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 37,
+        id: 118,
         question: "__ he switches on the light, the shadow disappears",
         options: ["Whenever", "Except", "Since", "Until"],
         ans: "A",
@@ -12423,7 +12417,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 36,
+        id: 119,
         question:
           "Based on the facts before me, I have no alternative __ to hold you responsible",
         options: ["than", "but", "only", "as"],
@@ -12432,7 +12426,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 38,
+        id: 120,
         question:
           "His many years of succes in legal practice __ didn't come without challenges",
         options: ["indeed", "but", "in spite of it all", "however"],
@@ -12441,7 +12435,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 39,
+        id: 121,
         question: "We visited his house __ three times",
         options: ["like", "for like", "about", "for about"],
         ans: "C",
@@ -12449,7 +12443,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 40,
+        id: 122,
         question: "__ she didn't trust him, she married him",
         options: ["After", "Much as", "Since", "Though"],
         ans: "D",
@@ -12457,7 +12451,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 41,
+        id: 123,
         question: "My mother was __ annoyed with me for coming late",
         options: ["very", "neither", "hotly", "just"],
         ans: "A",
@@ -12465,7 +12459,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 42,
+        id: 124,
         question:
           "It is impossible to say whether __ Ola and her sister will be offered jobs by the firm",
         options: ["both", "either", "each", "neither"],
@@ -12477,7 +12471,7 @@ let englishQuestions = [
   },
 
   {
-    topic: "8. Rules of concord",
+    topic: "7. Rules of concord",
     questions: [
       {
         id: 1,
@@ -13396,7 +13390,7 @@ let englishQuestions = [
   },
 
   {
-    topic: "9. Interpretation of words and expressions",
+    topic: "8. Interpretation of words and expressions",
     questions: [
       {
         id: 1,
@@ -13944,7 +13938,7 @@ let englishQuestions = [
   },
 
   {
-    topic: "10. Idioms and sayings",
+    topic: "9. Idioms and sayings",
     questions: [
       {
         id: 1,
@@ -13959,7 +13953,7 @@ let englishQuestions = [
   },
 
   {
-    topic: "11. Phrasal verbs",
+    topic: "10. Phrasal verbs",
     questions: [
       {
         id: 1,
@@ -13974,7 +13968,7 @@ let englishQuestions = [
   },
 
   {
-    topic: "12. Interrogative question tags, reported speech",
+    topic: "11. Interrogative question tags, reported speech",
     questions: [
       {
         id: 1,
@@ -14649,7 +14643,7 @@ let englishQuestions = [
   },
 
   {
-    topic: "13. Spelling mistakes",
+    topic: "12. Spelling mistakes",
     questions: [
       {
         id: "b1of",
@@ -15233,7 +15227,7 @@ let englishQuestions = [
   },
 
   {
-    topic: "14. Common mistakes",
+    topic: "13. Common mistakes",
     questions: [
       {
         id: "d9k0",

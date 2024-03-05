@@ -2144,7 +2144,7 @@ let biologyQuestions = [
   },
 
   {
-    topic: "6. Evolution Among Invertebrates",
+    topic: "7. Evolution Among Invertebrates",
     questions: [
       {
         id: 1,
@@ -2533,7 +2533,7 @@ let biologyQuestions = [
   },
 
   {
-    topic: "7. The Arthropods",
+    topic: "8. The Arthropods",
     questions: [
       {
         id: 1,
@@ -3072,7 +3072,7 @@ let biologyQuestions = [
   },
 
   {
-    topic: "8. The Vertebrates Pisces. Amphibians. Reptiles",
+    topic: "9. The Vertebrates Pisces. Amphibians. Reptiles",
     questions: [
       {
         id: 1,
@@ -3525,7 +3525,7 @@ let biologyQuestions = [
   },
 
   {
-    topic: "9. The Vertebrate II-Birds And Mammals",
+    topic: "10. The Vertebrate II-Birds And Mammals",
     questions: [
       {
         id: 1,
@@ -3820,7 +3820,7 @@ let biologyQuestions = [
   },
 
   {
-    topic: "10. Plant Nutrition",
+    topic: "11. Plant Nutrition",
     questions: [
       {
         id: 1,
@@ -4383,7 +4383,7 @@ let biologyQuestions = [
   },
 
   {
-    topic: "11. Animal nutrition and food substances",
+    topic: "12. Animal nutrition and food substances",
     questions: [
       {
         id: 4,
@@ -4805,7 +4805,7 @@ let biologyQuestions = [
   },
 
   {
-    topic: "12. Digestive system, Digestive enzyme and Dentition",
+    topic: "13. Digestive system, Digestive enzyme and Dentition",
     questions: [
       {
         id: 1,
@@ -5489,7 +5489,7 @@ let biologyQuestions = [
   },
 
   {
-    topic: "13. Supporting Tissues In Plants And Movement",
+    topic: "14. Supporting Tissues In Plants And Movement",
     questions: [
       {
         id: 1,
@@ -5893,7 +5893,7 @@ let biologyQuestions = [
   },
 
   {
-    topic: "14. Supporting Tissues In Animals",
+    topic: "15. Supporting Tissues In Animals",
     questions: [
       {
         id: 1,
