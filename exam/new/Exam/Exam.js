@@ -10,9 +10,6 @@ import { isPresent, removeQuestion, fetchQuestion } from "./helpers.js";
 class Exam {
   constructor(subject, topic, questions, quantity) {
     // subject and topic will be choosen before exam...
-    if (subject == "English") {
-      quantity = 60;
-    }
     this.subject = subject;
     this.topic = topic;
     this.currentQuestion = null;
