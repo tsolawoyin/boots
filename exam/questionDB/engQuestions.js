@@ -6212,7 +6212,7 @@ let englishQuestions = [
         id: 79,
         question:
           "The physicians have more people in __ waiting rooms than __ have ever had.",
-        options: ["his | he", "there | their", "they | they", "them | they"],
+        options: ["his | he", "there | their", "their | they", "them | they"],
         ans: "C",
         main: "",
         remark:
@@ -10002,6 +10002,7 @@ let englishQuestions = [
         ans: "D",
         main: "",
         remark: "",
+        // with a view to finding
       },
       {
         id: 2,
@@ -10011,6 +10012,7 @@ let englishQuestions = [
         ans: "C",
         main: "",
         remark: "",
+        // suggestion is completely beside
       },
       {
         id: 3,
@@ -10048,7 +10050,7 @@ let englishQuestions = [
       {
         id: 6,
         question:
-          "My little boy is hyper-active and he is there for prone __accidents",
+          "My little boy is hyper-active and he is therefore prone __accidents",
         options: ["with respect", "for", "to", "about", "as regards"],
         ans: "C",
         main: "",
@@ -10064,7 +10066,7 @@ let englishQuestions = [
       },
       {
         id: 8,
-        question: "The chaiman of the company is very sympathetic__his staff",
+        question: "The chairman of the company is very sympathetic__his staff",
         options: ["to", "at", "for", "from", "on"],
         ans: "A",
         main: "",
@@ -10081,7 +10083,7 @@ let englishQuestions = [
       },
       {
         id: 10,
-        question: "He played the piano__an hour of two",
+        question: "He played the piano__an hour or two",
         options: ["around", "in about", "during", "while", "for"],
         ans: "E",
         main: "",
