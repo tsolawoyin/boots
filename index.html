@@ -30,24 +30,26 @@
       #days {
         border: 2px solid #209CEE;
         border-radius: 1em;
-        width: 80%;
+        width: 90%;
         margin: auto;
         box-shadow: 5px 5px 10px #209CEE;
         padding: 1em;
       }
       .day-left {
         display: grid;
-        grid-template-columns: repeat(10, 1fr);
-        width: 70%;
+        grid-template-columns: repeat(10, 1fr); /*we will need some javascript to update this*/
+        gap: 5px;
+        margin-top: 1.5em;
         margin: auto;
-        gap: 10px;
       }
 
       .day-left p {
-        padding: 5px;
-        border-radius: 5px;
-        text-align: center;
         cursor: pointer;
+        color: black;
+        padding: 4px;
+        text-align: center;
+        margin: 0;
+        border-radius: 5px;
       }
       .remove {
         background-color: crimson;
@@ -60,10 +62,7 @@
 
       @media (max-width: 650px) {
         #days {
-          width: 90%;
-        }
-        .day-left {
-          width: 90%;
+          width: 95%;
         }
       }
     </style>
