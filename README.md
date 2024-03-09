@@ -1,1 +1,6 @@
-# WELCOME TO BOOTS 3.0.1
+# Hi, I'm BOOTS 👋
+
+`A proposed artificial intelligence software`
+
+**Project inception:** Dec, 2023  
+**Project duration:** Unknown
