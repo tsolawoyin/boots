@@ -68,14 +68,15 @@ start.addEventListener("click", (e) => {
 });
 
 // this way I can work with generate exam in any module... :-)
-// I know what I am doing sha... Nobody can fuck up my plans... The world is full of treachery... trust me.
+// this function has no explanation; bad programming, I know but even to my future self, I am sorry...
 function generateExamBtn(exams) {
   if (exams) {
     const examEL = document.querySelector("#exams");
 
     exams.forEach((e, i) => {
       let li = document.createElement("li");
-      li.textContent = e.subject;
+      li.textContent = trim(e.topic); // this is where I need to change stuff
+      // I want to change this one... let's work on it...
       li.className = "btn";
       li.id = `${e.subject}-${e.topic}`;
 
@@ -85,6 +86,13 @@ function generateExamBtn(exams) {
 
       examEL.append(li);
     });
+  }
+}
+
+function trim(str) {
+  if (str.length <= 8) return str
+  else {
+    return str.slice(0,8) + "..."; // makes sense...
   }
 }
 
