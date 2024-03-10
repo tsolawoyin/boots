@@ -146,7 +146,7 @@ let chemistryQuestions = [
       {
         id: 12,
         question:
-          `Apart from water, the other product(s) of the neutralization reaction between NaOH solution and nitrogen(IV) oxide (${formula("NO",2)} is/are`,
+          `Apart from water, the other product(s) of the neutralization reaction between NaOH solution and nitrogen(IV) oxide (${formula("NO",2)}) is/are`,
         options: [
           `${formula("NaNO",2)}`,
           `${formula("NaNO",3)}`,
@@ -182,7 +182,7 @@ let chemistryQuestions = [
       {
         id: 15,
         question:
-          `Which of the following in solution will give limewater used in the laboratory for the detection of carbin(IV) oxide?`,
+          `Which of the following in solution will give limewater used in the laboratory for the detection of carbon(IV) oxide?`,
         options: [
           `${formula("CaSO",4,"s")}`,
           `${formula("Ca",`(${formula("HCO",3)})`,2,"s")}`,
@@ -259,7 +259,7 @@ let chemistryQuestions = [
           `Which one of the following raw materials would be required for the smelting of iron ore in a blast furnace?`,
         options: [
           `${formula("CaCO",3)}`,
-          `${formula("Zn", `(${formula("NO",3)}),2`)}`,
+          `${formula("Zn", `(${formula("NO",3)})`,2)}`,
           `${formula("Cu","SO",4)}`,
           `${formula("AlCl",3)}`,
         ],
@@ -318,7 +318,7 @@ let chemistryQuestions = [
         question:
           `What will happen if a few drops of dilute HCl are added to the complex formed in the equation below
           <br />
-          ${formula(ion("Cu",2,"+"), "aq")} + 4 ${formula("NH",3)} -> ${formula(ion(formula("Cu",`(${formula("NH",3)}),4`), "2","+"),"aq")}`,
+          ${formula(ion("Cu",2,"+"), "aq")} + 4 ${formula("NH",3)} -> ${formula(ion(formula("Cu",`(${formula("NH",3)})`,4), "2","+"),"aq")}`,
         options: [
           `The deep color of the complex will appear deeper`,
           `The deep color of the complex will remain unchanged`,
