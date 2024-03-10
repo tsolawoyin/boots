@@ -10185,25 +10185,18 @@ let englishQuestions = [
       },
       {
         id: 22,
-        question: "He travelled to jos,train when he came last month",
+        question: "He travelled to jos__train when he came last month",
         options: ["by", "in", "on", "inside", "through"],
         ans: "A",
         main: "",
         remark: "",
       },
+      // it happens when there is double stuffs. Now I get
       {
         id: 23,
         question: "Your approach to the problem is different__ours.",
         options: ["as", "like", "from", "because of", "to"],
         ans: "",
-        main: "",
-        remark: "",
-      },
-      {
-        id: 23,
-        question: "your approach to the problem is different__ours.",
-        options: ["as", "like", "from", "because of", "to"],
-        ans: "C",
         main: "",
         remark: "",
       },
@@ -10217,7 +10210,7 @@ let englishQuestions = [
       },
       {
         id: 25,
-        question: "The house will look at the better__this new coat of paint",
+        question: "The house will look better__this new coat of paint",
         options: ["for", "under", "against", "upon", "over"],
         ans: "A",
         main: "",
@@ -10292,7 +10285,7 @@ let englishQuestions = [
       {
         id: 33,
         question:
-          "The student who went home wiyhout an exeat has apologized__his misconduct",
+          "The student who went home without an exit has apologized__his misconduct",
         options: ["on", "at", "to", "for", "about"],
         ans: "D",
         main: "",
@@ -10326,7 +10319,7 @@ let englishQuestions = [
       },
       {
         id: 37,
-        question: "Iam looking__ seeing your family ",
+        question: "I am looking__ seeing your family ",
         options: ["ahead at", "forward to", "forward on", "for to", "ahead to"],
         ans: "B",
         main: "",
@@ -10343,7 +10336,7 @@ let englishQuestions = [
       {
         id: 39,
         question:
-          "Jojn arrived at the airport on time but he could not get__the plane",
+          "John arrived at the airport on time but he could not get__the plane",
         options: ["into", "over", "in", "to enter", "to"],
         ans: "B",
         main: "",
@@ -10370,7 +10363,7 @@ let englishQuestions = [
       {
         id: 42,
         question:
-          "The chaiman of the state school board has advised students to desist__blackmailing college authorithies",
+          "The chairman of the state school board has advised students to desist__blackmailing college authorithies",
         options: ["from", "in", "on", "against", "by"],
         ans: "A",
         main: "",
@@ -10430,7 +10423,7 @@ let englishQuestions = [
       {
         id: 49,
         question:
-          "The loud noise in the neighbourattracted people who stared__the thief.",
+          "The loud noise in the neighbour attracted people who stared__the thief.",
         options: ["at", "about", "with", "on", "over"],
         ans: "A",
         main: "",
@@ -10463,7 +10456,7 @@ let englishQuestions = [
       },
       {
         id: 53,
-        question: "On the orders of the stewards,the cook rushed__the market",
+        question: "On the orders of the stewards, the cook rushed__the market",
         options: ["to", "at", "for", "in", "against"],
         ans: "A",
         main: "",
@@ -10471,7 +10464,7 @@ let englishQuestions = [
       },
       {
         id: 54,
-        question: "I am verry sorry__to attend the meeting yesterday",
+        question: "I am very sorry__to attend the meeting yesterday",
         options: [
           "for failure",
           "in failing",
@@ -10519,7 +10512,7 @@ let englishQuestions = [
       {
         id: 58,
         question:
-          "Your brigade would be the better for it,if you desisted__rumor-mongering. observed the chief of staff.",
+          "Your brigade would be the better for it, if you desisted__rumor-mongering. observed the chief of staff.",
         options: ["from", "away", "into", "away from", "on"],
         ans: "A",
         main: "",
@@ -10595,7 +10588,7 @@ let englishQuestions = [
       },
       {
         id: 67,
-        question: "The villages looked__their leader for good examples.",
+        question: "The villagers looked__their leader for good examples.",
         options: ["up to", "on to", "up at", "forward to"],
         ans: "A",
         main: "",
@@ -10680,7 +10673,7 @@ let englishQuestions = [
       {
         id: 78,
         question:
-          "I wanted to avail myself__the opportunity of listening to the lecturer,but the lecturer failed to turn  up",
+          "I wanted to avail myself__the opportunity of listening to the lecturer,but the lecturer failed to turn up",
         options: ["with", "for", "of", "at"],
         ans: "C",
         main: "",
@@ -10782,7 +10775,7 @@ let englishQuestions = [
       {
         id: 90,
         question:
-          "Until his recent experience,onimisi used to pride himself__ his fearlessness",
+          "Until his recent experience, onimisi used to pride himself__ his fearlessness",
         options: ["on", "by", "about", "for"],
         ans: "A",
         main: "",
@@ -10812,7 +10805,7 @@ let englishQuestions = [
       },
       {
         id: 93,
-        question: "The workers suffered a lot, tolling __ the sun.",
+        question: "The workers suffered a lot, toiling __ the sun.",
         options: ["in", "under", "underneath", "inside"],
         ans: "A",
         main: "",
