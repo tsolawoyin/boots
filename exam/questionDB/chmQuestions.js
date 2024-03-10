@@ -9,6 +9,652 @@ let chemistryQuestions = [
   // ===============================================================
   // ===============================================================
   {
+    topic: '9. Descriptive Chemistry',
+    questions: [
+      {
+        id: 1,
+        question:
+          "Why is hydrogen gas not found in the atmosphere?",
+        options: [
+          `It readily reacts with carbon(IV) oxide`,
+          `It readily reacts with oxygen`,
+          `It readily reacts with oxygen`,
+          `It readily reacts with carbon(II) oxide`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 2,
+        question:
+          "Which of the following metals reacts with water only in the form of steam to liberate hydrogen gas?",
+        options: [
+          `Sodium`,
+          `Iron`,
+          `Copper`,
+          `Calcium`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 3,
+        question:
+          "Which of the following oxides remains unchanged when heated in hydrogen",
+        options: [
+          `${formula("PbO")}`,
+          `${formula("Fe",2,"O",3)}`,
+          `${formula("CuO")}`,
+          `${formula("ZnO")}`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 4,
+        question:
+          "All the following metals can displace hydrogen from water or steam except",
+        options: [
+          `sodium`,
+          `calcium`,
+          `iron`,
+          `copper`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 5,
+        question:
+          "Why is helium preferred to hydrogen in filling ballons? Hydrogen" ,
+        options: [
+          `exhibits isotopy`,
+          `is a component of water`,
+          `is diatomic`,
+          `is inflammable`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 6,
+        question:
+          "By what means is carbon(IV) oxide produced along with hydrogen removed from the mixture in the industrial preparation of hydrogen from natural gas? This is by passing the mixture through" ,
+        options: [
+          `phosphorus(V) oxide`,
+          `ammoniacal copper(I) chloride`,
+          `lime-water`,
+          `pyrogallol`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 7,
+        question:
+          "Which of the following metals reacts with steam reversibly only when red-hot?",
+        options: [
+          `copper`,
+          `iron`,
+          `calcium`,
+          `sodium`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 8,
+        question:
+          "Sodium metal is easier to cut with a knife than calcium metal because",
+        options: [
+          `calcium atoms in the metal are rather strong`,
+          `sodium has a weaker metallic bond`,
+          `sodium atoms in the metal are rather soft`,
+          `sodium has atoms that are not closely packed`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 9,
+        question:
+          "An element that is a soft, slivery white solid and reacts violently with cold water is likely to belong to",
+        options: [
+          `group I`,
+          `group IV`,
+          `group VI`,
+          `group VII`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 10,
+        question:
+          "Which of the following statement is correct?",
+        options: [
+          `Zinc heated to redness reacts with steam to give oxygen and zinc oxide`,
+          `Zinc heated to redness reacts with steam to give hydrogen and zinc oxide`,
+          `Zinc does not react with steam`,
+          `Zinc reacts with hot water to form zinc oxide and hydrogen`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 11,
+        question:
+          "The following compounds are decomposed by heat except",
+        options: [
+          `sodium trioxocarbonate(IV)`,
+          `ammonium trioxocarbonate(IV)`,
+          `sodium hydrogen trioxocarbonate(IV)`,
+          `calcium trioxocarbonate(IV)`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 12,
+        question:
+          `Apart from water, the other product(s) of the neutralization reaction between NaOH solution and nitrogen(IV) oxide (${formula("NO",2)} is/are`,
+        options: [
+          `${formula("NaNO",2)}`,
+          `${formula("NaNO",3)}`,
+          `${formula("NaNO",3)} and ${formula("HNO",3)}`,
+          `${formula("NaNO",2)} and ${formula("NaNO",3)}`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 13,
+        question:
+          `All the following are raw materials in the Solvay process except`,
+        options: [
+          `sodium chloride`,
+          `calcium trioxocarbonate(IV)`,
+          `ammonia`,
+          `sodium trioxocarbonate`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 14,
+        question:
+          `The reaction between a liquid substance M and sodium trioxocarbonate(IV) gives a gas which turns calcium hydroxide milky. Therefore M is`,
+        options: [
+          `an acid`,
+          `${formula("Na",2,"SO",4,"aq")}`,
+          `${formula("KI","aq")}`,
+          `an alkali`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 15,
+        question:
+          `Which of the following in solution will give limewater used in the laboratory for the detection of carbin(IV) oxide?`,
+        options: [
+          `${formula("CaSO",4,"s")}`,
+          `${formula("Ca",`(${formula("HCO",3)})`,2,"s")}`,
+          `${formula("Ca",`(${formula("OH")})`,2,"s")}`,
+          `${formula("CaCO",3)}`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 16,
+        question:
+          `A compound gives a white precipitate with acidified barium chloride solution and a lilac flame colouration. The compound is likely to`,
+        options: [
+          `${formula("K",2,"SO",4)}`,
+          `${formula("KCl")}`,
+          `${formula("CaSO",4)}`,
+          `${formula("NaNO",3)}`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 17,
+        question:
+          `One of the following is used in the manufacture of glass`,
+        options: [
+          `sodium trioxonitrate(V)`,
+          `sodium bromide`,
+          `sodium chloride`,
+          `sodium trioxocarbonate(IV)`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 18,
+        question:
+          `What is the product formed when carbon(IV) oxide is passed into limewater for a long time`,
+        options: [
+          `${formula("CaC",2)}`,
+          `${formula("CaCO",3)}`,
+          `${formula("Ca",`(${formula("HCO",3)})`,2,"s")}`,
+          `${formula("CaO")}`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 19,
+        question:
+          `When mortar sets, the compound formed is`,
+        options: [
+          `${formula("Ca",`(${formula("OH")})`,2,"s")}`,
+          `${formula("CaCO",3)}`,
+          `${formula("Ca",`(${formula("NO",3)})`,2,"s")}`,
+          `${formula("CaCl",2)}`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 20,
+        question:
+          `Which of the following processes is represented by the equation below 
+          <br /> 
+          ${formula("CaO","s")} + ${formula("H",2,"O","l")} -> ${formula("Ca",`(${formula("HCO",3)})`,2,"s")}`,
+        options: [
+          `Mortaring`,
+          `Dissolution`,
+          `Slaking`,
+          `Liming`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 21,
+        question:
+          `Which one of the following raw materials would be required for the smelting of iron ore in a blast furnace?`,
+        options: [
+          `${formula("CaCO",3)}`,
+          `${formula("Zn", `(${formula("NO",3)}),2`)}`,
+          `${formula("Cu","SO",4)}`,
+          `${formula("AlCl",3)}`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 22,
+        question:
+          `All of the following can be deduced from the electronic configuration of a transition metal except`,
+        options: [
+          `possession of magnetic property`,
+          `ability to form complex ions`,
+          `variable oxidation states`,
+          `boiling point of the metal`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 23,
+        question:
+          `The function of limestone in the extraction of iron in the blast furnace is`,
+        options: [
+          `reduction of the iron ore`,
+          `removal of impurities`,
+          `provision of ${formula("CO",2)} for the process`,
+          `catalysis of the reaction involved`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 24,
+        question:
+          `Why is copper(II) tetraoxosulphate(VI) often added to swimming pools? It`,
+        options: [
+          `prevent the growth of algae`,
+          `coagulates suspended particles`,
+          `neutralizes dissolved gases in water`,
+          `reacts with any excess chlorine present`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 25,
+        question:
+          `Extraction of aluminum from its ore is by`,
+        options: [
+          `floatation`,
+          `electrolysis`,
+          `roasting`,
+          `reduction with coke`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 26,
+        question:
+          `What will happen if a few drops of dilute HCl are added to the complex formed in the equation below
+          <br />
+          ${formula(ion("Cu",2,"+"), "aq")} + 4 ${formula("NH",3)} -> ${formula(ion(formula("Cu",`(${formula("NH",3)}),4`), "2","+"),"aq")}`,
+        options: [
+          `The deep color of the complex will appear deeper`,
+          `The deep color of the complex will remain unchanged`,
+          `The deep color of the complex will become colorless`,
+          `The deep color of the complex will be lighter`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 27,
+        question:
+          `In the blast furnace, during the extraction of iron, slag is produced using`,
+        options: [
+          `carbon`,
+          `sulfur`,
+          `cryolite`,
+          `limestone`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 28,
+        question:
+          `All of the following reactions take place in the smelting of iron in a blast furnace except`,
+        options: [
+          `${formula("CO",2,"g")} + ${formula("CaO","s")} -> ${formula("CaCO",3,"s")}`,
+          `${formula("CO",2,"g")} + ${formula("C","s")} -> ${formula("CO",2,"g")}`,
+          `${formula("C","s")} + ${formula("O",2)} -> ${formula("CO",2,"g")}`,
+          `${formula("CaCO",3,"s")} -> ${formula("CaO","s")} + ${formula("CO",2,"g")}`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 29,
+        question:
+          `What is the role of cryolite in the electrolytic extraction of aluminium from bauxite?`,
+        options: [
+          `It makes aluminium purer`,
+          `It protects the carbon electrodes used in the process`,
+          `It makes bauxite a better conductor of electricity`,
+          `It prevents aluminum from getting oxidized`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 30,
+        question:
+          `Which of the following colours is imparted by calcium ion to a flame`,
+        options: [
+          `lilac`,
+          `yellow`,
+          `blue`,
+          `brick red`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 31,
+        question:
+          `Why does iron displace copper ions from a solution of copper(II) salt in the following reaction <br />
+          ${formula("Fe","s")} + ${ion("Cu","2+")} -> ${ion("Fe",2,"+")} + ${formula("Cu","s")}`,
+        options: [
+          `Iron is higher in the electrochemical series from copper`,
+          `Copper metal has more electrons than iron metal`,
+          `Iron is in the metallic form while copper is in the ionic form`,
+          `The atomic weight of copper is greater than that of iron`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 32,
+        question:
+          `Which of the following metals would be in passive state when treated with conc. nitric acid`,
+        options: [
+          `Zinc`,
+          `Sodium`,
+          `Tin`,
+          `Iron`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 33,
+        question:
+          `What is the major component of the slag obtained during the production of iron in the blast furnace?`,
+        options: [
+          `Impure iron`,
+          `Calcium trioxosilicate(IV)`,
+          `Coke`,
+          `An alloy of calcium and iron`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 34,
+        question:
+          `Which of the following is the solvent for dissolving bauxite in order to remove impurities in the electrolytic extraction of aluminium?`,
+        options: [
+          `sodium hydroxide`,
+          `deionized water`,
+          `aqeuous ammonia`,
+          `acidified water`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 35,
+        question:
+          `In which of the following pairs of metals are the two members extracted by electrolysis`,
+        options: [
+          `copper and zinc`,
+          `lead and calcium`,
+          `magnesium and zinc`,
+          `magnesium and calcium`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 36,
+        question:
+          `Aluminum and iron can both`,
+        options: [
+          `show oxidation states of +2 and +3`,
+          `form soluble hydroxides`,
+          `be extracted by reduction methods`,
+          `form only basic oxides`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 37,
+        question:
+          `The oxide of which of the following elements will be soluble in both HCl and NaOH solutions to form salts?`,
+        options: [
+          `Mn`,
+          `Ag`,
+          `Al`,
+          `Ag`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 38,
+        question:
+          `Which of the following can exhibit corrosion`,
+        options: [
+          `metals below hydrogen in the electrochemical series`,
+          `iron only`,
+          `all metals`,
+          `electropositive metals`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 39,
+        question:
+          `A metal whose oxide is used for the production of colored glass is`,
+        options: [
+          `cobalt`,
+          `zinc`,
+          `barium`,
+          `potassium`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 40,
+        question:
+          `What happens when a piece of charcoal enclosed in a cylinder containing air is ignited?`,
+        options: [
+          `The total volume of air is increased`,
+          `The relative amount of nitrogen is decreased`,
+          `The relative amount of oxygen present is increased`,
+          `The relative amount of carbon(IV) oxide is increased`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 41,
+        question:
+          `Which of the following salts does not dissolve readily in cold water`,
+        options: [
+          `${formula("CaCl",2)}`,
+          `${formula("PbSO",4)}`,
+          `${formula(`(${formula("NH",4)})`,2,"SO",4)}`,
+          `${formula("Na",2,"CO",3)}`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 42,
+        question:
+          `The following tests can be used to distinguish carbon(II) oxide from carbon(IV) oxide except`,
+        options: [
+          `observing their color and odor`,
+          `passing each gas into water and testing with litmus`,
+          `passing each gas over heated copper(I) oxide`,
+          `passing each gas through freshly prepared lime water`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 43,
+        question:
+          `Which of the following mixtures is the producer gas?`,
+        options: [
+          `${formula("CO",2)} and ${formula("H",2)}`,
+          `${formula("CO",2)} and ${formula("N",2)}`,
+          `${formula("CO")} and ${formula("H",2)}`,
+          `${formula("CO")} and ${formula("N",2)}`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 44,
+        question:
+          `Which of the following does not readily react with concentrated trioxonitrate(V) acid`,
+        options: [
+          `Copper`,
+          `Zinc`,
+          `Iron`,
+          `Tin`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 45,
+        question:
+          `What is the role of concentrated tetraoxosulfate(VI) acid in the preparation of carbon(II) oxide by heating ethanedioc acid with concentrated tetraoxosulphate(VI) oxide`,
+        options: [
+          `A dehydrating agent`,
+          `A reaction medium`,
+          `A catalyst`,
+          `A reducing agent`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 46,
+        question:
+          `The white solid that gives a colorless neutral gas that burns with a sooty flame is`,
+        options: [
+          `sodium tetraoxosulphate(VI)`,
+          `calcium carbide`,
+          `calcium oxide`,
+          `magnesium oxide`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 47,
+        question:
+          `The following statements are correct except`,
+        options: [
+          `Carbon(IV) oxide is soluble in water`,
+          `Lead has a higher atomic weights than copper`,
+          `Nitrogen gas is insoluble in water`,
+          `Sodium metal dissolves in water giving oxygen`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 48,
+        question:
+          `The following statements are true of carbon(II) oxide except`,
+        options: [
+          `CO is readily oxidized at room temperature by air ro form ${formula("CO",2)}`,
+          `CO may be prepared by reducing ${formula("CO",2)} mixed with coke heated to about 1000&deg;C`,
+          `CO is poisonous`,
+          `CO is a good reducing agent`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 49,
+        question:
+          `In which of the following pairs oxides will each of the two members further react with oxygen to form a higher oxide?`,
+        options: [
+          `${formula("CO",2)} and ${formula("H",2,"0")}`,
+          `${formula("SO",2)} and ${formula("NO")}`,
+          `${formula("NO")} and ${formula("CO",2)}`,
+          `${formula("CO")} and ${formula("CO",2)}`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 50,
+        question:
+          `The compound used in fire extinguishers is?`,
+        options: [
+          `sulphur(IV) oxide`,
+          `carbon(II) oxide`,
+          `ammoina`,
+          `carbon(IV) oxide`
+        ],
+        ans: "D",
+      },
+      {
+        id: 51,
+        question:
+          `In which of the following processes does coal give coal gas, coal tar, ammoniacal liquor and coke`,
+        options: [
+          `liquefaction`,
+          `steam distillation`,
+          `destructive distillation`,
+          `hydrolysis`
+        ],
+        ans: "C",
+      },
+      {
+        id: 52,
+        question:
+          `Why should coal fire not be used in poorly ventilated rooms? This is because`,
+        options: [
+          `of the accumulation of ${formula("CO",2)} which causes deep sleep`,
+          `of the accumulation of ${formula("CO")} which causes suffocation`,
+          `it removes most of the gases in the rooms`,
+          `it usually too hot`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 53,
+        question:
+          `What happens when the trioxonitrate(V) of potassium magnesium and silver are heated?`,
+        options: [
+          `All of the trioxonitrate(V) salts decompose to their oxides`,
+          `The trioxonitrate(V) salt of magnesium gives the dioxonitrate(III) salt and oxygen`,
+          `The trioxonitrate(V) salts of magnesium and silver give their oxides`,
+          `Only silver trioxonitrate(V) gives the free element`,
+        ],
+        ans: "D",
+      },
+    ]
+  },
+  {
     topic: "7. Nitrogen",
     questions: [
       {
