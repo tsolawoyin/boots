@@ -652,6 +652,492 @@ let chemistryQuestions = [
         ],
         ans: "D",
       },
+      {
+        id: 54,
+        question:
+          `All the following compounds will give oxygen gas on heating except`,
+        options: [
+          `manganese(IV) oxide`,
+          `hydrogen peroxide`,
+          `zinc trioxonitrate(V)`,
+          `sodium trioxonitrate(V)`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 55,
+        question:
+          `Silver trioxonitrate(V) on heating gives`,
+        options: [
+          `Ag, ${formula("N",2,"O")} and ${formula("O",2)}`,
+          `${formula("Ag",2,"O")}, ${formula("N",2)} and ${formula("O",2)}`,
+          `${formula("Ag",2,"O")} and ${formula("NO",2)}`,
+          `${formula("Ag")}, ${formula("NO",2)} and ${formula("O",2)}`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 56,
+        question:
+          `Why is the round-bottomed flask used in the laboratory preparation of ammonia slanted?`,
+        options: [
+          `so that ammonia will dissolve in water`,
+          `so that the reaction will proceed faster`,
+          `so that ammonia can displace air`,
+          `so that the water produced does not flow back to break the flask`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 57,
+        question:
+          `The laboratory preparation of trioxonitrate(V) acid involves:`,
+        options: [
+          `heating a mixture of ammonia gas and oxygen`,
+          `heating ammonium trioxonitrate(V) with tetraoxosulphate(VI) acid`,
+          `heating ammonia gas with tetraoxosulphate(VI) acid`,
+          `heating sodium trioxonitrate(V) with tetraoxosulphate(VI) acid`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 58,
+        question:
+          `Which of the following gases is formed when ammonium trioxonitrate(V) is heated with sodium hydroxide`,
+        options: [
+          `Oxygen`,
+          `Ammonia`,
+          `Nitrogen(IV) oxide`,
+          `Hydrogen`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 59,
+        question:
+          `How can a gas liberated as a result of the reaction between ammonium tetraoxosulphate(VI) and calcium hydroxide be collected dry?`,
+        options: [
+          `By passing it directly through calcium chloride`,
+          `By bubbling it through conc. ${formula("H",2,"SO",4)}`,
+          `By bubbling it through water and then passing it through calcium oxide`,
+          `By passing it directly through calcium oxide`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 60,
+        question:
+          `A metallic element is produced as the major product in`,
+        options: [
+          `burning sulfur in excess air`,
+          `passing a stream of hydrogen over heated lead(II) oxide`,
+          `heating copper(II) trioxocarbonate(IV) strongly`,
+          `reaction of concentrated trioxonitrate(V) acid with copper`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 61,
+        question:
+          `Determination of the proportion of oxygen in air can be done by passing a given volume of air through`,
+        options: [
+          `lime water`,
+          `alkaline pyrogallol solution`,
+          `${formula("FeSO",4)} solution`,
+          `conc. ${formula("H","SO",4)}`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 62,
+        question:
+          `The solution that gives a white precipitate with acidified barium chloride solution and a green color to flame test is`,
+        options: [
+          `${formula(`${formula("NH",4)}`,2,"SO",4)}`,
+          `${formula("CaCl",2)}`,
+          `${formula("CuSO",4)}`,
+          `${formula("CaSO",4)}`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 63,
+        question:
+          `The combination of gases used for metal welding is
+          <br />
+          I. Hydrogen and Ethyne <br />
+          II. Ethyne, Hydrogen and Oxygen <br />
+          III. Oxygen and Ethyne <br />
+          IV. Hydrogen and Oxygen`,
+        options: [
+          `I and III`,
+          `I and II`,
+          `III and IV`,
+          `II and III`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 64,
+        question:
+          `A property of sulphur is`,
+        options: [
+          `conduction of electricity in the molten state`,
+          `existence in liquid state`,
+          `formation of alkaline oxides`,
+          `burning with a blue flame`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 65,
+        question:
+          `The most abundant metal in the earth's crust is`,
+        options: [
+          `iron`,
+          `sodium`,
+          `aluminium`,
+          `copper`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 66,
+        question:
+          `Why is oxochlorate(I) acid used as bleach?`,
+        options: [
+          `It is a strong acid`,
+          `It yields chlorine readily in pure water`,
+          `It is an oxidizing agent`,
+          `It is weak acid`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 67,
+        question:
+          `What happens when chlorine gas is bubbled into water and the resulting solution is exposed to sunlight?`,
+        options: [
+          `The solution will give out chlorine gas and hydrogen chloride gas`,
+          `The solution will liberate oxygen and leave oxochlorate(I) acid behind`,
+          `The solution will liberate chlorine gas and oxygen`,
+          `The solution will give out oxygen gas leaving hydrochloric acid behind`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 68,
+        question:
+          `Chlorine, bromine, and iodine are alike in that all the three`,
+        options: [
+          `dissolves in alkalis`,
+          `are gases`,
+          `react violently with hydrogen without heating`,
+          `displace one another from solutions of their salts`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 69,
+        question:
+          `How is chlorine prepared on a large scale?`,
+        options: [
+          `Electrolysis of concentrated sodium chloride solution`,
+          `Action of manganese(IV) oxide on hot concentrated hydrochloric acid`,
+          `Action of conc. tetraoxosulphate(VI) acid on sodium chloride`,
+          `Oxidation of concentrated hydrochloric acid with potassium tetraoxomanganate(VII)`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 70,
+        question:
+          `Which of the following compounds dissolves in excess ammonia solution to form a colorless solution?`,
+        options: [
+          `AgCl`,
+          `PbO`,
+          `${formula("BaSO",4)}`,
+          `${formula("CaSO",4)}`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 71,
+        question:
+          `The precipate observed as a result of the reaction between aqueous potassium chloride and silver trioxonitrate(V) is`,
+        options: [
+          `KCl`,
+          `${formula("AgNO",3)}`,
+          `${formula("AgCl")}`,
+          `${formula("KNO",3)}`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 72,
+        question:
+          `In which of the following pairs of compounds would the two compounds decolorize ${formula("KMnO",4)} solution`,
+        options: [
+          `${formula("NH",3)} and ${formula("CO",2)}`,
+          `${formula("SO",2)} and ${formula("H",2,"S")}`,
+          `${formula("Cl",2)} and ${formula("NO",2)}`,
+          `${formula("N",2,"S")} and ${formula("H",2,"S")}`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 73,
+        question:
+          `The most reactive halogen is`,
+        options: [
+          `${formula("Cl",2)}`,
+          `${formula("Br",2)}`,
+          `${formula("F",2)}`,
+          `${formula("I",2)}`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 74,
+        question:
+          `The addition of chlorine to slaked lime yields`,
+        options: [
+          `oxochlorate(I) acid`,
+          `chlorinated water`,
+          `trioxochlorate(I) salt`,
+          `bleaching powder`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 75,
+        question:
+          `The gas produced on heating copper powder with concentrated tetraoxosulphate(VI) aicd is`,
+        options: [
+          `sulphur(IV) oxide`,
+          `sulphur(VI) oxide`,
+          `hydrogen sulfide`,
+          `oxygen`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 76,
+        question:
+          `Which of the aqueous solutions ${formula("H",2,"SO",4)}, ${formula("HCl")}, ${formula("AgNO",3)}, and ${formula("HNO",3)} forms a dark grey solid substance when magnesium ribbon is inserted?`,
+        options: [
+          `HCl`,
+          `${formula("H",2,"SO",4)}`,
+          `${formula("HNO",3)}`,
+          `${formula("AgNO",3)}`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 77,
+        question:
+          `The constituents of gunpowder are sulphur charcoal and`,
+        options: [
+          `phosphorus sulfide`,
+          `potassium chloride`,
+          `potassium trioxochlorate(V)`,
+          `potassium trioxonitrate(V)`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 78,
+        question:
+          `The bleaching action of sulphur(IV) oxide is by`,
+        options: [
+          `reduction`,
+          `oxidation`,
+          `dehydration`,
+          `sulphonation`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 79,
+        question:
+          `The bleaching agent used in textile and paper industries is`,
+        options: [
+          `sodium tetraoxosulphate(VI)`,
+          `potassium hydroxide`,
+          `sodium chloride`,
+          `sodium oxochlorate(I)`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 80,
+        question:
+          `Why is potassium tetraoxomanganate(VII) often added to impure water? It`,
+        options: [
+          `destroys bacteria and algae`,
+          `reduces organic impurities`,
+          `removes permanent hardness`,
+          `reduces organic impurities`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 81,
+        question:
+          `Why is helium often used in filling ballons`,
+        options: [
+          `Lightness and combustibility`,
+          `Heaviness and combustibility`,
+          `Lightness and non-combustibility`,
+          `Heaviness and combustibility`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 82,
+        question:
+          `The metals below are all extracted by electrolysis except`,
+        options: [
+          `iron`,
+          `aluminium`,
+          `sodium`,
+          `magnesium`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 83,
+        question:
+          `The alkali metals are found in combined forms in nature because they`,
+        options: [
+          `are highly reactive`,
+          `have strong electrostatic forces in their lattices`,
+          `form volatile compounds`,
+          `have very weak metallic bonds`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 84,
+        question:
+          `Which of the following reactions is not feasible`,
+        options: [
+          `${formula("F",2)} + 2${formula("NaCl")} -> 2NaF + ${formula("Cl",2)}`,
+          `${formula("Cl",2)} + 2${formula("NaI")} -> 2NaCl + ${formula("I",2)}`,
+          `${formula("Cl",2)} + 2${formula("KF")} -> 2KCl + ${formula("F",2)}`,
+          `${formula("Br",2)} + 2${formula("KI")} -> 2KBr + ${formula("I",2)}`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 85,
+        question:
+          `Cassiterite is the ore of`,
+        options: [
+          `magnesium`,
+          `copper`,
+          `tin`,
+          `aluminium`
+        ],
+        ans: "C",
+      },
+      {
+        id: 86,
+        question:
+          `Which of the following gases would form a white precipitate with dil. ${formula("HNO",3)} followed by ${formula("AgNO",3)}?`,
+        options: [
+          `${formula("SO",2)}`,
+          `${formula("HCl")}`,
+          `${formula("CO",2)}`,
+          `${formula("NH",3)}`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 87,
+        question:
+          `What is the function of the salt in the mixture of charcoal, sulfur and potassium trioxonitrate(V) used to produce gunpowder?`,
+        options: [
+          `A catalyst`,
+          `An oxidant`,
+          `A reductant`,
+          `A solvent`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 88,
+        question:
+          `Why is copper used for ornamental works? It is`,
+        options: [
+          `a good thermal and electrical conductor`,
+          `malleable and resistant to corrosion`,
+          `a transition metal`,
+          `a soft metal`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 89,
+        question:
+          `The following statements are correct about dilute hydrochloric acid except:`,
+        options: [
+          `it has a pH value less than 7`,
+          `it is a strong electrolyte`,
+          `it gives effervescence with both magnesium and sodium trioxocarbonate(IV)`,
+          `it forms acid with bases`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 90,
+        question:
+          `G is an element in the same group as lithium. An aqueous solution of its compound, GOH, will`,
+        options: [
+          `be neutral`,
+          `be acidic`,
+          `turn blue litmus red`,
+          `have a pH greater than 7`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 91,
+        question:
+          `What is the role of ${formula("H",2,"S")} in the reaction represented by the equation below? <br />
+          ${formula("SO",2,"g")} + ${formula("H",2,"S","g")} -> 2${formula("S","s")} + 2${formula("H",2,"O","l")}`,
+        options: [
+          `a precipitating agent`,
+          `a bleaching agent`,
+          `a reducing agent`,
+          `an oxidizing agent`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 92,
+        question:
+          `Why is oxochlorate(I) acid used as bleach? It is`,
+        options: [
+          `a strong acid`,
+          `an oxidizing agent`,
+          `a reducing agent`,
+          `a weak acid`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 93,
+        question:
+          `A nitrogen-containing compound that dissolves in water to give an aqueous solution having a pH less than 7 is`,
+        options: [
+          `${formula("H",2,"O")}`,
+          `${formula("NO")}`,
+          `${formula("NO")}`,
+          `${formula("NaNO",3)}`
+        ],
+        ans: "C",
+      },
     ]
   },
   {
