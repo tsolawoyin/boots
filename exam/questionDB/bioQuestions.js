@@ -2142,7 +2142,7 @@ let biologyQuestions = [
       },
     ],
   },
-
+  // I am here. Makes sense
   {
     topic: "7. Evolution Among Invertebrates",
     questions: [
@@ -2152,6 +2152,7 @@ let biologyQuestions = [
           "Which of the following animal is NEVER a secondary host of tapeworms?",
         options: ["cow", "fish", "pig", "man", "dog"],
         ans: D,
+        // alright, man is a primary host of tapeworms
       },
       {
         id: 2,
@@ -2159,6 +2160,7 @@ let biologyQuestions = [
           "The two types of human tapeworms can be distinguished by the presence or absence of",
         options: ["scolex", "hook", "head", "sucker", "proglottis"],
         ans: B,
+        // on have hook and the other doesn't have hook. looks cool
       },
       {
         id: 3,
@@ -2167,7 +2169,7 @@ let biologyQuestions = [
           "it is autotrophic",
           "it does not feed",
           "it has no enzymes",
-          "is body absorbs digested food",
+          "its body absorbs digested food",
           "the suckers on the scolex suck blood",
         ],
         ans: D,
@@ -2179,10 +2181,10 @@ let biologyQuestions = [
         options: [
           "they are small animals",
           "they can live inside the vertebrates of some of them are unicellular",
-          "they have backbones",
+          "they have no backbones",
           "they are parasitic",
         ],
-        ans: D,
+        ans: C, // invertebrates are animals with no backbones my nigga
       },
       {
         id: 5,
@@ -2195,6 +2197,7 @@ let biologyQuestions = [
           "guinea worm",
         ],
         ans: D,
+        // actually earthworm is useful but people still kill it. Imagine...
       },
       {
         id: 6,
@@ -2202,7 +2205,7 @@ let biologyQuestions = [
         options: [
           "maggot",
           "mosquito larva",
-          "earthworm",
+          "earthworm", // normally, earthworm doesn't have exoskeleton, but how come the others have. hmm
           "caterpillar",
           "termite",
         ],
@@ -2214,7 +2217,7 @@ let biologyQuestions = [
           "The part used by tapeworm to fasten itself to host's intensine are the",
         options: [
           "neck and sucker",
-          "hooks and suckers",
+          "hooks and suckers", // yupyup
           "rostellum and suckers",
           "young proglottis and neck",
           "rostellum, hooks and suckers",
@@ -2226,6 +2229,7 @@ let biologyQuestions = [
         question: "Which of the animals is radically symmetrical?",
         options: ["squid", "hydra", "snail", "cockroach"],
         ans: B,
+        // I still remember quite well about the radial symmetry of hydra
       },
       {
         id: 9,
@@ -2238,6 +2242,7 @@ let biologyQuestions = [
         question: "A good example of diploblatic organism is",
         options: ["amoeba", "hydra", "earthworm", "roundworm"],
         ans: B,
+        // radial symmetry goes with diploblastic
       },
       {
         id: 11,
@@ -2247,6 +2252,7 @@ let biologyQuestions = [
           "prevent desication",
           "assit locomotion",
           "secret cocoon",
+          // yupyup
         ],
         ans: D,
       },
@@ -2261,6 +2267,7 @@ let biologyQuestions = [
           "sperm duct and genital pore",
         ],
         ans: A,
+        // sure
       },
       {
         id: 13,
@@ -2288,16 +2295,18 @@ let biologyQuestions = [
       {
         id: 16,
         question:
-          "Which of the following set of organism represent the current trend from simple to complex structural oraganization? 1. mollusca 2. platyhelminthes 3. nematoda 4. prtozoa",
-        options: ["4123", "4321", "4213", "4231"],
+          `Which of the following set of organism represent the current trend from simple to complex structural oraganization? 
+          <br />
+          1. mollusca 2. platyhelminthes 3. nematoda 4. protozoa`,
+        options: ["4-1-2-3", "4-3-2-1", "4-2-1-3", "4-2-3-1"], // shuffling up answers is difficult... but I can do it... another feature loading
         ans: D,
       },
       {
         id: 17,
-        question: "A charateristic of the phylum coelenterate is that",
+        question: "A characteristic of the phylum coelenterate is that",
         options: [
           "most of then marine",
-          "they posses a gut with a single opening",
+          "they possess a gut with a single opening",
           "they posses numerous pores on the body",
           "they are bilateral symmetrical",
         ],
@@ -2306,16 +2315,16 @@ let biologyQuestions = [
       {
         id: 18,
         question:
-          "Which of the following phyla have members with both internal and external sergmentation?",
+          "Which of the following phyla have members with both internal and external segmentation?",
         options: ["platyhelminthes", "nematoda", "algae", "mollusca"],
-        ans: C,
+        ans: C, // this is obviously wrong... lol...
       },
       {
         id: 19,
         question: "The body of snail is divided into head",
         options: [
           "thorax and abodmen",
-          "visceral mass and abodmen",
+          "visceral mass and abdomen",
           "thorax and foot",
           "visceral mass and foot",
         ],
@@ -2330,7 +2339,7 @@ let biologyQuestions = [
           "passing it through the mouth",
           "degesting it through the body surface",
         ],
-        ans: B,
+        ans: C,
       },
       {
         id: 21,
@@ -2395,13 +2404,13 @@ let biologyQuestions = [
       {
         id: 28,
         question:
-          "The soil swallowed the earthworm to form the worm cast is ground up in the",
+          "The soil swallowed by the earthworm to form the worm cast is ground up in the",
         options: ["clitellum", "prostomium", "mouth", "gizzard"],
         ans: D,
       },
       {
         id: 29,
-        question: "The cnidoblas cells found in hydra are use for",
+        question: "The cnidoblast cells found in hydra are use for",
         options: [
           "reproduction",
           "offence and defence",
@@ -2416,14 +2425,14 @@ let biologyQuestions = [
         options: [
           "exhibit bilateral symmetry",
           "are triplibastic",
-          "are matamerically segmented",
+          "are metamerically segmented",
           "posses complete digestive system",
         ],
         ans: C,
       },
       {
         id: 31,
-        question: "In snails, the hard calcareous shell are secreted by the",
+        question: "In snails, the hard calcereous shell are secreted by the",
         options: ["radula", "ctenidium", "pneumostome", "mantle"],
         ans: c,
       },
@@ -2452,7 +2461,7 @@ let biologyQuestions = [
       },
       {
         id: 34,
-        question: "Coelom is absent in the class of animals ermed",
+        question: "Coelom is absent in the class of animals termed",
         options: ["mollusca", "reptila", "arthropoda", "coelenterata"],
         ans: D,
       },
@@ -2466,7 +2475,7 @@ let biologyQuestions = [
         id: 36,
         question: "The leech and earthworm belong to the",
         options: ["molluscs", "crustaceans", "arachnids", "annelids"],
-        ans: B,
+        ans: D,
       },
       {
         id: 37,
@@ -2495,7 +2504,7 @@ let biologyQuestions = [
         id: 39,
         question:
           "Which of the following is the most advanced in the evolutionary trend of animals?",
-        options: ["liver fluke", "earhworm", "snail", "cockroach"],
+        options: ["liver fluke", "earthworm", "snail", "cockroach"],
         ans: D,
       },
       {
@@ -2525,8 +2534,8 @@ let biologyQuestions = [
       },
       {
         id: 44,
-        question: "The flame cell excretory prgan of",
-        options: ["arthropoda", "crutaceans", "fatworms", "molluscs"],
+        question: "The flame cell excretory organ of",
+        options: ["arthropoda", "crutaceans", "flatworms", "molluscs"],
         ans: C,
       },
     ],
