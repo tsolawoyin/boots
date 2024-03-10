@@ -7893,6 +7893,232 @@ let chemistryQuestions = [
       },
     ],
   },
+  {
+    topic: "10. Kinetic theory of matter & gas laws",
+    questions: [
+      {
+        id: 1,
+        question: `Which of the following is random motion`,
+        options: [
+          "planets going around the sun",
+          `gas molecules colliding in a container`,
+          `a lorry travelling on a straight line`,
+          `an athlete running round a circular track`
+        ],
+        ans: "B",
+      },
+      {
+        id: 2,
+        question: `The measure of the average kinetic energy of the molecules of a gas is the`,
+        options: [
+          "mass",
+          `pressure`,
+          `volume`,
+          `temperature`
+        ],
+        ans: "D",
+      },
+      {
+        id: 3,
+        question: `All of the following are the assumptions of the kinetic theory of gases except:`,
+        options: [
+          "gases are composed of many elastic particles called molecules",
+          `the molecules are of negligible sizes`,
+          `the molecules collide with one another and with the walls of the container`,
+          `the molecules are in constant random motion`
+        ],
+        ans: "A",
+      },
+      {
+        id: 4,
+        question: `Why are collisions between gas molecules said to be elastic?`,
+        options: [
+          "no loss of energy after collision",
+          `molecules move apart in straight lines after collision`,
+          `total momentum decreases after collision`,
+          `total momentum increases after collision`
+        ],
+        ans: "A",
+      },
+      {
+        id: 5,
+        question: `A gas in a container of fixed volume exerts a greater pressure, if heated, because the`,
+        options: [
+          "number of its molecules increases",
+          `distance between its molecules increases`,
+          `frequency of collision of its molecules on the walls of the container increases`,
+          `molecules of the gas are compressed`
+        ],
+        ans: "C",
+      },
+      {
+        id: 6,
+        question: `All of the following statements are false except:`,
+        options: [
+          "the collisions of molecules of a gas with one another are inelastic",
+          `the volume of a gas increases as the pressure increases`,
+          `the volume of a gas is inversely proportional to its absolute temperature, if pressure is constant`,
+          `the average kinetic energy of the molecules of a gas is directly proportional to its temperature`
+        ],
+        ans: "D",
+      },
+      {
+        id: 7,
+        question: `Under high pressure, real gases deviate from compliance with gas laws because their molecules`,
+        options: [
+          "experience repulsive forces",
+          `have become more energetic`,
+          `have become less energetic`,
+          `collide inelastically`
+        ],
+        ans: "C",
+      },
+      {
+        id: 8,
+        question: `The mathematical representation of Boyle's law is`,
+        options: [
+          "V = K/P (T,n constant)",
+          "V = KP (T,n constant)",
+          "V = KT (P,n constant)",
+          "P = KP (V,n constant)",
+        ],
+        ans: "A",
+      },
+      {
+        id: 9,
+        question: `The ideal gas equation can be represented mathematically as:`,
+        options: [
+          "P = nRVT",
+          "PT = nRV",
+          "P = nRT/V",
+          "PV = nR/T",
+        ],
+        ans: "C",
+      },
+      // get an ideal gas image, just render it too...
+      {
+        id: 12,
+        question: `An increase in the pressure of a gas at constant temperature leads to`,
+        options: [
+          "an increase in the density of the gas",
+          "a decrease in the density of the gas",
+          "a decrease in the molecular mass of the gas",
+          "an increase in the number of molecules of the gas",
+        ],
+        ans: "A",
+      },
+      {
+        id: 13,
+        question: `Decreasing the absolute temperature of a gas will lead to`,
+        options: [
+          "an increase in the kinetic energy of the molecules",
+          "an increase in the pressure if volume is constant",
+          "a decrease in the volume if the pressure is constant",
+          "an increase in the mass of the gas",
+        ],
+        ans: "C",
+      },
+      {
+        id: 14,
+        question: `As the pressure of a gas increases, there will be a decrease in`,
+        options: [
+          "temperature",
+          "vapor density",
+          "concentration",
+          "volume",
+        ],
+        ans: "D",
+      },
+      {
+        id: 15,
+        question: `If the pressure of 200${units("cm",3)} of a gas is halved at constant temperature, what will be its new volume?`,
+        options: [
+          400`${units("cm",3)}`,
+          200`${units("cm",3)}`,
+          100`${units("cm",3)}`,
+          50`${units("cm",3)}`
+        ],
+        ans: "A",
+      },
+      {
+        id: 16,
+        question: `What is the temperature of a given mass of gas initially at 15&deg;C and 18atm, if the pressure is reduced to 6 atm at constant volume?`,
+        options: [
+          `288K`,
+          `192K`,
+          `96K`,
+          `300K`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 17,
+        question: `A gas occupying an initial volume of 2${units("dm",3)} is heated and allowed to expand to 6${units("dm",3)} at constant pressure. The ratio of the initial absolute temperature to the final absolute temperature is:`,
+        options: [
+          `3:1`,
+          `1:3`,
+          `2:1`,
+          `1:2`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 18,
+        question: `The temperature of a gas is 37&deg;C. At what temperature would its original volume be halved while the pressure is quadrupled?`,
+        options: [
+          `310K`,
+          `465K`,
+          `620K`,
+          `775K`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 19,
+        question: `From which of the following laws is general gas equation derived?`,
+        options: [
+          `Dalton's Law and Gay-lussac's Law`,
+          `Boyle's Law and Charles's Law`,
+          `Gay-Lussac's Law and Graham's Law`,
+          `Henry's Law and Graham's Law`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 20,
+        question: `The pressure of a gas that occupies a volume of 600${units("cm",3)} at 87&deg;C is 900mmHg. What is the pressure of the gas at -33&deg;C if the volume is reduced to 300${units("cm",3)}`,
+        options: [
+          `300 mmHg`
+          `900 mmHg`
+          `600 mmHg`
+          `1200 mmHg`
+        ],
+        ans: "D",
+      },
+      {
+        id: 21,
+        question: `A gas occupies a volume of 0.75${units("dm",3)} at 27&deg;C and 0.9 atm. The volume of gas at 75&deg;C and 0.9 atm is`,
+        options: [
+          `0.87${units("dm",3)}`,
+          `0.97${units("dm",3)}`,
+          `1.74${units("dm",3)}`,
+          `1.94${units("dm",3)}`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 22,
+        question: `A gas initially at 273K is heated such that its volume and pressure become twice their original values. What is the new temperature of the gas?`,
+        options: [
+          `546K`,
+          `596K`,
+          `1092K`,
+          `1192K`
+        ],
+        ans: "C",
+      },
+    ]
+  }
 ];
 
 //
