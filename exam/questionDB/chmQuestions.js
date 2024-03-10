@@ -7894,7 +7894,7 @@ let chemistryQuestions = [
     ],
   },
   {
-    topic: "10. Kinetic theory of matter & gas laws",
+    topic: "10. Kinetic Theory of Matter & Gas laws",
     questions: [
       {
         id: 1,
@@ -8033,10 +8033,10 @@ let chemistryQuestions = [
         id: 15,
         question: `If the pressure of 200${units("cm",3)} of a gas is halved at constant temperature, what will be its new volume?`,
         options: [
-          400`${units("cm",3)}`,
-          200`${units("cm",3)}`,
-          100`${units("cm",3)}`,
-          50`${units("cm",3)}`
+          `400${units("cm",3)}`,
+          `200${units("cm",3)}`,
+          `100${units("cm",3)}`,
+          `50${units("cm",3)}`
         ],
         ans: "A",
       },
@@ -8088,9 +8088,9 @@ let chemistryQuestions = [
         id: 20,
         question: `The pressure of a gas that occupies a volume of 600${units("cm",3)} at 87&deg;C is 900mmHg. What is the pressure of the gas at -33&deg;C if the volume is reduced to 300${units("cm",3)}`,
         options: [
-          `300 mmHg`
-          `900 mmHg`
-          `600 mmHg`
+          `300 mmHg`,
+          `900 mmHg`,
+          `600 mmHg`,
           `1200 mmHg`
         ],
         ans: "D",
@@ -8114,6 +8114,314 @@ let chemistryQuestions = [
           `596K`,
           `1092K`,
           `1192K`
+        ],
+        ans: "C",
+      },
+      {
+        id: 23,
+        question: `The pressure exerted by 50${units("cm",3)} of oxygen gas is 500 mmHg. What would be the new volume of the gas if the pressure increases to 750 mmHg without changing the temperature?`,
+        options: [
+          `23.3${units("cm",3)}`,
+          `33.3${units("cm",3)}`,
+          `43.3${units("cm",3)}`,
+          `53.3${units("cm",3)}`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 24,
+        question: `The vapor density of a gas is`,
+        options: [
+          `the mass of a volume of the gas compared to an equal volume of hydrogen`,
+          `the mass of a volume of the gas compared to an equal volume of helium`,
+          `the mass of a volume of the gas compared to an equal volume of oxygen`,
+          `the mass of a volune of the gas compared to an equal volume of water vapor`
+        ],
+        ans: "A",
+      },
+      {
+        id: 25,
+        question: `A gas occupies 75${units("dm",3)} at s.t.p. What volume would it occupy at 27&deg;C and 950 mmHg`,
+        options: [
+          `85.9${units("dm",3)}`,
+          `75.9${units("dm",3)}`,
+          `65.9${units("dm",3)}`,
+          `55.9${units("dm",3)}`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 26,
+        question: `A gas occupies a volume of 200${units("cm",3)} at 18&deg;C and 0.9 atm. Its volume at s.t.p is:`,
+        options: [
+          `169${units("cm",3)}`,
+          `208${units("cm",3)}`,
+          `338${units("cm",3)}`,
+          `416${units("cm",3)}`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 27,
+        question: `0.79g of a gas at s.t.p occupied a volume of 250${units("cm",3)}. What is the relative molecular mass of the gas? (G.M.V at s.t.p = 22.4${units("dm",3)})`,
+        options: [
+          `17`,
+          `32`,
+          `64`,
+          `71`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 28,
+        question: `The pressure exerted by a sample of a gas confined in 5.86${units("dm",3)} container at 20&deg;C is 4.1 atm. What is the number of moles of gas in the sample? (R = 0.082${units("dm",3,"atmmol",-1,"K",-1)})`,
+        options: [
+          `1.00`,
+          `2.00`,
+          `3.00`,
+          `4.00`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 30,
+        question: `A gas occupies a volume of 5${units("dm",3)} at 2 atm and 273&deg;C. The number of moles of the gas present is <br /> R = 0.082`,
+        options: [
+          `0.45 mol`,
+          `0.33 mol`,
+          `0.22 mol`,
+          `0.17 mol`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 31,
+        question: `What do equal volumes of ${formula("CH",4)} and ${formula("CO",2)} at s.t.p have in common?`,
+        options: [
+          `Mass`,
+          `Number of molecules`,
+          `Rate of diffusion`,
+          `Density`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 32,
+        question: `Two 50${units("cm",3)} cylinders. I and II. contain hydrogen and oxygen respectively at the same temperature and pressure. If there are 3.0 moles of oxygen, then the mass of hydrogen is`,
+        options: [
+          `3g`,
+          `6g`,
+          `9g`,
+          `12g`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 33,
+        question: `20${units("cm",3)} of HF gas combines with 10${units("cm",3)} of a single gas. Which of the following equations correctly represent the reaction?`,
+        options: [
+          `2${formula("N",2,"F",2,"g")} + ${formula("HF","g")} -> ${formula("N",4,"HF",5,"g")}`,
+          `${formula("N",2,"F",2,"g")} + 2${formula("HF","g")} -> ${formula("N",2,"H",2,"F",5,"g")}`,
+          `${formula("N",2,"F",2,"g")} + 2${formula("HF","g")} -> 2${formula("NHF",2,"g")}`,
+          `${formula("N",2,"F",2,"g")} + ${formula("HF","g")} -> ${formula("N",2,"HF",3,"g")}`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 34,
+        question: `In which of the following reactions is Gay-Lussac's Law not applicable?`,
+        options: [
+          `2${formula("H",2,"g")} + ${formula("O",2,"g")} -> 2${formula("H",2,"O","g")}`,
+          `${formula("H",2,"g")} + ${formula("Cl",2,"g")} -> 2${formula("HCl","g")}`,
+          `${formula("C","s")} + ${formula("O",2,"g")} -> ${formula("CO",2,"g")}`,
+          `2${formula("CO","g")} + ${formula("O",2,"g")} -> 2${formula("CO",2,"g")}`
+        ],
+        ans: "C",
+      },
+      {
+        id: 35,
+        question: `100${units("cm",3)} of hydrogen are sparked with 40${units("cm",3)} of oxygen at 100&deg;C and 1 atm. The total volume of the residual gases is`,
+        options: [
+          `100${units("cm",3)}`,
+          `40${units("cm",3)}`,
+          `60${units("cm",3)}`,
+          `140${units("cm",3)}`
+        ],
+        ans: "A",
+      },
+      {
+        id: 36,
+        question: `20${units("cm",3)} of CO are mixed and sparked with 200${units("cm",3)} of air containing 21% ${formula("O",2)}. What is the total volume of the resulting gases if all volumes are measured at s.t.p?`,
+        options: [
+          `179${"cm",3}`,
+          `200${units("cm",3)}`,
+          `210${units("cm",3)}`,
+          `220${units("cm",3)}`
+        ],
+        ans: "C",
+      },
+      {
+        id: 37,
+        question: `40${units("cm",3)} of hydrogen are sparked with 160${units("cm",3)} of oxygen at 100&deg;C and 1 atm. The volume of oxygen left after the reaction is`,
+        options: [
+          `200${units("cm",3)}`,
+          `160${units("cm",3)}`,
+          `140${units("cm",3)}`,
+          `120${units("cm",3)}`
+        ],
+        ans: "C",
+      },
+      {
+        id: 38,
+        question: `50${units("cm",3)} of hydrogen are sparked with 100${units("cm",3)} of oxygen at 110&deg;C and 1 atm. If the whole reaction mixture passes through an alkaline solution of pyrogallol the volume of residual gas is`,
+        options: [
+          `125${units("cm",3)}`,
+          `100${units("cm",3)}`,
+          `75${units("cm",3)}`,
+          `50${units("cm",3)}`
+        ],
+        ans: "D",
+      },
+      {
+        id: 39,
+        question: `What is the partial pressure of oxygen gas collected over water at 760 mmHg and 15&deg;C if the saturation vapour pressure of water is 13 mmHg at 15&deg;C?`,
+        options: [
+          `783 mmHg`,
+          `760 mmHg`,
+          `747 mmHg`,
+          `737 mmHg`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 40,
+        question: `30${units("cm",3)} of a gas was collected over water at 30&deg;C and 760 mmHg. What is the volume of the dry gas at s.t.p? (saturation vapor pressure of water at 30&deg;C = 32 mmHg)`,
+        options: [
+          `25${units("cm",3)}`,
+          `26${units("cm",3)}`,
+          `27${units("cm",3)}`,
+          `28${units("cm",3)}`
+        ],
+        ans: "B",
+      },
+      {
+        id: 41,
+        question: `200${units("cm",3)} of nitrogen was collected over water at 22&deg;C and 770 mmHg. If the saturation vapor pressure of water at 22&deg;C was 20 mmHg. Calculate the volume of the gas at 760 mmHg and 17&deg;C.`,
+        options: [
+          `194${units("cm",3)}`,
+          `184${units("cm",3)}`,
+          `174${units("cm",3)}`,
+          `164${units("cm",3)}`
+        ],
+        ans: "A",
+      },
+      {
+        id: 42,
+        question: `A gaseous mixture contains 5 moles of helium, 3 moles of argon and 2 moles of nitrogen. The mole fraction of nitrogen in the mixture is`,
+        options: [
+          `2/5`,
+          `1/2`,
+          `3/5`,
+          `1/5`
+        ],
+        ans: "D",
+      },
+      {
+        id: 43,
+        question: `A gaseous mixture of 0.40 mol nitrogen, 0.04 mol helium and 0.60 mol argon exerts a pressure of 6.3 atm. The partial pressure of argon in the mixture is`,
+        options: [
+          `0.9 atm`,
+          `1.8 atm`,
+          `2.7 atm`,
+          `3.6 atm`
+        ],
+        ans: "C",
+      },
+      {
+        id: 44,
+        question: `Calculate the minimum volume of oxygen required for the complete combustion of a mixture of 20${units("cm",3)} of CO and 20${units("cm",3)} of ${formula("H",2)}.`,
+        options: [
+          `10${units("cm",3)}`,
+          `20${units("cm",3)}`,
+          `40${units("cm",3)}`,
+          `50${units("cm",3)}`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 45,
+        question: `Hydrogen diffuses`,
+        options: [
+          `twice as fast as oxygen`,
+          `thrice as fast as oxygen`,
+          `four times as fast as oxygen`,
+          `at the same rate`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 46,
+        question: `Which of the following expressions shows the relationship between the velocity(U) of gas molecules and their relative molecular mass(M)?`,
+        options: [
+          `U = ${units("kM",0.5)}`,
+          `U = ${units("kM",2)}`,
+          `U = ${units("kM",-1)}`,
+          `U = ${units("kM",-0.5)}`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 48,
+        question: `If ${formula("SO",2,"g")} and ${formula("CH",4,"g")} are released at the same time at the opposite ends of a tube, the rates of diffusion of ${formula("SO",2,"g")} and ${formula("CH",4,"g")} will be in the ratio`,
+        options: [
+          `2:1`,
+          `4:1`,
+          `1:4`,
+          `1:2`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 49,
+        question: `Two gases E and G have densities 0.16${units("gdm",-3)} and 1.44${units("gdm",-3)} respectively. The relative rate of diffusion of the two gases is`,
+        options: [
+          `0.33`,
+          `3.00`,
+          `3.33`,
+          `0.03`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 50,
+        question: `A given volume of sulphur(IV) oxide diffuses in 60 seconds. How long will it take the same volume of methane to diffuse under the same conditions?`,
+        options: [
+          `20 seconds`,
+          `30 seconds`,
+          `40 seconds`,
+          `60 seconds`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 51,
+        question: `100${units("cm",3)} of methane (${formula("CH",4)}) diffuses through a porous plug in 30 seconds. How long will it take 200${units("cm",3)} of oxygen to diffuse through the same porous plug under the same conditions?`,
+        options: [
+          `60 seconds`,
+          `75 seconds`,
+          `85 seconds`,
+          `90 seconds`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 52,
+        question: `Consider the gases: CO, ${formula("SO",2)}, ${formula("H",2,"S")}, ${formula("NO",2)} and ${formula("O",2)}. The increasing order of rates of diffusion of equal volumes of the gases through a porous plug under the same condition is`,
+        options: [
+          `${formula("H",2,"S")}, CO, ${formula("NO",2)}, ${formula("SO",2)} and ${formula("O",2)}`,
+          `${formula("O",2)}, ${formula("SO",2)}, ${formula("H",2,"S")}, CO, ${formula("NO",2)}`,
+          `${formula("SO",2)}, ${formula("NO",2)}, ${formula("H",2,"S")}, ${formula("O",2)} and CO`,
+          `CO, ${formula("O",2)}, ${formula("H",2,"S")}, ${formula("NO",2)}, ${formula("SO",2)}`
         ],
         ans: "C",
       },

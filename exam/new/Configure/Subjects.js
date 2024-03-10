@@ -16,7 +16,7 @@ const chemistry = new Subject("Chemistry", [
   "7. Nitrogen",
   "8. Carbon",
   '9. Descriptive Chemistry',
-  `10. Kinetic Theory of Matter`,
+  `10. Kinetic Theory of Matter & Gas laws`,
   "general"
 ]);
 
