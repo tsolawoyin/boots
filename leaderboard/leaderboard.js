@@ -116,9 +116,3 @@ function leaderBoardHelper() {
               </tr>`;
     }
 }
-
-// I will be able to do don't worry...
-
-{/* <i class="fa-solid fa-fire" style="color:red;"></i> */}
-
-// programming has really helped me, and I am glad it did...
