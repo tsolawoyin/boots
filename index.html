@@ -20,55 +20,31 @@
       href="./fav/android-chrome-192x192.png"
       type="image/x-icon"
     />
+    <script
+      src="https://kit.fontawesome.com/50f49109f5.js"
+      crossorigin="anonymous"
+    ></script>
     <style>
 
       #main-container {
         max-width: 650px;
         margin: auto;
       }
-      /* I am only demonstrating that I am in control */
-      #days {
-        border: 2px solid #209CEE;
-        border-radius: 1em;
-        width: 90%;
-        margin: auto;
-        box-shadow: 5px 5px 10px #209CEE;
-        padding: 1em;
-      }
-      .day-left {
-        display: grid;
-        grid-template-columns: repeat(7, 1fr); /*we will need some javascript to update this*/
-        gap: 5px;
-        margin-top: 1.5em;
-        margin: auto;
-      }
-
-      .day-left p {
-        cursor: pointer;
-        color: black;
-        padding: 4px;
-        text-align: center;
-        margin: 0;
-        border-radius: 5px;
-      }
-      .mark-red {
-        background-color: crimson;
-      }
-
-      .mark-green {
-        background-color: green;
-      }
-
+    
       main {
         max-width: 750px;
         margin: auto;
       }
 
-      @media (max-width: 650px) {
-        #days {
-          width: 95%;
-        }
+      main a {
+        color: black;
+        font-size: 2em;
       }
+
+      main a:hover {
+        color: black
+      }
+
     </style>
   </head>
   <body class="p-1">
@@ -87,20 +63,10 @@
 
       <main>
         <h2 class="text-center mt-4 mb-5">Hi, I'm BOOTS 👋</h2>
+        <p class="text-center">
+          <a href="https://github.com/tsolawoyin/boots" ><i class="fa-brands fa-github"></i></a>
+        </p>
       </main>
-
-
-      <!-- so these ones are constant. -->
-      <footer>
-        <ul class="p-2" style="list-style-type: none">
-          <li class="text-center trademark">&copy; 2024</li>
-          <!-- <li class="text-center author">
-            <span class="text-primary"
-              ><a href="./contact-us/contact-form-04/index.html">Contact us</a></span
-            >
-          </li> -->
-        </ul>
-      </footer>
     </div>
   </body>
 </html>
