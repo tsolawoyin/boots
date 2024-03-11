@@ -7263,7 +7263,7 @@ let chemistryQuestions = [
         question: `Sulphur(IV) oxide acts as an oxidizing agent in`,
         options: [
           `${formula("SO",2)} + ${formula("H",2,"O")} -> ${formula("H",2,"SO",3)}`,
-          `${formula("SO",2)} + 2${formula("HNO",3)} -> ${formula("H",2,"SO",4)} + 2${formula("NO",2)}`
+          `${formula("SO",2)} + 2${formula("HNO",3)} -> ${formula("H",2,"SO",4)} + 2${formula("NO",2)}`,
           `${formula("SO",2)} + ${formula("H",2,"S")} -> 3S + 2${formula("H",2,"O")}`,
           `${formula("SO",2)} + 2${formula("H",2,"O")} + ${formula("O",2)} -> 2${formula("H",2,"SO",4)}`
         ],
