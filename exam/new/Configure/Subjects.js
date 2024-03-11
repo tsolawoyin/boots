@@ -10,7 +10,7 @@ const chemistry = new Subject("Chemistry", [
   "1. Atomic structure",
   "2. Chemical bonding",
   "3. Nomenclature",
-  "4. Chemical calculations",
+  "4. Stoichiometry",
   "5. Nature of matter",
   "6. Air and air pollution",
   "7. Nitrogen",

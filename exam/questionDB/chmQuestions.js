@@ -6800,80 +6800,10 @@ let chemistryQuestions = [
     ],
   },
   {   /// more questions
-    topic: "4. Chemical calculations",
+    topic: "4. Stoichiometry",
     questions: [
       {
         id: 1,
-        question: `When the chemical equation Na + S -> ${formula("Na",2,"S")} is correctly balanced, the proper sequence of coefficients is`,
-        options: [`1,2,2`, `2,1,2`, `2,1,2`, "no correct response"],
-        ans: "D",
-      },
-      {
-        id: 2,
-        question: `When the chemical equation Al + ${formula("O",2)} -> ${formula("Al",2,"O",3)} is correctly balanced, which of the following expressions appears in it?`,
-        options: [
-          `3 Al`,
-          `3 ${formula("O", 2)}`,
-          `3 ${formula("Al", 2, "O", 3)}`,
-          "no correct response",
-        ],
-        ans: "B",
-      },
-      {
-        id: 3,
-        question: `A balanced chemical equation contains the expression 2 ${formula("Fe","Cl",3)}. How many atoms does this expression represents?`,
-        options: [`two`, `four`, `eight`, "no correct response"],
-        ans: "C", // this questions are straight forward and easy....
-      },
-
-      {
-        id: 4,
-        question: `Which of the following elemental gases is not written as a diatomic molecule in a chemical equation?`,
-        options: [`hydrogen`, `nitrogen`, `helium`, "no correct response"],
-        ans: "C",
-      },
-      {
-        id: 5,
-        question: `Which of the following statements is true for all balanced chemical equations?`,
-        options: [
-          `The sum of the coefficients on each side of the equation must be equal.`,
-          `The sum of the formula subscripts on each side of the equation must be equal`,
-          `The total number of atoms on each side of the equation must be equal.`,
-          "no correct response",
-        ],
-        ans: "C",
-      },
-      {
-        id: 6,
-        question: `Which of the following statements is consistent with the information found in the chemical equation ${formula("N",2)} + 3${formula("H", 2)} -> 2${formula("NH", 3)}?`,
-        options: [
-          `1 mole of ${formula("NH", 3)} is produced when 1 mole of ${formula("N",2)} reacts`,
-          `3 moles of ${formula("H",2)} are needed to produce 1 mole of ${formula("NH", 3)}`,
-          `${formula("N", 2)} and ${formula("H",2)} react in a 1-to-3 molar ratio`,
-          "no correct response",
-        ],
-        ans: "C",
-      },
-      {
-        id: 7,
-        question: `How many moles of Al are needed to produce 6.0 moles of ${formula("Al",2,"S",3)} via the chemical reaction 2Al + 3S -> ${formula("Al",2,"S",3)}`,
-        options: [
-          `2.0 moles`,
-          `6.0 moles`,
-          `12.0 moles`,
-          "no correct response",
-        ],
-        ans: "C",
-      },
-      {
-        id: 8,
-        question: `How many moles of ${formula("CO",2)} are formed at the same time 2.0 moles of ${formula("H",2,"O")} are formed in the chemical reaction ${formula("CH", 4)} + 2${formula("O",2)} -> ${formula("CO", 2)} + 2${formula("H", 2, "O")}`,
-        options: [`2.0 moles`, `3.0 moles`, `4.0 moles`, "no correct response"],
-        ans: "D",
-        remark: `The answer is in the balanced equation which is 1.0 mole`
-      },
-      {
-        id: 9,
         question:
           "How many moles of calcium carbonate are there in 2.5g of calcium carbonate <br /> { C = 12; O = 16; Ca = 40 }",
         options: [`0.0025`, `0.025`, `0.25`, `2.5`],
@@ -6881,7 +6811,7 @@ let chemistryQuestions = [
         remark: `mass given/molar mass => 2.5/100. Note that it is essential to know how to write chemicals from their name. It is very important.`
       },
       {
-        id: 10,
+        id: 2,
         question: "One mole of a substance contains the",
         options: [
           `atomic number of particles`,
@@ -6892,7 +6822,7 @@ let chemistryQuestions = [
         ans: "C",
       },
       {
-        id: 11,
+        id: 3,
         question:
           "The number of hydrogen ions in 9.8g of tetraoxosulphate(VI) acid solution is",
         options: [
@@ -6904,19 +6834,19 @@ let chemistryQuestions = [
         ans: "D", // under consideration but I am right
       },
       {
-        id: 12,
+        id: 4,
         question: `What mass of ${formula("SO",2)} contains the same number of molecules of 0.8g of ${formula("CH",4)} <br /> { ${formula("SO", 2)} = 64g/mol; ${formula("CH",4)} = 16g/mol }`,
         options: [`3.2g`, `0.32g`, `6.4g`, `0.64g`],
         ans: "A",
       },
       {
-        id: 13,
+        id: 5,
         question: `One mole of a compound ${formula("MHCO",3)} has a mass of 84g. Calculate the relative atomic mass of M. <br /> { H = 1; C = 12, O = 16 }`,
         options: [`61`, `42`, `26`, `23`],
         ans: "D",
       },
       {
-        id: 14,
+        id: 6,
         question: `How many molecules of phosphorus (${formula("P",4)}) are present in 496g of the substance? <br /> { P = 31; N<sub>A</sub> = 6.0 X ${exp(23)}${units("mol", -1)} }`,
         options: [
           `1.20 X ${exp(23)}`,
@@ -6927,25 +6857,25 @@ let chemistryQuestions = [
         ans: "D",
       },
       {
-        id: 15,
+        id: 7,
         question: `Upon heating 1.25g of a solid, 280${units("cm",3)} of a gas measured at S.T.P were evolved and a residue of 0.7g was left. Calculate the molar mass of the gas? [Molar volume of a gas at s.t.p = 22.4${units("dm",3)}]`,
         options: [`64g`, `44g`, `32g`, `16g`],
         ans: "B",
       },
       {
-        id: 16,
+        id: 8,
         question: `What is the mass of 2.3 mole of sodium`,
         options: [`53g`, `230g`, `23g`, `46g`],
         ans: "A",
       },
       {
-        id: 17,
+        id: 9,
         question: `How many moles of iron(III) oxide are contained in 1kg of the compound? <br /> { Fe = 56; O = 16 }`,
         options: [`3.125 moles`, `0.3125 mole`, `0.625 mole`, `6.25 moles`],
         ans: "D",
       },
       {
-        id: 18,
+        id: 10,
         question: `The number of atoms of chlorine present in 7.45g of KCl is`,
         options: [
           `6.02 X ${exp(23)}`,
@@ -6956,7 +6886,7 @@ let chemistryQuestions = [
         ans: "B",
       },
       {
-        id: 19,
+        id: 11,
         question: `How many atoms of oxygen are present in 8.8g of carbon(IV) oxide?`,
         options: [
           `6.02 X ${exp(22)}`,
@@ -6967,19 +6897,19 @@ let chemistryQuestions = [
         ans: "C",
       },
       {
-        id: 20,
+        id: 12,
         question: `What is the mass of potassium hydroxide present in 500${units("cm",3)} of 2${units("moldm",-3)} solution of the compound <br /> { K = 39; O = 16; H = 1}`,
         options: [`40g`, `56g`, `112g`, `28g`],
         ans: "B",
       },
       {
-        id: 21,
+        id: 13,
         question: `The ratio of the number of molecules of 4g of hydrogen to that in 32g of oxygen is`,
         options: [`2 : 1`, `1 : 1`, `1 : 2`, `1 : 4`],
         ans: "A",
       },
       {
-        id: 22,
+        id: 14,
         question: `Which of the following is the same as 24g of magnesium? <br /> { Mg = 24; H = 1; O = 16; Cl = 35.5 }`,
         options: [
           `1g of hydrogen molecules`,
@@ -6990,7 +6920,7 @@ let chemistryQuestions = [
         ans: "C",
       },
       {
-        id: 23,
+        id: 15,
         question: `The chloride of a metal (M) consists of 79.78% of chlorine by mass. What is the empirical formual of the chloride? (M = 27; Cl = 35,5)`,
         options: [
           `MCl`,
@@ -7001,7 +6931,7 @@ let chemistryQuestions = [
         ans: "B",
       },
       {
-        id: 24,
+        id: 16,
         question: `An oxide of nitrogen contains 69.6% of oxygen by mass. Its empirical formula is`,
         options: [
           `${formula("N", 2, "O", 3)}`,
@@ -7012,7 +6942,7 @@ let chemistryQuestions = [
         ans: "D",
       },
       {
-        id: 25,
+        id: 17,
         question: `Upon heating 1${units("dm",3)} of a monoatomic gas, Y, it combines with 1.5${units("dm",3)} of oxygen to form an oxide. The empirical formula of the oxide is`,
         options: [
           `${formula("Y", 3, "O", 2)}`,
@@ -7024,7 +6954,7 @@ let chemistryQuestions = [
         // to be solved later...
       },
       {
-        id: 26,
+        id: 18,
         question: `5.00g of an oxide of a metal (M) gave 4.00g of the metal when reduced with hydrogen. What is the empirical formula of the oxide? <br /> { M = 64; O = 16 }`,
         options: [
           `${formula("M",2,"O")}`,
@@ -7035,7 +6965,7 @@ let chemistryQuestions = [
         ans: "B",
       },
       {
-        id: 27,
+        id: 19,
         question: `What is the empirical formula of an organic compound containing 40% carbon and 6.67% hydrogen by mass? <br /> { C = 12; H = 1; O = 16 }`,
         options: [
           `${formula("CH", 2)}`,
@@ -7046,7 +6976,7 @@ let chemistryQuestions = [
         ans: "C",
       },
       {
-        id: 28,
+        id: 20,
         question: `An element, A, has the electronic configuration ${eConfig("1s",2,"2s",2,"2p",6,"3s",2,"3p",3)}. The combination of A with a halogen X can give compounds of formula(e)`,
         options: [
           `${formula("AX", 3)} and ${formula("AX", 5)}`,
@@ -7056,19 +6986,19 @@ let chemistryQuestions = [
         ],
         ans: "A",
       },
-      // {
-      //   id: 29,
-      //   question: `The molar ratio of hydrogen to carbon in an organic liquid compound is 2 : 1. On evaporation at s.t.p, 0.24g of compound produced 64${units("cm",3)} of vapour. What is the molecular formula of the liquid compound? <br /> { C= 12; H = 1, molar volume of a gas at s.t.p = 22.4${units("dm",3)}}`,
-      //   options: [
-      //     `${formula("C", 4, "H", 8)}`,
-      //     `${formula("C", 5, "H", 10)}`,
-      //     `${formula("C",6,"H",6)}`,
-      //     `${formula("C", 6, "H", 12)}`,
-      //   ],
-      //   ans: "E",
-      // },
       {
-        id: 30,
+        id: 21,
+        question: `The molar ratio of hydrogen to carbon in an organic liquid compound is 2 : 1. On evaporation at s.t.p, 0.24g of compound produced 64${units("cm",3)} of vapour. What is the molecular formula of the liquid compound? <br /> { C= 12; H = 1, molar volume of a gas at s.t.p = 22.4${units("dm",3)}}`,
+        options: [
+          `${formula("C", 4, "H", 8)}`,
+          `${formula("C", 5, "H", 10)}`,
+          `${formula("C",6,"H",6)}`,
+          `${formula("C", 6, "H", 12)}`,
+        ],
+        ans: "E",
+      },
+      {
+        id: 22,
         question: `Which of the following formula is correct for compounds of an element Y having a combining power of 3?`,
         options: [
           `${formula("YSO", 4)}`,
@@ -7079,395 +7009,574 @@ let chemistryQuestions = [
         ans: "B",
       },
       {
-        id: 31,
+        id: 23,
         question: `What is the percentage by mass of carbon in the compound ${formula("Na",2, "CO",3)}.10${formula("H",2,"O")}? <br /> { H = 1, C = 12, O = 16, Na = 23 }`,
         options: [`16.1`, `16.8`, `28.1`, `4.2`],
         ans: "D",
       },
       {
-        id: 32,
+        id: 24,
         question: `What is the percentage by mass of aluminum in ${formula("Al",2,`(${formula("SO", 4)})`,3)}? <br /> { Al = 27, S = 32, O = 16 }`,
         options: [`15.8`, `14.7`, `28.1`, `9.4`],
         ans: "A",
       },
       {
-        id: 33,
+        id: 25,
         question: `What is the value of x in the molecular formula, Pb(NO<sub>3</sub>)<sub>x</sub> if the percentage by mass of nitrogen is 8.46? <br /> { Pb = 207; N = 14; O = 16 }`,
         options: [`1`, `2`, `3`, `4`],
         ans: "B",
       },
       {
-        id: 34,
-        question: `The atomic and molecular mass of nitrogen are respectively`,
+        id: 26,
+        question: `An element, E, forms the following compounds with bromine: ${formula("EBr",2)}, ${formula("EBr",3)} and ${formula("EBr",4)}. This observation illustrates the`,
         options: [
-          "14.00 amu and 28.00 amu",
-          "28.00 amu and 14.00 amu",
-          "14.00 amu and 14.00 amu",
-          "28.00 amu and 28.00 amu",
+          `law of conservation of mass`,
+          `law of definite proportions`,
+          `law of multiple proportions`,
+          `law of chemical proportions`
         ],
-        ans: `A`,
-        remark: `Atomic mass is the mass of one atom of nitrogen while molecular mass is the mass of a molecule of ${formula(
-          "N",
-          2
-        )}. Nitrogen exists as a diatomic molecule.`,
+        ans: "C",
       },
       {
-        id: 35,
-        question: `What is the molecular mass of ${formula("(",formula("NH", 4),")",2,"SO",4)}
-        <br />
-        { N = 14, H = 1, S = 32, O = 16 }`,
+        id: 27,
+        question: `In two separate experiments 0.18g and 0.36g of chlorine combine with a metal M, to give A and B respectively. An analysis showed that A and B contain 0.10g and 0.20g of M respectively. Which law is illustrated by the data?`,
         options: [
-          "132.00 amu",
-          "134.00 amu",
-          "136.00 amu",
-          "no correct response",
+          `law of conservation of mass`,
+          `law of constant proportions`,
+          `law of multiple proportions`,
+          `law of chemical proportions`
         ],
-        ans: `D`,
-        remark: `${formula(
-          "(",
-          formula("NH", 4),
-          ")",
-          2,
-          "SO",
-          4
-        )} is an ionic compound and ionic compounds don't have molecules as their basic structural unit, hence <strong>NO</strong> molecular mass but formula mass`,
+        ans: "B",
       },
       {
-        id: 36,
-        question: `Which of the following have molecular mass`,
+        id: 28,
+        question: `"All pure samples of the same chemical compound contain the same elements in the same proportion by mass" is a statement of the`,
         options: [
-          `${formula("Cl", 2, "O")}`,
-          `${formula("Na", 2, "SO", 3)}`,
-          `${formula("Al", 2, "O", 3)}`,
-          `no correct response`,
+          `law of conservation of mass`,
+          `law of definite proportions`,
+          `law of multiple proportions`,
+          `law of chemical proportions`
         ],
-        ans: `A`,
-        remark: `Only compounds that have covalent bonds between its atoms exist as molecules.`,
+        ans: "B",
       },
       {
-        id: 37,
-        question: `Calculate the formula mass of ${formula(
-          "(",
-          formula("NH", 4),
-          ")",
-          2,
-          "SO",
-          4
-        )},
-        <br />
-        { N = 14, H = 1, S = 32, O = 16 }`,
+        id: 29,
+        question: `What is the oxidation number of nitrogen in ${formula("HNO",2)}?`,
         options: [
-          "132.00 amu",
-          "134.00 amu",
-          "136.00 amu",
-          "no correct response",
+          `+3`,
+          `+2`,
+          `+1`,
+          `0`
         ],
-        ans: `A`,
+        ans: "A",
       },
       {
-        id: 38,
-        question: `Calculate the formula mass of ${formula(
-          "Fe",
-          "(",
-          formula("NO", 3),
-          ")",
-          2
-        )}
-        <br />
-        { Fe = 56, N = 14, O = 16 }`,
-        options: ["180 amu", "178 amu", "176 amu", "no correct response"],
-        ans: `A`,
-      },
-      {
-        id: 39,
-        question: `Calculate the formula mass of ${formula(
-          "Zn",
-          "(",
-          formula("C", 2, "H", 3, "O", 2),
-          ")",
-          2
-        )}
-        <br />
-        { Zn = 65, C = 12, H = 1, O = 16 }`, // making sense // I can render these stuff but abeg jare...
-        options: ["182 amu", "183 amu", "184 amu", "no correct response"],
-        ans: `B`,
-      },
-      {
-        id: 40,
-        question: `Calculate the percent composition of ${formula(
-          "Fe",
-          "(",
-          formula("NO", 3),
-          ")",
-          2
-        )}
-        <br />
-        { Fe = 56, N = 14, O = 16 }`,
+        id: 30,
+        question: `The oxidation number of sulphur is equal to -2 in`,
         options: [
-          "29% Fe, 17% N, 54% O",
-          "31% Fe, 16% N, 53% O",
-          "16% Fe, 54% N, 31% O",
-          "no correct response",
-        ],
-        ans: `B`,
-      },
-      {
-        id: 41,
-        question: `Calculate the formula mass of ${formula(
-          "Na",
-          2,
-          "Cr",
-          2,
-          "O",
-          7
-        )}
-        <br />
-        { Na = 23, Cr = 52, O = 16 }`,
-        options: ["190 amu", "263 amu", "268 amu", "no correct response"],
-        ans: `D`, // => the answer is 262 amu...
-      },
-      {
-        id: 42,
-        question: `Calculate the percent composition of ${formula("CH", 4, "O")}
-        <br />
-        { C = 12, H = 1, O = 16 }`,
-        options: [
-          "37.5% C, 12.5% H, 50% O", // <= correcto...
-          "12.5% C, 37.5% C, 50% O",
-          "50% C, 12.5% H, 37.5% O",
-          "no correct response",
-        ],
-        ans: `A`,
-      },
-      {
-        // must be calculated correctly if I don't want any anomaly...
-        // not yet calculated
-        id: 43,
-        question: `Calculate the percent composition of TNT ${formula(
-          "C",
-          7,
-          "H",
-          5,
-          "N",
-          3,
-          "O",
-          6
-        )}
-        <br />
-        { C = 12, H = 1, N = 14, O = 16 }`,
-        options: [
-          "41.38% C, 2.46% H, 20.69% N, 35% O",
-          "42% C, 2.5% H, 21% N, 36% O",
-          "41.3% C, 3.00% H, 20.69% N, 35.47% O",
-          "no correct response",
-        ],
-        ans: `D`, // ans is 41.38% C, 2.46% H, 20.69% N, 35.47% O
-      },
-      {
-        id: 44,
-        question:
-          "The formula mass for a compound is calculated by summing which of the following numbers for all atoms in a formula unit of the compound?",
-        options: [
-          "atomic number",
-          "mass number",
-          "nuclear charge",
-          "no correct response",
+          `${formula("SO",2)}`,
+          `${ion(formula("SO",4), 2, "-")}`,
+          `${formula("S",8)}`,
+          `${formula("H",2,"S")}`
         ],
         ans: "D",
       },
       {
-        id: 45,
-        question: `The atomic mass of C is 12.01 amu and that of O is 16.00 amu. The formula mass for the compound ${formula(
-          "CO",
-          2
-        )} is:`,
-        options: ["28.01 amu", "44.01 amu", "56.02 amu", "no correct response"],
+        id: 31,
+        question: `The oxidation number of chlorine is zero in`,
+        options: [
+          `${formula("KCl")}`,
+          `${formula("Cl",2,"O")}`,
+          `${formula("Cl",2)}`,
+          `${formula("NH",4,"Cl")}`
+        ],
+        ans: "C",
+      },
+      {
+        id: 32,
+        question: `The oxidation number of oxygen is different from its value in water in`,
+        options: [
+          `${formula("SO",2)}`,
+          `${formula("H",2,"O",2)}`,
+          `${ion(formula("H",3,"O"), "+")}`,
+          `${ion(formula("OH"), "-")}`
+        ],
         ans: "B",
+      },
+      {
+        id: 33,
+        question: `In which of the following is gallium showing an oxidation number of +3`,
+        options: [
+          `${formula("NaGaO")}`,
+          `${formula("NaGa",`(${formula("OH")})`,4)}`,
+          `${formula("NaGa",`(${formula("OH")})`,3)}`,
+          `${formula("NaGaO",3)}`
+        ],
+        ans: "B",
+      },
+      {
+        id: 34,
+        question: `The possible oxidation numbers of an element with atomic number 17 are:`,
+        options: [
+          `-1 and +6`,
+          `-7 and +1`,
+          `-3 and +5`,
+          `-1 and +7`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 35,
+        question: `What is the value of x for the anion. [${formula("Y",`(${formula("CN")})`,6)}]<sup>x</sup>, if the central element (Y) has an oxidation number of +2?`,
+        options: [
+          `-1`,
+          `-2`,
+          `-3`,
+          `-4`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 36,
+        question: `Consider the following redox equation: <br />
+        ${ion(formula("MnO",4),"-")} + 5${ion("Fe","2+")} -> ${ion("Mn","2+")} + 5${ion("Fe","3+")} + 4${formula("H",2,"O")} <br />
+        the oxidation number of manganese changed from`,
+        options: [
+          `+6 to +2`,
+          `+7 to +2`,
+          `+5 to +2`,
+          `+1 to +2`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 37,
+        question: `2${ion(formula("MnO",4), "-")} + 10${ion("Cl","-")} + 16${ion("H","+")} -> 2${ion("Mn","2+")} + 5${formula("Cl",2)} + 8${formula("H",2,"O")} <br /> The changes in oxidation numbers when manganese, chloride and hydrogen ions react according to the above equation are respectively:`,
+        options: [
+          `-1, 1, 0`,
+          `-1, -1, -1`,
+          `-5, 1, 0`,
+          `-1, -5, 0`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 38,
+        question: `What type of reaction is the rusting of iron?`,
+        options: [
+          `Single replacement`,
+          `Decomposition`,
+          `Double displacement`,
+          `Redox`
+        ],
+        ans: "D",
+      },
+      {
+        id: 39,
+        question: `All of the following are redox reactions except`,
+        options: [
+          `Zn + ${formula("H",2,"SO",4)} -> ${formula("Zn","SO",4)} + ${formula("H",2)}`,
+          `${formula("Ca", `(${formula("HCO",3)})`, 2)} -> ${formula("CaCO",3)} + ${formula("H",2,"O")} + ${formula("CO",2)}`,
+          `2${formula("H",2)} + ${formula("O",2)} -> 2${formula("H",2,"O")}`,
+          `2${formula("HNO",2)} + 2${formula("HI")} -> 2${formula("H",2,"O")} + 2${formula("NO")} + ${formula("I",2)}`
+        ],
+        ans: "B",
+      },
+      {
+        id: 40,
+        question: `Which of the following is a redox reaction?`,
+        options: [
+          `${formula("NaCl","aq")} + ${formula("AgNO",3,"aq")} -> ${formula("NaNO",3,"aq")} + ${formula("AgCl","s")}`,
+          `${formula("NaCl","aq")} + ${formula("H",2,"SO",4,"aq")} -> ${formula("NaHSO",4,"aq")} + ${formula("HCl","aq")}`,
+          `${formula("H",2,"CO",3,"aq")} -> ${formula("H",2,"O")} + ${formula("CO",2,"g")}`,
+          `2${formula("FeCl",2,"aq")} + ${formula("Cl",2,"aq")} -> 2${formula("FeCl",3,"aq")}`
+        ],
+        ans: "D",
+      },
+      {
+        id: 41,
+        question: `The balancing of chemical equations is based on the law of`,
+        options: [
+          `conservation of energy`,
+          `conservation of mass`,
+          `definite proportions`,
+          `multiple proportions`
+        ],
+        ans: "B",
+      },
+      // the questions that follows requires patience to type.
+      // and I will give it that patience
+      {
+        id: 42,
+        question: `Tetraoxosulphate(VI) acid reacts with aluminium hydroxide to give a salt and water. The balanced equation for the reaction is`,
+        options: [
+          `${formula("H",2,"SO",4)} + ${formula("Al",`(${formula("OH",3)})`, 3)} -> ${formula("Al",2,`(${formula("SO",4)})`,3)} + ${formula("H",2,"O")}`,
+          `3${formula("H",2,"SO",4)} + ${formula("Al",`(${formula("OH",3)})`, 3)} -> ${formula("Al",2,`(${formula("SO",4)})`,3)} + 6${formula("H",2,"O")}`,
+          `3${formula("H",2,"SO",4)} + 2${formula("Al",`(${formula("OH",3)})`, 3)} -> ${formula("Al",2,`(${formula("SO",4)})`,3)} + 6${formula("H",2,"O")}`,
+          `${formula("H",2,"SO",4)} + ${formula("Al",`(${formula("OH",3)})`, 3)} -> ${formula("Al",2,`(${formula("SO",4)})`,3)} + 6${formula("H",2,"O")}`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 43,
+        question: `The balanced equation representing the reaction between copper and dilute trioxonitrate(v) acid is:
+        <br />
+        a Cu + b ${formula("HNO","3")} -> x ${formula("Cu", `(${formula("NO",3)})`,2)} + y ${formula("H",2,"O")} + 2 ${formula("NO")} <br />
+        what are the values of a,b,x, and y respectively in the equation?`,
+        options: [
+          `3:8:4:3`,
+          `3:8:3:4`,
+          `1:4:1:4`,
+          `4:1:4:1`
+        ],
+        ans: "B",
+      },
+      {
+        id: 44,
+        question: `${ion(formula("Cr",2,"O",7), "2-")} + 14${ion("H","+")} + ${ion("ne","-")} -> 2${ion("Cr","3+")} + 7${formula("H",2,"O")}
+        <br />
+        What is the value of n in the reaction above?`,
+        options: [
+          `6`,
+          `5`,
+          `4`,
+          `3`
+        ],
+        ans: "A",
+      },
+      {
+        id: 45,
+        question: `Given the half equatoins:<br />
+        ${formula("H",2,"O",2)} -> ${formula("O",2)} + ${ion("H", "+")} + 2${ion("e", "-")}<br />
+        ${ion(formula("MnO",4), "-")} + 8${formula("H","+")} + 5${ion("e","-")} -> ${ion("Mn", "2+")} + 4${formula("H",2,"O")}<br />
+        The net equation for the reaction between hydrogen peroxide and tetraoxomanganate ions in acid solution is`,
+        options: [
+          `${formula("H",2,"O",2)} + ${ion("Mn", "2+")} -> ${ion(formula("MnO",4),"-")} + ${formula("O",2)} + 2${ion("H","+")}`,
+          `${formula("H",2,"O",2)} + ${ion(formula("MnO",4),"-")} + 6${ion("H","+")} -> ${formula("O",2)} + ${ion("Mn","2+")} + 20${formula("H",2,"O")}`,
+          `${formula("H",2,"O",2)} + ${ion(formula("MnO",4),"-")} + 40${ion("H","+")} -> ${formula("O",2)} + ${ion("Mn","2+")} + 4${formula("H",2,"O")}`,
+          `5${formula("H",2,"O",2)} + 2${ion(formula("MnO",4),"-")} + 6${ion("H","+")} -> 5${formula("O",2)} + 2${ion("Mn","2+")} + 8${formula("H",2,"O")}`,
+        ],
+        ans: "D",
       },
       {
         id: 46,
-        question: `The atomic mass of H is 1.01 amu and that of N is 14.01 amu. What is the value of x in the chemical formula NH<sub>x</sub>, given that the formula mass of this compound is 17.04 amu?`,
-        options: ["2", "3", "4", "no correct response"],
-        ans: "B",
+        question: `Sulphur(IV) oxide acts as an oxidizing agent in`,
+        options: [
+          `${formula("SO",2)} + ${formula("H",2,"O")} -> ${formula("H",2,"SO",3)}`,
+          `${formula("SO",2)} + 2${formula("HNO",3)} -> ${formula("H",2,"SO",4)} + 2${formula("NO",2)}`
+          `${formula("SO",2)} + ${formula("H",2,"S")} -> 3S + 2${formula("H",2,"O")}`,
+          `${formula("SO",2)} + 2${formula("H",2,"O")} + ${formula("O",2)} -> 2${formula("H",2,"SO",4)}`
+        ],
+        ans: "C",
       },
       {
         id: 47,
-        question: `The numerical value for Avogadro's number is`,
+        question: `Consider the reactoin represented by the equation<br />
+        ${formula("Mg","s")} + ${ion("Cu","2+")} -> ${ion("Mg", "2+")} + ${formula("Cu","s")}
+        <br />
+        Which of the following statements gives the most complete description of the reaction?`,
         options: [
-          `6.02 X ${exp(21)}`,
-          `6.02 X ${exp(24)}`,
-          `6.02 X ${exp(26)}`,
-          "no correct response",
+          `Magnesium and copper(II) ions are being reduced`,
+          `Magnesium and copper(II) ions are being oxidized`,
+          `Copper(II) ion are being oxidized and Magnesium reduced`,
+          `Copper(II) ions are bring reduced and magnesium oxidized`
         ],
         ans: "D",
       },
       {
         id: 48,
-        question: `The number of atoms present in 1 mole of P atoms is`,
+        question: `Which species acts as an oxidizing agent in the following redox equation?<br />
+        2${ion("Fe","2+")} + ${formula("Cl",2)} -> 2${ion("Fe","3+")} + 2${ion("Cl","-")}`,
         options: [
-          `6.02 X ${exp(21)}`,
-          `6.02 X ${exp(23)}`,
-          `6.02 X ${exp(25)}`,
-          "no correct response",
+          `${ion("Fe","2+")}`,
+          `${formula("Cl",2)}`,
+          `${ion("Fe","3+")}`,
+          `${ion("Cl","-")}`
         ],
         ans: "B",
       },
       {
         id: 49,
-        question: `One mole of S atoms contains twice as many atoms as`,
+        question: `Which of the following gases acts as a reducing agent towards chlorine and as an oxidizing agent towards hydrogen sulphide?`,
         options: [
-          `one mole of O atoms`,
-          `one-half mole of O atoms`,
-          `one-eight mole of O atoms`,
-          "no correct response",
+          `${formula("SO",2)}`,
+          `${formula("O",2)}`,
+          `${formula("NO")}`,
+          `${formula("CO",2)}`
         ],
-        ans: "B",
+        ans: "A",
       },
       {
         id: 50,
-        question: `The number of molecules present in 1.50 moles of ${formula(
-          "CO",
-          2
-        )} is`,
+        question: `Consider the reaction <br />
+        3${formula("Cl",2)} + 2${formula("NH",3)} -> ${formula("N",2)} + 6${formula("HCl")}<br />
+        Ammonia acts as`,
         options: [
-          `Avogadro's number`,
-          `1.50 times Avogadro's number`,
-          `Avogadro's number divided by 1.50`,
-          "no correct response",
+          `an oxidizing agent`,
+          `a reducing agent`,
+          `a catalyst`,
+          `an acid`
         ],
         ans: "B",
       },
       {
         id: 51,
-        question: `Which set of quantities is needed to calculate the molar mass of a compound?`,
+        question: `For the reaction:<br />
+        2${ion("Fe","3+")} + 2${ion("Cl","-")} -> 2${ion("Fe","2+")} + ${formula("Cl",2)}`,
         options: [
-          `chemical formula and Avogadro's number`,
-          `chemical formula and atomic masses`,
-          `atomic masses and Avogadro's number`,
-          "no correct response",
+          `${ion("Fe","3+")} is oxidized to ${ion("Fe","2+")}`,
+          `${ion("Cl","-")} is reduced to ${formula("Cl",2)}`,
+          `${ion("Cl","-")} is oxidized to ${formula("Cl",2)}`,
+          `${ion("Fe","2+")} is reduced to ${ion("Fe","3+")}`
         ],
-        ans: "B",
+        ans: "C",
       },
       {
         id: 52,
-        question: `The atomic mass of O is 16.00 amu. The molar mass for O atoms is`,
+        question: `Hydrogen peroxide acts as a reducing agent in`,
         options: [
-          `16.00 amu`,
-          `6.02 X ${exp(23)} amu`,
-          `16.00 g`,
-          "no correct response",
+          `${formula("H",2,"O",2)} + ${formula("H",2,"S")} -> ${formula("S")} + 2${formula("H",2,"O")}`,
+          `${formula("H",2,"O",2)} + ${formula("SO",2)} -> ${formula("H",2,"SO",4)}`,
+          `${formula("H",2,"O",2)} + 2${ion("I","-")} -> 2${formula("H",2,"O")} + ${formula("I",2)}`,
+          `${formula("H",2,"O",2)} + ${formula("PbO",2)} + 2${formula("HNO",3)} -> ${formula("Pb", `(${formula("NO",3)})`, 2)} + 2${formula("H",2,"O")} + ${formula("O",2)}`
         ],
-        ans: "C",
+        ans: "D",
       },
       {
         id: 53,
-        question: `The atomic masses of N and O are, respectively, 14.01 amu and 16.00 amu. The molar mass of the compound ${formula(
-          "NO",
-          2
-        )} is`,
-        options: [`30.01 g`, `44.02 g`, `46.01 g`, "no correct response"],
-        ans: "C",
+        question: `Which of the species serves as an oxidizing agent in the reaction represented by the equation below?<br />
+        2${ion(formula("MnO",4), "-")} + 10${ion("Cl","-")} + 16${ion("H","+")} -> 2${ion("Mn","2+")} + 5${formula("Cl",2)} + 8${formula("H",2,"O")}`,
+        options: [
+          `${formula("Cl",2)}`,
+          `${ion("Cl","-")}`,
+          `${ion("Mn","2+")}`,
+          `${ion(formula("MnO",4),"-")}`
+        ],
+        ans: "D",
       },
       {
         id: 54,
-        question: `The molar mass of ${formula(
-          "CO",
-          2
-        )} is 44.01 g. What is the mass, in amu, of one molecule of ${formula(
-          "CO",
-          2
-        )}?`,
+        question: `In the reaction <br />
+        ${ion(formula("IO",3),"-")} + 5${ion("I","-")} + 6${ion("H","")} -> 3${formula("I",3)} + 3${formula("H",2,"O")}, the reducing agent is`,
         options: [
-          `44.01 g`,
-          `44.01 amu`,
-          `44.01 amu times Avogadro's number`,
-          "no correct response",
+          `${ion("I","-")}`,
+          `${ion(formula("IO",3),"-")}`,
+          `${ion("H","+")}`,
+          `${formula("I",2)}`
         ],
-        ans: "B",
+        ans: "A",
       },
       {
         id: 55,
-        question: `The formula mass of ${formula(
-          "N",
-          2,
-          "O"
-        )} is 44.02 amu. What is the mass, in grams, of one-half mole of ${formula(
-          "N",
-          2,
-          "O"
-        )}?`,
-        options: [`88.04 g`, `44.02 g`, `22.01 g`, "no correct response"],
-        ans: "C",
+        question: `${formula("Zn","s")} + ${formula(ion("Cu","2+"),"aq")} -> ${formula(ion("Zn","2+"),"aq")} + ${formula("Cu","s")} <br /> From the reaction above, it can be deduced that:`,
+        options: [
+          `Zn is reduced`,
+          `Zn is the oxidized agent`,
+          `${ion("Cu",'2+')} loses electrons`,
+          `${ion("Cu","2+")} is the oxidizing agent`
+        ],
+        ans: "D",
       },
       {
         id: 56,
-        question: `How many moles of H atoms are present in one mole of ${formula(
-          "H",
-          3,
-          "PO",
-          4
-        )} molecules?`,
-        options: [`1 mole`, `2 moles`, `3 moles`, "no correct response"],
+        question: `How many electrons are added to ${ion(formula("MnO",4),"-")} when it is reduced to ${formula("Mn","2+")}?`,
+        options: [
+          `1`,`3`,`5`,`7`
+        ],
         ans: "C",
       },
       {
         id: 57,
-        question: `Which of the following samples contains 4.0 moles of O atoms?`,
+        question: `Which of the species in the following equation undergoes reduction? <br />
+        6${ion("Fe","2+")} + ${ion(formula("Cr",2,"O",7),"2-")} + 14${ion("H","+")} -> 6${ion("Fe","3+")} + 2${ion("Cr","3+")} + 7${formula("H",2,"O")}`,
         options: [
-          `1.0 mole ${formula("SO", 2)}`,
-          `2.0 moles ${formula("SO", 2)}`,
-          `1.0 mole ${formula("SO", 3)}`,
-          "no correct response",
+          `${ion(formula("Cr",2,"O",7),"2-")}`,
+          `${ion("Fe","2+")}`,
+          `${ion("H","+")}`,
+          `${ion("Fe","3+")}`
         ],
-        ans: "B",
+        ans: "A",
       },
       {
         id: 58,
-        question: `The total number of moles of atoms present in 4.00 moles of ${formula(
-          "CO",
-          2
-        )} is`,
+        question: `How many grammes of HCl will be required to react with 5g of NaOH? {H = 1, Cl = 35.5, Na = 23, O = 16}`,
         options: [
-          `3.00 moles`,
-          `8.00 moles`,
-          `12.0 moles`,
-          "no correct response",
+          `4.6g`,
+          `9.2g`,
+          `10.1g`,
+          `18.4g`
+        ],
+        ans: "A",
+      },
+      {
+        id: 59,
+        question: `The burning of phosphorus in excess oxygen is represented by the equation <br /> 
+        ${formula("P",4)} + 5${formula("O",10)} -> ${formula("P",4,"O",10)}<br />
+        What is the volume of oxygen at s.t.p required for the complete oxidation of 18.6g of phosphorus<br />
+        {molar volume of a gas at s.t.p = 22.4${units("dm",3)}}`,
+        options: [
+          `5.6${units("dm",3)}`,
+          `11.2${units("dm",3)}`,
+          `16.8${units("dm",3)}`,
+          `20.2${units("dm",3)}`,
         ],
         ans: "C",
       },
       {
-        id: 59,
-        question: `Determine the empirical formula of a compound that has a percent composition of 43.7% P and 56.3% O`,
-        options: [
-          `${formula("P", 2, "O", 4)}`,
-          `${formula("P", 2, "O", 5)}`,
-          `${formula("P", 3, "O", 5)}`,
-          "no correct response",
-        ],
-        ans: "B",
-      },
-      {
         id: 60,
-        question: `Determine the empirical formula of a compound if a sample of the compound contains 3.524 g of iron, 3.034 g of sulfur, and 4.542 g of oxygen.`,
+        question: `5.00g of a mixture of ${formula("CaCO",3)} and CaO liberated 1.32g of carbon(iv)oxide on strong heating. What is the percentage of CaO in the mixture? { C = 12, O = 16, Ca = 40 }`,
         options: [
-          `${formula("Fe", "S", "O")}`,
-          `${formula("Fe", 2, "S", 3, "O", 9)}`,
-          `${formula("Fe", 2, "S", 3, "O", 5)}`,
-          "no correct response",
+          `60`,
+          `40`,
+          `75`,
+          `25`
         ],
         ans: "B",
       },
       {
         id: 61,
-        question: `Determine the molecular formula of styrene, used to prepare the plastic wrapping material polystyrene. It is a compound of carbon and hydrogen only that contains 92.26% carbon, and has a molar mass of 104 g/mol.`,
+        question: `2g of a mixture of ${formula("Na",2,"CO",3)} and NaCl were dissolved in a 250${units("cm",3)} standard flask. 25${units("cm",3)} portions of this solution required 26.6${units("cm",3)} of 0.100moldm${units("dm","-3")} HCl for neutralization. What is the percentage by mass of ${formula("Na",2,"CO",3)} in the mixture?`,
         options: [
-          `${formula("CH")}`,
-          `${formula("C", 3, "H", 3)}`,
-          `${formula("C", 8, "H", 8)}`,
-          "no correct response",
+          `40`,
+          `50`,
+          `60`,
+          `70`
+        ],
+        ans: "D",
+      },
+      {
+        id: 62,
+        question: `In the reaction <br />
+        ${formula("CaC",2,"aq")} + 2${formula("H",2,"O","l")} -> ${formula("Ca",`${formula("OH")}`, 2,"s")} + ${formula("C",2,"H","2")}<br />
+        what is the mass of solid calcium carbide needed to produce 5.6${units("dm",3)} of ethyne at s.t.p<br/>
+        {G.M.V = 22.4${units("dm","-3")}}`,
+        options: [
+          `8g`,
+          `9g`,
+          `16g`,
+          `18g`
         ],
         ans: "C",
       },
+      {
+        id: 63,
+        question: `The volume of 0.20${units("moldm","-3")} ${formula("H",2,"SO",4)} that will exactly neutralize 25${units("cm",3)} of 0.05${units("moldm",-3)} NaOH solution is`,
+        options: [
+          `3.1${units("cm",3)}`,
+          `10.4${units("cm",3)}`,
+          `15.6${units("cm",3)}`,
+          `26.2${units("cm",3)}`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 64,
+        question: `Consider the equation <br />
+        ${formula("Fe","s")} + 2${formula("HCl","aq")} -> ${formula("FeCl",2,"aq")} + ${formula("H",2,"g")}<br />
+        what is the mass of iron that would be required to react with 250${units("cm",3)} of 0.1${units("moldm","-3")} HCl? {Fe = 56 }`,
+        options: [  
+          `0.3g`,
+          `0.5g`,
+          `0.7g`,
+          `0.9g`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 65,
+        question: `2${formula("C",4,"H","10")} + 13${formula("O",2)} -> 8${formula("CO",2)} + 10${formula("H",2,"O")} <br />
+        From the equation above, what volume of oxygen at s.t.p. is required to burn 100${units("cm",3)} of butane? [Molar volume of a gas at s.t.p = 22.4${units("dm",3)}]`,
+        options: [  
+          `500${units("cm",3)}`,
+          `650${units("cm",3)}`,
+          `800${units("cm",3)}`,
+          `900${units("cm",3)}`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 66,
+        question: `2${formula("Al","s")} + 6${formula("HCl","aq")} -> 2${formula("AlCl",3,"aq")} + 3${formula("H",2,"g")} <br />
+        [Avogadro's constant = 6.0 X ${exp(23)}]<br />
+        From this equation, the number of molecules of hydrogen gas produced when 0.50 mole of aluminum reacts completelt with excess HCl is`,
+        options: [  
+          `6.0 X ${exp(23)}`,
+          `4.5 X ${exp(23)}`,
+          `3.0 X ${exp(24)}`,
+          `4.5 X ${exp(24)}`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 67,
+        question: `What volume of oxygen at stp would react with carbon to form 13.20g ${formula("CO",2)} in the reaction represented by the equation below?<br />
+        ${formula("C","s")} + ${formula("O",2,"g")} -> ${formula("CO",2)}<br />
+        {O = 16, C = 12, molar volume of a gas = 22.4${units("dm",-3)} at s.t.p}`,
+        options: [  
+          `2.24${units("dm",3)}`,
+          `4.40${units("dm",3)}`,
+          `4.48${units("dm",3)}`,
+          `6.72${units("dm",3)}`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 68,
+        question: `25.0${units("cm",3)} of a solution containing 1.33g of ${formula("Na",2,"CO",3)} in 250${units("cm",3)} requires 24.5${units("cm",3)} of a solution of ${formula("H",2,"SO",4)} for complete neutralization. What is the concentration of the acid?`,
+        options: [  
+          `0.01${units("moldm",-1)}`,
+          `0.03${units("moldm",-1)}`,
+          `0.05${units("moldm",-1)}`,
+          `0.07${units("moldm",-1)}`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 69,
+        question: `How many grammes of hydrogen gas would be evolved when 18g of magnesium ribbon is dissolved in 200${units("cm",3)} of 2 ${units("moldm",-3)} HCl solution? {H = 1; Cl = 35.5; Mg= 24 }`,
+        options: [  
+          `0.40g`,
+          `0.75`,
+          `0.80`,
+          `1.50`
+        ],
+        ans: "A",
+      },
+      {
+        id: 70,
+        question: `2.0g of limestone was treated with excess 0.5${units("moldm",-3)} HCl. The acid left at the end of the reaction required 32${units("cm",3)} of 0.02${units("moldm",-3)} ${formula("Na",2,"CO",3)} solution for neutralization. What is the original volume of the acid.`,
+        options: [  
+          `20${units("cm",3)}`,
+          `40${units("cm",3)}`,
+          `60${units("cm",3)}`,
+          `80${units("cm",3)}`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 71,
+        question: `Zn + ${formula("H",2,"SO",4)} -> ${formula("Zn","SO",4)} + ${formula("H",2)} <br />
+        In the reaction represented by the equation above, how much of zinc would be left undissolved if 5g of zinc granule is treated with 5-${units("cm",3)} of 0.500${units("moldm",-3)} ${formula("H",2,"SO",4)} solution <br /> {Zn = 65, S = 32, O = 16, H = 1}`,
+        options: [  
+          `4.3g`,
+          `3.37g`,
+          `2.37g`,
+          `1.37g`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 72,
+        question: `100${units("cm",3)} each of 0.2${units("moldm,-3")} solution of hydrochloric acid and lead(II) trioxonitrate (V) were mixed. Assuming the lead(II) chloride is completely insoluble, the mass of leas(II) chloride precipitated is { Pb = 207, Cl = 35.5, O = 16, N = 14, H = 1}`,
+        options: [  
+          `9.92g`,
+          `8.54g`,
+          `5.56g`,
+          `2.78g`,
+        ],
+        ans: "D",
+      },
+      // 2 left here. this is alright for enough practice anyways...
     ],
   },
   {   /// enough as well
