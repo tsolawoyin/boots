@@ -2176,7 +2176,7 @@ let chemistryQuestions = [
   // ========== OTHER TOPIC END HERE ================================
   // ================================================================
   // ================================================================
-  //                GENERAL CHEMISTRY QUESTIONS
+  //          GENERAL CHEMISTRY QUESTIONS
   // ================================================================
   // ================================================================
   {   /// done and enough for now
@@ -3882,6 +3882,7 @@ let chemistryQuestions = [
 
     ],
   },
+
   {   /// done and enough as well
     topic: "2. Chemical bonding",
     questions: [
@@ -5709,6 +5710,7 @@ let chemistryQuestions = [
       },
     ],
   },
+
   {   /// more questions
     topic: "3. Stoichiometry",
     questions: [
@@ -7024,8 +7026,9 @@ let chemistryQuestions = [
       },
     ]
   },
+
   {
-    topic: "Energetics",
+    topic: "8. Energetics",
     questions: [
       {
         id: 1,
@@ -7138,7 +7141,7 @@ let chemistryQuestions = [
       },
       {
         id: 12,
-        question: `The heat of combustion of ethene is -1430${units("kjmol",-1)}. Calculate the heat of formation of the compound, given that ${Heat("f", formula("CO",2))} and ${Heat("f", formula("H",2,O))} are -393${units("kjmol",-1)} and -286${units("kjmol",-1)} respectively.`,
+        question: `The heat of combustion of ethene is -1430${units("kjmol",-1)}. Calculate the heat of formation of the compound, given that ${Heat("f", formula("CO",2))} and ${Heat("f", formula("H",2,"O"))} are -393${units("kjmol",-1)} and -286${units("kjmol",-1)} respectively.`,
         options: [  
           `+2788${units("kjmol",-1)}`,
           `-72${units("kjmol",-1)}`,
@@ -7320,7 +7323,190 @@ let chemistryQuestions = [
         ans: "C",
       },
     ]
-  }
+  },
+
+  {
+    topic: `9. Chemical kinetics`,
+    questions: [
+      {
+        id: 1,
+        question: `Consider the reaction: <br />
+        ${formula("H",2,"g")} + ${formula("I",2,"g")} -> 2${formula("HI","g")}<br />
+        Which of the following would decrease the number of effective collisions of molecules of the reactants?`,
+        options: [  
+          `Increase in pressure`,
+          `Rise in temperature`,
+          `Increase in the volume of the reaction vessel`,
+          `Introductiron of a catalyst`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 2,
+        question: `Which of the following factors will slow down the speed of the reaction represented by the equation below?<br />
+        2${formula("H",2,"O","l")} + 2${formula("H",2,"O","l")} + ${formula("O",2,"g")}`,
+        options: [  
+          `Exposure of reaction vessel to sunlight`,
+          `Addition of distilled water to the sunlight`,
+          `Increase in temperature`,
+          `Presence of manganese(IV) oxide`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 3,
+        question: `${formula("N",2,"g")} + 3${formula("H",2,"g")} -> 2${formula("NH",3,"g")}<br />
+        In the chemical reaction above, the substance that will increase the rate of production of ammonia is`,
+        options: [  
+          `platinum`,
+          `vanadium(V) oxide`,
+          `finely divided nickel`,
+          `finely divided iron`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 6,
+        question: `The activation energy of a reaction can be reduced by`,
+        options: [  
+          `increasing the reaction temperature`,
+          `increasing the surface area of the reactants`,
+          `introducing a suitable catalyst`,
+          `increasing reactant concentration`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 10,
+        question: `The presence of a catalyst in a reaction mixture changes the`,
+        options: [  
+          `reaction pathway`,
+          `enthalpy change of reaction`,
+          `equilibrium position`,
+          `yield of products`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 11,
+        question: `The change that occurs when a photographic film is exposed to sunlight is`,
+        options: [  
+          `${ion("Ag","+")} + ${ion("Br","+")} -> ${formula("AgBr")}`,
+          `${formula("Ag")} -> ${ion("Ag","+")} + ${ion("e","-")}`,
+          `${ion("Ag","+")} + ${ion("e","-")} -> Ag`,
+          `${formula("AgBr")} -> ${ion("Ag","+")} + ${ion("Br","-")}`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 12,
+        question: `Which of the following factors is responsible for an increase in the rate of a chemical reaction in heating?`,
+        options: [  
+          `Increase in enthalpy`,
+          `Increase in collision rate`,
+          `Increase in reactant concentration`,
+          `Decrease in activation energy`
+        ],
+        ans: "D",
+      },
+      {
+        id: 13,
+        question: `The reaction between 10g of iron fillings and 1.0${units("moldm",-3)} HCl can be made to proceed faster by`,
+        options: [  
+          `using 0.50 ${units("moldm",-3)} acid instead`,
+          `adding 1.0 ${units("moldm",-3)} NaOH`,
+          `cooling the reaction vessel`,
+          `adding some concentratoin HCl`
+        ],
+        ans: "D",
+      },
+      {
+        id: 14,
+        question: `A rod form of a metal burns less readily in air than the finely divided form because the rod has`,
+        options: [  
+          `different chemical properties`,
+          `protective oxide coating`,
+          `larger surface area exposed`,
+          `smaller surface area exposed`
+        ],
+        ans: "D",
+      },
+      {
+        id: 16,
+        question: `A set of conditions that can quicken a hemical reaction is`,
+        options: [  
+          `low temperature and high reactant concentration`,
+          `high temperature , presence of a catalyst and small reactant surface area`,
+          `presence of a catalyst and darkness`,
+          `high temperature, high reactant concentration and large reactant surface area`
+        ],
+        ans: "D",
+      },
+      {
+        id: 17,
+        question: `What is the role of finely divided iron in the Haber process of manufacturing ammonia`,
+        options: [  
+          `Reducing agent`,
+          `Oxidizing agent`,
+          `Dehydrating agent`,
+          `Catalyzing agent`
+        ],
+        ans: "D",
+      },
+      {
+        id: 19,
+        question: `Which of the reactoins of marble with dilute HCl is fastest?`,
+        options: [  
+          `5g of marble lump at 50&deg;C`,
+          `5g of marble lump at 25&deg;C`,
+          `5g of marble powder at 50&deg;C`,
+          `5g of marble powder at 25&deg;C`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 20,
+        question: `${formula("Zn","s")} + ${formula("H",2,"SO",4)} -> ${formula("ZnSO",4<"aq")} + ${formula("H",2,"g")}<br />
+        The rate of evolution of hydrogen gas in the above reaction will be greatly increased if`,
+        options: [  
+          `the zinc is in the form of pallets`,
+          `a smaller volume of ${formula("H",2,"SO",4)} is used`,
+          `the reaction flask is immersed in an ice bath`,
+          `the zinc is in the powdered form`,
+        ],
+        ans: "D",
+      },
+
+      {
+        id: 21,
+        question: `The minimum amount of energy that colliding molecules must possess for their collsions to be effective is`,
+        options: [  
+          `thermal energy`,
+          `collision theory`,
+          `activation energy`,
+          `kinetic energy`,
+        ],
+        ans: "D",
+      },
+
+      {
+        id: 18,
+        question: `The times taken for the reaction sodium thiosulfate and hydrochloric acid to liberate iodine at various temperatrues are given below:<br />
+        Temp(&deg;C):  30 40 50<br />
+        Time(seconds): 80 40 20<br />
+        It can be deduced from the results that `,
+        options: [  
+          `for a 10&deg;C rise in temperature, the reaction rate is doubled`,
+          `for a 10&deg;C rise in temperature, the reaction is tripled`,
+          `for a 10&deg;C rise in temperature, the reaction rate is halved`,
+          `for a 10&deg;C rise in temperature, the reaction rate is quadrupled`,
+        ],
+        ans: "D",
+      },
+      
+    ]
+  },
+
 ];
 
 // if it's not working rn, I will have to read sth else... shey u understand...
