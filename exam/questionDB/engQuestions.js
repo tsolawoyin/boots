@@ -2215,7 +2215,7 @@ let englishQuestions = [
       {
         id: 211,
         question:
-          "The government is intiating new effective programmes to boost production",
+          "The government is initiating new effective programmes to boost production",
         options: ["ending", "reviewing", "rearranging", "terminating"],
         ans: "D",
         main: "initiating",
