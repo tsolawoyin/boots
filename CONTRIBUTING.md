@@ -2,10 +2,10 @@
 
 How would you like to contribute?
 
-1. [Give suggestions to make my better]()
-2. [Add more questions to my questions database]()
-3. [Contribute or improve my code base]()
-4. [Donate to make me better]()
+1. [Give suggestions to make me better](#give-suggestions-to-make-me-better)
+2. [Add more questions to my questions database](#add-more-questions-to-my-questions-database)
+3. [Contribute or improve my code base](#contribute-or-improve-my-code-base)
+4. [Donate to make me better](#donate-to-make-me-better)
 <!-- to be completed later... -->
 
 

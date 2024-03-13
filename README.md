@@ -1,10 +1,10 @@
 # Hi, I'm BOOTS 👋
 
-Welcome to my codebase. Yes I'm open-source and I need your help to grow. [Want to contribute?](./CONTRIBUTING.md)
+Welcome to my codebase. Yes I'm open-source and I need your help to grow. [Would love to contribute?](./CONTRIBUTING.md)
 
 ### About me
 
-My author [tsolawoyin](#) programmed me to help you pass your exams and gain some additional skills all the while having fun with yourself or with your friends. I am just a few months old and still under constant development but I would love to give a basic overview of how I function.
+My author, [tsolawoyin](#), programmed me to help you pass your exams and gain some additional skills all the while having fun with yourself or with your friends. I am just a few months old and still under constant development but I would love to give a basic overview of how I function.
 
 I am a very simple program with not so fancy graphical user-interface. I am preloaded with several questions which you can select and test yourself on. On the surface I look like so many test app out there but I am unique in some respect. 
 
@@ -30,4 +30,4 @@ Want to contribute to my growth? [Please click here](./CONTRIBUTING.md)
 
 ### About the Author
 
- The fact is that I, Boots, was developed by [tsolawoyin](#) and he is a computer science student @[ossu](#). He is also learning web development from @[freecodecamp](#) and @[TheOdinProject](#). He has little experience in web development as his major area of expertise is writing algorithms that are efficient and working superbly. He developed some several other programs like the [space invaders](#) written in racket programming language, [scrabble game](#) written in python programming language and have solved countless algorithmic challenge on codewars and other coding platforms. You can reach him via **t.olawoyin@outlook.com**. He is not a social media person so he's got no social media account.
+ The fact is that I, Boots, was created and maintained by [tsolawoyin](#). He is a computer science student @[ossu](#). He is also learning web development from @[freecodecamp](#) and @[TheOdinProject](#). He has experience in web development but his major area of expertise is writing algorithms that are efficient and working superbly. He also developed the [space invaders](#), written in racket programming language, [scrabble game](#) written in python programming language and have solved countless algorithmic challenges on codewars and other coding platforms. He loves mathematics, solving algorithmic problems, and loves reading [A series of unfortunate events](#) by **Lemony Snicket**. You can reach him via **t.olawoyin@outlook.com**. He is not a social media person so he's got no social media account.
