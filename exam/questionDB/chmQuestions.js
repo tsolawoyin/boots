@@ -5907,7 +5907,7 @@ let chemistryQuestions = [
           `${formula("C",6,"H",6)}`,
           `${formula("C", 6, "H", 12)}`,
         ],
-        ans: "E",
+        ans: "D",
       },
       {
         id: 22,
