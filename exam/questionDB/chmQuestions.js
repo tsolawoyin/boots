@@ -7347,11 +7347,11 @@ let chemistryQuestions = [
         2${formula("H",2,"O","l")} + 2${formula("H",2,"O","l")} + ${formula("O",2,"g")}`,
         options: [  
           `Exposure of reaction vessel to sunlight`,
-          `Addition of distilled water to the sunlight`,
+          `Addition of distilled water to the reaction vessel`,
           `Increase in temperature`,
           `Presence of manganese(IV) oxide`,
         ],
-        ans: "C",
+        ans: "B",
       },
       {
         id: 3,
@@ -7374,8 +7374,10 @@ let chemistryQuestions = [
           `introducing a suitable catalyst`,
           `increasing reactant concentration`,
         ],
-        ans: "D",
+        ans: "C",
       },
+      // looking for the best place to shuffle up answers actually...
+      // shuffling requires planning..
       {
         id: 10,
         question: `The presence of a catalyst in a reaction mixture changes the`,
@@ -7385,7 +7387,7 @@ let chemistryQuestions = [
           `equilibrium position`,
           `yield of products`,
         ],
-        ans: "D",
+        ans: "A",
       },
       {
         id: 11,
@@ -7396,7 +7398,7 @@ let chemistryQuestions = [
           `${ion("Ag","+")} + ${ion("e","-")} -> Ag`,
           `${formula("AgBr")} -> ${ion("Ag","+")} + ${ion("Br","-")}`,
         ],
-        ans: "D",
+        ans: "C",
       },
       {
         id: 12,
@@ -7407,7 +7409,7 @@ let chemistryQuestions = [
           `Increase in reactant concentration`,
           `Decrease in activation energy`
         ],
-        ans: "D",
+        ans: "B",
       },
       {
         id: 13,
@@ -7462,7 +7464,7 @@ let chemistryQuestions = [
           `5g of marble powder at 50&deg;C`,
           `5g of marble powder at 25&deg;C`,
         ],
-        ans: "D",
+        ans: "C",
       },
       {
         id: 20,
@@ -7474,7 +7476,7 @@ let chemistryQuestions = [
           `the reaction flask is immersed in an ice bath`,
           `the zinc is in the powdered form`,
         ],
-        ans: "D",
+        ans: "B",
       },
 
       {
@@ -7486,7 +7488,7 @@ let chemistryQuestions = [
           `activation energy`,
           `kinetic energy`,
         ],
-        ans: "D",
+        ans: "A",
       },
 
       {
@@ -7501,12 +7503,28 @@ let chemistryQuestions = [
           `for a 10&deg;C rise in temperature, the reaction rate is halved`,
           `for a 10&deg;C rise in temperature, the reaction rate is quadrupled`,
         ],
-        ans: "D",
+        ans: "A",
       },
       
     ]
   },
 
+  {
+    topic: "Chemical equilibrium",
+    questions: [
+      {
+        id: 1,
+        question: `A chemical equilibrium is established when`,
+        options: [  
+          `concentrations of the reactants are less than those of the products`,
+          `concentrations of the reactants and products remain unchanged`,
+          `reactants in the system are completely used up`,
+          `reactants in the system stop forming the products`,
+        ],
+        ans: "C",
+      },
+    ]
+  }
 ];
 
 // if it's not working rn, I will have to read sth else... shey u understand...
