@@ -8838,7 +8838,7 @@ let chemistryQuestions = [
         options: [  
           `${formula(ion("Cu","2+"),"aq")} + 2${ion("e","-")} -> ${formula("Cu","s")}`,
           `2${formula(ion("H","+"),
-          aq)} + 2${ion("e","-")} -> ${formula("H",2,"g")}`,
+          "aq")} + 2${ion("e","-")} -> ${formula("H",2,"g")}`,
           `${formula("Cu","s")} -> ${formula(ion("Cu","2+"),"aq")} + 2${ion("e","-")}`,
           `${formula(ion("OH","-"),"aq")} + ${formula(ion("Cl","-"),"aq")} -> ${formula("HCl","aq")} + ${formula(ion("O","2-"),"aq")}`
         ],
@@ -9335,6 +9335,573 @@ let chemistryQuestions = [
           `Redox reaction`
         ],
         ans: "D",
+      },
+    ]
+  },
+  
+  {
+    topic: "Industrial and Environmental Chemistry",
+    questions: [
+      {
+        id: 1,
+        question: `The cheapest raw material from which an alkaline medium can be prepared is`,
+        options: [  
+          `Rock salt`,
+          `Limestone`,
+          `Phosphate Rock`,
+          `Bauxite`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 2,
+        question: `Which of the following is not important in the fertilizer industry?`,
+        options: [  
+          `Phosphate Rock`,
+          `Tetraoxosulfate (VI) acid`,
+          `Sodium trioxocarbonate(IV)`,
+          `Natural gas`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 3,
+        question: `A major raw material for the cement industry is:`,
+        options: [  
+          `Sodium tetraoxosulphate(VI)`,
+          `Limestone`,
+          `Sand`,
+          `Bauxite`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 4,
+        question: `Brass is an alloy of`,
+        options: [  
+          `Copper, Zinc and Lead`,
+          `Copper, Zinc and Silver`,
+          `Copper and Silver`,
+          `Copper and Zinc`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 5,
+        question: `Bronze is an alloy of`,
+        options: [  
+          `Copper, and Lead`,
+          `Copper and Zinc`,
+          `Copper and Tin`,
+          `Copper, and Silver`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 6,
+        question: `Steel is an alloy of`,
+        options: [  
+          `Iron, Silver and Lead`,
+          `Iron and Carbon`,
+          `Iron and Lead`,
+          `Iron and Silver`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 7,
+        question: `Which of the following is used as a material in the aircraft industry?`,
+        options: [  
+          `Steel alloy`,
+          `Al-Mg alloy`,
+          `Cu-Zn alloy`,
+          `Tin alloy`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 8,
+        question: `Which of the following is LEAD not used for`,
+        options: [  
+          `Battery manufacture`,
+          `Petrol additive`,
+          `Radiation shield`,
+          `Electrical application`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 9,
+        question: `Which of the following does not occur naturally in pure matallic form, but rather as an ore`,
+        options: [  
+          `Silver`,
+          `Gold`,
+          `Iron`,
+          `Platinum`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 10,
+        question: `Corrosion is exhibites by`,
+        options: [  
+          `Electropositive metals`,
+          `Iron only`,
+          `All metals`,
+          `Metals below hydrogen in the electrochemical series`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 10,
+        question: `Corrosion is exhibites by`,
+        options: [  
+          `Electropositive metals`,
+          `Iron only`,
+          `All metals`,
+          `Metals below hydrogen in the electrochemical series`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 11,
+        question: `Haemetite is an ore of`,
+        options: [  
+          `Zinc`,
+          `Lead`,
+          `Copper`,
+          `Iron`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 12,
+        question: `Bauxite is an ore of`,
+        options: [  
+          `Calcium`,
+          `Sodium`,
+          `Copper`,
+          `Aluminium`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 13,
+        question: `Marble is an ore of:`,
+        options: [  
+          `Zinc`,
+          `Lead`,
+          `Calcium`,
+          `Iron`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 14,
+        question: `Which of the following metals is best extracted from its ore by chemical reduction`,
+        options: [  
+          `Magnesium`,
+          `Sodium`,
+          `Iron`,
+          `Calcium`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 15,
+        question: `Which of the following metals is best extracted from its ore by electrolytic treatment?`,
+        options: [  
+          `Sodium`,
+          `Iron`,
+          `Zinc`,
+          `Tin`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 16,
+        question: `Which of the following is a "fine" chemical`,
+        options: [  
+          `Sodium hydroxide`,
+          `Ethanol`,
+          `Silver bromide`,
+          `Hydrochloric acid`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 17,
+        question: `Which of the following is a form of biotechnology`,
+        options: [  
+          `Extraction of metals from their ores`,
+          `Beer making`,
+          `Battery manufacture`,
+          `Jewellery manufacture`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 18,
+        question: `Polyvinyl chloride is used to produce`,
+        options: [  
+          `Bread`,
+          `Ink`,
+          `Kitchen utensils`,
+          `Household pipes`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 19,
+        question: `Permanent hard water can be softened by`,
+        options: [  
+          `Aeration`,
+          `Use of an ion-exchange resin`,
+          `Chlorination`,
+          `Treatment with a base`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 20,
+        question: `Temporary hard water can be softened by`,
+        options: [  
+          `Chlorination`,
+          `Simple boiling`,
+          `Passage over activated charcoal`,
+          `Aeration`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 21,
+        question: `Which of the following industries uses corn as a primary raw material?`,
+        options: [  
+          `Paper`,
+          `Brewery`,
+          `Fertilizer`,
+          `Detergent`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 22,
+        question: `Which of the following is a natural component of air?`,
+        options: [  
+          `Nitrogen(IV) oxide`,
+          `Sulfur(IV) oxide`,
+          `Argon`,
+          `Carbon(II) oxide`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 23,
+        question: `The function of calcium hydroxide in the treatment of municipal water supply is`,
+        options: [  
+          `killing bacteria in the water`,
+          `removing the water hardness`,
+          `coagulating solid particles`,
+          `controlling the pH of the water`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 24,
+        question: `The passage of water through layers of fine sand in municipal water treatment is to`,
+        options: [  
+          `remove water hardness`,
+          `coagulate solid particles`,
+          `remove dissolved gases`,
+          `filter the water`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 25,
+        question: `Which of the following is associated with global warmning?`,
+        options: [  
+          `Hydrogen sulphide`,
+          `Sulphur(IV) oxide`,
+          `Carbon(IV) oxide`,
+          `Sulfur(IV) oxide`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 26,
+        question: `Which of the following is a secondary air pollutant?`,
+        options: [  
+          `Particulate dust`,
+          `Sulfur(IV) oxide`,
+          `Ozone`,
+          `Chlorofluorocarbons`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 27,
+        question: `A major source of ozone in the atmosphere is`,
+        options: [  
+          `fuel combustion`,
+          `Bush burning`,
+          `sunlight-induced reactions of oxygen and other gases`,
+          `aerosol sprays`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 28,
+        question: `Which of the following pollutants is a major components of smog`,
+        options: [  
+          `Carbon(II) oxide`,
+          `Hydrogen sulfide`,
+          `Ozone`,
+          `Carbon(IV) oxide`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 29,
+        question: `The exhaust fumes of smoky vehicles is principally due to?`,
+        options: [  
+          `Hydrogen sulfide`,
+          `Carbon(II) oxide`,
+          `Lead`,
+          `Carbon tetrachloride`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 30,
+        question: `Which of the following is a major gas emitted during cement production`,
+        options: [  
+          `Nitrogen(IV) oxide`,
+          `Methane`
+          `Carbon(IV) oxide`,
+          `chlorofluorocarbons`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 31,
+        question: `Which of the following is generated during the manufacture of fertilizer?`,
+        options: [  
+          `Hydrogen sulfide`,
+          `Carbon(IV) oxide`
+          `Sulfur(IV) oxide`,
+          `Lead`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 32,
+        question: `Which of the following contributes to acid rain?`,
+        options: [  
+          `Methane`,
+          `Nitrogen(IV) oxide`
+          `Heavy metals`,
+          `Hydrogen sulfide`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 33,
+        question: `The gaseous pollutant sulfur(IV) oxide will likwly be detected in the neighbourhood of:`,
+        options: [  
+          `a factory where mercury is being extracted from its ore`,
+          `a factory where aluminium is being extracted from bauxite`
+          `a factory where iron is being extracted from its ore`,
+          `a factory manufacturing margarine`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 34,
+        question: `Which of the following is emitted from aerosol sprays and air conditioners`,
+        options: [  
+          `Hydrogen sulfide`,
+          `Carbon(IV) oxide`
+          `Chlorofluorocarbons`,
+          `Sulfur(IV) oxide`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 35,
+        question: `Which of the following would be found in high concentration in the neighbourhood of a battery manufacturing factory?`,
+        options: [  
+          `${ion("Pb","2+")} salts`,
+          `${ion("Ca","2+")} salts`,
+          `${ion("Mg","2+")} salts`,
+          `${ion("Al","3+")} salts`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 36,
+        question: `The most likely set of pollutants that will be produced on the accidental ignition of a plastic container of petrol is?`,
+        options: [  
+          `${formula("CO")}, ${formula("CO",2)} and ${formula("SO",2)}`,
+          `${formula("SO",2)}, ${formula("CO",2)} and ${formula("HCl")}`,
+          `${formula("CO")}, ${formula("HCl")}, and ${formula("SO",2)}`,
+          `${formula("CO")}, ${formula("CO",2)} and HCl`
+        ],
+        ans: "A",
+      },
+      {
+        id: 37,
+        question: `Environmental pollution is usually a major problem in countries that have`,
+        options: [  
+          `low population densities`,
+          `great land mass`,
+          `many industries`,
+          `a lot of water resources`
+        ],
+        ans: "C",
+      },
+      {
+        id: 38,
+        question: `Which of these is an active ingredient of fire extinguishers`,
+        options: [  
+          `Sulfur(IV) oxide`,
+          `Ammonia`,
+          `Carbon(IV) oxide`,
+          `Nitrogen(IV) oxide`
+        ],
+        ans: "C",
+      },
+      {
+        id: 39,
+        question: `One of the most commonly determined physical parameters of water quality is`,
+        options: [  
+          `pH`,
+          `Suspended solid`,
+          `Biochemical Oxygen Demand(BOD)`,
+          `Coliform Count`
+        ],
+        ans: "B",
+      },
+      {
+        id: 40,
+        question: `One of the most commonly determined chemical parameters of water quality is`,
+        options: [  
+          `Temperature`,
+          `Suspended solid`,
+          `Biochemical Oxygen Demand(BOD)`,
+          `Turbidity`
+        ],
+        ans: "C",
+      },
+      {
+        id: 41,
+        question: `One of the causes of algae growth in rivers is the presence of`,
+        options: [  
+          `Heavy metals`,
+          `Pesticides`,
+          `Phosphates from detergents`,
+          `High particulate loading`
+        ],
+        ans: "C",
+      },
+      {
+        id: 42,
+        question: `Nutrients in water bodies are considered as water pollutants because they:`,
+        options: [  
+          `increase oxygen which aquatic organisms need for their survival`,
+          `deplete oxygen which aquatic organisms need for their survival`,
+          `increase other gaseous substances in the water`,
+          `deplete other gaseous species in the water`
+        ],
+        ans: "B",
+      },
+      {
+        id: 43,
+        question: `A good method of cleaning-up freshly-splitted oil which has not spread over a larger surface of water is by:`,
+        options: [  
+          `spraying with hot water`,
+          `dispersal with compressed air`,
+          `burning off the oil layer`,
+          `disinfection with chlorine`
+        ],
+        ans: "C",
+      },
+      {
+        id: 44,
+        question: `Which of the following pollutants is biodegradable?`,
+        options: [  
+          `Plastics`,
+          `Sewage`,
+          `Metal scraps`,
+          `Lead compounds`
+        ],
+        ans: "B",
+      },
+      {
+        id: 45,
+        question: `Chlorine is used in water treatment as`,
+        options: [  
+          `a germicide`,
+          `a decolourising agent`,
+          `an antioxidant`,
+          `a coagulating agent`
+        ],
+        ans: "A",
+      },
+      {
+        id: 46,
+        question: `Addition of Copper(II) tetraoxosulphate(VI) to swimming pools is to:`,
+        options: [  
+          `prevent the growth of algae`,
+          `coagulate suspended particles`,
+          `neutralize dissolved gases in the water`,
+          `react with any excess chlorine present`
+        ],
+        ans: "A",
+      },
+      {
+        id: 47,
+        question: `The main function of alum in purificatoin of municipal water supply is to`,
+        options: [  
+          `control the pH of the water`,
+          `kill bacteria`,
+          `improve the taste of the water`,
+          `coagulate solid particles`
+        ],
+        ans: "D",
+      },
+      {
+        id: 48,
+        question: `Which of the following water samples will have the highest concentrations of ${formula("Ca","2+")} ions.`,
+        options: [  
+          `Temporary hard water after boiling`,
+          `Permanent hard water after boiling`,
+          `Rain water stored in a glass jar for 2 years`,
+          `Permanent hard water to which zeolite has been added`
+        ],
+        ans: "C",
+      },
+      {
+        id: 49,
+        question: `Which of the following water bodies will have the highest BOD value?`,
+        options: [  
+          `Water polluted by heavy metals`,
+          `Water polluted by suspended particles`,
+          `Water polluted by bacteria`,
+          `Water polluted by nitrates and phosphates`
+        ],
+        ans: "D",
+      },
+      {
+        id: 50,
+        question: `Which of the following is likely to occur to soil as a result of bush burning`,
+        options: [  
+          `heavy metal pollution`,
+          `loss of soil nutrients`,
+          `increase in pH`,
+          `increase in radioactivity`
+        ],
+        ans: "B",
       },
     ]
   }
