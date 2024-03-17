@@ -9,7 +9,7 @@ let chemistryQuestions = [
   // ===============================================================
   // ===============================================================
   {
-    topic: '4. Descriptive Chemistry',
+    topic: 'Descriptive Chemistry',
     questions: [
       {
         id: 1,
@@ -1144,7 +1144,7 @@ let chemistryQuestions = [
   // =================================================================
   // ============ OTHER TOPICS =======================================
   {
-    topic: "7. Air and air pollution",
+    topic: "Air and air pollution",
     questions: [
       {
         id: 1,
@@ -1612,7 +1612,7 @@ let chemistryQuestions = [
   },
 
   {
-    topic: "6. Nature of matter",
+    topic: "Nature of matter",
     questions: [
       {
         id: 1,
@@ -2180,7 +2180,7 @@ let chemistryQuestions = [
   // ================================================================
   // ================================================================
   {   /// done and enough for now
-    topic: "1. Atomic structure",
+    topic: "Atomic structure",
     questions: [
       {
         id: 1,
@@ -3884,7 +3884,7 @@ let chemistryQuestions = [
   },
 
   {   /// done and enough as well
-    topic: "2. Chemical bonding",
+    topic: "Chemical bonding",
     questions: [
       {
         id: 1,
@@ -5712,7 +5712,7 @@ let chemistryQuestions = [
   },
 
   {   /// more questions
-    topic: "3. Stoichiometry",
+    topic: "Stoichiometry",
     questions: [
       {
         id: 1,
@@ -6493,7 +6493,7 @@ let chemistryQuestions = [
   },
 
   {
-    topic: "5. Kinetic Theory of Matter & Gas laws",
+    topic: "Kinetic Theory of Matter & Gas laws",
     questions: [
       {
         id: 1,
@@ -7028,7 +7028,7 @@ let chemistryQuestions = [
   },
 
   {
-    topic: "8. Energetics",
+    topic: "Energetics",
     questions: [
       {
         id: 1,
@@ -7326,7 +7326,7 @@ let chemistryQuestions = [
   },
 
   {
-    topic: `9. Chemical kinetics`,
+    topic: `Chemical kinetics`,
     questions: [
       {
         id: 1,

@@ -8,7 +8,7 @@
 
 function fetchQuestions(subject, topic, quantity) {
     // now topic can be anything including general
-    if (topic == "general") {
+    if (topic.toLowerCase() == "general") {
         return general(subject, quantity);
     } else {
         return getQuestions(findTopic(subject, topic), quantity); // finding topic before getting questions

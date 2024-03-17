@@ -7,7 +7,7 @@ const { A, B, C, D, E, c } = { A: "A", B: "B", C: "C", D: "D", E: "E", c: "C" };
 let biologyQuestions = [
   // biology questions under review... thank you. one by one...
   {
-    topic: "1. The Cell Structure And Functions Of Cell Components",
+    topic: "The Cell Structure And Functions Of Cell Components",
     questions: [
       {
         id: 1,
@@ -419,7 +419,7 @@ let biologyQuestions = [
   },
 
   {
-    topic: "2. Living Organisms And Level Of Organisation",
+    topic: "Living Organisms And Level Of Organisation",
     questions: [
       {
         id: "tjfdj4",
@@ -570,7 +570,7 @@ let biologyQuestions = [
   },
   //   done and dusted
   {
-    topic: "3. The Cell And Its Environment",
+    topic: "The Cell And Its Environment",
     questions: [
       {
         id: 1,
@@ -840,7 +840,7 @@ let biologyQuestions = [
   },
   // they are all here currently...
   {
-    topic: "4. Evolution Among Viruses, Monera, Protista And Fungi",
+    topic: "Evolution Among Viruses, Monera, Protista And Fungi",
     questions: [
       {
         id: 1,
@@ -1300,7 +1300,7 @@ let biologyQuestions = [
   },
   // to be edited... the breakdown of this thing sef makes it easy. I mean seriously easy...
   {
-    topic: "5. Evolution among plants",
+    topic: "Evolution among plants",
     questions: [
       {
         id: 1,
@@ -2294,8 +2294,7 @@ let biologyQuestions = [
       },
       {
         id: 16,
-        question:
-          `Which of the following set of organism represent the current trend from simple to complex structural oraganization? 
+        question: `Which of the following set of organism represent the current trend from simple to complex structural oraganization? 
           <br />
           1. mollusca 2. platyhelminthes 3. nematoda 4. protozoa`,
         options: ["4-1-2-3", "4-3-2-1", "4-2-1-3", "4-2-3-1"], // shuffling up answers is difficult... but I can do it... another feature loading
@@ -2542,32 +2541,32 @@ let biologyQuestions = [
   },
 
   {
-    topic: "8. The Arthropods",
+    topic: "The Arthropods",
     questions: [
       {
         id: 1,
         question: "Which of these is not true of the insect? The possession of",
         options: [
-          "two pairs of antennae",
-          "jointed appendages",
-          "exoskeleton body",
+          "Two pairs of antennae",
+          "Jointed appendages",
+          "Exoskeleton body",
         ],
 
-        ans: "a",
+        ans: "A",
       },
       {
         id: 2,
         question:
-          "Insects show considerable powers of water conservation. This is due to the fact that",
+          "Insects show considerable power of water conservation. This is due to the fact that",
         options: [
-          "the chitinous cuticle is impregnaed with tanned proteins",
-          "nitrogenous waste is eliminated as urea",
-          "chitin is impermeable to water",
-          "the malphigian tubules are impermeable to water",
-          "the cuticle is covered with wax",
+          "The chitinous cuticle is impregnaed with tanned proteins",
+          "Nitrogenous waste is eliminated as urea",
+          "Chitin is impermeable to water",
+          "The malphigian tubules are impermeable to water",
+          "The cuticle is covered with wax",
         ],
 
-        ans: "c",
+        ans: "C",
       },
       {
         id: 3,
@@ -2580,28 +2579,29 @@ let biologyQuestions = [
           "none of the above",
         ],
 
-        ans: "b",
+        ans: "B",
       },
       {
         id: 4,
         question:
-          "Which of the following insects has an incomplete metamorphosis during its life cycle?",
+          "Which of the following insects has an <strong>incomplete metamorphosis</strong> during its life cycle?",
         options: ["Butterfly", "Bee", "Mosquito", "Housefly", "Grasshopper"],
 
-        ans: "e",
+        ans: "E",
       },
       {
         id: 5,
         question: "Which of these statements is NOT true of insects?",
         options: [
-          "they are anthropods",
-          "their body is divided into three distint regions of head, thorax and abdomen",
-          "their thorax comprises three segments, only two of which bear a pair of appendages each",
-          "respiration is by means of trachea",
-          "they undergo metamorphosis",
+          "They are anthropods",
+          "Their body is divided into three distint regions of head, thorax and abdomen",
+          "Their thorax comprises three segments, only two of which bear a pair of appendages each",
+          "Respiration is by means of trachea",
+          "They undergo metamorphosis",
         ],
-
-        ans: "c",
+        ans: "C",
+        remark:
+          "The thorax has three segments, each bearing a pair of jointed walking legs(appendages)",
       },
       {
         id: 6,
@@ -2613,50 +2613,48 @@ let biologyQuestions = [
           "poison claws",
           "cylindrical body",
         ],
-
-        ans: "d",
+        ans: "D",
+        remark: "Centipede has poison claws while millipede is an herbivore",
       },
       {
         id: 7,
         question: "Jointed skeleton is absent in the",
-        options: ["cockroach", "spider", "milipede", "snail", "dragon fly"],
-
-        ans: "d",
+        options: ["Cockroach", "Spider", "Milipede", "Snail", "Dragon fly"],
+        ans: "D",
       },
       {
         id: 8,
         question:
           "Which of the following invertebrates does NOT possess antennae?",
-        options: ["centipde", "crustacean", "milipede", "insect", "spider"],
+        options: ["Centipde", "Crustacean", "Milipede", "Insect", "Spider"],
         // the spider doesn't have an antennae actually...
-        ans: "e",
+        ans: "E",
       },
       {
         id: 9,
         question: "Each of the following is an anthropod EXCEPT the",
         options: ["crab", "spider", "snail", "milipede", "cockroach"],
-
-        ans: "c",
+        ans: "C",
+        remark: "Snail is a mollusc",
       },
       {
         id: 10,
         question: "Incomplete metamorphosis occurs in the",
-        options: ["butterfly", "grasshopper", "mosquito", "housefly"],
+        options: ["Butterfly", "Grasshopper", "Mosquito", "Housefly"],
 
-        ans: "b",
+        ans: "B",
       },
       {
         id: 11,
         question:
-          "When the original king and queen of termites die, they are replace by",
+          "When the original king and queen of termites die, they are replaced by",
         options: [
           "the king and queen of another colony",
           "some adult reproductive from another colony",
           "some adult workers which are specially fed to breed",
           "developing nymphs nurtured as secondary reproductive",
         ],
-
-        ans: "d",
+        ans: "D",
       },
       {
         id: 12,
@@ -2667,40 +2665,38 @@ let biologyQuestions = [
           "spiracles",
           "a pair of cerci",
         ],
-
-        ans: "b",
+        ans: "B",
       },
       {
         id: 13,
         question: "The crayfish is an arthropod because",
         options: [
-          "its body consist of a cephalothorax and an abdomen",
-          "it has pair of antennae and antennules",
-          "every segment of is body carries a pair of appendages",
-          "its body is covered with an exoskeleton made of chitin",
+          "Its body consist of a cephalothorax and an abdomen",
+          "It has pair of antennae and antennules",
+          "Every segment of is body carries a pair of appendages",
+          "Its body is covered with an exoskeleton made of chitin",
         ],
-
-        ans: "d",
+        ans: "D",
       },
       {
         id: 14,
         question:
           "In the life history of a butterfly, destruction of crops is caused by the",
-        options: ["maggot", "nymph", "caterpillar", "pupa"],
+        options: ["Maggot", "Nymph", "Caterpillar", "Pupa"],
 
-        ans: "c",
+        ans: "C",
       },
       {
         id: 15,
-        question: "Insects and milipede have many features in common EXCEPT",
+        question: "Insects and millipede have many features in common EXCEPT",
         options: [
-          "exoskeleton",
-          "jointed, appendages",
-          "compound eyes",
-          "segmented body",
+          "Exoskeleton",
+          "Jointed, appendages",
+          "Compound eyes",
+          "Segmented body",
         ],
 
-        ans: "c",
+        ans: "C",
       },
       {
         id: 16,
@@ -2713,229 +2709,212 @@ let biologyQuestions = [
           "four pairs of walking legs on the cephalothorax",
         ],
 
-        ans: "b",
+        ans: "B",
       },
       {
         id: 17,
         question: "The pedipalpi in spiders are used for",
-        options: ["grasping", "walking", "feeling", "web spinning"],
-
-        ans: "a",
+        options: ["Grasping", "Walking", "Feeling", "Web spinning"],
+        ans: "A",
       },
       {
         id: 18,
         question: "The function of maxillipeds in crayfish is to aid",
-        options: ["walking", "swimming", "feeding", "respiration"],
-
-        ans: "c",
+        options: ["Walking", "Swimming", "Feeding", "Respiration"],
+        ans: "C",
       },
       {
         id: 19,
         question:
           "Which of the following insects undergoes incomplete metamorphosis?",
-        options: ["mosquito", "termite", "housefly", "moth"],
+        options: ["Mosquito", "Termite", "Housefly", "Moth"],
 
-        ans: "b",
+        ans: "B",
       },
       {
         id: 20,
         question: "The butterfly is of great economic importance because",
         options: [
-          "of its use in scientific studies",
-          "it sucks nectar from lower",
-          "it adds to the beauty of the environment",
-          "it pollinates flower of crops and other plants",
+          "Of its use in scientific studies",
+          "It sucks nectar from lower",
+          "It adds to the beauty of the environment",
+          "It pollinates flower of crops and other plants",
         ],
 
-        ans: "d",
+        ans: "D",
       },
       {
         id: 21,
         question:
           "Which of the following insects lay its eggs in horny, purse-like cases?",
-        options: ["mosquito", "butterfly", "termite", "cockroach"],
-
-        ans: "d",
+        options: ["Mosquito", "Butterfly", "Termite", "Cockroach"],
+        ans: "D",
       },
       {
         id: 22,
         question:
-          "The group of insects that undergoes complete metamorphosis is",
+          "The group of insects that undergoes incomplete metamorphosis is",
         options: [
           "houseflies",
           "beetles and cockroaches",
-          "cockroaches, grasshoppers, and bees",
+          "cockroaches, grasshoppers, and dragonflies",
           "aphids, grasshoppers and butterflies",
         ],
 
-        ans: "c",
+        ans: "C",
       },
       {
         id: 23,
         question: "The three classes in termitarium are",
         options: [
-          "soldiers, queen and workers",
-          "workers, soldiers and reproductive",
-          "soldiers, workers and kings",
-          "kings, queen and soldiers",
+          "Soldiers, queen and workers",
+          "Workers, soldiers and reproductive",
+          "Soldiers, workers and kings",
+          "Kings, queen and soldiers",
         ],
 
-        ans: "b",
+        ans: "B",
       },
       {
         id: 24,
         question:
-          "The ability of the cockraoch to live in cracks and crevices is enhanced by the possession of",
+          "The ability of the cockroach to live in cracks and crevices is enhanced by the possession of",
         options: [
-          "wings and segments body",
-          "compound eyes",
-          "claws on the legs",
-          "dorso-ventrally flattened body",
+          "Wings and segments body",
+          "Compound eyes",
+          "Claws on the legs",
+          "Dorso-ventrally flattened body",
         ],
 
-        ans: "d",
+        ans: "D",
       },
       {
         id: 25,
-        question: "The case of termites that lacks pigmentation is the",
-        options: ["king", "worker", "solder", "queen"],
-
-        ans: "b",
+        question: "The caste of termites that lacks pigmentation is the",
+        options: ["King", "Worker", "Soldier", "Queen"],
+        ans: "B",
       },
       {
         id: 26,
         question: "In the honey bee colony, the drones are",
         options: [
-          "sterile males with reduced mouths parts",
-          "sterile males with well developed mouth parts",
-          "fertile males wih reduced mouth part",
-          "fertile males with well developed mouth parts",
+          "Sterile males with reduced mouths parts",
+          "Sterile males with well developed mouth parts",
+          "Fertile males wih reduced mouth part",
+          "Fertile males with well developed mouth parts",
         ],
-
-        ans: "c",
+        ans: "C",
       },
       {
         id: 27,
-        question: "The group of Arthropods hat has no antennae is the",
-        options: ["crustaceans", "chilopoda", "arachinda", "diplopod"],
+        question: "The group of Arthropods that has no antennae is the",
+        options: ["Crustaceans", "Chilopoda", "Arachinda", "Diplopod"],
 
-        ans: "c",
+        ans: "C",
       },
       {
         id: 28,
         question:
           "The jointed structure in insects that bears organs which are sensitive to touch, smell and vibration is the",
-        options: ["maxilla", "labium", "antenna", "abdomen"],
-
-        ans: "c",
+        options: ["Maxilla", "Labium", "Antenna", "Abdomen"],
+        ans: "C",
       },
       {
         id: 29,
         question: "Water fleas, wood lice and barnacles belong to the group",
         options: ["Arachnida", "Crustacea", "Insecta", "Chilopoda"],
-
-        ans: "b",
+        ans: "B",
       },
       {
         id: 30,
         question: "The role of male adult honey bee is to",
         options: [
-          "dean the hive",
-          "ventilate the hives",
-          "mate with the queen",
-          "care for the young",
+          "Clean the hive",
+          "Ventilate the hives",
+          "Mate with the queen",
+          "Care for the young",
         ],
-
-        ans: "c",
+        ans: "C",
       },
       {
         id: 31,
         question: "When oil is poured into breeding site of a mosquito, it",
         options: [
-          "deprives the larvee of water",
-          "kits the adults",
-          "suffocates the pupae",
-          "slow down egg development",
+          "Deprives the larvee of water",
+          "Kills the adults",
+          "Suffocates the pupae",
+          "Slow down egg development",
         ],
-
-        ans: "c",
+        ans: "C",
       },
       {
         id: 32,
         question:
-          "A features of the caste systems of bees and termites is that",
+          "A common features of the caste systems of bees and termites is that",
         options: [
-          "the workers are sterile",
-          "the kings are bigger than the queen",
-          "only the worker performe duties",
-          "nuptial fight is performed by all members",
+          "The workers are sterile",
+          "The kings are bigger than the queen",
+          "Only the workers perform duties",
+          "Nuptial fight is performed by all members",
         ],
-
-        ans: "a",
+        ans: "A",
       },
       {
         id: 33,
         question: "Jointed skeleton is absent in the",
-        options: ["cockroach", "spider", "miliped", "snail", "dragon fly"],
-
-        ans: "d",
+        options: ["Cockroach", "Spider", "MIllipede", "Snail", "Dragon fly"],
+        ans: "D",
       },
       {
         id: 34,
         question:
           "Insects are considered the most successful among the invertebrates because they",
         options: [
-          "possess exoskeletes",
-          "survive in various environmental conditions",
-          "have wings for flight",
-          "possess the ability to change their forms",
+          "Possess exoskeletons",
+          "Survive in various environmental conditions",
+          "Have wings for flight",
+          "Possess the ability to change their forms",
         ],
-
-        ans: "b",
+        ans: "B",
       },
       {
         id: 35,
         question: "The larva stage of a mosquito is called",
-        options: ["wrggler", "grub", "maggot", "caterpillar"],
-
-        ans: "a",
+        options: ["Wriggler", "Grub", "Maggot", "Caterpillar"],
+        ans: "A",
       },
       {
         id: 36,
         question:
           "The function of the long-winged reproductive in a termite colony is to",
         options: [
-          "disperse the population",
-          "feed the young",
-          "participate in swarming",
-          "protect the young",
+          "Disperse the population",
+          "Feed the young",
+          "Participate in swarming",
+          "Protect the young",
         ],
-
-        ans: "a",
+        ans: "A",
       },
       {
         id: 37,
         question:
           "The stage in the life history of a moth responsible for destruction of agricultural crops is the",
-        options: ["nymph", "imago", "pupa", "caterpillar"],
-
-        ans: "d",
+        options: ["Nymph", "Imago", "Pupa", "Caterpillar"],
+        ans: "D",
       },
       {
         id: 38,
         question:
-          "The only cate in the termite colony whose members can feed themselves are the",
-        options: ["reproductive", "the workers", "nymph", "soldiers"],
-
-        ans: "b",
+          "The only caste in the termite colony whose members can feed themselves are the",
+        options: ["Reproductive", "The workers", "Nymph", "Soldiers"],
+        ans: "B",
       },
       {
         id: 39,
         question:
           "The process of shedding the exoskeleton of an arthropod is known",
-        options: ["metamorphosis", "instar formation", "ecdysis", "tagmosis"],
-
-        ans: "c",
+        options: ["Metamorphosis", "Instar formation", "Ecdysis", "Tagmosis"],
+        ans: "C",
       },
       {
         id: 40,
@@ -2943,41 +2922,37 @@ let biologyQuestions = [
           "Which of the following is common to the mosquito, housefly and blackfly?",
         options: [
           "They undergo complete metamorphosis",
-          "they are parasite of man",
-          "their immature stage are aquatic",
-          "their adults have two pairs of wings",
+          "They are parasite of man",
+          "Their immature stage are aquatic",
+          "Their adults have two pairs of wings",
         ],
-
-        ans: "a",
+        ans: "A",
       },
       {
         id: 41,
         question:
-          "The most abundan group of organisms in the animal kingdom is",
-        options: ["mammalia", "aves", "aninelida", "insectad"],
-
-        ans: "d",
+          "The most abundant group of organisms in the animal kingdom is",
+        options: ["mammalia", "aves", "annelida", "insecta"],
+        ans: "D",
       },
       {
         id: 42,
         question:
           "Which of the following animals is most adapted for water conservation?",
         options: ["earthworms", "mammals", "flatworms", "insects"],
-
-        ans: "d",
+        ans: "D",
       },
       {
         id: 43,
         question:
-          "The main distinguishing features between the soldier termite and oher members of the caste are the",
+          "The main distinguishing features between the soldier termite and other members of the caste are the",
         options: [
-          "presence or wings, possession of a large thorax and a small head",
-          "absence of wings, possession of strong mandibles and a large head",
-          "absence of wings, possession of big head and absence of mandible",
-          "presence of wings, possession of a small head and large thorax",
+          "Presence or wings, possession of a large thorax and a small head",
+          "Pbsence of wings, possession of strong mandibles and a large head",
+          "Absence of wings, possession of big head and absence of mandible",
+          "Presence of wings, possession of a small head and large thorax",
         ],
-
-        ans: "b",
+        ans: "B",
       },
       {
         id: 44,
@@ -2985,11 +2960,10 @@ let biologyQuestions = [
           "The adaptive importance of nuptial flight from termite colonies is to",
         options: [
           "ensure cross-breeding between members of one colony to another",
-          "excel the reproductive in order to establish new colonies",
+          "expel the reproductives in order to establish new colonies",
           "provide abundant food for birds and other animals during the early rains",
         ],
-
-        ans: "c",
+        ans: "C",
       },
       {
         id: 45,
@@ -3001,21 +2975,20 @@ let biologyQuestions = [
           "search for a favourable place to breed",
           "ensure that every individual gets a mate",
         ],
-
-        ans: "a",
+        // this one is more reasonable
+        ans: "B",
       },
       {
         id: 46,
         question:
-          "Which of the folowing distinguished a butterfly from a moth?",
+          "Which of the following distinguishes a butterfly from a moth?",
         options: [
-          "both are active during the day",
-          "they have similar antennae",
-          "the abdomen of a moth is fatter that that of butterfly",
-          "the wings of butterfly rest horizontally but those of moth rest vertically",
+          "Both are active during the day",
+          "They have similar antennae",
+          "The abdomen of a moth is fatter than that of butterfly",
+          "The wings of butterfly rest horizontally but those of moth rest vertically",
         ],
-
-        ans: "c",
+        ans: "C",
       },
       {
         id: 47,
@@ -3024,58 +2997,57 @@ let biologyQuestions = [
         options: [
           "The organism has a pair of jointed appendages",
           "the body is not divided into a number of  segments. The body is covered by chitin",
-          "the organism find it easy to grow freely",
+          "The organism find it easy to grow freely",
         ],
-
-        ans: "c",
+        // which kind of question is this?
+        ans: "C",
       },
       {
         id: 48,
         question: "Proboscis is a structure that is mostly found",
-        options: ["tapeworms", "amphibians", "moluluscs", "insects"],
-
-        ans: "d",
+        options: ["Tapeworms", "Amphibians", "Moluluscs", "Insects"],
+        ans: "D",
       },
       {
         id: 49,
         question:
-          "Which of these oragnisms partly digest its food extracellularly?",
-        options: ["Housefly", "cockroach", "termit", "mosquito"],
+          "Which of these organisms partly digest its food extracellularly?",
+        options: ["Housefly", "Cockroach", "Termite", "Mosquito"],
 
-        ans: "c",
+        ans: "C",
       },
       {
         id: 50,
         question: "The pupa stage of the butterfly is known as",
-        options: ["larva", "maggot", "grub", "chrysalis"],
+        options: ["Larva", "Maggot", "Grub", "Chrysalis"],
 
-        ans: "d",
+        ans: "D",
       },
       {
         id: 51,
         question: "Green glands are found among",
-        options: ["annelids", "molluscs", "arachnids", "crustaceans"],
+        options: ["Annelids", "Molluscs", "Arachnids", "Crustaceans"],
 
-        ans: "d",
+        ans: "C",
       },
       {
         id: 52,
-        question: "Which of the following insect possess boring mouthpart",
-        options: ["butterfly", "aphid", "weevil", "cockroach"],
+        question: "Which of the following insects possess boring mouthpart",
+        options: ["Butterfly", "Aphid", "Weevil", "Cockroach"],
 
-        ans: "c",
+        ans: "C",
       },
       {
         id: 53,
         question: "Competition is reduced in housefly by",
         options: [
-          "the adult laying fewer eggs",
-          "the majority of the layed eggs not hatched",
-          "little diffrence between larva and adult",
-          "males not fertilizing majority of the eggs",
+          "The adult laying fewer eggs",
+          "The majority of the layed eggs not hatched",
+          "Little diffrence between larva and adult",
+          "Males not fertilizing majority of the eggs",
         ],
 
-        ans: "d",
+        ans: "D",
       },
     ],
   },
