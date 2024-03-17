@@ -19,7 +19,7 @@ const chemistry = new Subject("Chemistry", [
   "Chemical kinetics",
   "Electrochemistry",
   "Nuclear Chemistry",
-  "Air and air pollution",
+  "Industrial and Environmental Chemistry",
 ]);
 
 const biology = new Subject("Biology", [
