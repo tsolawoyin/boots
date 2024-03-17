@@ -17,6 +17,7 @@ const chemistry = new Subject("Chemistry", [
   `Kinetic Theory of Matter & Gas laws`,
   "Energetics",
   "Chemical kinetics",
+  "Nuclear Chemistry",
   "Air and air pollution",
 ]);
 

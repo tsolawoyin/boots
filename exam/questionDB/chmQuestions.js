@@ -8469,6 +8469,224 @@ let chemistryQuestions = [
         ans: "D",
       },
     ]
+  },
+
+  {
+    topic: "Nuclear Chemistry",
+    questions: [
+      {
+        id: 2,
+        question: `Which of the following denotes an alpha particle`,
+        options: [  
+          `${isotope(1,0,"n")}`,
+          `${isotope(4,2,"He")}`,
+          `${isotope(0,-1,"B")}`,
+          `${isotope(9,4,"Be")}`,
+          `${isotope(1,1,"H")}`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 3,
+        question: `In which of the following are radioactive isotopes used?`,
+        options: [  
+          `Scientific research`,
+          `Sterilisation of equipment`,
+          `Dating techniques`,
+          `Treatment of cancer`,
+          `All`,
+        ],
+        ans: "E",
+      },
+      {
+        id: 4,
+        question: `Two radioactive elements Q and S have half-life periods of 10hrs and 20hrs respectively. Therefore`,
+        options: [  
+          `S decays faster than Q`,
+          `Q is twice as stable as S`,
+          `Q emits fewer particles than S`,
+          `S is more stable than Q`,
+          `None of the above`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 5,
+        question: `A radioactive solid is best stored`,
+        options: [  
+          `Under paraffin oil`,
+          `Under uv light`,
+          `In a cool, dark cupboard`,
+          `In a box lined with lead`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 6,
+        question: `What are the value of X and Y in the following equation: <br />
+        ${isotope(234,90,"Th")} -> ${isotope("Y","X","Pa")} + ${isotope(0,-1,"B")}`,
+        options: [  
+          `X: 91, Y: 234`,
+          `X: 92, Y: 235`,
+          `X: 89, Y: 236`,
+          `X: 88, Y: 238`,
+          `Under uv light`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 7,
+        question: `What is emitted during the disintegration of Ba nucleus as shown by the equation below?<br />
+        ${isotope(138,56,"Ba")} -> ${isotope(134, 54, "X")}`,
+        options: [  
+          `Alpha particles`,
+          `Beta particles`,
+          `Gamma rays`,
+          `Neutrons`,
+          `X-rays`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 8,
+        question: `Nuclear reactions can be used in the following except`,
+        options: [  
+          `Gauging the thickness of objects`,
+          `Making atomic bombs`,
+          `Curing cancer`,
+          `Generating electricity`,
+          `Purifying water`,
+        ],
+        ans: "E",
+      },
+      {
+        id: 9,
+        question: `A positron is represented as:`,
+        options: [  
+          `${isotope(1,0,"n")}`,
+          `${isotope(0,-1,"B")}`,
+          `${isotope(0,1,"B")}`,
+          `${isotope(1,1,"H")}`,
+          `${isotope(4,2,"He")}`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 10,
+        question: `What does the following equation illustrate? <br />
+        ${isotope(238,92,"U")} -> ${isotope(234,90,"Tl")} + ${isotope(4,2,"He")}`,
+        options: [  
+          `Nuclear fission`,
+          `Nuclear fusion`,
+          `Artificial radioactivity`,
+          `Spontaneous disintegration`,
+          `Thermal decomposition`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 11,
+        question: `What is the element Y in the following equation? <br />
+        ${isotope(14,7,"N")} + ${isotope(4,2,"He")} -> ${isotope(1,1,"H")} + Y`,
+        options: [  
+          `Fluorine`,
+          `Sodium`,
+          `Chlorine`,
+          `Oxygen`,
+          `Carbon`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 12,
+        question: `Which of the following has neither mass nor charge`,
+        options: [  
+          `Alpha particle`,
+          `Deuterium`,
+          `Gamma ray`,
+          `Neutron`,
+          `None of these`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 13,
+        question: `${isotope(14,7,"N")} + X -> ${isotope(17,8,"O")} + ${isotope(1,1,"H")}<br /> In the above reaction, X is?`,
+        options: [  
+          `neutron`,
+          `helium atom`,
+          `lithium atom`,
+          `deuterium atom`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 14,
+        question: `A particle that contains 8 protons, 9 neutrons and 7 electrons could be written as:`,
+        options: [  
+          `${isotope(16,8,"O")}`,
+          `${ion(isotope(17,8,"O"),"-")}`,
+          `${ion(isotope(17,9,"O"),"-")}`,
+          `${ion(isotope(17,7,"O"),"-")}`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 15,
+        question: `Oxygen is a mixture of 2 isotopes. ${isotope(6,"","O")} and ${isotope(18,"","O")} with relative abundances of 90% and 10% respectively. The relative atomic mass of oxygen is:`,
+        options: [  
+          `16.0`,
+          `16.2`,
+          `17.0`,
+          `18.0`
+        ],
+        ans: "B",
+      },
+      {
+        id: 16,
+        question: `Which of the following would you expect to decay by Beta emission?`,
+        options: [  
+          `${isotope(31,15,"P")}`,
+          `${isotope(39,19,"K")}`,
+          `${isotope(72,30,"Zn")}`,
+          `${isotope(24,11,"Na")}`
+        ],
+        ans: "D",
+      },
+      {
+        id: 18,
+        question: `The radioactive isotope used in dating archaeological specimens is:`,
+        options: [  
+          `${isotope(17,8,"O")}`,
+          `${isotope(45,19,"K")}`,
+          `${isotope(14,6,"C")}`,
+          `${isotope(4,2,"He")}`
+        ],
+        ans: "C",
+      },
+      {
+        id: 19,
+        question: `The symbol for an alpha particle is:`,
+        options: [  
+          `${isotope(1,0,"n")}`,
+          `${isotope(2,1,"H")}`,
+          `${isotope(3,2,"H")}`,
+          `${isotope(4,2,"He")}`
+        ],
+        ans: "D",
+      },
+      {
+        id: 20,
+        question: `In the decay of ${isotope(234,"","X")} by alpha emission, the reaction product is:`,
+        options: [  
+          `${isotope(230,92,"Y")}`,
+          `${isotope(234,92,"Y")}`,
+          `${isotope(232,90,"Y")}`,
+          `${isotope(234,90,"Y")}`
+        ],
+        ans: "A",
+      },
+    ]
   }
 ];
 
