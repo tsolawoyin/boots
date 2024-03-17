@@ -1,8 +1,9 @@
 // CHATGPT 3.5 HELPED WITH THE ANSWERS
 
 let englishQuestions = [
+
   {
-    topic: "1. Antonyms",
+    topic: "Antonyms",
     questions: [
       {
         id: 1,
@@ -3363,7 +3364,7 @@ let englishQuestions = [
   },
 
   {
-    topic: "2. Synonyms",
+    topic: "Synonyms",
     questions: [
       {
         id: 1,
@@ -5291,7 +5292,7 @@ let englishQuestions = [
   },
 
   {
-    topic: "3. Noun | Pronoun",
+    topic: "Noun | Pronoun",
     questions: [
       {
         id: 1,
@@ -6957,7 +6958,7 @@ let englishQuestions = [
   },
 
   {
-    topic: "4. Verb",
+    topic: "Verb",
     questions: [
       {
         id: 1,
@@ -9987,7 +9988,7 @@ let englishQuestions = [
   },
 
   {
-    topic: "5. Prepositions",
+    topic: "Prepositions",
     questions: [
       {
         id: 1,
@@ -11136,8 +11137,9 @@ let englishQuestions = [
       },
     ],
   },
+
   {
-    topic: "6. Adjectives, Articles, and Determiners | Adverbs",
+    topic: "Adjectives, Articles, and Determiners | Adverbs",
     questions: [
       {
         id: 1,
@@ -12466,7 +12468,7 @@ let englishQuestions = [
   },
 
   {
-    topic: "7. Rules of concord",
+    topic: "Rules of concord",
     questions: [
       {
         id: 1,
@@ -13385,7 +13387,7 @@ let englishQuestions = [
   },
 
   {
-    topic: "8. Interpretation of words and expressions",
+    topic: "Interpretation of words and expressions",
     questions: [
       {
         id: 1,
@@ -14126,37 +14128,7 @@ let englishQuestions = [
   },
 
   {
-    topic: "9. Idioms and sayings",
-    questions: [
-      {
-        id: 1,
-        question:
-          "The questions to this topic is currently being worked on. Please be patient...",
-        options: ["Thank you"],
-        ans: "A",
-        main: "",
-        remark: "",
-      },
-    ],
-  },
-
-  {
-    topic: "10. Phrasal verbs",
-    questions: [
-      {
-        id: 1,
-        question:
-          "The questions to this topic is currently being worked on. Please be patient...",
-        options: ["Thank you"],
-        ans: "A",
-        main: "",
-        remark: "",
-      },
-    ],
-  },
-
-  {
-    topic: "11. Interrogative question tags, reported speech",
+    topic: "Interrogative question tags, reported speech",
     questions: [
       {
         id: 1,
@@ -14831,7 +14803,7 @@ let englishQuestions = [
   },
 
   {
-    topic: "12. Spelling mistakes",
+    topic: "Spelling mistakes",
     questions: [
       {
         id: "b1of",
@@ -15415,7 +15387,7 @@ let englishQuestions = [
   },
 
   {
-    topic: "13. Common mistakes",
+    topic: "Common mistakes",
     questions: [
       {
         id: "d9k0",

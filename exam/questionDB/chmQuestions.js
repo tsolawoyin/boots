@@ -3,11 +3,7 @@ import { exp, formula, units, ion, eConfig, isotope } from "./helpers.js";
 // making sense.
 // chemical calculation requires modifying...
 let chemistryQuestions = [
-  // ===============================================================
-  // ===============================================================
-  //                      INORGANIC CHEMISTRY
-  // ===============================================================
-  // ===============================================================
+ 
   {
     topic: 'Descriptive Chemistry',
     questions: [
@@ -1140,9 +1136,7 @@ let chemistryQuestions = [
       },
     ]
   },
-  // ====== General chemsitry questions end here =====================
-  // =================================================================
-  // ============ OTHER TOPICS =======================================
+
   {
     topic: "Air and air pollution",
     questions: [
@@ -2173,12 +2167,7 @@ let chemistryQuestions = [
       },
     ],
   },
-  // ========== OTHER TOPIC END HERE ================================
-  // ================================================================
-  // ================================================================
-  //          GENERAL CHEMISTRY QUESTIONS
-  // ================================================================
-  // ================================================================
+  
   {   /// done and enough for now
     topic: "Atomic structure",
     questions: [

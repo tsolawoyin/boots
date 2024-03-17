@@ -75,8 +75,13 @@ function generateExamBtn(exams) {
 
     exams.forEach((e, i) => {
       let li = document.createElement("li");
-      li.textContent = trim(e.topic); // this is where I need to change stuff
-      // I want to change this one... let's work on it...
+      // right rendering of names....
+      if (e.topic.toLowerCase() == "general")  {
+        li.textContent = e.subject; 
+      } else {
+        li.textContent = trim(e.topic);
+      }
+
       li.className = "btn";
       li.id = `${e.subject}-${e.topic}`;
 

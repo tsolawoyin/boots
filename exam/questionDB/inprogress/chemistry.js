@@ -1,4 +1,4 @@
-import { units, formula, eConfig, isotope, ion, exp } from "./helpers.js"
+import { units, formula, eConfig, isotope, ion, exp } from "../helpers.js"
 let kineticTheoryOfMatter = [
   {
     id: 1,
