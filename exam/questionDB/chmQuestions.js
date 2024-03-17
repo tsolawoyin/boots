@@ -8687,6 +8687,656 @@ let chemistryQuestions = [
         ans: "A",
       },
     ]
+  },
+
+  {
+    topic: "Electrochemistry",
+    questions: [
+      {
+        id: 2,
+        question: `The current carriers that are responsible for the conductance of aqeous copper(II) tetraoxosulfate(VI) solution are`,
+        options: [  
+          `hydrated electrons`,
+          `hydrated ions`,
+          `ions`,
+          `electrons`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 5,
+        question: `Potassium chloride cannot conduct an electric current in the solid state because it`,
+        options: [  
+          `does not contain mobile ions`,
+          `is very soluble in water`,
+          `is an electrovalent compound`,
+          `is a neutral salt`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 6,
+        question: `An electrolyte is`,
+        options: [  
+          `aqueous solution of glucose`,
+          `hydrogen chloride in methyl benzene`,
+          `molten sodium chloride`,
+          `molten candle wax`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 7,
+        question: `Which of the following is a good conductor of electricity?`,
+        options: [  
+          `Methylbenzene`,
+          `Deionized water`,
+          `Mercury`,
+          `Sucrose solution`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 8,
+        question: `What happens to the conductivity of an electrolyte as its concentration reduces? It`,
+        options: [  
+          `increases`,
+          `decreases`,
+          `is unaffected`,
+          `reduces to zero`,
+        ],
+        ans: "A",
+        remark: "In general, the conductivity of an electrolyte(strong or weak) increases with increasing dilution or decreasing concentration"
+      },
+      {
+        id: 9,
+        question: `0.05${units("moldm",-3)} of KCl conducts electricity better than 0.05${units("moldm",-3)} ${formula("NH",3)} because the solution of KCl`,
+        options: [  
+          `is neutral`,
+          `has a lower pH`,
+          `is denser`,
+          `contains more ions`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 10,
+        question: `Which of the following liquids is a good conductor of an electric current?`,
+        options: [  
+          `Aqueous solution of glucose`,
+          `Aqueous solution of potassium chloride`,
+          `Mixture of water and ethanol`,
+          `Mixture of kerosene and petrol`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 11,
+        question: `Consider the 0.05${units("moldm",-3)} solutions of the substances<br />
+        I. ethanoic acid <br />
+        II. potassium ethanoate <br />
+        III. ammonia <br />
+        IV. ammonium chloride <br />
+        Which pair of substances would show the least conductance`,
+        options: [  
+          `I and II`,
+          `I and III`,
+          `I and IV`,
+          `II and IV`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 13,
+        question: `Which of the following aqeous solutions will conduct the least amount of electricity?`,
+        options: [  
+          `1.00${units("moldm",-3)} aqueous solution of KCl`,
+          `0.01${units("moldm",-3)} aqueous solution of KCl`,
+          `0.01${units("moldm",-3)} aqueous solution of ethanoic acid`,
+          `0.01${units("moldm",-3)} aqueous solution of glucose`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 14,
+        question: `During electrolysis,`,
+        options: [  
+          `negative ions are discharged at the anode by gaining sufficient electrons to become neutral`,
+          `positive ions are discharged at the anode by gaining sufficient electrons to become neutral`,
+          `negative ions are discharged at the anode by losing sufficient electrons to become neutral`,
+          `positive ions are discharged at the anode by losing sufficient electrons to become neutral`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 15,
+        question: `During the electrolysis of a caustic potash solution using platinum electrodes,`,
+        options: [  
+          `alkalinity at the cathode increases`,
+          `potassium metal is deposited at the anode`,
+          `potassium metal is deposited at the cathode`,
+          `oxygen gas is given off at the cathode`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 16,
+        question: `In the electrolysis of aqueous solution of ${formula("Na",2,"sO",4)}, which species migrate to the anode`,
+        options: [  
+          `${ion("Na","+")} and ${ion(formula("SO",4),
+          "2-")}`,
+          `${ion("Na","+")} and ${ion(formula("H"),
+          "+")}`,
+          `${ion(formula("H",3,"O"), "+")} and ${ion(formula("OH"), "-")}`,
+          `${ion(formula("SO",4),"2-")} amd ${ion("OH","-")}`
+        ],
+        ans: "D",
+      },
+      {
+        id: 17,
+        question: `The reaction that takes place in the cathode compartment during the electrolysis of ${formula("CuSO",4)} solution is`,
+        options: [  
+          `${formula(ion("Cu","2+"),"aq")} + 2${ion("e","-")} -> ${formula("Cu","s")}`,
+          `2${formula(ion("H","+"),
+          aq)} + 2${ion("e","-")} -> ${formula("H",2,"g")}`,
+          `${formula("Cu","s")} -> ${formula(ion("Cu","2+"),"aq")} + 2${ion("e","-")}`,
+          `${formula(ion("OH","-"),"aq")} + ${formula(ion("Cl","-"),"aq")} -> ${formula("HCl","aq")} + ${formula(ion("O","2-"),"aq")}`
+        ],
+        ans: "A",
+      },
+      {
+        id: 18,
+        question: `In the electrolysis of ${formula("CuSO",4)} solution using carbon electrodes, the products at the anode and cathode respectively are`,
+        options: [  
+          `hydrogen and copper`,
+          `copper and hydrogen`,
+          `oxygen and copper`,
+          `copper and oxygen`
+        ],
+        ans: "C",
+      },
+      {
+        id: 19,
+        question: `The reaction that takes place at the anode during the electrolysis of a very dilute aqueous solution of sodium chloride is`,
+        options: [  
+          `${formula(ion("Na","+"),"aq")} + ${ion("e","-")} -> Na/Hg amalgam`,
+          `4${formula(ion("OH","-"),"aq")} -> 2${formula("H",2,"O","l")} + ${formula("O",2,"g")} + 4${ion("e","-")}`,
+          `2${formula(ion("Cl","-"),"aq")} -> ${formula("Cl",2,"g")} + 2${ion("e","-")}`,
+          `${formula(ion("OH","-"),"aq")} + ${formula(ion("Cl","-"),"aq")} -> ${formula("HCl","aq")} + ${formula(ion("O","2-"),"aq")}`
+        ],
+        ans: "B",
+      },
+      {
+        id: 20,
+        question: `The electrolysis of ${formula("CuSO",4)} solution can be used to purify crude copper if the crude copper is`,
+        options: [  
+          `dissolved in the solution`,
+          `made both the anode and the cathode`,
+          `made the anode`,
+          `made the cathode`
+        ],
+        ans: "C",
+      },
+      {
+        id: 21,
+        question: `In the process of tin-plating a metal X, the metal X, is made the`,
+        options: [  
+          `anode and an alternating current is used`,
+          `anode and a direct current is used`,
+          `cathode and an alternating current is used`,
+          `cathode and a direct current is used`
+        ],
+        ans: "D",
+      },
+      {
+        id: 22,
+        question: `2${formula(ion("Cl","-"),"aq")} -> ${formula("Cl",2,"g")} + 2${formula(ion("e","-"),"aq")} <br />
+        The above half-cell reaction occurs at the anode during the electrolysis of conc. ${formula("CuCl",2)} using carbon electrodes. This reaction is`,
+        options: [  
+          `deionization`,
+          `disproportionation`,
+          `oxidation`,
+          `reduction`
+        ],
+        ans: "C",
+      },
+      {
+        id: 23,
+        question: `In the electrolysis of ${formula("CuSO",4)} solution using platinum electrodes, the solution gets progressively`,
+        options: [  
+          `amphoteric`,
+          `acidic`,
+          `basic`,
+          `neutral`
+        ],
+        ans: "B",
+      },
+      {
+        id: 24,
+        question: `A substance that decomposes when an electric current is passed through it is`,
+        options: [  
+          `sucrose solution`,
+          `copper rod`,
+          `tetraoxosulfate(VI) acid solution`,
+          `methylated spirit`
+        ],
+        ans: "C",
+      },
+      {
+        id: 25,
+        question: `Which of the following reactions takes place at the anode during the electrolysis of ${formula("CuSO",4,"aq")} using copper electrodes`,
+        options: [  
+          `Discharge of ${ion("Cu","2+")}`,
+          `Dissolution of copper electrode`,
+          `Discharge of ${ion("OH","-")}`,
+          `Discharge of ${ion(formula("SO",4),"2-")}`
+        ],
+        ans: "B",
+      },
+      {
+        id: 26,
+        question: `Which of the following ions is discharged at the anode during the electrolysis of a concentrated solution containing ${ion("H","+")}, ${ion("Cu","2+")}, ${ion("OH","-")}, and ${ion("Cl","-")} using carbon electrodes?`,
+        options: [  
+          `${ion("Cl","-")}`,
+          `${ion("OH","-")}`,
+          `${ion("Cu","2+")}`,
+          `${ion("H","+")}`
+        ],
+        ans: "A",
+      },
+      {
+        id: 27,
+        question: `Which of the following ions would migrate to the cathode during electrolysis?`,
+        options: [  
+          `sodium ions`,
+          `hydroxide ions`,
+          `sulphide ions`,
+          `chloride ions`
+        ],
+        ans: "A",
+      },
+      {
+        id: 28,
+        question: `The common feature of reaction at the cathode is that`,
+        options: [  
+          `electrons are produced`,
+          `ions are oxidized`,
+          `reduction is involved`,
+          `the electrolyte is diluted`
+        ],
+        ans: "C",
+      },
+      {
+        id: 29,
+        question: `Hydrogen and oxygen will be produced during the electrolysis (using platinum electrodes) of`,
+        options: [  
+          `dilute copper(II) chloride solution`,
+          `dilute sodium chloride solution`,
+          `concentrated hydrochloric acid`,
+          `glucose solution`
+        ],
+        ans: "B",
+      },
+      {
+        id: 30,
+        question: `What current in amperes will deposit 5.4g of aluminum in 2 hours?<br /> [Al = 27, F= 96500${units("Cmol",-1)}]`,
+        options: [  
+          `2.0`,
+          `4.0`,
+          `6.0`,
+          `8.0`
+        ],
+        ans: "D",
+      },
+      {
+        id: 31,
+        question: `What is the quantity of electricity required to deposit 128g of copper from molten copper(II) chloride?<br /> [Cu = 64; F= 96500${units("Cmol",-1)}]`,
+        options: [  
+          `1.93 X ${exp(5)}C`,
+          `3.86 X ${exp(5)}C`,
+          `1.93 X ${exp(6)}C`,
+          `3.86 X ${exp(6)}C`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 32,
+        question: `Calculate the maximum weight of copper deposited on the cathose if 0.2F of electricity was passed through a solution of ${formula("CuSO",4)}. [Cu = 64]`,
+        options: [  
+          `32.0g`,
+          `16.0g`,
+          `6.4g`,
+          `3.2g`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 33,
+        question: `If 24,000 coulombs of electricity are required to discharge 0.25 mole of potassium from a molten potassium chloride mass, then the number of coulombs required to discharge 3 moles of lead from molten lead(II) bromide is`,
+        options: [  
+          `384 000`,
+          `576 000`,
+          `192 000`,
+          `288 000`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 34,
+        question: `A current of 15.0A was passed for 30 minutes through a solution of silver trioxonitrate(V) between silver electrodes. Which of the following observations would be correct? (1F = 96500 coulombs) <br />
+        I. The original ${ion("Ag","+")} ion concentration of the solution remains unchanged. <br />
+        II. The original ${ion("Ag","+")} ion concentration of the solution decreases <br />
+        III. The original ${ion("Ag","+")} ion concentration of the solution increases <br />
+        IV. 0.280 mole of silver is dissolved from the anode <br />
+        IV. 0.280 mole of silver is dissolved from the cathode`,
+        options: [  
+          `I only`,
+          `I and IV only`,
+          `I, IV, and V`,
+          `II, IV, and V`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 36,
+        question: `If the cost of electricity required to deposit 1g of aluminium is #4.00, how much would it cost to deposit 24g of copper? [Al = 27, Cu = 64]`,
+        options: [  
+          `#27.02`,
+          `#37.02`,
+          `#47.02`,
+          `#57.02`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 37,
+        question: `What is the mass of copper deposited at the cathode by the passage of 32000 coulombs of electricity through ${formula("CuSO",4)} solution using copper electrodes? [Cu = 64]`,
+        options: [  
+          `21.12g`,
+          `10.56g`,
+          `5.28g`,
+          `2.64g`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 38,
+        question: `Copper(II) tetraoxosulphate(VI) is electrolysed using platinum electrodes. How many grams of copper are deposited when a current of 0.386A is passed for 50 minutes? <br />
+        [Cu = 64, F= 96500C]`,
+        options: [  
+          `0.924g`,
+          `0.880g`,
+          `0.768g`,
+          `0.384g`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 39,
+        question: `A quantity of electricity liberates 1.50g of aluminium from its ions. The mass of silver that will be liberated from its ions by the same quantity of electricity is <br />
+        [Al = 27; Ag = 108]`,
+        options: [  
+          `10.80g`,
+          `5.40g`,
+          `6.05g`,
+          `3.03g`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 41,
+        question: `If 6.4g of copper is deposited in a copper coulometer connected in series with a Hofman voltameter, the volume of oxygen liberated at stp is <br />
+        [Cu = 64; O = 16; GMV at stp = 22.4${units("dm",-3)}]`,
+        options: [  
+          `0.112${units("dm",-3)}`,
+          `11.2${units("dm",-3)}`,
+          `1..12${units("dm",-3)}`,
+          `22.4${units("dm",-3)}`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 42,
+        question: `If 0.1 Faraday of electricity deposited 3.2g of copper during the electrolysis of an aqueous solution, then, the number of moles of copper that will be deposited by 0.6F is <br />
+        [Cu = 64]`,
+        options: [  
+          `0.10`,
+          `0.15`,
+          `0.20`,
+          `0.30`
+        ],
+        ans: "D",
+      },
+      {
+        id: 43,
+        question: `How many kilograms of aluminium will be produced by the electrolysis of aluminium trioxonitrate(V) in a cell operating for 24 hours at 400 amperes? [Al = 27,  IF = 96500C]`,
+        options: [  
+          `3.2`,
+          `6.4`,
+          `9.6`,
+          `12.8`
+        ],
+        ans: "A",
+      },
+      {
+        id: 44,
+        question: `A current of 0.25A flows for 16 minutes 5 seconds and deposits 0.163g of a metal X during the electrolysis of an aqueous solution of a salt of the metal. What is the charge on the metal ion? <br />
+        [X = 65; IF = 96500C per mole of electrons]`,
+        options: [  
+          `4`,
+          `3`,
+          `2`,
+          `1`
+        ],
+        ans: "C",
+      },
+      {
+        id: 45,
+        question: `What volume of oxygen measured at stp would be liberated by passing a current of 10A through acidified water for 965 seconds?<br />
+        [Molar volume of a gas = 22.4${units("dm",-3)} at stp; F = 96500C]`,
+        options: [  
+          `5.60 ${units("dm",-3)}`,
+          `0.560 ${units("dm",-3)}`,
+          `11.2 ${units("dm",-3)}`,
+          `1.12 ${units("dm",-3)}`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 46,
+        question: `How many moles of zinc would be deposited by passing 5F of electricity through a solution of zinc tetraoxosulfate(VI)? [1F = 96500C]`,
+        options: [  
+          `1.0`,
+          `1.5`,
+          `2.0`,
+          `2.5`
+        ],
+        ans: "D",
+      },
+      {
+        id: 47,
+        question: `1.5F of electricity are passed through electrolytic cells containing ${ion("K","+")}, ${ion("Zn","2+")} and ${ion("Au","3+")} connected in series. How many moles of each metal would be formed at the cathode of each cell?`,
+        options: [  
+          `1.5 moles of K, 3.0 moles of Zn and 4.5 moles of Au`,
+          `1.5 moles of K, 1.5 moles of Zn and 1.5 moles of Au`,
+          `1.5 moles of K, 0.75 moles of Zn and 0.5 moles of Au`,
+          `0.5 moles of K, 1.0 moles of Zn and 1.5 moles of Au`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 48,
+        question: `A current of 20A is passed for 30 minutes during the electrolysis of gold(III) tetraoxosulfate(VI). The mass of gold deposited at the cathode is?<br />
+        [Au = 197; F = 96500C]`,
+        options: [  
+          `24.4g`,
+          `26.5g`,
+          `28.9g`,
+          `32.6g`
+        ],
+        ans: "A",
+      },
+      {
+        id: 49,
+        question: `What quantity of electricity will liberate 0.200 mole of oxygen molecules during the electrolysis of water? [1F = 96500C]`,
+        options: [  
+          `96500 coulombs`,
+          `77200 coulombs`,
+          `51467 coulombs`,
+          `25733 coulombs`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 50,
+        question: `What is the quantity of chlorine in moles liberated when a current of 15A is passed through molten potassium chloride in 1930 seconds? [1F = 96500C]`,
+        options: [  
+          `96500 coulombs`,
+          `77200 coulombs`,
+          `51467 coulombs`,
+          `25733 coulombs`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 51,
+        question: `What mass of bromine would be produced during the electrolysis of molten lead(II) bromide in which 10.35g of lead was deposited?<br />
+        [Pb = 207; Br = 80]`,
+        options: [  
+          `4.00g`,
+          `7.00g`,
+          `4.50g`,
+          `8.00g`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 52,
+        question: `One Faraday of electricity will produce one mole of`,
+        options: [  
+          `chlorine molecules`,
+          `oxygen molecules`,
+          `hydrogen atoms`,
+          `oxygen atoms`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 53,
+        question: `The first Faraday's law of electrolysis is expressed mathematically as`,
+        options: [  
+          `m &Proportional; 1/Q`,
+          `m &Proportional; Q`,
+          `m &Proportional; Q<sup>2</sup>`,
+          `m &Proportional; Q<sup>1/2</sup>`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 54,
+        question: `How many electrons (in mole) will discharge 2.0g of copper(II) ions, ${ion("Cu","2+")}? [Cu = 64]`,
+        options: [  
+          `0.03125 mole`,
+          `0.0625 mole`,
+          `0.0938 mole`,
+          `32.00 mole`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 55,
+        question: `If the overall reaction in a cell is<br />
+        ${formula("Mg","s")} + ${formula(ion("Cu","2+"),"aq")} -< ${formula(ion("Mg","2+"),"aq")} + ${formula("Cu","s")}. Its symbolic representation would be`,
+        options: [  
+          `${formula("Mg","s")}/${formula(ion("Mg","2+"),"aq")}//${formula(ion("Cu","2+"),"aq")}/${formula("Cu","s")}`,
+          `${formula("Mg","aq")}/${formula(ion("Mg","2+"),"s")}//${formula(ion("Cu","2+"),"s")}/${formula("Cu","aq")}`,
+          `${formula(ion("Cu","2+"),"s")}/${formula("Cu","aq")}//${formula("Mg","aq")}/${formula(ion("Mg","2+"),"s")}`,
+          `${formula("Mg","aq")}/${formula(ion("Mg","2+"),"aq")}//${formula(ion("Cu","2+"),"aq")}/${formula("Cu","aq")}`
+        ],
+        ans: "A",
+      },
+      {
+        id: 56,
+        question: `A feasible cell was constructed by combining the two half cells below:<br />
+        ${formula(ion("Cu"),"aq")} + 2${ion("e","-")} -> ${formula("Cu","s")}; E&deg; = +0.34V<br />
+        ${formula(ion("Fe","2+"),"aq")} + 2${ion("e","-")} -> ${formula("Fe","s")}; E&deg; = -0.44V`,
+        options: [  
+          `-0.78V`,
+          `-0.10V`,
+          `+0.10V`,
+          `+0.78V`
+        ],
+        ans: "D",
+      },
+      {
+        id: 58,
+        question: `${formula("Mg","s")} -> ${formula(ion("Mg","2+"),"aq")} + 2${ion("e","-")}; E&deg; = +2.37V<br />
+        2${formula("Ag","s")} -> 2${formula(ion("Ag","+"),"aq")} + 2${ion("e","-")}; E&deg; = -0.80V<br />
+        The standard electrode potential of the magnesium -silver cell represented by the half-cell reaction above is`,
+        options: [  
+          `-3.17V`,
+          `+3.17V`,
+          `+1.57V`,
+          `-1.57V`
+        ],
+        ans: "B",
+      },
+      {
+        id: 59,
+        question: `The most suitable method for preventing the rusting of petroleum pipelines is`,
+        options: [  
+          `cathodic protection with magnesium`,
+          `tin-plating`,
+          `painting`,
+          `greasing`
+        ],
+        ans: "A",
+      },
+      {
+        id: 60,
+        question: `Why is iron galvanized with zinc is cathodically protected from corrosion? This is because`,
+        options: [  
+          `zinc has a less negative reduction potential than iron`,
+          `zinc has a more negative reduction potential than iron`,
+          `both zinc and iron have the same reduction potential`,
+          `zinc is tougher than iron`
+        ],
+        ans: "B",
+      },
+      {
+        id: 61,
+        question: `The element used as an electrode in car batteries is`,
+        options: [  
+          `sodium`,
+          `potassium`,
+          `magnesium`,
+          `lead`
+        ],
+        ans: "D",
+      },
+      {
+        id: 62,
+        question: `Which of the following metals can be used as sacrificial cathode for preventing corrosion of a length of iron pipe?`,
+        options: [  
+          `Silver`,
+          `Copper`,
+          `Magnesium`,
+          `Manganese`
+        ],
+        ans: "C",
+      },
+      {
+        id: 63,
+        question: `Which of the following reactions is exemplified by rusting of iron?`,
+        options: [  
+          `Decomposition`,
+          `Displacement reaction`,
+          `Neutralization`,
+          `Redox reaction`
+        ],
+        ans: "D",
+      },
+    ]
   }
 ];
 
