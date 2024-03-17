@@ -2,7 +2,7 @@
 
 Welcome to my codebase. Yes I'm open-source and I need your help to grow. [Would you like to contribute?](./CONTRIBUTING.md)
 
-Proudly sponsored by `BOOTS` 💎
+                          Proudly sponsored by `BOOTS` 💎
 
 ### About me
 
