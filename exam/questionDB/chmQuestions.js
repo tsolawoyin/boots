@@ -9443,18 +9443,7 @@ let chemistryQuestions = [
       },
       {
         id: 10,
-        question: `Corrosion is exhibites by`,
-        options: [  
-          `Electropositive metals`,
-          `Iron only`,
-          `All metals`,
-          `Metals below hydrogen in the electrochemical series`,
-        ],
-        ans: "C",
-      },
-      {
-        id: 10,
-        question: `Corrosion is exhibites by`,
+        question: `Corrosion is exhibited by`,
         options: [  
           `Electropositive metals`,
           `Iron only`,
@@ -9677,7 +9666,7 @@ let chemistryQuestions = [
         question: `Which of the following is a major gas emitted during cement production`,
         options: [  
           `Nitrogen(IV) oxide`,
-          `Methane`
+          `Methane`,
           `Carbon(IV) oxide`,
           `chlorofluorocarbons`,
         ],
@@ -9688,7 +9677,7 @@ let chemistryQuestions = [
         question: `Which of the following is generated during the manufacture of fertilizer?`,
         options: [  
           `Hydrogen sulfide`,
-          `Carbon(IV) oxide`
+          `Carbon(IV) oxide`,
           `Sulfur(IV) oxide`,
           `Lead`,
         ],
@@ -9699,7 +9688,7 @@ let chemistryQuestions = [
         question: `Which of the following contributes to acid rain?`,
         options: [  
           `Methane`,
-          `Nitrogen(IV) oxide`
+          `Nitrogen(IV) oxide`,
           `Heavy metals`,
           `Hydrogen sulfide`,
         ],
@@ -9707,10 +9696,10 @@ let chemistryQuestions = [
       },
       {
         id: 33,
-        question: `The gaseous pollutant sulfur(IV) oxide will likwly be detected in the neighbourhood of:`,
+        question: `The gaseous pollutant sulfur(IV) oxide will likely be detected in the neighbourhood of:`,
         options: [  
           `a factory where mercury is being extracted from its ore`,
-          `a factory where aluminium is being extracted from bauxite`
+          `a factory where aluminium is being extracted from bauxite`,
           `a factory where iron is being extracted from its ore`,
           `a factory manufacturing margarine`,
         ],
@@ -9721,7 +9710,7 @@ let chemistryQuestions = [
         question: `Which of the following is emitted from aerosol sprays and air conditioners`,
         options: [  
           `Hydrogen sulfide`,
-          `Carbon(IV) oxide`
+          `Carbon(IV) oxide`,
           `Chlorofluorocarbons`,
           `Sulfur(IV) oxide`,
         ],
