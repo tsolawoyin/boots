@@ -1764,7 +1764,7 @@ let biologyQuestions = [
   },
   // these stuffs helps summarize everything... Higher plants is next... abi now sef. which one is next...b
   {
-    topic: "6. Higher Plants",
+    topic: "Higher Plants",
     questions: [
       {
         id: 1,
@@ -2144,7 +2144,7 @@ let biologyQuestions = [
   },
   // I am here. Makes sense
   {
-    topic: "7. Evolution Among Invertebrates",
+    topic: "Evolution Among Invertebrates",
     questions: [
       {
         id: 1,
@@ -2539,7 +2539,7 @@ let biologyQuestions = [
       },
     ],
   },
-
+  // done...
   {
     topic: "The Arthropods",
     questions: [
@@ -3051,18 +3051,10 @@ let biologyQuestions = [
       },
     ],
   },
-
+  // next up...
   {
-    topic: "9. The Vertebrates Pisces. Amphibians. Reptiles",
+    topic: "The Vertebrates Pisces. Amphibians. Reptiles",
     questions: [
-      {
-        id: 1,
-        question:
-          "During the movement of fish A. to target B, one of these parts is not involve",
-        options: ["7", "5", "3", "6", "10"],
-
-        ans: "e",
-      },
       {
         id: 2,
         question:
@@ -3500,7 +3492,7 @@ let biologyQuestions = [
           "securing mates",
           "escape",
         ],
-        ans: "c",
+        ans: "C",
       },
     ],
   },

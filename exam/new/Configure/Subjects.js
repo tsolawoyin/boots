@@ -30,13 +30,13 @@ const biology = new Subject("Biology", [
   "Higher Plants",
   "Evolution Among Invertebrates",
   "The Arthropods",
-  "The Vertebrates Pisces. Amphibians. Reptiles",
-  "The Vertebrate II-Birds And Mammals",
-  "Plant Nutrition",
-  "Animal nutrition and food substances",
-  "Digestive system, Digestive enzyme and Dentition",
-  "Supporting Tissues In Plants And Movement",
-  "Supporting Tissues In Animals",
+  // "The Vertebrates Pisces. Amphibians. Reptiles",
+  // "The Vertebrate II-Birds And Mammals",
+  // "Plant Nutrition",
+  // "Animal nutrition and food substances",
+  // "Digestive system, Digestive enzymes and Dentition",
+  // "Supporting Tissues In Plants And Movement",
+  // "Supporting Tissues In Animals",
 ]);
 // this is going to be all english for now...
 // I will finish this as soon as possible...
