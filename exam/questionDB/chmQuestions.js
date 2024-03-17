@@ -7524,6 +7524,962 @@ let chemistryQuestions = [
         ans: "C",
       },
     ]
+  },
+
+  {
+    topic: 'Matter',
+    questions: [
+      {
+        id: 1,
+        question: `A liquid begins to boil when`,
+        options: [  
+          `constituent particles acquire energy which make them slide over one another`,
+          `constituent particles acquire energy above the average energy`,
+          `constituents particles acquire energy below the average kinetic energy`,
+          `constituent particles acquire a greater kinetic energy`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 2,
+        question: `Pure water can be made to boil below 100&deg;C under`,
+        options: [  
+          `increased volume`,
+          `decreased volume`,
+          `increased external pressure on it`,
+          `decreased external pressure on it`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 5,
+        question: `Ice, water and steam`,
+        options: [  
+          `have the same physical properties`,
+          `are different allotropes`,
+          `are chemically alike`,
+          `have different molar masses`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 7,
+        question: `The addition of water to calcium carbide results to`,
+        options: [  
+          `a mixture`,
+          `no change`,
+          `a chemical change`,
+          `a physical change`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 8,
+        question: `At the melting point of a solid, the constituent particles`,
+        options: [  
+          `acquire energy much below the average kinetic energy`,
+          `vibrate vigorously and acquire energy that overcomes the attractive forces`,
+          `acquire energy slightly less than the attractive forces`,
+          `acquire energy equal to the attractive forces`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 9,
+        question: `An organic solid melts between 115&deg;C - 122&deg;C. This indicates that that the solid is`,
+        options: [  
+          `pure`,
+          `impure`,
+          `efflorescent`,
+          `hygroscopic`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 10,
+        question: `A physical property is`,
+        options: [  
+          `rusting`,
+          `precipitation`,
+          `neutralization`,
+          `melting point`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 11,
+        question: `An example of physical change is`,
+        options: [  
+          `rusting of iron`,
+          `souring of milk`,
+          `burning of wood`,
+          `dissolution of a salt in water`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 12,
+        question: `What do allotropes have in common?`,
+        options: [  
+          `melting point`,
+          `solubility`,
+          `chemical reactions`,
+          `state of matter`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 13,
+        question: `Metals conduct an electric current due to the presence of`,
+        options: [  
+          `bounded electrons`,
+          `free mobile electrons`,
+          `crystal lattice structure`,
+          `vacant atomic orbitals`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 14,
+        question: `Which of the following oxides would produce an aqeuous solution having a pH less than 7?`,
+        options: [  
+          `sodium oxide`,
+          `calcium oxide`,
+          `copper(II) oxide`,
+          `carbon(IV) oxide`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 15,
+        question: `The phenomenon in which carbon exists in two major forms in the solid state is known as`,
+        options: [  
+          `isomorphism`,
+          `allotropy`,
+          `isomerism`,
+          `isotopy`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 16,
+        question: `Iron can be extracted from`,
+        options: [  
+          `haemitite`,
+          `cryolite`,
+          `cassiterite`,
+          `bauxite`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 17,
+        question: `Diamond is used in abrasives because of its`,
+        options: [  
+          `high melting point`,
+          `lustre`,
+          `hardness`,
+          `density`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 18,
+        question: `An alloy of mercury is:`,
+        options: [  
+          `coinage bronze`,
+          `soft solder`,
+          `amalgam`,
+          `stainless steel`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 19,
+        question: `Which one of the following oxide is amphoteric`,
+        options: [  
+          `MgO`,
+          `${formula("CO",2)}`,
+          `${formula("Al",2,"O",3)}`,
+          `CuO`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 20,
+        question: `All the following statements are false except`,
+        options: [  
+          `Metals conduct electricity while non-metals do not`,
+          `Metals form basic oxides while non-metals form acidic oxides only`,
+          `In the electrochemical series, metals are above hydrogen while non-metals are below hydrogen`,
+          `Metals are malleable while non-metals are brittle`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 21,
+        question: `The constituents of stainless steel are`,
+        options: [  
+          `carbon, iron and lead`,
+          `carbon, iron and chromium`,
+          `carbon, iron and copper`,
+          `carbon, iron and silver`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 22,
+        question: `In which of the following pairs of elements do the two elements exhibit allotropy`,
+        options: [  
+          `phosphorus and hydrogen`,
+          `oxygen and chlorine`,
+          `sulfur and nitrogen`,
+          `oxygen and sulfur`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 23,
+        question: `All the following allotropes cannot conduct electricity except`,
+        options: [  
+          `rhombic sulfur`,
+          `graphite`,
+          `diamond`,
+          `red phosphorus`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 24,
+        question: `Bronze is an alloy of copper and`,
+        options: [  
+          `aluminium`,
+          `zinc`,
+          `tin`,
+          `iron`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 25,
+        question: `Brass is an alloy of`,
+        options: [  
+          `copper and zinc`,
+          `copper and tin`,
+          `iron and zinc`,
+          `lead and aluminium`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 26,
+        question: `Which of the following oxides is neutral?`,
+        options: [  
+          `${formula("SO",2)}`,
+          `${formula("Al",2,"O",3)}`,
+          `${formula("CO")}`,
+          `${formula("CO",2)}`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 27,
+        question: `In which of the following pairs is each of the two members forms higher oxide on reacting with oxygen?`,
+        options: [  
+          `${formula("SO",2)} and ${formula("NO")}`,
+          `${formula("CO",2)} and ${formula("H","2","O")}`,
+          `${formula("CO")} and ${formula("CO",2)}`,
+          `${formula("NO")} and ${formula("H",2,"O")}`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 28,
+        question: `An element that would combine with oxygen to form an amphoteric oxide is`,
+        options: [  
+          `Mg`,
+          `Al`,
+          `Ag`,
+          `Cu`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 29,
+        question: `The following are chemical changes except`,
+        options: [  
+          `passing of steam over heated iron`,
+          `dissolution of sodium choride in water`,
+          `bubbling of chlorine into a jar containing hydrogen`,
+          `bubbling of chlorine into water`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 30,
+        question: `The following are pairs of impure substances only except`,
+        options: [  
+          `Petroleum and Rubber Latex`,
+          `Ethanol and Propanone`,
+          `Petroleum and Ethanol`,
+          `Rubber Latex and Propanone`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 31,
+        question: `Duralumin is an alloy consisting of`,
+        options: [  
+          `copper, aluminium, lead and manganese`,
+          `deuterium and aluminium`,
+          `aluminium, copper, manganese and magnesium`,
+          `nickel, gold, aluminium and copper`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 32,
+        question: `Which of the following is an impure substance?`,
+        options: [  
+          `Distilled water`,
+          `Ethanoic acid`,
+          `Sulfur powder`,
+          `Bronze`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 33,
+        question: `Given the following equations: <br />
+        ${formula("Al",2,"O",3,"s")} + 6${formula("HCl","aq")} -> 2${formula("AlCl",3,"aq")} + 3${formula("H",2,"O","l")}<br />
+        ${formula("Al",2,"O",3,"s")} + 2${formula("KOH","aq")} + 3${formula("H",2,"O","l")} -> 2KAl${formula("(OH)",4,"aq")} <br />
+        It can be deduced that ${formula("Al",2,"O",3)} is`,
+        options: [  
+          `a neutral oxide`,
+          `an acidic oxide`,
+          `a basic oxide`,
+          `an amphoteric oxide`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 34,
+        question: `The passage of sulphur(IV) oxide gas into water leads to`,
+        options: [  
+          `a mixture`,
+          `an exothermic change`,
+          `a chemical change`,
+          `a physical change`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 35,
+        question: `Alloys are preferred to pure metals in construction works because`,
+        options: [  
+          `metals are malleable and ductile`,
+          `alloys are mixtures of metals`,
+          `metals are harder than alloys`,
+          `metallic properties are improved upon in alloys`,
+      ],
+        ans: "D",
+      },
+      {
+        id: 36,
+        question: `The following statements about graphite are correct except that it`,
+        options: [  
+          `is a form of carbon`,
+          `contains mobile free ions`,
+          `is used as a lubricant`,
+          `has a layer lattice structure`,
+      ],
+        ans: "B",
+      },
+      {
+        id: 37,
+        question: `Which of the following metallic oxides is amphoteric?`,
+        options: [  
+          `PbO`,
+          `CuO`,
+          `MgO`,
+          `${formula("Fe",2,"O",3)}`,
+      ],
+        ans: "A",
+      },
+      {
+        id: 38,
+        question: `Diamond and graphite are forms of the same element (carbon) because they`,
+        options: [  
+          `both have the same density`,
+          `both conduct electricity`,
+          `both form carbon(IV) oxide on combustion`,
+          `are both used as lubricants`,
+      ],
+        ans: "C",
+      },
+      {
+        id: 39,
+        question: `The ore which aluminium is extracted is`,
+        options: [  
+          `cassiterite`,
+          `magnetite`,
+          `malachite`,
+          `bauxite`,
+      ],
+        ans: "D",
+      },
+      {
+        id: 40,
+        question: `Metals are ductile because they`,
+        options: [  
+          `can be hammered into sheets`,
+          `can be drawn into different shapes`,
+          `can be alloyed`,
+          `can make a sound note when struct`,
+      ],
+        ans: "B",
+      },
+      {
+        id: 41,
+        question: `Which of the following is not a metal ore?`,
+        options: [  
+          `Haemetite`,
+          `Graphite`,
+          `Cassiterite`,
+          `Bauxite`,
+      ],
+        ans: "B",
+      },
+      {
+        id: 42,
+        question: `Which of the following alloys is used in the building of the body of aircraft`,
+        options: [  
+          `Duralumin`,
+          `Brass`,
+          `Bronze`,
+          `Steel`,
+      ],
+        ans: "A",
+      },
+      {
+        id: 43,
+        question: `Aluminium is extracted from its ore by`,
+        options: [  
+          `reduction with coke`,
+          `oil floatation`,
+          `roasting`,
+          `electrolytic reduction`,
+      ],
+        ans: "D",
+      },
+      {
+        id: 44,
+        question: `Graphite is used as a lubricant because it`,
+        options: [  
+          `has a sliding layer structure`,
+          `has mobile free electrons`,
+          `is an allotrope of carbon`,
+          `has no free electrons`,
+      ],
+        ans: "A",
+      },
+      {
+        id: 45,
+        question: `The following gases may be dried with conc. ${formula("H",2,"SO",4)} except`,
+        options: [  
+          `${formula("SO",2)}`,
+          `${formula("NH",3)}`,
+          `${formula("HCl")}`,
+          `${formula("N",2)}`,
+      ],
+        ans: "B",
+      },
+      {
+        id: 46,
+        question: `Which of the following compounds is deliquescent?`,
+        options: [  
+          `NaCl`,
+          `${formula("NaNO",3)}`,
+          `${formula("Na",2,"CO",3)}.10${formula("H",2,"O")}`,
+          `${formula("CaCl",2)}`,
+      ],
+        ans: "D",
+      },
+      {
+        id: 47,
+        question: `An anhydride is an oxide whose aqueous solution has`,
+        options: [  
+          `a pH less than 7`,
+          `no water of crystallization`,
+          `hydrogen atoms`,
+          `a pH grater than 7`,
+      ],
+        ans: "A",
+      },
+      {
+        id: 48,
+        question: `An oxide is said to be amphoteric if`,
+        options: [  
+          `it is an amorphous oxide of a metal`,
+          `it is an amorphous oxide of a non-metal`,
+          `it loses its oxygen on sublimation`,
+          `it behaves both as a base as well as an acid`,
+      ],
+        ans: "D",
+      },
+      {
+        id: 49,
+        question: `Sodium tetraoxosulfate(VI) decahydrate loses its water of crystallization on exposure to air. The process is known as`,
+        options: [  
+          `dehydration`,
+          `efflorescency`,
+          `hygroscopy`,
+          `deliquescency`,
+      ],
+        ans: "B",
+      },
+      {
+        id: 50,
+        question: `A substance commonly used for drying ammonia gas is`,
+        options: [  
+          `concentrated tetraoxosulfate(VI) acid`,
+          `magnesium trioxonitrate(V)`,
+          `quicklime`,
+          `anhydrous calcium carbide`,
+      ],
+        ans: "C",
+      },
+      {
+        id: 51,
+        question: `Which of the following substances is not hygroscopic`,
+        options: [  
+          `NaOH pellets`,
+          `conc. ${formula("H",2,"SO",4)}`,
+          `anhydrous ${formula("FeCl",3)}`,
+          `anhydrous ${formula("Na",2,"CO",3)}`,
+      ],
+        ans: "D",
+      },
+      {
+        id: 52,
+        question: `Which of the following compounds is efflorescent?`,
+        options: [  
+          `Concentrated ${formula("H",2,"SO",4)}`,
+          `${formula("CuO")}`,
+          `${formula("Na",2,"CO",3)}.10${formula("H",2,"O")}`,
+          `Fused ${formula("CaCl",2)}`,
+      ],
+        ans: "C",
+      },
+      {
+        id: 53,
+        question: `The increase in mass of fused calcium chloride on exposure to the atmosphere can be attributed to the presence of`,
+        options: [  
+          `moisture`,
+          `dust particles`,
+          `nitrogen`,
+          `noble gases`,
+      ],
+        ans: "A",
+      },
+      {
+        id: 54,
+        question: `Compounds that are deliquescent are also said to be`,
+        options: [  
+          `insoluble`,
+          `efflorescent`,
+          `anhydrous`,
+          `hygroscopic`,
+      ],
+        ans: "D",
+      },
+      {
+        id: 55,
+        question: `A compound that absorbs moisture from the atmosphere and eventually forms a solution is said to be`,
+        options: [  
+          `efflorescent`,
+          `hygroscopic`,
+          `anhydrous`,
+          `deliquescent`,
+      ],
+        ans: "D",
+      },
+      {
+        id: 56,
+        question: `If two weighed salts W and X were left exposed in the laboratory overnight. In the following morning W has gained weight and X has turned into a liquid, what can be said of W and X?`,
+        options: [  
+          `X is efflorescent`,
+          `W and X are efflorescent`,
+          `W and X are deliquescent`,
+          `W and X are hygroscopic`,
+      ],
+        ans: "D",
+      },
+      {
+        id: 57,
+        question: `On exposure to dry atmosphere, the crystals of sodium trixocarbonate(IV) changed to a white powder. The phenomenon that accounts or this is?`,
+        options: [  
+          `efflorescence`,
+          `hygroscopy`,
+          `oxidation`,
+          `deliquescence`,
+      ],
+        ans: "A",
+      },
+      {
+        id: 58,
+        question: `Which one of the following contains an efflorescent, a deliquescent and a hygroscopic substance respectively`,
+        options: [  
+          `${formula("Na",2,"SO",4)}, concentrated ${formula("H",2,"SO",4)}, ${formula("CaCl",2)}`,
+          `${formula("Na",2,"CO",3)}.${formula("H",2,"O")}, ${formula("FeSO",4)}.7${formula("H",2,"O")}, concentrated ${formula("H",2,"SO",4)}`,
+          `${formula("Na",2,"CO",3)}.10${formula("H",2,"O")}, ${formula("NaOH")} pellet, concentrated ${formula("H",2,"SO",4)}`,
+          `concentrated ${formula("H",2,"SO",4)}, ${formula("FeSO",4)}.7${formula("H",2,"O")}, ${formula("Mg","Cl",2)}`,
+      ],
+        ans: "C",
+      },
+      {
+        id: 59,
+        question: `Why should sodium hydroxide pellets be stored in properly closed containers? A NaOH pellets`,
+        options: [  
+          `readily absorbs water vapor from the air`,
+          `is easily oxidized by atmospheric oxygen`,
+          `turns golden yellow when exposed to light`,
+          `melts at a low temperature`
+      ],
+        ans: "A",
+      },
+      {
+        id: 60,
+        question: `The scattering of a beam of light in a gel is known as`,
+        options: [  
+          `dialysis`,
+          `brownian motion`,
+          `tyndall effect`,
+          `fluorescence`
+      ],
+        ans: "C",
+      },
+      {
+        id: 61,
+        question: `A mixture of two immiscible liquids can be separated by`,
+        options: [  
+          `separating funnel`,
+          `distillation`,
+          `filtration`,
+          `chromatography`
+      ],
+        ans: "A",
+      },
+      {
+        id: 62,
+        question: `The method of sepatation employed in separating sodium chloride crystals from seawater is`,
+        options: [  
+          `neutralization`,
+          `evaporation`,
+          `sedimentation`,
+          `condensation`
+      ],
+        ans: "B",
+      },
+      {
+        id: 63,
+        question: `The factor considered in chromatography, a method of separation, is the difference in the rate of`,
+        options: [  
+          `diffusion of the constituents of a mixture`,
+          `migration of the constituents of a mixture`,
+          `reaction of the constituents of a mixture`,
+          `sedimentation of the constituents of a mixture`
+      ],
+        ans: "B",
+      },
+      {
+        id: 64,
+        question: `The salient difference between colloids and suspensions is the fact that while colloids`,
+        options: [  
+          `do not scatter light, suspension do`,
+          `can be separated by filtration, suspensions cannot be so separated`,
+          `can be separated by a membrane, suspensions cannot`,
+          `do not settle on standing, suspensions do`
+      ],
+        ans: "D",
+      },
+      {
+        id: 65,
+        question: `Ammonium chloride can be separated from an impure source by`,
+        options: [  
+          `distillation`,
+          `filtration`,
+          `decantation`,
+          `sublimation`
+      ],
+        ans: "D",
+      },
+      {
+        id: 66,
+        question: `What is the constituent that is common to both bronze and brass?`,
+        options: [  
+          `zinc`,
+          `copper`,
+          `aluminium`,
+          `lead`
+      ],
+        ans: "B",
+      },
+      {
+        id: 68,
+        question: `The nitrogen got from the liquefaction of air is denser than that got from nitrogen containing compounds due to the fact that the former contains`,
+        options: [  
+          `oxygen`,
+          `noble gases`,
+          `water vapor`,
+          `carbon(IV) oxide`
+      ],
+        ans: "B",
+      },
+      {
+        id: 69,
+        question: `The collision of dust particles randomly in a beam of sunlight is termed`,
+        options: [  
+          `diffusion`,
+          `dialysis`,
+          `tyndall effect`,
+          `brownian movement`
+      ],
+        ans: "D",
+      },
+      {
+        id: 70,
+        question: `All the following factors affect the choice of methods for separation of mixtures except`,
+        options: [  
+          `molar mass`,
+          `solubility`,
+          `particle size`,
+          `magnetic property`
+      ],
+        ans: "A",
+      },
+      {
+        id: 71,
+        question: `Which will be the residue in the reaction represented by the equation below if the reaction mixture is filtered? <br />
+        ${formula("I","aq")} + ${formula("J", "aq")} -> ${formula("K","s")} + ${formula("M","aq")} + ${formula("N","aq")}`,
+        options: [  
+          `I`,
+          `J`,
+          `K`,
+          `M`
+      ],
+        ans: "C",
+      },
+      {
+        id: 72,
+        question: `The separatory funnel technique is based on difference in`,
+        options: [  
+          `bioling point`,
+          `volatility`,
+          `particle size`,
+          `miscibility`
+      ],
+        ans: "D",
+      },
+      {
+        id: 73,
+        question: `Which of the following mixtures can be separated by means of filtration?`,
+        options: [  
+          `sodium chloride and potassium trioxonitrate(V)`,
+          `sodium chloride and sand`,
+          `sodium chloride and lead trioxonitrate(V)`,
+          `sodium chloride and sugar`
+      ],
+        ans: "B",
+      },
+      {
+        id: 74,
+        question: `Chlorophyll pigment can be shown to be a mixture of chemical compounds by`,
+        options: [  
+          `crystallization`,
+          `hydrolysis`,
+          `sublimation`,
+          `chromatography`
+      ],
+        ans: "A",
+      },
+      {
+        id: 75,
+        question: `The separation of a band of ink into its various components is by`,
+        options: [  
+          `fractional crystallization`,
+          `fractional distillation`,
+          `chromatography`,
+          `sublimation`
+      ],
+        ans: "C",
+      },
+      {
+        id: 76,
+        question: `One of the following is a mixture`,
+        options: [  
+          `granulated sugar`,
+          `sea-water`,
+          `sodium chloride`,
+          `iron fillings`
+      ],
+        ans: "B",
+      },
+      {
+        id: 77,
+        question: `In which of the following can fractional distillation be used as a means of sepatation?`,
+        options: [  
+          `Nitrogen from liquid air`,
+          `Sodium chloride from seawater`,
+          `Iodine from a solution of iodine in carbon tetrachloride`,
+          `Sulfur from a solution of sulfur in carbon disulphide`
+      ],
+        ans: "A",
+      },
+      {
+        id: 78,
+        question: `The following mixtures are homogenous except`,
+        options: [  
+          `filtered seawater`,
+          `air`,
+          `flood water`,
+          `writing ink`
+      ],
+        ans: "C",
+      },
+      {
+        id: 79,
+        question: `An emulsion paint is a colloid in which`,
+        options: [  
+          `gas or liquid particle dispersed in a liquid`,
+          `liquid particles dispersed in a liquid`,
+          `solid particles dispersed in a liquid`,
+          `solid particles dispersed in a solid`
+      ],
+        ans: "B",
+      },
+      {
+        id: 80,
+        question: `When air is passed through alkaline solution of pyrogallol, lime water and then over fused calcium chloride, the gases left are:`,
+        options: [  
+          `oxygen and nitrogen`,
+          `the noble gases and water vapor`,
+          `nitrogen and noble gases`,
+          `nitrogen, noble gases and carbon(IV) oxide`
+      ],
+        ans: "C",
+      },
+      {
+        id: 81,
+        question: `Which of the following separation techniques is used to isolate high quality ethanol from palm wine?`,
+        options: [  
+          `evaporation`,
+          `simple distillation with a dehydrant`,
+          `fractional distillation with a dehydrant`,
+          `fractional distillation without a dehydrant`
+      ],
+        ans: "C",
+      },
+      {
+        id: 82,
+        question: `Mist consists of`,
+        options: [  
+          `solid particles dispersed in liquid`,
+          `liquid particles dispersed in liquid`,
+          `gas or liquid particles dispersed in liquid`,
+          `liquid particles dispersed in gas`
+      ],
+        ans: "D", // CONFIRM ANSWER
+      },
+      {
+        id: 83,
+        question: `Petroleum is refined into useful products by`,
+        options: [  
+          `catalytic reforming`,
+          `column chromatography`,
+          `fractional distillation`,
+          `thermal decomposition`
+      ],
+        ans: "C",
+      },
+      {
+        id: 84,
+        question: `The physical property used in obtaining nitrogen and oxygen industrially from liquid air is the`,
+        options: [  
+          `melting point`,
+          `boiling point`,
+          `diffusion`,
+          `retention factor`
+      ],
+        ans: "B",
+      },
+      {
+        id: 85,
+        question: `Soap lather is a colloidal system in which a`,
+        options: [  
+          `gas is dispersed in a liquid`,
+          `liquid is dispersed in another liquid`,
+          `solid is dispersed in a liquid`,
+          `liquid is dispersed in a gas`
+      ],
+        ans: "A",
+      },
+      {
+        id: 86,
+        question: `A chemical reaction is involved in`,
+        options: [  
+          `fractional distillation`,
+          `precipitation`,
+          `chromatography`,
+          `sublimation`
+      ],
+        ans: "B",
+      },
+      {
+        id: 87,
+        question: `The solute in a colloidal solution can`,
+        options: [  
+          `sedimentate`,
+          `scatter light rays`,
+          `not scatter light rays`,
+          `not dialyze`
+      ],
+        ans: "B",
+      },
+      {
+        id: 88,
+        question: `A sample of air that has been passed through caustic soda will`,
+        options: [  
+          `be free of noble gas`,
+          `not turn lim water milky`,
+          `rekindle a glowing splint`,
+          `be moisture free`
+      ],
+        ans: "B",
+      },
+      {
+        id: 89,
+        question: `A mixture of ${formula("KCl","s")} and ${formula("CuCO",3,"s")} is best separated by`,
+        options: [  
+          `dissolution followed by crystallization`,
+          `dissolution followed by filtration`,
+          `dissolution followed by sublimation`,
+          `dissolution follwed by evaporation`
+      ],
+        ans: "B",
+      },
+      {
+        id: 90,
+        question: `A separatory funnel can be used to separate a mixture of water and`,
+        options: [  
+          `methanol`,
+          `methylated spirit`,
+          `methanoic acid`,
+          `petroleum spirit`
+      ],
+        ans: "D",
+      },
+    ]
   }
 ];
 
