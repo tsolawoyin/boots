@@ -9608,7 +9608,7 @@ let chemistryQuestions = [
       },
       {
         id: 25,
-        question: `Which of the following is associated with global warmning?`,
+        question: `Which of the following is associated with global warming?`,
         options: [  
           `Hydrogen sulphide`,
           `Sulphur(IV) oxide`,
@@ -9861,7 +9861,7 @@ let chemistryQuestions = [
       },
       {
         id: 48,
-        question: `Which of the following water samples will have the highest concentrations of ${formula("Ca","2+")} ions.`,
+        question: `Which of the following water samples will have the highest concentrations of ${ion("Ca","2+")} ions.`,
         options: [  
           `Temporary hard water after boiling`,
           `Permanent hard water after boiling`,
