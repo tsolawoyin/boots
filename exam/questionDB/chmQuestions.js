@@ -1136,1037 +1136,6 @@ let chemistryQuestions = [
       },
     ]
   },
-
-  {
-    topic: "Air and air pollution",
-    questions: [
-      {
-        id: 1,
-        question:
-          "When air which contains the gases oxygen, nitrogen, carbon dioxide, water vapor and the rare gases is passed through alkaline pyrogallol and then over quicklime, the only gases left are",
-        options: [
-          "nitrogen and carbon dixoide.",
-          "the rare gases.",
-          "nitrogen and oxygen.",
-          "nitrogen and the rare gases",
-          "nitrogen, carbon dioxide and the rare gases",
-        ],
-        ans: "E",
-      },
-      {
-        id: 2,
-        question:
-          "A gas jar was inverted over burning yellow phosphorus floating over water in a beaker. After burning, the water level was found to rise in the gas jar. The water level rises because",
-        options: [
-          "pressure inside the gas jar is greater than pressure outside it.",
-          "the air in the gas jar had been used up by burning.",
-          "oxygen in the gas jar had been used up by burning.",
-          "nitrogen in the gas jar had been used up by burning",
-          "the temperature in the jar had risen considerably.",
-        ],
-        ans: "C",
-      },
-      {
-        id: 3,
-        question:
-          "When a piece of charcoal enclosed in a cylinder containing air is ignited.",
-        options: [
-          "the total volume of air is increased",
-          "the relative amount of oxygen present is increased",
-          "the relative amount of nitrogen present is decreased",
-          "the relative amount of carbon dioxide present is increased",
-          "the ratio of oxygen to nitrogen in the system is increased.",
-        ],
-        ans: "D",
-      },
-      {
-        id: 4,
-        question: "For iron to rust, there should be present",
-        options: [
-          "oxygen",
-          "moisture",
-          "carbon dioxide",
-          "oxygen and moisture",
-          "oxygen, moisture and carbon dioxide.",
-        ],
-        ans: "D",
-      },
-      {
-        id: 5,
-        question:
-          "The nitrogen gas obtained by burning an excess of phosphorus in air has a density higher than the nitrogen from nitrogen compounds because the nitrogen from air is contaminated with",
-        options: [
-          "some unhurt phosphorus",
-          `${formula("P", 2, "O", 5)} vapour`,
-          "some oxygen",
-          "rare gases",
-          "carbon dioxide.",
-        ],
-        ans: "D",
-      },
-      {
-        id: 6,
-        question:
-          "When air is passed through alkaline pyrogallol and then over quicklime, the only gases left are",
-        options: [
-          "nitrogen and carbon dioxide",
-          `the rare gases`,
-          "nitrogen and oxygen",
-          "nitrogen and the rare gases",
-          "nitrogen, carbon dioxide and the rare gases",
-        ],
-        ans: "E",
-      },
-      {
-        id: 7,
-        question: `In what respect will two dry samples of nitrogen gas differ from each other if sample 1 is prepared by completely removing ${formula(
-          "CO",
-          2
-        )} and ${formula(
-          "O",
-          2
-        )} is prepared by passing purified nitrogen(I) oxide over heated copper? Sample 1 is`,
-        options: [
-          "purer than sample 2",
-          `slightly denser than sample2`,
-          "in all respects the same as sample 2",
-          "colorless but sample 2 has light brown",
-          "slightly less reactive than sample 2",
-        ],
-        ans: "B",
-      },
-      {
-        id: 8,
-        question: `The approximate volume of air containing ${exp(
-          3
-        )}cm<sup>3</sup> of oxygen is`,
-        options: [
-          "20cm<sup>3</sup>",
-          "25cm<sup>3</sup>",
-          "50cm<sup>3</sup>",
-          "100cm<sup>3</sup>",
-        ],
-        ans: "C",
-      },
-      {
-        id: 9,
-        question: `The exhaust fumes from a garage in a place that uses petrol of high sulphur content are bound to contain`,
-        options: [
-          `${formula("CO")} and ${formula("SO", 3)}`,
-          `${formula("CO")} and ${formula("SO", 2)}`,
-          `${formula("CO")}, ${formula("SO", 2)}, and ${formula("SO", 3)}`,
-          `${formula("CO")} and ${formula("H", 2, "S")}`,
-        ],
-        ans: "C",
-      },
-      {
-        id: 10,
-        question: `A stream of air was successively passed through three tubes X, Y, and Z containing a concentrated aqueous solution of KOH, red hot copper powder and fused calcium chloride respectively. What was the composition of gas emanating from tube Z?`,
-        options: [
-          `${formula("CO", 2)} and the intert gases`,
-          `${formula("N", 2)}, ${formula("CO", 2)} and the inert gases`,
-          `${formula("N", 2)} and the inert gases`,
-          `Water vapour, ${formula("N", 2)} and the inert gases`,
-        ],
-        ans: "C",
-      },
-      {
-        id: 11,
-        question: `Corrosion is exhibited by`,
-        options: [
-          `iron only`,
-          `electropositive metals`,
-          `metals below hydrogen in the electrochemical series`,
-          `all metals`,
-        ],
-        ans: "D",
-      },
-      {
-        id: 12,
-        question: `The molar ratio of oxygen to nitrogen in dissolved air is 2:1 whereas the ratio is 4:1 in atmospheric air because`,
-        options: [
-          `nitrogen is less soluble than oxygen`,
-          `oxygen is heavier than nitrogen`,
-          `nitrogen has a higher partial pressure in air`,
-          `gases are hydrated in water`,
-        ],
-        ans: "A",
-      },
-      {
-        id: 13,
-        question: `A quantity of air was passed through a weighed amount of alkaline pyrogallol. An increase in the weight of the pyrogallol would result from the absorption of`,
-        options: [`nitrogen`, `neon`, `argon`, `oxygen`],
-        ans: "D",
-      },
-      {
-        id: 14,
-        question: `The pollutants that are likely to be present in an industrial environment are`,
-        options: [
-          `${formula("H", 2, "S")}, ${formula("SO", 2)} and oxides of nitrogen`,
-          `${formula("NH", 3)}, ${formula("HCl")}, ${formula("CO")}`,
-          `${formula("CO", 2)}, ${formula("NH", 3)} and ${formula(
-            "H",
-            2,
-            "S"
-          )}`,
-          `Dust, NO and ${formula("Cl", 2)}`,
-        ],
-        ans: "A",
-      },
-      {
-        id: 15,
-        question: `Which of the following gases dissolves in water vapour to produce acid rain during rainfall`,
-        options: [
-          `Oxygen`,
-          `Carbon(II) oxide`,
-          `Nitrogen`,
-          `Sulphur(IV) oxide`,
-        ],
-        ans: "D",
-      },
-      {
-        id: 16,
-        question: `Argon is used in gas-filled electric lamps because it helps to`,
-        options: [
-          `prevent the reduction of the lamp filament`,
-          `prevent oxidation of lamp filament`,
-          `make lamp filaments glow brightly`,
-          `keep the atmosphere in the lamp inert`,
-        ],
-        ans: "B",
-      },
-      {
-        id: 17,
-        question: `The air around a petroleum refinery is most likely to contain`,
-        options: [
-          `${formula("CO", 2)}, ${formula("SO", 3)}, and ${formula(
-            "N",
-            2,
-            "O"
-          )}`,
-          `${formula("CO", 2)}, ${formula("CO")}, and ${formula("N", 2, "O")}`,
-          `${formula("SO", 2)}, ${formula("CO")}, and ${formula("N", "O", 2)}`,
-          `${formula("PH", 3)}, ${formula("H", 2, "O")}, and ${formula(
-            "C",
-            "O",
-            "2"
-          )}`,
-        ],
-        ans: "C",
-      },
-      {
-        id: 18,
-        question: `Helium is often used in observation ballons because it is`,
-        options: [
-          `light and combustible`,
-          `light and non-combustible`,
-          `heavy and combustible`,
-          `heavy and non-combustible`,
-        ],
-        ans: "B",
-      },
-      {
-        id: 19,
-        question: `When plastics and packaging materials made from chloroethene are burnt in the open, the mixture of gases released into the atmosphere is most likely to contain`,
-        options: [`ethane`, `chlorine`, `hydrogen chloride`, `ethene`],
-        ans: "C",
-      },
-      {
-        id: 20,
-        question: `Which of the following gases is the most dangerous pollutant`,
-        options: [
-          `Hydrogen sulphide`,
-          `Carbon(IV) oxide`,
-          `Sulfur(IV) oxide`,
-          `Carbon(II) oxide`,
-        ],
-        ans: "D",
-      },
-      {
-        id: 21,
-        question: `The property used in obtaining oxygen and nitrogen industrially from air is the`,
-        options: [
-          `boiling point`,
-          `density`,
-          `rate of diffustion`,
-          `solubility`,
-        ],
-        ans: "A",
-      },
-      {
-        id: 22,
-        question: `Excess phosphorus was burnt in gas jar and the residual gas passed successively over concentrated KOH solution and concentrated ${formula(
-          "H",
-          2,
-          "SO",
-          4
-        )} before being collected in a flask. The gases collected are`,
-        options: [
-          `Carbon(IV) oxide, nitrogen, and the rare gases`,
-          `nitrogen(IV) oxide and the rare gases`,
-          `nitrogen and the rare gases`,
-          `carbon(IV) oxide, nitrogen(IV) oxide, and the rare gases`,
-        ],
-        ans: "C",
-      },
-      {
-        id: 23,
-        question: `Which of the following will have its mass increase when heated in air`,
-        options: [`helium`, `magnesium`, `copper pyrites`, `glass`],
-        ans: "B",
-      },
-      {
-        id: 24,
-        question: `Nitrogen obtained from the liquefaction of air has a higher density than that obtained from nitrogen-containing compounds because the former contains`,
-        options: [`Water vapour`, `Oxygen`, `Carbon(IV) oxide`, `Rare gases`],
-        ans: "D",
-      },
-      {
-        id: 25,
-        question: `The set of pollutants that is most likely to be produced when petrol is accidentally spilled on plastic materials and ignited is`,
-        options: [
-          `${formula("CO")}, ${formula("CO", 2)}, and ${formula("SO", 2)}`,
-          `${formula("CO")}, ${formula("HCl")}, and ${formula("SO", 2)}`,
-          `${formula("CO")}, ${formula("CO", 2)}, and ${formula("HCl")}`,
-          `${formula("SO", 2)}, ${formula("CO", 2)}, and ${formula("HCl")}`,
-        ],
-        ans: "C",
-      },
-      {
-        id: 26,
-        question: `The noble gas, argon, is used for`,
-        options: [
-          `steel welding`,
-          `brass welding`,
-          `underwater welding`,
-          `electric arc welding`,
-        ],
-        ans: "D",
-      },
-      {
-        id: 27,
-        question: `The air pollutant unknown in nature is`,
-        options: [`DDT`, `CO`, `HCHO`, `NO`],
-        ans: "A",
-      },
-      {
-        id: 28,
-        question: `The gas that is not associated with global warming is`,
-        options: [
-          `${formula("CO", 2)}`,
-          `${formula("SO", 2)}`,
-          `${formula("CH", 4)}`,
-          `${formula("H", 2)}`,
-        ],
-        ans: "D",
-      },
-      {
-        id: 29,
-        question: `The pollutant from petroleum spillage in rivers and lakes can best be dispersed by`,
-        options: [
-          `pouring detergents`,
-          `passing of ships through the area`,
-          `pouring organic solvents`,
-          `evaporation`,
-        ],
-        ans: "C",
-      },
-      {
-        id: 30,
-        question: `What is the decrease in volume of air when pyrogallol is shaken with 30.00cm<sup>3</sup> of air?`,
-        options: [
-          `15.00cm<sup>3</sup>`,
-          `6.30cm<sup>3</sup>`,
-          `0.63cm<sup>3</sup>`,
-          `0.06cm<sup>3</sup>`,
-        ],
-        ans: "B",
-      },
-      {
-        id: 31,
-        question: `Environment pollutant is worsened by the release from automobile exhausts of?`,
-        options: [`water vapour`, `steam`, `smoke`, `heavy metals`],
-        ans: "D",
-      },
-      {
-        id: 32,
-        question: `Phosphorus is stored under water to prevent it from`,
-        options: [`dehydrating`, `becoming inert`, `smelling`, `catching fire`],
-        ans: "D",
-      },
-      {
-        id: 33,
-        question: `The substance least considered as a source of environmental pollution is`,
-        options: [
-          `silicate minerals`,
-          `uranium`,
-          `lead`,
-          `organophosphorus compounds`,
-        ],
-        ans: "A",
-      },
-      {
-        id: 59,
-        question: `Oxygen in air can be removed using`,
-        options: [
-          `lime water`,
-          `caustic soda solution`,
-          `pyrogallol solution`,
-          `slaked lime`,
-        ],
-        ans: "C",
-      },
-      {
-        id: 55,
-        question: `Which of the following pollutants is associated with brain damage`,
-        options: [
-          `Carbon(II) oxide`,
-          `radioactive fallout`,
-          `biodegradable waste`,
-          `Sulfur(IV) oxide`,
-        ],
-        ans: "A",
-      },
-      {
-        id: 53,
-        question: `The condition required for corrosion to take place is the presence of `,
-        options: [
-          `water, carbon(IV) oxide, and oxygen`,
-          `oxygen and carbon(IV) oxide`,
-          `water and oxygen`,
-          `water and carbon(IV)`,
-        ],
-        ans: "C",
-      },
-      {
-        id: 56,
-        question: `The constituent of air that acts as a diluent is `,
-        options: [
-          `${formula("O", 2)}`,
-          `${formula("N", 2)}`,
-          `${formula("CO", 2)}`,
-          `noble gases`,
-        ],
-        ans: "B",
-      },
-      {
-        id: 57,
-        question: `The nitrogen obtained from air has a density higher than the one from nitrogen-containing compounds because the one from air is contaminated with?`,
-        options: [`oxygen`, `rare gases`, `carbon(IV) oxide`, `water vapor`],
-        ans: "B",
-      },
-      {
-        id: 58,
-        question: `The major and most effective way of controlling pollution is to`,
-        options: [
-          `pass strict laws against it by individuals and companies`,
-          `educate people on the causes and effect of pollution`,
-          `convert chemical waste to harmless substances before releasing them into the environment`,
-          `improve machinery so that the substances released from combustion are less harmful`,
-        ],
-        ans: "C",
-      },
-
-      {
-        id: 50,
-        question: `The noble gas with a high power of fog penetration used in aerodome beacons is`,
-        options: [`argon`, `helium`, `neon`, `krypton`],
-        ans: "C",
-      },
-      {
-        id: 60,
-        question: `Which of the following gases makes up the largest percentage of atmospheric air`,
-        options: [
-          "carbon(IV) oxide",
-          "Hydrogen",
-          "Nitrogen",
-          "Noble gases",
-          "Oxygen",
-        ],
-        ans: "C",
-      },
-      {
-        id: 61,
-        question: `Which of the following is not a natural component of the air`,
-        options: [
-          "water vapor",
-          "carbon(II) oxide",
-          "Nitrogen",
-          "Carbon(IV) oxide",
-        ],
-        ans: "B",
-      },
-      {
-        id: 62,
-        question: `The uncovered raw food that is sold along major roads is likely to contain some amounts of`,
-        options: ["Pb", "Cu", "Ag", "Na"],
-        ans: "A",
-      },
-    ],
-  },
-
-  {
-    topic: "Nature of matter",
-    questions: [
-      {
-        id: 1,
-        question: `A small quantity of solid ammonium chloride ${formula(
-          "NH",
-          4,
-          "Cl"
-        )}was heated gently in a test-tube, the solid gradually disappeared to produce a mixture of two gases. Later a white cloudy deposit was observed on the cooler part of the test tube. The ammonium chloride is said to have undergone`,
-        options: [
-          `distillation`,
-          `sublimation`,
-          `precipitation`,
-          `evaporation`,
-        ],
-        ans: "B",
-      },
-      {
-        id: 2,
-        question: `Which of the following changes is physical?`,
-        options: [
-          `adding iron fillings to aerated water`,
-          `cooling a solution of iron(II) sulphate to obtain the hydrated salt`,
-          `cooling water to obtain ice`,
-          `adding sodium metal to water`,
-          `burning domestic gas`,
-        ],
-        ans: "C",
-      },
-      {
-        id: 3,
-        question: `By means of filtration one compound can be obtained pure from an aqueous mixture of sodium chloride and`,
-        options: [
-          `potassium nitrate`,
-          `sand`,
-          `lead nitrate`,
-          `sugar(glucose)`,
-          `starch`,
-        ],
-        ans: "B",
-      },
-      {
-        id: 4,
-        question: `Methanoic acid mixes with water in all proportions and has the same boiling point as water. Which of the following methods would you adopt to obtain pure water from sand and methanoic acid`,
-        options: [
-          `fractional distillation`,
-          `filtration followed by distillation`,
-          `neutralization with sodium hydroxide followed by distillation`,
-          `neutralization with sodium hydroxide followed by filtration`,
-          `esterification with ethanol followed by distillation`,
-        ],
-        ans: "C",
-        // not yet solved
-      },
-      {
-        id: 5,
-        question: `One of the following techniques can be used to show that chlorophyll pigments is a mixture of chemical compounds and not a single compound`,
-        options: [
-          `crystallization`,
-          `hydrolysis`,
-          `sublimation`,
-          `filtration`,
-          `chromatography`,
-        ],
-        ans: "E",
-        // not yet solved
-      },
-      {
-        id: 6,
-        question: `In an attempt to remove sugar from a beaker containing a quantity of sand and sugar, 2M ammonium chloride solution was accidentally added instead of water. Which of the following methods could be used to remove ammonium chloride from the mixture.`,
-        options: [
-          `fractional distillation`,
-          `crystallization`,
-          `filtration followed by sublimation`,
-          `evaporation followed by sublimation`,
-          `filtration`,
-        ],
-        ans: "D",
-        remark: `The answer to this in my opinion is D because evaporation drives off water and sublimation removes ammonium chloride, which return us back to square 1, a mixture of sand and sugar again. But note that the question is particularly about the removal of ammonium chloride.`
-        // not yet solved
-      },
-      {
-        id: 7,
-        question: `Which of the following compounds and elements would sublime on exposure to the atmosphere`,
-        options: [`ice`, `sulphur`, `phosphorus`, `iodine`, `potassium iodide`],
-        ans: "D",
-      },
-      {
-        id: 8,
-        question: `Which of the following process does NOT lead to chemical change.`,
-        options: [
-          `stirring iron in sulphur(VI) acid`,
-          `stirring sodium carbonate in water`,
-          `stirring glucose in conc. Sulphuric acid`,
-          `mixing sulphuric acid with potassium carbonate`,
-          `titrating an acid against a base`,
-        ],
-        ans: "B",
-        remark: "B is just adding salt to water which produces nothing new.",
-      },
-      {
-        id: 9,
-        question: `A mixture of common salt, ammonium chloride and barium sulphate can best be separated by`,
-        options: [
-          `addition of water followed by filtration then sublimation`,
-          `addition of water followed by sublimation then filtration`,
-          `sublimation followed by addition of water then filtration`,
-          `mixing sulphuric acid with potassium carbonate`,
-          `fractional crystallization`,
-        ],
-        ans: "C",
-      },
-      {
-        id: 10,
-        question: `Sodium chloride may be obtained from brine by`,
-        options: [
-          `titration`,
-          `decantation`,
-          `evaporation`,
-          `sublimation`,
-          `distillation`,
-        ],
-        ans: "C",
-      },
-      {
-        id: 11,
-        question: `In an experiment, which of the following observation would suggest that a solid sample is a mixture? The`,
-        options: [
-          `solid can be ground to a fine powder`,
-          `density of the solid is 2.25 g/dm3`,
-          `solid begins to melt at 573K but is not completely melted until 648K`,
-          `solid absorbs moisture from the atmosphere and turns into a liquid`,
-          `solid melts at 300K`,
-        ],
-        ans: "C",
-      },
-      {
-        id: 12,
-        question: `A brand of ink containing cobalt(II), copper(II) and Iron(II) ions can best be separated into its various components by`,
-        options: [
-          `fractional crystallization`,
-          `fractional distillation`,
-          `sublimation`,
-          `chromatography`,
-        ],
-        ans: "D",
-      },
-      {
-        id: 13,
-        question: `Which of the following substances is a mixture?`,
-        options: [
-          `granulated sugar`,
-          `sea-water`,
-          `sodium chloride`,
-          `iron fillings`,
-        ],
-        ans: "B",
-      },
-      {
-        id: 15,
-        question: `Which of the following would support the conclusion that a solid sample is a mixture`,
-        options: [
-          `The solid can be ground to a fine powder`,
-          `The density of the solid is 2.2 g/dm3`,
-          `The solid has a melting range of 300 degree celcius to 375 degree celcius`,
-          `The solid absorbs moisture from the atmosphere`,
-        ],
-        ans: "C",
-      },
-      {
-        id: 16,
-        question: `Which of the following is a physical change?`,
-        options: [
-          `The bubbling of chlorine in a jar containing hydrogen`,
-          `The bubbling of chlorine into water`,
-          `The dissolution of sodium chlorine in water`,
-          `The passing of steam over heated iron.`,
-        ],
-        ans: "C",
-      },
-      {
-        id: 18,
-        question: `Which of the following are mixture<br>I. Petroleum<br> II. Rubber<br>III. Vulcanizer's solution<br>IV. Carbon(II) Sulphide`,
-        options: [
-          `I, II, and III`,
-          `I, II, and IV`,
-          `I and II only`,
-          `I and IV`,
-        ],
-        ans: "A",
-      },
-      {
-        id: 19,
-        question: `Which of the following can be obtained by fractional distillation?`,
-        options: [
-          `Nitrogen from liquid air.`,
-          `Sodium chloride from sea water.`,
-          `Iodine from a solution of iodine in carbon tetrachloride.`,
-          `Sulfur from a solution of sulfur in carbon disulfide.`,
-        ],
-        ans: "A",
-      },
-      {
-        id: 20,
-        question: `Which of the following substances is not a homogenous mixture?`,
-        options: [
-          `Filtered sea water`,
-          `Soft drink`,
-          `Flood water`,
-          `Writing Ink`,
-        ],
-        ans: "C",
-      },
-      {
-        id: 21,
-        question: `The dissolution of common salt in water is a physical change because`,
-        options: [
-          `the salt can be obtained by crystallization`,
-          `the salt can be recovered by the evaporation of the water`,
-          `heat is not generated during mixing`,
-          `the solution will not boil at 100 deg celcius`,
-        ],
-        ans: "B",
-      },
-      {
-        id: 22,
-        question: `Which of the following substances is a mixture`,
-        options: [`sulphur powder`, `bronze`, `distilled water`, `ethanol`],
-        ans: "B",
-      },
-      {
-        id: 23,
-        question: `A mixture of sand, ammonium chloride and sodium chloride is best separated by`,
-        options: [
-          `sublimation followed by addition of water and filtration`,
-          `sublimation followed by addition of water and evaporation`,
-          `addition of water followed by filtration and sublimation`,
-          `addition of water followed by crystallization and sublimation`,
-        ],
-        ans: "A",
-        // not yet answered
-      },
-      {
-        id: 24,
-        question: `A pure solid usually melts`,
-        options: [
-          `over a wide range of temperature`,
-          `over a narrow range of temperature`,
-          `at a lower temperature than the impure one`,
-          `at the same temperature as the impure one`,
-        ],
-        ans: "B",
-      },
-      {
-        id: 25,
-        question: `Chromatography is used to separate components of mixtures which differs in their rates of`,
-        options: [`diffusion`, `migration`, `reaction`, `sedimentation`],
-        ans: "B",
-      },
-      {
-        id: 26,
-        question: `Which of the following is an example of chemical change.`,
-        options: [
-          `Dissolution of salt in water`,
-          `Rusting of iron`,
-          `Melting of ice`,
-          `Separation of a mixture by distillation`,
-        ],
-        ans: "B",
-      },
-      {
-        id: 27,
-        question: `The addition of water to calcium oxide leads to.`,
-        options: [
-          `a physical change`,
-          `a chemical change`,
-          `the formation of a mixture`,
-          `an endothermic change`,
-        ],
-        ans: "B",
-      },
-      {
-        id: 28,
-        question: `A mixture of iron and sulphur can be best separated by dissolving the mixture in`,
-        options: [
-          `steam`,
-          `dilute hydrochloric acid`,
-          `dilute sodium hydroxide`,
-          `benzene`,
-        ],
-        ans: "B",
-      },
-      {
-        id: 29,
-        question: `Sieving is a technique used to separate mixtures containing solid particles of`,
-        options: [
-          `small sizes`,
-          `large sizes`,
-          `the same size`,
-          `different sizes`,
-        ],
-        ans: "D",
-      },
-      {
-        id: 30,
-        question: `A mixture of iodine and sulfur crystals can be separated by treatment with`,
-        options: [
-          `water to filter of sulfur`,
-          `methanol to filter off iodine`,
-          `ethanoic acid to filter off sulphur`,
-          `carbon(IV) sulfide to filter off iodine`,
-        ],
-        ans: "D",
-      },
-      {
-        id: 31,
-        question: `Pure solvents are obtained by`,
-        options: [`distillation`, `condensation`, `extraction`, `evaporation`],
-        ans: "A",
-      },
-      {
-        id: 32,
-        question: `A little quantity of trichloromethance (b.pt.60&deg;C) was added to a large quantity of ethanol (b.pt 78&deg;C). The most probable boiling point of the resultant mixture is from`,
-        options: [
-          `69&deg;-70&deg;C`,
-          `82&deg;-84&deg;C`,
-          `60&deg;-78&deg;C`,
-          `70&deg;-74&deg;`,
-        ],
-        ans: "B",
-      },
-      {
-        id: 33,
-        question: `The chromatographic separation of ink is based on the ability of components to`,
-        options: [
-          `react with each other`,
-          `react with solvent`,
-          `dissolve in each other in the column`,
-          `move at different speeds in the column`,
-        ],
-        ans: "D",
-      },
-      {
-        id: 34,
-        question: `Which of the following is a physical change`,
-        options: [
-          `Freezing ice-cream`,
-          `Exposing white phosphorus to air`,
-          `Burning kerosine`,
-          `Dissolving calcium in water`,
-        ],
-        ans: "A",
-      },
-      {
-        id: 35,
-        question: `When a solid substance disappears completely as a gas on heating, the substance is said to have undergone`,
-        options: [
-          `evaporation`,
-          `distillation`,
-          `crystallization`,
-          `sublimation`,
-        ],
-        ans: "D",
-      },
-      {
-        id: 36,
-        question: `A chemical reaction is always associated with`,
-        options: [
-          `an increase in the composition of one of the substances`,
-          `a change in the volume of the reactants`,
-          `a change in the nature of the reactants`,
-          `the formation of new substances`,
-        ],
-        ans: "D",
-      },
-      {
-        id: 37,
-        question: `The property used in the industrial preparation of Nitrogen and Oxygen from air is`,
-        options: [
-          `rate of diffusion`,
-          `solubility`,
-          `density`,
-          `boiling point`,
-        ],
-        ans: "D",
-      },
-      {
-        id: 38,
-        question: `A heterogenous mixture can be defined as any mixture`,
-        options: [
-          `whose composition is uniform`,
-          `whose composition is not uniform`,
-          `formed by solids and liquids`,
-          `of a solute and a solvent`,
-        ],
-        ans: "B",
-      },
-      {
-        id: 39,
-        question: `Sugar is separated from its impurities by`,
-        options: [
-          `distillation`,
-          `evaporation`,
-          `precipitation`,
-          `crystallization`,
-        ],
-        ans: "D",
-      },
-      {
-        id: 40,
-        question: `The order in which a mixture of sand, ammonium chloride and sodium chloride can be separated is`,
-        options: [
-          `sublimation -> dissolution -> filtration -> evaporation`,
-          `dissolution -> dryness -> filtration -> evaporation`,
-          `filtration -> sublimation -> evaporation -> dryness`,
-          `dissolution -> filtration -> sublimation -> evaporation`,
-        ],
-        ans: "A",
-      },
-      {
-        id: 41,
-        question: `A difference between chemical and physical changes is that in a chemical change`,
-        options: [
-          `heat is supplied`,
-          `a new substance is formed`,
-          `oxygen is consumed`,
-          `a reversible process occurs`,
-        ],
-        ans: "B",
-      },
-      {
-        id: 42,
-        question: `A mixture of petrol and water can be best separated through`,
-        options: [
-          `the use of filter paper`,
-          `the use of a separating funnel`,
-          `centrifugation`,
-          `distillation`,
-        ],
-        ans: "B",
-      },
-      {
-        id: 43,
-        question: `Chlorophyll obtained from green leaves of plant can be shown to be composed of more than one colored components by the technique of`,
-        options: [
-          `crystallization`,
-          `hydrolysis`,
-          `chromatography`,
-          `sublimation`,
-        ],
-        ans: "C",
-      },
-      {
-        id: 44,
-        question: `In countries where the temperature falls below 273K, salt is always sprinkled on the icy roads in order to`,
-        options: [
-          `lower the melting point of ice`,
-          `increase the density of ice`,
-          `make the ice impure`,
-          `raise the melting point of ice`,
-        ],
-        ans: "A",
-      },
-      {
-        id: 45,
-        question: `A mixture of sugar and sulfur can be separated by`,
-        options: [
-          `dissolution in water, evaporation and filtration`,
-          `filtration, evaporation, and dissolution in water`,
-          `dissolution in water, filtration and evaporation`,
-          `evaporation, dissolution in water and filtration`,
-        ],
-        ans: "C",
-      },
-      {
-        id: 46,
-        question: `Which of the following is a physical change`,
-        options: [
-          `freezing ice cream`,
-          `dissolving calcium in water`,
-          `burning kerosene`,
-          `exposing white phosphorus to air`,
-        ],
-        ans: "A",
-      },
-      {
-        id: 47,
-        question: `Which of the following is an example of a mixture?`,
-        options: [`blood`, `sand`, `washing soda`, `common salt`],
-        ans: "A",
-      },
-      {
-        id: 48,
-        question: `The principle of column chromatography is based on the ability of the constituents to`,
-        options: [
-          `dissolve in each other in the column`,
-          `react with the solvent in the column`,
-          `react with each other in the column`,
-          `move at different speeds in the column`,
-        ],
-        ans: "D",
-      },
-      {
-        id: 49,
-        question: `Which of the following methods can be used to obtain pure water from a mixture of sand, water and methanoic acid?`,
-        options: [
-          `neutralization with NaOH followed by filtration`,
-          `neutralization with NaOH followed by distillation`,
-          `fractional distillation`,
-          `filtration followed by distillation`,
-        ],
-        ans: "B",
-        // to be researched personally
-      },
-      {
-        id: 50,
-        question: `The presence of impurities in a solid will cause the melting point to`,
-        options: [`be stable`, `be zero`, `reduce`, `increase`],
-        ans: "C",
-        // look up the answer later
-      },
-      {
-        id: 51,
-        question: `A mixture is different from a compound because`,
-        options: [
-          `constituents of a compound are chemically bound together while those of a mixture are not`,
-          `a mixture is always homogenous while a compound is not`,
-          `a mixture can be represented by a chemical formula while a compound cannot`,
-          `the properties of a compound are those of its individual constituents while those of a mixture differ from its constituents.`,
-        ],
-        ans: "A",
-        // look up the answer later
-      },
-      {
-        id: 52,
-        question: `The presence of impurities in a solid will make the melting point`,
-        options: [`decrease`, `increase`, `remain unchanged`, `be zero`],
-        ans: "A",
-        // look up the answer later
-      },
-      {
-        id: 53,
-        question: `The process whereby a gaseous body loses some of its kinetic energy to a colder body is referred to as`,
-        options: [`condensation`, `melting`, `evaporation`, `freezing`],
-        ans: "A",
-        // look up the answer later
-      },
-      {
-        id: 54,
-        question: `The separation technique that is based on the principle of solubility of a solid in two miscible liquids is`,
-        options: [
-          `fractional distillation`,
-          `distillation`,
-          `precipitation`,
-          `filtration`,
-        ],
-        ans: "C",
-        // look up the answer later
-      },
-    ],
-  },
   
   {   /// done and enough for now
     topic: "Atomic structure",
@@ -8468,6 +7437,558 @@ let chemistryQuestions = [
       ],
         ans: "D",
       },
+      {
+        id: 91,
+        question: `A small quantity of solid ammonium chloride ${formula(
+          "NH",
+          4,
+          "Cl"
+        )}was heated gently in a test-tube, the solid gradually disappeared to produce a mixture of two gases. Later a white cloudy deposit was observed on the cooler part of the test tube. The ammonium chloride is said to have undergone`,
+        options: [
+          `distillation`,
+          `sublimation`,
+          `precipitation`,
+          `evaporation`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 92,
+        question: `Which of the following changes is physical?`,
+        options: [
+          `adding iron fillings to aerated water`,
+          `cooling a solution of iron(II) sulphate to obtain the hydrated salt`,
+          `cooling water to obtain ice`,
+          `adding sodium metal to water`,
+          `burning domestic gas`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 93,
+        question: `By means of filtration one compound can be obtained pure from an aqueous mixture of sodium chloride and`,
+        options: [
+          `potassium nitrate`,
+          `sand`,
+          `lead nitrate`,
+          `sugar(glucose)`,
+          `starch`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 94,
+        question: `Methanoic acid mixes with water in all proportions and has the same boiling point as water. Which of the following methods would you adopt to obtain pure water from sand and methanoic acid`,
+        options: [
+          `fractional distillation`,
+          `filtration followed by distillation`,
+          `neutralization with sodium hydroxide followed by distillation`,
+          `neutralization with sodium hydroxide followed by filtration`,
+          `esterification with ethanol followed by distillation`,
+        ],
+        ans: "C",
+        // not yet solved
+      },
+      {
+        id: 95,
+        question: `One of the following techniques can be used to show that chlorophyll pigments is a mixture of chemical compounds and not a single compound`,
+        options: [
+          `crystallization`,
+          `hydrolysis`,
+          `sublimation`,
+          `filtration`,
+          `chromatography`,
+        ],
+        ans: "E",
+        // not yet solved
+      },
+      {
+        id: 96,
+        question: `In an attempt to remove sugar from a beaker containing a quantity of sand and sugar, 2M ammonium chloride solution was accidentally added instead of water. Which of the following methods could be used to remove ammonium chloride from the mixture.`,
+        options: [
+          `fractional distillation`,
+          `crystallization`,
+          `filtration followed by sublimation`,
+          `evaporation followed by sublimation`,
+          `filtration`,
+        ],
+        ans: "D",
+        remark: `The answer to this in my opinion is D because evaporation drives off water and sublimation removes ammonium chloride, which return us back to square 1, a mixture of sand and sugar again. But note that the question is particularly about the removal of ammonium chloride.`
+        // not yet solved
+      },
+      {
+        id: 97,
+        question: `Which of the following compounds and elements would sublime on exposure to the atmosphere`,
+        options: [`ice`, `sulphur`, `phosphorus`, `iodine`, `potassium iodide`],
+        ans: "D",
+      },
+      {
+        id: 98,
+        question: `Which of the following process does NOT lead to chemical change.`,
+        options: [
+          `stirring iron in sulphur(VI) acid`,
+          `stirring sodium carbonate in water`,
+          `stirring glucose in conc. Sulphuric acid`,
+          `mixing sulphuric acid with potassium carbonate`,
+          `titrating an acid against a base`,
+        ],
+        ans: "B",
+        remark: "B is just adding salt to water which produces nothing new.",
+      },
+      {
+        id: 99,
+        question: `A mixture of common salt, ammonium chloride and barium sulphate can best be separated by`,
+        options: [
+          `addition of water followed by filtration then sublimation`,
+          `addition of water followed by sublimation then filtration`,
+          `sublimation followed by addition of water then filtration`,
+          `mixing sulphuric acid with potassium carbonate`,
+          `fractional crystallization`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 100,
+        question: `Sodium chloride may be obtained from brine by`,
+        options: [
+          `titration`,
+          `decantation`,
+          `evaporation`,
+          `sublimation`,
+          `distillation`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 101,
+        question: `In an experiment, which of the following observation would suggest that a solid sample is a mixture? The`,
+        options: [
+          `solid can be ground to a fine powder`,
+          `density of the solid is 2.25 g/dm3`,
+          `solid begins to melt at 573K but is not completely melted until 648K`,
+          `solid absorbs moisture from the atmosphere and turns into a liquid`,
+          `solid melts at 300K`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 102,
+        question: `A brand of ink containing cobalt(II), copper(II) and Iron(II) ions can best be separated into its various components by`,
+        options: [
+          `fractional crystallization`,
+          `fractional distillation`,
+          `sublimation`,
+          `chromatography`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 103,
+        question: `Which of the following substances is a mixture?`,
+        options: [
+          `granulated sugar`,
+          `sea-water`,
+          `sodium chloride`,
+          `iron fillings`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 104,
+        question: `Which of the following would support the conclusion that a solid sample is a mixture`,
+        options: [
+          `The solid can be ground to a fine powder`,
+          `The density of the solid is 2.2 g/dm3`,
+          `The solid has a melting range of 300 degree celcius to 375 degree celcius`,
+          `The solid absorbs moisture from the atmosphere`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 105,
+        question: `Which of the following is a physical change?`,
+        options: [
+          `The bubbling of chlorine in a jar containing hydrogen`,
+          `The bubbling of chlorine into water`,
+          `The dissolution of sodium chlorine in water`,
+          `The passing of steam over heated iron.`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 106,
+        question: `Which of the following are mixture<br>I. Petroleum<br> II. Rubber<br>III. Vulcanizer's solution<br>IV. Carbon(II) Sulphide`,
+        options: [
+          `I, II, and III`,
+          `I, II, and IV`,
+          `I and II only`,
+          `I and IV`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 107,
+        question: `Which of the following can be obtained by fractional distillation?`,
+        options: [
+          `Nitrogen from liquid air.`,
+          `Sodium chloride from sea water.`,
+          `Iodine from a solution of iodine in carbon tetrachloride.`,
+          `Sulfur from a solution of sulfur in carbon disulfide.`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 108,
+        question: `Which of the following substances is not a homogenous mixture?`,
+        options: [
+          `Filtered sea water`,
+          `Soft drink`,
+          `Flood water`,
+          `Writing Ink`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 109,
+        question: `The dissolution of common salt in water is a physical change because`,
+        options: [
+          `the salt can be obtained by crystallization`,
+          `the salt can be recovered by the evaporation of the water`,
+          `heat is not generated during mixing`,
+          `the solution will not boil at 100 deg celcius`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 110,
+        question: `Which of the following substances is a mixture`,
+        options: [`sulphur powder`, `bronze`, `distilled water`, `ethanol`],
+        ans: "B",
+      },
+      {
+        id: 111,
+        question: `A mixture of sand, ammonium chloride and sodium chloride is best separated by`,
+        options: [
+          `sublimation followed by addition of water and filtration`,
+          `sublimation followed by addition of water and evaporation`,
+          `addition of water followed by filtration and sublimation`,
+          `addition of water followed by crystallization and sublimation`,
+        ],
+        ans: "A",
+        // not yet answered
+      },
+      {
+        id: 112,
+        question: `A pure solid usually melts`,
+        options: [
+          `over a wide range of temperature`,
+          `over a narrow range of temperature`,
+          `at a lower temperature than the impure one`,
+          `at the same temperature as the impure one`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 113,
+        question: `Chromatography is used to separate components of mixtures which differs in their rates of`,
+        options: [`diffusion`, `migration`, `reaction`, `sedimentation`],
+        ans: "B",
+      },
+      {
+        id: 114,
+        question: `Which of the following is an example of chemical change.`,
+        options: [
+          `Dissolution of salt in water`,
+          `Rusting of iron`,
+          `Melting of ice`,
+          `Separation of a mixture by distillation`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 115,
+        question: `The addition of water to calcium oxide leads to.`,
+        options: [
+          `a physical change`,
+          `a chemical change`,
+          `the formation of a mixture`,
+          `an endothermic change`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 116,
+        question: `A mixture of iron and sulphur can be best separated by dissolving the mixture in`,
+        options: [
+          `steam`,
+          `dilute hydrochloric acid`,
+          `dilute sodium hydroxide`,
+          `benzene`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 117,
+        question: `Sieving is a technique used to separate mixtures containing solid particles of`,
+        options: [
+          `small sizes`,
+          `large sizes`,
+          `the same size`,
+          `different sizes`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 118,
+        question: `A mixture of iodine and sulfur crystals can be separated by treatment with`,
+        options: [
+          `water to filter of sulfur`,
+          `methanol to filter off iodine`,
+          `ethanoic acid to filter off sulphur`,
+          `carbon(IV) sulfide to filter off iodine`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 119,
+        question: `Pure solvents are obtained by`,
+        options: [`distillation`, `condensation`, `extraction`, `evaporation`],
+        ans: "A",
+      },
+      {
+        id: 120,
+        question: `A little quantity of trichloromethance (b.pt.60&deg;C) was added to a large quantity of ethanol (b.pt 78&deg;C). The most probable boiling point of the resultant mixture is from`,
+        options: [
+          `69&deg;-70&deg;C`,
+          `82&deg;-84&deg;C`,
+          `60&deg;-78&deg;C`,
+          `70&deg;-74&deg;`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 121,
+        question: `The chromatographic separation of ink is based on the ability of components to`,
+        options: [
+          `react with each other`,
+          `react with solvent`,
+          `dissolve in each other in the column`,
+          `move at different speeds in the column`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 122,
+        question: `Which of the following is a physical change`,
+        options: [
+          `Freezing ice-cream`,
+          `Exposing white phosphorus to air`,
+          `Burning kerosine`,
+          `Dissolving calcium in water`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 123,
+        question: `When a solid substance disappears completely as a gas on heating, the substance is said to have undergone`,
+        options: [
+          `evaporation`,
+          `distillation`,
+          `crystallization`,
+          `sublimation`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 124,
+        question: `A chemical reaction is always associated with`,
+        options: [
+          `an increase in the composition of one of the substances`,
+          `a change in the volume of the reactants`,
+          `a change in the nature of the reactants`,
+          `the formation of new substances`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 125,
+        question: `The property used in the industrial preparation of Nitrogen and Oxygen from air is`,
+        options: [
+          `rate of diffusion`,
+          `solubility`,
+          `density`,
+          `boiling point`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 126,
+        question: `A heterogenous mixture can be defined as any mixture`,
+        options: [
+          `whose composition is uniform`,
+          `whose composition is not uniform`,
+          `formed by solids and liquids`,
+          `of a solute and a solvent`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 127,
+        question: `Sugar is separated from its impurities by`,
+        options: [
+          `distillation`,
+          `evaporation`,
+          `precipitation`,
+          `crystallization`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 128,
+        question: `The order in which a mixture of sand, ammonium chloride and sodium chloride can be separated is`,
+        options: [
+          `sublimation -> dissolution -> filtration -> evaporation`,
+          `dissolution -> dryness -> filtration -> evaporation`,
+          `filtration -> sublimation -> evaporation -> dryness`,
+          `dissolution -> filtration -> sublimation -> evaporation`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 129,
+        question: `A difference between chemical and physical changes is that in a chemical change`,
+        options: [
+          `heat is supplied`,
+          `a new substance is formed`,
+          `oxygen is consumed`,
+          `a reversible process occurs`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 130,
+        question: `A mixture of petrol and water can be best separated through`,
+        options: [
+          `the use of filter paper`,
+          `the use of a separating funnel`,
+          `centrifugation`,
+          `distillation`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 131,
+        question: `Chlorophyll obtained from green leaves of plant can be shown to be composed of more than one colored components by the technique of`,
+        options: [
+          `crystallization`,
+          `hydrolysis`,
+          `chromatography`,
+          `sublimation`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 132,
+        question: `In countries where the temperature falls below 273K, salt is always sprinkled on the icy roads in order to`,
+        options: [
+          `lower the melting point of ice`,
+          `increase the density of ice`,
+          `make the ice impure`,
+          `raise the melting point of ice`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 133,
+        question: `A mixture of sugar and sulfur can be separated by`,
+        options: [
+          `dissolution in water, evaporation and filtration`,
+          `filtration, evaporation, and dissolution in water`,
+          `dissolution in water, filtration and evaporation`,
+          `evaporation, dissolution in water and filtration`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 134,
+        question: `Which of the following is a physical change`,
+        options: [
+          `freezing ice cream`,
+          `dissolving calcium in water`,
+          `burning kerosene`,
+          `exposing white phosphorus to air`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 135,
+        question: `Which of the following is an example of a mixture?`,
+        options: [`blood`, `sand`, `washing soda`, `common salt`],
+        ans: "A",
+      },
+      {
+        id: 136,
+        question: `The principle of column chromatography is based on the ability of the constituents to`,
+        options: [
+          `dissolve in each other in the column`,
+          `react with the solvent in the column`,
+          `react with each other in the column`,
+          `move at different speeds in the column`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 137,
+        question: `Which of the following methods can be used to obtain pure water from a mixture of sand, water and methanoic acid?`,
+        options: [
+          `neutralization with NaOH followed by filtration`,
+          `neutralization with NaOH followed by distillation`,
+          `fractional distillation`,
+          `filtration followed by distillation`,
+        ],
+        ans: "B",
+        // to be researched personally
+      },
+      {
+        id: 138,
+        question: `The presence of impurities in a solid will cause the melting point to`,
+        options: [`be stable`, `be zero`, `reduce`, `increase`],
+        ans: "C",
+      },
+      {
+        id: 139,
+        question: `A mixture is different from a compound because`,
+        options: [
+          `constituents of a compound are chemically bound together while those of a mixture are not`,
+          `a mixture is always homogenous while a compound is not`,
+          `a mixture can be represented by a chemical formula while a compound cannot`,
+          `the properties of a compound are those of its individual constituents while those of a mixture differ from its constituents.`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 140,
+        question: `The presence of impurities in a solid will make the melting point`,
+        options: [`decrease`, `increase`, `remain unchanged`, `be zero`],
+        ans: "A",
+      },
+      {
+        id: 141,
+        question: `The process whereby a gaseous body loses some of its kinetic energy to a colder body is referred to as`,
+        options: [`condensation`, `melting`, `evaporation`, `freezing`],
+        ans: "A",
+      },
+      {
+        id: 142,
+        question: `The separation technique that is based on the principle of solubility of a solid in two miscible liquids is`,
+        options: [
+          `fractional distillation`,
+          `distillation`,
+          `precipitation`,
+          `filtration`,
+        ],
+        ans: "C",
+      },
     ]
   },
 
@@ -9892,6 +9413,1102 @@ let chemistryQuestions = [
         ],
         ans: "B",
       },
+      {
+        id: 100,
+        question:
+          "When air which contains the gases oxygen, nitrogen, carbon dioxide, water vapor and the rare gases is passed through alkaline pyrogallol and then over quicklime, the only gases left are",
+        options: [
+          "nitrogen and carbon dixoide.",
+          "the rare gases.",
+          "nitrogen and oxygen.",
+          "nitrogen and the rare gases",
+          "nitrogen, carbon dioxide and the rare gases",
+        ],
+        ans: "E",
+      },
+      {
+        id: 102,
+        question:
+          "A gas jar was inverted over burning yellow phosphorus floating over water in a beaker. After burning, the water level was found to rise in the gas jar. The water level rises because",
+        options: [
+          "pressure inside the gas jar is greater than pressure outside it.",
+          "the air in the gas jar had been used up by burning.",
+          "oxygen in the gas jar had been used up by burning.",
+          "nitrogen in the gas jar had been used up by burning",
+          "the temperature in the jar had risen considerably.",
+        ],
+        ans: "C",
+      },
+      {
+        id: 103,
+        question:
+          "When a piece of charcoal enclosed in a cylinder containing air is ignited.",
+        options: [
+          "the total volume of air is increased",
+          "the relative amount of oxygen present is increased",
+          "the relative amount of nitrogen present is decreased",
+          "the relative amount of carbon dioxide present is increased",
+          "the ratio of oxygen to nitrogen in the system is increased.",
+        ],
+        ans: "D",
+      },
+      {
+        id: 104,
+        question: "For iron to rust, there should be present",
+        options: [
+          "oxygen",
+          "moisture",
+          "carbon dioxide",
+          "oxygen and moisture",
+          "oxygen, moisture and carbon dioxide.",
+        ],
+        ans: "D",
+      },
+      {
+        id: 105,
+        question:
+          "The nitrogen gas obtained by burning an excess of phosphorus in air has a density higher than the nitrogen from nitrogen compounds because the nitrogen from air is contaminated with",
+        options: [
+          "some unhurt phosphorus",
+          `${formula("P", 2, "O", 5)} vapour`,
+          "some oxygen",
+          "rare gases",
+          "carbon dioxide.",
+        ],
+        ans: "D",
+      },
+      {
+        id: 106,
+        question:
+          "When air is passed through alkaline pyrogallol and then over quicklime, the only gases left are",
+        options: [
+          "nitrogen and carbon dioxide",
+          `the rare gases`,
+          "nitrogen and oxygen",
+          "nitrogen and the rare gases",
+          "nitrogen, carbon dioxide and the rare gases",
+        ],
+        ans: "E",
+      },
+      {
+        id: 107,
+        question: `In what respect will two dry samples of nitrogen gas differ from each other if sample 1 is prepared by completely removing ${formula(
+          "CO",
+          2
+        )} and ${formula(
+          "O",
+          2
+        )} is prepared by passing purified nitrogen(I) oxide over heated copper? Sample 1 is`,
+        options: [
+          "purer than sample 2",
+          `slightly denser than sample2`,
+          "in all respects the same as sample 2",
+          "colorless but sample 2 has light brown",
+          "slightly less reactive than sample 2",
+        ],
+        ans: "B",
+      },
+      {
+        id: 108,
+        question: `The approximate volume of air containing ${exp(
+          3
+        )}cm<sup>3</sup> of oxygen is`,
+        options: [
+          "20cm<sup>3</sup>",
+          "25cm<sup>3</sup>",
+          "50cm<sup>3</sup>",
+          "100cm<sup>3</sup>",
+        ],
+        ans: "C",
+      },
+      {
+        id: 109,
+        question: `The exhaust fumes from a garage in a place that uses petrol of high sulphur content are bound to contain`,
+        options: [
+          `${formula("CO")} and ${formula("SO", 3)}`,
+          `${formula("CO")} and ${formula("SO", 2)}`,
+          `${formula("CO")}, ${formula("SO", 2)}, and ${formula("SO", 3)}`,
+          `${formula("CO")} and ${formula("H", 2, "S")}`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 110,
+        question: `A stream of air was successively passed through three tubes X, Y, and Z containing a concentrated aqueous solution of KOH, red hot copper powder and fused calcium chloride respectively. What was the composition of gas emanating from tube Z?`,
+        options: [
+          `${formula("CO", 2)} and the intert gases`,
+          `${formula("N", 2)}, ${formula("CO", 2)} and the inert gases`,
+          `${formula("N", 2)} and the inert gases`,
+          `Water vapour, ${formula("N", 2)} and the inert gases`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 111,
+        question: `Corrosion is exhibited by`,
+        options: [
+          `iron only`,
+          `electropositive metals`,
+          `metals below hydrogen in the electrochemical series`,
+          `all metals`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 112,
+        question: `The molar ratio of oxygen to nitrogen in dissolved air is 2:1 whereas the ratio is 4:1 in atmospheric air because`,
+        options: [
+          `nitrogen is less soluble than oxygen`,
+          `oxygen is heavier than nitrogen`,
+          `nitrogen has a higher partial pressure in air`,
+          `gases are hydrated in water`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 113,
+        question: `A quantity of air was passed through a weighed amount of alkaline pyrogallol. An increase in the weight of the pyrogallol would result from the absorption of`,
+        options: [`nitrogen`, `neon`, `argon`, `oxygen`],
+        ans: "D",
+      },
+      {
+        id: 114,
+        question: `The pollutants that are likely to be present in an industrial environment are`,
+        options: [
+          `${formula("H", 2, "S")}, ${formula("SO", 2)} and oxides of nitrogen`,
+          `${formula("NH", 3)}, ${formula("HCl")}, ${formula("CO")}`,
+          `${formula("CO", 2)}, ${formula("NH", 3)} and ${formula(
+            "H",
+            2,
+            "S"
+          )}`,
+          `Dust, NO and ${formula("Cl", 2)}`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 115,
+        question: `Which of the following gases dissolves in water vapour to produce acid rain during rainfall`,
+        options: [
+          `Oxygen`,
+          `Carbon(II) oxide`,
+          `Nitrogen`,
+          `Sulphur(IV) oxide`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 116,
+        question: `Argon is used in gas-filled electric lamps because it helps to`,
+        options: [
+          `prevent the reduction of the lamp filament`,
+          `prevent oxidation of lamp filament`,
+          `make lamp filaments glow brightly`,
+          `keep the atmosphere in the lamp inert`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 117,
+        question: `The air around a petroleum refinery is most likely to contain`,
+        options: [
+          `${formula("CO", 2)}, ${formula("SO", 3)}, and ${formula(
+            "N",
+            2,
+            "O"
+          )}`,
+          `${formula("CO", 2)}, ${formula("CO")}, and ${formula("N", 2, "O")}`,
+          `${formula("SO", 2)}, ${formula("CO")}, and ${formula("N", "O", 2)}`,
+          `${formula("PH", 3)}, ${formula("H", 2, "O")}, and ${formula(
+            "C",
+            "O",
+            "2"
+          )}`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 118,
+        question: `Helium is often used in observation ballons because it is`,
+        options: [
+          `light and combustible`,
+          `light and non-combustible`,
+          `heavy and combustible`,
+          `heavy and non-combustible`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 119,
+        question: `When plastics and packaging materials made from chloroethene are burnt in the open, the mixture of gases released into the atmosphere is most likely to contain`,
+        options: [`ethane`, `chlorine`, `hydrogen chloride`, `ethene`],
+        ans: "C",
+      },
+      {
+        id: 120,
+        question: `Which of the following gases is the most dangerous pollutant`,
+        options: [
+          `Hydrogen sulphide`,
+          `Carbon(IV) oxide`,
+          `Sulfur(IV) oxide`,
+          `Carbon(II) oxide`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 121,
+        question: `The property used in obtaining oxygen and nitrogen industrially from air is the`,
+        options: [
+          `boiling point`,
+          `density`,
+          `rate of diffustion`,
+          `solubility`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 122,
+        question: `Excess phosphorus was burnt in gas jar and the residual gas passed successively over concentrated KOH solution and concentrated ${formula(
+          "H",
+          2,
+          "SO",
+          4
+        )} before being collected in a flask. The gases collected are`,
+        options: [
+          `Carbon(IV) oxide, nitrogen, and the rare gases`,
+          `nitrogen(IV) oxide and the rare gases`,
+          `nitrogen and the rare gases`,
+          `carbon(IV) oxide, nitrogen(IV) oxide, and the rare gases`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 123,
+        question: `Which of the following will have its mass increase when heated in air`,
+        options: [`helium`, `magnesium`, `copper pyrites`, `glass`],
+        ans: "B",
+      },
+      {
+        id: 124,
+        question: `Nitrogen obtained from the liquefaction of air has a higher density than that obtained from nitrogen-containing compounds because the former contains`,
+        options: [`Water vapour`, `Oxygen`, `Carbon(IV) oxide`, `Rare gases`],
+        ans: "D",
+      },
+      {
+        id: 125,
+        question: `The set of pollutants that is most likely to be produced when petrol is accidentally spilled on plastic materials and ignited is`,
+        options: [
+          `${formula("CO")}, ${formula("CO", 2)}, and ${formula("SO", 2)}`,
+          `${formula("CO")}, ${formula("HCl")}, and ${formula("SO", 2)}`,
+          `${formula("CO")}, ${formula("CO", 2)}, and ${formula("HCl")}`,
+          `${formula("SO", 2)}, ${formula("CO", 2)}, and ${formula("HCl")}`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 126,
+        question: `The noble gas, argon, is used for`,
+        options: [
+          `steel welding`,
+          `brass welding`,
+          `underwater welding`,
+          `electric arc welding`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 127,
+        question: `The air pollutant unknown in nature is`,
+        options: [`DDT`, `CO`, `HCHO`, `NO`],
+        ans: "A",
+      },
+      {
+        id: 128,
+        question: `The gas that is not associated with global warming is`,
+        options: [
+          `${formula("CO", 2)}`,
+          `${formula("SO", 2)}`,
+          `${formula("CH", 4)}`,
+          `${formula("H", 2)}`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 129,
+        question: `The pollutant from petroleum spillage in rivers and lakes can best be dispersed by`,
+        options: [
+          `pouring detergents`,
+          `passing of ships through the area`,
+          `pouring organic solvents`,
+          `evaporation`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 130,
+        question: `What is the decrease in volume of air when pyrogallol is shaken with 30.00cm<sup>3</sup> of air?`,
+        options: [
+          `15.00cm<sup>3</sup>`,
+          `6.30cm<sup>3</sup>`,
+          `0.63cm<sup>3</sup>`,
+          `0.06cm<sup>3</sup>`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 131,
+        question: `Environment pollutant is worsened by the release from automobile exhausts of?`,
+        options: [`water vapour`, `steam`, `smoke`, `heavy metals`],
+        ans: "D",
+      },
+      {
+        id: 132,
+        question: `Phosphorus is stored under water to prevent it from`,
+        options: [`dehydrating`, `becoming inert`, `smelling`, `catching fire`],
+        ans: "D",
+      },
+      {
+        id: 133,
+        question: `The substance least considered as a source of environmental pollution is`,
+        options: [
+          `silicate minerals`,
+          `uranium`,
+          `lead`,
+          `organophosphorus compounds`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 159,
+        question: `Oxygen in air can be removed using`,
+        options: [
+          `lime water`,
+          `caustic soda solution`,
+          `pyrogallol solution`,
+          `slaked lime`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 155,
+        question: `Which of the following pollutants is associated with brain damage`,
+        options: [
+          `Carbon(II) oxide`,
+          `radioactive fallout`,
+          `biodegradable waste`,
+          `Sulfur(IV) oxide`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 153,
+        question: `The condition required for corrosion to take place is the presence of `,
+        options: [
+          `water, carbon(IV) oxide, and oxygen`,
+          `oxygen and carbon(IV) oxide`,
+          `water and oxygen`,
+          `water and carbon(IV)`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 156,
+        question: `The constituent of air that acts as a diluent is `,
+        options: [
+          `${formula("O", 2)}`,
+          `${formula("N", 2)}`,
+          `${formula("CO", 2)}`,
+          `noble gases`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 157,
+        question: `The nitrogen obtained from air has a density higher than the one from nitrogen-containing compounds because the one from air is contaminated with?`,
+        options: [`oxygen`, `rare gases`, `carbon(IV) oxide`, `water vapor`],
+        ans: "B",
+      },
+      {
+        id: 158,
+        question: `The major and most effective way of controlling pollution is to`,
+        options: [
+          `pass strict laws against it by individuals and companies`,
+          `educate people on the causes and effect of pollution`,
+          `convert chemical waste to harmless substances before releasing them into the environment`,
+          `improve machinery so that the substances released from combustion are less harmful`,
+        ],
+        ans: "C",
+      },
+
+      {
+        id: 150,
+        question: `The noble gas with a high power of fog penetration used in aerodome beacons is`,
+        options: [`argon`, `helium`, `neon`, `krypton`],
+        ans: "C",
+      },
+      {
+        id: 160,
+        question: `Which of the following gases makes up the largest percentage of atmospheric air`,
+        options: [
+          "carbon(IV) oxide",
+          "Hydrogen",
+          "Nitrogen",
+          "Noble gases",
+          "Oxygen",
+        ],
+        ans: "C",
+      },
+      {
+        id: 161,
+        question: `Which of the following is not a natural component of the air`,
+        options: [
+          "water vapor",
+          "carbon(II) oxide",
+          "Nitrogen",
+          "Carbon(IV) oxide",
+        ],
+        ans: "B",
+      },
+      {
+        id: 162,
+        question: `The uncovered raw food that is sold along major roads is likely to contain some amounts of`,
+        options: ["Pb", "Cu", "Ag", "Na"],
+        ans: "A",
+      },
+    ]
+  },
+
+  {
+    topic: "Acids, Bases, and Salt",
+    questions: [
+      {
+        id: 1,
+        question: `${formula("NH",3)} + ${ion(formula("H",3,"O"),"+")} -> ${ion(formula("NH",4),"+")} + ${formula("H",2,"O")}<br />
+        Which of the following statement is correct about the above reaction`,
+        options: [  
+          `${formula("NH",3)} acts as an acid`,
+          `${ion(formula("NH",4),"+")} acts as a base`,
+          `${ion(formula("H",3,"O"),"+")} acts as an acid`,
+          `${ion(formula("H",3,"O"),"+")}`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 2,
+        question: `${formula("NaCl","s")} + ${formula("H",2,"SO",4,"l")} -> ${formula("HCl","g")} + ${formula("NaHSO",4,"s")}<br />In the above reaction, ${formula("H",2,"SO",4)} acts as`,
+        options: [  
+          `a dehydrating agent`,
+          `a strong acid`,
+          `a good solvent`,
+          `an oxidizing agent`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 3,
+        question: `The number of hydroxonium ions produced by one molecule of an acid in aqeuous solution is termed as its`,
+        options: [  
+          `acid strength`,
+          `pH`,
+          `acidity`,
+          `basicity`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 4,
+        question: `A weak acid is one`,
+        options: [  
+          `which can ionize completely in aqeous solution`,
+          `which has a low pH value`,
+          `which is not corrosive`,
+          `which can ionize partially in aqeuous solutions`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 5,
+        question: `Propanoic acid is`,
+        options: [  
+          `tribasic`,
+          `dibasic`,
+          `monobasic`,
+          `unionisable`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 6,
+        question: `A mixed acid anhydride is`,
+        options: [  
+          `sulfur(IV) oxide`,
+          `nitrogen(IV) oxide`,
+          `carbon(IV) oxide`,
+          `carbon(II) oxide`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 7,
+        question: `The following are the properties of acids except`,
+        options: [  
+          `reaction with copper to liberate hydrogen`,
+          `presence of ionisable hydrogen atom(s)`,
+          `evolution of ${formula("CO",2)} with ${formula("Na",2,"CO",3)} solution`,
+          `pH values of less than 7`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 8,
+        question: `An acid is a substance which interacts with water to produce`,
+        options: [  
+          `hydrogen gas`,
+          `hydroxonium ions`,
+          `hydroxide ions`,
+          `effervescence`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 9,
+        question: `A species that is always present in acidified water is`,
+        options: [  
+          `${ion(formula("OH"),"-")}`,
+          `${ion(formula("NH",4),"+")}`,
+          `${ion(formula("O"),"2-")}`,
+          `${ion(formula("H",3,"O"),"+")}`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 11,
+        question: `An aqueous solution is acidic if`,
+        options: [  
+          `it contains less ${ion(formula("OH"),"-")} than ${ion(formula("H",3,"O"),"+")}`,
+          `it contains ${ion(formula("OH"),"-")} and ${ion(formula("H",3,"O"),"+")} in the same proportion`,
+          `its pH value is greater than 7`,
+          `it changes the color of an indicator`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 12,
+        question: `The following statements are all correct about dilute tetraoxosulfate(VI) acid except that it`,
+        options: [  
+          `effervesces with magnesium`,
+          `effervesces with dilute hydrochloric acid`,
+          `has a pH value less than 7`,
+          `is a strong electrolyte`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 13,
+        question: `Which of the following is not a property of an acid?`,
+        options: [  
+          `Conduction of an electric current in solution`,
+          `Ability to neutralize basic oxides`,
+          `Effervescence with ${formula("K",2,"CO",3)} solution`,
+          `Formation of a salt with an acidic oxide`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 14,
+        question: `A piece of seashell produced a colorless, odorless gas that turned limewater milky when dropped into a dilute solution of HCl. It can be inferred that the sea shell contains`,
+        options: [  
+          `a trioxocarbonate(IV) salt`,
+          `a chloride`,
+          `a trioxonitrate(V) salt`,
+          `a tetraoxosulfate(VI) salt`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 15,
+        question: `A student who accidentally poured concentrated ${formula("H",2,"SO",4)} on his skin during a practical class is best treated by washing the skin with`,
+        options: [  
+          `more of the concentrated ${formula("H",2,"SO",4)}`,
+          `potassium hydroxide solution`,
+          `sodium trioxocarbonate(IV) solution followed by plenty of cold water`,
+          `iodine solution`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 16,
+        question: `An acid and its conjugate base`,
+        options: [  
+          `are oppositely charged`,
+          `differ only by a hydroxide ion`,
+          `differ only by an electron`,
+          `differ only by a proton`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 17,
+        question: `Concentrated ${formula("H",2,"SO",4)} differs from concentrated ${formula("HNO",3)} in`,
+        options: [  
+          `the ability to liberate ${formula("CO",2)} from ${ion(formula("CO",3),"-")}`,
+          `the action as an oxidizing agent`,
+          `the ability to conduct an electric current on dilution`,
+          `the ability to dehydrate compounds`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 18,
+        question: `Hydrogen sulfide behaves as an acid in`,
+        options: [  
+          `2${formula("FeCl",3)} + ${formula("H",2,"S")} -> 2${formula("FeCl",2)} + 2HCl + S`,
+          `2${formula("NaOH")} + ${formula("H",2,"S")} -> ${formula("Na",2,"S")} + 2${formula("H",2,"O")}`,
+          `${formula("H",2,"SO",4)} + ${formula("H",2,"S")} -> ${formula("SO",2)} + 2${formula("H",2,"O")} + S`,
+          `${formula("SO",2)} + 2${formula("H",2,"S")} -> ${formula("H",2,"O")} + 3S`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 19,
+        question: `Which of the following aqueous solutions would change the color of blue litmus paper?`,
+        options: [  
+          `Potassium chloride`,
+          `Sodium hydroxide`,
+          `Chlorine`,
+          `Sodium trioxocarbonate(IV)`
+        ],
+        ans: "C",
+      },
+      {
+        id: 20,
+        question: `${formula("HNO",3)} behaves as a typical acid in`,
+        options: [  
+          `${formula("MgO")} + 2${formula("HNO",3)} -> ${formula("Mg",`(${formula("NO",3)})`,2)} + ${formula("H",2,"O")}`,
+          `S + 6${formula("HNO",3)} -> ${formula("H",2,"SO",4)} + 6${formula("NO",2)} + 2${formula("H",2,"O")}`,
+          `P + 5${formula("HNO",3)} -> ${formula("H",3,"PO",4)} + 5${formula("NO",2)} + ${formula("H",2,"O")}`,
+          `3Cu + 8${formula("HNO",3)} -> ${formula("Cu",`(${formula("NO",3)})`,2)} + 2NO + 4${formula("H",2,"O")}`
+        ],
+        ans: "A",
+      },
+      {
+        id: 21,
+        question: `A colorless odorless gas, which turned limewater milky, was evolved when a sample of gastric juice was treated with potassium trioxocarbonate(IV). It can be inferred that gastric juice is`,
+        options: [  
+          `neutral`,
+          `acidic`,
+          `basic`,
+          `amphoteric`
+        ],
+        ans: "B",
+      },
+      {
+        id: 22,
+        question: `The solid substance that would dissolve in hot dilute ${formula("H",2,"SO",4)} without effervescence, to give a blue solution is`,
+        options: [  
+          `copper alloy`,
+          `copper chip`,
+          `${formula("CuCO",3)}`,
+          `CuO`
+        ],
+        ans: "D",
+      },
+      {
+        id: 23,
+        question: `The reaction involved in the removal of rust from iron by treatment with ${formula("H",2,"SO",4)} is`,
+        options: [  
+          `oxidation of rust`,
+          `hydrolysis of rust`,
+          `acid-base reaction`,
+          `dehydration of rust`
+        ],
+        ans: "C",
+      },
+      {
+        id: 24,
+        question: `Neutralization is a reaction between ${ion(formula("OH"),"-")} and`,
+        options: [  
+          `${ion(formula("SO",4),"2-")}`,
+          `${ion(formula("H",3,"O"),"+")}`,
+          `${ion("Cl","-")}`,
+          `${ion(formula("NO",3),"-")}`
+        ],
+        ans: "B",
+      },
+      {
+        id: 25,
+        question: `A general method of preparing acids is`,
+        options: [  
+          `dissolution of a metallic oxide in water`,
+          `reaction between an anhydride and water`,
+          `direct combination of constituent elements`,
+          `double decomposition involving a salt solution`
+        ],
+        ans: "B",
+      },
+      {
+        id: 26,
+        question: `A neutralization reaction is the`,
+        options: [  
+          `addition of hydrochloric acid to water`,
+          `addition of hydrochloric acid to sodium chloride`,
+          `addition of hydrochloric acid to sodium hydroxide`,
+          `addition of sodium chloride to potassium chloride`
+        ],
+        ans: "C",
+      },
+      {
+        id: 27,
+        question: `The reaction between KOH and ${formula("NO",2)} produces water and`,
+        options: [  
+          `${formula("KNO",3)}`,
+          `${formula("KNO",2)}`,
+          `${formula("HNO",3)}`,
+          `${formula("KNO",3)} and ${formula("KNO",2)}`
+        ],
+        ans: "D",
+      },
+      {
+        id: 28,
+        question: `Which of the following elements can be used to make a container for storing sodium hydroxide?`,
+        options: [  
+          `Zinc`,
+          `Lead`,
+          `Copper`,
+          `Aluminium`
+        ],
+        ans: "C",
+      },
+      {
+        id: 29,
+        question: `A metal that cannot produce hydrogen from alkaline solutions is`,
+        options: [  
+          `Tin`,
+          `Iron`,
+          `Aluminium`,
+          `Zinc`
+        ],
+        ans: "B",
+      },
+      {
+        id: 30,
+        question: `The molecular formula of the compound ultimately produced when solid sodium hydroxide is exposed to air is`,
+        options: [  
+          `${formula("Na",2,"CO",3)}`,
+          `${formula("NaHCO",3)}`,
+          `${formula("NaOH")}.${formula("H",2,"O")}`,
+          `${formula("NaOH")}.${formula("N",2)}`
+        ],
+        ans: "B",
+      },
+      {
+        id: 31,
+        question: `Which of the properties<br />
+        I. slippery to touch <br />
+        II. sour taste <br />
+        III. yields hydrogen with reactive metals <br />
+        IV. has pH greater than 7 <br />
+        V. turns methyl orange to yellow <br />
+        are not typical properties of an alkali`,
+        options: [  
+          `I, II, and III`,
+          `I, III, and V`,
+          `III and IV`,
+          `II and III`
+        ],
+        ans: "D",
+      },
+      {
+        id: 32,
+        question: `An acid salt is`,
+        options: [  
+          `${formula("FeSO",4)}.7${formula("H",2,"O")}`,
+          `${formula("NaHSO",4)}`,
+          `${formula(`(${formula("NH",4)})`,2,"SO",4)}`,
+          `${formula("CH",3,"COONa")}`
+        ],
+        ans: "B",
+      },
+      {
+        id: 33,
+        question: `A normal salt is`,
+        options: [  
+          `${formula(`(${formula("NH",4)})`,2,"SO",4)}`,
+          `${formula("NaHSO",4)}`,
+          `${formula("Mg(OH)Cl")}`,
+          `${formula("Mg",`(${formula("HCO",3)})`,2)}`
+        ],
+        ans: "A",
+      },
+      {
+        id: 34,
+        question: `Which of the following salts, when dissolved in water will not give the corresponding pH value?`,
+        options: [  
+          `${formula("KCl")}, pH = 7`,
+          `${formula("K",2,"CO",3)}, pH > 7`,
+          `${formula("KHCO",3)}, pH < 7`,
+          `${formula("K",2,"SO",4)}, pH = 7`
+        ],
+        ans: "C",
+      },
+      {
+        id: 35,
+        question: `Which of the following are the products of the reaction between dilute aqueous solutions of lead(II) trioxonitrate(V) and sodium chloride?`,
+        options: [  
+          `${formula("PbO","s")} + ${formula(ion("Na","+"),"aq")} + ${formula(ion("Cl","-"),"aq")} + ${formula("NO",2,"g")}`,
+          `${formula("PbCl",2,"s")} + ${formula(ion("Na","+"),"aq")} + ${formula("NO",3,"g")}`,
+          `${formula("Cl",2,"g")} + ${formula("NO",2,"g")} + ${formula("PbCl",2,"s")}`,
+          `${formula("PbO","s")} + ${formula(ion("Cl","-"),"aq")} + ${formula("NaNO",3,"aq")}`
+        ],
+        ans: "B",
+      },
+      {
+        id: 36,
+        question: `Which of the following salts cannot be prepared by a double decomposition reaction?`,
+        options: [  
+          `${formula("BaCO",3)}`,
+          `${formula("PbCl",2)}`,
+          `${formula("KCl")}`,
+          `${formula("AgCl")}`
+        ],
+        ans: "C",
+      },
+      {
+        id: 37,
+        question: `Which of the following salts crystallizes with water of crystallization?`,
+        options: [  
+          `${formula("NaCl")}`,
+          `${formula("AgNO",3)}`,
+          `${formula("CaCO",3)}`,
+          `${formula("CuSO",4)}`
+        ],
+        ans: "D",
+      },
+      {
+        id: 38,
+        question: `The insoluble salt formed when silver trioxonitrate(V) solution is mixed with sodium chloride solution is`,
+        options: [  
+          `${formula("AgNO",3)}`,
+          `${formula("NaNO",3)}`,
+          `${formula("NaCl")}`,
+          `${formula("AgCl")}`
+        ],
+        ans: "D",
+      },
+      {
+        id: 39,
+        question: `A complex salt is`,
+        options: [  
+          `${formula("KAl",`(${formula("SO",4)})`,2)}.12${formula("H",2,"O")}`,
+          `[Cu(${formula("NH",3)})<sub>4</sub>]${formula("Cl",2)}`,
+          `${formula("K",2,"S",3,"O",3)}.5${formula("H",2,"O")}`,
+          `${formula("Mg(OH)Cl")}`
+        ],
+        ans: "B",
+      },
+      {
+        id: 40,
+        question: `The most stable method for preparing lead(II) tetraoxosulfate(VI) is by`,
+        options: [  
+          `action of dilute ${formula("H",2,"SO",4)} on ${formula("PbCl",2)}`,
+          `mixing aqueous solutions of ${formula("Pb",`(${formula("NO",3)})`,2)} with ${formula("Na",2,"SO",4)}`,
+          `action of dilute ${formula("H",2,"SO",4)} on lead`,
+          `action of dilute ${formula("H",2,"SO",4)} on ${formula("PbCO",3)}`
+        ],
+        ans: "B",
+      },
+      {
+        id: 41,
+        question: `Alums are`,
+        options: [  
+          `acid salts`,
+          `basic salts`,
+          `double salts`,
+          `complex salts`
+        ],
+        ans: "C",
+      },
+      {
+        id: 42,
+        question: `Which of the following is not a suitable method of preparing simple salt`,
+        options: [  
+          `Hydrogenation`,
+          `Neutralization`,
+          `Double decomposition`,
+          `Reaction of acid with a metal`
+        ],
+        ans: "A",
+      },
+      {
+        id: 43,
+        question: `Which of the following is not a normal salt?`,
+        options: [  
+          `${formula("KHCO",3)}`,
+          `${formula("K",2,"SO",3)}`,
+          `${formula("K",3,"PO",4)}`,
+          `${formula("KCl")}`
+        ],
+        ans: "A",
+      },
+      {
+        id: 44,
+        question: `A general method of preparing insoluble salts is by`,
+        options: [  
+          `adding an acid to an active metal`,
+          `adding an acid to a trioxocarbonate`,
+          `adding an acid to an oxide`,
+          `double decomposition`
+        ],
+        ans: "D",
+      },
+      {
+        id: 45,
+        question: `Which of the following mixtures will not produce a precipitate?`,
+        options: [  
+          `${formula("Cu",`(${formula("NO",3)})`,2,"aq")} and ${formula("NaOH","aq")}`,
+          `${formula("CaCl",2,"aq")} and ${formula("AgNO",3,"aq")}`,
+          `${formula("HCl","aq")} and ${formula("KNO",3,"aq")}`,
+          `${formula("BaCl",2,"aq")} and ${formula("H",2,"SO",4,"aq")}`
+        ],
+        ans: "C",
+      },
+      {
+        id: 46,
+        question: `What is the solubility of a substance A if 50${units("cm",3)} of a saturated solution contains 8.0g of A? [A = 60${units("gmol",-1)}]`,
+        options: [  
+          `3.67 ${units("moldm",-3)}`,
+          `2.67 ${units("moldm",-3)}`,
+          `1.67 ${units("moldm",-3)}`,
+          `0.67 ${units("moldm",-3)}`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 48,
+        question: `15.3g of a sample of ${formula("KClO",3)} was required to make a saturated solution with 50${units("cm",3)} of water at 25&deg;C. What is the solubility of the salt at 25&deg;C? [K = 39, Cl = 35.5, O = 16]`,
+        options: [  
+          `2.5 ${units("moldm",-3)}`,
+          `2.0 ${units("moldm",-3)}`,
+          `1.5 ${units("moldm",-3)}`,
+          `1.0 ${units("moldm",-3)}`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 49,
+        question: `When 100${units("cm",3)} of a saturated solution of a substance S (molar mass 342g) at 38&deg;C was evaporated to dryness, 68.4g of dry solid was obtained. The solubility of S at 38&deg;C is`,
+        options: [  
+          `1.0 ${units("moldm",-3)}`,
+          `2.0 ${units("moldm",-3)}`,
+          `3.0 ${units("moldm",-3)}`,
+          `4.0 ${units("moldm",-3)}`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 50,
+        question: `10g of ${formula("CuSO",4)} was required to saturate 50g of water at 180&deg;C. What is the solubility(${units("moldm",-3)}) of the salt at 180&deg;C? <br />
+        [Cu = 63.5; S = 32; O = 16]`,
+        options: [  
+          `0.04 ${units("moldm",-3)}`,
+          `0.54 ${units("moldm",-3)}`,
+          `0.82 ${units("moldm",-3)}`,
+          `1.04 ${units("moldm",-3)}`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 52,
+        question: `Potassium chloride has a zero solubility product value because of its`,
+        options: [  
+          `insolubility`,
+          `low solubility`,
+          `high solubility`,
+          `neutral nature`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 53,
+        question: `20.2g of a salt, P (molar mass 101${units("gmol",-1)}) dissolved in 100g of water at 25&deg;C. Its solubility (${units("moldm",-3)}) at this temperature is`,
+        options: [  
+          `0.16`,
+          `0.20`,
+          `1.66`,
+          `2.0`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 54,
+        question: `105g of ${formula("CaCl",2)} was placed in 50${units("cm",3)} of water to give a saturated solution at 25&deg;C. If the solubility of the salt is 8.5${units("moldm",-3)} at this temperature. what is the mass of the salt left undissolved at the given temperature? <br />
+        [Ca = 40; Cl = 35.5]`,
+        options: [  
+          `57.8g`,
+          `58.7g`,
+          `58.9g`,
+          `59.8g`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 55,
+        question: `Determine the solubility (g per 100g water) of a substance using the following results: <br />
+        Mass of flask alone = 50.52g <br />
+        Mass of flask and saturated solution = 92.55g <br />
+        Mass of flask and solute = 58.27g`,
+        options: [  
+          `226.0`,
+          `92.55`,
+          `34.28`,
+          `22.60`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 56,
+        question: `Generally speaking, the solubility of a solute in water increases with an increase in temperature because`,
+        options: [  
+          `the dissolution of most solutes is exothermic`,
+          `the dissolution of most solutes is endothermic`,
+          `more solute particles dissociate at higher temperature`,
+          `more solute particles collide with one another`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 57,
+        question: `Methyl orange in a solution of pH 12 is`,
+        options: [  
+          `orange`,
+          `colorless`,
+          `yellow`,
+          `red`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 58,
+        question: `Phenolphthalein in a solution of pH 2.5 is`,
+        options: [  
+          `yellow`,
+          `pink`,
+          `red`,
+          `colorless`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 59,
+        question: `In general, the solubility of a gas`,
+        options: [  
+          `increase with increasing temperature`,
+          `decreases with increasing temperature`,
+          `is independent of temperature`,
+          `doubles with a temperature rise of 10&deg;C`,
+        ],
+        ans: "B",
+      },
     ]
   }
 ];
@@ -9912,3 +10529,6 @@ export { chemistryQuestions };
 function Heat(type,compound) {
   return `&Delta;H&deg;<sub>${type}</sub>(${compound})`
 }
+
+// console.log(chemistryQuestions.reduce((a,b) => a + b.questions.length, 0))
+// 921 questions. wow... makes sense....
