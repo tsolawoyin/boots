@@ -3,14 +3,12 @@ import { exp, formula, units, ion, eConfig, isotope } from "./helpers.js";
 // making sense.
 // chemical calculation requires modifying...
 let chemistryQuestions = [
- 
   {
-    topic: 'Descriptive Chemistry',
+    topic: "Descriptive Chemistry",
     questions: [
       {
         id: 1,
-        question:
-          "Why is hydrogen gas not found in the atmosphere?",
+        question: "Why is hydrogen gas not found in the atmosphere?",
         options: [
           `It readily reacts with carbon(IV) oxide`,
           `It readily reacts with oxygen`,
@@ -23,12 +21,7 @@ let chemistryQuestions = [
         id: 2,
         question:
           "Which of the following metals reacts with water only in the form of steam to liberate hydrogen gas?",
-        options: [
-          `Sodium`,
-          `Iron`,
-          `Copper`,
-          `Calcium`,
-        ],
+        options: [`Sodium`, `Iron`, `Copper`, `Calcium`],
         ans: "B",
       },
       {
@@ -37,7 +30,7 @@ let chemistryQuestions = [
           "Which of the following oxides remains unchanged when heated in hydrogen",
         options: [
           `${formula("PbO")}`,
-          `${formula("Fe",2,"O",3)}`,
+          `${formula("Fe", 2, "O", 3)}`,
           `${formula("CuO")}`,
           `${formula("ZnO")}`,
         ],
@@ -47,18 +40,13 @@ let chemistryQuestions = [
         id: 4,
         question:
           "All the following metals can displace hydrogen from water or steam except",
-        options: [
-          `sodium`,
-          `calcium`,
-          `iron`,
-          `copper`,
-        ],
+        options: [`sodium`, `calcium`, `iron`, `copper`],
         ans: "D",
       },
       {
         id: 5,
         question:
-          "Why is helium preferred to hydrogen in filling ballons? Hydrogen" ,
+          "Why is helium preferred to hydrogen in filling ballons? Hydrogen",
         options: [
           `exhibits isotopy`,
           `is a component of water`,
@@ -70,7 +58,7 @@ let chemistryQuestions = [
       {
         id: 6,
         question:
-          "By what means is carbon(IV) oxide produced along with hydrogen removed from the mixture in the industrial preparation of hydrogen from natural gas? This is by passing the mixture through" ,
+          "By what means is carbon(IV) oxide produced along with hydrogen removed from the mixture in the industrial preparation of hydrogen from natural gas? This is by passing the mixture through",
         options: [
           `phosphorus(V) oxide`,
           `ammoniacal copper(I) chloride`,
@@ -83,12 +71,7 @@ let chemistryQuestions = [
         id: 7,
         question:
           "Which of the following metals reacts with steam reversibly only when red-hot?",
-        options: [
-          `copper`,
-          `iron`,
-          `calcium`,
-          `sodium`,
-        ],
+        options: [`copper`, `iron`, `calcium`, `sodium`],
         ans: "B",
       },
       {
@@ -107,18 +90,12 @@ let chemistryQuestions = [
         id: 9,
         question:
           "An element that is a soft, slivery white solid and reacts violently with cold water is likely to belong to",
-        options: [
-          `group I`,
-          `group IV`,
-          `group VI`,
-          `group VII`,
-        ],
+        options: [`group I`, `group IV`, `group VI`, `group VII`],
         ans: "A",
       },
       {
         id: 10,
-        question:
-          "Which of the following statement is correct?",
+        question: "Which of the following statement is correct?",
         options: [
           `Zinc heated to redness reacts with steam to give oxygen and zinc oxide`,
           `Zinc heated to redness reacts with steam to give hydrogen and zinc oxide`,
@@ -129,8 +106,7 @@ let chemistryQuestions = [
       },
       {
         id: 11,
-        question:
-          "The following compounds are decomposed by heat except",
+        question: "The following compounds are decomposed by heat except",
         options: [
           `sodium trioxocarbonate(IV)`,
           `ammonium trioxocarbonate(IV)`,
@@ -141,20 +117,21 @@ let chemistryQuestions = [
       },
       {
         id: 12,
-        question:
-          `Apart from water, the other product(s) of the neutralization reaction between NaOH solution and nitrogen(IV) oxide (${formula("NO",2)}) is/are`,
+        question: `Apart from water, the other product(s) of the neutralization reaction between NaOH solution and nitrogen(IV) oxide (${formula(
+          "NO",
+          2
+        )}) is/are`,
         options: [
-          `${formula("NaNO",2)}`,
-          `${formula("NaNO",3)}`,
-          `${formula("NaNO",3)} and ${formula("HNO",3)}`,
-          `${formula("NaNO",2)} and ${formula("NaNO",3)}`,
+          `${formula("NaNO", 2)}`,
+          `${formula("NaNO", 3)}`,
+          `${formula("NaNO", 3)} and ${formula("HNO", 3)}`,
+          `${formula("NaNO", 2)} and ${formula("NaNO", 3)}`,
         ],
         ans: "D",
       },
       {
         id: 13,
-        question:
-          `All the following are raw materials in the Solvay process except`,
+        question: `All the following are raw materials in the Solvay process except`,
         options: [
           `sodium chloride`,
           `calcium trioxocarbonate(IV)`,
@@ -165,44 +142,40 @@ let chemistryQuestions = [
       },
       {
         id: 14,
-        question:
-          `The reaction between a liquid substance M and sodium trioxocarbonate(IV) gives a gas which turns calcium hydroxide milky. Therefore M is`,
+        question: `The reaction between a liquid substance M and sodium trioxocarbonate(IV) gives a gas which turns calcium hydroxide milky. Therefore M is`,
         options: [
           `an acid`,
-          `${formula("Na",2,"SO",4,"aq")}`,
-          `${formula("KI","aq")}`,
+          `${formula("Na", 2, "SO", 4, "aq")}`,
+          `${formula("KI", "aq")}`,
           `an alkali`,
         ],
         ans: "A",
       },
       {
         id: 15,
-        question:
-          `Which of the following in solution will give limewater used in the laboratory for the detection of carbon(IV) oxide?`,
+        question: `Which of the following in solution will give limewater used in the laboratory for the detection of carbon(IV) oxide?`,
         options: [
-          `${formula("CaSO",4,"s")}`,
-          `${formula("Ca",`(${formula("HCO",3)})`,2,"s")}`,
-          `${formula("Ca",`(${formula("OH")})`,2,"s")}`,
-          `${formula("CaCO",3)}`,
+          `${formula("CaSO", 4, "s")}`,
+          `${formula("Ca", `(${formula("HCO", 3)})`, 2, "s")}`,
+          `${formula("Ca", `(${formula("OH")})`, 2, "s")}`,
+          `${formula("CaCO", 3)}`,
         ],
         ans: "C",
       },
       {
         id: 16,
-        question:
-          `A compound gives a white precipitate with acidified barium chloride solution and a lilac flame colouration. The compound is likely to`,
+        question: `A compound gives a white precipitate with acidified barium chloride solution and a lilac flame colouration. The compound is likely to`,
         options: [
-          `${formula("K",2,"SO",4)}`,
+          `${formula("K", 2, "SO", 4)}`,
           `${formula("KCl")}`,
-          `${formula("CaSO",4)}`,
-          `${formula("NaNO",3)}`,
+          `${formula("CaSO", 4)}`,
+          `${formula("NaNO", 3)}`,
         ],
         ans: "A",
       },
       {
         id: 17,
-        question:
-          `One of the following is used in the manufacture of glass`,
+        question: `One of the following is used in the manufacture of glass`,
         options: [
           `sodium trioxonitrate(V)`,
           `sodium bromide`,
@@ -213,58 +186,53 @@ let chemistryQuestions = [
       },
       {
         id: 18,
-        question:
-          `What is the product formed when carbon(IV) oxide is passed into limewater for a long time`,
+        question: `What is the product formed when carbon(IV) oxide is passed into limewater for a long time`,
         options: [
-          `${formula("CaC",2)}`,
-          `${formula("CaCO",3)}`,
-          `${formula("Ca",`(${formula("HCO",3)})`,2,"s")}`,
+          `${formula("CaC", 2)}`,
+          `${formula("CaCO", 3)}`,
+          `${formula("Ca", `(${formula("HCO", 3)})`, 2, "s")}`,
           `${formula("CaO")}`,
         ],
         ans: "C",
       },
       {
         id: 19,
-        question:
-          `When mortar sets, the compound formed is`,
+        question: `When mortar sets, the compound formed is`,
         options: [
-          `${formula("Ca",`(${formula("OH")})`,2,"s")}`,
-          `${formula("CaCO",3)}`,
-          `${formula("Ca",`(${formula("NO",3)})`,2,"s")}`,
-          `${formula("CaCl",2)}`,
+          `${formula("Ca", `(${formula("OH")})`, 2, "s")}`,
+          `${formula("CaCO", 3)}`,
+          `${formula("Ca", `(${formula("NO", 3)})`, 2, "s")}`,
+          `${formula("CaCl", 2)}`,
         ],
         ans: "B",
       },
       {
         id: 20,
-        question:
-          `Which of the following processes is represented by the equation below 
+        question: `Which of the following processes is represented by the equation below 
           <br /> 
-          ${formula("CaO","s")} + ${formula("H",2,"O","l")} -> ${formula("Ca",`(${formula("HCO",3)})`,2,"s")}`,
-        options: [
-          `Mortaring`,
-          `Dissolution`,
-          `Slaking`,
-          `Liming`,
-        ],
+          ${formula("CaO", "s")} + ${formula("H", 2, "O", "l")} -> ${formula(
+          "Ca",
+          `(${formula("HCO", 3)})`,
+          2,
+          "s"
+        )}`,
+        options: [`Mortaring`, `Dissolution`, `Slaking`, `Liming`],
         ans: "C",
       },
       {
         id: 21,
-        question:
-          `Which one of the following raw materials would be required for the smelting of iron ore in a blast furnace?`,
+        question: `Which one of the following raw materials would be required for the smelting of iron ore in a blast furnace?`,
         options: [
-          `${formula("CaCO",3)}`,
-          `${formula("Zn", `(${formula("NO",3)})`,2)}`,
-          `${formula("Cu","SO",4)}`,
-          `${formula("AlCl",3)}`,
+          `${formula("CaCO", 3)}`,
+          `${formula("Zn", `(${formula("NO", 3)})`, 2)}`,
+          `${formula("Cu", "SO", 4)}`,
+          `${formula("AlCl", 3)}`,
         ],
         ans: "A",
       },
       {
         id: 22,
-        question:
-          `All of the following can be deduced from the electronic configuration of a transition metal except`,
+        question: `All of the following can be deduced from the electronic configuration of a transition metal except`,
         options: [
           `possession of magnetic property`,
           `ability to form complex ions`,
@@ -275,20 +243,18 @@ let chemistryQuestions = [
       },
       {
         id: 23,
-        question:
-          `The function of limestone in the extraction of iron in the blast furnace is`,
+        question: `The function of limestone in the extraction of iron in the blast furnace is`,
         options: [
           `reduction of the iron ore`,
           `removal of impurities`,
-          `provision of ${formula("CO",2)} for the process`,
+          `provision of ${formula("CO", 2)} for the process`,
           `catalysis of the reaction involved`,
         ],
         ans: "B",
       },
       {
         id: 24,
-        question:
-          `Why is copper(II) tetraoxosulphate(VI) often added to swimming pools? It`,
+        question: `Why is copper(II) tetraoxosulphate(VI) often added to swimming pools? It`,
         options: [
           `prevent the growth of algae`,
           `coagulates suspended particles`,
@@ -299,8 +265,7 @@ let chemistryQuestions = [
       },
       {
         id: 25,
-        question:
-          `Extraction of aluminum from its ore is by`,
+        question: `Extraction of aluminum from its ore is by`,
         options: [
           `floatation`,
           `electrolysis`,
@@ -311,10 +276,15 @@ let chemistryQuestions = [
       },
       {
         id: 26,
-        question:
-          `What will happen if a few drops of dilute HCl are added to the complex formed in the equation below
+        question: `What will happen if a few drops of dilute HCl are added to the complex formed in the equation below
           <br />
-          ${formula(ion("Cu",2,"+"), "aq")} + 4 ${formula("NH",3)} -> ${formula(ion(formula("Cu",`(${formula("NH",3)})`,4), "2","+"),"aq")}`,
+          ${formula(ion("Cu", 2, "+"), "aq")} + 4 ${formula(
+          "NH",
+          3
+        )} -> ${formula(
+          ion(formula("Cu", `(${formula("NH", 3)})`, 4), "2", "+"),
+          "aq"
+        )}`,
         options: [
           `The deep color of the complex will appear deeper`,
           `The deep color of the complex will remain unchanged`,
@@ -325,32 +295,40 @@ let chemistryQuestions = [
       },
       {
         id: 27,
-        question:
-          `In the blast furnace, during the extraction of iron, slag is produced using`,
-        options: [
-          `carbon`,
-          `sulfur`,
-          `cryolite`,
-          `limestone`,
-        ],
+        question: `In the blast furnace, during the extraction of iron, slag is produced using`,
+        options: [`carbon`, `sulfur`, `cryolite`, `limestone`],
         ans: "D",
       },
       {
         id: 28,
-        question:
-          `All of the following reactions take place in the smelting of iron in a blast furnace except`,
+        question: `All of the following reactions take place in the smelting of iron in a blast furnace except`,
         options: [
-          `${formula("CO",2,"g")} + ${formula("CaO","s")} -> ${formula("CaCO",3,"s")}`,
-          `${formula("CO",2,"g")} + ${formula("C","s")} -> ${formula("CO",2,"g")}`,
-          `${formula("C","s")} + ${formula("O",2)} -> ${formula("CO",2,"g")}`,
-          `${formula("CaCO",3,"s")} -> ${formula("CaO","s")} + ${formula("CO",2,"g")}`,
+          `${formula("CO", 2, "g")} + ${formula("CaO", "s")} -> ${formula(
+            "CaCO",
+            3,
+            "s"
+          )}`,
+          `${formula("CO", 2, "g")} + ${formula("C", "s")} -> ${formula(
+            "CO",
+            2,
+            "g"
+          )}`,
+          `${formula("C", "s")} + ${formula("O", 2)} -> ${formula(
+            "CO",
+            2,
+            "g"
+          )}`,
+          `${formula("CaCO", 3, "s")} -> ${formula("CaO", "s")} + ${formula(
+            "CO",
+            2,
+            "g"
+          )}`,
         ],
         ans: "A",
       },
       {
         id: 29,
-        question:
-          `What is the role of cryolite in the electrolytic extraction of aluminium from bauxite?`,
+        question: `What is the role of cryolite in the electrolytic extraction of aluminium from bauxite?`,
         options: [
           `It makes aluminium purer`,
           `It protects the carbon electrodes used in the process`,
@@ -361,21 +339,18 @@ let chemistryQuestions = [
       },
       {
         id: 30,
-        question:
-          `Which of the following colours is imparted by calcium ion to a flame`,
-        options: [
-          `lilac`,
-          `yellow`,
-          `blue`,
-          `brick red`,
-        ],
+        question: `Which of the following colours is imparted by calcium ion to a flame`,
+        options: [`lilac`, `yellow`, `blue`, `brick red`],
         ans: "D",
       },
       {
         id: 31,
-        question:
-          `Why does iron displace copper ions from a solution of copper(II) salt in the following reaction <br />
-          ${formula("Fe","s")} + ${ion("Cu","2+")} -> ${ion("Fe",2,"+")} + ${formula("Cu","s")}`,
+        question: `Why does iron displace copper ions from a solution of copper(II) salt in the following reaction <br />
+          ${formula("Fe", "s")} + ${ion("Cu", "2+")} -> ${ion(
+          "Fe",
+          2,
+          "+"
+        )} + ${formula("Cu", "s")}`,
         options: [
           `Iron is higher in the electrochemical series from copper`,
           `Copper metal has more electrons than iron metal`,
@@ -386,20 +361,13 @@ let chemistryQuestions = [
       },
       {
         id: 32,
-        question:
-          `Which of the following metals would be in passive state when treated with conc. nitric acid`,
-        options: [
-          `Zinc`,
-          `Sodium`,
-          `Tin`,
-          `Iron`,
-        ],
+        question: `Which of the following metals would be in passive state when treated with conc. nitric acid`,
+        options: [`Zinc`, `Sodium`, `Tin`, `Iron`],
         ans: "D",
       },
       {
         id: 33,
-        question:
-          `What is the major component of the slag obtained during the production of iron in the blast furnace?`,
+        question: `What is the major component of the slag obtained during the production of iron in the blast furnace?`,
         options: [
           `Impure iron`,
           `Calcium trioxosilicate(IV)`,
@@ -410,8 +378,7 @@ let chemistryQuestions = [
       },
       {
         id: 34,
-        question:
-          `Which of the following is the solvent for dissolving bauxite in order to remove impurities in the electrolytic extraction of aluminium?`,
+        question: `Which of the following is the solvent for dissolving bauxite in order to remove impurities in the electrolytic extraction of aluminium?`,
         options: [
           `sodium hydroxide`,
           `deionized water`,
@@ -422,8 +389,7 @@ let chemistryQuestions = [
       },
       {
         id: 35,
-        question:
-          `In which of the following pairs of metals are the two members extracted by electrolysis`,
+        question: `In which of the following pairs of metals are the two members extracted by electrolysis`,
         options: [
           `copper and zinc`,
           `lead and calcium`,
@@ -434,8 +400,7 @@ let chemistryQuestions = [
       },
       {
         id: 36,
-        question:
-          `Aluminum and iron can both`,
+        question: `Aluminum and iron can both`,
         options: [
           `show oxidation states of +2 and +3`,
           `form soluble hydroxides`,
@@ -446,20 +411,13 @@ let chemistryQuestions = [
       },
       {
         id: 37,
-        question:
-          `The oxide of which of the following elements will be soluble in both HCl and NaOH solutions to form salts?`,
-        options: [
-          `Mn`,
-          `Ag`,
-          `Al`,
-          `Ag`,
-        ],
+        question: `The oxide of which of the following elements will be soluble in both HCl and NaOH solutions to form salts?`,
+        options: [`Mn`, `Ag`, `Al`, `Ag`],
         ans: "C",
       },
       {
         id: 38,
-        question:
-          `Which of the following can exhibit corrosion`,
+        question: `Which of the following can exhibit corrosion`,
         options: [
           `metals below hydrogen in the electrochemical series`,
           `iron only`,
@@ -470,20 +428,13 @@ let chemistryQuestions = [
       },
       {
         id: 39,
-        question:
-          `A metal whose oxide is used for the production of colored glass is`,
-        options: [
-          `cobalt`,
-          `zinc`,
-          `barium`,
-          `potassium`,
-        ],
+        question: `A metal whose oxide is used for the production of colored glass is`,
+        options: [`cobalt`, `zinc`, `barium`, `potassium`],
         ans: "A",
       },
       {
         id: 40,
-        question:
-          `What happens when a piece of charcoal enclosed in a cylinder containing air is ignited?`,
+        question: `What happens when a piece of charcoal enclosed in a cylinder containing air is ignited?`,
         options: [
           `The total volume of air is increased`,
           `The relative amount of nitrogen is decreased`,
@@ -494,20 +445,18 @@ let chemistryQuestions = [
       },
       {
         id: 41,
-        question:
-          `Which of the following salts does not dissolve readily in cold water`,
+        question: `Which of the following salts does not dissolve readily in cold water`,
         options: [
-          `${formula("CaCl",2)}`,
-          `${formula("PbSO",4)}`,
-          `${formula(`(${formula("NH",4)})`,2,"SO",4)}`,
-          `${formula("Na",2,"CO",3)}`,
+          `${formula("CaCl", 2)}`,
+          `${formula("PbSO", 4)}`,
+          `${formula(`(${formula("NH", 4)})`, 2, "SO", 4)}`,
+          `${formula("Na", 2, "CO", 3)}`,
         ],
         ans: "B",
       },
       {
         id: 42,
-        question:
-          `The following tests can be used to distinguish carbon(II) oxide from carbon(IV) oxide except`,
+        question: `The following tests can be used to distinguish carbon(II) oxide from carbon(IV) oxide except`,
         options: [
           `observing their color and odor`,
           `passing each gas into water and testing with litmus`,
@@ -518,32 +467,24 @@ let chemistryQuestions = [
       },
       {
         id: 43,
-        question:
-          `Which of the following mixtures is the producer gas?`,
+        question: `Which of the following mixtures is the producer gas?`,
         options: [
-          `${formula("CO",2)} and ${formula("H",2)}`,
-          `${formula("CO",2)} and ${formula("N",2)}`,
-          `${formula("CO")} and ${formula("H",2)}`,
-          `${formula("CO")} and ${formula("N",2)}`,
+          `${formula("CO", 2)} and ${formula("H", 2)}`,
+          `${formula("CO", 2)} and ${formula("N", 2)}`,
+          `${formula("CO")} and ${formula("H", 2)}`,
+          `${formula("CO")} and ${formula("N", 2)}`,
         ],
         ans: "D",
       },
       {
         id: 44,
-        question:
-          `Which of the following does not readily react with concentrated trioxonitrate(V) acid`,
-        options: [
-          `Copper`,
-          `Zinc`,
-          `Iron`,
-          `Tin`,
-        ],
+        question: `Which of the following does not readily react with concentrated trioxonitrate(V) acid`,
+        options: [`Copper`, `Zinc`, `Iron`, `Tin`],
         ans: "C",
       },
       {
         id: 45,
-        question:
-          `What is the role of concentrated tetraoxosulfate(VI) acid in the preparation of carbon(II) oxide by heating ethanedioc acid with concentrated tetraoxosulphate(VI) oxide`,
+        question: `What is the role of concentrated tetraoxosulfate(VI) acid in the preparation of carbon(II) oxide by heating ethanedioc acid with concentrated tetraoxosulphate(VI) oxide`,
         options: [
           `A dehydrating agent`,
           `A reaction medium`,
@@ -554,8 +495,7 @@ let chemistryQuestions = [
       },
       {
         id: 46,
-        question:
-          `The white solid that gives a colorless neutral gas that burns with a sooty flame is`,
+        question: `The white solid that gives a colorless neutral gas that burns with a sooty flame is`,
         options: [
           `sodium tetraoxosulphate(VI)`,
           `calcium carbide`,
@@ -566,8 +506,7 @@ let chemistryQuestions = [
       },
       {
         id: 47,
-        question:
-          `The following statements are correct except`,
+        question: `The following statements are correct except`,
         options: [
           `Carbon(IV) oxide is soluble in water`,
           `Lead has a higher atomic weights than copper`,
@@ -578,11 +517,16 @@ let chemistryQuestions = [
       },
       {
         id: 48,
-        question:
-          `The following statements are true of carbon(II) oxide except`,
+        question: `The following statements are true of carbon(II) oxide except`,
         options: [
-          `CO is readily oxidized at room temperature by air ro form ${formula("CO",2)}`,
-          `CO may be prepared by reducing ${formula("CO",2)} mixed with coke heated to about 1000&deg;C`,
+          `CO is readily oxidized at room temperature by air ro form ${formula(
+            "CO",
+            2
+          )}`,
+          `CO may be prepared by reducing ${formula(
+            "CO",
+            2
+          )} mixed with coke heated to about 1000&deg;C`,
           `CO is poisonous`,
           `CO is a good reducing agent`,
         ],
@@ -590,46 +534,42 @@ let chemistryQuestions = [
       },
       {
         id: 49,
-        question:
-          `In which of the following pairs oxides will each of the two members further react with oxygen to form a higher oxide?`,
+        question: `In which of the following pairs oxides will each of the two members further react with oxygen to form a higher oxide?`,
         options: [
-          `${formula("CO",2)} and ${formula("H",2,"0")}`,
-          `${formula("SO",2)} and ${formula("NO")}`,
-          `${formula("NO")} and ${formula("CO",2)}`,
-          `${formula("CO")} and ${formula("CO",2)}`,
+          `${formula("CO", 2)} and ${formula("H", 2, "0")}`,
+          `${formula("SO", 2)} and ${formula("NO")}`,
+          `${formula("NO")} and ${formula("CO", 2)}`,
+          `${formula("CO")} and ${formula("CO", 2)}`,
         ],
         ans: "B",
       },
       {
         id: 50,
-        question:
-          `The compound used in fire extinguishers is?`,
+        question: `The compound used in fire extinguishers is?`,
         options: [
           `sulphur(IV) oxide`,
           `carbon(II) oxide`,
           `ammoina`,
-          `carbon(IV) oxide`
+          `carbon(IV) oxide`,
         ],
         ans: "D",
       },
       {
         id: 51,
-        question:
-          `In which of the following processes does coal give coal gas, coal tar, ammoniacal liquor and coke`,
+        question: `In which of the following processes does coal give coal gas, coal tar, ammoniacal liquor and coke`,
         options: [
           `liquefaction`,
           `steam distillation`,
           `destructive distillation`,
-          `hydrolysis`
+          `hydrolysis`,
         ],
         ans: "C",
       },
       {
         id: 52,
-        question:
-          `Why should coal fire not be used in poorly ventilated rooms? This is because`,
+        question: `Why should coal fire not be used in poorly ventilated rooms? This is because`,
         options: [
-          `of the accumulation of ${formula("CO",2)} which causes deep sleep`,
+          `of the accumulation of ${formula("CO", 2)} which causes deep sleep`,
           `of the accumulation of ${formula("CO")} which causes suffocation`,
           `it removes most of the gases in the rooms`,
           `it usually too hot`,
@@ -638,8 +578,7 @@ let chemistryQuestions = [
       },
       {
         id: 53,
-        question:
-          `What happens when the trioxonitrate(V) of potassium magnesium and silver are heated?`,
+        question: `What happens when the trioxonitrate(V) of potassium magnesium and silver are heated?`,
         options: [
           `All of the trioxonitrate(V) salts decompose to their oxides`,
           `The trioxonitrate(V) salt of magnesium gives the dioxonitrate(III) salt and oxygen`,
@@ -650,8 +589,7 @@ let chemistryQuestions = [
       },
       {
         id: 54,
-        question:
-          `All the following compounds will give oxygen gas on heating except`,
+        question: `All the following compounds will give oxygen gas on heating except`,
         options: [
           `manganese(IV) oxide`,
           `hydrogen peroxide`,
@@ -662,20 +600,18 @@ let chemistryQuestions = [
       },
       {
         id: 55,
-        question:
-          `Silver trioxonitrate(V) on heating gives`,
+        question: `Silver trioxonitrate(V) on heating gives`,
         options: [
-          `Ag, ${formula("N",2,"O")} and ${formula("O",2)}`,
-          `${formula("Ag",2,"O")}, ${formula("N",2)} and ${formula("O",2)}`,
-          `${formula("Ag",2,"O")} and ${formula("NO",2)}`,
-          `${formula("Ag")}, ${formula("NO",2)} and ${formula("O",2)}`,
+          `Ag, ${formula("N", 2, "O")} and ${formula("O", 2)}`,
+          `${formula("Ag", 2, "O")}, ${formula("N", 2)} and ${formula("O", 2)}`,
+          `${formula("Ag", 2, "O")} and ${formula("NO", 2)}`,
+          `${formula("Ag")}, ${formula("NO", 2)} and ${formula("O", 2)}`,
         ],
         ans: "D",
       },
       {
         id: 56,
-        question:
-          `Why is the round-bottomed flask used in the laboratory preparation of ammonia slanted?`,
+        question: `Why is the round-bottomed flask used in the laboratory preparation of ammonia slanted?`,
         options: [
           `so that ammonia will dissolve in water`,
           `so that the reaction will proceed faster`,
@@ -686,8 +622,7 @@ let chemistryQuestions = [
       },
       {
         id: 57,
-        question:
-          `The laboratory preparation of trioxonitrate(V) acid involves:`,
+        question: `The laboratory preparation of trioxonitrate(V) acid involves:`,
         options: [
           `heating a mixture of ammonia gas and oxygen`,
           `heating ammonium trioxonitrate(V) with tetraoxosulphate(VI) acid`,
@@ -698,23 +633,16 @@ let chemistryQuestions = [
       },
       {
         id: 58,
-        question:
-          `Which of the following gases is formed when ammonium trioxonitrate(V) is heated with sodium hydroxide`,
-        options: [
-          `Oxygen`,
-          `Ammonia`,
-          `Nitrogen(IV) oxide`,
-          `Hydrogen`,
-        ],
+        question: `Which of the following gases is formed when ammonium trioxonitrate(V) is heated with sodium hydroxide`,
+        options: [`Oxygen`, `Ammonia`, `Nitrogen(IV) oxide`, `Hydrogen`],
         ans: "B",
       },
       {
         id: 59,
-        question:
-          `How can a gas liberated as a result of the reaction between ammonium tetraoxosulphate(VI) and calcium hydroxide be collected dry?`,
+        question: `How can a gas liberated as a result of the reaction between ammonium tetraoxosulphate(VI) and calcium hydroxide be collected dry?`,
         options: [
           `By passing it directly through calcium chloride`,
-          `By bubbling it through conc. ${formula("H",2,"SO",4)}`,
+          `By bubbling it through conc. ${formula("H", 2, "SO", 4)}`,
           `By bubbling it through water and then passing it through calcium oxide`,
           `By passing it directly through calcium oxide`,
         ],
@@ -722,8 +650,7 @@ let chemistryQuestions = [
       },
       {
         id: 60,
-        question:
-          `A metallic element is produced as the major product in`,
+        question: `A metallic element is produced as the major product in`,
         options: [
           `burning sulfur in excess air`,
           `passing a stream of hydrogen over heated lead(II) oxide`,
@@ -734,49 +661,40 @@ let chemistryQuestions = [
       },
       {
         id: 61,
-        question:
-          `Determination of the proportion of oxygen in air can be done by passing a given volume of air through`,
+        question: `Determination of the proportion of oxygen in air can be done by passing a given volume of air through`,
         options: [
           `lime water`,
           `alkaline pyrogallol solution`,
-          `${formula("FeSO",4)} solution`,
-          `conc. ${formula("H","SO",4)}`,
+          `${formula("FeSO", 4)} solution`,
+          `conc. ${formula("H", "SO", 4)}`,
         ],
         ans: "B",
       },
       {
         id: 62,
-        question:
-          `The solution that gives a white precipitate with acidified barium chloride solution and a green color to flame test is`,
+        question: `The solution that gives a white precipitate with acidified barium chloride solution and a green color to flame test is`,
         options: [
-          `${formula(`${formula("NH",4)}`,2,"SO",4)}`,
-          `${formula("CaCl",2)}`,
-          `${formula("CuSO",4)}`,
-          `${formula("CaSO",4)}`,
+          `${formula(`${formula("NH", 4)}`, 2, "SO", 4)}`,
+          `${formula("CaCl", 2)}`,
+          `${formula("CuSO", 4)}`,
+          `${formula("CaSO", 4)}`,
         ],
         ans: "C",
       },
       {
         id: 63,
-        question:
-          `The combination of gases used for metal welding is
+        question: `The combination of gases used for metal welding is
           <br />
           I. Hydrogen and Ethyne <br />
           II. Ethyne, Hydrogen and Oxygen <br />
           III. Oxygen and Ethyne <br />
           IV. Hydrogen and Oxygen`,
-        options: [
-          `I and III`,
-          `I and II`,
-          `III and IV`,
-          `II and III`,
-        ],
+        options: [`I and III`, `I and II`, `III and IV`, `II and III`],
         ans: "C",
       },
       {
         id: 64,
-        question:
-          `A property of sulphur is`,
+        question: `A property of sulphur is`,
         options: [
           `conduction of electricity in the molten state`,
           `existence in liquid state`,
@@ -787,20 +705,13 @@ let chemistryQuestions = [
       },
       {
         id: 65,
-        question:
-          `The most abundant metal in the earth's crust is`,
-        options: [
-          `iron`,
-          `sodium`,
-          `aluminium`,
-          `copper`,
-        ],
+        question: `The most abundant metal in the earth's crust is`,
+        options: [`iron`, `sodium`, `aluminium`, `copper`],
         ans: "C",
       },
       {
         id: 66,
-        question:
-          `Why is oxochlorate(I) acid used as bleach?`,
+        question: `Why is oxochlorate(I) acid used as bleach?`,
         options: [
           `It is a strong acid`,
           `It yields chlorine readily in pure water`,
@@ -811,8 +722,7 @@ let chemistryQuestions = [
       },
       {
         id: 67,
-        question:
-          `What happens when chlorine gas is bubbled into water and the resulting solution is exposed to sunlight?`,
+        question: `What happens when chlorine gas is bubbled into water and the resulting solution is exposed to sunlight?`,
         options: [
           `The solution will give out chlorine gas and hydrogen chloride gas`,
           `The solution will liberate oxygen and leave oxochlorate(I) acid behind`,
@@ -823,8 +733,7 @@ let chemistryQuestions = [
       },
       {
         id: 68,
-        question:
-          `Chlorine, bromine, and iodine are alike in that all the three`,
+        question: `Chlorine, bromine, and iodine are alike in that all the three`,
         options: [
           `dissolves in alkalis`,
           `are gases`,
@@ -835,8 +744,7 @@ let chemistryQuestions = [
       },
       {
         id: 69,
-        question:
-          `How is chlorine prepared on a large scale?`,
+        question: `How is chlorine prepared on a large scale?`,
         options: [
           `Electrolysis of concentrated sodium chloride solution`,
           `Action of manganese(IV) oxide on hot concentrated hydrochloric acid`,
@@ -847,56 +755,54 @@ let chemistryQuestions = [
       },
       {
         id: 70,
-        question:
-          `Which of the following compounds dissolves in excess ammonia solution to form a colorless solution?`,
+        question: `Which of the following compounds dissolves in excess ammonia solution to form a colorless solution?`,
         options: [
           `AgCl`,
           `PbO`,
-          `${formula("BaSO",4)}`,
-          `${formula("CaSO",4)}`,
+          `${formula("BaSO", 4)}`,
+          `${formula("CaSO", 4)}`,
         ],
         ans: "A",
       },
       {
         id: 71,
-        question:
-          `The precipate observed as a result of the reaction between aqueous potassium chloride and silver trioxonitrate(V) is`,
+        question: `The precipate observed as a result of the reaction between aqueous potassium chloride and silver trioxonitrate(V) is`,
         options: [
           `KCl`,
-          `${formula("AgNO",3)}`,
+          `${formula("AgNO", 3)}`,
           `${formula("AgCl")}`,
-          `${formula("KNO",3)}`,
+          `${formula("KNO", 3)}`,
         ],
         ans: "C",
       },
       {
         id: 72,
-        question:
-          `In which of the following pairs of compounds would the two compounds decolorize ${formula("KMnO",4)} solution`,
+        question: `In which of the following pairs of compounds would the two compounds decolorize ${formula(
+          "KMnO",
+          4
+        )} solution`,
         options: [
-          `${formula("NH",3)} and ${formula("CO",2)}`,
-          `${formula("SO",2)} and ${formula("H",2,"S")}`,
-          `${formula("Cl",2)} and ${formula("NO",2)}`,
-          `${formula("N",2,"S")} and ${formula("H",2,"S")}`,
+          `${formula("NH", 3)} and ${formula("CO", 2)}`,
+          `${formula("SO", 2)} and ${formula("H", 2, "S")}`,
+          `${formula("Cl", 2)} and ${formula("NO", 2)}`,
+          `${formula("N", 2, "S")} and ${formula("H", 2, "S")}`,
         ],
         ans: "B",
       },
       {
         id: 73,
-        question:
-          `The most reactive halogen is`,
+        question: `The most reactive halogen is`,
         options: [
-          `${formula("Cl",2)}`,
-          `${formula("Br",2)}`,
-          `${formula("F",2)}`,
-          `${formula("I",2)}`,
+          `${formula("Cl", 2)}`,
+          `${formula("Br", 2)}`,
+          `${formula("F", 2)}`,
+          `${formula("I", 2)}`,
         ],
         ans: "C",
       },
       {
         id: 74,
-        question:
-          `The addition of chlorine to slaked lime yields`,
+        question: `The addition of chlorine to slaked lime yields`,
         options: [
           `oxochlorate(I) acid`,
           `chlorinated water`,
@@ -907,8 +813,7 @@ let chemistryQuestions = [
       },
       {
         id: 75,
-        question:
-          `The gas produced on heating copper powder with concentrated tetraoxosulphate(VI) aicd is`,
+        question: `The gas produced on heating copper powder with concentrated tetraoxosulphate(VI) aicd is`,
         options: [
           `sulphur(IV) oxide`,
           `sulphur(VI) oxide`,
@@ -919,20 +824,26 @@ let chemistryQuestions = [
       },
       {
         id: 76,
-        question:
-          `Which of the aqueous solutions ${formula("H",2,"SO",4)}, ${formula("HCl")}, ${formula("AgNO",3)}, and ${formula("HNO",3)} forms a dark grey solid substance when magnesium ribbon is inserted?`,
+        question: `Which of the aqueous solutions ${formula(
+          "H",
+          2,
+          "SO",
+          4
+        )}, ${formula("HCl")}, ${formula("AgNO", 3)}, and ${formula(
+          "HNO",
+          3
+        )} forms a dark grey solid substance when magnesium ribbon is inserted?`,
         options: [
           `HCl`,
-          `${formula("H",2,"SO",4)}`,
-          `${formula("HNO",3)}`,
-          `${formula("AgNO",3)}`,
+          `${formula("H", 2, "SO", 4)}`,
+          `${formula("HNO", 3)}`,
+          `${formula("AgNO", 3)}`,
         ],
         ans: "D",
       },
       {
         id: 77,
-        question:
-          `The constituents of gunpowder are sulphur charcoal and`,
+        question: `The constituents of gunpowder are sulphur charcoal and`,
         options: [
           `phosphorus sulfide`,
           `potassium chloride`,
@@ -943,20 +854,13 @@ let chemistryQuestions = [
       },
       {
         id: 78,
-        question:
-          `The bleaching action of sulphur(IV) oxide is by`,
-        options: [
-          `reduction`,
-          `oxidation`,
-          `dehydration`,
-          `sulphonation`,
-        ],
+        question: `The bleaching action of sulphur(IV) oxide is by`,
+        options: [`reduction`, `oxidation`, `dehydration`, `sulphonation`],
         ans: "A",
       },
       {
         id: 79,
-        question:
-          `The bleaching agent used in textile and paper industries is`,
+        question: `The bleaching agent used in textile and paper industries is`,
         options: [
           `sodium tetraoxosulphate(VI)`,
           `potassium hydroxide`,
@@ -967,8 +871,7 @@ let chemistryQuestions = [
       },
       {
         id: 80,
-        question:
-          `Why is potassium tetraoxomanganate(VII) often added to impure water? It`,
+        question: `Why is potassium tetraoxomanganate(VII) often added to impure water? It`,
         options: [
           `destroys bacteria and algae`,
           `reduces organic impurities`,
@@ -979,8 +882,7 @@ let chemistryQuestions = [
       },
       {
         id: 81,
-        question:
-          `Why is helium often used in filling ballons`,
+        question: `Why is helium often used in filling ballons`,
         options: [
           `Lightness and combustibility`,
           `Heaviness and combustibility`,
@@ -991,20 +893,13 @@ let chemistryQuestions = [
       },
       {
         id: 82,
-        question:
-          `The metals below are all extracted by electrolysis except`,
-        options: [
-          `iron`,
-          `aluminium`,
-          `sodium`,
-          `magnesium`,
-        ],
+        question: `The metals below are all extracted by electrolysis except`,
+        options: [`iron`, `aluminium`, `sodium`, `magnesium`],
         ans: "A",
       },
       {
         id: 83,
-        question:
-          `The alkali metals are found in combined forms in nature because they`,
+        question: `The alkali metals are found in combined forms in nature because they`,
         options: [
           `are highly reactive`,
           `have strong electrostatic forces in their lattices`,
@@ -1015,56 +910,56 @@ let chemistryQuestions = [
       },
       {
         id: 84,
-        question:
-          `Which of the following reactions is not feasible`,
+        question: `Which of the following reactions is not feasible`,
         options: [
-          `${formula("F",2)} + 2${formula("NaCl")} -> 2NaF + ${formula("Cl",2)}`,
-          `${formula("Cl",2)} + 2${formula("NaI")} -> 2NaCl + ${formula("I",2)}`,
-          `${formula("Cl",2)} + 2${formula("KF")} -> 2KCl + ${formula("F",2)}`,
-          `${formula("Br",2)} + 2${formula("KI")} -> 2KBr + ${formula("I",2)}`,
+          `${formula("F", 2)} + 2${formula("NaCl")} -> 2NaF + ${formula(
+            "Cl",
+            2
+          )}`,
+          `${formula("Cl", 2)} + 2${formula("NaI")} -> 2NaCl + ${formula(
+            "I",
+            2
+          )}`,
+          `${formula("Cl", 2)} + 2${formula("KF")} -> 2KCl + ${formula(
+            "F",
+            2
+          )}`,
+          `${formula("Br", 2)} + 2${formula("KI")} -> 2KBr + ${formula(
+            "I",
+            2
+          )}`,
         ],
         ans: "C",
       },
       {
         id: 85,
-        question:
-          `Cassiterite is the ore of`,
-        options: [
-          `magnesium`,
-          `copper`,
-          `tin`,
-          `aluminium`
-        ],
+        question: `Cassiterite is the ore of`,
+        options: [`magnesium`, `copper`, `tin`, `aluminium`],
         ans: "C",
       },
       {
         id: 86,
-        question:
-          `Which of the following gases would form a white precipitate with dil. ${formula("HNO",3)} followed by ${formula("AgNO",3)}?`,
+        question: `Which of the following gases would form a white precipitate with dil. ${formula(
+          "HNO",
+          3
+        )} followed by ${formula("AgNO", 3)}?`,
         options: [
-          `${formula("SO",2)}`,
+          `${formula("SO", 2)}`,
           `${formula("HCl")}`,
-          `${formula("CO",2)}`,
-          `${formula("NH",3)}`,
+          `${formula("CO", 2)}`,
+          `${formula("NH", 3)}`,
         ],
         ans: "B",
       },
       {
         id: 87,
-        question:
-          `What is the function of the salt in the mixture of charcoal, sulfur and potassium trioxonitrate(V) used to produce gunpowder?`,
-        options: [
-          `A catalyst`,
-          `An oxidant`,
-          `A reductant`,
-          `A solvent`,
-        ],
+        question: `What is the function of the salt in the mixture of charcoal, sulfur and potassium trioxonitrate(V) used to produce gunpowder?`,
+        options: [`A catalyst`, `An oxidant`, `A reductant`, `A solvent`],
         ans: "B",
       },
       {
         id: 88,
-        question:
-          `Why is copper used for ornamental works? It is`,
+        question: `Why is copper used for ornamental works? It is`,
         options: [
           `a good thermal and electrical conductor`,
           `malleable and resistant to corrosion`,
@@ -1075,8 +970,7 @@ let chemistryQuestions = [
       },
       {
         id: 89,
-        question:
-          `The following statements are correct about dilute hydrochloric acid except:`,
+        question: `The following statements are correct about dilute hydrochloric acid except:`,
         options: [
           `it has a pH value less than 7`,
           `it is a strong electrolyte`,
@@ -1087,8 +981,7 @@ let chemistryQuestions = [
       },
       {
         id: 90,
-        question:
-          `G is an element in the same group as lithium. An aqueous solution of its compound, GOH, will`,
+        question: `G is an element in the same group as lithium. An aqueous solution of its compound, GOH, will`,
         options: [
           `be neutral`,
           `be acidic`,
@@ -1099,9 +992,15 @@ let chemistryQuestions = [
       },
       {
         id: 91,
-        question:
-          `What is the role of ${formula("H",2,"S")} in the reaction represented by the equation below? <br />
-          ${formula("SO",2,"g")} + ${formula("H",2,"S","g")} -> 2${formula("S","s")} + 2${formula("H",2,"O","l")}`,
+        question: `What is the role of ${formula(
+          "H",
+          2,
+          "S"
+        )} in the reaction represented by the equation below? <br />
+          ${formula("SO", 2, "g")} + ${formula("H", 2, "S", "g")} -> 2${formula(
+          "S",
+          "s"
+        )} + 2${formula("H", 2, "O", "l")}`,
         options: [
           `a precipitating agent`,
           `a bleaching agent`,
@@ -1112,8 +1011,7 @@ let chemistryQuestions = [
       },
       {
         id: 92,
-        question:
-          `Why is oxochlorate(I) acid used as bleach? It is`,
+        question: `Why is oxochlorate(I) acid used as bleach? It is`,
         options: [
           `a strong acid`,
           `an oxidizing agent`,
@@ -1124,20 +1022,20 @@ let chemistryQuestions = [
       },
       {
         id: 93,
-        question:
-          `A nitrogen-containing compound that dissolves in water to give an aqueous solution having a pH less than 7 is`,
+        question: `A nitrogen-containing compound that dissolves in water to give an aqueous solution having a pH less than 7 is`,
         options: [
-          `${formula("H",2,"O")}`,
+          `${formula("H", 2, "O")}`,
           `${formula("NO")}`,
           `${formula("NO")}`,
-          `${formula("NaNO",3)}`
+          `${formula("NaNO", 3)}`,
         ],
         ans: "C",
       },
-    ]
+    ],
   },
-  
-  {   /// done and enough for now
+
+  {
+    /// done and enough for now
     topic: "Atomic structure",
     questions: [
       {
@@ -2795,7 +2693,11 @@ let chemistryQuestions = [
       },
       {
         id: 148,
-        question: `What makes ${isotope(39,19,"X")} different from ${isotope(41,19,"X")} is the`,
+        question: `What makes ${isotope(39, 19, "X")} different from ${isotope(
+          41,
+          19,
+          "X"
+        )} is the`,
         options: [
           `electronic structure`,
           `number of protons`,
@@ -2818,30 +2720,25 @@ let chemistryQuestions = [
       {
         id: 150,
         question: `Which of 3d, 4s, 4p, 4d has the lowest energy`,
-        options: [
-          `3d`,
-          `4s`,
-          `4p`,
-          `4d`,
-        ],
+        options: [`3d`, `4s`, `4p`, `4d`],
         ans: "B",
       },
       {
         id: 151,
         question: `Which of the following is used in archeology?`,
         options: [
-          `${isotope(12,6,"C")}`,
-          `${isotope(13,6,"C")}`,
-          `${isotope(14,6,"C")}`, // Carbon-14 is used in archeology for dating
-          `${isotope(3,1,"H")}`,
+          `${isotope(12, 6, "C")}`,
+          `${isotope(13, 6, "C")}`,
+          `${isotope(14, 6, "C")}`, // Carbon-14 is used in archeology for dating
+          `${isotope(3, 1, "H")}`,
         ],
         ans: "C",
       },
-
     ],
   },
 
-  {   /// done and enough as well
+  {
+    /// done and enough as well
     topic: "Chemical bonding",
     questions: [
       {
@@ -4669,7 +4566,8 @@ let chemistryQuestions = [
     ],
   },
 
-  {   /// more questions
+  {
+    /// more questions
     topic: "Stoichiometry",
     questions: [
       {
@@ -4678,7 +4576,7 @@ let chemistryQuestions = [
           "How many moles of calcium carbonate are there in 2.5g of calcium carbonate <br /> { C = 12; O = 16; Ca = 40 }",
         options: [`0.0025`, `0.025`, `0.25`, `2.5`],
         ans: "B",
-        remark: `mass given/molar mass => 2.5/100. Note that it is essential to know how to write chemicals from their name. It is very important.`
+        remark: `mass given/molar mass => 2.5/100. Note that it is essential to know how to write chemicals from their name. It is very important.`,
       },
       {
         id: 2,
@@ -4705,19 +4603,36 @@ let chemistryQuestions = [
       },
       {
         id: 4,
-        question: `What mass of ${formula("SO",2)} contains the same number of molecules of 0.8g of ${formula("CH",4)} <br /> { ${formula("SO", 2)} = 64g/mol; ${formula("CH",4)} = 16g/mol }`,
+        question: `What mass of ${formula(
+          "SO",
+          2
+        )} contains the same number of molecules of 0.8g of ${formula(
+          "CH",
+          4
+        )} <br /> { ${formula("SO", 2)} = 64g/mol; ${formula(
+          "CH",
+          4
+        )} = 16g/mol }`,
         options: [`3.2g`, `0.32g`, `6.4g`, `0.64g`],
         ans: "A",
       },
       {
         id: 5,
-        question: `One mole of a compound ${formula("MHCO",3)} has a mass of 84g. Calculate the relative atomic mass of M. <br /> { H = 1; C = 12, O = 16 }`,
+        question: `One mole of a compound ${formula(
+          "MHCO",
+          3
+        )} has a mass of 84g. Calculate the relative atomic mass of M. <br /> { H = 1; C = 12, O = 16 }`,
         options: [`61`, `42`, `26`, `23`],
         ans: "D",
       },
       {
         id: 6,
-        question: `How many molecules of phosphorus (${formula("P",4)}) are present in 496g of the substance? <br /> { P = 31; N<sub>A</sub> = 6.0 X ${exp(23)}${units("mol", -1)} }`,
+        question: `How many molecules of phosphorus (${formula(
+          "P",
+          4
+        )}) are present in 496g of the substance? <br /> { P = 31; N<sub>A</sub> = 6.0 X ${exp(
+          23
+        )}${units("mol", -1)} }`,
         options: [
           `1.20 X ${exp(23)}`,
           `1.20 X ${exp(24)}`,
@@ -4728,7 +4643,13 @@ let chemistryQuestions = [
       },
       {
         id: 7,
-        question: `Upon heating 1.25g of a solid, 280${units("cm",3)} of a gas measured at S.T.P were evolved and a residue of 0.7g was left. Calculate the molar mass of the gas? [Molar volume of a gas at s.t.p = 22.4${units("dm",3)}]`,
+        question: `Upon heating 1.25g of a solid, 280${units(
+          "cm",
+          3
+        )} of a gas measured at S.T.P were evolved and a residue of 0.7g was left. Calculate the molar mass of the gas? [Molar volume of a gas at s.t.p = 22.4${units(
+          "dm",
+          3
+        )}]`,
         options: [`64g`, `44g`, `32g`, `16g`],
         ans: "B",
       },
@@ -4768,7 +4689,13 @@ let chemistryQuestions = [
       },
       {
         id: 12,
-        question: `What is the mass of potassium hydroxide present in 500${units("cm",3)} of 2${units("moldm",-3)} solution of the compound <br /> { K = 39; O = 16; H = 1}`,
+        question: `What is the mass of potassium hydroxide present in 500${units(
+          "cm",
+          3
+        )} of 2${units(
+          "moldm",
+          -3
+        )} solution of the compound <br /> { K = 39; O = 16; H = 1}`,
         options: [`40g`, `56g`, `112g`, `28g`],
         ans: "B",
       },
@@ -4813,7 +4740,13 @@ let chemistryQuestions = [
       },
       {
         id: 17,
-        question: `Upon heating 1${units("dm",3)} of a monoatomic gas, Y, it combines with 1.5${units("dm",3)} of oxygen to form an oxide. The empirical formula of the oxide is`,
+        question: `Upon heating 1${units(
+          "dm",
+          3
+        )} of a monoatomic gas, Y, it combines with 1.5${units(
+          "dm",
+          3
+        )} of oxygen to form an oxide. The empirical formula of the oxide is`,
         options: [
           `${formula("Y", 3, "O", 2)}`,
           `${formula("Y", 2, "O", 3)}`,
@@ -4827,10 +4760,10 @@ let chemistryQuestions = [
         id: 18,
         question: `5.00g of an oxide of a metal (M) gave 4.00g of the metal when reduced with hydrogen. What is the empirical formula of the oxide? <br /> { M = 64; O = 16 }`,
         options: [
-          `${formula("M",2,"O")}`,
+          `${formula("M", 2, "O")}`,
           `${formula("MO")}`,
-          `${formula("MO",2)}`,
-          `${formula("M",2,"O",3)}`,
+          `${formula("MO", 2)}`,
+          `${formula("M", 2, "O", 3)}`,
         ],
         ans: "B",
       },
@@ -4840,29 +4773,46 @@ let chemistryQuestions = [
         options: [
           `${formula("CH", 2)}`,
           `${formula("CH", 3)}`,
-          `${formula("CH",2,"O")}`,
+          `${formula("CH", 2, "O")}`,
           `${formula("CH", 3, "O")}`,
         ],
         ans: "C",
       },
       {
         id: 20,
-        question: `An element, A, has the electronic configuration ${eConfig("1s",2,"2s",2,"2p",6,"3s",2,"3p",3)}. The combination of A with a halogen X can give compounds of formula(e)`,
+        question: `An element, A, has the electronic configuration ${eConfig(
+          "1s",
+          2,
+          "2s",
+          2,
+          "2p",
+          6,
+          "3s",
+          2,
+          "3p",
+          3
+        )}. The combination of A with a halogen X can give compounds of formula(e)`,
         options: [
           `${formula("AX", 3)} and ${formula("AX", 5)}`,
           `${formula("AX", 3)} only`,
           `${formula("AX", 5)}`,
-          `${formula("AX")} and ${formula( "AX",2)}`,
+          `${formula("AX")} and ${formula("AX", 2)}`,
         ],
         ans: "A",
       },
       {
         id: 21,
-        question: `The molar ratio of hydrogen to carbon in an organic liquid compound is 2 : 1. On evaporation at s.t.p, 0.24g of compound produced 64${units("cm",3)} of vapour. What is the molecular formula of the liquid compound? <br /> { C= 12; H = 1, molar volume of a gas at s.t.p = 22.4${units("dm",3)}}`,
+        question: `The molar ratio of hydrogen to carbon in an organic liquid compound is 2 : 1. On evaporation at s.t.p, 0.24g of compound produced 64${units(
+          "cm",
+          3
+        )} of vapour. What is the molecular formula of the liquid compound? <br /> { C= 12; H = 1, molar volume of a gas at s.t.p = 22.4${units(
+          "dm",
+          3
+        )}}`,
         options: [
           `${formula("C", 4, "H", 8)}`,
           `${formula("C", 5, "H", 10)}`,
-          `${formula("C",6,"H",6)}`,
+          `${formula("C", 6, "H", 6)}`,
           `${formula("C", 6, "H", 12)}`,
         ],
         ans: "D",
@@ -4873,20 +4823,34 @@ let chemistryQuestions = [
         options: [
           `${formula("YSO", 4)}`,
           `${formula("Y", 2, "O", 3)}`,
-          `${formula("YS",3)}`,
+          `${formula("YS", 3)}`,
           `${formula("Y", 3, "Cl", 2)}`,
         ],
         ans: "B",
       },
       {
         id: 23,
-        question: `What is the percentage by mass of carbon in the compound ${formula("Na",2, "CO",3)}.10${formula("H",2,"O")}? <br /> { H = 1, C = 12, O = 16, Na = 23 }`,
+        question: `What is the percentage by mass of carbon in the compound ${formula(
+          "Na",
+          2,
+          "CO",
+          3
+        )}.10${formula(
+          "H",
+          2,
+          "O"
+        )}? <br /> { H = 1, C = 12, O = 16, Na = 23 }`,
         options: [`16.1`, `16.8`, `28.1`, `4.2`],
         ans: "D",
       },
       {
         id: 24,
-        question: `What is the percentage by mass of aluminum in ${formula("Al",2,`(${formula("SO", 4)})`,3)}? <br /> { Al = 27, S = 32, O = 16 }`,
+        question: `What is the percentage by mass of aluminum in ${formula(
+          "Al",
+          2,
+          `(${formula("SO", 4)})`,
+          3
+        )}? <br /> { Al = 27, S = 32, O = 16 }`,
         options: [`15.8`, `14.7`, `28.1`, `9.4`],
         ans: "A",
       },
@@ -4898,12 +4862,18 @@ let chemistryQuestions = [
       },
       {
         id: 26,
-        question: `An element, E, forms the following compounds with bromine: ${formula("EBr",2)}, ${formula("EBr",3)} and ${formula("EBr",4)}. This observation illustrates the`,
+        question: `An element, E, forms the following compounds with bromine: ${formula(
+          "EBr",
+          2
+        )}, ${formula("EBr", 3)} and ${formula(
+          "EBr",
+          4
+        )}. This observation illustrates the`,
         options: [
           `law of conservation of mass`,
           `law of definite proportions`,
           `law of multiple proportions`,
-          `law of chemical proportions`
+          `law of chemical proportions`,
         ],
         ans: "C",
       },
@@ -4914,7 +4884,7 @@ let chemistryQuestions = [
           `law of conservation of mass`,
           `law of constant proportions`,
           `law of multiple proportions`,
-          `law of chemical proportions`
+          `law of chemical proportions`,
         ],
         ans: "B",
       },
@@ -4925,29 +4895,27 @@ let chemistryQuestions = [
           `law of conservation of mass`,
           `law of definite proportions`,
           `law of multiple proportions`,
-          `law of chemical proportions`
+          `law of chemical proportions`,
         ],
         ans: "B",
       },
       {
         id: 29,
-        question: `What is the oxidation number of nitrogen in ${formula("HNO",2)}?`,
-        options: [
-          `+3`,
-          `+2`,
-          `+1`,
-          `0`
-        ],
+        question: `What is the oxidation number of nitrogen in ${formula(
+          "HNO",
+          2
+        )}?`,
+        options: [`+3`, `+2`, `+1`, `0`],
         ans: "A",
       },
       {
         id: 30,
         question: `The oxidation number of sulphur is equal to -2 in`,
         options: [
-          `${formula("SO",2)}`,
-          `${ion(formula("SO",4), 2, "-")}`,
-          `${formula("S",8)}`,
-          `${formula("H",2,"S")}`
+          `${formula("SO", 2)}`,
+          `${ion(formula("SO", 4), 2, "-")}`,
+          `${formula("S", 8)}`,
+          `${formula("H", 2, "S")}`,
         ],
         ans: "D",
       },
@@ -4956,9 +4924,9 @@ let chemistryQuestions = [
         question: `The oxidation number of chlorine is zero in`,
         options: [
           `${formula("KCl")}`,
-          `${formula("Cl",2,"O")}`,
-          `${formula("Cl",2)}`,
-          `${formula("NH",4,"Cl")}`
+          `${formula("Cl", 2, "O")}`,
+          `${formula("Cl", 2)}`,
+          `${formula("NH", 4, "Cl")}`,
         ],
         ans: "C",
       },
@@ -4966,10 +4934,10 @@ let chemistryQuestions = [
         id: 32,
         question: `The oxidation number of oxygen is different from its value in water in`,
         options: [
-          `${formula("SO",2)}`,
-          `${formula("H",2,"O",2)}`,
-          `${ion(formula("H",3,"O"), "+")}`,
-          `${ion(formula("OH"), "-")}`
+          `${formula("SO", 2)}`,
+          `${formula("H", 2, "O", 2)}`,
+          `${ion(formula("H", 3, "O"), "+")}`,
+          `${ion(formula("OH"), "-")}`,
         ],
         ans: "B",
       },
@@ -4978,56 +4946,53 @@ let chemistryQuestions = [
         question: `In which of the following is gallium showing an oxidation number of +3`,
         options: [
           `${formula("NaGaO")}`,
-          `${formula("NaGa",`(${formula("OH")})`,4)}`,
-          `${formula("NaGa",`(${formula("OH")})`,3)}`,
-          `${formula("NaGaO",3)}`
+          `${formula("NaGa", `(${formula("OH")})`, 4)}`,
+          `${formula("NaGa", `(${formula("OH")})`, 3)}`,
+          `${formula("NaGaO", 3)}`,
         ],
         ans: "B",
       },
       {
         id: 34,
         question: `The possible oxidation numbers of an element with atomic number 17 are:`,
-        options: [
-          `-1 and +6`,
-          `-7 and +1`,
-          `-3 and +5`,
-          `-1 and +7`,
-        ],
+        options: [`-1 and +6`, `-7 and +1`, `-3 and +5`, `-1 and +7`],
         ans: "D",
       },
       {
         id: 35,
-        question: `What is the value of x for the anion. [${formula("Y",`(${formula("CN")})`,6)}]<sup>x</sup>, if the central element (Y) has an oxidation number of +2?`,
-        options: [
-          `-1`,
-          `-2`,
-          `-3`,
-          `-4`,
-        ],
+        question: `What is the value of x for the anion. [${formula(
+          "Y",
+          `(${formula("CN")})`,
+          6
+        )}]<sup>x</sup>, if the central element (Y) has an oxidation number of +2?`,
+        options: [`-1`, `-2`, `-3`, `-4`],
         ans: "D",
       },
       {
         id: 36,
         question: `Consider the following redox equation: <br />
-        ${ion(formula("MnO",4),"-")} + 5${ion("Fe","2+")} -> ${ion("Mn","2+")} + 5${ion("Fe","3+")} + 4${formula("H",2,"O")} <br />
+        ${ion(formula("MnO", 4), "-")} + 5${ion("Fe", "2+")} -> ${ion(
+          "Mn",
+          "2+"
+        )} + 5${ion("Fe", "3+")} + 4${formula("H", 2, "O")} <br />
         the oxidation number of manganese changed from`,
-        options: [
-          `+6 to +2`,
-          `+7 to +2`,
-          `+5 to +2`,
-          `+1 to +2`,
-        ],
+        options: [`+6 to +2`, `+7 to +2`, `+5 to +2`, `+1 to +2`],
         ans: "B",
       },
       {
         id: 37,
-        question: `2${ion(formula("MnO",4), "-")} + 10${ion("Cl","-")} + 16${ion("H","+")} -> 2${ion("Mn","2+")} + 5${formula("Cl",2)} + 8${formula("H",2,"O")} <br /> The changes in oxidation numbers when manganese, chloride and hydrogen ions react according to the above equation are respectively:`,
-        options: [
-          `-1, 1, 0`,
-          `-1, -1, -1`,
-          `-5, 1, 0`,
-          `-1, -5, 0`,
-        ],
+        question: `2${ion(formula("MnO", 4), "-")} + 10${ion(
+          "Cl",
+          "-"
+        )} + 16${ion("H", "+")} -> 2${ion("Mn", "2+")} + 5${formula(
+          "Cl",
+          2
+        )} + 8${formula(
+          "H",
+          2,
+          "O"
+        )} <br /> The changes in oxidation numbers when manganese, chloride and hydrogen ions react according to the above equation are respectively:`,
+        options: [`-1, 1, 0`, `-1, -1, -1`, `-5, 1, 0`, `-1, -5, 0`],
         ans: "C",
       },
       {
@@ -5037,7 +5002,7 @@ let chemistryQuestions = [
           `Single replacement`,
           `Decomposition`,
           `Double displacement`,
-          `Redox`
+          `Redox`,
         ],
         ans: "D",
       },
@@ -5045,10 +5010,25 @@ let chemistryQuestions = [
         id: 39,
         question: `All of the following are redox reactions except`,
         options: [
-          `Zn + ${formula("H",2,"SO",4)} -> ${formula("Zn","SO",4)} + ${formula("H",2)}`,
-          `${formula("Ca", `(${formula("HCO",3)})`, 2)} -> ${formula("CaCO",3)} + ${formula("H",2,"O")} + ${formula("CO",2)}`,
-          `2${formula("H",2)} + ${formula("O",2)} -> 2${formula("H",2,"O")}`,
-          `2${formula("HNO",2)} + 2${formula("HI")} -> 2${formula("H",2,"O")} + 2${formula("NO")} + ${formula("I",2)}`
+          `Zn + ${formula("H", 2, "SO", 4)} -> ${formula(
+            "Zn",
+            "SO",
+            4
+          )} + ${formula("H", 2)}`,
+          `${formula("Ca", `(${formula("HCO", 3)})`, 2)} -> ${formula(
+            "CaCO",
+            3
+          )} + ${formula("H", 2, "O")} + ${formula("CO", 2)}`,
+          `2${formula("H", 2)} + ${formula("O", 2)} -> 2${formula(
+            "H",
+            2,
+            "O"
+          )}`,
+          `2${formula("HNO", 2)} + 2${formula("HI")} -> 2${formula(
+            "H",
+            2,
+            "O"
+          )} + 2${formula("NO")} + ${formula("I", 2)}`,
         ],
         ans: "B",
       },
@@ -5056,10 +5036,28 @@ let chemistryQuestions = [
         id: 40,
         question: `Which of the following is a redox reaction?`,
         options: [
-          `${formula("NaCl","aq")} + ${formula("AgNO",3,"aq")} -> ${formula("NaNO",3,"aq")} + ${formula("AgCl","s")}`,
-          `${formula("NaCl","aq")} + ${formula("H",2,"SO",4,"aq")} -> ${formula("NaHSO",4,"aq")} + ${formula("HCl","aq")}`,
-          `${formula("H",2,"CO",3,"aq")} -> ${formula("H",2,"O")} + ${formula("CO",2,"g")}`,
-          `2${formula("FeCl",2,"aq")} + ${formula("Cl",2,"aq")} -> 2${formula("FeCl",3,"aq")}`
+          `${formula("NaCl", "aq")} + ${formula("AgNO", 3, "aq")} -> ${formula(
+            "NaNO",
+            3,
+            "aq"
+          )} + ${formula("AgCl", "s")}`,
+          `${formula("NaCl", "aq")} + ${formula(
+            "H",
+            2,
+            "SO",
+            4,
+            "aq"
+          )} -> ${formula("NaHSO", 4, "aq")} + ${formula("HCl", "aq")}`,
+          `${formula("H", 2, "CO", 3, "aq")} -> ${formula(
+            "H",
+            2,
+            "O"
+          )} + ${formula("CO", 2, "g")}`,
+          `2${formula("FeCl", 2, "aq")} + ${formula(
+            "Cl",
+            2,
+            "aq"
+          )} -> 2${formula("FeCl", 3, "aq")}`,
         ],
         ans: "D",
       },
@@ -5070,7 +5068,7 @@ let chemistryQuestions = [
           `conservation of energy`,
           `conservation of mass`,
           `definite proportions`,
-          `multiple proportions`
+          `multiple proportions`,
         ],
         ans: "B",
       },
@@ -5080,10 +5078,42 @@ let chemistryQuestions = [
         id: 42,
         question: `Tetraoxosulphate(VI) acid reacts with aluminium hydroxide to give a salt and water. The balanced equation for the reaction is`,
         options: [
-          `${formula("H",2,"SO",4)} + ${formula("Al",`(${formula("OH",3)})`, 3)} -> ${formula("Al",2,`(${formula("SO",4)})`,3)} + ${formula("H",2,"O")}`,
-          `3${formula("H",2,"SO",4)} + ${formula("Al",`(${formula("OH",3)})`, 3)} -> ${formula("Al",2,`(${formula("SO",4)})`,3)} + 6${formula("H",2,"O")}`,
-          `3${formula("H",2,"SO",4)} + 2${formula("Al",`(${formula("OH",3)})`, 3)} -> ${formula("Al",2,`(${formula("SO",4)})`,3)} + 6${formula("H",2,"O")}`,
-          `${formula("H",2,"SO",4)} + ${formula("Al",`(${formula("OH",3)})`, 3)} -> ${formula("Al",2,`(${formula("SO",4)})`,3)} + 6${formula("H",2,"O")}`,
+          `${formula("H", 2, "SO", 4)} + ${formula(
+            "Al",
+            `(${formula("OH", 3)})`,
+            3
+          )} -> ${formula("Al", 2, `(${formula("SO", 4)})`, 3)} + ${formula(
+            "H",
+            2,
+            "O"
+          )}`,
+          `3${formula("H", 2, "SO", 4)} + ${formula(
+            "Al",
+            `(${formula("OH", 3)})`,
+            3
+          )} -> ${formula("Al", 2, `(${formula("SO", 4)})`, 3)} + 6${formula(
+            "H",
+            2,
+            "O"
+          )}`,
+          `3${formula("H", 2, "SO", 4)} + 2${formula(
+            "Al",
+            `(${formula("OH", 3)})`,
+            3
+          )} -> ${formula("Al", 2, `(${formula("SO", 4)})`, 3)} + 6${formula(
+            "H",
+            2,
+            "O"
+          )}`,
+          `${formula("H", 2, "SO", 4)} + ${formula(
+            "Al",
+            `(${formula("OH", 3)})`,
+            3
+          )} -> ${formula("Al", 2, `(${formula("SO", 4)})`, 3)} + 6${formula(
+            "H",
+            2,
+            "O"
+          )}`,
         ],
         ans: "C",
       },
@@ -5091,40 +5121,65 @@ let chemistryQuestions = [
         id: 43,
         question: `The balanced equation representing the reaction between copper and dilute trioxonitrate(v) acid is:
         <br />
-        a Cu + b ${formula("HNO","3")} -> x ${formula("Cu", `(${formula("NO",3)})`,2)} + y ${formula("H",2,"O")} + 2 ${formula("NO")} <br />
+        a Cu + b ${formula("HNO", "3")} -> x ${formula(
+          "Cu",
+          `(${formula("NO", 3)})`,
+          2
+        )} + y ${formula("H", 2, "O")} + 2 ${formula("NO")} <br />
         what are the values of a,b,x, and y respectively in the equation?`,
-        options: [
-          `3:8:4:3`,
-          `3:8:3:4`,
-          `1:4:1:4`,
-          `4:1:4:1`
-        ],
+        options: [`3:8:4:3`, `3:8:3:4`, `1:4:1:4`, `4:1:4:1`],
         ans: "B",
       },
       {
         id: 44,
-        question: `${ion(formula("Cr",2,"O",7), "2-")} + 14${ion("H","+")} + ${ion("ne","-")} -> 2${ion("Cr","3+")} + 7${formula("H",2,"O")}
+        question: `${ion(formula("Cr", 2, "O", 7), "2-")} + 14${ion(
+          "H",
+          "+"
+        )} + ${ion("ne", "-")} -> 2${ion("Cr", "3+")} + 7${formula("H", 2, "O")}
         <br />
         What is the value of n in the reaction above?`,
-        options: [
-          `6`,
-          `5`,
-          `4`,
-          `3`
-        ],
+        options: [`6`, `5`, `4`, `3`],
         ans: "A",
       },
       {
         id: 45,
         question: `Given the half equatoins:<br />
-        ${formula("H",2,"O",2)} -> ${formula("O",2)} + ${ion("H", "+")} + 2${ion("e", "-")}<br />
-        ${ion(formula("MnO",4), "-")} + 8${formula("H","+")} + 5${ion("e","-")} -> ${ion("Mn", "2+")} + 4${formula("H",2,"O")}<br />
+        ${formula("H", 2, "O", 2)} -> ${formula("O", 2)} + ${ion(
+          "H",
+          "+"
+        )} + 2${ion("e", "-")}<br />
+        ${ion(formula("MnO", 4), "-")} + 8${formula("H", "+")} + 5${ion(
+          "e",
+          "-"
+        )} -> ${ion("Mn", "2+")} + 4${formula("H", 2, "O")}<br />
         The net equation for the reaction between hydrogen peroxide and tetraoxomanganate ions in acid solution is`,
         options: [
-          `${formula("H",2,"O",2)} + ${ion("Mn", "2+")} -> ${ion(formula("MnO",4),"-")} + ${formula("O",2)} + 2${ion("H","+")}`,
-          `${formula("H",2,"O",2)} + ${ion(formula("MnO",4),"-")} + 6${ion("H","+")} -> ${formula("O",2)} + ${ion("Mn","2+")} + 20${formula("H",2,"O")}`,
-          `${formula("H",2,"O",2)} + ${ion(formula("MnO",4),"-")} + 40${ion("H","+")} -> ${formula("O",2)} + ${ion("Mn","2+")} + 4${formula("H",2,"O")}`,
-          `5${formula("H",2,"O",2)} + 2${ion(formula("MnO",4),"-")} + 11${ion("H","+")} -> 5${formula("O",2)} + 2${ion("Mn","2+")} + 8${formula("H",2,"O")}`,
+          `${formula("H", 2, "O", 2)} + ${ion("Mn", "2+")} -> ${ion(
+            formula("MnO", 4),
+            "-"
+          )} + ${formula("O", 2)} + 2${ion("H", "+")}`,
+          `${formula("H", 2, "O", 2)} + ${ion(formula("MnO", 4), "-")} + 6${ion(
+            "H",
+            "+"
+          )} -> ${formula("O", 2)} + ${ion("Mn", "2+")} + 20${formula(
+            "H",
+            2,
+            "O"
+          )}`,
+          `${formula("H", 2, "O", 2)} + ${ion(
+            formula("MnO", 4),
+            "-"
+          )} + 40${ion("H", "+")} -> ${formula("O", 2)} + ${ion(
+            "Mn",
+            "2+"
+          )} + 4${formula("H", 2, "O")}`,
+          `5${formula("H", 2, "O", 2)} + 2${ion(
+            formula("MnO", 4),
+            "-"
+          )} + 11${ion("H", "+")} -> 5${formula("O", 2)} + 2${ion(
+            "Mn",
+            "2+"
+          )} + 8${formula("H", 2, "O")}`,
         ],
         ans: "D",
       },
@@ -5132,36 +5187,59 @@ let chemistryQuestions = [
         id: 46,
         question: `Sulphur(IV) oxide acts as an oxidizing agent in`,
         options: [
-          `${formula("SO",2)} + ${formula("H",2,"O")} -> ${formula("H",2,"SO",3)}`,
-          `${formula("SO",2)} + 2${formula("HNO",3)} -> ${formula("H",2,"SO",4)} + 2${formula("NO",2)}`,
-          `${formula("SO",2)} + ${formula("H",2,"S")} -> 3S + 2${formula("H",2,"O")}`,
-          `${formula("SO",2)} + 2${formula("H",2,"O")} + ${formula("O",2)} -> 2${formula("H",2,"SO",4)}`
+          `${formula("SO", 2)} + ${formula("H", 2, "O")} -> ${formula(
+            "H",
+            2,
+            "SO",
+            3
+          )}`,
+          `${formula("SO", 2)} + 2${formula("HNO", 3)} -> ${formula(
+            "H",
+            2,
+            "SO",
+            4
+          )} + 2${formula("NO", 2)}`,
+          `${formula("SO", 2)} + ${formula("H", 2, "S")} -> 3S + 2${formula(
+            "H",
+            2,
+            "O"
+          )}`,
+          `${formula("SO", 2)} + 2${formula("H", 2, "O")} + ${formula(
+            "O",
+            2
+          )} -> 2${formula("H", 2, "SO", 4)}`,
         ],
         ans: "C",
       },
       {
         id: 47,
         question: `Consider the reactoin represented by the equation<br />
-        ${formula("Mg","s")} + ${ion("Cu","2+")} -> ${ion("Mg", "2+")} + ${formula("Cu","s")}
+        ${formula("Mg", "s")} + ${ion("Cu", "2+")} -> ${ion(
+          "Mg",
+          "2+"
+        )} + ${formula("Cu", "s")}
         <br />
         Which of the following statements gives the most complete description of the reaction?`,
         options: [
           `Magnesium and copper(II) ions are being reduced`,
           `Magnesium and copper(II) ions are being oxidized`,
           `Copper(II) ion are being oxidized and Magnesium reduced`,
-          `Copper(II) ions are bring reduced and magnesium oxidized`
+          `Copper(II) ions are bring reduced and magnesium oxidized`,
         ],
         ans: "D",
       },
       {
         id: 48,
         question: `Which species acts as an oxidizing agent in the following redox equation?<br />
-        2${ion("Fe","2+")} + ${formula("Cl",2)} -> 2${ion("Fe","3+")} + 2${ion("Cl","-")}`,
+        2${ion("Fe", "2+")} + ${formula("Cl", 2)} -> 2${ion(
+          "Fe",
+          "3+"
+        )} + 2${ion("Cl", "-")}`,
         options: [
-          `${ion("Fe","2+")}`,
-          `${formula("Cl",2)}`,
-          `${ion("Fe","3+")}`,
-          `${ion("Cl","-")}`
+          `${ion("Fe", "2+")}`,
+          `${formula("Cl", 2)}`,
+          `${ion("Fe", "3+")}`,
+          `${ion("Cl", "-")}`,
         ],
         ans: "B",
       },
@@ -5169,35 +5247,41 @@ let chemistryQuestions = [
         id: 49,
         question: `Which of the following gases acts as a reducing agent towards chlorine and as an oxidizing agent towards hydrogen sulphide?`,
         options: [
-          `${formula("SO",2)}`,
-          `${formula("O",2)}`,
+          `${formula("SO", 2)}`,
+          `${formula("O", 2)}`,
           `${formula("NO")}`,
-          `${formula("CO",2)}`
+          `${formula("CO", 2)}`,
         ],
         ans: "A",
       },
       {
         id: 50,
         question: `Consider the reaction <br />
-        3${formula("Cl",2)} + 2${formula("NH",3)} -> ${formula("N",2)} + 6${formula("HCl")}<br />
+        3${formula("Cl", 2)} + 2${formula("NH", 3)} -> ${formula(
+          "N",
+          2
+        )} + 6${formula("HCl")}<br />
         Ammonia acts as`,
         options: [
           `an oxidizing agent`,
           `a reducing agent`,
           `a catalyst`,
-          `an acid`
+          `an acid`,
         ],
         ans: "B",
       },
       {
         id: 51,
         question: `For the reaction:<br />
-        2${ion("Fe","3+")} + 2${ion("Cl","-")} -> 2${ion("Fe","2+")} + ${formula("Cl",2)}`,
+        2${ion("Fe", "3+")} + 2${ion("Cl", "-")} -> 2${ion(
+          "Fe",
+          "2+"
+        )} + ${formula("Cl", 2)}`,
         options: [
-          `${ion("Fe","3+")} is oxidized to ${ion("Fe","2+")}`,
-          `${ion("Cl","-")} is reduced to ${formula("Cl",2)}`,
-          `${ion("Cl","-")} is oxidized to ${formula("Cl",2)}`,
-          `${ion("Fe","2+")} is reduced to ${ion("Fe","3+")}`
+          `${ion("Fe", "3+")} is oxidized to ${ion("Fe", "2+")}`,
+          `${ion("Cl", "-")} is reduced to ${formula("Cl", 2)}`,
+          `${ion("Cl", "-")} is oxidized to ${formula("Cl", 2)}`,
+          `${ion("Fe", "2+")} is reduced to ${ion("Fe", "3+")}`,
         ],
         ans: "C",
       },
@@ -5205,171 +5289,254 @@ let chemistryQuestions = [
         id: 52,
         question: `Hydrogen peroxide acts as a reducing agent in`,
         options: [
-          `${formula("H",2,"O",2)} + ${formula("H",2,"S")} -> ${formula("S")} + 2${formula("H",2,"O")}`,
-          `${formula("H",2,"O",2)} + ${formula("SO",2)} -> ${formula("H",2,"SO",4)}`,
-          `${formula("H",2,"O",2)} + 2${ion("I","-")} -> 2${formula("H",2,"O")} + ${formula("I",2)}`,
-          `${formula("H",2,"O",2)} + ${formula("PbO",2)} + 2${formula("HNO",3)} -> ${formula("Pb", `(${formula("NO",3)})`, 2)} + 2${formula("H",2,"O")} + ${formula("O",2)}`
+          `${formula("H", 2, "O", 2)} + ${formula("H", 2, "S")} -> ${formula(
+            "S"
+          )} + 2${formula("H", 2, "O")}`,
+          `${formula("H", 2, "O", 2)} + ${formula("SO", 2)} -> ${formula(
+            "H",
+            2,
+            "SO",
+            4
+          )}`,
+          `${formula("H", 2, "O", 2)} + 2${ion("I", "-")} -> 2${formula(
+            "H",
+            2,
+            "O"
+          )} + ${formula("I", 2)}`,
+          `${formula("H", 2, "O", 2)} + ${formula("PbO", 2)} + 2${formula(
+            "HNO",
+            3
+          )} -> ${formula("Pb", `(${formula("NO", 3)})`, 2)} + 2${formula(
+            "H",
+            2,
+            "O"
+          )} + ${formula("O", 2)}`,
         ],
         ans: "D",
       },
       {
         id: 53,
         question: `Which of the species serves as an oxidizing agent in the reaction represented by the equation below?<br />
-        2${ion(formula("MnO",4), "-")} + 10${ion("Cl","-")} + 16${ion("H","+")} -> 2${ion("Mn","2+")} + 5${formula("Cl",2)} + 8${formula("H",2,"O")}`,
+        2${ion(formula("MnO", 4), "-")} + 10${ion("Cl", "-")} + 16${ion(
+          "H",
+          "+"
+        )} -> 2${ion("Mn", "2+")} + 5${formula("Cl", 2)} + 8${formula(
+          "H",
+          2,
+          "O"
+        )}`,
         options: [
-          `${formula("Cl",2)}`,
-          `${ion("Cl","-")}`,
-          `${ion("Mn","2+")}`,
-          `${ion(formula("MnO",4),"-")}`
+          `${formula("Cl", 2)}`,
+          `${ion("Cl", "-")}`,
+          `${ion("Mn", "2+")}`,
+          `${ion(formula("MnO", 4), "-")}`,
         ],
         ans: "D",
       },
       {
         id: 54,
         question: `In the reaction <br />
-        ${ion(formula("IO",3),"-")} + 5${ion("I","-")} + 6${ion("H","+")} -> 3${formula("I",3)} + 3${formula("H",2,"O")}, the reducing agent is`,
+        ${ion(formula("IO", 3), "-")} + 5${ion("I", "-")} + 6${ion(
+          "H",
+          "+"
+        )} -> 3${formula("I", 3)} + 3${formula(
+          "H",
+          2,
+          "O"
+        )}, the reducing agent is`,
         options: [
-          `${ion("I","-")}`,
-          `${ion(formula("IO",3),"-")}`,
-          `${ion("H","+")}`,
-          `${formula("I",2)}`
+          `${ion("I", "-")}`,
+          `${ion(formula("IO", 3), "-")}`,
+          `${ion("H", "+")}`,
+          `${formula("I", 2)}`,
         ],
         ans: "A",
       },
       {
         id: 55,
-        question: `${formula("Zn","s")} + ${formula(ion("Cu","2+"),"aq")} -> ${formula(ion("Zn","2+"),"aq")} + ${formula("Cu","s")} <br /> From the reaction above, it can be deduced that:`,
+        question: `${formula("Zn", "s")} + ${formula(
+          ion("Cu", "2+"),
+          "aq"
+        )} -> ${formula(ion("Zn", "2+"), "aq")} + ${formula(
+          "Cu",
+          "s"
+        )} <br /> From the reaction above, it can be deduced that:`,
         options: [
           `Zn is reduced`,
           `Zn is the oxidized agent`,
-          `${ion("Cu",'2+')} loses electrons`,
-          `${ion("Cu","2+")} is the oxidizing agent`
+          `${ion("Cu", "2+")} loses electrons`,
+          `${ion("Cu", "2+")} is the oxidizing agent`,
         ],
         ans: "D",
       },
       {
         id: 56,
-        question: `How many electrons are added to ${ion(formula("MnO",4),"-")} when it is reduced to ${formula("Mn","2+")}?`,
-        options: [
-          `1`,`3`,`5`,`7`
-        ],
+        question: `How many electrons are added to ${ion(
+          formula("MnO", 4),
+          "-"
+        )} when it is reduced to ${formula("Mn", "2+")}?`,
+        options: [`1`, `3`, `5`, `7`],
         ans: "C",
       },
       {
         id: 57,
         question: `Which of the species in the following equation undergoes reduction? <br />
-        6${ion("Fe","2+")} + ${ion(formula("Cr",2,"O",7),"2-")} + 14${ion("H","+")} -> 6${ion("Fe","3+")} + 2${ion("Cr","3+")} + 7${formula("H",2,"O")}`,
+        6${ion("Fe", "2+")} + ${ion(formula("Cr", 2, "O", 7), "2-")} + 14${ion(
+          "H",
+          "+"
+        )} -> 6${ion("Fe", "3+")} + 2${ion("Cr", "3+")} + 7${formula(
+          "H",
+          2,
+          "O"
+        )}`,
         options: [
-          `${ion(formula("Cr",2,"O",7),"2-")}`,
-          `${ion("Fe","2+")}`,
-          `${ion("H","+")}`,
-          `${ion("Fe","3+")}`
+          `${ion(formula("Cr", 2, "O", 7), "2-")}`,
+          `${ion("Fe", "2+")}`,
+          `${ion("H", "+")}`,
+          `${ion("Fe", "3+")}`,
         ],
         ans: "A",
       },
       {
         id: 58,
         question: `How many grammes of HCl will be required to react with 5g of NaOH? {H = 1, Cl = 35.5, Na = 23, O = 16}`,
-        options: [
-          `4.6g`,
-          `9.2g`,
-          `10.1g`,
-          `18.4g`
-        ],
+        options: [`4.6g`, `9.2g`, `10.1g`, `18.4g`],
         ans: "A",
       },
       {
         id: 59,
         question: `The burning of phosphorus in excess oxygen is represented by the equation <br /> 
-        ${formula("P",4)} + 5${formula("O",10)} -> ${formula("P",4,"O",10)}<br />
+        ${formula("P", 4)} + 5${formula("O", 10)} -> ${formula(
+          "P",
+          4,
+          "O",
+          10
+        )}<br />
         What is the volume of oxygen at s.t.p required for the complete oxidation of 18.6g of phosphorus<br />
-        {molar volume of a gas at s.t.p = 22.4${units("dm",3)}}`,
+        {molar volume of a gas at s.t.p = 22.4${units("dm", 3)}}`,
         options: [
-          `5.6${units("dm",3)}`,
-          `11.2${units("dm",3)}`,
-          `16.8${units("dm",3)}`,
-          `20.2${units("dm",3)}`,
+          `5.6${units("dm", 3)}`,
+          `11.2${units("dm", 3)}`,
+          `16.8${units("dm", 3)}`,
+          `20.2${units("dm", 3)}`,
         ],
         ans: "C",
       },
       {
         id: 60,
-        question: `5.00g of a mixture of ${formula("CaCO",3)} and CaO liberated 1.32g of carbon(iv)oxide on strong heating. What is the percentage of CaO in the mixture? { C = 12, O = 16, Ca = 40 }`,
-        options: [
-          `60`,
-          `40`,
-          `75`,
-          `25`
-        ],
+        question: `5.00g of a mixture of ${formula(
+          "CaCO",
+          3
+        )} and CaO liberated 1.32g of carbon(iv)oxide on strong heating. What is the percentage of CaO in the mixture? { C = 12, O = 16, Ca = 40 }`,
+        options: [`60`, `40`, `75`, `25`],
         ans: "B",
       },
       {
         id: 61,
-        question: `2g of a mixture of ${formula("Na",2,"CO",3)} and NaCl were dissolved in a 250${units("cm",3)} standard flask. 25${units("cm",3)} portions of this solution required 26.6${units("cm",3)} of 0.100moldm${units("dm",-3)} HCl for neutralization. What is the percentage by mass of ${formula("Na",2,"CO",3)} in the mixture?`,
-        options: [
-          `40`,
-          `50`,
-          `60`,
-          `70`
-        ],
+        question: `2g of a mixture of ${formula(
+          "Na",
+          2,
+          "CO",
+          3
+        )} and NaCl were dissolved in a 250${units(
+          "cm",
+          3
+        )} standard flask. 25${units(
+          "cm",
+          3
+        )} portions of this solution required 26.6${units(
+          "cm",
+          3
+        )} of 0.100moldm${units(
+          "dm",
+          -3
+        )} HCl for neutralization. What is the percentage by mass of ${formula(
+          "Na",
+          2,
+          "CO",
+          3
+        )} in the mixture?`,
+        options: [`40`, `50`, `60`, `70`],
         ans: "D",
       },
       {
         id: 62,
         question: `In the reaction <br />
-        ${formula("CaC",2,"aq")} + 2${formula("H",2,"O","l")} -> ${formula("Ca",`${formula("OH")}`, 2,"s")} + ${formula("C",2,"H",2)}<br />
-        what is the mass of solid calcium carbide needed to produce 5.6${units("dm",3)} of ethyne at s.t.p<br/>
-        {G.M.V = 22.4${units("dm",-3)}}`,
-        options: [
-          `8g`,
-          `9g`,
-          `16g`,
-          `18g`
-        ],
+        ${formula("CaC", 2, "aq")} + 2${formula("H", 2, "O", "l")} -> ${formula(
+          "Ca",
+          `${formula("OH")}`,
+          2,
+          "s"
+        )} + ${formula("C", 2, "H", 2)}<br />
+        what is the mass of solid calcium carbide needed to produce 5.6${units(
+          "dm",
+          3
+        )} of ethyne at s.t.p<br/>
+        {G.M.V = 22.4${units("dm", -3)}}`,
+        options: [`8g`, `9g`, `16g`, `18g`],
         ans: "C",
       },
       {
         id: 63,
-        question: `The volume of 0.20${units("moldm",-3)} ${formula("H",2,"SO",4)} that will exactly neutralize 25${units("cm",3)} of 0.05${units("moldm",-3)} NaOH solution is`,
+        question: `The volume of 0.20${units("moldm", -3)} ${formula(
+          "H",
+          2,
+          "SO",
+          4
+        )} that will exactly neutralize 25${units("cm", 3)} of 0.05${units(
+          "moldm",
+          -3
+        )} NaOH solution is`,
         options: [
-          `3.1${units("cm",3)}`,
-          `10.4${units("cm",3)}`,
-          `15.6${units("cm",3)}`,
-          `26.2${units("cm",3)}`,
+          `3.1${units("cm", 3)}`,
+          `10.4${units("cm", 3)}`,
+          `15.6${units("cm", 3)}`,
+          `26.2${units("cm", 3)}`,
         ],
         ans: "A",
       },
       {
         id: 64,
         question: `Consider the equation <br />
-        ${formula("Fe","s")} + 2${formula("HCl","aq")} -> ${formula("FeCl",2,"aq")} + ${formula("H",2,"g")}<br />
-        what is the mass of iron that would be required to react with 250${units("cm",3)} of 0.1${units("moldm",-3)} HCl? {Fe = 56 }`,
-        options: [  
-          `0.3g`,
-          `0.5g`,
-          `0.7g`,
-          `0.9g`,
-        ],
+        ${formula("Fe", "s")} + 2${formula("HCl", "aq")} -> ${formula(
+          "FeCl",
+          2,
+          "aq"
+        )} + ${formula("H", 2, "g")}<br />
+        what is the mass of iron that would be required to react with 250${units(
+          "cm",
+          3
+        )} of 0.1${units("moldm", -3)} HCl? {Fe = 56 }`,
+        options: [`0.3g`, `0.5g`, `0.7g`, `0.9g`],
         ans: "C",
       },
       {
         id: 65,
-        question: `2${formula("C",4,"H","10")} + 13${formula("O",2)} -> 8${formula("CO",2)} + 10${formula("H",2,"O")} <br />
-        From the equation above, what volume of oxygen at s.t.p. is required to burn 100${units("cm",3)} of butane? [Molar volume of a gas at s.t.p = 22.4${units("dm",3)}]`,
-        options: [  
-          `500${units("cm",3)}`,
-          `650${units("cm",3)}`,
-          `800${units("cm",3)}`,
-          `900${units("cm",3)}`,
+        question: `2${formula("C", 4, "H", "10")} + 13${formula(
+          "O",
+          2
+        )} -> 8${formula("CO", 2)} + 10${formula("H", 2, "O")} <br />
+        From the equation above, what volume of oxygen at s.t.p. is required to burn 100${units(
+          "cm",
+          3
+        )} of butane? [Molar volume of a gas at s.t.p = 22.4${units("dm", 3)}]`,
+        options: [
+          `500${units("cm", 3)}`,
+          `650${units("cm", 3)}`,
+          `800${units("cm", 3)}`,
+          `900${units("cm", 3)}`,
         ],
         ans: "B",
       },
       {
         id: 66,
-        question: `2${formula("Al","s")} + 6${formula("HCl","aq")} -> 2${formula("AlCl",3,"aq")} + 3${formula("H",2,"g")} <br />
+        question: `2${formula("Al", "s")} + 6${formula(
+          "HCl",
+          "aq"
+        )} -> 2${formula("AlCl", 3, "aq")} + 3${formula("H", 2, "g")} <br />
         [Avogadro's constant = 6.0 X ${exp(23)}]<br />
         From this equation, the number of molecules of hydrogen gas produced when 0.50 mole of aluminum reacts completelt with excess HCl is`,
-        options: [  
+        options: [
           `6.0 X ${exp(23)}`,
           `4.5 X ${exp(23)}`,
           `3.0 X ${exp(24)}`,
@@ -5379,71 +5546,112 @@ let chemistryQuestions = [
       },
       {
         id: 67,
-        question: `What volume of oxygen at stp would react with carbon to form 13.20g ${formula("CO",2)} in the reaction represented by the equation below?<br />
-        ${formula("C","s")} + ${formula("O",2,"g")} -> ${formula("CO",2)}<br />
-        {O = 16, C = 12, molar volume of a gas = 22.4${units("dm",-3)} at s.t.p}`,
-        options: [  
-          `2.24${units("dm",3)}`,
-          `4.40${units("dm",3)}`,
-          `4.48${units("dm",3)}`,
-          `6.72${units("dm",3)}`,
+        question: `What volume of oxygen at stp would react with carbon to form 13.20g ${formula(
+          "CO",
+          2
+        )} in the reaction represented by the equation below?<br />
+        ${formula("C", "s")} + ${formula("O", 2, "g")} -> ${formula(
+          "CO",
+          2
+        )}<br />
+        {O = 16, C = 12, molar volume of a gas = 22.4${units(
+          "dm",
+          -3
+        )} at s.t.p}`,
+        options: [
+          `2.24${units("dm", 3)}`,
+          `4.40${units("dm", 3)}`,
+          `4.48${units("dm", 3)}`,
+          `6.72${units("dm", 3)}`,
         ],
         ans: "D",
       },
       {
         id: 68,
-        question: `25.0${units("cm",3)} of a solution containing 1.33g of ${formula("Na",2,"CO",3)} in 250${units("cm",3)} requires 24.5${units("cm",3)} of a solution of ${formula("H",2,"SO",4)} for complete neutralization. What is the concentration of the acid?`,
-        options: [  
-          `0.01${units("moldm",-1)}`,
-          `0.03${units("moldm",-1)}`,
-          `0.05${units("moldm",-1)}`,
-          `0.07${units("moldm",-1)}`,
+        question: `25.0${units(
+          "cm",
+          3
+        )} of a solution containing 1.33g of ${formula(
+          "Na",
+          2,
+          "CO",
+          3
+        )} in 250${units("cm", 3)} requires 24.5${units(
+          "cm",
+          3
+        )} of a solution of ${formula(
+          "H",
+          2,
+          "SO",
+          4
+        )} for complete neutralization. What is the concentration of the acid?`,
+        options: [
+          `0.01${units("moldm", -1)}`,
+          `0.03${units("moldm", -1)}`,
+          `0.05${units("moldm", -1)}`,
+          `0.07${units("moldm", -1)}`,
         ],
         ans: "C",
       },
       {
         id: 69,
-        question: `How many grammes of hydrogen gas would be evolved when 18g of magnesium ribbon is dissolved in 200${units("cm",3)} of 2 ${units("moldm",-3)} HCl solution? {H = 1; Cl = 35.5; Mg= 24 }`,
-        options: [  
-          `0.40g`,
-          `0.75`,
-          `0.80`,
-          `1.50`
-        ],
+        question: `How many grammes of hydrogen gas would be evolved when 18g of magnesium ribbon is dissolved in 200${units(
+          "cm",
+          3
+        )} of 2 ${units(
+          "moldm",
+          -3
+        )} HCl solution? {H = 1; Cl = 35.5; Mg= 24 }`,
+        options: [`0.40g`, `0.75`, `0.80`, `1.50`],
         ans: "A",
       },
       {
         id: 70,
-        question: `2.0g of limestone was treated with excess 0.5${units("moldm",-3)} HCl. The acid left at the end of the reaction required 32${units("cm",3)} of 0.02${units("moldm",-3)} ${formula("Na",2,"CO",3)} solution for neutralization. What is the original volume of the acid.`,
-        options: [  
-          `20${units("cm",3)}`,
-          `40${units("cm",3)}`,
-          `60${units("cm",3)}`,
-          `80${units("cm",3)}`,
+        question: `2.0g of limestone was treated with excess 0.5${units(
+          "moldm",
+          -3
+        )} HCl. The acid left at the end of the reaction required 32${units(
+          "cm",
+          3
+        )} of 0.02${units("moldm", -3)} ${formula(
+          "Na",
+          2,
+          "CO",
+          3
+        )} solution for neutralization. What is the original volume of the acid.`,
+        options: [
+          `20${units("cm", 3)}`,
+          `40${units("cm", 3)}`,
+          `60${units("cm", 3)}`,
+          `80${units("cm", 3)}`,
         ],
         ans: "D",
       },
       {
         id: 71,
-        question: `Zn + ${formula("H",2,"SO",4)} -> ${formula("Zn","SO",4)} + ${formula("H",2)} <br />
-        In the reaction represented by the equation above, how much of zinc would be left undissolved if 5g of zinc granule is treated with 5-${units("cm",3)} of 0.500${units("moldm",-3)} ${formula("H",2,"SO",4)} solution <br /> {Zn = 65, S = 32, O = 16, H = 1}`,
-        options: [  
-          `4.3g`,
-          `3.37g`,
-          `2.37g`,
-          `1.37g`,
-        ],
+        question: `Zn + ${formula("H", 2, "SO", 4)} -> ${formula(
+          "Zn",
+          "SO",
+          4
+        )} + ${formula("H", 2)} <br />
+        In the reaction represented by the equation above, how much of zinc would be left undissolved if 5g of zinc granule is treated with 5-${units(
+          "cm",
+          3
+        )} of 0.500${units("moldm", -3)} ${formula(
+          "H",
+          2,
+          "SO",
+          4
+        )} solution <br /> {Zn = 65, S = 32, O = 16, H = 1}`,
+        options: [`4.3g`, `3.37g`, `2.37g`, `1.37g`],
         ans: "B",
       },
       {
         id: 72,
-        question: `100${units("cm",3)} each of 0.2${units("moldm,-3")} solution of hydrochloric acid and lead(II) trioxonitrate (V) were mixed. Assuming the lead(II) chloride is completely insoluble, the mass of leas(II) chloride precipitated is { Pb = 207, Cl = 35.5, O = 16, N = 14, H = 1}`,
-        options: [  
-          `9.92g`,
-          `8.54g`,
-          `5.56g`,
-          `2.78g`,
-        ],
+        question: `100${units("cm", 3)} each of 0.2${units(
+          "moldm,-3"
+        )} solution of hydrochloric acid and lead(II) trioxonitrate (V) were mixed. Assuming the lead(II) chloride is completely insoluble, the mass of leas(II) chloride precipitated is { Pb = 207, Cl = 35.5, O = 16, N = 14, H = 1}`,
+        options: [`9.92g`, `8.54g`, `5.56g`, `2.78g`],
         ans: "D",
       },
       // 2 left here. this is alright for enough practice anyways...
@@ -5460,19 +5668,14 @@ let chemistryQuestions = [
           "planets going around the sun",
           `gas molecules colliding in a container`,
           `a lorry travelling on a straight line`,
-          `an athlete running round a circular track`
+          `an athlete running round a circular track`,
         ],
         ans: "B",
       },
       {
         id: 2,
         question: `The measure of the average kinetic energy of the molecules of a gas is the`,
-        options: [
-          "mass",
-          `pressure`,
-          `volume`,
-          `temperature`
-        ],
+        options: ["mass", `pressure`, `volume`, `temperature`],
         ans: "D",
       },
       {
@@ -5482,7 +5685,7 @@ let chemistryQuestions = [
           "gases are composed of many elastic particles called molecules",
           `the molecules are of negligible sizes`,
           `the molecules collide with one another and with the walls of the container`,
-          `the molecules are in constant random motion`
+          `the molecules are in constant random motion`,
         ],
         ans: "A",
       },
@@ -5493,7 +5696,7 @@ let chemistryQuestions = [
           "no loss of energy after collision",
           `molecules move apart in straight lines after collision`,
           `total momentum decreases after collision`,
-          `total momentum increases after collision`
+          `total momentum increases after collision`,
         ],
         ans: "A",
       },
@@ -5504,7 +5707,7 @@ let chemistryQuestions = [
           "number of its molecules increases",
           `distance between its molecules increases`,
           `frequency of collision of its molecules on the walls of the container increases`,
-          `molecules of the gas are compressed`
+          `molecules of the gas are compressed`,
         ],
         ans: "C",
       },
@@ -5515,7 +5718,7 @@ let chemistryQuestions = [
           "the collisions of molecules of a gas with one another are inelastic",
           `the volume of a gas increases as the pressure increases`,
           `the volume of a gas is inversely proportional to its absolute temperature, if pressure is constant`,
-          `the average kinetic energy of the molecules of a gas is directly proportional to its temperature`
+          `the average kinetic energy of the molecules of a gas is directly proportional to its temperature`,
         ],
         ans: "D",
       },
@@ -5526,7 +5729,7 @@ let chemistryQuestions = [
           "experience repulsive forces",
           `have become more energetic`,
           `have become less energetic`,
-          `collide inelastically`
+          `collide inelastically`,
         ],
         ans: "C",
       },
@@ -5544,12 +5747,7 @@ let chemistryQuestions = [
       {
         id: 9,
         question: `The ideal gas equation can be represented mathematically as:`,
-        options: [
-          "P = nRVT",
-          "PT = nRV",
-          "P = nRT/V",
-          "PV = nR/T",
-        ],
+        options: ["P = nRVT", "PT = nRV", "P = nRT/V", "PV = nR/T"],
         ans: "C",
       },
       // get an ideal gas image, just render it too...
@@ -5578,56 +5776,45 @@ let chemistryQuestions = [
       {
         id: 14,
         question: `As the pressure of a gas increases, there will be a decrease in`,
-        options: [
-          "temperature",
-          "vapor density",
-          "concentration",
-          "volume",
-        ],
+        options: ["temperature", "vapor density", "concentration", "volume"],
         ans: "D",
       },
       {
         id: 15,
-        question: `If the pressure of 200${units("cm",3)} of a gas is halved at constant temperature, what will be its new volume?`,
+        question: `If the pressure of 200${units(
+          "cm",
+          3
+        )} of a gas is halved at constant temperature, what will be its new volume?`,
         options: [
-          `400${units("cm",3)}`,
-          `200${units("cm",3)}`,
-          `100${units("cm",3)}`,
-          `50${units("cm",3)}`
+          `400${units("cm", 3)}`,
+          `200${units("cm", 3)}`,
+          `100${units("cm", 3)}`,
+          `50${units("cm", 3)}`,
         ],
         ans: "A",
       },
       {
         id: 16,
         question: `What is the temperature of a given mass of gas initially at 15&deg;C and 18atm, if the pressure is reduced to 6 atm at constant volume?`,
-        options: [
-          `288K`,
-          `192K`,
-          `96K`,
-          `300K`,
-        ],
+        options: [`288K`, `192K`, `96K`, `300K`],
         ans: "C",
       },
       {
         id: 17,
-        question: `A gas occupying an initial volume of 2${units("dm",3)} is heated and allowed to expand to 6${units("dm",3)} at constant pressure. The ratio of the initial absolute temperature to the final absolute temperature is:`,
-        options: [
-          `3:1`,
-          `1:3`,
-          `2:1`,
-          `1:2`,
-        ],
+        question: `A gas occupying an initial volume of 2${units(
+          "dm",
+          3
+        )} is heated and allowed to expand to 6${units(
+          "dm",
+          3
+        )} at constant pressure. The ratio of the initial absolute temperature to the final absolute temperature is:`,
+        options: [`3:1`, `1:3`, `2:1`, `1:2`],
         ans: "B",
       },
       {
         id: 18,
         question: `The temperature of a gas is 37&deg;C. At what temperature would its original volume be halved while the pressure is quadrupled?`,
-        options: [
-          `310K`,
-          `465K`,
-          `620K`,
-          `775K`,
-        ],
+        options: [`310K`, `465K`, `620K`, `775K`],
         ans: "C",
       },
       {
@@ -5643,45 +5830,47 @@ let chemistryQuestions = [
       },
       {
         id: 20,
-        question: `The pressure of a gas that occupies a volume of 600${units("cm",3)} at 87&deg;C is 900mmHg. What is the pressure of the gas at -33&deg;C if the volume is reduced to 300${units("cm",3)}`,
-        options: [
-          `300 mmHg`,
-          `900 mmHg`,
-          `600 mmHg`,
-          `1200 mmHg`
-        ],
+        question: `The pressure of a gas that occupies a volume of 600${units(
+          "cm",
+          3
+        )} at 87&deg;C is 900mmHg. What is the pressure of the gas at -33&deg;C if the volume is reduced to 300${units(
+          "cm",
+          3
+        )}`,
+        options: [`300 mmHg`, `900 mmHg`, `600 mmHg`, `1200 mmHg`],
         ans: "D",
       },
       {
         id: 21,
-        question: `A gas occupies a volume of 0.75${units("dm",3)} at 27&deg;C and 0.9 atm. The volume of gas at 75&deg;C and 0.9 atm is`,
+        question: `A gas occupies a volume of 0.75${units(
+          "dm",
+          3
+        )} at 27&deg;C and 0.9 atm. The volume of gas at 75&deg;C and 0.9 atm is`,
         options: [
-          `0.87${units("dm",3)}`,
-          `0.97${units("dm",3)}`,
-          `1.74${units("dm",3)}`,
-          `1.94${units("dm",3)}`,
+          `0.87${units("dm", 3)}`,
+          `0.97${units("dm", 3)}`,
+          `1.74${units("dm", 3)}`,
+          `1.94${units("dm", 3)}`,
         ],
         ans: "A",
       },
       {
         id: 22,
         question: `A gas initially at 273K is heated such that its volume and pressure become twice their original values. What is the new temperature of the gas?`,
-        options: [
-          `546K`,
-          `596K`,
-          `1092K`,
-          `1192K`
-        ],
+        options: [`546K`, `596K`, `1092K`, `1192K`],
         ans: "C",
       },
       {
         id: 23,
-        question: `The pressure exerted by 50${units("cm",3)} of oxygen gas is 500 mmHg. What would be the new volume of the gas if the pressure increases to 750 mmHg without changing the temperature?`,
+        question: `The pressure exerted by 50${units(
+          "cm",
+          3
+        )} of oxygen gas is 500 mmHg. What would be the new volume of the gas if the pressure increases to 750 mmHg without changing the temperature?`,
         options: [
-          `23.3${units("cm",3)}`,
-          `33.3${units("cm",3)}`,
-          `43.3${units("cm",3)}`,
-          `53.3${units("cm",3)}`,
+          `23.3${units("cm", 3)}`,
+          `33.3${units("cm", 3)}`,
+          `43.3${units("cm", 3)}`,
+          `53.3${units("cm", 3)}`,
         ],
         ans: "B",
       },
@@ -5692,68 +5881,81 @@ let chemistryQuestions = [
           `the mass of a volume of the gas compared to an equal volume of hydrogen`,
           `the mass of a volume of the gas compared to an equal volume of helium`,
           `the mass of a volume of the gas compared to an equal volume of oxygen`,
-          `the mass of a volune of the gas compared to an equal volume of water vapor`
+          `the mass of a volune of the gas compared to an equal volume of water vapor`,
         ],
         ans: "A",
       },
       {
         id: 25,
-        question: `A gas occupies 75${units("dm",3)} at s.t.p. What volume would it occupy at 27&deg;C and 950 mmHg`,
+        question: `A gas occupies 75${units(
+          "dm",
+          3
+        )} at s.t.p. What volume would it occupy at 27&deg;C and 950 mmHg`,
         options: [
-          `85.9${units("dm",3)}`,
-          `75.9${units("dm",3)}`,
-          `65.9${units("dm",3)}`,
-          `55.9${units("dm",3)}`,
+          `85.9${units("dm", 3)}`,
+          `75.9${units("dm", 3)}`,
+          `65.9${units("dm", 3)}`,
+          `55.9${units("dm", 3)}`,
         ],
         ans: "C",
       },
       {
         id: 26,
-        question: `A gas occupies a volume of 200${units("cm",3)} at 18&deg;C and 0.9 atm. Its volume at s.t.p is:`,
+        question: `A gas occupies a volume of 200${units(
+          "cm",
+          3
+        )} at 18&deg;C and 0.9 atm. Its volume at s.t.p is:`,
         options: [
-          `169${units("cm",3)}`,
-          `208${units("cm",3)}`,
-          `338${units("cm",3)}`,
-          `416${units("cm",3)}`,
+          `169${units("cm", 3)}`,
+          `208${units("cm", 3)}`,
+          `338${units("cm", 3)}`,
+          `416${units("cm", 3)}`,
         ],
         ans: "A",
       },
       {
         id: 27,
-        question: `0.79g of a gas at s.t.p occupied a volume of 250${units("cm",3)}. What is the relative molecular mass of the gas? (G.M.V at s.t.p = 22.4${units("dm",3)})`,
-        options: [
-          `17`,
-          `32`,
-          `64`,
-          `71`,
-        ],
+        question: `0.79g of a gas at s.t.p occupied a volume of 250${units(
+          "cm",
+          3
+        )}. What is the relative molecular mass of the gas? (G.M.V at s.t.p = 22.4${units(
+          "dm",
+          3
+        )})`,
+        options: [`17`, `32`, `64`, `71`],
         ans: "D",
       },
       {
         id: 28,
-        question: `The pressure exerted by a sample of a gas confined in 5.86${units("dm",3)} container at 20&deg;C is 4.1 atm. What is the number of moles of gas in the sample? (R = 0.082${units("dm",3,"atmmol",-1,"K",-1)})`,
-        options: [
-          `1.00`,
-          `2.00`,
-          `3.00`,
-          `4.00`,
-        ],
+        question: `The pressure exerted by a sample of a gas confined in 5.86${units(
+          "dm",
+          3
+        )} container at 20&deg;C is 4.1 atm. What is the number of moles of gas in the sample? (R = 0.082${units(
+          "dm",
+          3,
+          "atmmol",
+          -1,
+          "K",
+          -1
+        )})`,
+        options: [`1.00`, `2.00`, `3.00`, `4.00`],
         ans: "A",
       },
       {
         id: 30,
-        question: `A gas occupies a volume of 5${units("dm",3)} at 2 atm and 273&deg;C. The number of moles of the gas present is <br /> R = 0.082`,
-        options: [
-          `0.45 mol`,
-          `0.33 mol`,
-          `0.22 mol`,
-          `0.17 mol`,
-        ],
+        question: `A gas occupies a volume of 5${units(
+          "dm",
+          3
+        )} at 2 atm and 273&deg;C. The number of moles of the gas present is <br /> R = 0.082`,
+        options: [`0.45 mol`, `0.33 mol`, `0.22 mol`, `0.17 mol`],
         ans: "C",
       },
       {
         id: 31,
-        question: `What do equal volumes of ${formula("CH",4)} and ${formula("CO",2)} at s.t.p have in common?`,
+        question: `What do equal volumes of ${formula("CH", 4)} and ${formula(
+          "CO",
+          2
+        )} at s.t.p have in common?`,
         options: [
           `Mass`,
           `Number of molecules`,
@@ -5764,23 +5966,39 @@ let chemistryQuestions = [
       },
       {
         id: 32,
-        question: `Two 50${units("cm",3)} cylinders. I and II. contain hydrogen and oxygen respectively at the same temperature and pressure. If there are 3.0 moles of oxygen, then the mass of hydrogen is`,
-        options: [
-          `3g`,
-          `6g`,
-          `9g`,
-          `12g`,
-        ],
+        question: `Two 50${units(
+          "cm",
+          3
+        )} cylinders. I and II. contain hydrogen and oxygen respectively at the same temperature and pressure. If there are 3.0 moles of oxygen, then the mass of hydrogen is`,
+        options: [`3g`, `6g`, `9g`, `12g`],
         ans: "B",
       },
       {
         id: 33,
-        question: `20${units("cm",3)} of HF gas combines with 10${units("cm",3)} of a single gas. Which of the following equations correctly represent the reaction?`,
+        question: `20${units("cm", 3)} of HF gas combines with 10${units(
+          "cm",
+          3
+        )} of a single gas. Which of the following equations correctly represent the reaction?`,
         options: [
-          `2${formula("N",2,"F",2,"g")} + ${formula("HF","g")} -> ${formula("N",4,"HF",5,"g")}`,
-          `${formula("N",2,"F",2,"g")} + 2${formula("HF","g")} -> ${formula("N",2,"H",2,"F",5,"g")}`,
-          `${formula("N",2,"F",2,"g")} + 2${formula("HF","g")} -> 2${formula("NHF",2,"g")}`,
-          `${formula("N",2,"F",2,"g")} + ${formula("HF","g")} -> ${formula("N",2,"HF",3,"g")}`,
+          `2${formula("N", 2, "F", 2, "g")} + ${formula(
+            "HF",
+            "g"
+          )} -> ${formula("N", 4, "HF", 5, "g")}`,
+          `${formula("N", 2, "F", 2, "g")} + 2${formula(
+            "HF",
+            "g"
+          )} -> ${formula("N", 2, "H", 2, "F", 5, "g")}`,
+          `${formula("N", 2, "F", 2, "g")} + 2${formula(
+            "HF",
+            "g"
+          )} -> 2${formula("NHF", 2, "g")}`,
+          `${formula("N", 2, "F", 2, "g")} + ${formula("HF", "g")} -> ${formula(
+            "N",
+            2,
+            "HF",
+            3,
+            "g"
+          )}`,
         ],
         ans: "C",
       },
@@ -5788,120 +6006,148 @@ let chemistryQuestions = [
         id: 34,
         question: `In which of the following reactions is Gay-Lussac's Law not applicable?`,
         options: [
-          `2${formula("H",2,"g")} + ${formula("O",2,"g")} -> 2${formula("H",2,"O","g")}`,
-          `${formula("H",2,"g")} + ${formula("Cl",2,"g")} -> 2${formula("HCl","g")}`,
-          `${formula("C","s")} + ${formula("O",2,"g")} -> ${formula("CO",2,"g")}`,
-          `2${formula("CO","g")} + ${formula("O",2,"g")} -> 2${formula("CO",2,"g")}`
+          `2${formula("H", 2, "g")} + ${formula("O", 2, "g")} -> 2${formula(
+            "H",
+            2,
+            "O",
+            "g"
+          )}`,
+          `${formula("H", 2, "g")} + ${formula("Cl", 2, "g")} -> 2${formula(
+            "HCl",
+            "g"
+          )}`,
+          `${formula("C", "s")} + ${formula("O", 2, "g")} -> ${formula(
+            "CO",
+            2,
+            "g"
+          )}`,
+          `2${formula("CO", "g")} + ${formula("O", 2, "g")} -> 2${formula(
+            "CO",
+            2,
+            "g"
+          )}`,
         ],
         ans: "C",
       },
       {
         id: 35,
-        question: `100${units("cm",3)} of hydrogen are sparked with 40${units("cm",3)} of oxygen at 100&deg;C and 1 atm. The total volume of the residual gases is`,
+        question: `100${units("cm", 3)} of hydrogen are sparked with 40${units(
+          "cm",
+          3
+        )} of oxygen at 100&deg;C and 1 atm. The total volume of the residual gases is`,
         options: [
-          `100${units("cm",3)}`,
-          `40${units("cm",3)}`,
-          `60${units("cm",3)}`,
-          `140${units("cm",3)}`
+          `100${units("cm", 3)}`,
+          `40${units("cm", 3)}`,
+          `60${units("cm", 3)}`,
+          `140${units("cm", 3)}`,
         ],
         ans: "A",
       },
       {
         id: 36,
-        question: `20${units("cm",3)} of CO are mixed and sparked with 200${units("cm",3)} of air containing 21% ${formula("O",2)}. What is the total volume of the resulting gases if all volumes are measured at s.t.p?`,
+        question: `20${units(
+          "cm",
+          3
+        )} of CO are mixed and sparked with 200${units(
+          "cm",
+          3
+        )} of air containing 21% ${formula(
+          "O",
+          2
+        )}. What is the total volume of the resulting gases if all volumes are measured at s.t.p?`,
         options: [
-          `179${"cm",3}`,
-          `200${units("cm",3)}`,
-          `210${units("cm",3)}`,
-          `220${units("cm",3)}`
+          `179${("cm", 3)}`,
+          `200${units("cm", 3)}`,
+          `210${units("cm", 3)}`,
+          `220${units("cm", 3)}`,
         ],
         ans: "C",
       },
       {
         id: 37,
-        question: `40${units("cm",3)} of hydrogen are sparked with 160${units("cm",3)} of oxygen at 100&deg;C and 1 atm. The volume of oxygen left after the reaction is`,
+        question: `40${units("cm", 3)} of hydrogen are sparked with 160${units(
+          "cm",
+          3
+        )} of oxygen at 100&deg;C and 1 atm. The volume of oxygen left after the reaction is`,
         options: [
-          `200${units("cm",3)}`,
-          `160${units("cm",3)}`,
-          `140${units("cm",3)}`,
-          `120${units("cm",3)}`
+          `200${units("cm", 3)}`,
+          `160${units("cm", 3)}`,
+          `140${units("cm", 3)}`,
+          `120${units("cm", 3)}`,
         ],
         ans: "C",
       },
       {
         id: 38,
-        question: `50${units("cm",3)} of hydrogen are sparked with 100${units("cm",3)} of oxygen at 110&deg;C and 1 atm. If the whole reaction mixture passes through an alkaline solution of pyrogallol the volume of residual gas is`,
+        question: `50${units("cm", 3)} of hydrogen are sparked with 100${units(
+          "cm",
+          3
+        )} of oxygen at 110&deg;C and 1 atm. If the whole reaction mixture passes through an alkaline solution of pyrogallol the volume of residual gas is`,
         options: [
-          `125${units("cm",3)}`,
-          `100${units("cm",3)}`,
-          `75${units("cm",3)}`,
-          `50${units("cm",3)}`
+          `125${units("cm", 3)}`,
+          `100${units("cm", 3)}`,
+          `75${units("cm", 3)}`,
+          `50${units("cm", 3)}`,
         ],
         ans: "D",
       },
       {
         id: 39,
         question: `What is the partial pressure of oxygen gas collected over water at 760 mmHg and 15&deg;C if the saturation vapour pressure of water is 13 mmHg at 15&deg;C?`,
-        options: [
-          `783 mmHg`,
-          `760 mmHg`,
-          `747 mmHg`,
-          `737 mmHg`,
-        ],
+        options: [`783 mmHg`, `760 mmHg`, `747 mmHg`, `737 mmHg`],
         ans: "C",
       },
       {
         id: 40,
-        question: `30${units("cm",3)} of a gas was collected over water at 30&deg;C and 760 mmHg. What is the volume of the dry gas at s.t.p? (saturation vapor pressure of water at 30&deg;C = 32 mmHg)`,
+        question: `30${units(
+          "cm",
+          3
+        )} of a gas was collected over water at 30&deg;C and 760 mmHg. What is the volume of the dry gas at s.t.p? (saturation vapor pressure of water at 30&deg;C = 32 mmHg)`,
         options: [
-          `25${units("cm",3)}`,
-          `26${units("cm",3)}`,
-          `27${units("cm",3)}`,
-          `28${units("cm",3)}`
+          `25${units("cm", 3)}`,
+          `26${units("cm", 3)}`,
+          `27${units("cm", 3)}`,
+          `28${units("cm", 3)}`,
         ],
         ans: "B",
       },
       {
         id: 41,
-        question: `200${units("cm",3)} of nitrogen was collected over water at 22&deg;C and 770 mmHg. If the saturation vapor pressure of water at 22&deg;C was 20 mmHg. Calculate the volume of the gas at 760 mmHg and 17&deg;C.`,
+        question: `200${units(
+          "cm",
+          3
+        )} of nitrogen was collected over water at 22&deg;C and 770 mmHg. If the saturation vapor pressure of water at 22&deg;C was 20 mmHg. Calculate the volume of the gas at 760 mmHg and 17&deg;C.`,
         options: [
-          `194${units("cm",3)}`,
-          `184${units("cm",3)}`,
-          `174${units("cm",3)}`,
-          `164${units("cm",3)}`
+          `194${units("cm", 3)}`,
+          `184${units("cm", 3)}`,
+          `174${units("cm", 3)}`,
+          `164${units("cm", 3)}`,
         ],
         ans: "A",
       },
       {
         id: 42,
         question: `A gaseous mixture contains 5 moles of helium, 3 moles of argon and 2 moles of nitrogen. The mole fraction of nitrogen in the mixture is`,
-        options: [
-          `2/5`,
-          `1/2`,
-          `3/5`,
-          `1/5`
-        ],
+        options: [`2/5`, `1/2`, `3/5`, `1/5`],
         ans: "D",
       },
       {
         id: 43,
         question: `A gaseous mixture of 0.40 mol nitrogen, 0.04 mol helium and 0.60 mol argon exerts a pressure of 6.3 atm. The partial pressure of argon in the mixture is`,
-        options: [
-          `0.9 atm`,
-          `1.8 atm`,
-          `2.7 atm`,
-          `3.6 atm`
-        ],
+        options: [`0.9 atm`, `1.8 atm`, `2.7 atm`, `3.6 atm`],
         ans: "C",
       },
       {
         id: 44,
-        question: `Calculate the minimum volume of oxygen required for the complete combustion of a mixture of 20${units("cm",3)} of CO and 20${units("cm",3)} of ${formula("H",2)}.`,
+        question: `Calculate the minimum volume of oxygen required for the complete combustion of a mixture of 20${units(
+          "cm",
+          3
+        )} of CO and 20${units("cm", 3)} of ${formula("H", 2)}.`,
         options: [
-          `10${units("cm",3)}`,
-          `20${units("cm",3)}`,
-          `40${units("cm",3)}`,
-          `50${units("cm",3)}`,
+          `10${units("cm", 3)}`,
+          `20${units("cm", 3)}`,
+          `40${units("cm", 3)}`,
+          `50${units("cm", 3)}`,
         ],
         ans: "B",
       },
@@ -5920,69 +6166,90 @@ let chemistryQuestions = [
         id: 46,
         question: `Which of the following expressions shows the relationship between the velocity(U) of gas molecules and their relative molecular mass(M)?`,
         options: [
-          `U = ${units("kM",0.5)}`,
-          `U = ${units("kM",2)}`,
-          `U = ${units("kM",-1)}`,
-          `U = ${units("kM",-0.5)}`,
+          `U = ${units("kM", 0.5)}`,
+          `U = ${units("kM", 2)}`,
+          `U = ${units("kM", -1)}`,
+          `U = ${units("kM", -0.5)}`,
         ],
         ans: "D",
       },
       {
         id: 48,
-        question: `If ${formula("SO",2,"g")} and ${formula("CH",4,"g")} are released at the same time at the opposite ends of a tube, the rates of diffusion of ${formula("SO",2,"g")} and ${formula("CH",4,"g")} will be in the ratio`,
-        options: [
-          `2:1`,
-          `4:1`,
-          `1:4`,
-          `1:2`,
-        ],
+        question: `If ${formula("SO", 2, "g")} and ${formula(
+          "CH",
+          4,
+          "g"
+        )} are released at the same time at the opposite ends of a tube, the rates of diffusion of ${formula(
+          "SO",
+          2,
+          "g"
+        )} and ${formula("CH", 4, "g")} will be in the ratio`,
+        options: [`2:1`, `4:1`, `1:4`, `1:2`],
         ans: "D",
       },
       {
         id: 49,
-        question: `Two gases E and G have densities 0.16${units("gdm",-3)} and 1.44${units("gdm",-3)} respectively. The relative rate of diffusion of the two gases is`,
-        options: [
-          `0.33`,
-          `3.00`,
-          `3.33`,
-          `0.03`,
-        ],
+        question: `Two gases E and G have densities 0.16${units(
+          "gdm",
+          -3
+        )} and 1.44${units(
+          "gdm",
+          -3
+        )} respectively. The relative rate of diffusion of the two gases is`,
+        options: [`0.33`, `3.00`, `3.33`, `0.03`],
         ans: "B",
       },
       {
         id: 50,
         question: `A given volume of sulphur(IV) oxide diffuses in 60 seconds. How long will it take the same volume of methane to diffuse under the same conditions?`,
-        options: [
-          `20 seconds`,
-          `30 seconds`,
-          `40 seconds`,
-          `60 seconds`,
-        ],
+        options: [`20 seconds`, `30 seconds`, `40 seconds`, `60 seconds`],
         ans: "B",
       },
       {
         id: 51,
-        question: `100${units("cm",3)} of methane (${formula("CH",4)}) diffuses through a porous plug in 30 seconds. How long will it take 200${units("cm",3)} of oxygen to diffuse through the same porous plug under the same conditions?`,
-        options: [
-          `60 seconds`,
-          `75 seconds`,
-          `85 seconds`,
-          `90 seconds`,
-        ],
+        question: `100${units("cm", 3)} of methane (${formula(
+          "CH",
+          4
+        )}) diffuses through a porous plug in 30 seconds. How long will it take 200${units(
+          "cm",
+          3
+        )} of oxygen to diffuse through the same porous plug under the same conditions?`,
+        options: [`60 seconds`, `75 seconds`, `85 seconds`, `90 seconds`],
         ans: "C",
       },
       {
         id: 52,
-        question: `Consider the gases: CO, ${formula("SO",2)}, ${formula("H",2,"S")}, ${formula("NO",2)} and ${formula("O",2)}. The increasing order of rates of diffusion of equal volumes of the gases through a porous plug under the same condition is`,
+        question: `Consider the gases: CO, ${formula("SO", 2)}, ${formula(
+          "H",
+          2,
+          "S"
+        )}, ${formula("NO", 2)} and ${formula(
+          "O",
+          2
+        )}. The increasing order of rates of diffusion of equal volumes of the gases through a porous plug under the same condition is`,
         options: [
-          `${formula("H",2,"S")}, CO, ${formula("NO",2)}, ${formula("SO",2)} and ${formula("O",2)}`,
-          `${formula("O",2)}, ${formula("SO",2)}, ${formula("H",2,"S")}, CO, ${formula("NO",2)}`,
-          `${formula("SO",2)}, ${formula("NO",2)}, ${formula("H",2,"S")}, ${formula("O",2)} and CO`,
-          `CO, ${formula("O",2)}, ${formula("H",2,"S")}, ${formula("NO",2)}, ${formula("SO",2)}`
+          `${formula("H", 2, "S")}, CO, ${formula("NO", 2)}, ${formula(
+            "SO",
+            2
+          )} and ${formula("O", 2)}`,
+          `${formula("O", 2)}, ${formula("SO", 2)}, ${formula(
+            "H",
+            2,
+            "S"
+          )}, CO, ${formula("NO", 2)}`,
+          `${formula("SO", 2)}, ${formula("NO", 2)}, ${formula(
+            "H",
+            2,
+            "S"
+          )}, ${formula("O", 2)} and CO`,
+          `CO, ${formula("O", 2)}, ${formula("H", 2, "S")}, ${formula(
+            "NO",
+            2
+          )}, ${formula("SO", 2)}`,
         ],
         ans: "C",
       },
-    ]
+    ],
   },
 
   {
@@ -5991,7 +6258,7 @@ let chemistryQuestions = [
       {
         id: 1,
         question: `Which of the following is true when metallic sodium and sodium chloride are each dissolved in water?`,
-        options: [  
+        options: [
           `Both processes evolve heat`,
           `Both processes absorb heat`,
           `Dissolution of metallic sodium is exothermic while that of sodium is endothermic`,
@@ -6002,18 +6269,13 @@ let chemistryQuestions = [
       {
         id: 2,
         question: `A chemical reaction in which heat is absorbed is said to be`,
-        options: [  
-          `thermostatic`,
-          `isothermal`,
-          `exothermic`,
-          `endothermic`,
-        ],
+        options: [`thermostatic`, `isothermal`, `exothermic`, `endothermic`],
         ans: "D",
       },
       {
         id: 3,
         question: `A change is said to be endothermic if it involves`,
-        options: [  
+        options: [
           `loss of heat to the surronding`,
           `gain of heat from the surrounding`,
           `attainment of dynamic equilibrium`,
@@ -6024,43 +6286,35 @@ let chemistryQuestions = [
       {
         id: 4,
         question: `A reaction in which &Delta;H is negative is`,
-        options: [  
-          `isothermic`,
-          `endothermic`,
-          `adiabatic`,
-          `exothermic`,
-        ],
+        options: [`isothermic`, `endothermic`, `adiabatic`, `exothermic`],
         ans: "D",
       },
       {
         id: 5,
         question: `For the reaction:<br />
-        ${formula("C","s")} + ${formula("O",2,"g")} -> ${formula("CO",2,"g")}: &Delta;H = -393${units("kJmol",-1)}. &Delta;H is the heat of`,
-        options: [  
-          `solution`,
-          `formation`,
-          `neutralization`,
-          `vaporization`,
-        ],
+        ${formula("C", "s")} + ${formula("O", 2, "g")} -> ${formula(
+          "CO",
+          2,
+          "g"
+        )}: &Delta;H = -393${units("kJmol", -1)}. &Delta;H is the heat of`,
+        options: [`solution`, `formation`, `neutralization`, `vaporization`],
         ans: "B",
       },
       {
         id: 7,
         question: `For the reaction:<br />
-        ${formula(ion(formula("H",3,"O"),"+"),"aq")} + ${formula(ion(formula("OH"), "-"), "aq")} -> 2${formula("H",2,"O","l")}<br />
+        ${formula(ion(formula("H", 3, "O"), "+"), "aq")} + ${formula(
+          ion(formula("OH"), "-"),
+          "aq"
+        )} -> 2${formula("H", 2, "O", "l")}<br />
         the heat change accompanying the process is the heat of`,
-        options: [  
-          `formation`,
-          `hydration`,
-          `neutralization`,
-          `combustion`,
-        ],
+        options: [`formation`, `hydration`, `neutralization`, `combustion`],
         ans: "C",
       },
       {
         id: 8,
         question: `Which of the following statements is TRUE about the dissolution of sodium hydroxide pellets in water?`,
-        options: [  
+        options: [
           `It is an endothermic process`,
           `Heat of solution of sodium hydroxide is positve`,
           `Heat is gained from the surrounding`,
@@ -6071,10 +6325,19 @@ let chemistryQuestions = [
       {
         id: 9,
         question: `Consider the reactions:<br />
-        I. ${formula("C","s")} + ${formula("O",2,"g")} -> ${formula("CO",2,"g")}; &Delta;H = -393 ${units("kJmol",-1)}<br />
-        II. ${formula("H",2,"g")} + 1/2${formula("O",2,"g")} -> ${formula("H",2,"O","l")}; &Delta; = -286 ${units("kjmol",-1)}<br />
+        I. ${formula("C", "s")} + ${formula("O", 2, "g")} -> ${formula(
+          "CO",
+          2,
+          "g"
+        )}; &Delta;H = -393 ${units("kJmol", -1)}<br />
+        II. ${formula("H", 2, "g")} + 1/2${formula("O", 2, "g")} -> ${formula(
+          "H",
+          2,
+          "O",
+          "l"
+        )}; &Delta; = -286 ${units("kjmol", -1)}<br />
         Which of the following statement is true`,
-        options: [  
+        options: [
           `More heat is evolved in (I)`,
           `More heat is evolved in (II)`,
           `More heat is absorbed in (I)`,
@@ -6084,129 +6347,182 @@ let chemistryQuestions = [
       },
       {
         id: 11,
-        question: `Calculate the enthalpy change for the dissolution of ${formula("SO",3)} in water to give ${formula("H",2,"SO",4)}:<br />
-        ${formula("SO",3)} + ${formula("H",2,"O")} -> ${formula("H",2,"SO",4)}<br />
-        Given ${Heat("f",formula("SO",3))} = -395${units("kjmol",-1)}<br />
-        ${Heat("f",formula("SO",3))}  = -286${units("kjmol",-1)}<br />
-        ${Heat("f",formula("SO",3))}  = -811${units("kjmol",-1)}`,
-        options: [  
-          `+130kJ`,
-          `-130kJ`,
-          `+1492kJ`,
-          `-1492kJ`,
-        ],
+        question: `Calculate the enthalpy change for the dissolution of ${formula(
+          "SO",
+          3
+        )} in water to give ${formula("H", 2, "SO", 4)}:<br />
+        ${formula("SO", 3)} + ${formula("H", 2, "O")} -> ${formula(
+          "H",
+          2,
+          "SO",
+          4
+        )}<br />
+        Given ${Heat("f", formula("SO", 3))} = -395${units("kjmol", -1)}<br />
+        ${Heat("f", formula("SO", 3))}  = -286${units("kjmol", -1)}<br />
+        ${Heat("f", formula("SO", 3))}  = -811${units("kjmol", -1)}`,
+        options: [`+130kJ`, `-130kJ`, `+1492kJ`, `-1492kJ`],
         ans: "B",
       },
       {
         id: 12,
-        question: `The heat of combustion of ethene is -1430${units("kjmol",-1)}. Calculate the heat of formation of the compound, given that ${Heat("f", formula("CO",2))} and ${Heat("f", formula("H",2,"O"))} are -393${units("kjmol",-1)} and -286${units("kjmol",-1)} respectively.`,
-        options: [  
-          `+2788${units("kjmol",-1)}`,
-          `-72${units("kjmol",-1)}`,
-          `+72${units("kjmol",-1)}`,
-          `-2788${units("kjmol",-1)}`,
+        question: `The heat of combustion of ethene is -1430${units(
+          "kjmol",
+          -1
+        )}. Calculate the heat of formation of the compound, given that ${Heat(
+          "f",
+          formula("CO", 2)
+        )} and ${Heat("f", formula("H", 2, "O"))} are -393${units(
+          "kjmol",
+          -1
+        )} and -286${units("kjmol", -1)} respectively.`,
+        options: [
+          `+2788${units("kjmol", -1)}`,
+          `-72${units("kjmol", -1)}`,
+          `+72${units("kjmol", -1)}`,
+          `-2788${units("kjmol", -1)}`,
         ],
         ans: "C",
       },
       {
         id: 13,
         question: `The reduction of iron(III) oxide by aluminium is represented by the chemical equation
-        ${formula("Fe",2,"O",3,"s")} + 2${formula("Al","s")} -> ${formula("Al",2,"O",3,"s")} + 2${formula("F",2,"s")}<br />
-        What is the entropy change for the reaction if the heats of formation of ${formula("Fe",2,"O",3)} and ${formula("Al",2,"O",3)} are -822${units("kjmol",-1)} and -1670${units("kjmol",-1)} respectively`,
-        options: [  
-          `-848KJ`,
-          `-848kJ`,
-          `+1246kJ`,
-          `-1246Kj`,
-        ],
+        ${formula("Fe", 2, "O", 3, "s")} + 2${formula("Al", "s")} -> ${formula(
+          "Al",
+          2,
+          "O",
+          3,
+          "s"
+        )} + 2${formula("F", 2, "s")}<br />
+        What is the entropy change for the reaction if the heats of formation of ${formula(
+          "Fe",
+          2,
+          "O",
+          3
+        )} and ${formula("Al", 2, "O", 3)} are -822${units(
+          "kjmol",
+          -1
+        )} and -1670${units("kjmol", -1)} respectively`,
+        options: [`-848KJ`, `-848kJ`, `+1246kJ`, `-1246Kj`],
         ans: "B",
       },
       {
         id: 14,
         question: `0.92g of ethanol raised the temperature of 100g of water from 298K to 312.3K when burned completely. What is the heat of combustion of ethanol? <br />
-        {Specific heat capacity of water = 4.2${units("g",-1,"K",-1)}, C = 12, H = 1, O = 16}`,
-        options: [  
-          `+300${units("kjmol",-1)}`,
-          `+3000${units("kjmol",-1)}`,
-          `-300${units("kjmol",-1)}`,
-          `-3000${units("kjmol",-1)}`,
+        {Specific heat capacity of water = 4.2${units(
+          "g",
+          -1,
+          "K",
+          -1
+        )}, C = 12, H = 1, O = 16}`,
+        options: [
+          `+300${units("kjmol", -1)}`,
+          `+3000${units("kjmol", -1)}`,
+          `-300${units("kjmol", -1)}`,
+          `-3000${units("kjmol", -1)}`,
         ],
         ans: "C",
       },
       {
         id: 15,
         question: `An important reaction in the contact process of making tetraoxosulphate(VI) acid is represented by the equation <br />
-        2${formula("SO",2,"g")} + ${formula("O",2,"g")} -> 2${formula("SO",3,"g")}<br />
-        Given that ${Heat("f", formula("SO",2))} and ${Heat("f","SO",3)} are -297${units("kjmol",-1)} and -396${units("kjmol",-1)} respectively. Calculate the enthalpy change of the reaction`,
-        options: [  
-          "+99kJ",
-          "-99kJ",
-          "+198kJ",
-          "-198kJ",
-        ],
+        2${formula("SO", 2, "g")} + ${formula("O", 2, "g")} -> 2${formula(
+          "SO",
+          3,
+          "g"
+        )}<br />
+        Given that ${Heat("f", formula("SO", 2))} and ${Heat(
+          "f",
+          "SO",
+          3
+        )} are -297${units("kjmol", -1)} and -396${units(
+          "kjmol",
+          -1
+        )} respectively. Calculate the enthalpy change of the reaction`,
+        options: ["+99kJ", "-99kJ", "+198kJ", "-198kJ"],
         ans: "D",
       },
       {
         id: 16,
         question: `How much heat will be liberated if 10g of hydrogen burns in excess oxygen according to the following thermochemical equation? <br />
-        ${formula("H",2)} + 1/2${formula("O",2)} -> ${formula("H",2,"O")}; &Delta;H = -286kJ`,
-        options: [  
-          "-1430kJ",
-          "-2860kJ",
-          "-572kJ",
-          "-286kJ",
-        ],
+        ${formula("H", 2)} + 1/2${formula("O", 2)} -> ${formula(
+          "H",
+          2,
+          "O"
+        )}; &Delta;H = -286kJ`,
+        options: ["-1430kJ", "-2860kJ", "-572kJ", "-286kJ"],
         ans: "A",
       },
       {
         id: 19,
         question: `Which of the following reactions is accompanied by a decrease in entropy when carried out at constant temperature?`,
-        options: [  
-          `${formula("MgCO",3,"s")} -> ${formula("MgO","s")} + ${formula("CO",2,"g")}`,
-          `${formula("N",2,"O","g")} -> 2${formula("NO",2,"g")}`,
-          `${formula("N",2,"H",4,"l")} + ${formula("N",2,"O")} -> 3${formula("H",2,"g")} + 4${formula("H",2,"O","l")}`,
-          `2${formula("SO",2,"g")} + ${formula("O",2,"g")} -> 2${formula("SO",3,"g")}`
+        options: [
+          `${formula("MgCO", 3, "s")} -> ${formula("MgO", "s")} + ${formula(
+            "CO",
+            2,
+            "g"
+          )}`,
+          `${formula("N", 2, "O", "g")} -> 2${formula("NO", 2, "g")}`,
+          `${formula("N", 2, "H", 4, "l")} + ${formula(
+            "N",
+            2,
+            "O"
+          )} -> 3${formula("H", 2, "g")} + 4${formula("H", 2, "O", "l")}`,
+          `2${formula("SO", 2, "g")} + ${formula("O", 2, "g")} -> 2${formula(
+            "SO",
+            3,
+            "g"
+          )}`,
         ],
         ans: "D",
       },
       {
         id: 20,
         question: `A process that leads to increase in entropy is`,
-        options: [  
+        options: [
           `mixing of two solid samples`,
           `condensation of a vapor`,
           `boiling a liquid`,
-          `cooling a saturated solution`
+          `cooling a saturated solution`,
         ],
         ans: "C",
       },
       {
         id: 21,
         question: `The enthalpy and entropy of a system are measures of`,
-        options: [  
+        options: [
           `degree of randomness and useful work respectively`,
           `heat content and useful work respectively`,
           `heat content and randomness respectively`,
-          `randomness and heat content respectively`
+          `randomness and heat content respectively`,
         ],
         ans: "C",
       },
       {
         id: 22,
         question: `The entropy change is positive in the process`,
-        options: [  
-          `${formula("H",2,"g")} + ${formula("I",2,
-          "g")} -> 2${formula("HI","g")}`,
-          `${formula("H",2,"O","l")} -> ${formula("H",2,"O","g")}`,
-          `${formula("Zn","s")} + ${ion("Cu","2+")} -> ${ion("Zn","2+","aq")} + ${formula("Cu","s")}`,
-          `${formula("N",2,"g")} + 3${formula("H",2,"g")} -> ${formula("NH",3,"g")}`
+        options: [
+          `${formula("H", 2, "g")} + ${formula("I", 2, "g")} -> 2${formula(
+            "HI",
+            "g"
+          )}`,
+          `${formula("H", 2, "O", "l")} -> ${formula("H", 2, "O", "g")}`,
+          `${formula("Zn", "s")} + ${ion("Cu", "2+")} -> ${ion(
+            "Zn",
+            "2+",
+            "aq"
+          )} + ${formula("Cu", "s")}`,
+          `${formula("N", 2, "g")} + 3${formula("H", 2, "g")} -> ${formula(
+            "NH",
+            3,
+            "g"
+          )}`,
         ],
         ans: "B",
       },
       {
         id: 23,
         question: `The highest level of molecular disorderliness is found in`,
-        options: [  
+        options: [
           `Ice at -10&deg;C`,
           `Water at 100&deg;C`,
           `Steam at 100&deg;C`,
@@ -6217,7 +6533,7 @@ let chemistryQuestions = [
       {
         id: 24,
         question: `A reaction is spontaneous at all temperature if`,
-        options: [  
+        options: [
           `&Delta;G = 0`,
           `&Delta;G > 0`,
           `&Delta;S < 0 and &Delta;H > 0`,
@@ -6228,7 +6544,7 @@ let chemistryQuestions = [
       {
         id: 25,
         question: `Which of the following decreases as steam changes to water?`,
-        options: [  
+        options: [
           `Number of molecules`,
           `Temperature of the system`,
           `Entropy of the system`,
@@ -6239,7 +6555,7 @@ let chemistryQuestions = [
       {
         id: 26,
         question: `Which of the changes determines the spontaneity of a chemical reaction?`,
-        options: [  
+        options: [
           `Volume of the reactants`,
           `Free energy of the system`,
           `Entropy of the system`,
@@ -6250,37 +6566,44 @@ let chemistryQuestions = [
       {
         id: 27,
         question: `For a reaction to be spontaneous, &Delta;G must be `,
-        options: [  
-          `equals to &Delta;H`,
-          `zero`,
-          `positive`,
-          `negative`,
-        ],
+        options: [`equals to &Delta;H`, `zero`, `positive`, `negative`],
         ans: "D",
       },
       {
         id: 28,
         question: `Which of the following reactions is spontaneous?`,
-        options: [  
-          `${formula("H",2)} + 2${formula("KCl","s")} -> 2${formula("KF","aq")} + ${formula("Cl",2,"g")}`,
-          `${formula("Cl",2)} + 2${formula("KF","aq")} -> 2${formula("KCl","aq")} + ${formula("F",2,"s")}`,
-          `${formula("Br",2,"g")} + 2${formula("KF","aq")} -> 2${formula("KBr","aq")} + ${formula("F",2)}`,
-          `${formula("I",2,"s")} + 2${formula("KCl","aq")} -> 2${formula("KI","aq")} + ${formula("Cl",2,"g")}`
+        options: [
+          `${formula("H", 2)} + 2${formula("KCl", "s")} -> 2${formula(
+            "KF",
+            "aq"
+          )} + ${formula("Cl", 2, "g")}`,
+          `${formula("Cl", 2)} + 2${formula("KF", "aq")} -> 2${formula(
+            "KCl",
+            "aq"
+          )} + ${formula("F", 2, "s")}`,
+          `${formula("Br", 2, "g")} + 2${formula("KF", "aq")} -> 2${formula(
+            "KBr",
+            "aq"
+          )} + ${formula("F", 2)}`,
+          `${formula("I", 2, "s")} + 2${formula("KCl", "aq")} -> 2${formula(
+            "KI",
+            "aq"
+          )} + ${formula("Cl", 2, "g")}`,
         ],
         ans: "A",
       },
       {
         id: 29,
         question: `A change is spontaneous when it`,
-        options: [  
+        options: [
           `occurs with assistance from external`,
           `is unaffected by external assistance`,
           `occurs without external assistance`,
-          `occurs instanteously`
+          `occurs instanteously`,
         ],
         ans: "C",
       },
-    ]
+    ],
   },
 
   {
@@ -6289,9 +6612,12 @@ let chemistryQuestions = [
       {
         id: 1,
         question: `Consider the reaction: <br />
-        ${formula("H",2,"g")} + ${formula("I",2,"g")} -> 2${formula("HI","g")}<br />
+        ${formula("H", 2, "g")} + ${formula("I", 2, "g")} -> 2${formula(
+          "HI",
+          "g"
+        )}<br />
         Which of the following would decrease the number of effective collisions of molecules of the reactants?`,
-        options: [  
+        options: [
           `Increase in pressure`,
           `Rise in temperature`,
           `Increase in the volume of the reaction vessel`,
@@ -6302,8 +6628,13 @@ let chemistryQuestions = [
       {
         id: 2,
         question: `Which of the following factors will slow down the speed of the reaction represented by the equation below?<br />
-        2${formula("H",2,"O","l")} + 2${formula("H",2,"O","l")} + ${formula("O",2,"g")}`,
-        options: [  
+        2${formula("H", 2, "O", "l")} + 2${formula(
+          "H",
+          2,
+          "O",
+          "l"
+        )} + ${formula("O", 2, "g")}`,
+        options: [
           `Exposure of reaction vessel to sunlight`,
           `Addition of distilled water to the reaction vessel`,
           `Increase in temperature`,
@@ -6313,9 +6644,13 @@ let chemistryQuestions = [
       },
       {
         id: 3,
-        question: `${formula("N",2,"g")} + 3${formula("H",2,"g")} -> 2${formula("NH",3,"g")}<br />
+        question: `${formula("N", 2, "g")} + 3${formula(
+          "H",
+          2,
+          "g"
+        )} -> 2${formula("NH", 3, "g")}<br />
         In the chemical reaction above, the substance that will increase the rate of production of ammonia is`,
-        options: [  
+        options: [
           `platinum`,
           `vanadium(V) oxide`,
           `finely divided nickel`,
@@ -6326,7 +6661,7 @@ let chemistryQuestions = [
       {
         id: 6,
         question: `The activation energy of a reaction can be reduced by`,
-        options: [  
+        options: [
           `increasing the reaction temperature`,
           `increasing the surface area of the reactants`,
           `introducing a suitable catalyst`,
@@ -6339,7 +6674,7 @@ let chemistryQuestions = [
       {
         id: 10,
         question: `The presence of a catalyst in a reaction mixture changes the`,
-        options: [  
+        options: [
           `reaction pathway`,
           `enthalpy change of reaction`,
           `equilibrium position`,
@@ -6350,73 +6685,76 @@ let chemistryQuestions = [
       {
         id: 11,
         question: `The change that occurs when a photographic film is exposed to sunlight is`,
-        options: [  
-          `${ion("Ag","+")} + ${ion("Br","+")} -> ${formula("AgBr")}`,
-          `${formula("Ag")} -> ${ion("Ag","+")} + ${ion("e","-")}`,
-          `${ion("Ag","+")} + ${ion("e","-")} -> Ag`,
-          `${formula("AgBr")} -> ${ion("Ag","+")} + ${ion("Br","-")}`,
+        options: [
+          `${ion("Ag", "+")} + ${ion("Br", "+")} -> ${formula("AgBr")}`,
+          `${formula("Ag")} -> ${ion("Ag", "+")} + ${ion("e", "-")}`,
+          `${ion("Ag", "+")} + ${ion("e", "-")} -> Ag`,
+          `${formula("AgBr")} -> ${ion("Ag", "+")} + ${ion("Br", "-")}`,
         ],
         ans: "C",
       },
       {
         id: 12,
         question: `Which of the following factors is responsible for an increase in the rate of a chemical reaction in heating?`,
-        options: [  
+        options: [
           `Increase in enthalpy`,
           `Increase in collision rate`,
           `Increase in reactant concentration`,
-          `Decrease in activation energy`
+          `Decrease in activation energy`,
         ],
         ans: "B",
       },
       {
         id: 13,
-        question: `The reaction between 10g of iron fillings and 1.0${units("moldm",-3)} HCl can be made to proceed faster by`,
-        options: [  
-          `using 0.50 ${units("moldm",-3)} acid instead`,
-          `adding 1.0 ${units("moldm",-3)} NaOH`,
+        question: `The reaction between 10g of iron fillings and 1.0${units(
+          "moldm",
+          -3
+        )} HCl can be made to proceed faster by`,
+        options: [
+          `using 0.50 ${units("moldm", -3)} acid instead`,
+          `adding 1.0 ${units("moldm", -3)} NaOH`,
           `cooling the reaction vessel`,
-          `adding some concentratoin HCl`
+          `adding some concentratoin HCl`,
         ],
         ans: "D",
       },
       {
         id: 14,
         question: `A rod form of a metal burns less readily in air than the finely divided form because the rod has`,
-        options: [  
+        options: [
           `different chemical properties`,
           `protective oxide coating`,
           `larger surface area exposed`,
-          `smaller surface area exposed`
+          `smaller surface area exposed`,
         ],
         ans: "D",
       },
       {
         id: 16,
         question: `A set of conditions that can quicken a hemical reaction is`,
-        options: [  
+        options: [
           `low temperature and high reactant concentration`,
           `high temperature , presence of a catalyst and small reactant surface area`,
           `presence of a catalyst and darkness`,
-          `high temperature, high reactant concentration and large reactant surface area`
+          `high temperature, high reactant concentration and large reactant surface area`,
         ],
         ans: "D",
       },
       {
         id: 17,
         question: `What is the role of finely divided iron in the Haber process of manufacturing ammonia`,
-        options: [  
+        options: [
           `Reducing agent`,
           `Oxidizing agent`,
           `Dehydrating agent`,
-          `Catalyzing agent`
+          `Catalyzing agent`,
         ],
         ans: "D",
       },
       {
         id: 19,
         question: `Which of the reactoins of marble with dilute HCl is fastest?`,
-        options: [  
+        options: [
           `5g of marble lump at 50&deg;C`,
           `5g of marble lump at 25&deg;C`,
           `5g of marble powder at 50&deg;C`,
@@ -6426,11 +6764,16 @@ let chemistryQuestions = [
       },
       {
         id: 20,
-        question: `${formula("Zn","s")} + ${formula("H",2,"SO",4)} -> ${formula("ZnSO",4<"aq")} + ${formula("H",2,"g")}<br />
+        question: `${formula("Zn", "s")} + ${formula(
+          "H",
+          2,
+          "SO",
+          4
+        )} -> ${formula("ZnSO", 4 < "aq")} + ${formula("H", 2, "g")}<br />
         The rate of evolution of hydrogen gas in the above reaction will be greatly increased if`,
-        options: [  
+        options: [
           `the zinc is in the form of pallets`,
-          `a smaller volume of ${formula("H",2,"SO",4)} is used`,
+          `a smaller volume of ${formula("H", 2, "SO", 4)} is used`,
           `the reaction flask is immersed in an ice bath`,
           `the zinc is in the powdered form`,
         ],
@@ -6440,7 +6783,7 @@ let chemistryQuestions = [
       {
         id: 21,
         question: `The minimum amount of energy that colliding molecules must possess for their collsions to be effective is`,
-        options: [  
+        options: [
           `thermal energy`,
           `collision theory`,
           `activation energy`,
@@ -6455,7 +6798,7 @@ let chemistryQuestions = [
         Temp(&deg;C):  30 40 50<br />
         Time(seconds): 80 40 20<br />
         It can be deduced from the results that `,
-        options: [  
+        options: [
           `for a 10&deg;C rise in temperature, the reaction rate is doubled`,
           `for a 10&deg;C rise in temperature, the reaction is tripled`,
           `for a 10&deg;C rise in temperature, the reaction rate is halved`,
@@ -6463,8 +6806,7 @@ let chemistryQuestions = [
         ],
         ans: "A",
       },
-      
-    ]
+    ],
   },
 
   {
@@ -6473,7 +6815,7 @@ let chemistryQuestions = [
       {
         id: 1,
         question: `A chemical equilibrium is established when`,
-        options: [  
+        options: [
           `concentrations of the reactants are less than those of the products`,
           `concentrations of the reactants and products remain unchanged`,
           `reactants in the system are completely used up`,
@@ -6481,16 +6823,16 @@ let chemistryQuestions = [
         ],
         ans: "C",
       },
-    ]
+    ],
   },
 
   {
-    topic: 'Matter',
+    topic: "Matter",
     questions: [
       {
         id: 1,
         question: `A liquid begins to boil when`,
-        options: [  
+        options: [
           `constituent particles acquire energy which make them slide over one another`,
           `constituent particles acquire energy above the average energy`,
           `constituents particles acquire energy below the average kinetic energy`,
@@ -6501,7 +6843,7 @@ let chemistryQuestions = [
       {
         id: 2,
         question: `Pure water can be made to boil below 100&deg;C under`,
-        options: [  
+        options: [
           `increased volume`,
           `decreased volume`,
           `increased external pressure on it`,
@@ -6512,7 +6854,7 @@ let chemistryQuestions = [
       {
         id: 5,
         question: `Ice, water and steam`,
-        options: [  
+        options: [
           `have the same physical properties`,
           `are different allotropes`,
           `are chemically alike`,
@@ -6523,7 +6865,7 @@ let chemistryQuestions = [
       {
         id: 7,
         question: `The addition of water to calcium carbide results to`,
-        options: [  
+        options: [
           `a mixture`,
           `no change`,
           `a chemical change`,
@@ -6534,7 +6876,7 @@ let chemistryQuestions = [
       {
         id: 8,
         question: `At the melting point of a solid, the constituent particles`,
-        options: [  
+        options: [
           `acquire energy much below the average kinetic energy`,
           `vibrate vigorously and acquire energy that overcomes the attractive forces`,
           `acquire energy slightly less than the attractive forces`,
@@ -6545,18 +6887,13 @@ let chemistryQuestions = [
       {
         id: 9,
         question: `An organic solid melts between 115&deg;C - 122&deg;C. This indicates that that the solid is`,
-        options: [  
-          `pure`,
-          `impure`,
-          `efflorescent`,
-          `hygroscopic`,
-        ],
+        options: [`pure`, `impure`, `efflorescent`, `hygroscopic`],
         ans: "B",
       },
       {
         id: 10,
         question: `A physical property is`,
-        options: [  
+        options: [
           `rusting`,
           `precipitation`,
           `neutralization`,
@@ -6567,7 +6904,7 @@ let chemistryQuestions = [
       {
         id: 11,
         question: `An example of physical change is`,
-        options: [  
+        options: [
           `rusting of iron`,
           `souring of milk`,
           `burning of wood`,
@@ -6578,7 +6915,7 @@ let chemistryQuestions = [
       {
         id: 12,
         question: `What do allotropes have in common?`,
-        options: [  
+        options: [
           `melting point`,
           `solubility`,
           `chemical reactions`,
@@ -6589,7 +6926,7 @@ let chemistryQuestions = [
       {
         id: 13,
         question: `Metals conduct an electric current due to the presence of`,
-        options: [  
+        options: [
           `bounded electrons`,
           `free mobile electrons`,
           `crystal lattice structure`,
@@ -6600,7 +6937,7 @@ let chemistryQuestions = [
       {
         id: 14,
         question: `Which of the following oxides would produce an aqeuous solution having a pH less than 7?`,
-        options: [  
+        options: [
           `sodium oxide`,
           `calcium oxide`,
           `copper(II) oxide`,
@@ -6611,40 +6948,25 @@ let chemistryQuestions = [
       {
         id: 15,
         question: `The phenomenon in which carbon exists in two major forms in the solid state is known as`,
-        options: [  
-          `isomorphism`,
-          `allotropy`,
-          `isomerism`,
-          `isotopy`,
-        ],
+        options: [`isomorphism`, `allotropy`, `isomerism`, `isotopy`],
         ans: "B",
       },
       {
         id: 16,
         question: `Iron can be extracted from`,
-        options: [  
-          `haemitite`,
-          `cryolite`,
-          `cassiterite`,
-          `bauxite`,
-        ],
+        options: [`haemitite`, `cryolite`, `cassiterite`, `bauxite`],
         ans: "A",
       },
       {
         id: 17,
         question: `Diamond is used in abrasives because of its`,
-        options: [  
-          `high melting point`,
-          `lustre`,
-          `hardness`,
-          `density`,
-        ],
+        options: [`high melting point`, `lustre`, `hardness`, `density`],
         ans: "C",
       },
       {
         id: 18,
         question: `An alloy of mercury is:`,
-        options: [  
+        options: [
           `coinage bronze`,
           `soft solder`,
           `amalgam`,
@@ -6655,10 +6977,10 @@ let chemistryQuestions = [
       {
         id: 19,
         question: `Which one of the following oxide is amphoteric`,
-        options: [  
+        options: [
           `MgO`,
-          `${formula("CO",2)}`,
-          `${formula("Al",2,"O",3)}`,
+          `${formula("CO", 2)}`,
+          `${formula("Al", 2, "O", 3)}`,
           `CuO`,
         ],
         ans: "C",
@@ -6666,7 +6988,7 @@ let chemistryQuestions = [
       {
         id: 20,
         question: `All the following statements are false except`,
-        options: [  
+        options: [
           `Metals conduct electricity while non-metals do not`,
           `Metals form basic oxides while non-metals form acidic oxides only`,
           `In the electrochemical series, metals are above hydrogen while non-metals are below hydrogen`,
@@ -6677,7 +6999,7 @@ let chemistryQuestions = [
       {
         id: 21,
         question: `The constituents of stainless steel are`,
-        options: [  
+        options: [
           `carbon, iron and lead`,
           `carbon, iron and chromium`,
           `carbon, iron and copper`,
@@ -6688,7 +7010,7 @@ let chemistryQuestions = [
       {
         id: 22,
         question: `In which of the following pairs of elements do the two elements exhibit allotropy`,
-        options: [  
+        options: [
           `phosphorus and hydrogen`,
           `oxygen and chlorine`,
           `sulfur and nitrogen`,
@@ -6699,29 +7021,19 @@ let chemistryQuestions = [
       {
         id: 23,
         question: `All the following allotropes cannot conduct electricity except`,
-        options: [  
-          `rhombic sulfur`,
-          `graphite`,
-          `diamond`,
-          `red phosphorus`,
-        ],
+        options: [`rhombic sulfur`, `graphite`, `diamond`, `red phosphorus`],
         ans: "B",
       },
       {
         id: 24,
         question: `Bronze is an alloy of copper and`,
-        options: [  
-          `aluminium`,
-          `zinc`,
-          `tin`,
-          `iron`,
-        ],
+        options: [`aluminium`, `zinc`, `tin`, `iron`],
         ans: "C",
       },
       {
         id: 25,
         question: `Brass is an alloy of`,
-        options: [  
+        options: [
           `copper and zinc`,
           `copper and tin`,
           `iron and zinc`,
@@ -6732,40 +7044,35 @@ let chemistryQuestions = [
       {
         id: 26,
         question: `Which of the following oxides is neutral?`,
-        options: [  
-          `${formula("SO",2)}`,
-          `${formula("Al",2,"O",3)}`,
+        options: [
+          `${formula("SO", 2)}`,
+          `${formula("Al", 2, "O", 3)}`,
           `${formula("CO")}`,
-          `${formula("CO",2)}`,
+          `${formula("CO", 2)}`,
         ],
         ans: "C",
       },
       {
         id: 27,
         question: `In which of the following pairs is each of the two members forms higher oxide on reacting with oxygen?`,
-        options: [  
-          `${formula("SO",2)} and ${formula("NO")}`,
-          `${formula("CO",2)} and ${formula("H","2","O")}`,
-          `${formula("CO")} and ${formula("CO",2)}`,
-          `${formula("NO")} and ${formula("H",2,"O")}`,
+        options: [
+          `${formula("SO", 2)} and ${formula("NO")}`,
+          `${formula("CO", 2)} and ${formula("H", "2", "O")}`,
+          `${formula("CO")} and ${formula("CO", 2)}`,
+          `${formula("NO")} and ${formula("H", 2, "O")}`,
         ],
         ans: "A",
       },
       {
         id: 28,
         question: `An element that would combine with oxygen to form an amphoteric oxide is`,
-        options: [  
-          `Mg`,
-          `Al`,
-          `Ag`,
-          `Cu`,
-        ],
+        options: [`Mg`, `Al`, `Ag`, `Cu`],
         ans: "B",
       },
       {
         id: 29,
         question: `The following are chemical changes except`,
-        options: [  
+        options: [
           `passing of steam over heated iron`,
           `dissolution of sodium choride in water`,
           `bubbling of chlorine into a jar containing hydrogen`,
@@ -6776,7 +7083,7 @@ let chemistryQuestions = [
       {
         id: 30,
         question: `The following are pairs of impure substances only except`,
-        options: [  
+        options: [
           `Petroleum and Rubber Latex`,
           `Ethanol and Propanone`,
           `Petroleum and Ethanol`,
@@ -6787,7 +7094,7 @@ let chemistryQuestions = [
       {
         id: 31,
         question: `Duralumin is an alloy consisting of`,
-        options: [  
+        options: [
           `copper, aluminium, lead and manganese`,
           `deuterium and aluminium`,
           `aluminium, copper, manganese and magnesium`,
@@ -6798,7 +7105,7 @@ let chemistryQuestions = [
       {
         id: 32,
         question: `Which of the following is an impure substance?`,
-        options: [  
+        options: [
           `Distilled water`,
           `Ethanoic acid`,
           `Sulfur powder`,
@@ -6809,10 +7116,20 @@ let chemistryQuestions = [
       {
         id: 33,
         question: `Given the following equations: <br />
-        ${formula("Al",2,"O",3,"s")} + 6${formula("HCl","aq")} -> 2${formula("AlCl",3,"aq")} + 3${formula("H",2,"O","l")}<br />
-        ${formula("Al",2,"O",3,"s")} + 2${formula("KOH","aq")} + 3${formula("H",2,"O","l")} -> 2KAl${formula("(OH)",4,"aq")} <br />
-        It can be deduced that ${formula("Al",2,"O",3)} is`,
-        options: [  
+        ${formula("Al", 2, "O", 3, "s")} + 6${formula(
+          "HCl",
+          "aq"
+        )} -> 2${formula("AlCl", 3, "aq")} + 3${formula("H", 2, "O", "l")}<br />
+        ${formula("Al", 2, "O", 3, "s")} + 2${formula(
+          "KOH",
+          "aq"
+        )} + 3${formula("H", 2, "O", "l")} -> 2KAl${formula(
+          "(OH)",
+          4,
+          "aq"
+        )} <br />
+        It can be deduced that ${formula("Al", 2, "O", 3)} is`,
+        options: [
           `a neutral oxide`,
           `an acidic oxide`,
           `a basic oxide`,
@@ -6823,7 +7140,7 @@ let chemistryQuestions = [
       {
         id: 34,
         question: `The passage of sulphur(IV) oxide gas into water leads to`,
-        options: [  
+        options: [
           `a mixture`,
           `an exothermic change`,
           `a chemical change`,
@@ -6834,607 +7151,572 @@ let chemistryQuestions = [
       {
         id: 35,
         question: `Alloys are preferred to pure metals in construction works because`,
-        options: [  
+        options: [
           `metals are malleable and ductile`,
           `alloys are mixtures of metals`,
           `metals are harder than alloys`,
           `metallic properties are improved upon in alloys`,
-      ],
+        ],
         ans: "D",
       },
       {
         id: 36,
         question: `The following statements about graphite are correct except that it`,
-        options: [  
+        options: [
           `is a form of carbon`,
           `contains mobile free ions`,
           `is used as a lubricant`,
           `has a layer lattice structure`,
-      ],
+        ],
         ans: "B",
       },
       {
         id: 37,
         question: `Which of the following metallic oxides is amphoteric?`,
-        options: [  
-          `PbO`,
-          `CuO`,
-          `MgO`,
-          `${formula("Fe",2,"O",3)}`,
-      ],
+        options: [`PbO`, `CuO`, `MgO`, `${formula("Fe", 2, "O", 3)}`],
         ans: "A",
       },
       {
         id: 38,
         question: `Diamond and graphite are forms of the same element (carbon) because they`,
-        options: [  
+        options: [
           `both have the same density`,
           `both conduct electricity`,
           `both form carbon(IV) oxide on combustion`,
           `are both used as lubricants`,
-      ],
+        ],
         ans: "C",
       },
       {
         id: 39,
         question: `The ore which aluminium is extracted is`,
-        options: [  
-          `cassiterite`,
-          `magnetite`,
-          `malachite`,
-          `bauxite`,
-      ],
+        options: [`cassiterite`, `magnetite`, `malachite`, `bauxite`],
         ans: "D",
       },
       {
         id: 40,
         question: `Metals are ductile because they`,
-        options: [  
+        options: [
           `can be hammered into sheets`,
           `can be drawn into different shapes`,
           `can be alloyed`,
           `can make a sound note when struct`,
-      ],
+        ],
         ans: "B",
       },
       {
         id: 41,
         question: `Which of the following is not a metal ore?`,
-        options: [  
-          `Haemetite`,
-          `Graphite`,
-          `Cassiterite`,
-          `Bauxite`,
-      ],
+        options: [`Haemetite`, `Graphite`, `Cassiterite`, `Bauxite`],
         ans: "B",
       },
       {
         id: 42,
         question: `Which of the following alloys is used in the building of the body of aircraft`,
-        options: [  
-          `Duralumin`,
-          `Brass`,
-          `Bronze`,
-          `Steel`,
-      ],
+        options: [`Duralumin`, `Brass`, `Bronze`, `Steel`],
         ans: "A",
       },
       {
         id: 43,
         question: `Aluminium is extracted from its ore by`,
-        options: [  
+        options: [
           `reduction with coke`,
           `oil floatation`,
           `roasting`,
           `electrolytic reduction`,
-      ],
+        ],
         ans: "D",
       },
       {
         id: 44,
         question: `Graphite is used as a lubricant because it`,
-        options: [  
+        options: [
           `has a sliding layer structure`,
           `has mobile free electrons`,
           `is an allotrope of carbon`,
           `has no free electrons`,
-      ],
+        ],
         ans: "A",
       },
       {
         id: 45,
-        question: `The following gases may be dried with conc. ${formula("H",2,"SO",4)} except`,
-        options: [  
-          `${formula("SO",2)}`,
-          `${formula("NH",3)}`,
+        question: `The following gases may be dried with conc. ${formula(
+          "H",
+          2,
+          "SO",
+          4
+        )} except`,
+        options: [
+          `${formula("SO", 2)}`,
+          `${formula("NH", 3)}`,
           `${formula("HCl")}`,
-          `${formula("N",2)}`,
-      ],
+          `${formula("N", 2)}`,
+        ],
         ans: "B",
       },
       {
         id: 46,
         question: `Which of the following compounds is deliquescent?`,
-        options: [  
+        options: [
           `NaCl`,
-          `${formula("NaNO",3)}`,
-          `${formula("Na",2,"CO",3)}.10${formula("H",2,"O")}`,
-          `${formula("CaCl",2)}`,
-      ],
+          `${formula("NaNO", 3)}`,
+          `${formula("Na", 2, "CO", 3)}.10${formula("H", 2, "O")}`,
+          `${formula("CaCl", 2)}`,
+        ],
         ans: "D",
       },
       {
         id: 47,
         question: `An anhydride is an oxide whose aqueous solution has`,
-        options: [  
+        options: [
           `a pH less than 7`,
           `no water of crystallization`,
           `hydrogen atoms`,
           `a pH grater than 7`,
-      ],
+        ],
         ans: "A",
       },
       {
         id: 48,
         question: `An oxide is said to be amphoteric if`,
-        options: [  
+        options: [
           `it is an amorphous oxide of a metal`,
           `it is an amorphous oxide of a non-metal`,
           `it loses its oxygen on sublimation`,
           `it behaves both as a base as well as an acid`,
-      ],
+        ],
         ans: "D",
       },
       {
         id: 49,
         question: `Sodium tetraoxosulfate(VI) decahydrate loses its water of crystallization on exposure to air. The process is known as`,
-        options: [  
+        options: [
           `dehydration`,
           `efflorescency`,
           `hygroscopy`,
           `deliquescency`,
-      ],
+        ],
         ans: "B",
       },
       {
         id: 50,
         question: `A substance commonly used for drying ammonia gas is`,
-        options: [  
+        options: [
           `concentrated tetraoxosulfate(VI) acid`,
           `magnesium trioxonitrate(V)`,
           `quicklime`,
           `anhydrous calcium carbide`,
-      ],
+        ],
         ans: "C",
       },
       {
         id: 51,
         question: `Which of the following substances is not hygroscopic`,
-        options: [  
+        options: [
           `NaOH pellets`,
-          `conc. ${formula("H",2,"SO",4)}`,
-          `anhydrous ${formula("FeCl",3)}`,
-          `anhydrous ${formula("Na",2,"CO",3)}`,
-      ],
+          `conc. ${formula("H", 2, "SO", 4)}`,
+          `anhydrous ${formula("FeCl", 3)}`,
+          `anhydrous ${formula("Na", 2, "CO", 3)}`,
+        ],
         ans: "D",
       },
       {
         id: 52,
         question: `Which of the following compounds is efflorescent?`,
-        options: [  
-          `Concentrated ${formula("H",2,"SO",4)}`,
+        options: [
+          `Concentrated ${formula("H", 2, "SO", 4)}`,
           `${formula("CuO")}`,
-          `${formula("Na",2,"CO",3)}.10${formula("H",2,"O")}`,
-          `Fused ${formula("CaCl",2)}`,
-      ],
+          `${formula("Na", 2, "CO", 3)}.10${formula("H", 2, "O")}`,
+          `Fused ${formula("CaCl", 2)}`,
+        ],
         ans: "C",
       },
       {
         id: 53,
         question: `The increase in mass of fused calcium chloride on exposure to the atmosphere can be attributed to the presence of`,
-        options: [  
-          `moisture`,
-          `dust particles`,
-          `nitrogen`,
-          `noble gases`,
-      ],
+        options: [`moisture`, `dust particles`, `nitrogen`, `noble gases`],
         ans: "A",
       },
       {
         id: 54,
         question: `Compounds that are deliquescent are also said to be`,
-        options: [  
-          `insoluble`,
-          `efflorescent`,
-          `anhydrous`,
-          `hygroscopic`,
-      ],
+        options: [`insoluble`, `efflorescent`, `anhydrous`, `hygroscopic`],
         ans: "D",
       },
       {
         id: 55,
         question: `A compound that absorbs moisture from the atmosphere and eventually forms a solution is said to be`,
-        options: [  
-          `efflorescent`,
-          `hygroscopic`,
-          `anhydrous`,
-          `deliquescent`,
-      ],
+        options: [`efflorescent`, `hygroscopic`, `anhydrous`, `deliquescent`],
         ans: "D",
       },
       {
         id: 56,
         question: `If two weighed salts W and X were left exposed in the laboratory overnight. In the following morning W has gained weight and X has turned into a liquid, what can be said of W and X?`,
-        options: [  
+        options: [
           `X is efflorescent`,
           `W and X are efflorescent`,
           `W and X are deliquescent`,
           `W and X are hygroscopic`,
-      ],
+        ],
         ans: "D",
       },
       {
         id: 57,
         question: `On exposure to dry atmosphere, the crystals of sodium trixocarbonate(IV) changed to a white powder. The phenomenon that accounts or this is?`,
-        options: [  
-          `efflorescence`,
-          `hygroscopy`,
-          `oxidation`,
-          `deliquescence`,
-      ],
+        options: [`efflorescence`, `hygroscopy`, `oxidation`, `deliquescence`],
         ans: "A",
       },
       {
         id: 58,
         question: `Which one of the following contains an efflorescent, a deliquescent and a hygroscopic substance respectively`,
-        options: [  
-          `${formula("Na",2,"SO",4)}, concentrated ${formula("H",2,"SO",4)}, ${formula("CaCl",2)}`,
-          `${formula("Na",2,"CO",3)}.${formula("H",2,"O")}, ${formula("FeSO",4)}.7${formula("H",2,"O")}, concentrated ${formula("H",2,"SO",4)}`,
-          `${formula("Na",2,"CO",3)}.10${formula("H",2,"O")}, ${formula("NaOH")} pellet, concentrated ${formula("H",2,"SO",4)}`,
-          `concentrated ${formula("H",2,"SO",4)}, ${formula("FeSO",4)}.7${formula("H",2,"O")}, ${formula("Mg","Cl",2)}`,
-      ],
+        options: [
+          `${formula("Na", 2, "SO", 4)}, concentrated ${formula(
+            "H",
+            2,
+            "SO",
+            4
+          )}, ${formula("CaCl", 2)}`,
+          `${formula("Na", 2, "CO", 3)}.${formula("H", 2, "O")}, ${formula(
+            "FeSO",
+            4
+          )}.7${formula("H", 2, "O")}, concentrated ${formula(
+            "H",
+            2,
+            "SO",
+            4
+          )}`,
+          `${formula("Na", 2, "CO", 3)}.10${formula("H", 2, "O")}, ${formula(
+            "NaOH"
+          )} pellet, concentrated ${formula("H", 2, "SO", 4)}`,
+          `concentrated ${formula("H", 2, "SO", 4)}, ${formula(
+            "FeSO",
+            4
+          )}.7${formula("H", 2, "O")}, ${formula("Mg", "Cl", 2)}`,
+        ],
         ans: "C",
       },
       {
         id: 59,
         question: `Why should sodium hydroxide pellets be stored in properly closed containers? A NaOH pellets`,
-        options: [  
+        options: [
           `readily absorbs water vapor from the air`,
           `is easily oxidized by atmospheric oxygen`,
           `turns golden yellow when exposed to light`,
-          `melts at a low temperature`
-      ],
+          `melts at a low temperature`,
+        ],
         ans: "A",
       },
       {
         id: 60,
         question: `The scattering of a beam of light in a gel is known as`,
-        options: [  
+        options: [
           `dialysis`,
           `brownian motion`,
           `tyndall effect`,
-          `fluorescence`
-      ],
+          `fluorescence`,
+        ],
         ans: "C",
       },
       {
         id: 61,
         question: `A mixture of two immiscible liquids can be separated by`,
-        options: [  
+        options: [
           `separating funnel`,
           `distillation`,
           `filtration`,
-          `chromatography`
-      ],
+          `chromatography`,
+        ],
         ans: "A",
       },
       {
         id: 62,
         question: `The method of sepatation employed in separating sodium chloride crystals from seawater is`,
-        options: [  
+        options: [
           `neutralization`,
           `evaporation`,
           `sedimentation`,
-          `condensation`
-      ],
+          `condensation`,
+        ],
         ans: "B",
       },
       {
         id: 63,
         question: `The factor considered in chromatography, a method of separation, is the difference in the rate of`,
-        options: [  
+        options: [
           `diffusion of the constituents of a mixture`,
           `migration of the constituents of a mixture`,
           `reaction of the constituents of a mixture`,
-          `sedimentation of the constituents of a mixture`
-      ],
+          `sedimentation of the constituents of a mixture`,
+        ],
         ans: "B",
       },
       {
         id: 64,
         question: `The salient difference between colloids and suspensions is the fact that while colloids`,
-        options: [  
+        options: [
           `do not scatter light, suspension do`,
           `can be separated by filtration, suspensions cannot be so separated`,
           `can be separated by a membrane, suspensions cannot`,
-          `do not settle on standing, suspensions do`
-      ],
+          `do not settle on standing, suspensions do`,
+        ],
         ans: "D",
       },
       {
         id: 65,
         question: `Ammonium chloride can be separated from an impure source by`,
-        options: [  
-          `distillation`,
-          `filtration`,
-          `decantation`,
-          `sublimation`
-      ],
+        options: [`distillation`, `filtration`, `decantation`, `sublimation`],
         ans: "D",
       },
       {
         id: 66,
         question: `What is the constituent that is common to both bronze and brass?`,
-        options: [  
-          `zinc`,
-          `copper`,
-          `aluminium`,
-          `lead`
-      ],
+        options: [`zinc`, `copper`, `aluminium`, `lead`],
         ans: "B",
       },
       {
         id: 68,
         question: `The nitrogen got from the liquefaction of air is denser than that got from nitrogen containing compounds due to the fact that the former contains`,
-        options: [  
-          `oxygen`,
-          `noble gases`,
-          `water vapor`,
-          `carbon(IV) oxide`
-      ],
+        options: [`oxygen`, `noble gases`, `water vapor`, `carbon(IV) oxide`],
         ans: "B",
       },
       {
         id: 69,
         question: `The collision of dust particles randomly in a beam of sunlight is termed`,
-        options: [  
+        options: [
           `diffusion`,
           `dialysis`,
           `tyndall effect`,
-          `brownian movement`
-      ],
+          `brownian movement`,
+        ],
         ans: "D",
       },
       {
         id: 70,
         question: `All the following factors affect the choice of methods for separation of mixtures except`,
-        options: [  
+        options: [
           `molar mass`,
           `solubility`,
           `particle size`,
-          `magnetic property`
-      ],
+          `magnetic property`,
+        ],
         ans: "A",
       },
       {
         id: 71,
         question: `Which will be the residue in the reaction represented by the equation below if the reaction mixture is filtered? <br />
-        ${formula("I","aq")} + ${formula("J", "aq")} -> ${formula("K","s")} + ${formula("M","aq")} + ${formula("N","aq")}`,
-        options: [  
-          `I`,
-          `J`,
-          `K`,
-          `M`
-      ],
+        ${formula("I", "aq")} + ${formula("J", "aq")} -> ${formula(
+          "K",
+          "s"
+        )} + ${formula("M", "aq")} + ${formula("N", "aq")}`,
+        options: [`I`, `J`, `K`, `M`],
         ans: "C",
       },
       {
         id: 72,
         question: `The separatory funnel technique is based on difference in`,
-        options: [  
+        options: [
           `bioling point`,
           `volatility`,
           `particle size`,
-          `miscibility`
-      ],
+          `miscibility`,
+        ],
         ans: "D",
       },
       {
         id: 73,
         question: `Which of the following mixtures can be separated by means of filtration?`,
-        options: [  
+        options: [
           `sodium chloride and potassium trioxonitrate(V)`,
           `sodium chloride and sand`,
           `sodium chloride and lead trioxonitrate(V)`,
-          `sodium chloride and sugar`
-      ],
+          `sodium chloride and sugar`,
+        ],
         ans: "B",
       },
       {
         id: 74,
         question: `Chlorophyll pigment can be shown to be a mixture of chemical compounds by`,
-        options: [  
+        options: [
           `crystallization`,
           `hydrolysis`,
           `sublimation`,
-          `chromatography`
-      ],
+          `chromatography`,
+        ],
         ans: "A",
       },
       {
         id: 75,
         question: `The separation of a band of ink into its various components is by`,
-        options: [  
+        options: [
           `fractional crystallization`,
           `fractional distillation`,
           `chromatography`,
-          `sublimation`
-      ],
+          `sublimation`,
+        ],
         ans: "C",
       },
       {
         id: 76,
         question: `One of the following is a mixture`,
-        options: [  
+        options: [
           `granulated sugar`,
           `sea-water`,
           `sodium chloride`,
-          `iron fillings`
-      ],
+          `iron fillings`,
+        ],
         ans: "B",
       },
       {
         id: 77,
         question: `In which of the following can fractional distillation be used as a means of sepatation?`,
-        options: [  
+        options: [
           `Nitrogen from liquid air`,
           `Sodium chloride from seawater`,
           `Iodine from a solution of iodine in carbon tetrachloride`,
-          `Sulfur from a solution of sulfur in carbon disulphide`
-      ],
+          `Sulfur from a solution of sulfur in carbon disulphide`,
+        ],
         ans: "A",
       },
       {
         id: 78,
         question: `The following mixtures are homogenous except`,
-        options: [  
-          `filtered seawater`,
-          `air`,
-          `flood water`,
-          `writing ink`
-      ],
+        options: [`filtered seawater`, `air`, `flood water`, `writing ink`],
         ans: "C",
       },
       {
         id: 79,
         question: `An emulsion paint is a colloid in which`,
-        options: [  
+        options: [
           `gas or liquid particle dispersed in a liquid`,
           `liquid particles dispersed in a liquid`,
           `solid particles dispersed in a liquid`,
-          `solid particles dispersed in a solid`
-      ],
+          `solid particles dispersed in a solid`,
+        ],
         ans: "B",
       },
       {
         id: 80,
         question: `When air is passed through alkaline solution of pyrogallol, lime water and then over fused calcium chloride, the gases left are:`,
-        options: [  
+        options: [
           `oxygen and nitrogen`,
           `the noble gases and water vapor`,
           `nitrogen and noble gases`,
-          `nitrogen, noble gases and carbon(IV) oxide`
-      ],
+          `nitrogen, noble gases and carbon(IV) oxide`,
+        ],
         ans: "C",
       },
       {
         id: 81,
         question: `Which of the following separation techniques is used to isolate high quality ethanol from palm wine?`,
-        options: [  
+        options: [
           `evaporation`,
           `simple distillation with a dehydrant`,
           `fractional distillation with a dehydrant`,
-          `fractional distillation without a dehydrant`
-      ],
+          `fractional distillation without a dehydrant`,
+        ],
         ans: "C",
       },
       {
         id: 82,
         question: `Mist consists of`,
-        options: [  
+        options: [
           `solid particles dispersed in liquid`,
           `liquid particles dispersed in liquid`,
           `gas or liquid particles dispersed in liquid`,
-          `liquid particles dispersed in gas`
-      ],
+          `liquid particles dispersed in gas`,
+        ],
         ans: "D", // CONFIRM ANSWER
       },
       {
         id: 83,
         question: `Petroleum is refined into useful products by`,
-        options: [  
+        options: [
           `catalytic reforming`,
           `column chromatography`,
           `fractional distillation`,
-          `thermal decomposition`
-      ],
+          `thermal decomposition`,
+        ],
         ans: "C",
       },
       {
         id: 84,
         question: `The physical property used in obtaining nitrogen and oxygen industrially from liquid air is the`,
-        options: [  
+        options: [
           `melting point`,
           `boiling point`,
           `diffusion`,
-          `retention factor`
-      ],
+          `retention factor`,
+        ],
         ans: "B",
       },
       {
         id: 85,
         question: `Soap lather is a colloidal system in which a`,
-        options: [  
+        options: [
           `gas is dispersed in a liquid`,
           `liquid is dispersed in another liquid`,
           `solid is dispersed in a liquid`,
-          `liquid is dispersed in a gas`
-      ],
+          `liquid is dispersed in a gas`,
+        ],
         ans: "A",
       },
       {
         id: 86,
         question: `A chemical reaction is involved in`,
-        options: [  
+        options: [
           `fractional distillation`,
           `precipitation`,
           `chromatography`,
-          `sublimation`
-      ],
+          `sublimation`,
+        ],
         ans: "B",
       },
       {
         id: 87,
         question: `The solute in a colloidal solution can`,
-        options: [  
+        options: [
           `sedimentate`,
           `scatter light rays`,
           `not scatter light rays`,
-          `not dialyze`
-      ],
+          `not dialyze`,
+        ],
         ans: "B",
       },
       {
         id: 88,
         question: `A sample of air that has been passed through caustic soda will`,
-        options: [  
+        options: [
           `be free of noble gas`,
           `not turn lim water milky`,
           `rekindle a glowing splint`,
-          `be moisture free`
-      ],
+          `be moisture free`,
+        ],
         ans: "B",
       },
       {
         id: 89,
-        question: `A mixture of ${formula("KCl","s")} and ${formula("CuCO",3,"s")} is best separated by`,
-        options: [  
+        question: `A mixture of ${formula("KCl", "s")} and ${formula(
+          "CuCO",
+          3,
+          "s"
+        )} is best separated by`,
+        options: [
           `dissolution followed by crystallization`,
           `dissolution followed by filtration`,
           `dissolution followed by sublimation`,
-          `dissolution follwed by evaporation`
-      ],
+          `dissolution follwed by evaporation`,
+        ],
         ans: "B",
       },
       {
         id: 90,
         question: `A separatory funnel can be used to separate a mixture of water and`,
-        options: [  
+        options: [
           `methanol`,
           `methylated spirit`,
           `methanoic acid`,
-          `petroleum spirit`
-      ],
+          `petroleum spirit`,
+        ],
         ans: "D",
       },
       {
@@ -7513,7 +7795,7 @@ let chemistryQuestions = [
           `filtration`,
         ],
         ans: "D",
-        remark: `The answer to this in my opinion is D because evaporation drives off water and sublimation removes ammonium chloride, which return us back to square 1, a mixture of sand and sugar again. But note that the question is particularly about the removal of ammonium chloride.`
+        remark: `The answer to this in my opinion is D because evaporation drives off water and sublimation removes ammonium chloride, which return us back to square 1, a mixture of sand and sugar again. But note that the question is particularly about the removal of ammonium chloride.`,
         // not yet solved
       },
       {
@@ -7989,7 +8271,7 @@ let chemistryQuestions = [
         ],
         ans: "C",
       },
-    ]
+    ],
   },
 
   {
@@ -7998,19 +8280,19 @@ let chemistryQuestions = [
       {
         id: 2,
         question: `Which of the following denotes an alpha particle`,
-        options: [  
-          `${isotope(1,0,"n")}`,
-          `${isotope(4,2,"He")}`,
-          `${isotope(0,-1,"B")}`,
-          `${isotope(9,4,"Be")}`,
-          `${isotope(1,1,"H")}`,
+        options: [
+          `${isotope(1, 0, "n")}`,
+          `${isotope(4, 2, "He")}`,
+          `${isotope(0, -1, "B")}`,
+          `${isotope(9, 4, "Be")}`,
+          `${isotope(1, 1, "H")}`,
         ],
         ans: "B",
       },
       {
         id: 3,
         question: `In which of the following are radioactive isotopes used?`,
-        options: [  
+        options: [
           `Scientific research`,
           `Sterilisation of equipment`,
           `Dating techniques`,
@@ -8022,7 +8304,7 @@ let chemistryQuestions = [
       {
         id: 4,
         question: `Two radioactive elements Q and S have half-life periods of 10hrs and 20hrs respectively. Therefore`,
-        options: [  
+        options: [
           `S decays faster than Q`,
           `Q is twice as stable as S`,
           `Q emits fewer particles than S`,
@@ -8034,7 +8316,7 @@ let chemistryQuestions = [
       {
         id: 5,
         question: `A radioactive solid is best stored`,
-        options: [  
+        options: [
           `Under paraffin oil`,
           `Under uv light`,
           `In a cool, dark cupboard`,
@@ -8045,8 +8327,12 @@ let chemistryQuestions = [
       {
         id: 6,
         question: `What are the value of X and Y in the following equation: <br />
-        ${isotope(234,90,"Th")} -> ${isotope("Y","X","Pa")} + ${isotope(0,-1,"B")}`,
-        options: [  
+        ${isotope(234, 90, "Th")} -> ${isotope("Y", "X", "Pa")} + ${isotope(
+          0,
+          -1,
+          "B"
+        )}`,
+        options: [
           `X: 91, Y: 234`,
           `X: 92, Y: 235`,
           `X: 89, Y: 236`,
@@ -8058,8 +8344,8 @@ let chemistryQuestions = [
       {
         id: 7,
         question: `What is emitted during the disintegration of Ba nucleus as shown by the equation below?<br />
-        ${isotope(138,56,"Ba")} -> ${isotope(134, 54, "X")}`,
-        options: [  
+        ${isotope(138, 56, "Ba")} -> ${isotope(134, 54, "X")}`,
+        options: [
           `Alpha particles`,
           `Beta particles`,
           `Gamma rays`,
@@ -8071,7 +8357,7 @@ let chemistryQuestions = [
       {
         id: 8,
         question: `Nuclear reactions can be used in the following except`,
-        options: [  
+        options: [
           `Gauging the thickness of objects`,
           `Making atomic bombs`,
           `Curing cancer`,
@@ -8083,20 +8369,24 @@ let chemistryQuestions = [
       {
         id: 9,
         question: `A positron is represented as:`,
-        options: [  
-          `${isotope(1,0,"n")}`,
-          `${isotope(0,-1,"B")}`,
-          `${isotope(0,1,"B")}`,
-          `${isotope(1,1,"H")}`,
-          `${isotope(4,2,"He")}`,
+        options: [
+          `${isotope(1, 0, "n")}`,
+          `${isotope(0, -1, "B")}`,
+          `${isotope(0, 1, "B")}`,
+          `${isotope(1, 1, "H")}`,
+          `${isotope(4, 2, "He")}`,
         ],
         ans: "C",
       },
       {
         id: 10,
         question: `What does the following equation illustrate? <br />
-        ${isotope(238,92,"U")} -> ${isotope(234,90,"Tl")} + ${isotope(4,2,"He")}`,
-        options: [  
+        ${isotope(238, 92, "U")} -> ${isotope(234, 90, "Tl")} + ${isotope(
+          4,
+          2,
+          "He"
+        )}`,
+        options: [
           `Nuclear fission`,
           `Nuclear fusion`,
           `Artificial radioactivity`,
@@ -8108,20 +8398,18 @@ let chemistryQuestions = [
       {
         id: 11,
         question: `What is the element Y in the following equation? <br />
-        ${isotope(14,7,"N")} + ${isotope(4,2,"He")} -> ${isotope(1,1,"H")} + Y`,
-        options: [  
-          `Fluorine`,
-          `Sodium`,
-          `Chlorine`,
-          `Oxygen`,
-          `Carbon`,
-        ],
+        ${isotope(14, 7, "N")} + ${isotope(4, 2, "He")} -> ${isotope(
+          1,
+          1,
+          "H"
+        )} + Y`,
+        options: [`Fluorine`, `Sodium`, `Chlorine`, `Oxygen`, `Carbon`],
         ans: "D",
       },
       {
         id: 12,
         question: `Which of the following has neither mass nor charge`,
-        options: [  
+        options: [
           `Alpha particle`,
           `Deuterium`,
           `Gamma ray`,
@@ -8132,82 +8420,88 @@ let chemistryQuestions = [
       },
       {
         id: 13,
-        question: `${isotope(14,7,"N")} + X -> ${isotope(17,8,"O")} + ${isotope(1,1,"H")}<br /> In the above reaction, X is?`,
-        options: [  
-          `neutron`,
-          `helium atom`,
-          `lithium atom`,
-          `deuterium atom`,
-        ],
+        question: `${isotope(14, 7, "N")} + X -> ${isotope(
+          17,
+          8,
+          "O"
+        )} + ${isotope(1, 1, "H")}<br /> In the above reaction, X is?`,
+        options: [`neutron`, `helium atom`, `lithium atom`, `deuterium atom`],
         ans: "B",
       },
       {
         id: 14,
         question: `A particle that contains 8 protons, 9 neutrons and 7 electrons could be written as:`,
-        options: [  
-          `${isotope(16,8,"O")}`,
-          `${ion(isotope(17,8,"O"),"-")}`,
-          `${ion(isotope(17,9,"O"),"-")}`,
-          `${ion(isotope(17,7,"O"),"-")}`,
+        options: [
+          `${isotope(16, 8, "O")}`,
+          `${ion(isotope(17, 8, "O"), "-")}`,
+          `${ion(isotope(17, 9, "O"), "-")}`,
+          `${ion(isotope(17, 7, "O"), "-")}`,
         ],
         ans: "B",
       },
       {
         id: 15,
-        question: `Oxygen is a mixture of 2 isotopes. ${isotope(6,"","O")} and ${isotope(18,"","O")} with relative abundances of 90% and 10% respectively. The relative atomic mass of oxygen is:`,
-        options: [  
-          `16.0`,
-          `16.2`,
-          `17.0`,
-          `18.0`
-        ],
+        question: `Oxygen is a mixture of 2 isotopes. ${isotope(
+          6,
+          "",
+          "O"
+        )} and ${isotope(
+          18,
+          "",
+          "O"
+        )} with relative abundances of 90% and 10% respectively. The relative atomic mass of oxygen is:`,
+        options: [`16.0`, `16.2`, `17.0`, `18.0`],
         ans: "B",
       },
       {
         id: 16,
         question: `Which of the following would you expect to decay by Beta emission?`,
-        options: [  
-          `${isotope(31,15,"P")}`,
-          `${isotope(39,19,"K")}`,
-          `${isotope(72,30,"Zn")}`,
-          `${isotope(24,11,"Na")}`
+        options: [
+          `${isotope(31, 15, "P")}`,
+          `${isotope(39, 19, "K")}`,
+          `${isotope(72, 30, "Zn")}`,
+          `${isotope(24, 11, "Na")}`,
         ],
         ans: "D",
       },
       {
         id: 18,
         question: `The radioactive isotope used in dating archaeological specimens is:`,
-        options: [  
-          `${isotope(17,8,"O")}`,
-          `${isotope(45,19,"K")}`,
-          `${isotope(14,6,"C")}`,
-          `${isotope(4,2,"He")}`
+        options: [
+          `${isotope(17, 8, "O")}`,
+          `${isotope(45, 19, "K")}`,
+          `${isotope(14, 6, "C")}`,
+          `${isotope(4, 2, "He")}`,
         ],
         ans: "C",
       },
       {
         id: 19,
         question: `The symbol for an alpha particle is:`,
-        options: [  
-          `${isotope(1,0,"n")}`,
-          `${isotope(2,1,"H")}`,
-          `${isotope(3,2,"H")}`,
-          `${isotope(4,2,"He")}`
+        options: [
+          `${isotope(1, 0, "n")}`,
+          `${isotope(2, 1, "H")}`,
+          `${isotope(3, 2, "H")}`,
+          `${isotope(4, 2, "He")}`,
         ],
         ans: "D",
       },
       {
         id: 20,
-        question: `In the decay of ${isotope(234,"","X")} by alpha emission, the reaction product is:`,
-        options: [  
-          `${isotope(230,92,"Y")}`,
-          `${isotope(234,92,"Y")}`,
-          `${isotope(232,90,"Y")}`,
-          `${isotope(234,90,"Y")}`
+        question: `In the decay of ${isotope(
+          234,
+          "",
+          "X"
+        )} by alpha emission, the reaction product is:`,
+        options: [
+          `${isotope(230, 92, "Y")}`,
+          `${isotope(234, 92, "Y")}`,
+          `${isotope(232, 90, "Y")}`,
+          `${isotope(234, 90, "Y")}`,
         ],
         ans: "A",
       },
-    ]
+    ],
   },
 
   {
@@ -8216,18 +8510,13 @@ let chemistryQuestions = [
       {
         id: 2,
         question: `The current carriers that are responsible for the conductance of aqeous copper(II) tetraoxosulfate(VI) solution are`,
-        options: [  
-          `hydrated electrons`,
-          `hydrated ions`,
-          `ions`,
-          `electrons`,
-        ],
+        options: [`hydrated electrons`, `hydrated ions`, `ions`, `electrons`],
         ans: "C",
       },
       {
         id: 5,
         question: `Potassium chloride cannot conduct an electric current in the solid state because it`,
-        options: [  
+        options: [
           `does not contain mobile ions`,
           `is very soluble in water`,
           `is an electrovalent compound`,
@@ -8238,7 +8527,7 @@ let chemistryQuestions = [
       {
         id: 6,
         question: `An electrolyte is`,
-        options: [  
+        options: [
           `aqueous solution of glucose`,
           `hydrogen chloride in methyl benzene`,
           `molten sodium chloride`,
@@ -8249,7 +8538,7 @@ let chemistryQuestions = [
       {
         id: 7,
         question: `Which of the following is a good conductor of electricity?`,
-        options: [  
+        options: [
           `Methylbenzene`,
           `Deionized water`,
           `Mercury`,
@@ -8260,19 +8549,21 @@ let chemistryQuestions = [
       {
         id: 8,
         question: `What happens to the conductivity of an electrolyte as its concentration reduces? It`,
-        options: [  
-          `increases`,
-          `decreases`,
-          `is unaffected`,
-          `reduces to zero`,
-        ],
+        options: [`increases`, `decreases`, `is unaffected`, `reduces to zero`],
         ans: "A",
-        remark: "In general, the conductivity of an electrolyte(strong or weak) increases with increasing dilution or decreasing concentration"
+        remark:
+          "In general, the conductivity of an electrolyte(strong or weak) increases with increasing dilution or decreasing concentration",
       },
       {
         id: 9,
-        question: `0.05${units("moldm",-3)} of KCl conducts electricity better than 0.05${units("moldm",-3)} ${formula("NH",3)} because the solution of KCl`,
-        options: [  
+        question: `0.05${units(
+          "moldm",
+          -3
+        )} of KCl conducts electricity better than 0.05${units(
+          "moldm",
+          -3
+        )} ${formula("NH", 3)} because the solution of KCl`,
+        options: [
           `is neutral`,
           `has a lower pH`,
           `is denser`,
@@ -8283,7 +8574,7 @@ let chemistryQuestions = [
       {
         id: 10,
         question: `Which of the following liquids is a good conductor of an electric current?`,
-        options: [  
+        options: [
           `Aqueous solution of glucose`,
           `Aqueous solution of potassium chloride`,
           `Mixture of water and ethanol`,
@@ -8293,35 +8584,33 @@ let chemistryQuestions = [
       },
       {
         id: 11,
-        question: `Consider the 0.05${units("moldm",-3)} solutions of the substances<br />
+        question: `Consider the 0.05${units(
+          "moldm",
+          -3
+        )} solutions of the substances<br />
         I. ethanoic acid <br />
         II. potassium ethanoate <br />
         III. ammonia <br />
         IV. ammonium chloride <br />
         Which pair of substances would show the least conductance`,
-        options: [  
-          `I and II`,
-          `I and III`,
-          `I and IV`,
-          `II and IV`,
-        ],
+        options: [`I and II`, `I and III`, `I and IV`, `II and IV`],
         ans: "B",
       },
       {
         id: 13,
         question: `Which of the following aqeous solutions will conduct the least amount of electricity?`,
-        options: [  
-          `1.00${units("moldm",-3)} aqueous solution of KCl`,
-          `0.01${units("moldm",-3)} aqueous solution of KCl`,
-          `0.01${units("moldm",-3)} aqueous solution of ethanoic acid`,
-          `0.01${units("moldm",-3)} aqueous solution of glucose`,
+        options: [
+          `1.00${units("moldm", -3)} aqueous solution of KCl`,
+          `0.01${units("moldm", -3)} aqueous solution of KCl`,
+          `0.01${units("moldm", -3)} aqueous solution of ethanoic acid`,
+          `0.01${units("moldm", -3)} aqueous solution of glucose`,
         ],
         ans: "D",
       },
       {
         id: 14,
         question: `During electrolysis,`,
-        options: [  
+        options: [
           `negative ions are discharged at the anode by gaining sufficient electrons to become neutral`,
           `positive ions are discharged at the anode by gaining sufficient electrons to become neutral`,
           `negative ions are discharged at the anode by losing sufficient electrons to become neutral`,
@@ -8332,7 +8621,7 @@ let chemistryQuestions = [
       {
         id: 15,
         question: `During the electrolysis of a caustic potash solution using platinum electrodes,`,
-        options: [  
+        options: [
           `alkalinity at the cathode increases`,
           `potassium metal is deposited at the anode`,
           `potassium metal is deposited at the cathode`,
@@ -8342,177 +8631,232 @@ let chemistryQuestions = [
       },
       {
         id: 16,
-        question: `In the electrolysis of aqueous solution of ${formula("Na",2,"sO",4)}, which species migrate to the anode`,
-        options: [  
-          `${ion("Na","+")} and ${ion(formula("SO",4),
-          "2-")}`,
-          `${ion("Na","+")} and ${ion(formula("H"),
-          "+")}`,
-          `${ion(formula("H",3,"O"), "+")} and ${ion(formula("OH"), "-")}`,
-          `${ion(formula("SO",4),"2-")} amd ${ion("OH","-")}`
+        question: `In the electrolysis of aqueous solution of ${formula(
+          "Na",
+          2,
+          "sO",
+          4
+        )}, which species migrate to the anode`,
+        options: [
+          `${ion("Na", "+")} and ${ion(formula("SO", 4), "2-")}`,
+          `${ion("Na", "+")} and ${ion(formula("H"), "+")}`,
+          `${ion(formula("H", 3, "O"), "+")} and ${ion(formula("OH"), "-")}`,
+          `${ion(formula("SO", 4), "2-")} amd ${ion("OH", "-")}`,
         ],
         ans: "D",
       },
       {
         id: 17,
-        question: `The reaction that takes place in the cathode compartment during the electrolysis of ${formula("CuSO",4)} solution is`,
-        options: [  
-          `${formula(ion("Cu","2+"),"aq")} + 2${ion("e","-")} -> ${formula("Cu","s")}`,
-          `2${formula(ion("H","+"),
-          "aq")} + 2${ion("e","-")} -> ${formula("H",2,"g")}`,
-          `${formula("Cu","s")} -> ${formula(ion("Cu","2+"),"aq")} + 2${ion("e","-")}`,
-          `${formula(ion("OH","-"),"aq")} + ${formula(ion("Cl","-"),"aq")} -> ${formula("HCl","aq")} + ${formula(ion("O","2-"),"aq")}`
+        question: `The reaction that takes place in the cathode compartment during the electrolysis of ${formula(
+          "CuSO",
+          4
+        )} solution is`,
+        options: [
+          `${formula(ion("Cu", "2+"), "aq")} + 2${ion("e", "-")} -> ${formula(
+            "Cu",
+            "s"
+          )}`,
+          `2${formula(ion("H", "+"), "aq")} + 2${ion("e", "-")} -> ${formula(
+            "H",
+            2,
+            "g"
+          )}`,
+          `${formula("Cu", "s")} -> ${formula(ion("Cu", "2+"), "aq")} + 2${ion(
+            "e",
+            "-"
+          )}`,
+          `${formula(ion("OH", "-"), "aq")} + ${formula(
+            ion("Cl", "-"),
+            "aq"
+          )} -> ${formula("HCl", "aq")} + ${formula(ion("O", "2-"), "aq")}`,
         ],
         ans: "A",
       },
       {
         id: 18,
-        question: `In the electrolysis of ${formula("CuSO",4)} solution using carbon electrodes, the products at the anode and cathode respectively are`,
-        options: [  
+        question: `In the electrolysis of ${formula(
+          "CuSO",
+          4
+        )} solution using carbon electrodes, the products at the anode and cathode respectively are`,
+        options: [
           `hydrogen and copper`,
           `copper and hydrogen`,
           `oxygen and copper`,
-          `copper and oxygen`
+          `copper and oxygen`,
         ],
         ans: "C",
       },
       {
         id: 19,
         question: `The reaction that takes place at the anode during the electrolysis of a very dilute aqueous solution of sodium chloride is`,
-        options: [  
-          `${formula(ion("Na","+"),"aq")} + ${ion("e","-")} -> Na/Hg amalgam`,
-          `4${formula(ion("OH","-"),"aq")} -> 2${formula("H",2,"O","l")} + ${formula("O",2,"g")} + 4${ion("e","-")}`,
-          `2${formula(ion("Cl","-"),"aq")} -> ${formula("Cl",2,"g")} + 2${ion("e","-")}`,
-          `${formula(ion("OH","-"),"aq")} + ${formula(ion("Cl","-"),"aq")} -> ${formula("HCl","aq")} + ${formula(ion("O","2-"),"aq")}`
+        options: [
+          `${formula(ion("Na", "+"), "aq")} + ${ion(
+            "e",
+            "-"
+          )} -> Na/Hg amalgam`,
+          `4${formula(ion("OH", "-"), "aq")} -> 2${formula(
+            "H",
+            2,
+            "O",
+            "l"
+          )} + ${formula("O", 2, "g")} + 4${ion("e", "-")}`,
+          `2${formula(ion("Cl", "-"), "aq")} -> ${formula(
+            "Cl",
+            2,
+            "g"
+          )} + 2${ion("e", "-")}`,
+          `${formula(ion("OH", "-"), "aq")} + ${formula(
+            ion("Cl", "-"),
+            "aq"
+          )} -> ${formula("HCl", "aq")} + ${formula(ion("O", "2-"), "aq")}`,
         ],
         ans: "B",
       },
       {
         id: 20,
-        question: `The electrolysis of ${formula("CuSO",4)} solution can be used to purify crude copper if the crude copper is`,
-        options: [  
+        question: `The electrolysis of ${formula(
+          "CuSO",
+          4
+        )} solution can be used to purify crude copper if the crude copper is`,
+        options: [
           `dissolved in the solution`,
           `made both the anode and the cathode`,
           `made the anode`,
-          `made the cathode`
+          `made the cathode`,
         ],
         ans: "C",
       },
       {
         id: 21,
         question: `In the process of tin-plating a metal X, the metal X, is made the`,
-        options: [  
+        options: [
           `anode and an alternating current is used`,
           `anode and a direct current is used`,
           `cathode and an alternating current is used`,
-          `cathode and a direct current is used`
+          `cathode and a direct current is used`,
         ],
         ans: "D",
       },
       {
         id: 22,
-        question: `2${formula(ion("Cl","-"),"aq")} -> ${formula("Cl",2,"g")} + 2${formula(ion("e","-"),"aq")} <br />
-        The above half-cell reaction occurs at the anode during the electrolysis of conc. ${formula("CuCl",2)} using carbon electrodes. This reaction is`,
-        options: [  
+        question: `2${formula(ion("Cl", "-"), "aq")} -> ${formula(
+          "Cl",
+          2,
+          "g"
+        )} + 2${formula(ion("e", "-"), "aq")} <br />
+        The above half-cell reaction occurs at the anode during the electrolysis of conc. ${formula(
+          "CuCl",
+          2
+        )} using carbon electrodes. This reaction is`,
+        options: [
           `deionization`,
           `disproportionation`,
           `oxidation`,
-          `reduction`
+          `reduction`,
         ],
         ans: "C",
       },
       {
         id: 23,
-        question: `In the electrolysis of ${formula("CuSO",4)} solution using platinum electrodes, the solution gets progressively`,
-        options: [  
-          `amphoteric`,
-          `acidic`,
-          `basic`,
-          `neutral`
-        ],
+        question: `In the electrolysis of ${formula(
+          "CuSO",
+          4
+        )} solution using platinum electrodes, the solution gets progressively`,
+        options: [`amphoteric`, `acidic`, `basic`, `neutral`],
         ans: "B",
       },
       {
         id: 24,
         question: `A substance that decomposes when an electric current is passed through it is`,
-        options: [  
+        options: [
           `sucrose solution`,
           `copper rod`,
           `tetraoxosulfate(VI) acid solution`,
-          `methylated spirit`
+          `methylated spirit`,
         ],
         ans: "C",
       },
       {
         id: 25,
-        question: `Which of the following reactions takes place at the anode during the electrolysis of ${formula("CuSO",4,"aq")} using copper electrodes`,
-        options: [  
-          `Discharge of ${ion("Cu","2+")}`,
+        question: `Which of the following reactions takes place at the anode during the electrolysis of ${formula(
+          "CuSO",
+          4,
+          "aq"
+        )} using copper electrodes`,
+        options: [
+          `Discharge of ${ion("Cu", "2+")}`,
           `Dissolution of copper electrode`,
-          `Discharge of ${ion("OH","-")}`,
-          `Discharge of ${ion(formula("SO",4),"2-")}`
+          `Discharge of ${ion("OH", "-")}`,
+          `Discharge of ${ion(formula("SO", 4), "2-")}`,
         ],
         ans: "B",
       },
       {
         id: 26,
-        question: `Which of the following ions is discharged at the anode during the electrolysis of a concentrated solution containing ${ion("H","+")}, ${ion("Cu","2+")}, ${ion("OH","-")}, and ${ion("Cl","-")} using carbon electrodes?`,
-        options: [  
-          `${ion("Cl","-")}`,
-          `${ion("OH","-")}`,
-          `${ion("Cu","2+")}`,
-          `${ion("H","+")}`
+        question: `Which of the following ions is discharged at the anode during the electrolysis of a concentrated solution containing ${ion(
+          "H",
+          "+"
+        )}, ${ion("Cu", "2+")}, ${ion("OH", "-")}, and ${ion(
+          "Cl",
+          "-"
+        )} using carbon electrodes?`,
+        options: [
+          `${ion("Cl", "-")}`,
+          `${ion("OH", "-")}`,
+          `${ion("Cu", "2+")}`,
+          `${ion("H", "+")}`,
         ],
         ans: "A",
       },
       {
         id: 27,
         question: `Which of the following ions would migrate to the cathode during electrolysis?`,
-        options: [  
+        options: [
           `sodium ions`,
           `hydroxide ions`,
           `sulphide ions`,
-          `chloride ions`
+          `chloride ions`,
         ],
         ans: "A",
       },
       {
         id: 28,
         question: `The common feature of reaction at the cathode is that`,
-        options: [  
+        options: [
           `electrons are produced`,
           `ions are oxidized`,
           `reduction is involved`,
-          `the electrolyte is diluted`
+          `the electrolyte is diluted`,
         ],
         ans: "C",
       },
       {
         id: 29,
         question: `Hydrogen and oxygen will be produced during the electrolysis (using platinum electrodes) of`,
-        options: [  
+        options: [
           `dilute copper(II) chloride solution`,
           `dilute sodium chloride solution`,
           `concentrated hydrochloric acid`,
-          `glucose solution`
+          `glucose solution`,
         ],
         ans: "B",
       },
       {
         id: 30,
-        question: `What current in amperes will deposit 5.4g of aluminum in 2 hours?<br /> [Al = 27, F= 96500${units("Cmol",-1)}]`,
-        options: [  
-          `2.0`,
-          `4.0`,
-          `6.0`,
-          `8.0`
-        ],
+        question: `What current in amperes will deposit 5.4g of aluminum in 2 hours?<br /> [Al = 27, F= 96500${units(
+          "Cmol",
+          -1
+        )}]`,
+        options: [`2.0`, `4.0`, `6.0`, `8.0`],
         ans: "D",
       },
       {
         id: 31,
-        question: `What is the quantity of electricity required to deposit 128g of copper from molten copper(II) chloride?<br /> [Cu = 64; F= 96500${units("Cmol",-1)}]`,
-        options: [  
+        question: `What is the quantity of electricity required to deposit 128g of copper from molten copper(II) chloride?<br /> [Cu = 64; F= 96500${units(
+          "Cmol",
+          -1
+        )}]`,
+        options: [
           `1.93 X ${exp(5)}C`,
           `3.86 X ${exp(5)}C`,
           `1.93 X ${exp(6)}C`,
@@ -8522,97 +8866,77 @@ let chemistryQuestions = [
       },
       {
         id: 32,
-        question: `Calculate the maximum weight of copper deposited on the cathose if 0.2F of electricity was passed through a solution of ${formula("CuSO",4)}. [Cu = 64]`,
-        options: [  
-          `32.0g`,
-          `16.0g`,
-          `6.4g`,
-          `3.2g`,
-        ],
+        question: `Calculate the maximum weight of copper deposited on the cathose if 0.2F of electricity was passed through a solution of ${formula(
+          "CuSO",
+          4
+        )}. [Cu = 64]`,
+        options: [`32.0g`, `16.0g`, `6.4g`, `3.2g`],
         ans: "C",
       },
       {
         id: 33,
         question: `If 24,000 coulombs of electricity are required to discharge 0.25 mole of potassium from a molten potassium chloride mass, then the number of coulombs required to discharge 3 moles of lead from molten lead(II) bromide is`,
-        options: [  
-          `384 000`,
-          `576 000`,
-          `192 000`,
-          `288 000`,
-        ],
+        options: [`384 000`, `576 000`, `192 000`, `288 000`],
         ans: "B",
       },
       {
         id: 34,
         question: `A current of 15.0A was passed for 30 minutes through a solution of silver trioxonitrate(V) between silver electrodes. Which of the following observations would be correct? (1F = 96500 coulombs) <br />
-        I. The original ${ion("Ag","+")} ion concentration of the solution remains unchanged. <br />
-        II. The original ${ion("Ag","+")} ion concentration of the solution decreases <br />
-        III. The original ${ion("Ag","+")} ion concentration of the solution increases <br />
+        I. The original ${ion(
+          "Ag",
+          "+"
+        )} ion concentration of the solution remains unchanged. <br />
+        II. The original ${ion(
+          "Ag",
+          "+"
+        )} ion concentration of the solution decreases <br />
+        III. The original ${ion(
+          "Ag",
+          "+"
+        )} ion concentration of the solution increases <br />
         IV. 0.280 mole of silver is dissolved from the anode <br />
         IV. 0.280 mole of silver is dissolved from the cathode`,
-        options: [  
-          `I only`,
-          `I and IV only`,
-          `I, IV, and V`,
-          `II, IV, and V`,
-        ],
+        options: [`I only`, `I and IV only`, `I, IV, and V`, `II, IV, and V`],
         ans: "C",
       },
       {
         id: 36,
         question: `If the cost of electricity required to deposit 1g of aluminium is #4.00, how much would it cost to deposit 24g of copper? [Al = 27, Cu = 64]`,
-        options: [  
-          `#27.02`,
-          `#37.02`,
-          `#47.02`,
-          `#57.02`,
-        ],
+        options: [`#27.02`, `#37.02`, `#47.02`, `#57.02`],
         ans: "A",
       },
       {
         id: 37,
-        question: `What is the mass of copper deposited at the cathode by the passage of 32000 coulombs of electricity through ${formula("CuSO",4)} solution using copper electrodes? [Cu = 64]`,
-        options: [  
-          `21.12g`,
-          `10.56g`,
-          `5.28g`,
-          `2.64g`,
-        ],
+        question: `What is the mass of copper deposited at the cathode by the passage of 32000 coulombs of electricity through ${formula(
+          "CuSO",
+          4
+        )} solution using copper electrodes? [Cu = 64]`,
+        options: [`21.12g`, `10.56g`, `5.28g`, `2.64g`],
         ans: "B",
       },
       {
         id: 38,
         question: `Copper(II) tetraoxosulphate(VI) is electrolysed using platinum electrodes. How many grams of copper are deposited when a current of 0.386A is passed for 50 minutes? <br />
         [Cu = 64, F= 96500C]`,
-        options: [  
-          `0.924g`,
-          `0.880g`,
-          `0.768g`,
-          `0.384g`,
-        ],
+        options: [`0.924g`, `0.880g`, `0.768g`, `0.384g`],
         ans: "D",
       },
       {
         id: 39,
         question: `A quantity of electricity liberates 1.50g of aluminium from its ions. The mass of silver that will be liberated from its ions by the same quantity of electricity is <br />
         [Al = 27; Ag = 108]`,
-        options: [  
-          `10.80g`,
-          `5.40g`,
-          `6.05g`,
-          `3.03g`,
-        ],
+        options: [`10.80g`, `5.40g`, `6.05g`, `3.03g`],
         ans: "C",
       },
       {
         id: 41,
         question: `If 6.4g of copper is deposited in a copper coulometer connected in series with a Hofman voltameter, the volume of oxygen liberated at stp is <br />
-        [Cu = 64; O = 16; GMV at stp = 22.4${units("dm",-3)}]`,
-        options: [  
-          `0.112${units("dm",-3)}`,
-          `11.2${units("dm",-3)}`,
-          `1..12${units("dm",-3)}`,
-          `22.4${units("dm",-3)}`,
+        [Cu = 64; O = 16; GMV at stp = 22.4${units("dm", -3)}]`,
+        options: [
+          `0.112${units("dm", -3)}`,
+          `11.2${units("dm", -3)}`,
+          `1..12${units("dm", -3)}`,
+          `22.4${units("dm", -3)}`,
         ],
         ans: "C",
       },
@@ -8620,64 +8944,50 @@ let chemistryQuestions = [
         id: 42,
         question: `If 0.1 Faraday of electricity deposited 3.2g of copper during the electrolysis of an aqueous solution, then, the number of moles of copper that will be deposited by 0.6F is <br />
         [Cu = 64]`,
-        options: [  
-          `0.10`,
-          `0.15`,
-          `0.20`,
-          `0.30`
-        ],
+        options: [`0.10`, `0.15`, `0.20`, `0.30`],
         ans: "D",
       },
       {
         id: 43,
         question: `How many kilograms of aluminium will be produced by the electrolysis of aluminium trioxonitrate(V) in a cell operating for 24 hours at 400 amperes? [Al = 27,  IF = 96500C]`,
-        options: [  
-          `3.2`,
-          `6.4`,
-          `9.6`,
-          `12.8`
-        ],
+        options: [`3.2`, `6.4`, `9.6`, `12.8`],
         ans: "A",
       },
       {
         id: 44,
         question: `A current of 0.25A flows for 16 minutes 5 seconds and deposits 0.163g of a metal X during the electrolysis of an aqueous solution of a salt of the metal. What is the charge on the metal ion? <br />
         [X = 65; IF = 96500C per mole of electrons]`,
-        options: [  
-          `4`,
-          `3`,
-          `2`,
-          `1`
-        ],
+        options: [`4`, `3`, `2`, `1`],
         ans: "C",
       },
       {
         id: 45,
         question: `What volume of oxygen measured at stp would be liberated by passing a current of 10A through acidified water for 965 seconds?<br />
-        [Molar volume of a gas = 22.4${units("dm",-3)} at stp; F = 96500C]`,
-        options: [  
-          `5.60 ${units("dm",-3)}`,
-          `0.560 ${units("dm",-3)}`,
-          `11.2 ${units("dm",-3)}`,
-          `1.12 ${units("dm",-3)}`,
+        [Molar volume of a gas = 22.4${units("dm", -3)} at stp; F = 96500C]`,
+        options: [
+          `5.60 ${units("dm", -3)}`,
+          `0.560 ${units("dm", -3)}`,
+          `11.2 ${units("dm", -3)}`,
+          `1.12 ${units("dm", -3)}`,
         ],
         ans: "B",
       },
       {
         id: 46,
         question: `How many moles of zinc would be deposited by passing 5F of electricity through a solution of zinc tetraoxosulfate(VI)? [1F = 96500C]`,
-        options: [  
-          `1.0`,
-          `1.5`,
-          `2.0`,
-          `2.5`
-        ],
+        options: [`1.0`, `1.5`, `2.0`, `2.5`],
         ans: "D",
       },
       {
         id: 47,
-        question: `1.5F of electricity are passed through electrolytic cells containing ${ion("K","+")}, ${ion("Zn","2+")} and ${ion("Au","3+")} connected in series. How many moles of each metal would be formed at the cathode of each cell?`,
-        options: [  
+        question: `1.5F of electricity are passed through electrolytic cells containing ${ion(
+          "K",
+          "+"
+        )}, ${ion("Zn", "2+")} and ${ion(
+          "Au",
+          "3+"
+        )} connected in series. How many moles of each metal would be formed at the cathode of each cell?`,
+        options: [
           `1.5 moles of K, 3.0 moles of Zn and 4.5 moles of Au`,
           `1.5 moles of K, 1.5 moles of Zn and 1.5 moles of Au`,
           `1.5 moles of K, 0.75 moles of Zn and 0.5 moles of Au`,
@@ -8689,18 +8999,13 @@ let chemistryQuestions = [
         id: 48,
         question: `A current of 20A is passed for 30 minutes during the electrolysis of gold(III) tetraoxosulfate(VI). The mass of gold deposited at the cathode is?<br />
         [Au = 197; F = 96500C]`,
-        options: [  
-          `24.4g`,
-          `26.5g`,
-          `28.9g`,
-          `32.6g`
-        ],
+        options: [`24.4g`, `26.5g`, `28.9g`, `32.6g`],
         ans: "A",
       },
       {
         id: 49,
         question: `What quantity of electricity will liberate 0.200 mole of oxygen molecules during the electrolysis of water? [1F = 96500C]`,
-        options: [  
+        options: [
           `96500 coulombs`,
           `77200 coulombs`,
           `51467 coulombs`,
@@ -8711,7 +9016,7 @@ let chemistryQuestions = [
       {
         id: 50,
         question: `What is the quantity of chlorine in moles liberated when a current of 15A is passed through molten potassium chloride in 1930 seconds? [1F = 96500C]`,
-        options: [  
+        options: [
           `96500 coulombs`,
           `77200 coulombs`,
           `51467 coulombs`,
@@ -8723,18 +9028,13 @@ let chemistryQuestions = [
         id: 51,
         question: `What mass of bromine would be produced during the electrolysis of molten lead(II) bromide in which 10.35g of lead was deposited?<br />
         [Pb = 207; Br = 80]`,
-        options: [  
-          `4.00g`,
-          `7.00g`,
-          `4.50g`,
-          `8.00g`,
-        ],
+        options: [`4.00g`, `7.00g`, `4.50g`, `8.00g`],
         ans: "D",
       },
       {
         id: 52,
         question: `One Faraday of electricity will produce one mole of`,
-        options: [  
+        options: [
           `chlorine molecules`,
           `oxygen molecules`,
           `hydrogen atoms`,
@@ -8745,7 +9045,7 @@ let chemistryQuestions = [
       {
         id: 53,
         question: `The first Faraday's law of electrolysis is expressed mathematically as`,
-        options: [  
+        options: [
           `m &Proportional; 1/Q`,
           `m &Proportional; Q`,
           `m &Proportional; Q<sup>2</sup>`,
@@ -8755,129 +9055,129 @@ let chemistryQuestions = [
       },
       {
         id: 54,
-        question: `How many electrons (in mole) will discharge 2.0g of copper(II) ions, ${ion("Cu","2+")}? [Cu = 64]`,
-        options: [  
-          `0.03125 mole`,
-          `0.0625 mole`,
-          `0.0938 mole`,
-          `32.00 mole`,
-        ],
+        question: `How many electrons (in mole) will discharge 2.0g of copper(II) ions, ${ion(
+          "Cu",
+          "2+"
+        )}? [Cu = 64]`,
+        options: [`0.03125 mole`, `0.0625 mole`, `0.0938 mole`, `32.00 mole`],
         ans: "B",
       },
       {
         id: 55,
         question: `If the overall reaction in a cell is<br />
-        ${formula("Mg","s")} + ${formula(ion("Cu","2+"),"aq")} -< ${formula(ion("Mg","2+"),"aq")} + ${formula("Cu","s")}. Its symbolic representation would be`,
-        options: [  
-          `${formula("Mg","s")}/${formula(ion("Mg","2+"),"aq")}//${formula(ion("Cu","2+"),"aq")}/${formula("Cu","s")}`,
-          `${formula("Mg","aq")}/${formula(ion("Mg","2+"),"s")}//${formula(ion("Cu","2+"),"s")}/${formula("Cu","aq")}`,
-          `${formula(ion("Cu","2+"),"s")}/${formula("Cu","aq")}//${formula("Mg","aq")}/${formula(ion("Mg","2+"),"s")}`,
-          `${formula("Mg","aq")}/${formula(ion("Mg","2+"),"aq")}//${formula(ion("Cu","2+"),"aq")}/${formula("Cu","aq")}`
+        ${formula("Mg", "s")} + ${formula(ion("Cu", "2+"), "aq")} -< ${formula(
+          ion("Mg", "2+"),
+          "aq"
+        )} + ${formula("Cu", "s")}. Its symbolic representation would be`,
+        options: [
+          `${formula("Mg", "s")}/${formula(ion("Mg", "2+"), "aq")}//${formula(
+            ion("Cu", "2+"),
+            "aq"
+          )}/${formula("Cu", "s")}`,
+          `${formula("Mg", "aq")}/${formula(ion("Mg", "2+"), "s")}//${formula(
+            ion("Cu", "2+"),
+            "s"
+          )}/${formula("Cu", "aq")}`,
+          `${formula(ion("Cu", "2+"), "s")}/${formula("Cu", "aq")}//${formula(
+            "Mg",
+            "aq"
+          )}/${formula(ion("Mg", "2+"), "s")}`,
+          `${formula("Mg", "aq")}/${formula(ion("Mg", "2+"), "aq")}//${formula(
+            ion("Cu", "2+"),
+            "aq"
+          )}/${formula("Cu", "aq")}`,
         ],
         ans: "A",
       },
       {
         id: 56,
         question: `A feasible cell was constructed by combining the two half cells below:<br />
-        ${formula(ion("Cu"),"aq")} + 2${ion("e","-")} -> ${formula("Cu","s")}; E&deg; = +0.34V<br />
-        ${formula(ion("Fe","2+"),"aq")} + 2${ion("e","-")} -> ${formula("Fe","s")}; E&deg; = -0.44V`,
-        options: [  
-          `-0.78V`,
-          `-0.10V`,
-          `+0.10V`,
-          `+0.78V`
-        ],
+        ${formula(ion("Cu"), "aq")} + 2${ion("e", "-")} -> ${formula(
+          "Cu",
+          "s"
+        )}; E&deg; = +0.34V<br />
+        ${formula(ion("Fe", "2+"), "aq")} + 2${ion("e", "-")} -> ${formula(
+          "Fe",
+          "s"
+        )}; E&deg; = -0.44V`,
+        options: [`-0.78V`, `-0.10V`, `+0.10V`, `+0.78V`],
         ans: "D",
       },
       {
         id: 58,
-        question: `${formula("Mg","s")} -> ${formula(ion("Mg","2+"),"aq")} + 2${ion("e","-")}; E&deg; = +2.37V<br />
-        2${formula("Ag","s")} -> 2${formula(ion("Ag","+"),"aq")} + 2${ion("e","-")}; E&deg; = -0.80V<br />
+        question: `${formula("Mg", "s")} -> ${formula(
+          ion("Mg", "2+"),
+          "aq"
+        )} + 2${ion("e", "-")}; E&deg; = +2.37V<br />
+        2${formula("Ag", "s")} -> 2${formula(ion("Ag", "+"), "aq")} + 2${ion(
+          "e",
+          "-"
+        )}; E&deg; = -0.80V<br />
         The standard electrode potential of the magnesium -silver cell represented by the half-cell reaction above is`,
-        options: [  
-          `-3.17V`,
-          `+3.17V`,
-          `+1.57V`,
-          `-1.57V`
-        ],
+        options: [`-3.17V`, `+3.17V`, `+1.57V`, `-1.57V`],
         ans: "B",
       },
       {
         id: 59,
         question: `The most suitable method for preventing the rusting of petroleum pipelines is`,
-        options: [  
+        options: [
           `cathodic protection with magnesium`,
           `tin-plating`,
           `painting`,
-          `greasing`
+          `greasing`,
         ],
         ans: "A",
       },
       {
         id: 60,
         question: `Why is iron galvanized with zinc is cathodically protected from corrosion? This is because`,
-        options: [  
+        options: [
           `zinc has a less negative reduction potential than iron`,
           `zinc has a more negative reduction potential than iron`,
           `both zinc and iron have the same reduction potential`,
-          `zinc is tougher than iron`
+          `zinc is tougher than iron`,
         ],
         ans: "B",
       },
       {
         id: 61,
         question: `The element used as an electrode in car batteries is`,
-        options: [  
-          `sodium`,
-          `potassium`,
-          `magnesium`,
-          `lead`
-        ],
+        options: [`sodium`, `potassium`, `magnesium`, `lead`],
         ans: "D",
       },
       {
         id: 62,
         question: `Which of the following metals can be used as sacrificial cathode for preventing corrosion of a length of iron pipe?`,
-        options: [  
-          `Silver`,
-          `Copper`,
-          `Magnesium`,
-          `Manganese`
-        ],
+        options: [`Silver`, `Copper`, `Magnesium`, `Manganese`],
         ans: "C",
       },
       {
         id: 63,
         question: `Which of the following reactions is exemplified by rusting of iron?`,
-        options: [  
+        options: [
           `Decomposition`,
           `Displacement reaction`,
           `Neutralization`,
-          `Redox reaction`
+          `Redox reaction`,
         ],
         ans: "D",
       },
-    ]
+    ],
   },
-  
+
   {
     topic: "Industrial and Environmental Chemistry",
     questions: [
       {
         id: 1,
         question: `The cheapest raw material from which an alkaline medium can be prepared is`,
-        options: [  
-          `Rock salt`,
-          `Limestone`,
-          `Phosphate Rock`,
-          `Bauxite`,
-        ],
+        options: [`Rock salt`, `Limestone`, `Phosphate Rock`, `Bauxite`],
         ans: "A",
       },
       {
         id: 2,
         question: `Which of the following is not important in the fertilizer industry?`,
-        options: [  
+        options: [
           `Phosphate Rock`,
           `Tetraoxosulfate (VI) acid`,
           `Sodium trioxocarbonate(IV)`,
@@ -8888,7 +9188,7 @@ let chemistryQuestions = [
       {
         id: 3,
         question: `A major raw material for the cement industry is:`,
-        options: [  
+        options: [
           `Sodium tetraoxosulphate(VI)`,
           `Limestone`,
           `Sand`,
@@ -8899,7 +9199,7 @@ let chemistryQuestions = [
       {
         id: 4,
         question: `Brass is an alloy of`,
-        options: [  
+        options: [
           `Copper, Zinc and Lead`,
           `Copper, Zinc and Silver`,
           `Copper and Silver`,
@@ -8910,7 +9210,7 @@ let chemistryQuestions = [
       {
         id: 5,
         question: `Bronze is an alloy of`,
-        options: [  
+        options: [
           `Copper, and Lead`,
           `Copper and Zinc`,
           `Copper and Tin`,
@@ -8921,7 +9221,7 @@ let chemistryQuestions = [
       {
         id: 6,
         question: `Steel is an alloy of`,
-        options: [  
+        options: [
           `Iron, Silver and Lead`,
           `Iron and Carbon`,
           `Iron and Lead`,
@@ -8932,18 +9232,13 @@ let chemistryQuestions = [
       {
         id: 7,
         question: `Which of the following is used as a material in the aircraft industry?`,
-        options: [  
-          `Steel alloy`,
-          `Al-Mg alloy`,
-          `Cu-Zn alloy`,
-          `Tin alloy`,
-        ],
+        options: [`Steel alloy`, `Al-Mg alloy`, `Cu-Zn alloy`, `Tin alloy`],
         ans: "B",
       },
       {
         id: 8,
         question: `Which of the following is LEAD not used for`,
-        options: [  
+        options: [
           `Battery manufacture`,
           `Petrol additive`,
           `Radiation shield`,
@@ -8954,18 +9249,13 @@ let chemistryQuestions = [
       {
         id: 9,
         question: `Which of the following does not occur naturally in pure matallic form, but rather as an ore`,
-        options: [  
-          `Silver`,
-          `Gold`,
-          `Iron`,
-          `Platinum`,
-        ],
+        options: [`Silver`, `Gold`, `Iron`, `Platinum`],
         ans: "C",
       },
       {
         id: 10,
         question: `Corrosion is exhibited by`,
-        options: [  
+        options: [
           `Electropositive metals`,
           `Iron only`,
           `All metals`,
@@ -8976,62 +9266,37 @@ let chemistryQuestions = [
       {
         id: 11,
         question: `Haemetite is an ore of`,
-        options: [  
-          `Zinc`,
-          `Lead`,
-          `Copper`,
-          `Iron`,
-        ],
+        options: [`Zinc`, `Lead`, `Copper`, `Iron`],
         ans: "D",
       },
       {
         id: 12,
         question: `Bauxite is an ore of`,
-        options: [  
-          `Calcium`,
-          `Sodium`,
-          `Copper`,
-          `Aluminium`,
-        ],
+        options: [`Calcium`, `Sodium`, `Copper`, `Aluminium`],
         ans: "D",
       },
       {
         id: 13,
         question: `Marble is an ore of:`,
-        options: [  
-          `Zinc`,
-          `Lead`,
-          `Calcium`,
-          `Iron`,
-        ],
+        options: [`Zinc`, `Lead`, `Calcium`, `Iron`],
         ans: "C",
       },
       {
         id: 14,
         question: `Which of the following metals is best extracted from its ore by chemical reduction`,
-        options: [  
-          `Magnesium`,
-          `Sodium`,
-          `Iron`,
-          `Calcium`,
-        ],
+        options: [`Magnesium`, `Sodium`, `Iron`, `Calcium`],
         ans: "C",
       },
       {
         id: 15,
         question: `Which of the following metals is best extracted from its ore by electrolytic treatment?`,
-        options: [  
-          `Sodium`,
-          `Iron`,
-          `Zinc`,
-          `Tin`,
-        ],
+        options: [`Sodium`, `Iron`, `Zinc`, `Tin`],
         ans: "A",
       },
       {
         id: 16,
         question: `Which of the following is a "fine" chemical`,
-        options: [  
+        options: [
           `Sodium hydroxide`,
           `Ethanol`,
           `Silver bromide`,
@@ -9042,7 +9307,7 @@ let chemistryQuestions = [
       {
         id: 17,
         question: `Which of the following is a form of biotechnology`,
-        options: [  
+        options: [
           `Extraction of metals from their ores`,
           `Beer making`,
           `Battery manufacture`,
@@ -9053,18 +9318,13 @@ let chemistryQuestions = [
       {
         id: 18,
         question: `Polyvinyl chloride is used to produce`,
-        options: [  
-          `Bread`,
-          `Ink`,
-          `Kitchen utensils`,
-          `Household pipes`,
-        ],
+        options: [`Bread`, `Ink`, `Kitchen utensils`, `Household pipes`],
         ans: "D",
       },
       {
         id: 19,
         question: `Permanent hard water can be softened by`,
-        options: [  
+        options: [
           `Aeration`,
           `Use of an ion-exchange resin`,
           `Chlorination`,
@@ -9075,7 +9335,7 @@ let chemistryQuestions = [
       {
         id: 20,
         question: `Temporary hard water can be softened by`,
-        options: [  
+        options: [
           `Chlorination`,
           `Simple boiling`,
           `Passage over activated charcoal`,
@@ -9086,18 +9346,13 @@ let chemistryQuestions = [
       {
         id: 21,
         question: `Which of the following industries uses corn as a primary raw material?`,
-        options: [  
-          `Paper`,
-          `Brewery`,
-          `Fertilizer`,
-          `Detergent`,
-        ],
+        options: [`Paper`, `Brewery`, `Fertilizer`, `Detergent`],
         ans: "B",
       },
       {
         id: 22,
         question: `Which of the following is a natural component of air?`,
-        options: [  
+        options: [
           `Nitrogen(IV) oxide`,
           `Sulfur(IV) oxide`,
           `Argon`,
@@ -9108,7 +9363,7 @@ let chemistryQuestions = [
       {
         id: 23,
         question: `The function of calcium hydroxide in the treatment of municipal water supply is`,
-        options: [  
+        options: [
           `killing bacteria in the water`,
           `removing the water hardness`,
           `coagulating solid particles`,
@@ -9119,7 +9374,7 @@ let chemistryQuestions = [
       {
         id: 24,
         question: `The passage of water through layers of fine sand in municipal water treatment is to`,
-        options: [  
+        options: [
           `remove water hardness`,
           `coagulate solid particles`,
           `remove dissolved gases`,
@@ -9130,7 +9385,7 @@ let chemistryQuestions = [
       {
         id: 25,
         question: `Which of the following is associated with global warming?`,
-        options: [  
+        options: [
           `Hydrogen sulphide`,
           `Sulphur(IV) oxide`,
           `Carbon(IV) oxide`,
@@ -9141,7 +9396,7 @@ let chemistryQuestions = [
       {
         id: 26,
         question: `Which of the following is a secondary air pollutant?`,
-        options: [  
+        options: [
           `Particulate dust`,
           `Sulfur(IV) oxide`,
           `Ozone`,
@@ -9152,7 +9407,7 @@ let chemistryQuestions = [
       {
         id: 27,
         question: `A major source of ozone in the atmosphere is`,
-        options: [  
+        options: [
           `fuel combustion`,
           `Bush burning`,
           `sunlight-induced reactions of oxygen and other gases`,
@@ -9163,7 +9418,7 @@ let chemistryQuestions = [
       {
         id: 28,
         question: `Which of the following pollutants is a major components of smog`,
-        options: [  
+        options: [
           `Carbon(II) oxide`,
           `Hydrogen sulfide`,
           `Ozone`,
@@ -9174,7 +9429,7 @@ let chemistryQuestions = [
       {
         id: 29,
         question: `The exhaust fumes of smoky vehicles is principally due to?`,
-        options: [  
+        options: [
           `Hydrogen sulfide`,
           `Carbon(II) oxide`,
           `Lead`,
@@ -9185,7 +9440,7 @@ let chemistryQuestions = [
       {
         id: 30,
         question: `Which of the following is a major gas emitted during cement production`,
-        options: [  
+        options: [
           `Nitrogen(IV) oxide`,
           `Methane`,
           `Carbon(IV) oxide`,
@@ -9196,7 +9451,7 @@ let chemistryQuestions = [
       {
         id: 31,
         question: `Which of the following is generated during the manufacture of fertilizer?`,
-        options: [  
+        options: [
           `Hydrogen sulfide`,
           `Carbon(IV) oxide`,
           `Sulfur(IV) oxide`,
@@ -9207,7 +9462,7 @@ let chemistryQuestions = [
       {
         id: 32,
         question: `Which of the following contributes to acid rain?`,
-        options: [  
+        options: [
           `Methane`,
           `Nitrogen(IV) oxide`,
           `Heavy metals`,
@@ -9218,7 +9473,7 @@ let chemistryQuestions = [
       {
         id: 33,
         question: `The gaseous pollutant sulfur(IV) oxide will likely be detected in the neighbourhood of:`,
-        options: [  
+        options: [
           `a factory where mercury is being extracted from its ore`,
           `a factory where aluminium is being extracted from bauxite`,
           `a factory where iron is being extracted from its ore`,
@@ -9229,7 +9484,7 @@ let chemistryQuestions = [
       {
         id: 34,
         question: `Which of the following is emitted from aerosol sprays and air conditioners`,
-        options: [  
+        options: [
           `Hydrogen sulfide`,
           `Carbon(IV) oxide`,
           `Chlorofluorocarbons`,
@@ -9240,176 +9495,174 @@ let chemistryQuestions = [
       {
         id: 35,
         question: `Which of the following would be found in high concentration in the neighbourhood of a battery manufacturing factory?`,
-        options: [  
-          `${ion("Pb","2+")} salts`,
-          `${ion("Ca","2+")} salts`,
-          `${ion("Mg","2+")} salts`,
-          `${ion("Al","3+")} salts`,
+        options: [
+          `${ion("Pb", "2+")} salts`,
+          `${ion("Ca", "2+")} salts`,
+          `${ion("Mg", "2+")} salts`,
+          `${ion("Al", "3+")} salts`,
         ],
         ans: "A",
       },
       {
         id: 36,
         question: `The most likely set of pollutants that will be produced on the accidental ignition of a plastic container of petrol is?`,
-        options: [  
-          `${formula("CO")}, ${formula("CO",2)} and ${formula("SO",2)}`,
-          `${formula("SO",2)}, ${formula("CO",2)} and ${formula("HCl")}`,
-          `${formula("CO")}, ${formula("HCl")}, and ${formula("SO",2)}`,
-          `${formula("CO")}, ${formula("CO",2)} and HCl`
+        options: [
+          `${formula("CO")}, ${formula("CO", 2)} and ${formula("SO", 2)}`,
+          `${formula("SO", 2)}, ${formula("CO", 2)} and ${formula("HCl")}`,
+          `${formula("CO")}, ${formula("HCl")}, and ${formula("SO", 2)}`,
+          `${formula("CO")}, ${formula("CO", 2)} and HCl`,
         ],
         ans: "A",
       },
       {
         id: 37,
         question: `Environmental pollution is usually a major problem in countries that have`,
-        options: [  
+        options: [
           `low population densities`,
           `great land mass`,
           `many industries`,
-          `a lot of water resources`
+          `a lot of water resources`,
         ],
         ans: "C",
       },
       {
         id: 38,
         question: `Which of these is an active ingredient of fire extinguishers`,
-        options: [  
+        options: [
           `Sulfur(IV) oxide`,
           `Ammonia`,
           `Carbon(IV) oxide`,
-          `Nitrogen(IV) oxide`
+          `Nitrogen(IV) oxide`,
         ],
         ans: "C",
       },
       {
         id: 39,
         question: `One of the most commonly determined physical parameters of water quality is`,
-        options: [  
+        options: [
           `pH`,
           `Suspended solid`,
           `Biochemical Oxygen Demand(BOD)`,
-          `Coliform Count`
+          `Coliform Count`,
         ],
         ans: "B",
       },
       {
         id: 40,
         question: `One of the most commonly determined chemical parameters of water quality is`,
-        options: [  
+        options: [
           `Temperature`,
           `Suspended solid`,
           `Biochemical Oxygen Demand(BOD)`,
-          `Turbidity`
+          `Turbidity`,
         ],
         ans: "C",
       },
       {
         id: 41,
         question: `One of the causes of algae growth in rivers is the presence of`,
-        options: [  
+        options: [
           `Heavy metals`,
           `Pesticides`,
           `Phosphates from detergents`,
-          `High particulate loading`
+          `High particulate loading`,
         ],
         ans: "C",
       },
       {
         id: 42,
         question: `Nutrients in water bodies are considered as water pollutants because they:`,
-        options: [  
+        options: [
           `increase oxygen which aquatic organisms need for their survival`,
           `deplete oxygen which aquatic organisms need for their survival`,
           `increase other gaseous substances in the water`,
-          `deplete other gaseous species in the water`
+          `deplete other gaseous species in the water`,
         ],
         ans: "B",
       },
       {
         id: 43,
         question: `A good method of cleaning-up freshly-splitted oil which has not spread over a larger surface of water is by:`,
-        options: [  
+        options: [
           `spraying with hot water`,
           `dispersal with compressed air`,
           `burning off the oil layer`,
-          `disinfection with chlorine`
+          `disinfection with chlorine`,
         ],
         ans: "C",
       },
       {
         id: 44,
         question: `Which of the following pollutants is biodegradable?`,
-        options: [  
-          `Plastics`,
-          `Sewage`,
-          `Metal scraps`,
-          `Lead compounds`
-        ],
+        options: [`Plastics`, `Sewage`, `Metal scraps`, `Lead compounds`],
         ans: "B",
       },
       {
         id: 45,
         question: `Chlorine is used in water treatment as`,
-        options: [  
+        options: [
           `a germicide`,
           `a decolourising agent`,
           `an antioxidant`,
-          `a coagulating agent`
+          `a coagulating agent`,
         ],
         ans: "A",
       },
       {
         id: 46,
         question: `Addition of Copper(II) tetraoxosulphate(VI) to swimming pools is to:`,
-        options: [  
+        options: [
           `prevent the growth of algae`,
           `coagulate suspended particles`,
           `neutralize dissolved gases in the water`,
-          `react with any excess chlorine present`
+          `react with any excess chlorine present`,
         ],
         ans: "A",
       },
       {
         id: 47,
         question: `The main function of alum in purificatoin of municipal water supply is to`,
-        options: [  
+        options: [
           `control the pH of the water`,
           `kill bacteria`,
           `improve the taste of the water`,
-          `coagulate solid particles`
+          `coagulate solid particles`,
         ],
         ans: "D",
       },
       {
         id: 48,
-        question: `Which of the following water samples will have the highest concentrations of ${ion("Ca","2+")} ions.`,
-        options: [  
+        question: `Which of the following water samples will have the highest concentrations of ${ion(
+          "Ca",
+          "2+"
+        )} ions.`,
+        options: [
           `Temporary hard water after boiling`,
           `Permanent hard water after boiling`,
           `Rain water stored in a glass jar for 2 years`,
-          `Permanent hard water to which zeolite has been added`
+          `Permanent hard water to which zeolite has been added`,
         ],
         ans: "C",
       },
       {
         id: 49,
         question: `Which of the following water bodies will have the highest BOD value?`,
-        options: [  
+        options: [
           `Water polluted by heavy metals`,
           `Water polluted by suspended particles`,
           `Water polluted by bacteria`,
-          `Water polluted by nitrates and phosphates`
+          `Water polluted by nitrates and phosphates`,
         ],
         ans: "D",
       },
       {
         id: 50,
         question: `Which of the following is likely to occur to soil as a result of bush burning`,
-        options: [  
+        options: [
           `heavy metal pollution`,
           `loss of soil nutrients`,
           `increase in pH`,
-          `increase in radioactivity`
+          `increase in radioactivity`,
         ],
         ans: "B",
       },
@@ -9875,7 +10128,7 @@ let chemistryQuestions = [
         options: ["Pb", "Cu", "Ag", "Na"],
         ans: "A",
       },
-    ]
+    ],
   },
 
   {
@@ -9883,20 +10136,33 @@ let chemistryQuestions = [
     questions: [
       {
         id: 1,
-        question: `${formula("NH",3)} + ${ion(formula("H",3,"O"),"+")} -> ${ion(formula("NH",4),"+")} + ${formula("H",2,"O")}<br />
+        question: `${formula("NH", 3)} + ${ion(
+          formula("H", 3, "O"),
+          "+"
+        )} -> ${ion(formula("NH", 4), "+")} + ${formula("H", 2, "O")}<br />
         Which of the following statement is correct about the above reaction`,
-        options: [  
-          `${formula("NH",3)} acts as an acid`,
-          `${ion(formula("NH",4),"+")} acts as a base`,
-          `${ion(formula("H",3,"O"),"+")} acts as an acid`,
-          `${ion(formula("H",3,"O"),"+")}`,
+        options: [
+          `${formula("NH", 3)} acts as an acid`,
+          `${ion(formula("NH", 4), "+")} acts as a base`,
+          `${ion(formula("H", 3, "O"), "+")} acts as an acid`,
+          `${ion(formula("H", 3, "O"), "+")}`,
         ],
         ans: "C",
       },
       {
         id: 2,
-        question: `${formula("NaCl","s")} + ${formula("H",2,"SO",4,"l")} -> ${formula("HCl","g")} + ${formula("NaHSO",4,"s")}<br />In the above reaction, ${formula("H",2,"SO",4)} acts as`,
-        options: [  
+        question: `${formula("NaCl", "s")} + ${formula(
+          "H",
+          2,
+          "SO",
+          4,
+          "l"
+        )} -> ${formula("HCl", "g")} + ${formula(
+          "NaHSO",
+          4,
+          "s"
+        )}<br />In the above reaction, ${formula("H", 2, "SO", 4)} acts as`,
+        options: [
           `a dehydrating agent`,
           `a strong acid`,
           `a good solvent`,
@@ -9907,18 +10173,13 @@ let chemistryQuestions = [
       {
         id: 3,
         question: `The number of hydroxonium ions produced by one molecule of an acid in aqeuous solution is termed as its`,
-        options: [  
-          `acid strength`,
-          `pH`,
-          `acidity`,
-          `basicity`,
-        ],
+        options: [`acid strength`, `pH`, `acidity`, `basicity`],
         ans: "D",
       },
       {
         id: 4,
         question: `A weak acid is one`,
-        options: [  
+        options: [
           `which can ionize completely in aqeous solution`,
           `which has a low pH value`,
           `which is not corrosive`,
@@ -9929,18 +10190,13 @@ let chemistryQuestions = [
       {
         id: 5,
         question: `Propanoic acid is`,
-        options: [  
-          `tribasic`,
-          `dibasic`,
-          `monobasic`,
-          `unionisable`,
-        ],
+        options: [`tribasic`, `dibasic`, `monobasic`, `unionisable`],
         ans: "C",
       },
       {
         id: 6,
         question: `A mixed acid anhydride is`,
-        options: [  
+        options: [
           `sulfur(IV) oxide`,
           `nitrogen(IV) oxide`,
           `carbon(IV) oxide`,
@@ -9951,10 +10207,15 @@ let chemistryQuestions = [
       {
         id: 7,
         question: `The following are the properties of acids except`,
-        options: [  
+        options: [
           `reaction with copper to liberate hydrogen`,
           `presence of ionisable hydrogen atom(s)`,
-          `evolution of ${formula("CO",2)} with ${formula("Na",2,"CO",3)} solution`,
+          `evolution of ${formula("CO", 2)} with ${formula(
+            "Na",
+            2,
+            "CO",
+            3
+          )} solution`,
           `pH values of less than 7`,
         ],
         ans: "A",
@@ -9962,7 +10223,7 @@ let chemistryQuestions = [
       {
         id: 8,
         question: `An acid is a substance which interacts with water to produce`,
-        options: [  
+        options: [
           `hydrogen gas`,
           `hydroxonium ions`,
           `hydroxide ions`,
@@ -9973,20 +10234,26 @@ let chemistryQuestions = [
       {
         id: 9,
         question: `A species that is always present in acidified water is`,
-        options: [  
-          `${ion(formula("OH"),"-")}`,
-          `${ion(formula("NH",4),"+")}`,
-          `${ion(formula("O"),"2-")}`,
-          `${ion(formula("H",3,"O"),"+")}`,
+        options: [
+          `${ion(formula("OH"), "-")}`,
+          `${ion(formula("NH", 4), "+")}`,
+          `${ion(formula("O"), "2-")}`,
+          `${ion(formula("H", 3, "O"), "+")}`,
         ],
         ans: "D",
       },
       {
         id: 11,
         question: `An aqueous solution is acidic if`,
-        options: [  
-          `it contains less ${ion(formula("OH"),"-")} than ${ion(formula("H",3,"O"),"+")}`,
-          `it contains ${ion(formula("OH"),"-")} and ${ion(formula("H",3,"O"),"+")} in the same proportion`,
+        options: [
+          `it contains less ${ion(formula("OH"), "-")} than ${ion(
+            formula("H", 3, "O"),
+            "+"
+          )}`,
+          `it contains ${ion(formula("OH"), "-")} and ${ion(
+            formula("H", 3, "O"),
+            "+"
+          )} in the same proportion`,
           `its pH value is greater than 7`,
           `it changes the color of an indicator`,
         ],
@@ -9995,7 +10262,7 @@ let chemistryQuestions = [
       {
         id: 12,
         question: `The following statements are all correct about dilute tetraoxosulfate(VI) acid except that it`,
-        options: [  
+        options: [
           `effervesces with magnesium`,
           `effervesces with dilute hydrochloric acid`,
           `has a pH value less than 7`,
@@ -10006,10 +10273,10 @@ let chemistryQuestions = [
       {
         id: 13,
         question: `Which of the following is not a property of an acid?`,
-        options: [  
+        options: [
           `Conduction of an electric current in solution`,
           `Ability to neutralize basic oxides`,
-          `Effervescence with ${formula("K",2,"CO",3)} solution`,
+          `Effervescence with ${formula("K", 2, "CO", 3)} solution`,
           `Formation of a salt with an acidic oxide`,
         ],
         ans: "D",
@@ -10017,7 +10284,7 @@ let chemistryQuestions = [
       {
         id: 14,
         question: `A piece of seashell produced a colorless, odorless gas that turned limewater milky when dropped into a dilute solution of HCl. It can be inferred that the sea shell contains`,
-        options: [  
+        options: [
           `a trioxocarbonate(IV) salt`,
           `a chloride`,
           `a trioxonitrate(V) salt`,
@@ -10027,9 +10294,14 @@ let chemistryQuestions = [
       },
       {
         id: 15,
-        question: `A student who accidentally poured concentrated ${formula("H",2,"SO",4)} on his skin during a practical class is best treated by washing the skin with`,
-        options: [  
-          `more of the concentrated ${formula("H",2,"SO",4)}`,
+        question: `A student who accidentally poured concentrated ${formula(
+          "H",
+          2,
+          "SO",
+          4
+        )} on his skin during a practical class is best treated by washing the skin with`,
+        options: [
+          `more of the concentrated ${formula("H", 2, "SO", 4)}`,
           `potassium hydroxide solution`,
           `sodium trioxocarbonate(IV) solution followed by plenty of cold water`,
           `iodine solution`,
@@ -10039,7 +10311,7 @@ let chemistryQuestions = [
       {
         id: 16,
         question: `An acid and its conjugate base`,
-        options: [  
+        options: [
           `are oppositely charged`,
           `differ only by a hydroxide ion`,
           `differ only by an electron`,
@@ -10049,9 +10321,17 @@ let chemistryQuestions = [
       },
       {
         id: 17,
-        question: `Concentrated ${formula("H",2,"SO",4)} differs from concentrated ${formula("HNO",3)} in`,
-        options: [  
-          `the ability to liberate ${formula("CO",2)} from ${ion(formula("CO",3),"-")}`,
+        question: `Concentrated ${formula(
+          "H",
+          2,
+          "SO",
+          4
+        )} differs from concentrated ${formula("HNO", 3)} in`,
+        options: [
+          `the ability to liberate ${formula("CO", 2)} from ${ion(
+            formula("CO", 3),
+            "-"
+          )}`,
           `the action as an oxidizing agent`,
           `the ability to conduct an electric current on dilution`,
           `the ability to dehydrate compounds`,
@@ -10061,143 +10341,176 @@ let chemistryQuestions = [
       {
         id: 18,
         question: `Hydrogen sulfide behaves as an acid in`,
-        options: [  
-          `2${formula("FeCl",3)} + ${formula("H",2,"S")} -> 2${formula("FeCl",2)} + 2HCl + S`,
-          `2${formula("NaOH")} + ${formula("H",2,"S")} -> ${formula("Na",2,"S")} + 2${formula("H",2,"O")}`,
-          `${formula("H",2,"SO",4)} + ${formula("H",2,"S")} -> ${formula("SO",2)} + 2${formula("H",2,"O")} + S`,
-          `${formula("SO",2)} + 2${formula("H",2,"S")} -> ${formula("H",2,"O")} + 3S`,
+        options: [
+          `2${formula("FeCl", 3)} + ${formula("H", 2, "S")} -> 2${formula(
+            "FeCl",
+            2
+          )} + 2HCl + S`,
+          `2${formula("NaOH")} + ${formula("H", 2, "S")} -> ${formula(
+            "Na",
+            2,
+            "S"
+          )} + 2${formula("H", 2, "O")}`,
+          `${formula("H", 2, "SO", 4)} + ${formula("H", 2, "S")} -> ${formula(
+            "SO",
+            2
+          )} + 2${formula("H", 2, "O")} + S`,
+          `${formula("SO", 2)} + 2${formula("H", 2, "S")} -> ${formula(
+            "H",
+            2,
+            "O"
+          )} + 3S`,
         ],
         ans: "B",
       },
       {
         id: 19,
         question: `Which of the following aqueous solutions would change the color of blue litmus paper?`,
-        options: [  
+        options: [
           `Potassium chloride`,
           `Sodium hydroxide`,
           `Chlorine`,
-          `Sodium trioxocarbonate(IV)`
+          `Sodium trioxocarbonate(IV)`,
         ],
         ans: "C",
       },
       {
         id: 20,
-        question: `${formula("HNO",3)} behaves as a typical acid in`,
-        options: [  
-          `${formula("MgO")} + 2${formula("HNO",3)} -> ${formula("Mg",`(${formula("NO",3)})`,2)} + ${formula("H",2,"O")}`,
-          `S + 6${formula("HNO",3)} -> ${formula("H",2,"SO",4)} + 6${formula("NO",2)} + 2${formula("H",2,"O")}`,
-          `P + 5${formula("HNO",3)} -> ${formula("H",3,"PO",4)} + 5${formula("NO",2)} + ${formula("H",2,"O")}`,
-          `3Cu + 8${formula("HNO",3)} -> ${formula("Cu",`(${formula("NO",3)})`,2)} + 2NO + 4${formula("H",2,"O")}`
+        question: `${formula("HNO", 3)} behaves as a typical acid in`,
+        options: [
+          `${formula("MgO")} + 2${formula("HNO", 3)} -> ${formula(
+            "Mg",
+            `(${formula("NO", 3)})`,
+            2
+          )} + ${formula("H", 2, "O")}`,
+          `S + 6${formula("HNO", 3)} -> ${formula(
+            "H",
+            2,
+            "SO",
+            4
+          )} + 6${formula("NO", 2)} + 2${formula("H", 2, "O")}`,
+          `P + 5${formula("HNO", 3)} -> ${formula(
+            "H",
+            3,
+            "PO",
+            4
+          )} + 5${formula("NO", 2)} + ${formula("H", 2, "O")}`,
+          `3Cu + 8${formula("HNO", 3)} -> ${formula(
+            "Cu",
+            `(${formula("NO", 3)})`,
+            2
+          )} + 2NO + 4${formula("H", 2, "O")}`,
         ],
         ans: "A",
       },
       {
         id: 21,
         question: `A colorless odorless gas, which turned limewater milky, was evolved when a sample of gastric juice was treated with potassium trioxocarbonate(IV). It can be inferred that gastric juice is`,
-        options: [  
-          `neutral`,
-          `acidic`,
-          `basic`,
-          `amphoteric`
-        ],
+        options: [`neutral`, `acidic`, `basic`, `amphoteric`],
         ans: "B",
       },
       {
         id: 22,
-        question: `The solid substance that would dissolve in hot dilute ${formula("H",2,"SO",4)} without effervescence, to give a blue solution is`,
-        options: [  
+        question: `The solid substance that would dissolve in hot dilute ${formula(
+          "H",
+          2,
+          "SO",
+          4
+        )} without effervescence, to give a blue solution is`,
+        options: [
           `copper alloy`,
           `copper chip`,
-          `${formula("CuCO",3)}`,
-          `CuO`
+          `${formula("CuCO", 3)}`,
+          `CuO`,
         ],
         ans: "D",
       },
       {
         id: 23,
-        question: `The reaction involved in the removal of rust from iron by treatment with ${formula("H",2,"SO",4)} is`,
-        options: [  
+        question: `The reaction involved in the removal of rust from iron by treatment with ${formula(
+          "H",
+          2,
+          "SO",
+          4
+        )} is`,
+        options: [
           `oxidation of rust`,
           `hydrolysis of rust`,
           `acid-base reaction`,
-          `dehydration of rust`
+          `dehydration of rust`,
         ],
         ans: "C",
       },
       {
         id: 24,
-        question: `Neutralization is a reaction between ${ion(formula("OH"),"-")} and`,
-        options: [  
-          `${ion(formula("SO",4),"2-")}`,
-          `${ion(formula("H",3,"O"),"+")}`,
-          `${ion("Cl","-")}`,
-          `${ion(formula("NO",3),"-")}`
+        question: `Neutralization is a reaction between ${ion(
+          formula("OH"),
+          "-"
+        )} and`,
+        options: [
+          `${ion(formula("SO", 4), "2-")}`,
+          `${ion(formula("H", 3, "O"), "+")}`,
+          `${ion("Cl", "-")}`,
+          `${ion(formula("NO", 3), "-")}`,
         ],
         ans: "B",
       },
       {
         id: 25,
         question: `A general method of preparing acids is`,
-        options: [  
+        options: [
           `dissolution of a metallic oxide in water`,
           `reaction between an anhydride and water`,
           `direct combination of constituent elements`,
-          `double decomposition involving a salt solution`
+          `double decomposition involving a salt solution`,
         ],
         ans: "B",
       },
       {
         id: 26,
         question: `A neutralization reaction is the`,
-        options: [  
+        options: [
           `addition of hydrochloric acid to water`,
           `addition of hydrochloric acid to sodium chloride`,
           `addition of hydrochloric acid to sodium hydroxide`,
-          `addition of sodium chloride to potassium chloride`
+          `addition of sodium chloride to potassium chloride`,
         ],
         ans: "C",
       },
       {
         id: 27,
-        question: `The reaction between KOH and ${formula("NO",2)} produces water and`,
-        options: [  
-          `${formula("KNO",3)}`,
-          `${formula("KNO",2)}`,
-          `${formula("HNO",3)}`,
-          `${formula("KNO",3)} and ${formula("KNO",2)}`
+        question: `The reaction between KOH and ${formula(
+          "NO",
+          2
+        )} produces water and`,
+        options: [
+          `${formula("KNO", 3)}`,
+          `${formula("KNO", 2)}`,
+          `${formula("HNO", 3)}`,
+          `${formula("KNO", 3)} and ${formula("KNO", 2)}`,
         ],
         ans: "D",
       },
       {
         id: 28,
         question: `Which of the following elements can be used to make a container for storing sodium hydroxide?`,
-        options: [  
-          `Zinc`,
-          `Lead`,
-          `Copper`,
-          `Aluminium`
-        ],
+        options: [`Zinc`, `Lead`, `Copper`, `Aluminium`],
         ans: "C",
       },
       {
         id: 29,
         question: `A metal that cannot produce hydrogen from alkaline solutions is`,
-        options: [  
-          `Tin`,
-          `Iron`,
-          `Aluminium`,
-          `Zinc`
-        ],
+        options: [`Tin`, `Iron`, `Aluminium`, `Zinc`],
         ans: "B",
       },
       {
         id: 30,
         question: `The molecular formula of the compound ultimately produced when solid sodium hydroxide is exposed to air is`,
-        options: [  
-          `${formula("Na",2,"CO",3)}`,
-          `${formula("NaHCO",3)}`,
-          `${formula("NaOH")}.${formula("H",2,"O")}`,
-          `${formula("NaOH")}.${formula("N",2)}`
+        options: [
+          `${formula("Na", 2, "CO", 3)}`,
+          `${formula("NaHCO", 3)}`,
+          `${formula("NaOH")}.${formula("H", 2, "O")}`,
+          `${formula("NaOH")}.${formula("N", 2)}`,
         ],
         ans: "B",
       },
@@ -10210,217 +10523,263 @@ let chemistryQuestions = [
         IV. has pH greater than 7 <br />
         V. turns methyl orange to yellow <br />
         are not typical properties of an alkali`,
-        options: [  
+        options: [
           `I, II, and III`,
           `I, III, and V`,
           `III and IV`,
-          `II and III`
+          `II and III`,
         ],
         ans: "D",
       },
       {
         id: 32,
         question: `An acid salt is`,
-        options: [  
-          `${formula("FeSO",4)}.7${formula("H",2,"O")}`,
-          `${formula("NaHSO",4)}`,
-          `${formula(`(${formula("NH",4)})`,2,"SO",4)}`,
-          `${formula("CH",3,"COONa")}`
+        options: [
+          `${formula("FeSO", 4)}.7${formula("H", 2, "O")}`,
+          `${formula("NaHSO", 4)}`,
+          `${formula(`(${formula("NH", 4)})`, 2, "SO", 4)}`,
+          `${formula("CH", 3, "COONa")}`,
         ],
         ans: "B",
       },
       {
         id: 33,
         question: `A normal salt is`,
-        options: [  
-          `${formula(`(${formula("NH",4)})`,2,"SO",4)}`,
-          `${formula("NaHSO",4)}`,
+        options: [
+          `${formula(`(${formula("NH", 4)})`, 2, "SO", 4)}`,
+          `${formula("NaHSO", 4)}`,
           `${formula("Mg(OH)Cl")}`,
-          `${formula("Mg",`(${formula("HCO",3)})`,2)}`
+          `${formula("Mg", `(${formula("HCO", 3)})`, 2)}`,
         ],
         ans: "A",
       },
       {
         id: 34,
         question: `Which of the following salts, when dissolved in water will not give the corresponding pH value?`,
-        options: [  
+        options: [
           `${formula("KCl")}, pH = 7`,
-          `${formula("K",2,"CO",3)}, pH > 7`,
-          `${formula("KHCO",3)}, pH < 7`,
-          `${formula("K",2,"SO",4)}, pH = 7`
+          `${formula("K", 2, "CO", 3)}, pH > 7`,
+          `${formula("KHCO", 3)}, pH < 7`,
+          `${formula("K", 2, "SO", 4)}, pH = 7`,
         ],
         ans: "C",
       },
       {
         id: 35,
         question: `Which of the following are the products of the reaction between dilute aqueous solutions of lead(II) trioxonitrate(V) and sodium chloride?`,
-        options: [  
-          `${formula("PbO","s")} + ${formula(ion("Na","+"),"aq")} + ${formula(ion("Cl","-"),"aq")} + ${formula("NO",2,"g")}`,
-          `${formula("PbCl",2,"s")} + ${formula(ion("Na","+"),"aq")} + ${formula("NO",3,"g")}`,
-          `${formula("Cl",2,"g")} + ${formula("NO",2,"g")} + ${formula("PbCl",2,"s")}`,
-          `${formula("PbO","s")} + ${formula(ion("Cl","-"),"aq")} + ${formula("NaNO",3,"aq")}`
+        options: [
+          `${formula("PbO", "s")} + ${formula(
+            ion("Na", "+"),
+            "aq"
+          )} + ${formula(ion("Cl", "-"), "aq")} + ${formula("NO", 2, "g")}`,
+          `${formula("PbCl", 2, "s")} + ${formula(
+            ion("Na", "+"),
+            "aq"
+          )} + ${formula("NO", 3, "g")}`,
+          `${formula("Cl", 2, "g")} + ${formula("NO", 2, "g")} + ${formula(
+            "PbCl",
+            2,
+            "s"
+          )}`,
+          `${formula("PbO", "s")} + ${formula(
+            ion("Cl", "-"),
+            "aq"
+          )} + ${formula("NaNO", 3, "aq")}`,
         ],
         ans: "B",
       },
       {
         id: 36,
         question: `Which of the following salts cannot be prepared by a double decomposition reaction?`,
-        options: [  
-          `${formula("BaCO",3)}`,
-          `${formula("PbCl",2)}`,
+        options: [
+          `${formula("BaCO", 3)}`,
+          `${formula("PbCl", 2)}`,
           `${formula("KCl")}`,
-          `${formula("AgCl")}`
+          `${formula("AgCl")}`,
         ],
         ans: "C",
       },
       {
         id: 37,
         question: `Which of the following salts crystallizes with water of crystallization?`,
-        options: [  
+        options: [
           `${formula("NaCl")}`,
-          `${formula("AgNO",3)}`,
-          `${formula("CaCO",3)}`,
-          `${formula("CuSO",4)}`
+          `${formula("AgNO", 3)}`,
+          `${formula("CaCO", 3)}`,
+          `${formula("CuSO", 4)}`,
         ],
         ans: "D",
       },
       {
         id: 38,
         question: `The insoluble salt formed when silver trioxonitrate(V) solution is mixed with sodium chloride solution is`,
-        options: [  
-          `${formula("AgNO",3)}`,
-          `${formula("NaNO",3)}`,
+        options: [
+          `${formula("AgNO", 3)}`,
+          `${formula("NaNO", 3)}`,
           `${formula("NaCl")}`,
-          `${formula("AgCl")}`
+          `${formula("AgCl")}`,
         ],
         ans: "D",
       },
       {
         id: 39,
         question: `A complex salt is`,
-        options: [  
-          `${formula("KAl",`(${formula("SO",4)})`,2)}.12${formula("H",2,"O")}`,
-          `[Cu(${formula("NH",3)})<sub>4</sub>]${formula("Cl",2)}`,
-          `${formula("K",2,"S",3,"O",3)}.5${formula("H",2,"O")}`,
-          `${formula("Mg(OH)Cl")}`
+        options: [
+          `${formula("KAl", `(${formula("SO", 4)})`, 2)}.12${formula(
+            "H",
+            2,
+            "O"
+          )}`,
+          `[Cu(${formula("NH", 3)})<sub>4</sub>]${formula("Cl", 2)}`,
+          `${formula("K", 2, "S", 3, "O", 3)}.5${formula("H", 2, "O")}`,
+          `${formula("Mg(OH)Cl")}`,
         ],
         ans: "B",
       },
       {
         id: 40,
         question: `The most stable method for preparing lead(II) tetraoxosulfate(VI) is by`,
-        options: [  
-          `action of dilute ${formula("H",2,"SO",4)} on ${formula("PbCl",2)}`,
-          `mixing aqueous solutions of ${formula("Pb",`(${formula("NO",3)})`,2)} with ${formula("Na",2,"SO",4)}`,
-          `action of dilute ${formula("H",2,"SO",4)} on lead`,
-          `action of dilute ${formula("H",2,"SO",4)} on ${formula("PbCO",3)}`
+        options: [
+          `action of dilute ${formula("H", 2, "SO", 4)} on ${formula(
+            "PbCl",
+            2
+          )}`,
+          `mixing aqueous solutions of ${formula(
+            "Pb",
+            `(${formula("NO", 3)})`,
+            2
+          )} with ${formula("Na", 2, "SO", 4)}`,
+          `action of dilute ${formula("H", 2, "SO", 4)} on lead`,
+          `action of dilute ${formula("H", 2, "SO", 4)} on ${formula(
+            "PbCO",
+            3
+          )}`,
         ],
         ans: "B",
       },
       {
         id: 41,
         question: `Alums are`,
-        options: [  
-          `acid salts`,
-          `basic salts`,
-          `double salts`,
-          `complex salts`
-        ],
+        options: [`acid salts`, `basic salts`, `double salts`, `complex salts`],
         ans: "C",
       },
       {
         id: 42,
         question: `Which of the following is not a suitable method of preparing simple salt`,
-        options: [  
+        options: [
           `Hydrogenation`,
           `Neutralization`,
           `Double decomposition`,
-          `Reaction of acid with a metal`
+          `Reaction of acid with a metal`,
         ],
         ans: "A",
       },
       {
         id: 43,
         question: `Which of the following is not a normal salt?`,
-        options: [  
-          `${formula("KHCO",3)}`,
-          `${formula("K",2,"SO",3)}`,
-          `${formula("K",3,"PO",4)}`,
-          `${formula("KCl")}`
+        options: [
+          `${formula("KHCO", 3)}`,
+          `${formula("K", 2, "SO", 3)}`,
+          `${formula("K", 3, "PO", 4)}`,
+          `${formula("KCl")}`,
         ],
         ans: "A",
       },
       {
         id: 44,
         question: `A general method of preparing insoluble salts is by`,
-        options: [  
+        options: [
           `adding an acid to an active metal`,
           `adding an acid to a trioxocarbonate`,
           `adding an acid to an oxide`,
-          `double decomposition`
+          `double decomposition`,
         ],
         ans: "D",
       },
       {
         id: 45,
         question: `Which of the following mixtures will not produce a precipitate?`,
-        options: [  
-          `${formula("Cu",`(${formula("NO",3)})`,2,"aq")} and ${formula("NaOH","aq")}`,
-          `${formula("CaCl",2,"aq")} and ${formula("AgNO",3,"aq")}`,
-          `${formula("HCl","aq")} and ${formula("KNO",3,"aq")}`,
-          `${formula("BaCl",2,"aq")} and ${formula("H",2,"SO",4,"aq")}`
+        options: [
+          `${formula("Cu", `(${formula("NO", 3)})`, 2, "aq")} and ${formula(
+            "NaOH",
+            "aq"
+          )}`,
+          `${formula("CaCl", 2, "aq")} and ${formula("AgNO", 3, "aq")}`,
+          `${formula("HCl", "aq")} and ${formula("KNO", 3, "aq")}`,
+          `${formula("BaCl", 2, "aq")} and ${formula("H", 2, "SO", 4, "aq")}`,
         ],
         ans: "C",
       },
       {
         id: 46,
-        question: `What is the solubility of a substance A if 50${units("cm",3)} of a saturated solution contains 8.0g of A? [A = 60${units("gmol",-1)}]`,
-        options: [  
-          `3.67 ${units("moldm",-3)}`,
-          `2.67 ${units("moldm",-3)}`,
-          `1.67 ${units("moldm",-3)}`,
-          `0.67 ${units("moldm",-3)}`,
+        question: `What is the solubility of a substance A if 50${units(
+          "cm",
+          3
+        )} of a saturated solution contains 8.0g of A? [A = 60${units(
+          "gmol",
+          -1
+        )}]`,
+        options: [
+          `3.67 ${units("moldm", -3)}`,
+          `2.67 ${units("moldm", -3)}`,
+          `1.67 ${units("moldm", -3)}`,
+          `0.67 ${units("moldm", -3)}`,
         ],
         ans: "C",
       },
       {
         id: 48,
-        question: `15.3g of a sample of ${formula("KClO",3)} was required to make a saturated solution with 50${units("cm",3)} of water at 25&deg;C. What is the solubility of the salt at 25&deg;C? [K = 39, Cl = 35.5, O = 16]`,
-        options: [  
-          `2.5 ${units("moldm",-3)}`,
-          `2.0 ${units("moldm",-3)}`,
-          `1.5 ${units("moldm",-3)}`,
-          `1.0 ${units("moldm",-3)}`,
+        question: `15.3g of a sample of ${formula(
+          "KClO",
+          3
+        )} was required to make a saturated solution with 50${units(
+          "cm",
+          3
+        )} of water at 25&deg;C. What is the solubility of the salt at 25&deg;C? [K = 39, Cl = 35.5, O = 16]`,
+        options: [
+          `2.5 ${units("moldm", -3)}`,
+          `2.0 ${units("moldm", -3)}`,
+          `1.5 ${units("moldm", -3)}`,
+          `1.0 ${units("moldm", -3)}`,
         ],
         ans: "A",
       },
       {
         id: 49,
-        question: `When 100${units("cm",3)} of a saturated solution of a substance S (molar mass 342g) at 38&deg;C was evaporated to dryness, 68.4g of dry solid was obtained. The solubility of S at 38&deg;C is`,
-        options: [  
-          `1.0 ${units("moldm",-3)}`,
-          `2.0 ${units("moldm",-3)}`,
-          `3.0 ${units("moldm",-3)}`,
-          `4.0 ${units("moldm",-3)}`,
+        question: `When 100${units(
+          "cm",
+          3
+        )} of a saturated solution of a substance S (molar mass 342g) at 38&deg;C was evaporated to dryness, 68.4g of dry solid was obtained. The solubility of S at 38&deg;C is`,
+        options: [
+          `1.0 ${units("moldm", -3)}`,
+          `2.0 ${units("moldm", -3)}`,
+          `3.0 ${units("moldm", -3)}`,
+          `4.0 ${units("moldm", -3)}`,
         ],
         ans: "B",
       },
       {
         id: 50,
-        question: `10g of ${formula("CuSO",4)} was required to saturate 50g of water at 180&deg;C. What is the solubility(${units("moldm",-3)}) of the salt at 180&deg;C? <br />
+        question: `10g of ${formula(
+          "CuSO",
+          4
+        )} was required to saturate 50g of water at 180&deg;C. What is the solubility(${units(
+          "moldm",
+          -3
+        )}) of the salt at 180&deg;C? <br />
         [Cu = 63.5; S = 32; O = 16]`,
-        options: [  
-          `0.04 ${units("moldm",-3)}`,
-          `0.54 ${units("moldm",-3)}`,
-          `0.82 ${units("moldm",-3)}`,
-          `1.04 ${units("moldm",-3)}`,
+        options: [
+          `0.04 ${units("moldm", -3)}`,
+          `0.54 ${units("moldm", -3)}`,
+          `0.82 ${units("moldm", -3)}`,
+          `1.04 ${units("moldm", -3)}`,
         ],
         ans: "D",
       },
       {
         id: 52,
         question: `Potassium chloride has a zero solubility product value because of its`,
-        options: [  
+        options: [
           `insolubility`,
           `low solubility`,
           `high solubility`,
@@ -10430,25 +10789,27 @@ let chemistryQuestions = [
       },
       {
         id: 53,
-        question: `20.2g of a salt, P (molar mass 101${units("gmol",-1)}) dissolved in 100g of water at 25&deg;C. Its solubility (${units("moldm",-3)}) at this temperature is`,
-        options: [  
-          `0.16`,
-          `0.20`,
-          `1.66`,
-          `2.0`,
-        ],
+        question: `20.2g of a salt, P (molar mass 101${units(
+          "gmol",
+          -1
+        )}) dissolved in 100g of water at 25&deg;C. Its solubility (${units(
+          "moldm",
+          -3
+        )}) at this temperature is`,
+        options: [`0.16`, `0.20`, `1.66`, `2.0`],
         ans: "C",
       },
       {
         id: 54,
-        question: `105g of ${formula("CaCl",2)} was placed in 50${units("cm",3)} of water to give a saturated solution at 25&deg;C. If the solubility of the salt is 8.5${units("moldm",-3)} at this temperature. what is the mass of the salt left undissolved at the given temperature? <br />
+        question: `105g of ${formula("CaCl", 2)} was placed in 50${units(
+          "cm",
+          3
+        )} of water to give a saturated solution at 25&deg;C. If the solubility of the salt is 8.5${units(
+          "moldm",
+          -3
+        )} at this temperature. what is the mass of the salt left undissolved at the given temperature? <br />
         [Ca = 40; Cl = 35.5]`,
-        options: [  
-          `57.8g`,
-          `58.7g`,
-          `58.9g`,
-          `59.8g`,
-        ],
+        options: [`57.8g`, `58.7g`, `58.9g`, `59.8g`],
         ans: "A",
       },
       {
@@ -10457,18 +10818,13 @@ let chemistryQuestions = [
         Mass of flask alone = 50.52g <br />
         Mass of flask and saturated solution = 92.55g <br />
         Mass of flask and solute = 58.27g`,
-        options: [  
-          `226.0`,
-          `92.55`,
-          `34.28`,
-          `22.60`,
-        ],
+        options: [`226.0`, `92.55`, `34.28`, `22.60`],
         ans: "B",
       },
       {
         id: 56,
         question: `Generally speaking, the solubility of a solute in water increases with an increase in temperature because`,
-        options: [  
+        options: [
           `the dissolution of most solutes is exothermic`,
           `the dissolution of most solutes is endothermic`,
           `more solute particles dissociate at higher temperature`,
@@ -10479,29 +10835,19 @@ let chemistryQuestions = [
       {
         id: 57,
         question: `Methyl orange in a solution of pH 12 is`,
-        options: [  
-          `orange`,
-          `colorless`,
-          `yellow`,
-          `red`,
-        ],
+        options: [`orange`, `colorless`, `yellow`, `red`],
         ans: "C",
       },
       {
         id: 58,
         question: `Phenolphthalein in a solution of pH 2.5 is`,
-        options: [  
-          `yellow`,
-          `pink`,
-          `red`,
-          `colorless`,
-        ],
+        options: [`yellow`, `pink`, `red`, `colorless`],
         ans: "D",
       },
       {
         id: 59,
         question: `In general, the solubility of a gas`,
-        options: [  
+        options: [
           `increase with increasing temperature`,
           `decreases with increasing temperature`,
           `is independent of temperature`,
@@ -10509,8 +10855,2022 @@ let chemistryQuestions = [
         ],
         ans: "B",
       },
-    ]
-  }
+    ],
+  },
+
+  {
+    topic: "Experimental Chemistry",
+    questions: [
+      {
+        id: 1,
+        question: `What is the best method for obtaining pure solvents?`,
+        options: [`Evaporation`, `Filtration`, `Distillation`, `Sublimation`],
+        ans: "C",
+      },
+      {
+        id: 2,
+        question: `50${units(
+          "cm",
+          3
+        )} of air is passed through an alkaline solution of pyrogallol in an experiment. The decreae in the volume of air is`,
+        options: [
+          `1.05 ${units("cm", 3)}`,
+          `10.5 ${units("cm", 3)}`,
+          `15.0 ${units("cm", 3)}`,
+          `21.0 ${units("cm", 3)}`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 3,
+        question: `The reagent that removes ${formula(
+          "CO",
+          2
+        )} from a mixture of ${formula("CO", 2)} and ${formula("N", 2)} is`,
+        options: [
+          `alkaline pyrogallol`,
+          `bromine water`,
+          `concentrated ${formula("H", 2, "SO", 4)}`,
+          `aqueous KOH`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 4,
+        question: `The fountain experiment can best be demonstrated by the use of`,
+        options: [
+          `nitrogen(I) oxide and ammonia`,
+          `hydrogen chloride and ammonia`,
+          `nitrogen and nitrogen(I) oxide`,
+          `chlorine and ammonia`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 5,
+        question: `Which color is imparted to a flame by calcium ion?`,
+        options: [`Brick-red`, `Yellow`, `Blue`, `Lilac`],
+        ans: "A",
+      },
+      {
+        id: 6,
+        question: `A solution that will impart a green color to a flame and give a white precipitate with dil. ${formula(
+          "HNO",
+          3
+        )} followed by aqueous ${formula("AgNO", 3)} is`,
+        options: [
+          `NaCl`,
+          `${formula("NH", 4, "Cl")}`,
+          `${formula("CaCl", 2)}`,
+          `${formula("CuCl", 2)}`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 7,
+        question: `A compound that would give a lilac flame coloration and a white precipate with aqueous barium chloride followed by dilute hydrochloric acid is`,
+        options: [
+          `KCl`,
+          `${formula("K", 2, "SO", 4)}`,
+          `${formula("NaCl")}`,
+          `${formula("CuCl", 2)}`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 8,
+        question: `A solution X, when added to another solution containing chloride ions, gives a white precipitate which is soluble on boiling. Solution X contains`,
+        options: [
+          `${ion("Cu", "2+")} ions`,
+          `${ion("Zn", "2+")} ions`,
+          `${ion("Al", "3+")} ions`,
+          `${ion("Pb", "2+")} ions`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 9,
+        question: `An aqueous solution gives a white precipitate which dissolves in excess reagent solution when treated with both sodium hydroxide solution and aqueous ammonia. The cation present in the aqueous solution is`,
+        options: [
+          `${ion("Zn", "2+")} ions`,
+          `${ion("Al", "3+")} ions`,
+          `${ion("Pb", "2+")} ions`,
+          `${ion("Ca", "2+")} ions`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 10,
+        question: `Why does a solution containing zinc ions give a white precipitate which dissolves in excess on adding sodium hydroxide solution?`,
+        options: [
+          `Sodium hydroxide is a strong base`,
+          `Zinc hydroxide is a strong base`,
+          `Zinc hydroxide reacts with sodium hydroxide to form a complex ion`,
+          `Zinc hydroxide is water soluble`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 11,
+        question: `Which of the following aqueous solutions would give a precipitate when treated with sodium hydroxide solution?`,
+        options: [
+          `${formula("NH", 4, "Cl", "aq")}`,
+          `${formula("AlCl", 3, "aq")}`,
+          `${formula("K", 2, "CO", 3, "aq")}`,
+          `${formula("CH", 3, "COOK", "aq")}`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 12,
+        question: `Which of the following aqueous solutions would give a precipitate soluble in excess ammonia solution?`,
+        options: [
+          `${formula(`(${formula("NH", 4)})`, 2, "SO", 4, "aq")}`,
+          `${formula("Al", 2, `(${formula("SO", 4)})`, 3, "aq")}`,
+          `${formula("Pb", `(${formula("NO", 3)})`, 2, "aq")}`,
+          `${formula("CuSO", 4, "aq")}`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 13,
+        question: `Addition of sodium hydroxide solution to a solution of iron(III) chloride gives`,
+        options: [
+          `a deep blue precipitate`,
+          `a brown precipitate`,
+          `a green solution`,
+          `a colorless solution`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 14,
+        question: `Which of the following is false about ammonium salts`,
+        options: [
+          `Evolution of ammonia on warming with alkalis`,
+          `Decomposition by heat`,
+          `Aqueous solution is neutral to litmus`,
+          `High solubility in water`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 15,
+        question: `Which of the following is the best laboratory reagent which can be used to distinguish a solution containing ${ion(
+          "Zn",
+          "2+"
+        )} from separate solutions containing ${ion("Pb", "2+")} or ${ion(
+          "Al",
+          "3+"
+        )}?`,
+        options: [
+          `Ca(${formula("OH")})<sub>2(aq)</sub>`,
+          `${formula("Na", 2, "CO", 3, "aq")}`,
+          `${formula("NaOH", "aq")}`,
+          `${formula("NH", 3, "aq")}`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 17,
+        question: `A solution that will give a white precipitate with a solution of barium chloride acidified with hydrochloric acid is`,
+        options: [
+          `potassium sulfide`,
+          `potassium trioxocarbonate(IV)`,
+          `potassium tetraoxosulfate(VI)`,
+          `potassium trioxocarbonate(IV)`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 18,
+        question: `Which of the following ions is confirmed by positive brown ring test?`,
+        options: [
+          `${ion(formula("NO", 3), "-")}`,
+          `${ion(formula("NO", 2), "-")}`,
+          `${ion(formula("Fe"), "2+")}`,
+          `${ion(formula("SO", 3), "2-")}`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 19,
+        question: `Which of the following salts will produce a pungent smelling gas which turns acidified ${formula(
+          "K",
+          2,
+          "Cr",
+          2,
+          "O",
+          7
+        )} solution from orange to green, on treatment with dilute hydrochloric acid?`,
+        options: [
+          `${formula("Na", 2, "S")}`,
+          `${formula("Na", 2, "SO", 4)}`,
+          `${formula("Na", 2, "CO", 3)}`,
+          `${formula("Na", 2, "SO", 3)}`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 20,
+        question: `Three solutions contain ${ion(
+          formula("SO", 4),
+          "2-"
+        )}, ${ion(formula("CO", 3), "2-")} and ${ion(
+          "S",
+          "2-"
+        )} ions respectively. Which of the following reagents can be added to each of them in order to identify just one of them completely`,
+        options: [
+          `Aquous NaOH`,
+          `Aqueous ${formula("BaCl", 2)}`,
+          `Dilute HCl`,
+          `Aqueous ${formula("NH", 3)}`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 21,
+        question: `Which of the following equations rationalizes the observation that the white precipitate formed when ${formula(
+          "CO",
+          2,
+          "g"
+        )} is bubbled into lime-water disappears on passing the gas for a long time?`,
+        options: [
+          `${formula("Ca", `(${formula("OH")})`, 2, "aq")} + ${formula(
+            "CO",
+            2,
+            "g"
+          )} -> ${formula("CaCO", 3, "s")} + ${formula("H", 2, "O", "l")}`,
+          `${formula("CaCO", 3, "s")} + ${formula(
+            "H",
+            2,
+            "O",
+            "l"
+          )} -> ${formula("CO", 2, "g")} -> ${formula(
+            "Ca",
+            `(${formula("HCO", 3)})`,
+            2,
+            "aq"
+          )}`,
+          `${formula("CO", 2, "g")} -> ${formula("CO", 2, "s")}`,
+          `${ion("Ca", "2+")} + 2${ion(formula("OH"), "-")} -> ${formula(
+            "Ca",
+            `(${formula("OH")})`,
+            2,
+            "aq"
+          )}`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 22,
+        question: `The gas evolved when dilute HCl is added to iron(II) sulfide solid`,
+        options: [
+          `rekindles a glowing splint`,
+          `turns moist red litmus paper blue`,
+          `turns leaf(II) ethanoate paper black`,
+          `turns lime-water milky`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 23,
+        question: `Chlorine gas is best collected`,
+        options: [
+          `by upward displacement of air`,
+          `by downward displacement of air`,
+          `over water`,
+          `under water`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 24,
+        question: `Which of the following is lime-water?`,
+        options: [
+          `${formula("Ca", `(${formula("HCO", 3)})`, 2, "s")}`,
+          `${formula("Ca", `(${formula("HCO", 3)})`, 2, "aq")}`,
+          `${formula("Ca", `(${formula("OH")})`, 2, "s")}`,
+          `${formula("Ca", `(${formula("OH")})`, 2, "aq")}`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 25,
+        question: `A gas which will rekindle a brightly glowing splint is`,
+        options: [
+          `NO`,
+          `${formula("N", 2, "O")}`,
+          `${formula("NO", 2)}`,
+          `${formula("N", 2, "O", 4)}`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 26,
+        question: `Which of the following gases would turn acidified ${formula(
+          "K",
+          2,
+          "Cr",
+          2,
+          "O",
+          7
+        )} solution from orange to green?`,
+        options: [
+          `Hydrogen chloride`,
+          `Hydrogen sulfide`,
+          `Sulfur(IV) oxide`,
+          `Sulfur(VI) oxide`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 27,
+        question: `A gas that can be collected over water in the laboratory is`,
+        options: [`Hydrogen chloride`, `Ammonia`, `Sulfur(IV) oxide`, `Oxygen`],
+        ans: "D",
+      },
+      {
+        id: 28,
+        question: `A salt sample was added to cold dilute HCl. The gas evolved turned acidified ${formula(
+          "K",
+          2,
+          "Cr",
+          2,
+          "O",
+          7
+        )} solution green. It can be inferred that the salt sample contains?`,
+        options: [
+          `${ion(formula("SO", 4), "2-")}`,
+          `${ion(formula("SO", 3), "2-")}`,
+          `${ion(formula("CO", 3), "2-")}`,
+          `${ion(formula("S"), "2-")}`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 29,
+        question: `If chlorine gas is tested with a damp startch-iodide paper, the paper turns`,
+        options: [`green`, `pale red`, `black-blue`, `orange`],
+        ans: "C",
+      },
+      {
+        id: 30,
+        question: `An apparatus used in the laboratory for intermittent production of gases without heating is`,
+        options: [
+          `U-tube`,
+          `Liebig condenser`,
+          `aspirator`,
+          `Kipp's apparatus`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 31,
+        question: `The gas evolved when ${formula(
+          "Na",
+          2,
+          "SO",
+          3
+        )} is warmed with dilute HCl is`,
+        options: [
+          `${formula("SO", 2)}`,
+          `${formula("SO", 3)}`,
+          `${formula("H", 2, "S")}`,
+          `${formula("HCl")}`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 32,
+        question: `A substance that reacts with dilute HCl to produce a gas that blackens damp lead(II) ethanoate paper is`,
+        options: [
+          `sodium trioxocarbonate`,
+          `copper(II) oxide`,
+          `iron(II) sulfide`,
+          `sodium trioxosulfate(VI)`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 33,
+        question: `Which of the following gases can best be collected by downward displacement of air`,
+        options: [`Oxygen`, `Ammonia`, `Sulfur(IV) oxide`, `Carbon(IV) oxide`],
+        ans: "B",
+      },
+      {
+        id: 34,
+        question: `The following are properties of trioxonitrate(V) salts except`,
+        options: [
+          `effervescence with saturated ${formula("K", 2, "CO", 3)} solution`,
+          `high solubility in cold water`,
+          `positive reaction to the brown ring test`,
+          `decomposition on being strongly heated`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 35,
+        question: `Which of the followning substances can be used to identify water?`,
+        options: [
+          `${formula("Na", 2, "SO", 4, "aq")}`,
+          `${formula("CuCO", 3, "aq")}`,
+          `${formula("Na", 2, "CO", 3, "s")}`,
+          `${formula("CuSO", 4, "s")}`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 36,
+        question: `Which of the following reactions serves as the confirmatory test for alkanoic acids in organic qualitative analysis?`,
+        options: [
+          `Reaction with saturated ${formula(
+            "NaHCO",
+            3
+          )} solution to evolve a gas which turns lime-water milky`,
+          `Reaction with an alkanol in the presence of some drops of conc. ${formula(
+            "H",
+            "2",
+            "SO",
+            4
+          )} to conc. ${formula(
+            "H",
+            2,
+            "SO",
+            4
+          )} to form an alkanoate (fruity odour)`,
+          `Reaction with an alkali to form a salt and water`,
+          `Reaction with an electropositive metal to liberate a gas which pops with a lighted splint`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 37,
+        question: `The presence of unsaturated in an organic compound can be confirmed by the use of the reagent.`,
+        options: [
+          `Tollen's reagent`,
+          `Fehling's solution`,
+          `Bromine water`,
+          `Million's reagent`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 38,
+        question: `Which of the aqueous solutions of the following substances would turn starch-iodide paper blue-black?`,
+        options: [
+          `An oxidizing agent`,
+          `A reducing agent`,
+          `An acid`,
+          `A base`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 39,
+        question: `Which of the following organic compounds would give an effervescemce with sodium hydrogentrioxocarbonate(IV) solution`,
+        options: [
+          `An alkali`,
+          `An alkanone`,
+          `An alkanioc acid`,
+          `An alkanoate`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 40,
+        question: `An aqueous solution of a salt that would not give a precipitate with a few drops of sodium hydroxide solution is`,
+        options: [
+          `${formula("KAl", `${formula("SO", 4)}`, 2)}.12${formula(
+            "H",
+            2,
+            "O"
+          )}`,
+          `${formula()}`,
+          `An alkanioc acid`,
+          `An alkanoate`,
+        ],
+        ans: "C",
+      },
+    ],
+  },
+
+  {
+    topic: "Nomenclature",
+    questions: [
+      {
+        id: 1,
+        question: `Which element is named first in a binary compound of S and Cl`,
+        options: ["S", "Cl"],
+        ans: `A`,
+      },
+      {
+        id: 2,
+        question: `Which element is named first in a binary compound of O and S`,
+        options: ["O", "S"],
+        ans: `B`,
+      },
+      {
+        id: 3,
+        question: `Which element is named first in a binary compound of O and Xe`,
+        options: ["O", "Xe"],
+        ans: `B`,
+      },
+      {
+        id: 4,
+        question: `Which element is named first in a binary compound of S and I`,
+        options: ["S", "I"],
+        ans: `A`,
+      },
+      {
+        id: 5,
+        question: `The name of the compound ${formula("IF")} is`,
+        options: [
+          "Iodine Fluorine",
+          "Monoiodine monofluoride",
+          "Iodine monofluoride",
+          "Iodine fluoride",
+        ],
+        ans: `C`,
+      },
+      {
+        id: 6,
+        question: `The name of the compound ${formula("NO")} is`,
+        options: [
+          "Nitrogen oxygen",
+          "Nitrogen oxide",
+          "Nitrogen monoxide",
+          "Mononitrogen oxide",
+        ],
+        ans: `C`,
+      },
+      {
+        id: 7,
+        question: `The name of the compound ${formula("NO")} is`,
+        options: [
+          "Nitrogen oxygen",
+          "Nitrogen oxide",
+          "Nitrogen monoxide",
+          "Mononitrogen oxide",
+        ],
+        ans: `C`,
+      },
+      {
+        id: 8,
+        question: `The name of the compound ${formula("SO", 3)} is`,
+        options: [
+          "Sulphur trioxide",
+          "Sulphur oxide",
+          "Sulphur tetroxide",
+          "Sulphuric oxide",
+        ],
+        ans: `A`,
+      },
+      {
+        id: 9,
+        question: `The name of the compound ${formula("CO", 2)} is`,
+        options: [
+          "Carbon dioxygen",
+          "Carbon trioxide",
+          "Monocarbon dioxide",
+          "Carbon dioxide",
+        ],
+        ans: `D`,
+      },
+      {
+        id: 10,
+        question: `The name of the compound ${formula("As", 2, "O", 5)} is`,
+        options: [
+          "Arsenic pentoxide",
+          "Diarsenic pentoxide",
+          "Arsenic oxide",
+          "Arsenous acid",
+        ],
+        ans: `B`,
+      },
+      {
+        id: 11,
+        question: `The name of the compound ${formula("H", 2, "S")} is`,
+        options: [
+          "Dihydrogen monosulfide",
+          "Hydrogen sulfide",
+          "Hydrogen monosulfide",
+          "Sulphuric acid",
+        ],
+        ans: `B`,
+      },
+      {
+        id: 12,
+        question: `The name of the compound ${formula("Si", "Cl", 4)} is`,
+        options: [
+          "Silicon tetrachloride",
+          "Silicon tetrachlorine",
+          "Monosilicon chloride",
+          "Silicon chloride",
+        ],
+        ans: `A`,
+      },
+      {
+        id: 13,
+        question: `The name of the compound ${formula("PBr", 5)} is`,
+        options: [
+          "Phosphate acid",
+          "Phosphorus pentbromide",
+          "Phosphorus pentabromide",
+          "Phosphorus bromide",
+        ],
+        ans: `C`,
+      },
+      {
+        id: 14,
+        question: `The name of the compound ${formula("P", 4, "O", 10)} is`,
+        options: [
+          "tetraphosphorus decoxide",
+          "Monophosphate decoxide",
+          "Monophosphorus decoxide",
+          "Phosphoric acid",
+        ],
+        ans: `A`,
+      },
+      {
+        id: 15,
+        question: `The formula for Dinitrogen pentoxide is`,
+        options: [
+          `${formula("NO", 5)}`,
+          `${formula("N", 2, "O")}`,
+          `${formula("N", 2, "O", 5)}`,
+          `${formula("N", 3, "O", 6)}`,
+        ],
+        ans: `C`,
+      },
+      {
+        id: 16,
+        question: `The formula for Tetrarsenic hexoxide is`,
+        options: [
+          `${formula("As", 4, "O", "6")}`,
+          `${formula("As", 3, "O", 3)}`,
+          `${formula("As", 2, "O", 3)}`,
+          `${formula("As", 6, "O", 8)}`,
+        ],
+        ans: `A`,
+      },
+      {
+        id: 17,
+        question: `The name of ${ion("Co", 2, "+")} is`,
+        options: [`Cobalt`, `Cobalt(II)`, `cobalt ion`, `Cobalt(II) ion`],
+        ans: `D`,
+      },
+      {
+        id: 18,
+        question: `What is the charge of chromium ion in the compound ${formula(
+          "CrCl",
+          2
+        )}`,
+        options: [`1+`, `2+`, `3+`, `4+`],
+        ans: `B`,
+      },
+      {
+        id: 19,
+        question: `What is the charge on the anion in (${formula(
+          "NH",
+          4
+        )})<sub>3</sub>${formula("VO", 4)}?`,
+        options: [`1-`, `2-`, `3-`, `4-`],
+        ans: `C`,
+      },
+      {
+        id: 20,
+        question: `The formula of Magnesium sulfide is`,
+        options: [
+          `${formula("Mg", 2, "S")}`,
+          `${formula("Mg", "S")}`,
+          `${formula("MgS", 2)}`,
+          `${formula("Mg", "S", 3)}`,
+        ],
+        ans: `B`,
+      },
+      {
+        id: 21,
+        question: `The formula of Sodium iodide is`,
+        options: [
+          `${formula("Na", 2, "I")}`,
+          `${formula("Na", "I")}`,
+          `${formula("Na", "I", 2)}`,
+          `${formula("Na", 2, "I", 3)}`,
+        ],
+        ans: `B`,
+      },
+      {
+        id: 22,
+        question: `The formula of Lead(IV) oxide is`,
+        options: [
+          `${formula("Pb", 4, "O")}`,
+          `${formula("Pb", "O", 4)}`,
+          `${formula("Pb", "O", 2)}`,
+          `${formula("Pb", 2, "O", 4)}`,
+        ],
+        ans: `C`,
+      },
+      {
+        id: 23,
+        question: `The formula of Aluminum oxide is`,
+        options: [
+          `${formula("Al", "O")}`,
+          `${formula("Al", "O", 3)}`,
+          `${formula("Al", 2, "O", 3)}`,
+          `${formula("Al", "O", 3)}`,
+        ],
+        ans: `C`,
+      },
+      {
+        id: 24,
+        question: `The name of ${formula("Cr", 2, "O", 3)} is`,
+        options: [
+          `Dichromium trioxide`,
+          `Chromium trioxide`,
+          `Chromium(III) oxide`,
+          `Chromium oxide`,
+        ],
+        ans: `C`,
+      },
+      {
+        id: 25,
+        question: `The name of ${formula("Al", 2, "O", 3)} is`,
+        options: [
+          `Aluminum trioxide`,
+          `Aluminum(III) oxide`,
+          `Dialuminum oxide`,
+          `Aluminum oxide`,
+        ],
+        ans: `D`, // this is simply the answer...
+      },
+      {
+        id: 26,
+        question: `The name of CuS and ${formula(
+          "Cu",
+          2,
+          "S"
+        )} are respectively?`,
+        options: [
+          `Copper sulfide and Dicopper sulfide`,
+          `Copper(I) sulfide and Copper(II) sulfide`,
+          `Copper(II) sulfide and Copper(I) sulfide`,
+          `Cuprite and Culprous`,
+        ],
+        ans: `C`, // this is simply the answer...
+      },
+      {
+        id: 27,
+        question: `Which of these is named wrongly<br />
+        A. ${ion(formula("SO", 4), 2, "-")} : Sulfate ion,<br />
+        B. ${ion(formula("CO", 3), 2, "-")} : Carbonite ion,<br />
+        C. ${ion(formula("NO", 3), "", "-")} : Nitrous ion,<br />
+        D. ${ion(formula("ClO", 3), "", "-")} : Chlorite ion`,
+        options: [`A only`, `B, C, and D`, `A, and B`, `B, and C`],
+        ans: `B`, // this is simply the answer...
+      },
+      {
+        id: 28,
+        question: `Name ${formula("NaNO", 3)}`,
+        options: [
+          `Sodium nitrogen oxide`,
+          `Sodium(I) nitrate`,
+          `Sodium nitrate`,
+          `Sodium trinitrate`,
+        ],
+        ans: `C`, // this is simply the answer...
+      },
+      {
+        id: 29,
+        question: `The formula for cobalt(III) hypochlorite.`,
+        options: [
+          `${formula("Co", "(ClO)", 3)}`,
+          `${formula("Co", 2, "(ClO)", 3)}`,
+          `${formula("Co", "(ClO)")}`,
+          `${formula("Co", "(ClO)", 4)}`,
+        ],
+        ans: `A`, // this is simply the answer...
+      },
+      {
+        id: 30,
+        question: `The name of ${formula("HNO", 3)} is`,
+        options: [
+          `Hydrogen nitrate acid`,
+          `Nitric acid`,
+          `Nitrous acid`,
+          `Nitrogen oxalic acid`,
+        ],
+        ans: `B`, // this is simply the answer...
+      },
+      {
+        id: 31,
+        question: `The name of ${formula("HClO", 4)} is`,
+        options: [
+          `Chlorate acid`,
+          `Perchlorate acid`,
+          `Perchloric acid`,
+          `chloric acid`,
+        ],
+        ans: `C`,
+      },
+      {
+        id: 32,
+        question: `The formula of Hypophosphorus acid is`,
+        options: [
+          `${formula("H", 3, "PO", 2)}`,
+          `${formula("H", "PO", 2)}`,
+          `${formula("H", 2, "PO", 2)}`,
+          `${formula("H", 2, "PO", 3)}`,
+        ],
+        ans: `A`,
+      },
+      {
+        id: 33,
+        question: `The name of ${formula("CuSO", 4)}.5${formula(
+          "H",
+          2,
+          "O"
+        )} is`,
+        options: [
+          `Copper(II) sulphate pentahydrate`,
+          `Copper(I) sulphate tetrahydrate`,
+          `Copper sulfate pentahydrate`,
+          `Copper sulfate tetrahydrate`,
+        ],
+        ans: `A`,
+      },
+      {
+        id: 34,
+        question: `Which of the following is mapped wrongly`,
+        options: [
+          `${ion(formula("NO", 2), "-")} -> nitrite ion`,
+          `${ion("ClO", 4, "-")} -> perchlorate ion`,
+          `${ion(formula("Cr", 2, "O", 7), 2, "-")} -> dichromate ion`,
+          `${ion("CN", "", "-")} -> carbon nitride ion`,
+        ],
+        ans: `D`,
+      },
+      {
+        id: 35,
+        question: `The name of ${formula("CuClO")} is?`,
+        options: [
+          `Copper hypochlorite`,
+          `Copper(I) hypochlorite`,
+          `Copper hypochloride`,
+          `Copper(I) hypochloride`,
+        ],
+        ans: `B`,
+      },
+      {
+        id: 36,
+        question: `The name of ${formula("Hg", 2, "SO", 4)} is?`,
+        options: [
+          `Mercury(II) sulfide`,
+          `Mercury(I) sulfate`, // hmmmm...
+          `Mercury(I) sulfide`,
+          `Mercury(II) sulfate`,
+        ],
+        ans: `B`,
+      },
+      {
+        id: 37,
+        question: `The name of ${formula("Li", 2, "S")} is?`,
+        options: [
+          `Dilithium sulfate`,
+          `Lithium sulfate`,
+          `Lithium sulfide`,
+          `Dilithium sulfide`,
+        ],
+        ans: `C`,
+      },
+      {
+        id: 38,
+        question: `What is the formula for potassium fluoride?`,
+        options: [
+          `${formula("KF", 2)}`,
+          `${formula("KF")}`,
+          `${formula("K", 2, "F")}`,
+          `${ion("KF", "", "-")}`, // making sense
+        ],
+        ans: `B`,
+      },
+      {
+        id: 39,
+        question: `What prefix is used if there are three atoms of an element in a given compound`,
+        options: [
+          `Mono-`,
+          `Tri-`,
+          `Di-`,
+          `Tetra-`, // making sense
+        ],
+        ans: `B`,
+      },
+      {
+        id: 40,
+        question: `If a compound is made from a metal element and a non-metal element, which element goes first in the name?`,
+        options: [
+          "Non-metal element",
+          "Metal element",
+          "It's alphabetical",
+          "It's based on their position in the periodic table",
+        ],
+        ans: `B`,
+      },
+    ],
+  },
+
+  {
+    topic: "Nitrogen",
+    questions: [
+      {
+        id: 1,
+        question:
+          "Nitrogen is a non-metal which is found in what group of the periodic table?",
+        options: ["I", "II", "III", "VI", "V"],
+        ans: "E",
+      },
+      {
+        id: 2,
+        question: "Which of the following does not contain element nitrogen",
+        options: ["ammonia", "sugar", "air", "aqau fortis"],
+        ans: "B",
+      },
+      {
+        id: 3,
+        question: "Nitrogen is used for the following except",
+        options: [
+          "in the production of ammonia gas",
+          "it is used as a refrigerant",
+          "for prevention of fire",
+          "in the manufacture of CO<sub>2</sub>",
+        ],
+        ans: "D",
+      },
+      {
+        id: 4,
+        question:
+          "Nitrogen can be obtained from ammonia by passing ammonia over heated",
+        options: ["Cu", "CuO", "C", "CaO"],
+        ans: "B",
+      },
+      {
+        id: 5,
+        question: "Nitrogen can obtained industrially",
+        options: [
+          "by passing ammonia over heated CuO",
+          "from liquified air by fractional distillation",
+          `from reaction of ${formula("NaNO", 2)} with ${formula(
+            "NH",
+            4,
+            "Cl"
+          )}`,
+          "from atmospheric air",
+        ],
+        ans: "B",
+      },
+      {
+        id: 6,
+        question: `Why is NH<sub>4</sub>NO<sub>2</sub> not heated directly to give ${formula(
+          "N",
+          2
+        )}?`,
+        options: [
+          "it is unstable",
+          "the reaction is very slow",
+          "it may lead to explosion",
+          "it is not spontaneous",
+        ],
+        ans: "C",
+      },
+      {
+        id: 7,
+        question: "Which of the following gives an impure Nitrogen",
+        options: [
+          "atmospheric air",
+          `from ${formula("NH", 4, "NO", 2)}`,
+          "from ammonia gas",
+          "from liquefied air",
+        ],
+        ans: "A",
+      },
+      {
+        id: 8,
+        question: "Atmospheric air is passed over heated copper, Cu, to remove",
+        options: ["Hydrogen", "Sulphur", "Oxygen", "Carbon(IV)Oxide"],
+        ans: "C",
+      },
+      {
+        id: 9,
+        question:
+          "Atmospheric air is passed through aqueous NaOH in order to remove",
+        options: [
+          `${formula("H", 2, "S")}`,
+          `${formula("CO", 2)}`,
+          "CuO",
+          `${formula("H", 2, "O")}`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 10,
+        question:
+          "Which of the following is <strong>false</strong> about Nitrogen",
+        options: [
+          "pure nitrogen is colorless and odorless",
+          "it is insoluble in water",
+          "it is lighter than air",
+          "it has 4 valence electron",
+        ],
+        ans: "D",
+      },
+      {
+        id: 11,
+        question: `What are the product of the following reaction <br /> <span class="reaction">3CuO<sub>(s)</sub> + 2NH<sub>3(g)</sub> -></span> `,
+        options: [
+          `Cu, ${formula("H", 2, "O")}, ${formula("H", 2)}`,
+          `Cu, ${formula("SO", 2)}, ${formula("N", 2)}`,
+          `Cu, ${formula("H", 2, "O")}, ${formula("N", 2)}`,
+          `Cu, ${formula("NO", 2)}, ${formula("O", 2)}</sub>`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 12,
+        question: `The electronic configuration of Nitrogen is`,
+        options: [
+          `${eConfig("1s", 2, "2s", 2, "2p", 3)}`,
+          `${eConfig("1s", 2, "2s", 2, "2p", 6, "3s", 1)}`,
+          `${eConfig("1s", 2, "2s", 1)}`,
+          `${eConfig("1s", 2, "2s", 2, "2p", 4)}`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 13,
+        question: `The decomposition of ${formula(
+          "NH",
+          4,
+          "NO",
+          2,
+          "aq"
+        )} gives`,
+        options: [
+          `NO<sub>2</sub> and H<sub>2</sub>O`,
+          `N<sub>2</sub> and H<sub>2</sub>O`,
+          `N<sub>2</sub>O and H<sub>2</sub>O`,
+          `N<sub>2</sub> and O<sub>2</sub>`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 14,
+        question: `The percentage of Nitrogen in 1 dm<sup>3</sup> of air is?`,
+        options: [
+          "0.5 dm<sup>3</sup>",
+          "0.2 dm<sup>3</sup>",
+          "0.6 dm<sup>3</sup>",
+          "0.8 dm<sup>3</sup>",
+        ],
+        ans: "D",
+      },
+      {
+        id: 15,
+        question: `Nitrogen is usually collected over water because`,
+        options: [
+          "it is denser than water",
+          "it is less dense than water",
+          "it is insoluble in water",
+          "it is soluble in water",
+        ],
+        ans: "C",
+      },
+      {
+        id: 16,
+        question: `Which of the following is true about the chemical properties of Nitrogen gas <br /> I. It does not support combustion <br /> II. It turns blue litmus red <br /> III. Nitrogen is very reactive <br /> IV. It reacts with magnesium to produce a solid white magnesium nitride, Mg<sub>3</sub>N<sub>2</sub>`,
+        options: [
+          "I, II, III, IV",
+          "II and III",
+          "I and IV",
+          "II, III, and IV",
+        ],
+        ans: "C",
+      },
+      {
+        id: 17,
+        question: `Which of the following condition is/are required for Nitrogen to react with hydrogen <br /> I. high temperature <br /> II. high pressure <br /> III. finely divided iron catalyst`,
+        options: ["all of the above", "II only", "II and III", "IV only"],
+        ans: "A",
+      },
+      {
+        id: 18,
+        question: `Nitrogen reacts with Oxygen at high temperature and pressure to produce`,
+        options: [
+          "NO<sub>2</sub>",
+          "NO",
+          "N<sub>2</sub>O",
+          "N<sub>2</sub>O<sub>5</sub>",
+        ],
+        ans: "B",
+      },
+      {
+        id: 19,
+        question: `The method used in separating nitrogen from oxygen in liquefied air is`,
+        options: [
+          "fractional crystallization",
+          "crystallization",
+          "fractional distillation",
+          "distillation",
+        ],
+        ans: "C",
+      },
+      {
+        id: 20,
+        question: `Nitrogen can be obtained in the laboratory from`,
+        options: [
+          "a solution of sodium trioxonitrate(V) and ammonium chloride",
+          "a solution of sodium dioxonitrate(III) and ammonium chloride",
+          "a solution of sodium dioxonitrate(IV) and ammonium chloride",
+          "conc. tetraoxosulfate(V) and sodium trioxonitrate(IV)",
+        ],
+        ans: "B",
+      },
+      {
+        id: 21,
+        question: `Which of the following is false about ammonia`,
+        options: [
+          "it is a covalent molecule",
+          "it is highly soluble in water being polar",
+          "it is a gas",
+          "it can be dried with fused calcium chloride",
+        ],
+        ans: "D",
+      },
+      {
+        id: 22,
+        question: `Ammonia is prepared in the lab from`,
+        options: [
+          "slaked lime and ammonium fluoride",
+          "caustic soda and hydrogen chloride",
+          "ammonium chloride and slaked lime",
+          "slaked lime and calcium chloride",
+        ],
+        ans: "C",
+      },
+      {
+        id: 23,
+        question: `which of the following pair is used in drying ammonia gas`,
+        options: [
+          "silica gel and calcium oxide",
+          "calcium chloride and silica gel",
+          "calcium oxide and conc. sulphuric acid",
+          "conc. sulphuric acid and phosphorus",
+        ],
+        ans: "A",
+      },
+      {
+        id: 24,
+        question: `Which of the following is true`,
+        options: [
+          "ammonia gas is a colorless gas with a sweet smell",
+          "fused calcium chloride forms a complex with NH<sub>3</sub>",
+          "conc. sulphuric acid is suitable for drying ammonia",
+          "ammonia gas turns blue litmus red",
+        ],
+        ans: "B",
+      },
+      {
+        id: 25,
+        question: `Ammonia is used for demonstrating the fountain experiment because`,
+        options: [
+          "it is insoluble in water",
+          "it is partially soluble in water",
+          "it is soluble in water",
+          "it is highly soluble in water",
+        ],
+        ans: "D",
+      },
+      {
+        id: 26,
+        question: `Ammonia is usually collected by upward delivery because`,
+        options: [
+          "it is denser than air",
+          "it is lighter than air",
+          "it reacts with Oxygen in air",
+          "it combines with rare gases in air",
+        ],
+        ans: "B",
+      },
+      {
+        id: 27,
+        question: `Which of the following is true of the physical properties of ammonia`,
+        options: [
+          "it is colorless with a choking smell",
+          "it is lighter than air, hence, it is collected by upward delivery",
+          "it is highly soluble in water",
+          "it is readily liquefied; being polar, and with hydrogen bonds between the molecules",
+          "all of the above",
+        ],
+        ans: "E",
+      },
+      {
+        id: 28,
+        question: `A solution of ammonia gas in water is called`,
+        options: [
+          "aqua fortis",
+          "strong water",
+          "aqueous ammonia",
+          "ammonium solution",
+        ],
+        ans: "C",
+      },
+      {
+        id: 29,
+        question: `The Haber process was discovered by `,
+        options: [
+          "Fritz Haber",
+          "Albert Einstein",
+          "Antoine Lavoiser",
+          "Dmitri Mendeleev",
+        ],
+        ans: "A",
+      },
+      {
+        id: 30,
+        question: `Which of the following reactions shows the reducing property of ammonia`,
+        options: [
+          `<span class="reaction">4NH<sub>3(g)</sub> + 3O<sub>2(g)</sub> -> 6H<sub>2</sub>O(l) + 2N<sub>2(g)</sub></span>`,
+          `<span class="reaction">4NH<sub>3(g)</sub> + 3CuO<sub>(g)</sub> -> 3Cu<sub>s</sub>(s) + 2N<sub>2(g)</sub> + 3H<sub>2</sub>O(l)</span>`,
+          `<span class="reaction">4NH<sub>3(g)</sub> + H<sub>2</sub>O(l) -> NH<sub>4</sub>OH<sub>(aq)</sub></span>`,
+          `<span class="reaction">4NH<sub>3(g)</sub> + H<sub>2</sub>SO<sub>4(aq)</sub>-> (NH<sub>4</sub>)<sub>2</sub>SO<sub>4(s)</sub></span>`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 31,
+        question: `Which of the following is not true of ammonia`,
+        options: [
+          "It turns moist red litmus paper blue ",
+          "It is the only alkaline gas",
+          "It is used in demonstrating the fountain experiment",
+          "It is a powerful oxidizing agent",
+        ],
+        ans: "D",
+      },
+      {
+        id: 32,
+        question: `Which of the following is true of the Haber process<br />
+                        I. it is used to manufacture ammonia <br />
+                        II. finely divided iron is used as catalyst <br />
+                        III. it occurs at 200-250atm and 450 degree celcuis <br />
+                        IV. It was devised by a German chemist`,
+        options: ["I", "I, II, III", "all of the above", "none of the above"],
+        ans: "C",
+      },
+      {
+        id: 33,
+        question: `Which of the following when reacted with aqueous ammonia gives an insoluble gelatinous white precipate which disappears in excess`,
+        options: [
+          "Fe<sup>2+</sup>",
+          "Fe<sup>3+</sup>",
+          "Cu<sup>2+</sup>",
+          "Zn<sup>2+</sup>",
+        ],
+        ans: "D",
+      },
+      {
+        id: 34,
+        question: `When Fe<sup>2+</sup> solution is mixed with aqueous ammonia, the overall solution becomes`,
+        options: ["green", "blue", "yellow", "red"],
+        ans: "A",
+      },
+      {
+        id: 35,
+        question: `When each of the nitrates of potassium, magnesium, and iron is heated`,
+        options: [
+          "all the nitrates decompose to the oxide",
+          "the nitrate of magnesium gives the nitrite and oxygen",
+          "the nitrates of magnesium and iron give the oxides",
+          "the nitrate of iron gives the nitrate and oxygen",
+          "the nitrate of magnesium is not decomposed",
+        ],
+        ans: "C",
+      },
+      {
+        id: 36,
+        question: `The brown coloration in nitric acid prepared in the laboratory can be removed by`,
+        options: [
+          "heating the acid",
+          "bubbling air through the acid",
+          "cooling the acid",
+          "adding a decolorizing agent",
+        ],
+        ans: "B",
+      },
+      {
+        id: 37,
+        question: `What happens when the nitrates of potassium, calcium, zinc, and copper are separately heated`,
+        options: [
+          "all the nitrates will decompose to their respective metals",
+          "the nitrates of calcium and potassium will decompose to their nitrites",
+          "only copper nitrate decomposes to the metal",
+          "only the nitrates of calcium, zinc, and copper decompose to their oxides",
+        ],
+        ans: "D",
+      },
+      {
+        id: 38,
+        question: `Which of the following methods may be used to prepare trioxonitrate (V) acid in the lab `,
+        options: [
+          "heating ammonia gas with sulphuric acid",
+          "heating ammonium trixonitrate (V) with sulphuric acid",
+          "heating sodium trioxonitrate (V) with sulphuric acid",
+          "heating potassium nitrate (V) with calcium hydroxide",
+          "heating a mixture of ammonia gas and oxygen",
+        ],
+        ans: "C",
+      },
+      {
+        id: 39,
+        question: `In the Haber process for the manufacture of ammonia, finely divided iron is used as `,
+        options: [
+          "a catalyst",
+          "an ionizing agent",
+          "a reducing agentd",
+          "an oxidizing agent",
+          "a dehydrating agent",
+        ],
+        ans: "A",
+      },
+      {
+        id: 40,
+        question: `ammonia gas is normally dried with`,
+        options: [
+          "anhydrous calcium chloride",
+          "conc sulphuric acid",
+          "quicklime",
+          "magnesium sulphate",
+        ],
+        ans: "C",
+      },
+      {
+        id: 41,
+        question: `Hydrogen is not liberated when trioxonitrate(V) acid reacts with zinc because`,
+        options: [
+          "zinc is rendered passive by the acid",
+          "hydrogen produced is oxidized to water",
+          "oxides of nitrogen are produced",
+          "all nitrates are soluble in water",
+          "trioxonitrate(V) acid is a strong acid",
+        ],
+        ans: "B",
+      },
+      {
+        id: 42,
+        question: `Which of the following gases will rekindle a brightly glowing splint`,
+        options: ["NO<sub>2</sub>", "NO", "N<sub>2</sub>O", "Cl<sub>2</sub>"],
+        ans: "C",
+      },
+      {
+        id: 43,
+        question: `Which of the following oxides of nitrogen is unstable in air`,
+        options: [
+          "NO<sub>2</sub>",
+          "NO",
+          "N<sub>2</sub>O<sub>4</sub>",
+          "Cl<sub>2</sub>",
+        ],
+        ans: "B",
+      },
+      {
+        id: 44,
+        question: `The gas that gives brown coloration in brown ring test is`,
+        options: [
+          "NO<sub>2</sub>",
+          "NO",
+          "N<sub>2</sub>O<sub>4</sub>",
+          "Cl<sub>2</sub>",
+        ],
+        ans: "A",
+      },
+      {
+        id: 45,
+        question: `A dense white fume is formed when ammonia gas reacts with`,
+        options: ["H<sub>2</sub>", "O<sub>2</sub>", "Cl<sub>2</sub>", "HCl"],
+        ans: "D",
+      },
+      {
+        id: 46,
+        question: `Which of the folllowing are produced when ammonium trioxonitrate(V) crystals are cautiously heated in a hard glass`,
+        options: [
+          "N<sub>2</sub>O and steam",
+          "NO<sub>2</sub> and ammonia",
+          "N<sub>2</sub>O<sub>4</sub> and NO<sub>2</sub>",
+          "NO and NO<sub>2</sub>",
+        ],
+        ans: "A",
+      },
+      {
+        id: 47,
+        question: `Which of the following gases has a characteristics pungent smell, turns red litmus paper blue and forms dense white fumes with hydrogen chloride gas?`,
+        options: [
+          "N<sub>2</sub>",
+          "NO<sub>2</sub>",
+          "N<sub>2</sub>O<sub>4</sub>",
+          "NH<sub>3</sub>",
+        ],
+        ans: "D",
+      },
+      {
+        id: 48,
+        question: `Which of the following gases is employed as an anaesthesia`,
+        options: [
+          "N<sub>2</sub>O",
+          "NO<sub>2</sub>",
+          "N<sub>2</sub>O<sub>4</sub>",
+          "NH<sub>3</sub>",
+        ],
+        ans: "A",
+      },
+      {
+        id: 49,
+        question: `Magnesium ribbon was allowed to burn inside a given gas P leaving a white solid residue Q. Addition of water to Q liberated a gas which produced dense white fumes with a drop of hydrochloric acid. The gas was`,
+        options: ["nitrogen", "chlorine", "oxygen", "sulphur(iv) oxide"],
+        ans: "A",
+      },
+      {
+        id: 50,
+        question: `The color of fountain water is `,
+        options: ["blue", "orange", "red", "yellow"],
+        ans: "C",
+      },
+      {
+        id: 51,
+        question: `The following reactions illustrate the chemical properties of ${formula(
+          "HNO",
+          3
+        )} except`,
+        options: [
+          `${formula("KOH", "aq")} + ${formula("HNO", 3, "aq")} -> ${formula(
+            "KNO",
+            3,
+            "aq"
+          )} + ${formula("H", 2, "O", "l")}`,
+          `${formula("C", "s")} + 4${formula("HNO", 3, "aq")} -> ${formula(
+            "H",
+            2,
+            "CO",
+            3,
+            "aq"
+          )} + ${formula("H", 2, "O", "l")} + ${formula("NO", 2)}`,
+          `3${formula("Cu", "s")} + 8${formula("HNO", 3, "aq")} -> 3${formula(
+            "Cu",
+            `(${formula("NO", 3)})`,
+            2,
+            "aq"
+          )} + 2${formula("NO", 2, "g")} + 4${formula("H", 2, "O")}`,
+          `${formula("Na", 2, "SO", 4, "aq")} + 2${formula(
+            "HNO",
+            3,
+            "aq"
+          )} -> 2${formula("NaNO", 3, "s")} + ${formula("H", 2, "SO", 4, "s")}`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 52,
+        question: `Which of the following compound of nitrogen is normally in liquid form`,
+        options: [
+          `${formula("NO", 2)}`,
+          `${formula("HNO", 3)}`,
+          `${formula("NaNO", 3)}`,
+          `${formula("N", 2, "O")}`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 53,
+        question: `Another name for ${formula("HNO", 3)} is`,
+        options: [
+          "aqua fortis",
+          "caustic soda",
+          "inslet of langerhans",
+          "quicklime",
+        ],
+        ans: "A",
+      },
+      {
+        id: 54,
+        question: `The following are uses of ${formula("HNO", 3)} except`,
+        options: [
+          "in the manufacture of drugs and explosives",
+          "as a nitrating agent",
+          "used in the manufacture of fertilizers",
+          "used in the production of cement",
+        ],
+        ans: "D",
+      },
+      {
+        id: 55,
+        question: `Which of the following reaction is incorrect`,
+        options: [
+          `${formula("NH", 4, "Cl")} -> ${formula("NH", 3)} + ${formula(
+            "HCl"
+          )}`,
+          `${formula(`(${formula("NH", 4)})`, 2, "CO", 3)} -> ${formula(
+            "NH",
+            3
+          )} + ${formula("HCl")}`,
+          `${formula("NH", 4, "NO", 3)} -> ${formula("N", 2, "O")} + ${formula(
+            "H",
+            2,
+            "O"
+          )}`,
+          `${formula(`(${formula("NH", 4)})`, 2, "SO", 4)} -> 2${formula(
+            "NH",
+            3
+          )} + ${formula("H", 2, "SO", 4)}`,
+          `${formula("NH", 4, "NO", 2)} -> ${formula("N", 2, "O")} + ${formula(
+            "H",
+            2,
+            "O"
+          )}`,
+        ],
+        ans: "E",
+      },
+      {
+        id: 56,
+        question: `Nitrogen can be best obtained from a mixture of oxygen and nitrogen by passing the mixture over`,
+        options: [
+          `potassium hydroxide`,
+          `heated gold`,
+          `heated phosphorus`,
+          `heated magnesium`,
+          `calcium chloride`,
+        ],
+        ans: "C",
+      },
+    ],
+  },
+
+  {
+    topic: "Carbon",
+    questions: [
+      {
+        id: 1,
+        question: "The driest and the hardest form of coal is",
+        options: ["peat", "lignite", "bituminous", "anthracite"],
+        ans: "D",
+      },
+      {
+        id: 2,
+        question:
+          "The process whereby a solid matter is heated in absence of air is called",
+        options: [
+          "destructive distillation",
+          "constructive distillation",
+          "destructive crystallization",
+          "constructive crystallization",
+        ],
+        ans: "A",
+      },
+      {
+        id: 3,
+        question:
+          "Which of the following is produced by the destructive distillation of wood<br>I. Wood charcoal<br>II. Wood gas<br>III. Wood tar<br>IV. Pyroligneous acid",
+        options: [
+          "I and IV",
+          "II and III",
+          "I, II, and III",
+          "all of the above",
+        ],
+        ans: "D",
+      },
+      {
+        id: 4,
+        question: "The solid residue of the distillation of coal is",
+        options: ["coal gas", "ammoniacal liquor", "coal tar", "coke"],
+        ans: "D",
+      },
+      {
+        id: 6,
+        question: `Coal gas is made up of carbon(II) oxide, hydrogen and`,
+        options: [`nitrogen`, `air`, `argon`, `methane`],
+        ans: "D",
+      },
+      {
+        id: 7,
+        question: `The process employed in the production of anhydrous sodium trioxocarbonate(IV) is`,
+        options: [
+          `harber process`,
+          `solvay process`,
+          `electrolytic process`,
+          `down process`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 8,
+        question: `Which allotrope of carbon is a constituent of lead pencil`,
+        options: [`graphite`, `diamond`, `lampblack`, `wood`],
+        ans: "A",
+      },
+      {
+        id: 9,
+        question: `Which of the statements is TRUE about carbon(IV) oxide`,
+        options: [
+          `it supports combustion`,
+          `it is a strong acid in water`,
+          `it is very soluble in water`,
+          `it supports the burning of magnesium to produce magnesium oxide`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 10,
+        question: `Diamond cannot be used`,
+        options: [
+          `in making bicycle chains`,
+          `as abrasives`,
+          `in cutting glass and metals`,
+          `as dies for drawing wires`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 11,
+        question: `Carbon(II) oxide is considered dangerous if inhaled mainly because it`,
+        options: [
+          `competes with oxygen in the blood`,
+          `competes with carbon(IV) oxide in the blood`,
+          `can cause lung cancer`,
+          `can cause injury to the nervous system`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 12,
+        question: `Diamond is used in making jewelry due to its`,
+        options: [
+          `high refractive index`,
+          `transparency`,
+          `hardness`,
+          `high melting point`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 13,
+        question: `Which of the following does not contain carbon?`,
+        options: [`marble`, `eggshell`, `air`, `quicklime`, `chalk`],
+        ans: "D",
+      },
+      {
+        id: 14,
+        question: `The phenomenon where an element exist in more than one form in the same physical state is called?`,
+        options: [`allotropy`, `isotopy`, `enantiomerism`, `isomerism`],
+        ans: "A",
+      },
+      {
+        id: 15,
+        question: `The ability of carbon atoms to join to one another by covalent bond in a continuous fashion is called?`,
+        options: [`cretinism`, `catenation`, `flocculation`, `coagulation`],
+        ans: "B",
+      },
+      {
+        id: 16,
+        question: `Which of the following is not an allotrope of carbon`,
+        options: [`diamond`, `graphite`, `fullerene`, `rhombic`],
+        ans: "D",
+      },
+      {
+        id: 17,
+        question: `The least common form of carbon is`,
+        options: [`diamond`, `graphite`, `fullerene`],
+        ans: "C",
+      },
+      {
+        id: 18,
+        question: `Carbon exists in the pure form as`,
+        options: [
+          `Diamond and graphite`,
+          `Diamond and Coke`,
+          `Coke and Charcoal`,
+          `Charcoal and Graphite`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 19,
+        question:
+          "Carbon is a nonmetal found in what group of the periodic table?",
+        options: ["I", "II", "IV", "VI", "V"],
+        ans: "C",
+      },
+      {
+        id: 20,
+        question:
+          "When carbon dioxide is bubbled into limewater a white precipitate is formed. If the passage of the gas is continued the precipitate disappears. The reason for this is?",
+        options: [
+          "Calcium carbonate is formed which gradually dissolves",
+          "Calcium hydrogen carbonate is precipitated and then dissolves",
+          "Calcium carbonate is formed which on reaction with further carbon dioxide forms soluble calcium hydrogen carbonate",
+          "Concentration of the solution has occured with the deposition of calcium hydroxide",
+          "The solution has become saturated and solid carbon dioxide has been deposited",
+        ],
+        ans: "C",
+      },
+      {
+        id: 21,
+        question: `When ammonium, potassium, and calcium carbonates are separately heated`,
+        options: [
+          `none of them will decompose`,
+          `each of them will decompose to give carbon dioxide and the respective oxide`,
+          `ammonium carbonate and potassium carbonate will not decompose`,
+          `only ammonium carbonate and calcium carbonate will decompose to give carbon dioxide and the respective oxide`,
+          `ammonium carbonate will decompose to give carbon dioxide, water, and ammonia`,
+        ],
+        ans: "E",
+        remark: `Check understanding chemistry pg 275 for more information`,
+      },
+      {
+        id: 22,
+        question: `When a bottle of coca-cola is opened, bubbles of gas evolve. The gas is?`,
+        options: [
+          `hydrogen`,
+          `carbon monoxide`,
+          `carbon dioxide`,
+          `sulfur dioxide`,
+          `chlorine`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 23,
+        question: `Liquid X reacts with sodium trioxocarbonate (IV), ${formula(
+          "Na",
+          2,
+          "CO",
+          3
+        )} to give a gas which turns calcium chloride solution milky. X is?`,
+        options: [
+          `${formula("Na", 2, "SO", 4)}`,
+          `${formula("KI")}`,
+          `an alkali`,
+          `an acid`,
+          `a hydrocarbon`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 24,
+        question: `Lime water, which is used in the laboratory for the detection of carbon(IV) oxide is an aqueous  solution of`,
+        options: [
+          `${formula("Ca(OH)", 2)}`,
+          `${formula("Ca", "CO", 3)}`,
+          `${formula("CaHCO", 3)}`,
+          `${formula("CaSO", 4)}`,
+          `${formula("Na", 2, "SO", 4)}`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 25,
+        question: `Which of the following is not true of carbon monoxide`,
+        options: [
+          `CO is poisonous`,
+          `CO is readily oxidized at room temperature by air to form ${formula(
+            "CO",
+            2
+          )}`,
+          `CO may be prepared by reducing ${formula(
+            "CO",
+            2
+          )} mixed with coke heated to about 1000 degree celcius`,
+          `CO may be prepared by heating charcoal with a limited amount of ${formula(
+            "O",
+            2
+          )}`,
+          `CO is a good reducing agent`,
+        ],
+        ans: "B",
+        remark: `Though CO may be oxidized to form ${formula(
+          "CO",
+          2
+        )} this does not occur readily at room temperature. CO burns in air with a blue flame, forming carbon(IV) oxide.`,
+      },
+      {
+        id: 26,
+        question: `A piece of sea shell, when dropped into a dilute solution of hydrochloric acid, produces a colorless, odorless gas, which turns clear limewater milky. The shell contains`,
+        options: [
+          `sodium chloride`,
+          `ammonium nitrate`,
+          `calcium carbonate`, // CaCO3
+          `calcium chloride`,
+          `magnesium chloride`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 27,
+        question: `Which of the following conducts electricity`,
+        options: [
+          `Sulphur`,
+          `Graphite`,
+          `Diamond`,
+          `Red phosphorus`,
+          `Yellow phosphorus`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 28,
+        question: `Which of the following is used in fire extinguishers?`,
+        options: [
+          `Carbon(II) oxide`,
+          `Carbon(IV) oxide`, // normally, CO2 is used in fire extinguishers
+          `Sulfur(IV) oxide`,
+          `Ammonia`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 29,
+        question: `Carbon(II) oxide may be collected over water because it`,
+        options: [
+          `is heavier than air`,
+          `is less dense than air`,
+          `is insoluble in water`,
+          `burns in oxygen to form carbon(IV) oxide`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 30,
+        question: `What process would coal undergo to give coal gas, coal tar, ammonical liquor, and coke`,
+        options: [
+          `steam distillation`,
+          `destructive distillation`,
+          `liquefaction`,
+          `hydrolysis`,
+        ],
+        ans: "B",
+        remark: "check page 278 of understanding chm.",
+      },
+      {
+        id: 31,
+        question: `Coal gas is a mixture of`,
+        options: [
+          `hydrogen, methane, and CO`,
+          `ethane, ammonia, and Carbon(IV) oxide`,
+          `hydrogen and CO`,
+          `hydrogen sulfide and aqueos ammonia`,
+        ],
+        ans: "A",
+        remark: "Check page 278 of understanding chemistry",
+      },
+      {
+        id: 32,
+        question: `The main gaseous product of the destructive distillation of coal is`,
+        options: [`coal tar`, `coal gas`, `ammoniacal liquor`, `coke`],
+        ans: "B",
+        remark: "check pg 278 of understanding chm",
+      },
+      {
+        id: 33,
+        question: `Some product of destructive distillation of coal are`,
+        options: [
+          `carbon(IV) oxide and ethanoic acid`,
+          `trioxocarbonate(IV) acid and methanoic acid`,
+          `producer gas and water gas`,
+          `coke and ammoniacal liquor`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 34,
+        question: `Coal fire should not be used in poorly ventilated room because`,
+        options: [
+          `of the accumulation of ${formula("CO", 2)} which cause deep sleep`,
+          `it is usually too hot`,
+          `of the accumulation CO of which causes suffocation`,
+          `it removes most of the gases in the room`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 35,
+        question: `Which of the following salts can be melted without decomposition?`,
+        options: [
+          `${formula("Na", 2, "CO", 3)}`,
+          `${formula("CaCO", 3)}`,
+          `${formula("MgCO", 3)}`,
+          `${formula("ZnCO", 3)}`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 36,
+        question: `_____ is to diamond and _____ is to graphite`,
+        options: [
+          `network octahedral structure and flat hexagonal structure`,
+          `flat hexagonal structure and network octahedral structure`,
+          `round octahedral structure and flux hexagonal structure`,
+          `flux hexagonal structure and round octahedral structure`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 37,
+        question: `Graphite conducts electricity because`,
+        options: [
+          `it has mobile electrons in its atoms`,
+          `it is soft and slippery`,
+          `it is insoluble`,
+          `it is hard`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 38,
+        question: `Synthetic gas is a mixture of`,
+        options: [
+          `${formula("CH", 4)} and ${formula("H", 2, "O")}`,
+          `${formula("CO")} and ${formula("H", 2)}`,
+          `${formula("CO", 2)} and ${formula("H", 2)}`,
+          `${formula("CH", 4)} and ${formula("H", 2)}`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 39,
+        question: `A form of carbon used for absorbing poisonous gases and purification of noble gases is`,
+        options: [
+          `carbon fibres`,
+          `animal charcoal`,
+          `wood charcoal`,
+          `carbon black`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 40,
+        question: `The refreshing and characteristics taste of soda water and other soft drinks is a result of the presence in them of`,
+        options: [`soda`, `carbon(II) oxide`, `carbon(IV) oxide`, `glucose`],
+        ans: "C",
+      },
+      {
+        id: 41,
+        question: `The allotrope of carbon used in the decolorization of sugar is`,
+        options: [`graphite`, `soot`, `charcoal`, `lampblack`],
+        ans: "C",
+      },
+      {
+        id: 42,
+        question: `When steam is passed over red-hot carbon, the substances produced are`,
+        options: [
+          `hydrogen and trioxocarbonate(IV) acid`,
+          `hydrogen, oxygen and carbon(IV) oxide`,
+          `hydrogen and carbon(II) oxide`,
+          `hydrogen and carbon(IV) oxide`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 43,
+        question: `To obtain pure carbon(II) oxide from its mixture with carbon(IV) oxide, the mixture should be`,
+        options: [
+          `bubbled through concentrated tetraoxosulfate(VI) acid`,
+          `bubbled through sodium hydroxide`,
+          `passed over heated copper(II) oxide`,
+          `bubbled through water`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 44,
+        question: `A solution which on treatment with HCl acid produces a colorless, odorless gas which turns lime water milky is most likely to be a`,
+        options: [`chloride`, `hydroxide`, `nitrate`, `carbonate`],
+        ans: "D",
+      },
+      {
+        id: 45,
+        question: `The gasification of coke is used for the manufacture of`,
+        options: [
+          `producer gas`,
+          `natural gas`,
+          `industrial gas`,
+          `synthetic gas`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 46,
+        question: `Carbon exist naturally in the combined state as`,
+        options: [`diamond`, `coal`, `wood`, `graphite`],
+        ans: "B",
+      },
+    ],
+  },
 ];
 
 // if it's not working rn, I will have to read sth else... shey u understand...
@@ -10526,8 +12886,8 @@ export { chemistryQuestions };
 // What does this mean for me?
 // it's got to translate to something meaningful for me you know...
 
-function Heat(type,compound) {
-  return `&Delta;H&deg;<sub>${type}</sub>(${compound})`
+function Heat(type, compound) {
+  return `&Delta;H&deg;<sub>${type}</sub>(${compound})`;
 }
 
 // console.log(chemistryQuestions.reduce((a,b) => a + b.questions.length, 0))
