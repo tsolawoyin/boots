@@ -11346,11 +11346,252 @@ let chemistryQuestions = [
             2,
             "O"
           )}`,
-          `${formula()}`,
-          `An alkanioc acid`,
-          `An alkanoate`,
+          `${formula("K",4,"Fe",`(${formula("CN")})`,6)}`,
+          `${formula("CuSO",4)}.5${formula("H",2,"O")}`,
+          `${formula("Zn",`(${formula("NO",3)})`,2)}`,
+        ],
+        ans: "B",
+        // INSERT RIGHT ANSWER
+      },
+      {
+        id: 41,
+        question: `Heating a reducing sugar with Fehling's solution will lead to the production of`,
+        options: [
+          `deep blue solution`,
+          `fruity odour`,
+          `brick-red precipitate`,
+          `black mass`
         ],
         ans: "C",
+        // INSERT RIGHT ANSWER
+      },
+      {
+        id: 42,
+        question: `A compound that gives a yellow residue when heated is`,
+        options: [
+          `${formula("Zn","CO",3)}`,
+          `${formula("PbCO",3)}`,
+          `${formula("CuCO",3)}`,
+          `${formula("Na",2,"CO",3)}`
+        ],
+        ans: "A",
+        // INSERT RIGHT ANSWER
+      },
+      {
+        id: 43,
+        question: `A metal, oxygen and nitrogen(IV) oxide are produced on heating`,
+        options: [
+          `${formula("NaNO",3)}`,
+          `${formula("AgNO",3)}`,
+          `${formula("Pb",`(${formula("NO",3)})`,2)}`,
+          `${formula("Cu",`(${formula("NO",3)})`,2)}`,
+        ],
+        ans: "B",
+        // INSERT RIGHT ANSWER
+      },
+      {
+        id: 44,
+        question: `On carefully heating ${formula("NH",4,"NO",3)} crystals in a hard glass flask, the products are`,
+        options: [
+          `NO and ${formula("NO",2)}`,
+          `${formula("NO",2)} and ${formula("NH",3)}`,
+          `${formula("N",2,"O")} and ${formula("NO",2)}`,
+          `${formula("N",2,"O")} and steam`,
+        ],
+        ans: "D",
+        // INSERT RIGHT ANSWER
+      },
+      {
+        id: 45,
+        question: `Which of the following compounds would not produce oxygen on heating?`,
+        options: [
+          `${formula("NaClO",3)}`,
+          `${formula("NaNO",3)}`,
+          `${formula("NaNO",2)}`,
+          `${formula("AgNO",3)}`,
+        ],
+        ans: "C",
+        // INSERT RIGHT ANSWER
+      },
+      {
+        id: 46,
+        question: `On strongly heating sodium trioxonitrate(V), one of the products is`,
+        options: [
+          `sodium metal`,
+          `sodium oxide`,
+          `sodium dioxonitrate(III)`,
+          `nitrogen(IV) oxide`,
+        ],
+        ans: "C",
+        // INSERT RIGHT ANSWER
+      },
+      {
+        id: 47,
+        question: `A compound that decomposes on heating to give oxygen as the only gaseous product is`,
+        options: [
+          `${formula("NH",4,"NO",3)}`,
+          `${formula("Pb",`(${formula("NO",3)})`,2)}`,
+          `${formula("Cu",`(${formula("NO",3)})`,2)}`,
+          `${formula("KNO",3)}`,
+        ],
+        ans: "D",
+        // INSERT RIGHT ANSWER
+      },
+      {
+        id: 48,
+        question: `Which of the following is the best way to distinguish between ${formula("Na",2,"CO",3)} and ${formula("NaHCO",3)}?`,
+        options: [
+          `Dissolving in water`,
+          `Heating`,
+          `Adding an acid`,
+          `Exposing to air`,
+        ],
+        ans: "B",
+        // INSERT RIGHT ANSWER
+      },
+      {
+        id: 49,
+        question: `A salt that is stable to heat is`,
+        options: [
+          `${formula("Na",2,"CO",3)}`,
+          `${formula("KHCO",3)}`,
+          `${formula("Hg",`(${formula("NO",3)})`,2)}`,
+          `${formula("NH",4,"NO",3)}`,
+        ],
+        ans: "A",
+        // INSERT RIGHT ANSWER
+      },
+      {
+        id: 50,
+        question: `A suitable indicator in the titration of potassium trioxocarbonate(IV) solution against hydrochloric acid (complete neutralization) is`,
+        options: [
+          `universal indicator`,
+          `litmus paper`,
+          `phenolphthelein`,
+          `methyl orange`,
+        ],
+        ans: "D",
+        // INSERT RIGHT ANSWER
+      },
+      {
+        id: 51,
+        question: `Calculate the mass of potassium trioxocarbonate(IV) in 250${units("cm",3)} of 0.100 ${units("mol dm",-3)} solution. [${formula("K",2,"CO",3)} = 138${units("g mol",-1)}]`,
+        options: [
+          `1.85g`,
+          `2.50g`,
+          `3.45g`,
+          `4.30g`,
+        ],
+        ans: "C",
+        // INSERT RIGHT ANSWER
+      },
+      {
+        id: 52,
+        question: `What volume of 0.200 ${units("moldm",-3)} ${formula("H",2,"SO",4)} will be required to neutralize 25${units("cm",3)} of 0.100 ${units("moldm",-3)} NaOH solution?`,
+        options: [
+          `3.20 ${units("cm",3)}`,
+          `6.25 ${units("cm",3)}`,
+          `12.50 ${units("cm",3)}`,
+          `15.75 ${units("cm",3)}`,
+        ],
+        ans: "B",
+        // INSERT RIGHT ANSWER
+      },
+      {
+        id: 53,
+        question: `25${units("cm",-3)} of a solution containing 1.06g of anhydrous ${formula("Na",2,"CO",3)} in 200${units("cm",3)} requires 20${units("cm",-3)} of an aqueous solution of ${formula("H",2,"SO",4)}. What is the concentration of the acid solution in ${units("moldm",-3)}? [${formula("Na",2,"CO",3)} = 106${units("gmol",-1)}]`,
+        options: [
+          `0.125`,
+          `0.0625`,
+          `0.0313`,
+          `0.0105`
+        ],
+        ans: "B",
+        // INSERT RIGHT ANSWER
+      },
+      {
+        id: 54,
+        question: `3.75g of an acid, HX, was made up to 500${units("cm",3)} with distilled water. 20${units("cm",3)} of this solution required 25${units("cm",3)} of 0.100 ${units("moldm",-3)} NaOH solution for equivalence. What is the molar mass of the acid`,
+        options: [
+          `30${units("g mol",-1)}`,
+          `36.5${units("g mol",-1)}`,
+          `50${units("g mol",-1)}`,
+          `60${units("g mol",-1)}`,
+        ],
+        ans: "D",
+        // INSERT RIGHT ANSWER
+      },
+      {
+        id: 55,
+        question: `25${units("cm",3)} of a 0.05${units("mol dm",-3)} solution of ${formula("K",2,"CO",3)} requires 24,0${units("cm",3)} of a solution of HCl for complete neutralization. What is the concentration of the HCl solution?`,
+        options: [
+          `0.125${units("mol dm",-3)}`,
+          `0.104${units("mol dm",-3)}`,
+          `0.052${units("mol dm",-3)}`,
+          `0.026${units("mol dm",-3)}`,
+        ],
+        ans: "B",
+        // INSERT RIGHT ANSWER
+      },
+      {
+        id: 56,
+        question: `The volume of 0.200 ${units("mol dm",-3)} ${formula("H",2,"SO",4)} solution needed to dissolve 5.72g of sodium trioxocarbonate(IV) decahydrate is`,
+        options: [
+          `20 ${units("cm",3)}`,
+          `50 ${units("cm",3)}`,
+          `100 ${units("cm",3)}`,
+          `200 ${units("cm",3)}`,
+        ],
+        ans: "C",
+        // INSERT RIGHT ANSWER
+      },
+      {
+        id: 57,
+        question: `22.5 ${units("cm",3)} of 0.08 ${units("mol dm",-3)} ${formula("H",2,"SO",4)} solution requires 25 ${units("cm",3)} of potassium hydroxide solution for complete neutralization. What is the molar concentration of the KOH solution?`,
+        options: [
+          `0.146 ${units("mol dm",-3)}`,
+          `0.156 ${units("mol dm",-3)}`,
+          `0.166 ${units("mol dm",-3)}`,
+          `0.186 ${units("mol dm",-3)}`,
+        ],
+        ans: "A",
+        // INSERT RIGHT ANSWER
+      },
+      {
+        id: 58,
+        question: `160 ${units("cm",3)} of distilled water is added to 40 ${"cm",3} of 0.500 ${units("mol dm", -3)} ${formula("H",2,"SO",4)} solution, What is the concentration of the diluted solution?`,
+        options: [
+          `0.400 ${units("mol dm",-3)}`,
+          `0.300 ${units("mol dm",-3)}`,
+          `0.200 ${units("mol dm",-3)}`,
+          `0.100 ${units("mol dm",-3)}`,
+        ],
+        ans: "D",
+        // INSERT RIGHT ANSWER
+      },
+      {
+        id: 59,
+        question: `The appropriate concentration of the solution of the solution formed when 5g of potassium hydroxide is dissolved in 250 ${units("cm",3)} water is?`,
+        options: [
+          `0.20 ${units("mol dm",-3)}`,
+          `0.30 ${units("mol dm",-3)}`,
+          `0.40 ${units("mol dm",-3)}`,
+          `0.50 ${units("mol dm",-3)}`,
+        ],
+        ans: "C",
+        // INSERT RIGHT ANSWER
+      },
+      {
+        id: 60,
+        question: `The concentration of a solution containing 2.56g of sodium trioxocarbonate(IV) per 50 ${units("cm",3)} of solution is`,
+        options: [
+          `0.5 ${units("mol dm",-3)}`,
+          `0.4 ${units("mol dm",-3)}`,
+          `0.2 ${units("mol dm",-3)}`,
+          `0.1 ${units("mol dm",-3)}`,
+        ],
+        ans: "A",
+        // INSERT RIGHT ANSWER
       },
     ],
   },
