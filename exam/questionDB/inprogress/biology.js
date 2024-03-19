@@ -3220,4 +3220,1117 @@
       },
     ],
   },
+  {
+
+    topic: "16. Reproduction In Flowering Plants.\
+            Germination, Fruit And Seed Dispersal",
+    questions: [
+      {
+        id: 1,
+        question:
+          "Which of these is not a characteristic of wind pollinated flowers?",
+        options: [
+          "Smaller quantities of sticky pollen produced",
+          "Feathery styles of stigmas pendulously hang outside the flower",
+          "Small, inconspicuous scentless flowers",
+          "Large anthers which are loosely attached to filaments",
+          "Light pollen grains produced in large quantities from anthers"
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 2,
+        question:
+          "A germinating seed requires oxygen which is essential for",
+        options: [
+            "Converting carbohydrate into glucose",
+            "Transporting energy from one part of the plant to another",
+            "The production of energy by oxidizing essential carbohydrate",
+            "Hydrolysis of protein",
+            "The formation of water molecules within the germinating seed"
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 3,
+        question:
+          "The region of cell division in a root is",
+        options: [
+            "Root cap",
+            "Endodermis",
+            "Xylem",
+            "Piliferous layer",
+            "Meristem"
+        ],
+        ans: "E",
+        userAnswer: null,
+      },
+      {
+        id: 4,
+        question:
+          "Which of the statements below is not characteristic of wind pollinated flowers?",
+        options: [
+          "Stigmas are usually large and feathery",
+          "Nectary is usually absent",
+          "The pollen grains have rough spiny surfaces",
+          "The flowers are not scented",
+          "The pollen is light and smooth"
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 5,
+        question:
+          "The plumule is best described as",
+        options: [
+           "Part of the cotyledon",
+           "Part of the endosperm",
+           "A miniature shoot",
+           "Structure near the micropyle",
+           "Structure opposite the hilum"
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 6,
+        question:
+          "A dry indehiscent, winged fruit formed from one carpel is know as a",
+        options: [
+            "Schizocarp",
+            "Caryopsis",
+            "Samara",
+            "Nut",
+            "Follicle"
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 7,
+        question:
+          "In which of the following tissues do the cells have the ability to divide?",
+        options: [
+            "Meristem",
+            "Sclerenchyma",
+            "Pholem",
+            "Collenchyma",
+            "Pith"
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 8,
+        question:
+          "The maize grain is regarded as a fruit and not a seed because",
+        options: [
+            "It is covered by a sheath of leaves",
+            "The testa and fruit wall fuse after fertilization",
+            "It has both endosperm and cotyledon",
+            "It has coleorhiza and coleoptile",
+            "The pericarp and seed coat are separate"
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 9,
+        question:
+          "The one-seeded fruit in which the pericarp and seed coat have become fused together is known as",
+        options: [
+            "Achene",
+            "Samara",
+            "Caryopsis",
+            "Legume",
+            "Drupe"
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 10,
+        question:
+          "A true fruit is formed form",
+        options: [
+            "A fertilized ovary and other flora parts",
+            "A fertilized ovary",
+            "A fertilized ovary and calyx",
+            "A fertilized ovary and fleshy receptable",
+            "An unfertilized ovary and other floral parts"
+          
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 11,
+        question:
+          "water is required for seed germination to take place because it",
+        options: [
+            "Activates the enzymes",
+            "Softens the testa",
+            "Liberates energy for growth",
+            "Permits radicle",
+            "Allows oxygen to diffuse into seed"
+          
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 12,
+        question:
+          "For pollination and fruit formation, the essential part(s) of the flower should be the",
+        options: [
+              "Corolla",
+              "Ovary",
+              "Pistil(gynoecium)",
+              "Ovules",
+              "Receptacle"
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 13,
+        question:
+          "How many nuclei are found in a pollen tube during fertilization?",
+        options: [
+          "2",
+          "3",
+          "5",
+          "6",
+          "7"
+          
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 14,
+        question:
+          "Which of the following is NOT true of wind-pollinated flowers?",
+        options: [
+              "Large amount of pollen produced",
+              "Light smooth pollen grains",
+              "Small inconspicuous flowers",
+              "Scented petals",
+              "Large pendulous anthers"
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 15,
+        question:
+          "Where is the food stored in a yam plant?",
+        options: [
+              "Stem",
+              "Bud",
+              "Adventitious root",
+              "Leaves",
+              "Tap root"
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 16,
+        question:
+          "A fruit formed from a single flower having several free carpels is",
+        options: [
+            "A multiple fruit",
+            "A dry dehiscent fruit",
+            "A dry indehiscent fruit",
+            "A simple fruit",
+            "An aggregate fruit"
+        ],
+        ans: "E",
+        userAnswer: null,
+      },
+      {
+        id: 17,
+        question:
+          "If the anthers of flower mature before the stigma, the condition is termed",
+        options: [
+            "Epigny",
+            "Hypogyny",
+            "Protogyny",
+            "Protandry",
+            "Perigyny"
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 18,
+        question:
+          "A plant which has a horizontal underground stem is",
+        options: [
+            "Rhizome",
+            "Corm",
+            "Creeper",
+            "Tuber",
+            "Bulb"
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 19,
+        question:
+          "An onion bulb stores its food in the",
+        options: [
+            "Stem",
+            "Leaves",
+            "Roots",
+            "Cotyledon",
+            "Branches"
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 20,
+        question:
+          "Any dry fruit which can break into several parts each containing one seed is a",
+        options: [
+          "Capsule",
+          "Aggregate fruit",
+          "Legume",
+          "Schizocarp",
+          "Follicle"
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 21,
+        question:
+          "The maize grain is regarded as a fruit and not a seed because",
+        options: [
+          "It has a coleorhiza",
+          "It has a coleoptile",
+          "Of therelatively large endosperm",
+          "There is the remains of a style",
+          "Of the relatively small scutellum"
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 22,
+        question:
+          "In an epigeal germination, it is the",
+        options: [
+          "Epicotyl that elongates fast",
+          "Hypocotyl that elongates fast",
+          "Hypogeal that elongates fast",
+          "Plumule that elongates fast",
+          "Roots that elongates fast"
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 23,
+        question:
+          "In the onion bulb, food is stored in the",
+        options: [
+          "Stem",
+          "Lateral buds",
+          "Cotyledons",
+          "Outer scales leaves",
+          "Leaf base"
+        ],
+        ans: "E",
+        userAnswer: null,
+      },
+      {
+        id: 24,
+        question:
+          "Groundnut is not really a 'nut' in the biological sense because",
+        options: [
+          "It is harvested from inside the ground",
+          "Its pericarp is not hard and tough",
+          "The fruit is succulent",
+          "It is an achene"
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 25,
+        question:
+          "What type of fruit is formed from a single flower having several free carpels?",
+        options: [
+          "Multiple fruit",
+          "Simple fruit",
+          "Aggregate fruit",
+          "Dehiscent fruit",
+          "Indehiscent fruit"
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 26,
+        question:
+          "Banana. planain and pineapple can be group together because they",
+        options: [
+          "Produce small seeds",
+          "Are multiple fruits",
+          "Produce suckers",
+          "Have runners",
+          "Have bulbils"
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 27,
+        question:
+          "The tuber of cassava is NOT a stem tuber because it",
+        options: [
+          "Is distended with food reserve",
+          "Has an aerial shoot portion",
+          "Has other structures that could be called roots",
+          "Lacks axillary buds",
+          "Has a bank over its stored food"
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 28,
+        question:
+          "Underground stems which grow horizontally through the soil are",
+        options: [
+          "Bulbs",
+          "Rhizomes",
+          "Runners",
+          "Corms",
+          "Stolon"
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 29,
+        question:
+          "A flowering plant is monoeclou if",
+        options: [
+          "The androecium is found on one plant",
+          "The gynoecium is monocarpous",
+          "It produces essential organs",
+          "The gynoecium and roecium are on the same plant",
+          "The flowers are unisexual"
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 30,
+        question:
+          "The maize grain is a fruit and not a seed because it",
+        options: [
+          "Has a monocotyledon",
+          "Is formed form an ovary",
+          "Is a monocotyledon",
+          "Has no plumule and radicle",
+          "Has a hypogeal germination"
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 31,
+        question:
+          "If a flower is protandrous then it",
+        options: [
+          "Must be unisexual",
+          "Has an undeveloped androecium",
+          "Has no androecium",
+          "Must be insect pollinated",
+          "Can prevent self pollination"
+        ],
+        ans: "E",
+        userAnswer: null,
+      },
+      {
+        id: 32,
+        question:
+          "For pollen to be released in crotalaria the insect must depress the",
+        options: [
+          "Wing",
+          "Keel",
+          "Standard",
+          "Antepelalous stamen",
+          "Antespalous stamen"
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 33,
+        question:
+          "Irish potato is a",
+        options: [
+          "Bulb",
+          "Taproot",
+          "Rhlzome",
+          "Root tuber",
+          "Stem tuber"
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 34,
+        question:
+          "Germination which result in the cotyledons being brought above ground is called",
+        options: [
+          "Hypocotyl",
+          "Epicotyl",
+          "Epigeal",
+          "Hypogeal",
+          "Plumule"
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 35,
+        question:
+          "The pineapple fruit is best described as",
+        options: [
+          "Aggregate, succulent and indehiscent",
+          "Aggregae, succulent and indehiscent",
+          "Multiple, succulent and indehiscent",
+          "Multiple, succulent and dehiscent"
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 36,
+        question:
+          "The flower shown above is",
+        options: [
+          "Complete, regular, hermaphroditic with inferior ovary",
+          "Incomplete, regular, terminate with inferior ovary",
+          "Complete regular, hermaphroditic with inferior ovary",
+          "Incomplete, irregular, pistillate with superior ovary"
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 37,
+        question:
+          "A flower showing radial symmetry is said to be",
+        options: [
+          "Pentamerous",
+          "Protandrous", 
+          "Protogynous",
+          "Actinomorphic"
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 38,
+        question:
+          "A samara differs from a cypsela by having",
+        options: [
+          "An extended pericarp",
+          "A hard pericarp",
+          "A pericarp fused with the seed coat",
+          "Some hairy outgrowths on the pericarp"
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 39,
+        question:
+          "The plantain reproduces asexually by",
+        options: [
+          "Suckers",
+          "Buds",
+          "Fragments",
+          "Spores"
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 40,
+        question:
+          "A dry dehiscent fruit which breaks up into one seeded parts is a",
+        options: [
+          "Schizocarp",
+          "Capsule",
+          "Follicle",
+          "Legume",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 41,
+        question:
+          "Airspaces are characteristic of seeds of fruits dispersed",
+        options: [
+          "Birds",
+          "Water",
+          "Wind",
+          "Explosive mechanism"
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 42,
+        question:
+          "In vegetative propagation, which of the following requires part of another plant to develop?",
+        options: [
+          "Scion",
+          "Bulb",
+          "Rhizome",
+          "Sucker"
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 43,
+        question:
+          "Which of these plants groups are normally propagated by asexual means?",
+        options: [
+          "Banana, yam, pineapple and cassava",
+          "Yam, cassava, rubber and banana",
+          "Yam, cassava, orange and banana",
+          "Banana, cassava, coffe and pineapple"
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 44,
+        question:
+          "The radicle of a bean seesling grows most rapidly in the region",
+        options: [
+          "Of the root tip",
+          "Just above the root tip",
+          "Just around the root tip",
+          "Just below the root tip"
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 45,
+        question:
+          "Wind-pollinated flowers usually have",
+        options: [
+          "Rough pollen grains",
+          "Sticky stigmas",
+          "Small and short stigmas",
+          "Long styles"
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 46,
+        question:
+          "The components of casor oil seed and the maize grain are similar EXCEPT for the",
+        options: [
+          "Number of cotyledons",
+          "Location of the embryo",
+          "Number of radicles",
+          "Number of plumules"
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 47,
+        question:
+          "A corm differs from a bulb in that",
+        options: [
+          "Its stem is the main food storage organ",
+          "It has a flattened disc-shaped stem",
+          "Buds are absent in the axils of the leaves",
+          "Adeventitious roots are present"
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 48,
+        question:
+          "Frits which develop without fertilization are described as",
+        options: [
+          "Simple",
+          "Pathenocarpic",
+          "Aggregate",
+          "Compound"
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 49,
+        question:
+          "The elephant grass is propagated vegetatively by means of",
+        options: [
+          "Corms",
+          "Bulbs",
+          "Suckers",
+          "Solon"
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 50,
+        question:
+          "A collection of achenes formed from several carpels of a flower is",
+        options: [
+          "A multiple fruit",
+          "An aggregate fruit",
+          "A schizocarp",
+          "A simple fruit"
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 51,
+        question:
+          "Vegetative propagation is described as asexual reproduction because",
+        options: [
+          "Reproductive organs are not involved",
+          "New individuals are not formed",
+          "Mnay new plants are produced",
+          "There is no exchange of genetic materials"
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 52,
+        question:
+          "Epigeal germination can be found in",
+        options: [
+          "Sorghum",
+          "Maize",
+          "Millet",
+          "Groundnut"
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 53,
+        question:
+          "A onion is a bulb because it",
+        options: [
+          "Has a tuberous stem",
+          "Has a reduced stem and thick fleshy leaves",
+          "Has adventitious roots",
+          "Bears many buds at the nodes"
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 54,
+        question:
+          "Double fertilization in higher plant is significant because it ensures the",
+        options: [
+          "Formation of a fertile embryo",
+          "Formation of a fertile embryo and the endosperm",
+          "Development of the seed",
+          "Development of the fruit"
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 55,
+        question:
+          "Hypogeal germination is characterized by the",
+        options: [
+          "Emergence of the plumule out of the ground",
+          "Provision of nourishment by the endosperm",
+          "Elongation of the hypocotyl",
+          "Elongation of the epicotyl"
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 56,
+        question:
+          "Fruits which develop without fertilization of the ovule are ",
+        options: [
+          "False",
+          "Multiple",
+          "Aggregate",
+          "Parthenocarpic"
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 57,
+        question:
+          "The main function of petal of a flower is to",
+        options: [
+          "Attract pollination agents",
+          "Protcet the flower while still in bud",
+          "Serve as landing stage for insects",
+          "Protect the inner parts from desiccation"
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 58,
+        question:
+          "The fleshy base of a flower to which the different floral parts are attached is know as",
+        options: [
+          "Calyx",
+          "Sepals",
+          "Thalamus",
+          "Hypothalamus"
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 59,
+        question:
+          "An example of a plant having the placetation shown is",
+        options: [
+          "Allamander",
+          "Hibiscus",
+          "Water lily",
+          "Pride of Barbados"
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 59,
+        question:
+          "The term caryopsis is used to describe a fruit in which the",
+        options: [
+          "Testa and pericarp are separate",
+          "Seed and endocarp are fused",
+          "Testa and pericarp are fused",
+          "Seed coat and fruit wall are impermeable"
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 60,
+        question:
+          "Coconut and oil palms fruits can be grouped as",
+        options: [
+          "Berry",
+          "Legume",
+          "Caspule",
+          "Drupe"
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 61,
+        question:
+          "Which of the following is the youngest plants tissue?",
+        options: [
+          "Meristem",
+          "Phloem",
+          "Epidermis",
+          "Xylem"
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 62,
+        question:
+          "A dry fruit formed from two or more carpels containing several seeds is a",
+        options: [
+          "Follicle",
+          "Legume",
+          "Capsule",
+          "Schizocarp"
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 63,
+        question:
+          "Insects visit flowers in order to",
+        options: [
+          "Feed on the nectar",
+          "Deposit pollen on the stigma",
+          "Pollinate the flowers",
+          "Transfer pollen from anthers"
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 64,
+        question:
+          "In epigeal germination, the cotyledons are",
+        options: [
+          "Carried above the ground by the elongating hypocotyls",
+          "Pulled underground by the elongating hypocotyls",
+          "Pulled underground by the elongating epicotyl",
+          "Carried above the ground by the elongating epicotyl"
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 65,
+        question:
+          "The fruit represented is mainly dispersed by",
+        options: [
+          "Animals",
+          "Water",
+          "Wind",
+          "Birds"
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 66,
+        question:
+          "Which of the following is likely to encourage inbreeding in plants",
+        options: [
+          "Dioecious",
+          "Protandrous",
+          "Monoecious",
+          "Hermaphrodite"
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 67,
+        question:
+          "In corns food is usually stored in the",
+        options: [
+          "Leaves",
+          "Stems",
+          "Roots",
+          "Buds"
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 68,
+        question:
+          "Plants tend to prevent overcrowding by means of efficient",
+        options: [
+          "Water uptake",
+          "Seed germination",
+          "Pollination",
+          "Seed dispersal"
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 69,
+        question:
+          "In which of the following groups of fruits is the pericarp inseparable from the seed coat?",
+        options: [
+          "Nut",
+          "Follicle",
+          "Cypsela",
+          "Cryopsis"
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 70,
+        question:
+          "The best method of propagating sugarcane is by",
+        options: [
+          "Grafting",
+          "Seed sowing",
+          "Layering",
+          "Stem cuttings"
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 71,
+        question:
+          "An example of a caryopsis is",
+        options: [
+          "Coconut",
+          "Maize grain",
+          "Guava",
+          "Tomato"
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 72,
+        question:
+          "Epigeal germination of a seed is characterized by",
+        options: [
+          "More rapid elongation of the hypocotyl than the epicotyl",
+          "More rapid elongation of the epicotyl than the hypocotyl",
+          "Equal growth rate of both the hypocotyl and epicotyl",
+          "Lack of growth of the hypocotyl"
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 73,
+        question:
+          "Water is necessary fot a germinating seed because it",
+        options: [
+          "Promotes aerobic respiration",
+          "Activates the enzymes",
+          "Wets the soil for proper germination",
+          "Protects the seed from desiccation"
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 74,
+        question:
+          "In plants, the structure that performs a similar function with the test is in mammals is the",
+        options: [
+          "Stigma",
+          "Filament",
+          "Anther",
+          "Receptacle"
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 75,
+        question:
+          "In a bean seed, absorption of water at the beginning of germination is throught the",
+        options: [
+          "Hilum",
+          "Micropyle",
+          "Testa",
+          "Plumule"
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 76,
+        question:
+          "An example of a fruit that develops from a single carpel is",
+        options: [
+          "Okro",
+          "Tomato",
+          "Beam",
+          "Orange"
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 77,
+        question:
+          "An example of an endospermous seed is",
+        options: [
+          "Cotton seed",
+          "Bean seed",
+          "Maize grain",
+          "Cashew nut"
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 78,
+        question:
+          "The transfer of pollen grains from the anther to a receptive stigma is",
+        options: [
+          "Placentation",
+          "Pollination",
+          "Fertilization",
+          "Propagation"
+        ],
+        ans: "",
+        userAnswer: null,
+      },
+      {
+        id: 79,
+        question:
+          "The male reproductive organ of a flower is the",
+        options: [
+          "Stamen",
+          "Petal",
+          "Sepal",
+          "Carpel"
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 80,
+        question:
+          "An example of an organ of perennation in plants is",
+        options: [
+          "Rhizome",
+          "Seed",
+          "Petal of a flower",
+          "Calyx of flower"
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 81,
+        question:
+          "I. Growth is mainly apical\
+          II. Growth is specific with definite shape\
+          III. Growth is throughtout life.\
+          Which of the above correctly describes the growth pattern in plants?",
+        options: [
+          "I, II and III only",
+          "II and III",
+          "I, and II only",
+          "I and III only"
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+    ]
+  }
+  
 ];
