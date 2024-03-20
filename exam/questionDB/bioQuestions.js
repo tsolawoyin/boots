@@ -3799,6 +3799,542 @@ let biologyQuestions = [
     ],
   },
 
+  {
+    topic: "Plant Nutrition",
+    questions: [
+      {
+        id: 1,
+        question: "The oxygen given off during photosynthesis is dervived from",
+        options: ["sunlight", "chlorophyll", "carbon dioxide", "atmosphere"],
+        ans: "E",
+        userAnswer: null,
+      },
+      {
+        id: 2,
+        question:
+          "Which of these elements is required by plants in small quantities only?",
+        options: ["boron", "nitrogen", "phosphorus", "magnesium", "potassium"],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 3,
+        question: "Which of these is a direct photosynthetic product?",
+        options: ["glucose", "starch", "protein", "fats", "latex"],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 4,
+        question: "An organism which lives on the remains of a dead plant is",
+        options: [
+          "an endoparasite",
+          "a saprophyte",
+          "commensal",
+          "a symbiont",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 5,
+        question:
+          "Which of the substance listed below is a trace element for plants?",
+        options: ["Potassium", "Sodium", "Copper", "Phosphate", "Nitrate"],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 6,
+        question:
+          "Alkaline pyrogallol used in an experiment must have been connected with",
+        options: [
+          "execretion",
+          "gemination",
+          "respiration", // respiration normally...
+          "digestion",
+          "photosythesis",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      // {
+      //   id: 7,
+      //   question: "A green plant growing in a compost pi is feeding",
+      //   options: [
+      //     "holozoically",
+      //     "parasitically",
+      //     "saprophytically",
+      //     "holophytically",
+      //     "in none of the above ways",
+      //   ],
+      //   ans: "d",
+      //   userAnswer: null,
+      // },
+      {
+        id: 8,
+        question: "The mushroom is an organism which feeds",
+        options: [
+          "parasitically",
+          "saprophytically",
+          "holozoically",
+          "symbiotically",
+          "autotrophically",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 9,
+        question: "Some of the major elements required by plants are",
+        options: [
+          "potassium, nitrogen, phosphorus, sodium, calcium",
+          "nirogen, phosphorus, molybdenum, sodium, calcium",
+          "potassium, phosphorus, molybdenum, sodium, calcium",
+          "poassium, nitrogen, iron, sodium, calcium",
+          "potassium, nitrogen, phosphorus, silicon, cadmium",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 10,
+        question:
+          "Which of the following elements are necessary for the formation of chlorophyll in plant?",
+        options: [
+          "Magnesium and iron",
+          "Calcium and potassium",
+          "Calcium and sulphur",
+          "Potassium and phosphorus",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 11,
+        question:
+          "Which of the following statements is NOT true of insectivorous plants?",
+        options: [
+          "They obtain part of their food by trapping and feeding on insects",
+          "They atract insects simply because of pollution",
+          "They can grow in soil poor in ntrogenous salts",
+          "They can supplement the nitrogen supply by feeding on insects",
+          "Examples include butterworts, Sundews and pitcher plants",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 12,
+        question:
+          "A young plant showing yellow leaves is likely to be deficient in",
+        options: ["calcium", "magnesium", "potassium", "boron", "molybdenum"],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 13,
+        question:
+          "Oxygen liberated during photosynthesis has been demonstrated to come from",
+        options: ["carbon dioxide", "air", "water", "chlorophyll"],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 14,
+        question:
+          "In demonstrating the importance of mineral elements in the plants, the culture bottle must be darkened to",
+        options: [
+          "prevent algal growth in culture solution",
+          "allow root growth",
+          "prevent breakdown of mineral elements",
+          "prevent photosythesis in the root",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 15,
+        question:
+          "In the standard experiment to show that oxygen is given off during photosythesis, sodium bicarbonate is used to",
+        options: [
+          "neutralize the acid in water",
+          "supply mineral salts to water plant",
+          "supply carbondioxide for photosythesis",
+          "kill microorganisms in water",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 16,
+        question: "If a healthy potted plant is continuously kept in dim light",
+        options: [
+          "the rate of respiration may equal that of photosythesis",
+          "more carbon dioxide and water are taken in",
+          "respiration may be halted",
+          "the volume of oxygen release increaseS",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+
+      {
+        id: 17,
+        question:
+          "The seedling in a rice field were found to have thin lanky growth with reddish leaves and poor root development. This is because te soil lacks",
+        options: ["Sulphur", "Phosphorus", "Potassium", "iron"],
+        ans: "B",
+        userAnswer: null,
+      },
+
+      {
+        id: 18,
+        question: "The first step in the process of photosynthesis is the",
+        options: [
+          "activation of the chlorophyll",
+          "Photolysis of water",
+          "reduction of carbon dioxide",
+          "formation of sugar",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+
+      {
+        id: 19,
+        question: "Etiolation is caused by the influence of",
+        options: ["mineral salts", "starch", "oxygen", "light"],
+        ans: "D",
+        userAnswer: null,
+      },
+
+      {
+        id: 20,
+        question:
+          "Which of the following is formed immediately afer the first product of photosynthesis?",
+        options: ["lipid", "starch", "carbondioxide", "light"],
+        ans: "B",
+        userAnswer: null,
+      },
+
+      {
+        id: 21,
+        question:
+          "Interveinal chlorosis is normally associated with the deficiency of",
+        options: ["magnesium", "poassium", "iron", "calcium"],
+        ans: "A",
+        userAnswer: null,
+      },
+
+      {
+        id: 22,
+        question: "Carnivorous plants are usually found in area",
+        options: [
+          "which are deficient in nitrate",
+          "which are deficient in oxygen",
+          "with low PH",
+          "where insects are abundant",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 23,
+        question:
+          "Green plants are distinguished from other living organisms by their ability to",
+        options: [
+          "make use of water",
+          "make use of oxygen",
+          "respond to sunlight",
+          "manufacture their own food",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+
+      {
+        id: 24,
+        question:
+          "The failure of transport and respiratory systems in plants as well as the presence of reddish colour in stems and leaves result from the deficiency of ",
+        options: ["magnesium", "nitrogen", "potassium", "phosphorus"],
+        ans: "D",
+        userAnswer: null,
+      },
+
+      {
+        id: 25,
+        question:
+          "In a drought situation, plants suffer from water sress which could result in",
+        options: [
+          "reduced biochemical activities",
+          "enhanced chemical activities",
+          "enhance microbial activities",
+          "reduced phototropic activities",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+
+      {
+        id: 26,
+        question:
+          "In an experiment to investigate the effect of nitrogen on the growth of plants, the substrate should be a medium of",
+        options: ["water and sand", "sawdust", "cow dung", "day soil"],
+        ans: "C",
+        userAnswer: null,
+      },
+
+      {
+        id: 27,
+        question: "Trace elements are required by plants mainly for the",
+        options: [
+          "formation of pigments and enzymes",
+          "producion of energy and hormones",
+          "manufacture of proteins",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 28,
+        question:
+          "The manufacture of carbohydrates by plants takes place only in",
+        options: [
+          "the leaves",
+          "the green stems",
+          "chlorophyllous parts",
+          "flowering plants",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+
+      {
+        id: 29,
+        question:
+          "In a water culture experiment, a plant showed poor growth and yellowing of the leaves. These may be due to deficiency of",
+        options: ["copper", "iron", "magnesium", "calcium"],
+        ans: "C",
+        userAnswer: null,
+      },
+
+      // {
+      //   id: 30,
+      //   question: "The dark reaction of photosynthesis involves",
+      //   options: [
+      //     "fixattion of carbon (IV) oxide to give a sixcarbon sugar",
+      //     "fixation of carbon (IV) oxide to produce glucose using ATP",
+      //     "he fixation of carbon (IV) oxide on chlorophyll using hydrogen",
+      //   ],
+      //   ans: "d",
+      //   userAnswer: null,
+      // },
+
+      {
+        id: 31,
+        question:
+          "The modes of nutrition in Nitrobacter, Ascaris and Homo sapines respectively are",
+        options: [
+          "photosynthetic, parasitic, and holozoic",
+          "chemosynthetic, parasitic and holozoic",
+          "photosynthetic, parasiic and heterophytic",
+          "chemosynthetic, heterophytic and holozoic",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+
+      {
+        id: 32,
+        question:
+          "Yellowing of leaves is a symptom associated with deficiency of",
+        options: [
+          "Iron",
+          "Calcium and magnesium",
+          "Nitrogen, sulphur and potassium",
+          "Sulphur, phosphorus and iron",
+          "Magnesium, nitrogen and iron",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+
+      {
+        id: 33,
+        question: "A seedling grown in the dark is likely to be",
+        options: ["Etiolated", "Dormant", "Sturdy", "Stunted"],
+        ans: "A",
+        userAnswer: null,
+      },
+
+
+      {
+        id: 36,
+        question: "The dark reaction of photosynthesis involves the",
+        options: [
+          "Reduction of carbon(IV) oxide to organic compounds",
+          "Release of oxygen and the splitting of water",
+          "Photolysis of water and the production of starch",
+          "Splitting of water into hydrogen ions",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+
+      {
+        id: 37,
+        question: "The photosythetic pigments include",
+        options: [
+          "chlorophyll and carotenoids",
+          "chlorophyll and cytochromes",
+          "melanin and heamoglobin",
+          "carotenoids and heamoglobin",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 38,
+        question:
+          "Stunted growth and poor root development are a result of a deficiency in",
+        options: ["Sulphur", "Phosphorus", "Calcium", "Iron"],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 39,
+        question: "Insectivorous plants trap and kill their prey to derive",
+        options: ["Phosphorus", "Calcium", "Nitrogen", "Zinc"],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 40,
+        question:
+          "Which of the following is an example of a carnivorous plant?",
+        options: ["Hydra", "Bladderwort", "Yeast", "Spirogyra"],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 41,
+        question:
+          "The mode of nutrition of sundew and bladderwort can be dsecribed as",
+        options: ["Saprophytic", "Holozoic", "Chemosyntheic", "Autotrophic"],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 42,
+        question:
+          "Chemosynthetic organisms are capable of manufacturing their food from simple inorganic substances through the process of",
+        options: [
+          "dentrification",
+          "reduction",
+          "phosphororylation",
+          "oxidation",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 43,
+        question:
+          "In plants, which of the following is required in minute quantities for growth?",
+        options: ["Copper", "Potassium", "Phosphorus", "sodium"],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 44,
+        question:
+          "Which of the following organisms is both parasitic and autotrophic?",
+        options: ["Sundew", "Loranthus", "Rhizopus", "Tapeworm"],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 45,
+        question:
+          "During the manufacture of food by plant, which of the following organims use energy from the sun?",
+        options: [
+          "sulphur bacteria",
+          "Nitrosomonas",
+          "Nitrobacter sp",
+          "Anabaena",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 46,
+        question:
+          "Plants that have special devices for trapping and digesting insects are",
+        options: ["Symbiotic", "Parasitic", "Saprophyrytic", "Carnivorous"],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 47,
+        question:
+          "Which of the substances listed below is a trace element for plants?",
+        options: ["potassium", "sodium", "copper", "phosphate"],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 48,
+        question:
+          "When testing for the presence of starch in a leaf, the reason for dipping the decolorized leaf in hot water is to",
+        options: [
+          "detect the starch",
+          "kill the leaf",
+          "soften the leaf",
+          "remove the chlorophyll",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 49,
+        question: "Etiolation is caused by the influence of",
+        options: ["minerals salts", "waer", "carbondioxide", "light"],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 50,
+        question: "The oxygen release during photosynthesis comes from",
+        options: ["Carbon dioxide", "Sunlight", "Chlorophyll", "Water"],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 51,
+        question: "Leaf to be tested for starch is placed in alcochol to",
+        options: ["soften it", "decolourize it", "harden it", "cool it"],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 52,
+        question:
+          "A plant that becomes pale because it does not receive enough light is said to be",
+        options: ["variegated", "evergreen", "etiolaed", "malnourished"],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 53,
+        question: "The type of nutrition found in Rhizopus and mushroom is",
+        options: ["holozoic", "parasitic", "carnivorous", "saprophyt"],
+        ans: "D",
+        userAnswer: null,
+      },
+    ],
+  },
+
 
 ]
 

@@ -36,7 +36,7 @@ const biology = new Subject("Biology", [
   "The Arthropods",
   "The Vertebrates Pisces. Amphibians. Reptiles",
   "The Vertebrate II - Birds And Mammals",
-  // "Plant Nutrition",
+  "Plant Nutrition",
   // "Animal nutrition and food substances",
   // "Digestive system, Digestive enzymes and Dentition",
   // "Supporting Tissues In Plants And Movement",
