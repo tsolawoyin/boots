@@ -4331,6 +4331,716 @@
         userAnswer: null,
       },
     ]
+  },
+ {
+
+  topic: "17. Reproduction In Animals. Development And Growth",
+  questions: [
+  {
+  id: 1,
+  question:
+      "At fertilization",
+  options: [
+      "One chromosome from the male joins another from the female",
+      "One gene from the male combines with another from the female",
+      "The male nucleus fuses with the female",
+      "The male nucleus fuses with the female nucleus",
+      "One set chromosomes combines with another set from the female",
+      "One cell from the male fuses with another from the female"
+  ],
+  ans: "C",
+  userAnswer: null,
+  },
+  {
+    id: 2,
+    question:
+        "Identical twins are produced under one of the following conditions:",
+    options: [
+        "Two ova fertilized at the same time by two sperms",
+        "One ovum fertilized, divides to give two embryos",
+        "One ovum fertilized, twins formed shortly before birth",
+        "Two ova fertilized by one sperm",
+        "One ovum fertilized by two sperms"
+    ],
+    ans: "B",
+    userAnswer: null,
+  },
+  {
+    id: 3,
+    question:
+        "The organ through which food and oxygen are suppiled to human embryo and which also prevents harmful materials from reaching the embryo is the",
+    options: [
+        "Amnion",
+        "Uterus",
+        "Plactenta",
+        "Umbilical cord",
+        "Fallopian tube"
+    ],
+    ans: "C",
+    userAnswer: null,
+  },
+  {
+    id: 4,
+    question:
+        "Which of the following statements is NOT true of menstruation?",
+    options: [
+        "It occurs monthly",
+        "The discharge contains amniotic fluid",
+        "It signifies no conception",
+        "It involves the lining of uterus",
+        "It may cause pains"
+    ],
+    ans: "B",
+    userAnswer: null,
+  },
+  {
+    id: 5,
+    question:
+        "In human reprodution, the zygote formed as a result of fertilization gets attached to the wall of the uterus. The process is called",
+    options: [
+        "Sexual reproduction",
+        "Cohesion",
+        "Pregnancy",
+        "Implantation",
+        "Vivuparity"
+    ],
+    ans: "D",
+    userAnswer: null,
+  },
+  {
+    id: 6,
+    question:
+        "In man identical twins occur when",
+    options: [
+        "An ovum is fertilized by a sperm and then divided into two each forming a separate embryo",
+        "An ovum is fertilized forming an embryo",
+        "Two ova are fertilized at the same at the same time each forming an embryo",
+        "Two ova are fertilized by a single sperm each forming embryo after fertilization",
+        "One ovum first divided into two and each half is fertilized by a sperm before developing an embryo"
+    ],
+    ans: "A",
+    userAnswer: null,
+  },
+  {
+    id: 7,
+    question:
+        "In what order do the following structures develop during the metamorphosis of the toad? 1. External gills 2. Internal gills 3. Forelimbs 4. Hindlimbs 5. Mouth",
+    options: [
+        "12345",
+        "15243",
+        "1345",
+        "53412",
+        "54321"
+    ],
+    ans: "B",
+    userAnswer: null,
+  },
+  {
+    id: 8,
+    question:
+        "The mammalian organ through which nourishment and oxygen diffuse into a developing embryo is called",
+    options: [
+        "Amnion",
+        "Chorion",
+        "Umbilical cord",
+        "Oviduct",
+        "Placenta"
+    ],
+    ans: "E",
+    userAnswer: null,
+  },
+  {
+    id: 9,
+    question:
+        "Gestation in mammals is the period",
+    options: [
+        "Required for growth after birth",
+        "Between the formation of the foetus and birth",
+        "Of development from zygote to birth",
+        "Before the formation of the zygote",
+    ],
+    ans: "C",
+    userAnswer: null,
+  },
+  {
+    id: 10,
+    question:
+        "Growth can best be determined in a population of Spirogyra by measuring the",
+    options: [
+        "Total lenghts of filaments",
+        "Total widths of the filaments",
+        "Rate of photosynthesis in the population",
+        "Dry weight of the organism"
+    ],
+    ans: "A",
+    userAnswer: null,
+  },
+  {
+    id: 11,
+    question:
+        "Exponential increase in the population of an organism is a characteristic feature of",
+    options: [
+        "LBlnary fission",
+        "Seual reproduction",
+        "Budding",
+        "Vegetative propagation"
+    ],
+    ans: "A",
+    userAnswer: null,
+  },
+  {
+    id: 12,
+    question:
+        "The irreversible life process by which new protoplasm is added to increase the size and weight of an organism can be termed",
+    options: [
+      "Anabolism" ,
+      "Catabolism",
+      "Growth",
+      "Development" 
+    ],
+    ans: "C",
+    userAnswer: null,
+  },
+  {
+    id: 13,
+    question:
+        "During cell division, the two strands of chromosomes are joined at a point called",
+    options: [
+        "Spindle",
+        "Chromatid",
+        "Centromere",
+        "Aster"
+    ],
+    ans: "C",
+    userAnswer: null,
+  },
+  {
+    id: 14,
+    question:
+        "During mammalian embryo development, large amount of oestrogen and progesterone are produced in the",
+    options: [
+        "Umbilical cord",
+        "Amnion",
+        "Placenta",
+        "Amniotic fluid"
+    ],
+    ans: "C",
+    userAnswer: null,
+  },
+  {
+    id: 15,
+    question:
+        "The function of the epididymis in mammals is the",
+    options: [
+        "Expulsion of urine",
+        "Storage of sperms",
+        "Circulation of blood",
+        "Activation of sperms"
+    ],
+    ans: "B",
+    userAnswer: null,
+  },
+  {
+    id: 16,
+    question:
+        "In mammalian development, the function of the yolk is to",
+    options: [
+        "Supply nutrients to the embryo",
+        "Acts as the shock absorber to foetus",
+        "Supply air to the embryo",
+        "Facilitate the process of excretion in the foetus"
+    ],
+    ans: "A",
+    userAnswer: null,
+  },
+  {
+    id: 17,
+    question:
+        "In animals, meiosis comes",
+    options: [
+        "After fertilization",
+        "After every mitotic division",
+        "Before fertilization",
+        "Before every mitotic division"
+    ],
+    ans: "C",
+    userAnswer: null,
+  },
+  {
+    id: 18,
+    question:
+        "The sex of a foetus is determined during",
+    options: [
+      "Meiosis",
+      "Copulation",
+      "Fertilization",
+      "Placentation"  
+    ],
+    ans: "C",
+    userAnswer: null,
+  }, 
+  {
+    id: 19,
+    question:
+        "Biological growth refers strictly to an increase in the",
+    options: [
+        "Protoplasm of an organism",
+        "Number of organisms",
+        "Size of an organism",
+        "Development of form"
+    ],
+    ans: "A",
+    userAnswer: null,
+  }, 
+   {
+    id:20,
+    question:
+        "During binary fission in lower organisms, the nucleus is known to undergo",
+    options:[
+          "Mitosis",
+          "Meiosis",
+          "Fragmentation",
+          "Mutation"
+    ],
+    ans: "A",
+    userAnswer: null
+   },
+   {
+    id:21,
+    question:
+        "The most reliable estimate of growth is by measuring changes in",
+    options:[
+        "Length",
+        "Volume",
+        "Surface area",
+        "Dry weight"
+    ],
+    ans: "D",
+    userAnswer: null
+   },
+   {
+    id:22,
+    question:
+        "The outermost embryonic membrane in the mammal is the",
+    options:[
+        "Amnion",
+        "Chorion",
+        "Allantois",
+        "Yolk sac"
+    ],
+    ans: "C",
+    userAnswer: null
+   },
+   {
+    id:23,
+    question:
+        "Fertilization in humans usually takes places in the",
+    options:[
+          "Lower part of the uterus",
+          "Upper part of the uterus",
+          "Lower part of the oviduct",
+          "Upper part of the oviduct"
+    ],
+    ans: "D",
+    userAnswer: null
+   },
+   {
+    id:24,
+    question:
+        "Bacterial multiply rapidly by means of",
+    options:[
+        "Budding",
+        "Fragmentation",
+        "Binary fission",
+        "Spore formation"
+    ],
+    ans: "C",
+    userAnswer: null
+   },
+   {
+    id:25,
+    question:
+        "For growth to occur in organisms, the rate of",
+    options:[
+        "Food dtorage must be low",
+        "Catabolism must exceed that of anabolism",
+        "Anabolism must exceed that of catabolism",
+        "Food storage must be high"
+    ],
+    ans: "C",
+    userAnswer: null
+   },
+   {
+    id:26,
+    question:
+        "In mammalian males, the excretory and reproductive systems share the",
+    options:[
+        "Ureter",
+        "Vas deferens",
+        "Urethra",
+        "Testes"
+    ],
+    ans: "C",
+    userAnswer: null
+   },
+   {
+    id:27,
+    question:
+        "The type of reproduction that leads to variation in animal and plant population is",
+    options:[
+        "Budding",
+        "Sexual",
+        "Vegetative",
+        "Asexual"
+    ],
+    ans: "B",
+    userAnswer: null
+   },
+   {
+    id:28,
+    question:
+        "The type of reproduction that is common to both Hydra and yeast is",
+    options:[
+        "Conjugation",
+        "Binary fission",
+        "Grafting",
+        "Budding"
+    ],
+    ans: "D",
+    userAnswer: null
+   },
+   {
+    id:29,
+    question:
+        "During ovulation, an egg is released from the",
+    options:[
+        "Corpus luteum",
+        "Ovarian funnel",
+        "Graafian follicle",
+        "Fallopian tube"
+    ],
+    ans: "C",
+    userAnswer: null
+   },
+   {
+    id:30,
+    question:
+        "The reproductive system of a male mammals is made up of",
+    options:[
+        "Claspers, prostrate gland, sperm duct and vas deferens",
+        "Testis, protrate gland, soerm duct and vas deferens",
+        "Oviduct, urethra, testis and sperm duct",
+        "Testis, uterus, protrate gland and sperm duct"
+    ],
+    ans: "B",
+    userAnswer: null
+   },
+   {
+    id:31,
+    question:
+        "In the male reproductive system of a mammal, sperm is stored in the",
+    options:[
+        "Urethra",
+        "Epididymis",
+        "Seminiferous tubules",
+        "Vas deferens"
+    ],
+    ans: "B",
+    userAnswer: null
+   },
+   {
+    id:32,
+    question:
+        "The barrier between material and foetal blood is the",
+    options:[
+        "Liver",
+        "Umblilcal cord",
+        "Uterine wall",
+        "Placenta"
+    ],
+    ans: "D",
+    userAnswer: null
+   },
+   {
+    id:33,
+    question:
+        "The type of asexual reproduction that is common to both paramecium and protists is",
+    options:[
+        "Fragmentation",
+        "Fission",
+        "Buddding",
+        "Sporulation"
+    ],
+    ans: "D",
+    userAnswer: null
+   },
+   {
+    id:34,
+    question:
+        "In the mammalian male reproductive system, the part that serves as a passage for both urine and semen is the",
+    options:[
+        "Urethra",
+        "Ureter",
+        "Bladder",
+        "Seminal vesicle"
+    ],
+    ans: "A",
+    userAnswer: null
+   },
+   {
+    id:35,
+    question:
+        "When the adults have reached a certain degree of weakness, the process of binary fission is replaced by conjugation in",
+    options:[
+        "Paramecium",
+        "Euglena",
+        "Amoeba",
+        "Plasmodium"
+    ],
+    ans: "A",
+    userAnswer: null
   }
+    ],
+ 
+ },
+{
+  topic: "18. Homoeostasis. Endocrine System. Plant Hormone",
+  questions: [
+  {
+  id: 1,
+  question:
+      "The hormone which tones up the muscles of a person in time of danger is from the",
+  options: [
+      "Thyroid gland",
+      "Pancreas",
+      "Adrenal gland",
+      "Liver",
+      "Spleen"
+  ],
+  ans: "C",
+  userAnswer: null,
+  },
+  {
+    id: 2,
+    question:
+        "A gland in the human body secretes two hormone, one of which causes a diseas called disabetes when there is a deficiency, which of these organs produces the hormo",
+    options: [
+        "Spleen",
+        "Parathyroid",
+        "Adrenal body",
+        "Pancreas"
+    ],
+    ans: "D",
+    userAnswer: null,
+  },
+  {
+      id: 3,
+      question:
+          "The conversion of excess amino acids into urea occurs in",
+      options: [
+          "Kidney",
+          "Pancreas",
+          "Villi",
+      ],
+      ans: "D",
+      userAnswer: null,
+  },
+  {
+    id: 4,
+    question:
+      "In which part of the human body does the secretion of the growth hormone occur?",
+    options: [
+      "Head region",
+      "Waist region",
+      "Neck region",
+      "Gonads"
+      ],
+    ans: "A",
+    userAnswer: null,
+  },
+  {
+    id: 5,
+    question:
+        "Which of the following growth activities in plants is brought about by gibberellins?",
+    options: [
+        "Rapid cell division",
+        "Tropic response",
+        "Cell elongation",
+        "Main stem longation"
+    ],
+    ans: "C",
+    userAnswer: null,
+  },
+  {
+    id: 6,
+    question:
+        "Urea formation occurs in the",
+    options: [
+        "Heart",
+        "Liver",
+        "Lung",
+        "Kidney"
+    ],
+    ans: "B",
+    userAnswer: null,
+  },
+  {
+    id: 7,
+    question:
+        "Metabolic production of urea is carried out in the",
+    options: [
+        "Urinary bladder and kidney",
+        "Liver",
+        "Pancreas",
+        "Kidney and Malphigian tubule"
+    ],
+    ans: "B",
+    userAnswer: null,
+  },
+  {
+    id: 8,
+    question:
+        "The most important hormone that induces the ripening of fruit is",
+    options: [
+        "Ethylene",
+        "Indole acid",
+        "Gibberallin",
+        "Cytokinin"
+    ],
+    ans: "A",
+    userAnswer: null,
+  },
+  {
+    id: 9,
+    question:
+        "If a nursing mother is not producing enough milk, her hormonal system is probably deficient in",
+    options: [
+        "Prolactin",
+        "Testosterone",
+        "Thyroxin",
+        "Insulin"
+    ],
+    ans: "A",
+    userAnswer: null,
+  },
+  {
+    id: 10,
+    question:
+        "Which of the following is a homeostatic response in humans?",
+    options: [
+        "Withdrawing the hand from a hot object",
+        "The mouth getting watery when food is sighted",
+        "Yawning owing to tiredness",
+        "Shivering cold enviroment"
+    ],
+    ans: "D",
+    userAnswer: null,
+  },
+  {
+    id: 11,
+    question:
+        "The part of the mammalian skin involved in temperature regulation is the",
+    options: [
+        "Sweat gland",
+        "Hair papilla",
+        "Hair follicle",
+        "Sebaceous gland"
+    ],
+    ans: "A",
+    userAnswer: null,
+  },
+  {
+    id: 12,
+    question:
+        "In mammals, the organ directly on top of the kidney is the",
+    options: [
+        "Thyroid gland",
+        "Adrenal gland",
+        "Pancreas",
+        "Prostate gland"
+    ],
+    ans: "B",
+    userAnswer: null,
+  },
+  {
+    id: 13,
+    question:
+        "Thyroxine and adrenalin are examples of hormones which control",
+    options: [
+        "Tongue rolling",
+        "Behavioral patterns",
+        "Colour variation",
+        "Blood grouping"
+    ],
+    ans: "B",
+    userAnswer: null,
+  },
+  {
+    id:14,
+    question:
+      "Which of the following organs regulates the levels of water, salts, hydrogen ions and urea in the mammalian blood.",
+    options: [
+        "Bladder",
+        "Colon",
+        "Liver",
+        "Kidney"
+    ],
+    ans: "D",
+    userAnswer: null  
+  },
+  {
+    id:15,
+    question:
+      "Plant growth can be artificially stimulated by the addition of",
+    options: [
+        "Gibberelin",
+        "Kinin",
+        "Abscislc acid",
+        "Ethylene"
+    ],
+    ans: "A",
+    userAnswer: null  
+  },
+  {
+    id:16,
+    question:
+      "The most important plant hormone is",
+    options: [
+        "Abscisics acid",
+        "Auxin",
+        "Gibberellin",
+        "Cytokinin"
+    ],
+    ans: "B",
+    userAnswer: null  
+  },
+  {
+    id:17,
+    question:
+      "The absence of anti-duretic hormone in humans results in",
+    options: [
+      "Drastic dehydration",
+      "Eliminating dehydration",
+      "Increasing dehydration",
+      "Decreasing dehydration"
+    ],
+    ans: "A",
+    userAnswer: null  
+  },
+  {
+    id:18,
+    question:
+      "Oestrogen is a hormone that is synthesized in the",
+    options: [
+      "Testis",
+      "Anterior pituitary",
+      "Adrenal cortex",
+      "Ovaries"
+    ],
+    ans: "D",
+    userAnswer: null  
+  },
+  ]
+}
   
 ];
