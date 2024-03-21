@@ -6777,7 +6777,7 @@ let chemistryQuestions = [
           `the reaction flask is immersed in an ice bath`,
           `the zinc is in the powdered form`,
         ],
-        ans: "B",
+        ans: "D",
       },
 
       {
