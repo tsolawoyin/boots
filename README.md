@@ -23,8 +23,8 @@ I am a very simple program with not so fancy graphical user-interface. I am prel
 - To help students learn through the use of artificial intelligence like `chatGPT`for instance
 
 ### Current Subjects available for Practice
-- English
-- Chemistry
+- English => 1554 questions
+- Chemistry => 921 questions
 - Biology
 
 Want to contribute? [Please click here](./CONTRIBUTING.md)

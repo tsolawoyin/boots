@@ -15965,3 +15965,6 @@ let englishQuestions = [
 ];
 
 export { englishQuestions };
+
+// for checking the total numbers of questions that we have currently
+// console.log(englishQuestions.reduce((a,b) => a + b.questions.length, 0))
