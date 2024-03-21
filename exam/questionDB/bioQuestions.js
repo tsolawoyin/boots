@@ -4335,6 +4335,1535 @@ let biologyQuestions = [
     ],
   },
 
+  {
+    topic: "Animal nutrition and food substances",
+    questions: [
+      {
+        id: 4,
+        question:
+          "In testing for glucose, the necessary reagent and the condition under which the reagent react best are",
+        options: [
+          "fehling's reagent, in the cold",
+          "million's reagent, boiled",
+          "fehling's reagent in acid medium, heated",
+          "iodine solution, boiled",
+          "fehling's reagent in neutral or alkaline medium, boiled",
+        ],
+        ans: "E",
+        userAnswer: null,
+      },
+      {
+        id: 5,
+        question:
+          "If benedict's solution gives a positive result in a food test, the food contains",
+        options: ["sugar", "protein", "oil", "fat", "cellulose"],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 6,
+        question: "The deficiency of vitamin D leads to",
+        options: ["scurvy", "pellagra", "rickets", "beriberi", "polio"],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 7,
+        question:
+          "Which of the substances is likely to be deficient in the diet of a person having goitre?",
+        options: ["Potassium", "Calcium", "Iodine", "Sodium", "Phosphorus"],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 8,
+        question: "Kwashiorkor is caused by severe deficiency of",
+        options: ["water", "oil", "drugs", "proteins", "sugars"],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 9,
+        question:
+          "Which of the following pairs are the products of sucrose hydrolysis?",
+        options: [
+          "Glucose + glucose",
+          "Fructose +fructose",
+          "Glucose + frucose",
+          "Galactose + fructose",
+          "Fructose + galactose",
+        ],
+        ans: "C", // sucrose is glucose plus fructose and maltose is 2 glucose 
+        userAnswer: null,
+      },
+      {
+        id: 10,
+        question:
+          "if an organic compound has its Hydrogen : Oxygen ratio as 2:1, it is likely o be",
+        options: [
+          "A protein",
+          "A carbohydrate",
+          "A fat",
+          "A fatty acid and glycerol",
+          "An amino acid",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 11,
+        question:
+          "A mixture of mercurous and mercuric nitrates is added to a food substance. A. white precipitate is formed which on gentle heating turns red. The food substance is",
+        options: ["Protein", "Oil", "Carbohydrate", "Fat", "Fatty acid"],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 12,
+        question:
+          "In a Biuret test, some protein was mixed with sodium hydroxide solution which of the following chemicals should be added to the mixture for a positive result?",
+        options: [
+          "Mercurous",
+          "Mercuric nitrate",
+          "sodium carbonate",
+          "Ammonium hydroxide",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 13,
+        question:
+          "Fehling's solution will readily change colour from blue to a reddish colour when it is",
+        options: [
+          "Mixed with sugar solution in the cold",
+          "Warmed or heated by itself",
+          "Mixed with reducing sugar in the cold",
+          "Warmed or heated with a complex solution",
+          "Warmed with a solution or reducing sugar",
+        ],
+        ans: "E",
+        userAnswer: null,
+      },
+      {
+        id: 14,
+        question:
+          "A food substance which produce red colouration with sudan III contains",
+        options: ["Protein", "Sugar", "Starch", "Cellulose", "Fat"],
+        ans: "E",
+        userAnswer: null,
+      },
+      {
+        id: 15,
+        question: "If calcium is deficient in food this may cause",
+        options: [
+          "Anaemia",
+          "Retarded growth",
+          "Sterility",
+          "Goitre",
+          "Beriberi",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 16,
+        question: "Which of these is a trace elements?",
+        options: ["Iron", "Copper", "Calcium", "Sulphur"],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 17,
+        question: "The main organic substances found in the human body are",
+        options: [
+          "Carbohydrates, proteins and salts",
+          "Salts, fats and protein",
+          "Fats, carbohydrate and protein",
+          "Salts, fats and carbohydrate",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 18,
+        question:
+          "Which of the following elements is essential for the formation of haemoglobn?",
+        options: ["Sodium", "Potassium", "Calcium", "Iron"],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 19,
+        question: "The severe deficiency of vitamin C leads to",
+        options: ["Kwashiorkor", "Beriberi", "Pellagra", "Scurvy"],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 20,
+        question:
+          "In addition to the high calories derived from fat and oils, they are",
+        options: [
+          "Used in producing new cells",
+          "Necessary for enzyme formation",
+          "Used as insulators from cold",
+          "Required for growth",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 21,
+        question:
+          "The extract from a food substance reacting with sodium hydroxide and copper sulphate solutions will produce violet to purple colouration if",
+        options: [
+          "Fats are present",
+          "Carbohydrate is present",
+          "Protein is prsent",
+          "Reducing sugar is present",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 22,
+        question:
+          "The vitamin which is important in the formation of the retina pigments is",
+        options: ["vitamin A", "vitamin B", "vitamin C", "vitamin D"],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 23,
+        question:
+          "The most important substances necessary for the maintenance of life are carbon, oxygen",
+        options: [
+          "hydrogen, soil and enzymes",
+          "hydrogen, salt and water",
+          "nitrogen, salt and soil",
+          "nitrogen, salt and water",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 24,
+        question:
+          "The mode of nutrition in which digestion is extracellular is",
+        options: ["holophytic", "parasitic", "holozoic", "saprophytic"],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 25,
+        question:
+          "Which of the following food substances will produce a brick red colour when warmed with benedict's solution",
+        options: ["Glucose", "Starch", "Egg white", "Maltose"],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 26,
+        question: "The element common to protein, carbohydrate and lipid is",
+        options: ["hydrogen", "sulphur", "nitrogen", "phosphorus"],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 27,
+        question:
+          "Osmic acid boiled with a solution of food substance gave a black precipiate. This indicated the presence of",
+        options: ["fats and oils", "proteins", "amino acids", "starch"],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 28,
+        question: "Which vitamin plays an important role in blood clotting?",
+        options: ["Vitamin A", "Vitamin K", "Vitamin B12", "Vitamin C"],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 29,
+        question:
+          "A food substance was treated with a few drops of sudan III solution and a red coloration was obtained. The food contained",
+        options: ["protein", "starch", "fat", "mineral salt"],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 30,
+        question:
+          "The element that is essential for the coagulation of blood is",
+        options: ["potassium", "calcium", "phosphorus", "iron"],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 31,
+        question:
+          "In million's test, when the reagent is added to a protein food item, a white precipiate is produce which turns",
+        options: [
+          "blue on heating",
+          "yellow on heating",
+          "gren on heating",
+          "red on heating",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 32,
+        question: "The richest sources of Vitamin A are",
+        options: [
+          "palm oil and groundnut oil",
+          "palm oil and carrots",
+          "rice and groundnut oil",
+          "oranges and carrots",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 33,
+        question:
+          "The production of  violet coloration, when dilue NaOH solution is added to a solution of food substance, followed by drops of 1% Copper sulfate solution while making INDICATES THE PRESENCE OF",
+        options: ["protein", "carbohydrate", "fats", "reducing sugar"],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 34,
+        question:
+          "The greatest amount of energy will be obtained by the oxidation of 100Kg of",
+        options: ["meat", "butter", "Sugar", "biscuits"],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 35,
+        question: "The mode of feeding in Amoeba and Hydra is",
+        options: ["heterotrophic", "holophytic", "autotrophic", "symbiotic"],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 36,
+        question:
+          "When specimen X is mixed with few drops of iodine solution, appearance or a blue-black colour confirms that X is",
+        options: ["Galactose", "Starch", "Sucrose", "Glucose"],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 37,
+        question:
+          "The capture and digestion of insects by a pitcher plant is a special form of nutrition termed",
+        options: [
+          "Autotrophic",
+          "heterotrophic",
+          "chemosynthetic",
+          "saprophytic",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 38,
+        question: "A person that is obese must avoid meals containing",
+        options: [
+          "carrots and oranges",
+          "margarine and butter",
+          "beef and beans",
+          "rice and yam",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 39,
+        question: "All living cells require water because it ",
+        options: [
+          "it is a medium for all metabolic reactions",
+          "is a medium that neutralizes acids in cells",
+          "is the main source of energy for the diseases in cells",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 40,
+        question: "Night-blindnes result from a deficiency of",
+        options: ["Vitamain E", "Viamin A", "Vitamin K", "Vitamin C"],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 41,
+        question:
+          "When a mixture of a food substance and benedict's solution was warmed, the solution changed from blue to brick-red. This indicate the presence of",
+        options: ["fatty acid", "sucrose", "amino acid", "reducing sugar"],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 42,
+        question:
+          `I Parasitism - Sundew <br />
+          II Autotrophism - Amoeba <br />
+          III Saprophytism - Algae <br />
+          IV Heterorophism - Agama <br />
+          Which of the following modes of nutrition is correctly matched with the organism that exhibits it?`,
+        options: ["IV", "I", "II", "III"],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 43,
+        question: "Which of the following is a polysaccharide?",
+        options: ["Glucose", "Sucrose", "Maltose", "Cellulose"],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 44,
+        question:
+          "The greatest amount of energy will be obtain by the oxidation of 100Kg of",
+        options: ["meat", "butter", "sugar", "biscuits"],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 45,
+        question:
+          "Which of the following is lacking in the diet of a person with Kwashiorkor?",
+        options: ["Proteins", "Carbohydrate", "Minerals", "Vitamin"],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 46,
+        question:
+          "The vitamin which is important in the formation of the retina pigment is",
+        options: ["Vitamin A", "Vitamin B", "Vitamin C", "vitamin D"],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 47,
+        question: "The element common to protein, carbohydrate and lipid is",
+        options: ["hydrogen", "sulphur", "nitrogen", "phosphorus"],
+        ans: "A",
+        userAnswer: null,
+      },
+    ],
+  },
+
+  {
+    topic: "Digestive system, Digestive enzyme and Dentition",
+    questions: [
+      {
+        id: 1,
+        question: "When proteins are broken down they provide",
+        options: ["oxygen", "carbohydrate", "energy", "amino acids", "enzyme"],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 2,
+        question:
+          "The mammalian stomach can carry out a number of process except",
+        options: [
+          "Adsorbtion of glucose",
+          "Secretion of hydrochloric acid",
+          "Secrecion of gastric juice",
+          "Churning of food",
+          "Productiion of trypsin",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 3,
+        question:
+          "Which of these is terminal portion of the alimentry canal of a mammal",
+        options: ["Oesophangus", "Stomach", "Rectum", "Colon", "Appendix"],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 4,
+        question: "Which of these is not an enzyme?",
+        options: ["Pepsin", "Gastrin", "Amylase", "Chymotrypsin", "Trypsin"],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 5,
+        question: "The digestive enzyme that coagulates protein in milk is",
+        options: ["Ptyalin", "Pepsin", "Renin", "Trypsin", "Amylase"],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 6,
+        question:
+          `The arrangements below are steps of protein digestion. Which is the correct sequence? <br />
+          a -> Polypeptides <br />
+          b -> Protein <br />
+          c -> Amino acids <br />
+          d -> Peptones`,
+        options: [
+          "a -> b -> c -> d",
+          "c -> d -> a -> d",
+          "b -> c -> a -> d",
+          "b -> d -> a -> c",
+          "b -> a -> c -> d",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 7,
+        question: "Which of the following organs produces bile?",
+        options: ["Gall bladder", "Pancreas", "Spleen", "Liver", "Stomach"],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 8,
+        question: "Which of the food substances is digested in the stomach?",
+        options: [
+          "Carbohydrate",
+          "Fats and oil",
+          "Fats and protein",
+          "Protein",
+          "Carbohydrate and fats",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 9,
+        question: "The kind of teeth used for tearing food materials is the",
+        options: ["fang", "cannies", "premolar", "carnassial", "incisor"],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 10,
+        question: "Milk protein is hydrolysed by",
+        options: ["renin", "amylase", "lipase", "lactase", "pepsin"],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 11,
+        question: "All the following are digestive enzymes except",
+        options: ["bile", "lipase", "maltase", "pepsin", "ptyalin"],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 12,
+        question:
+          "The correct route for a piece of bread eaten by a mammals is",
+        options: [
+          "Oral cavity -> Oesophagus -> Ileum -> Rectum",
+          "Oral cavity -> Stomach -> Oesophagus -> Duodenum -> Ileum -> Rectum",
+          "Oral cavity -> Esophagus -> Duodenum -> Stomach -> Ileum -> Rectum",
+          "Oral caviy -> Oesophagus -> Ileum -> Stomach -> Duodenum -> Rectum",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 13,
+        question:
+          "In the enzyme reactions: starch -> sugar in the presence of amylase, starch is referred to the",
+        options: [
+          "substrate",
+          "product",
+          "enzyme-substract complex",
+          "reaction mixture",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 14,
+        question:
+          "if a gall bladder of a man is removed by surgery, which of the following process will be seriously affected?",
+        options: [
+          "Digestion of fats and oil",
+          "formation of urea",
+          "Digestion of fats",
+          "Conversion of protein",
+          "Storage and release of urine",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 15,
+        question: "The maintainace pancrease is involve with is the?",
+        options: [
+          "digestion of food only",
+          "digestion and absorbtion of food",
+          "digestion of food and regulation of blood sugar",
+          "digetion of food production hormones and the regulation of blood sugar",
+          "digestion of food and regulation of insulin",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 16,
+        question:
+          "Which of the following about dentition of a man is INCORRECT? Man has",
+        options: [
+          "more molars than incisor",
+          "no diastema",
+          "the same number of teeth on upper and lower jaws",
+          "a total thirty two teeth",
+          "a total of six molars",
+        ],
+        ans: "E",
+        userAnswer: null,
+      },
+      {
+        id: 17,
+        question: "The mouth part of housefly are adapted for",
+        options: [
+          "lapping and sponging",
+          "sucking and chewing",
+          "piercing amd sucking",
+          "chewing and lapping",
+          "biting and chewing",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 18,
+        question: "Which of the following statement is not true of enzyme?",
+        options: [
+          "They are protein",
+          "They need cofactor to activate them",
+          "They are sensitive to hydrogen ion",
+          "They can withstand high temperature",
+        ],
+        ans: "D", // most protein will denature at high temp
+        userAnswer: null,
+      },
+      {
+        id: 19,
+        question: "Pepsin is a digestive enzyme which break",
+        options: [
+          "cellulose into glucose molecule",
+          "carbohydrate ino simple sugars",
+          "protein into peptones",
+          "fats into glycerol and fatty acids",
+          "sucrose into glucose and fructose",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 20,
+        question:
+          "The removal of a man's pancreas by surgical operation can affect only the digestion of",
+        options: [
+          "starch",
+          "starch, protein and fats",
+          "oils and fats",
+          "proteins",
+          "carbohydrate and fats",
+        ],
+        ans: "A", // it will affect everything
+        userAnswer: null,
+      },
+      {
+        id: 21,
+        question:
+          "The presence of diastema in the jawbone indicate that the mammal lacks the teeth suitable for",
+        options: ["cutting", "chewing and tearing", "cutting and grinding"],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 22,
+        question:
+          `Which of the following represent the sequences of protein hydrolysis? <br />
+          1. Polypeptides <br />
+          2. Amino acids <br />
+          3.proteins <br />
+          4. Peptones`,
+        options: [
+          "3 -> 1 -> 2 -> 4",
+          "3 -> 2 -> 4 -> 1",
+          "3 -> 4 -> 2 -> 1",
+          "3 -> 4 -> 1 -> 2",
+          "3 -> 1 -> 4 -> 2",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 23,
+        question:
+          "Partially digested food ready to leave the stomach is reffered to as",
+        options: ["chyme", "curd", "glycogen", "paste", "roughage"],
+        ans: "A", //chyme, honestly
+        userAnswer: null,
+      },
+      {
+        id: 24,
+        question: "The three organs that are situated close to the stomach are",
+        options: [
+          "kidney, liver and gall bladder",
+          "pancreas, liver and kindey",
+          "liver, kidney and spleen",
+          "gall bladder, pancreas and spleen",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 25,
+        question:
+          "Evidence that a tooth is a living part of the mammalian body can be found within the",
+        options: ["gum", "pulp cavity", "cement", "enameal"],
+        ans: "b",
+        userAnswer: null,
+      },
+      {
+        id: 26,
+        question:
+          "Which of the following list of organs is directly involved in nutrition?",
+        options: [
+          "Oesophagus, bronchus, stomach, pancreas and anus",
+          "Spleen, pharynx, duodenum, jejunum and rectum",
+          "Teeth, oesophagus, ileum, lungs, and large intestine",
+          "Salivary gland, liver, stomach, villi and colon",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 27,
+        question: "If an animal has diastema, it would NOT possess",
+        options: ["incisors", "canines", "premolars", "molars"],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 28,
+        question:
+          "If the gall bladder of a mammal is damaged, which of the following will be most seriously affected?",
+        options: [
+          "Glycolysis",
+          "Digestion of starch",
+          "Digestion of fats and oils",
+          "Digestion of proteins",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 29,
+        question:
+          "Which of the following will be first digested if ingested at the same time?",
+        options: [
+          "Cooked beans",
+          "Cooked rice",
+          "Cod liver oil",
+          "Roasted beef",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 30,
+        question: "The pancreatic juice contains the enzmyes amylopsin",
+        options: [
+          "pepsin and trypsinogen",
+          "rennin and steapsin",
+          "steapsin and trypsinogen",
+          "steapsin and ptyalin",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 31,
+        question:
+          "The organ which secretes digestive enzymes as well as hormone is the",
+        options: ["liver", "salivary gland", "pancreas", "spleen"],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 32,
+        question: "The villus in the small intestine is significant because it",
+        options: [
+          "increase the surface area for absorption",
+          "increase the surface area for digestion",
+          "assist in mixing digestion food",
+          "assist in filtering undigested food",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 33,
+        question: "One of the accessory organs of the digestive system is the",
+        options: ["kidney", "spleen", "liver", "lung"],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 34,
+        question: "The crown of the mammalian tooth is covered with",
+        options: ["cement", "dentine", "caries", "enamel"],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 35,
+        question: "Which enzymes are contained in the pancreatic juice?",
+        options: [
+          "Ptyalin, lipase and pepsin",
+          "Maltase, erepsin and trypsin",
+          "Rennin, sucrase and lipase",
+          "Amylase, lipase and trypsin",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 36,
+        question:
+          "The end product of the digestion of fats and oils in mammals are",
+        options: [
+          "maltose and fatty acids",
+          "amino acids and glucose",
+          "fatty acids and fructose",
+          "fatty acids and glycerin", // 100. Fatty acid and glycerine
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 37,
+        question:
+          "The activity of ptyalin is likely to decrease with an increase in the concentration of",
+        options: ["oxygen", "starch", "protein", "acid"],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 38,
+        question: "The part of the stomach nearer the gullet is called the",
+        options: [
+          "epiglottis",
+          "cardiac sphincter",
+          "duodenum",
+          "pyloric sphincter",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 39,
+        question:
+          "The group of insects that have mouth parts adapted for both piercing and sucking is",
+        options: [
+          "cockroaches, aphids and mosquitoes",
+          "aphids, houseflies and moths",
+          "mosquitoes, tsetse flies and aphids",
+          "aphids, beetle and grasshopper",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 40,
+        question: "The enzyme invertase will hydrolyze surcose to give",
+        options: [
+          "maltase and glucose",
+          "glycerol and fatty acids",
+          "glucose and fructose",
+          "mannose and galactose",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 41,
+        question:
+          "The carnassial teeth of a carnivorous animal consists of the",
+        options: [
+          "last upper premolar and the first lower molar",
+          "upper molar and the last lower molar",
+          "first upper premolar and the first lower molar",
+          "first upper molar and the first lower molar",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 42,
+        question:
+          "Examples of organisms in which extracellular digesion occurs are",
+        options: [
+          "Fungus, loranthus and housefly",
+          "Rhizopus, sponges and earthworm",
+          "Roundworm, tapeworm and Hydra",
+          "Rhizopus, housefly and Hydra",
+        ],
+        ans: "d",
+        userAnswer: null,
+      },
+      {
+        id: 43,
+        question:
+          "The organ located within the duodenal loop in the mammal is the",
+        options: ["spleen", "pancreas", "liver", "gall bladder"],
+        ans: "b",
+        userAnswer: null,
+      },
+      {
+        id: 44,
+        question:
+          "The part of mammalian digestive system where absorption of nutrients take place is the",
+        options: ["illeum", "colon", "oesophagus", "duodenum"],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 45,
+        question:
+          "An insect with a mandibulate mouth part will obtain its food by",
+        options: [
+          "biting and chewing",
+          "chewing and sucking",
+          "chewing",
+          "sucking",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 46,
+        question: "The gall bladder of a mammal has a duct connected to the",
+        options: ["liver", "duodenum", "small intestine", "pancreas"],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 47,
+        question:
+          "The breakdown of fats and oils into simpler absorbable compounds is catalyzed by enzymes called",
+        options: ["lipases", "hydrolases", "amylases", "peptidases"],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 48,
+        question: "Rodents gnaw on food with their",
+        options: [
+          "molar teeth",
+          "strong jaws",
+          "flat-ridged teeth",
+          "chisel-like front teeh",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 49,
+        question: "The pancreas secretes enzymes for the digestion of",
+        options: [
+          "fats, protein and carbohydrate",
+          "fats, vitamin and celluose",
+          "fats, carbohydrate and vitamins",
+          "proteins, celluose and minerals",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 50,
+        question: "The order of passasge of food in the digestive system is",
+        options: [
+          "illeum -> caecum -> large intenstine -> rectum",
+          "ileum -> colon -> caecum -> rectum",
+          "large intestine -> illeum -> rectum",
+          "colon -> caecum -> ileum -> rectum",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 51,
+        question:
+          "In the alimentary system of a bird, the function of teeth is carried out by",
+        options: ["crop", "beak", "gizzard", "tongue"],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 52,
+        question: "Chewing the cud is an adaptation peculiar to",
+        options: ["herbivores", "omnivores", "rodents", "ruminants"],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 53,
+        question:
+          "The part of alimentary system of a bird where food is ground into small particles is the",
+        options: ["cloaco", "stomach", "crop", "gizzard"],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 54,
+        question: "The part of the human gut that has an aidic content is the",
+        options: ["duodenum", "ileum", "colon", "stomach"],
+        ans: "D",
+        userAnswer: null,
+      },
+      // {
+      //   id: 55,
+      //   question:
+      //     "The conversion of a nutrient into a molecule in the body of a consumer is referred to as",
+      //   options: ["absorption", "inhibition", "digestion", "assimilation"],
+      //   ans: "D",
+      //   userAnswer: null,
+      // },
+      {
+        id: 56,
+        question:
+          `I. Test tube containing cane sugar and water. <br />
+          II. Test tube containing cane sugar and dilute acid. <br />
+          III. Test tube containing cane sugar and its degrading enzyme. <br />
+          In which of the test tubes will glucose be detected after complete hydrolysis?`,
+        options: [
+          "I only",
+          "I, II, and, III",
+          "I and II only",
+          "II and III only",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      // {
+      //   id: 57,
+      //   question:
+      //     `I. Test tube containing cane sugar and water <br />
+      //      II. Test tube containing cane sugar and dilute acid <br />
+      //     III. Test tube containing cane sugar and its degrading enzyme. <br />
+      //     The enzyme involved in the hydrolysis is`,
+      //   options: ["sucrase", "maltase", "rennin", "erepsin"],
+      //   ans: "A",
+      //   userAnswer: null,
+      // },
+      {
+        id: 58,
+        question: "An example of a filter-feeding animal is",
+        options: ["Whale", "Mosquito", "Shark", "Butterfly"],
+        ans: "A",
+        userAnswer: null,
+        // I am not scared of anything. Whatever that will happen will happen. You just wait and see. Let's see how event will come to be...
+      },
+      {
+        id: 59,
+        question:
+          "A function of the hydrochloric acid produced in the human stomach during digestion is to",
+        options: [
+          "neutralise the effect of bile",
+          "coagulate milk protein and emulsify fats",
+          "stop the action of ptyalin",
+          "break up food into smaller particles",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 60,
+        question:
+          "The process in which complex substances are broken down into simpler ones is referred to as",
+        options: ["Catabolism", "Metabolism", "Propism", "Anabolism"],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 61,
+        question: "The enzyme that is present in the saliva is",
+        options: ["Lipase", "Pepsin", "Ptyalin", "Rennin"],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 62,
+        question:
+          "Which of the following organs regulates the amount of amino acids and glucose in the body?",
+        options: ["Kidney", "Liver", "Pancreas", "Spleen"],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 63,
+        question: "Which of the following animal has homodont dentition?",
+        options: ["Rat", "Man", "Lizard", "Pigeon"],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 64,
+        question:
+          "The activity of ptyalin is likely to decrease with an increase in the concentration of",
+        options: ["Oxygen", "Starch", "Protein", "Acid"],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 65,
+        question: "The hepatic portal vein is unique because it",
+        options: [
+          "carries deoxygenated blood",
+          "begins and ends with capillaries",
+          "is the largest vein in mammals",
+          "carries degested food",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 66,
+        question: "The degistive enzyme found in the ileum is",
+        options: ["trypsin", "pepsin", "erepsin", "renin"],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 67,
+        question: "Which organs produces bile in the human body?",
+        options: ["Liver", "Gall bladder", "Kidney", "Pancreas"],
+        ans: "A",
+        userAnswer: null,
+      },
+    ],
+  },
+
+  {
+    topic: "Supporting Tissues In Plants And Movement",
+    questions: [
+      {
+        id: 1,
+        question: "One of the functions of the xylem is",
+        options: [
+          "Strengthening the stem",
+          "Manufacturing food",
+          "Reducing loss of water",
+          "Conducting manufactured food",
+          "Storing unused sugar",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      // {
+      //   id: 2,
+      //   question: "The cilia in paramecium are used for",
+      //   options: [
+      //     "respiring",
+      //     "locomotion",
+      //     "protection",
+      //     "regulating food intake",
+      //     "excretion",
+      //   ],
+      //   ans: "B",
+      //   userAnswer: null,
+      // },
+      {
+        id: 3,
+        question:
+          "In a phototrophic experiment, young seedlings in a box were subjected to light from one direction. The seedlings continued to grow erect. Which of the following statements is correct?",
+        options: [
+          "Only the tips of the seedling received light",
+          "The light was not strong enough",
+          "The seedlings were rather too young",
+          "The tips of the seedling may have been covered",
+          "The box containing the seedling should have been placed on a laboratory bench",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 4,
+        question:
+          "Which of these tissues serves the function of support and water conduction?",
+        options: [
+          "Parenchyma",
+          "Collenchyma",
+          "Sclerenchyma",
+          "Xylem",
+          "Phloem",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 5,
+        question:
+          "The tips of some rice seedlings were cut off while some were left intact. Both were covered with a container which had only one small hole to allow light through. After twenty-four hours it was observed that",
+        options: [
+          "the cut tips bent away from the light",
+          "the cut tips bent towards source of light",
+          "the intact tips bent away from the light",
+          "the intact tips bent towards light",
+          "both tips bent away from light",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 6,
+        question:
+          "Which of these instruments is used to demonstrate the response of roots and shoots to gravity?",
+        options: ["klinostat", "Manometer", "Potometer", "Photometer"],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 7,
+        question:
+          "Growing yam tendrils climb for support. This growth response is",
+        options: [
+          "haptotropism", // correctamundo
+          "geotropism",
+          "phototropism",
+          "hydrotropism",
+          "chemotropism",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 8,
+        question: "Roots of plants are normally",
+        options: [
+          "positively phototrophic",
+          "negatively geotropic",
+          "negatively hydrotrophic",
+          "positively geotropic"
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 9,
+        question:
+          "The movement of hair of a plant in response to external stimulus of no particular direction",
+        options: [
+          "taxism",
+          "tropism",
+          "Haptotropic movement",
+          "nastic movement",
+          "phototropism",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 10,
+        question:
+          "In a positive phototropic response of a coleoptile, the region of greatest curvature is brought about by",
+        options: [
+          "movement of auxin away from the region of curvature",
+          "even distribution of auxins in all parts of the coleoptile",
+          "inhibition of growth by auxins in the region of smaller curvature",
+          "concentration of auxins in the region of curvature",
+          "absence of auxins in the coleoptitle",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 11,
+        question: "Nastic movement is",
+        options: [
+          "response to light stimulus",
+          "non-directional",
+          "directional",
+          "response to internal stimulus",
+        ],
+        ans: "b",
+        userAnswer: null,
+      },
+      {
+        id: 12,
+        question:
+          "An instrument that can be used to demonstrate phototropism and geotropism in plants is the",
+        options: ["auxanometer", "photometer", "klinostat", "photometer"],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 13,
+        question:
+          "The growth of a coleoptile towards unilateral light source is due to",
+        options: [
+          "rapid rate of photosythesis",
+          "unequal distribution of auxins",
+          "the effects of photolysis",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 14,
+        question: "Sclerenchyma cells are lignified to",
+        options: [
+          "strengthen and support the plant",
+          "transport synthesized food",
+          "conduct water and salt",
+          "protect the plant from injury",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 15,
+        question: "Parenchyma cells serves as supporting tissues when ",
+        options: [
+          "they contain chloroplasts",
+          "have crystals",
+          "become flaccid",
+          "become turgid",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 16,
+        question: "Taxism differs from tropism because", // I ve learnt taxism and tropism this morning asap
+        options: [
+          "The whole organism is affected",
+          "It is a directional movement",
+          "It is a response to multi-directional stimuli",
+          "Part of the organism is affected",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 17,
+        question:
+          "The movement of the whole organism to an external stimulus is termed",
+        options: [
+          "tropism",
+          "a taxis",
+          "a nastic movement",
+          "a phototrophic movement",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 18,
+        question:
+          "The response shown by the tips of the root and shoot of a plant to the stimulus of gravity is",
+        options: [
+          "Haptotropism",
+          "Photototropism",
+          "Hydrotropism",
+          "Geotropism",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 19,
+        question: "The phloem parenchyma is sometimes used for",
+        options: [
+          "food storage",
+          "supporting the stem",
+          "production of the sieve tube",
+          "transporing water",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 20,
+        question:
+          "When a healthy shoot of a flowering plant is illuminated from one side, auxin accumulate on the",
+        options: [
+          "non-illuminated side of the shoot",
+          "illuminated side of the shoot",
+          "upper side of the shoot",
+          "lower side of the shoot",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 21,
+        question:
+          "A plant parenchyma cell also acts as a suppoeting tissue when it",
+        options: [
+          "Becomes flaccid",
+          "Contains crystals",
+          "Becomes turgid",
+          "Is pigmented",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 22,
+        question:
+          "The ability of a living organism to detect and respond to changes in the environment is referred to as",
+        options: ["Growth", "Taxis", "Locomotion", "Irritability"],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 23,
+        question:
+          "The movement of part of a plant in response to external stimulus of no particular direction is",
+        options: [
+          "Taxism",
+          "Tropism",
+          "Haptotropic movement",
+          "Nastic movement",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 24,
+        question: "Nastic movement is",
+        options: [
+          "Response to light stimulus",
+          "Non-directional",
+          "Directional",
+          "Response to internal stimulus",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 25,
+        question:
+          "The ability of a living organism to detect and respond to changes in the environment is referred to as",
+        options: ["Locomotion", "Taxis", "Irritability", "Growth"],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 26,
+        question:
+          "The movement response of a cockroach away from a light source is",
+        options: [
+          "Negative phototaxism", // taxism is the movement of the whole organism away from a stimulus
+          "Positive phototaxism",
+          "Negative phototropism",
+          "Positive phototropism",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 27,
+        question: "The outer-most tissue of the herbaceous roots is the",
+        options: ["cuticle", "pericycle", "epidermis", "endodermis"],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 28,
+        question:
+          "The respective tissues that transport water and manufactured food in plants are",
+        options: [
+          "xylem and phloem",
+          "phloem and tracheid",
+          "phloem and xylem",
+          "xylem and tracheid",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 29,
+        question:
+          "The movement of the whole organism to an external stimulus is termed",
+        options: ["tropism", "a taxis", "a nastic movement", "a phototropic"],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 30,
+        question:
+          "In the root vascular system, the stele is directly surrounded by the",
+        options: ["pericycle", "cortex", "endodermis", "parenchyma"],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 31,
+        question: "A plant tissue that carries water and mineral salt is the",
+        options: ["xylem", "cortex", "phloem", "cambium"],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 32,
+        question:
+          "Which of these instruments is used to demonstrate the response of roots and shoots to gravity?",
+        options: ["Klinostat", "Manometer", "Potometer", "photometer"],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 33,
+        question:
+          "Which of the following can be used in demonstrating Geotropism and Phototropism?",
+        options: ["Klinostat", "Potometer", "Seechi disc", "Anemometer"],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 34,
+        question: "Growth response of a plant to light gradient is known as",
+        options: [
+          "nastic movement",
+          "geotropism",
+          "hydrotropism",
+          "phototropism",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 35,
+        question: "Shoot of a plant is",
+        options: [
+          "Positive phototropism and negative geotropism",
+          "Negaive phototropism and positive geotropism",
+          "Negative phototropism and negative geotropism",
+          "Positive phototropism and positive geotropism",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+    ],
+  },
 
 ]
 
