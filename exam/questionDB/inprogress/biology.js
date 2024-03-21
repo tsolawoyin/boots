@@ -5041,6 +5041,889 @@
     userAnswer: null  
   },
   ]
+},
+{
+  topic: "19. The Nervous System",
+  questions: [
+  {
+  id: 1,
+  question:
+      "People suffering from myopla",
+  options: [
+      "Can see near objects clearly",
+      "Can see far away objects clearly",
+      "Cannot see any objects clearly",
+      "Are colour blind",
+      "Are able to see better in the dark"
+  ],
+  ans: "A",
+  userAnswer: null,
+  },
+  {
+    id: 2,
+    question:
+        "In a phototrophic experiment, young seedlings in a box were subject to light from one direction. The seedlings continued to grow erect. Which of the following statements is correct?",
+    options: [
+        "Only the tips of the seedlings received light",
+        "The light was not strong enough",
+        "The seedlings were rather too young",
+        "The tips of the seedlings may have been covered",
+        "The box containing the seedlings should have been placed on a laboratory bench"
+    ],
+    ans: "D",
+    userAnswer: null,
+  },
+  {
+    id: 3,
+    question:
+        "When the cillary muscle of the eye contracts, the eye lens",
+    options: [
+        "Bulges",
+        "Contracts",
+        "Rotates",
+        "Flattens",
+        "Is rounded"
+    ],
+    ans: "A",
+    userAnswer: null,
+  },
+  {
+    id: 4,
+    question:
+        "The part of the mammalian brain responsible for maintaining balance is",
+    options: [
+        "Medulla oblongata",
+        "Cerebellum",
+        "Optic lobe",
+        "Cerebrum",
+        "Olfactory lobe"
+    ],
+    ans: "B",
+    userAnswer: null,
+  },
+  {
+    id: 5,
+    question:
+        "Which part of the human brain is concerned with reflexes controlling the rate of heartbeat and breathing?",
+    options: [
+        "Medulla",
+        "Cerebrum",
+        "Pineal body",
+        "Olfactory lobe"
+    ],
+    ans: "A",
+    userAnswer: null,
+  },
+  {
+    id: 6,
+    question:
+        "The following are connected with the movement of a reflex action (1) Central nervous system (2) Muscle (3) Skin (4) Sensory nerve (5) Motor nerve. Which of the following sequences indicates a correct path?",
+    options: [
+        "1-2-3-4-5",
+        "2-1-4-5-3",
+        "3-4-1-2-5",
+        "4-1-5-2-3",
+        "3-4-1-5-2"
+    ],
+    ans: "E",
+    userAnswer: null,
+  },
+  {
+    id: 7,
+    question:
+        "Biconcave lenses are used in the correction of an eye defect called",
+    options: [
+        "Myopia",
+        "Colour blindness",
+        "Old age",
+        "Hypermetropla",
+        "Weakening of ciliary muscles"
+    ],
+    ans: "A",
+    userAnswer: null,
+  },
+  {
+    id: 8,
+    question:
+        "The centre which controls respiratory activities in the mammalian brain is the",
+    options: [
+        "Cerebellum",
+        "Olfactory lobes",
+        "Pituitary organ",
+        "Cerebellum",
+        "Medulla"
+    ],
+    ans: "",
+    userAnswer: null,
+  },
+  {
+    id: 9,
+    question:
+        "The tips of some rice seedlings were cut off while some were left intact. Both were covered with a container which had only one small hole to allow light through. After twenty-four hours it was observed that",
+    options: [
+        "The cut tips bent away from light",
+        "The cut tips bent towards source to light",
+        "The intact tips bent away from the light",
+        "The intact tips bent towards light",
+        "Both tips bent away from light"
+    ],
+    ans: "D",
+    userAnswer: null,
+  },
+  {
+    id: 10,
+    question:
+        "Which of these instruments is used to demonstrate the response if roots and shoots to gravity?",
+    options: [
+        "Klinostat",
+        "Manometer",
+        "Potometer",
+        "Photometer"
+    ],
+    ans: "A",
+    userAnswer: null,
+  },
+  {
+    id: 11,
+    question:
+        "Accommodation of the human eye is best described as the",
+    options: [
+        "Ability to see distant oblects",
+        "Movement of upper and lower eyelids",
+        "Focusing of near and distant objects",
+        "Changing of lens shape due to varying light intensities",
+        "Constant adjustment of the iris"
+    ],
+    ans: "C",
+    userAnswer: null,
+  },
+  {
+    id: 12,
+    question:
+        "Growing yam tendrils climb for support. This growth response is",
+    options: [
+        "Haptotropism",
+        "Geotropism",
+        "Phototropism",
+        "Hydrotropism",
+        "Chemotropism"
+    ],
+    ans: "A",
+    userAnswer: null,
+  },
+  {
+    id: 13,
+    question:
+        "The part of the mammalian eye that strongly bend light rays are the",
+    options: [
+        "Cornea and lens",
+        "Cornea and aqueous humor",
+        "Cornea and vitreous humour",
+        "Lens and aqueous humour",
+        "Lens and vitreous humor"
+    ],
+    ans: "E",
+    userAnswer: null,
+  },
+  {
+    id: 14,
+    question:
+        "Roots of plants are normally",
+    options: [
+        "Positively phototrophic",
+        "Negative geotropic",
+        "Negatively hydrotropic",
+        "Negatively chemotropic"
+    ],
+    ans: "A",
+    userAnswer: null,
+  },
+  {
+    id: 15,
+    question:
+        "External ears of mammals consists of",
+    options: [
+        "Pinna and tympanum",
+        "Pinna only",
+        "Auditory meatus only",
+        "Auditory meatus and pinna",
+        "Auditory meatus and tympanum"
+    ],
+    ans: "D",
+    userAnswer: null,
+  },
+  {
+    id: 16,
+    question:
+        "Which of these parts of the mammalian ear is dircetly concerned with the sense of balance?",
+    options: [
+        "Cochlea",
+        "Eustachlan tube",
+        "Ear-drum",
+        "Pinna",
+        "Semicircular canals"
+    ],
+    ans: "E",
+    userAnswer: null,
+  },
+  {
+    id: 17,
+    question:
+        "The movement of part of a plant in response to external stimulus of no particular direction is",
+    options: [
+        "Taxism",
+        "Tropism",
+        "Haptotropic movement",
+        "Nastic movement",
+        "Phototropism"
+    ],
+    ans: "D",
+    userAnswer: null,
+  },
+  {
+    id: 18,
+    question:
+        "The part of the mammalian brain responsible for maintaining balance is the",
+    options: [
+        "Medulla oblongata",
+        "Olfactory lobe",
+        "Cerbellum",
+        "Cerebrum",
+        "Frontal lobe"
+    ],
+    ans: "C",
+    userAnswer: null,
+  },
+  {
+    id: 19,
+    question:
+        "In a positive phototropic response of a coleoptile, the region of greatest curvature is brought about by the",
+    options: [
+        "Movement of auxins away from the region of curvature",
+        "Even distribution of auxins in all parts of the coleoptile",
+        "Inhibition of growth by auxins in the region of curvature",
+        "Absence of auxins in the coleoptile"
+    ],
+    ans: "D",
+    userAnswer: null,
+  },
+  {
+    id: 20,
+    question:
+        "The function of the osslcles(malleus, incus and stapes) in the mammalian ear is the",
+    options: [
+        "Transmission of vibrations",
+        "Regulation of pressures",
+        "Support of the inner ear",
+        "Maintenance of balance during motion",
+        "Secretion of oil"
+    ],
+    ans: "A",
+    userAnswer: null,
+  },
+  {
+    id: 21,
+    question:
+        "If an animal is very active and has good muscular control, it is likely to have well-developed",
+    options: [
+        "Olfactory lobes",
+        "Cerebral hemisperes",
+        "Optic lobes",
+        "Cerebellum",
+        "Spinal cord"
+    ],
+    ans: "D",
+    userAnswer: null,
+  },
+  {
+    id: 22,
+    question:
+        "Movements and positions of the head in man are detected by the",
+    options: [
+        "Cochlea",
+        "Malleus",
+        "Utriculus",
+        "Semicircular canals",
+        "Outer ear"
+    ],
+    ans: "D",
+    userAnswer: null,
+  },
+  {
+    id: 23,
+    question:
+        "An old man is likely to be long-sighted because age effects the",
+    options: [
+        "Optic nerves",
+        "Retina",
+        "Ciliary muscles",
+        "Cornea",
+        "Aqueous humour"
+    ],
+    ans: "C",
+    userAnswer: null,
+  },
+  {
+    id: 24,
+    question:
+        "In a mammal, stimulus is transferred from the receptor muscle to the central nervous system through the",
+    options: [
+        "Motor neurons",
+        "Effector muscles",
+        "Dendrites",
+        "Sensory neurous",
+        "Synapses"
+    ],
+    ans: "D",
+    userAnswer: null,
+  },
+  {
+    id: 25,
+    question:
+        "Nastic movement is",
+    options: [
+        "Response to light stimulus",
+        "Non-directional",
+        "Directional",
+        "Response to internal stimulus"
+    ],
+    ans: "B",
+    userAnswer: null,
+  },
+  {
+    id: 26,
+    question:
+        "An instrument that can be used to demonstrate phototropism and geotropism in plants is the",
+    options: [
+        "Auxanometer",
+        "Potometer",
+        "Klinostat",
+        "Photometer"
+    ],
+    ans: "C",
+    userAnswer: null,
+  },
+  {
+    id: 27,
+    question:
+        "The growth of a coleoptile toward unilateral light source is due to",
+    options: [
+        "Rapid rate of photosythesis",
+        "Unequal distribution of auxins",
+        "The effect of geotropism",
+        "The effect of photolysis"
+    ],
+    ans: "B",
+    userAnswer: null,
+  },
+  {
+    id: 28,
+    question:
+        "The sequence of ear ossicles from the fenestra ovalls is",
+    options: [
+        "Malleus, incus and stapes",
+        "Malleus, stapes and incus",
+        "Stapes, incus and malleus",
+        "Stapes, melleus and incus"
+    ],
+    ans: "C",
+    userAnswer: null,
+  },
+  {
+    id: 29,
+    question:
+        "The centre for controlling body temperature in the brain is the",
+    options: [
+        "Cerebrum",
+        "Cerebellum",
+        "Medulla",
+        "Hypothalamus"
+    ],
+    ans: "D",
+    userAnswer: null,
+  },
+  {
+    id: 30,
+    question:
+        "Taxism differs from tropism because",
+    options: [
+        "The whole organism is affected",
+        "It is a directional movement",
+        "It is a response to multi-directional stimuli",
+        "Part of the organism is affected"
+    ],
+    ans: "A",
+    userAnswer: null,
+  },
+  {
+    id: 31,
+    question:
+        "The main function of the choroid is",
+    options: [
+        "Protection of the eye ball",
+        "Transmission of light",
+        "Supply of nutrients to tissues of the eye",
+        "Converging light"
+    ],
+    ans: "C",
+    userAnswer: null,
+  },
+  {
+    id: 32,
+    question:
+        "What part of the central nervous system is concerned with answering an examination question?",
+    options: [
+        "Cerebrum",
+        "Cerebellum",
+        "Medulla oblongata",
+        "Spinal cord"
+    ],
+    ans: "A",
+    userAnswer: null,
+  },
+  {
+    id: 33,
+    question:
+        "The region that controls most of the unconscious process of a mammalian body is the",
+    options: [
+        "Cerebellum",
+        "Cerebrum",
+        "Spinal cord",
+        "Medulla oblongata"
+    ],
+    ans: "C",
+    userAnswer: null,
+  },
+  {
+    id: 34,
+    question:
+        "The part of the ear that is connected with balance is the",
+    options: [
+        "Semi-circular canals",
+        "Incus",
+        "Malleus",
+        "Eustachian tube"
+    ],
+    ans: "A",
+    userAnswer: null,
+  },
+  {
+    id: 35,
+    question:
+        "The movement of the whole organism to an external stimulus is termed",
+    options: [
+        "Tropism",
+        "A taxis",
+        "A nastic movemet",
+        "A phototrophic movement"
+    ],
+    ans: "B",
+    userAnswer: null,
+  },
+  {
+    id: 36,
+    question:
+        "Neurons that receive stimuli from the body or internal organs are called",
+    options: [
+        "Sensory neurons",
+        "Efferent neurous",
+        "Motor neurons",
+        "Relay neurons"
+    ],
+    ans: "A",
+    userAnswer: null,
+  },
+  {
+    id: 37,
+    question:
+        "The response shown by the tips of the root and shoot of a plant to the stimulus of gravity is",
+    options: [
+        "Haptotropism",
+        "Phototropism",
+        "Hydrotropism",
+        "Geotropism"
+    ],
+    ans: "D",
+    userAnswer: null,
+  },
+  {
+    id: 38,
+    question:
+        "In the mammal, the autonomic nervous system consists of",
+    options: [
+        "Sympathetic and parasympathetic systems",
+        "Brain and spinal nerves",
+        "Brain and cranial nerves",
+        "Spinal cord and spinal nerves"
+    ],
+    ans: "A",
+    userAnswer: null,
+  },
+  {
+    id: 39,
+    question:
+        "Which path does sound entering the human ear follow?",
+    options: [
+        "Oval window ossicles ear drum",
+        "Ear drum oval window ossicles",
+        "Ear drum ossicles oval window",
+        "Ossicles ear drum oval window"
+    ],
+    ans: "C",
+    userAnswer: null,
+  },
+  {
+    id: 40,
+    question:
+        "When a short-sighted person views a distant object without spectacles, the image is formed",
+    options: [
+        "On the retina",
+        "In front of the retina",
+        "Behind the retina",
+        "On the blind spot"
+    ],
+    ans: "B",
+    userAnswer: null,
+  },
+  {
+    id: 41,
+    question:
+        "The part of the brain that controls heart beat and breathing is the",
+    options: [
+        "Olfactory lobe",
+        "Cerebellum",
+        "Cerebral hemisphere",
+        "Medulla oblongata"
+    ],
+    ans: "D",
+    userAnswer: null,
+  },
+  {
+    id: 41,
+    question:
+        "When a healthy shoot of a flowering plant is illuminated from one side, auxin accumulate on the",
+    options: [
+        "Non-illuminated side of the shoot",
+        "Illuminated side of the shoot",
+        "Upper side of the shoot",
+        "Lower side of the shoot",
+    ],
+    ans: "A",
+    userAnswer: null,
+  },
+  {
+    id: 43,
+    question:
+        "The process of walking is under the control of the part of the brain called",
+    options: [
+        "Optic lobe",
+        "Olfactory lobe",
+        "Cerebellum",
+        "Medulla oblongata"
+    ],
+    ans: "C",
+    userAnswer: null,
+  },
+  {
+    id: 44,
+    question:
+        "The part of the brain that regulates most biological cycles in humans is",
+    options: [
+        "Olfactory lobe",
+        "Optic lobe",
+        "Medulla oblongata",
+        "Pineal body"
+    ],
+    ans: "D",
+    userAnswer: null,
+  },
+  {
+    id: 45,
+    question:
+        "The ability of the eye to focus on both near and distant objects is termed",
+    options: [
+        "Image formation",
+        "Refraction",
+        "Hypermetropia",
+        "Accommodation"
+    ],
+    ans: "D",
+    userAnswer: null,
+  },
+  {
+    id: 46,
+    question:
+        "The small masses of nervous tissues in which many neurons have their nuclei are called",
+    options: [
+        "Dorsal roots",
+        "Ventral roots",
+        "Ganglia",
+        "Synapses"
+    ],
+    ans: "C",
+    userAnswer: null,
+  },
+  {
+    id: 47,
+    question:
+        "The correct sequences for the operation of smell in mammals is",
+    options: [
+        "Chemicals olfactory nerve ending brain",
+        "Dissolved chemicals nasal sensory cell brain",
+        "Chemiacals mucus membrane sensory cells brain",
+        "Dissolved chemicals sensory cells olfactory nerve brain"
+    ],
+    ans: "D",
+    userAnswer: null,
+  },
+  {
+    id: 48,
+    question:
+        "The part of the brain that controls body posture in mammals is the",
+    options: [
+        "Thalamus",
+        "Cerebrum",
+        "Spinal cord",
+        "Cerebrum"
+    ],
+    ans: "B",
+    userAnswer: null,
+  },
+  {
+    id: 49,
+    question:
+        "Short-sightedness can be corrected by lenses which are",
+    options: [
+        "Convex",
+        "Biconvex",
+        "Planoconvex",
+        "Concave"
+    ],
+    ans: "D",
+    userAnswer: null,
+  },
+  {
+    id: 50,
+    question:
+        "The inner ear contains two main organs, namely, the",
+    options: [
+        "Eardrum and Eustachian tube",
+        "Cochlea and Semi-circular canals",
+        "Oval window and ossicles",
+        "Pinna and Cochlea"
+    ],
+    ans: "B",
+    userAnswer: null,
+  },
+  {
+    id: 51,
+    question:
+        "The centre for learning and memory in the human brain is the",
+    options: [
+        "Medulla oblongata",
+        "Cerbellum",
+        "Cerebrum",
+        "Olfactory lobe"
+    ],
+    ans: "C",
+    userAnswer: null,
+  },
+  {
+    id: 52,
+    question:
+        "The response of plants to external stimulus in a non-directional manner is known as",
+    options: [
+        "Tactic movement",
+        "Phototropism",
+        "Geotropism",
+        "Nastic movement"
+    ],
+    ans: "D",
+    userAnswer: null,
+  },
+  {
+    id: 53,
+    question:
+        "Nervous control differs from hormonal central in that the former",
+    options: [
+        "Involves only chemical transmission",
+        "Is a slower process",
+        "Produces short-term changes",
+        "Has no specific pathway"
+    ],
+    ans: "C",
+    userAnswer: null,
+  },
+  {
+    id: 54,
+    question:
+        "One basic similarity between nervous and endocrine system is that they both",
+    options: [
+        "Produce widespread effects",
+        "Transmit very fast impuses",
+        "Involve the use of chemical substances",
+        "Produce precise and short lived effects"
+    ],
+    ans: "C",
+    userAnswer: null,
+  },
+  {
+    id: 55,
+    question:
+        "The transmission of impulses along a nerve fibre is characterised by",
+    options: [
+        "Hormonal and temperature changes",
+        "Electrical and ionic changes",
+        "Hormonal changes",
+        "Electrostatic changes"
+    ],
+    ans: "B",
+    userAnswer: null,
+  },
+  {
+    id: 56,
+    question:
+        "The function of the correcting lens is to",
+    options: [
+        "Diverge incoming rays",
+        "Converge incoming rays",
+        "Reflect incoming rays",
+        "Screen incoming rays"
+    ],
+    ans: "B",
+    userAnswer: null,
+  },
+  {
+    id: 57,
+    question:
+        "Which of the following stimuli is likely to elicit a nastic response in an organism?",
+    options: [
+        "Light intensity",
+        "Chemical subtances",
+        "Gravity",
+        "Touch"
+    ],
+    ans: "D",
+    userAnswer: null,
+  },
+  {
+    id: 57,
+    question:
+        "The ability if a living organism to detect and respond to changes in the enviroment is referred to as",
+    options: [
+        "Growth",
+        "Taxis",
+        "Locomotion",
+        "Irritability"
+    ],
+    ans: "D",
+    userAnswer: null,
+  },
+  {
+    id: 58,
+    question:
+        "The part of the mammalian ear responsible for the maintenance of balance is the",
+    options: [
+        "Pernlymph",
+        "Ossicles",
+        "Cochlea",
+        "Pinna"
+    ],
+    ans: "A",
+    userAnswer: null,
+  },
+  {
+    id: 59,
+    question:
+        "The movement response of a cockroach away from a light source can be described as",
+    options: [
+        "Negative phototropism",
+        "Positive phototropism",
+        "Positive phototaxism",
+        "Negative phototaxism"
+    ],
+    ans: "D",
+    userAnswer: null,
+  },
+  {
+    id: 60,
+    question:
+        "The autonomic nervous system consists of nerurons the control the",
+    options: [
+        "Voluntary muscles",
+        "Heartbeat",
+        "Tongue",
+        "Hands"
+    ],
+    ans: "B",
+    userAnswer: null,
+  },
+  {
+    id: 61,
+    question:
+        "The sensory cell that responds to dim light is referred as to as the",
+    options: [
+        "Lens",
+        "Rod",
+        "Iris",
+        "Cone"
+    ],
+    ans: "B",
+    userAnswer: null,
+  },
+  {
+    id: 61,
+    question:
+        "The eye defect caused by the devlopment of cloudy areas in the lenses is",
+    options: [
+        "Glaucoma",
+        "Cataract",
+        "Astigmatism",
+        "Presbyopia"
+    ],
+    ans: "B",
+    userAnswer: null,
+  },
+  {
+    id: 62,
+    question:
+        "Coordination and regulation of body activities in mammals are achieved by the",
+    options: [
+        "Nerves and muscles",
+        "Nerves and hormones",
+        "Nerves only",
+        "Hormones only"
+    ],
+    ans: "B",
+    userAnswer: null,
+  },
+  {
+    id: 63,
+    question:
+        "The cerebellum of the brain controls",
+    options: [
+        "Reflex actions",
+        "Muscular activity",
+        "Emotional expressions",
+        "The endocrine system"
+    ],
+    ans: "B",
+    userAnswer: null,
+  },
+  {
+    id: 64,
+    question:
+        "The part of the brain responsible response for peristalsis is the",
+    options: [
+        "Olfactory lobe",
+        "Medulla oblongata",
+        "Hypothalamus",
+        "Thalamus"
+    ],
+    ans: "B",
+    userAnswer: null,
+  }, 
+]
 }
   
 ];
