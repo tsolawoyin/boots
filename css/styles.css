@@ -4,6 +4,9 @@
 /* mobile first design */
 /* since this time around, it will be viewed majorly on phones... */
 /* the rest is just design */
+body {
+    background-color: #fbfaff;
+}
 
 #home {
     cursor: pointer;
@@ -101,4 +104,8 @@ nav {
     height: 70px;
     overflow-y: auto;
     list-style-type: none;
+}
+
+body {
+    background-color: #fbfaff;
 }
