@@ -6628,7 +6628,7 @@ let chemistryQuestions = [
       {
         id: 2,
         question: `Which of the following factors will slow down the speed of the reaction represented by the equation below?<br />
-        2${formula("H", 2, "O", "l")} + 2${formula(
+        2${formula("H", 2, "O",2, "l")} -> 2${formula(
           "H",
           2,
           "O",
@@ -6731,7 +6731,7 @@ let chemistryQuestions = [
       },
       {
         id: 16,
-        question: `A set of conditions that can quicken a hemical reaction is`,
+        question: `A set of conditions that can quicken a chemical reaction is`,
         options: [
           `low temperature and high reactant concentration`,
           `high temperature , presence of a catalyst and small reactant surface area`,
@@ -8866,7 +8866,7 @@ let chemistryQuestions = [
       },
       {
         id: 32,
-        question: `Calculate the maximum weight of copper deposited on the cathose if 0.2F of electricity was passed through a solution of ${formula(
+        question: `Calculate the maximum weight of copper deposited on the cathode if 0.2F of electricity was passed through a solution of ${formula(
           "CuSO",
           4
         )}. [Cu = 64]`,

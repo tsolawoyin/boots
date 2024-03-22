@@ -21,7 +21,8 @@ const chemistry = new Subject("Chemistry", [
   "Electrochemistry",
   "Nuclear Chemistry",
   "Industrial and Environmental Chemistry",
-  "Experimental Chemistry"
+  "Experimental Chemistry",
+  "Organic chemistry"
 ]);
 
 const biology = new Subject("Biology", [
@@ -45,6 +46,7 @@ const biology = new Subject("Biology", [
   "Reproduction In Animals. Development And Growth",
   "Homoeostasis. Endocrine System. Plant Hormone",
   "The Nervous System",
+  "Agriculture. Soil Science",
 ]);
 // this is going to be all english for now...
 // I will finish this as soon as possible...
