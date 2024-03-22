@@ -1332,7 +1332,7 @@ let chemistryQuestions = [
         ans: "C",
       },
       {
-        id: 26,
+        id: 250,
         question: `How many electrons are in the L shell of ${isotope(
           31,
           15,
@@ -1787,7 +1787,7 @@ let chemistryQuestions = [
         ans: "B",
       },
       {
-        id: 68,
+        id: 680,
         question: `Which atomic orbital is spherical in shape?`,
         options: ["2s", `3p`, "3d", `4f`],
 
@@ -2173,7 +2173,7 @@ let chemistryQuestions = [
         ans: "C",
       },
       {
-        id: 1,
+        id: 1001,
         question:
           "Which of the following statements concerning the three types of subatomic particles is correct?",
         options: [
@@ -3024,7 +3024,7 @@ let chemistryQuestions = [
         ans: "C",
       },
       {
-        id: 24,
+        id: 240,
         question: `Given that P has five valence electrons and O has six valence electrons, how many total valence electrons are present in the Lewis structure for the ${ion(
           formula("PO", 4),
           2,
@@ -4361,7 +4361,7 @@ let chemistryQuestions = [
         ans: "D",
       },
       {
-        id: 142,
+        id: 1420,
         question: `Which of the following binary ionic compounds has a name that includes a Roman numeral?`,
         options: [
           `${formula("Na", 2, "O")}`,
@@ -4512,7 +4512,7 @@ let chemistryQuestions = [
         ans: "C",
       },
       {
-        id: 152,
+        id: 1520,
         question: `The compound ${formula("Mg", "(SCN)", 2)} contains ${ion(
           "Mg",
           2,

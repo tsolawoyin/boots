@@ -1825,7 +1825,7 @@ let biologyQuestions = [
         ans: A,
       },
       {
-        id: 6,
+        id: 39,
         question:
           "Which of the following statements is NOT true of he piliferous layer of a root?",
         options: [
@@ -2066,7 +2066,7 @@ let biologyQuestions = [
         ans: A,
       },
       {
-        id: 31,
+        id: 40,
         question:
           "Which of the following is true of the transverse section of a dicot stem?",
         options: [
@@ -6917,7 +6917,7 @@ let biologyQuestions = [
         userAnswer: null,
       },
       {
-        id: 59,
+        id: 82,
         question: "The term caryopsis is used to describe a fruit in which the",
         options: [
           "Testa and pericarp are separate",
@@ -8190,7 +8190,7 @@ let biologyQuestions = [
         userAnswer: null,
       },
       {
-        id: 41,
+        id: 65,
         question:
           "When a healthy shoot of a flowering plant is illuminated from one side, auxin accumulate on the",
         options: [
@@ -8375,7 +8375,7 @@ let biologyQuestions = [
         userAnswer: null,
       },
       {
-        id: 57,
+        id: 68,
         question:
           "The ability if a living organism to detect and respond to changes in the enviroment is referred to as",
         options: ["Growth", "Taxis", "Locomotion", "Irritability"],
@@ -8412,7 +8412,7 @@ let biologyQuestions = [
         userAnswer: null,
       },
       {
-        id: 61,
+        id: 66,
         question:
           "The sensory cell that responds to dim light is referred as to as the",
         options: ["Lens", "Rod", "Iris", "Cone"],
