@@ -5924,6 +5924,679 @@
     userAnswer: null,
   }, 
 ]
+},
+{
+  topic: "20. Agriculture. Soil Science",
+  questions: [
+  {
+  id: 1,
+  question:
+      "Which of these is not a type of soil?",
+  options: [
+      "Sand",
+      "Granite",
+      "Loam",
+      "Clay",
+      "Sandy loam"
+  ],
+  ans: "C",
+  userAnswer: null,
+  },
+  {
+    id: 2,
+    question:
+        "The famer cannot check soil erosion effectively by",
+    options: [
+        "Constructing his ridges for planting across the slope",
+        "Cultivating cover crops",
+        "Practicing strip cropping",
+        "Clearing the land of vegetation",
+        "Constructing terraces"
+    ],
+    ans: "D",
+    userAnswer: null,
+  },
+  {
+      id: 3,
+      question:
+          "If three 30cm lenghts of glass tubing are tightly packed with clay, sand and loamy soils respectively and then stood in a beaker of water for one week, the level of water will be",
+      options: [
+          "Lowest in the tube with clay",
+          "The same in all the tubes",
+          "Lowest in the tube with loamy soil",
+          "Highest in the tube with sandy soil",
+          "Lowest in the tube with sandy soil"
+      ],
+      ans: "E",
+      userAnswer: null,
+  },
+  {
+    id: 4,
+    question:
+        "Leguminuous plants, e.g Mucuna, are usually planted in cultivated farmlands because they",
+    options: [
+        "Enrich the soil with phosphates",
+        "Provide animals with food",
+        "Enrich the soil with organic nitrogen",
+        "Protcet the soil from being over-heated",
+        "Protect the microrganisms in the soil"
+    ],
+    ans: "C",
+    userAnswer: null,
+  },
+  {
+    id: 5,
+    question:
+        "A few grams of dried soil were first heated until red hot and then futher heated until no more smoke was released. This experiment was to determined the",
+    options: [
+        "Amount of water in soil",
+        "Percentage of water in soil",
+        "Presence of humus in soil",
+        "Resistance of laterites to heat",
+        "Release of smoke from the soil"
+    ],
+    ans: "C",
+    userAnswer: null,
+  },
+  {
+    id: 6,
+    question:
+        "In which of the following plants is swollen shoot disease common?",
+    options: [
+        "Groundnut",
+        "Cocoa",
+        "Corn",
+        "Cotton",
+        "Rubber"
+    ],
+    ans: "B",
+    userAnswer: null,
+  },
+  {
+    id: 7,
+    question:
+        "Soil is said to be fertile if",
+    options: [
+        "It is back",
+        "It can supply usable nutrients to plant",
+        "The oxygen content is very high",
+        "Artificial manure is added to it",
+        "It is not waterlogged"
+    ],
+    ans: "B",
+    userAnswer: null,
+  },
+  {
+    id: 8,
+    question:
+        "Treatment of a poor soil with lime supplies",
+    options: [
+        "Sulphur",
+        "Calcium",
+        "Phosphorus",
+        "Sodium"
+    ],
+    ans: "B",
+    userAnswer: null,
+  },
+  {
+    id: 9,
+    question:
+        "If a farmer left his land uncultivated for five years before returning to it",
+    options: [
+        "Modern agriculture",
+        "Strip cropping",
+        "Contour ridging",
+        "Crop rotation",
+        "The bush fallow system"
+    ],
+    ans: "E",
+    userAnswer: null,
+  },
+  {
+    id: 10,
+    question:
+        "A 28g soil sample was heated to a constant weight of 24g. When fyrther heated to red hot and cooled, it weighed 18g. What is the percentage of humus in the soil?",
+    options: [
+        "22.2",
+        "55.6",
+        "75.0",
+        "25.9",
+        "35.7"
+    ],
+    ans: "A",
+    userAnswer: null,
+  },
+  {
+    id: 11,
+    question:
+        "Erosion can be reduce along a slope by",
+    options: [
+        "Ridging across slope",
+        "Ridging up slope",
+        "Ridging down slope",
+        "Crop rotation",
+        "Bush fallowing system"
+    ],
+    ans: "A",
+    userAnswer: null,
+  },
+  {
+    id: 12,
+    question:
+        "If a handful of soil is shaken with water and left to settle, the soil particles will settle from light to heavy particles as follows:",
+    options: [
+        "Humus, clay, silt, sand, stone",
+        "Humus, silt, clay, sand, stones",
+        "Humus, clay, silt, stones, sand",
+        "Human, sand, silt, clay, stones",
+        "Clay, humus, silt, sand, stones"
+    ],
+    ans: "A",
+    userAnswer: null,
+  },
+  {
+    id: 13,
+    question:
+        "Leaching is",
+    options: [
+        "Washing away of humus from the soil surface",
+        "Reduction of soil aeration by pressure",
+        "Soil erosion by means other than rainfall",
+        "Loss of organic matter due to exposure to direct sunlight",
+        "Washing out of chalk and limestone from upper layers of soil by heavy rains"
+    ],
+    ans: "E",
+    userAnswer: null,
+  },
+  {
+    id: 14,
+    question:
+        "The process of soil erosion is usually from",
+    options: [
+        "Rill sheet gully",
+        "Gully rill sheet",
+        "Sheet gully rill",
+        "Sheet rill gully",
+        "Rill gully sheet"
+    ],
+    ans: "D",
+    userAnswer: null,
+  },
+  {
+    id: 15,
+    question:
+        "Soil erosion CANNOT be controlled by",
+    options: [
+        "Planting cover crops",
+        "Contouring of sloping ground",
+        "Terracing of slopes",
+        "Laying of much",
+        "Burning of bush"
+    ],
+    ans: "E",
+    userAnswer: null,
+  },
+  {
+    id: 16,
+    question:
+        "Water retention is highest in soils which are rich in",
+    options: [
+        "Sand, poor in humus and devoid of clay",
+        "Clay and sand, but poor in humus",
+        "Clay and humus, but poor in sand",
+        "Clay, poor in humus and devoid of sand",
+        "Sand and humus, but poor in clay"
+    ],
+    ans: "D",
+    userAnswer: null,
+  },
+  {
+    id: 18,
+    question:
+        "The origin of minerals particles in the soil is",
+    options: [
+        "Humus",
+        "Water",
+        "Micro-organisms",
+        "Weathered rock",
+        "Organic matter"
+    ],
+    ans: "D",
+    userAnswer: null,
+  },
+  {
+    id: 19,
+    question:
+        "The initial volume of water poured into a bag of dry soil was 50ml and the amount that drained through was 35ml. The percentage water content of fully soaked soil is therefore",
+    options: [
+        "46.7",
+        "25.0",
+        "20.0",
+        "30.0",
+        "58.3"
+    ],
+    ans: "d",
+    userAnswer: null,
+  },
+  {
+    id: 19,
+    question:
+        "The swollen shoot disease of cocoa tree is caused by a",
+    options: [
+        "Virus",
+        "Fungus",
+        "Bacterium",
+        "Protozoan"
+    ],
+    ans: "A",
+    userAnswer: null,
+  },
+  {
+    id: 20,
+    question:
+        "A large percentage of tropical soils tend to be acidic because they",
+    options: [
+        "Contains large quantities of potash",
+        "Contain large quantities of lime",
+        "Lose a high proportion of their organic matter to running water",
+        "Lose lime and potash from the top soil through rain action"
+    ],
+    ans: "D",
+    userAnswer: null,
+  },
+  {
+    id: 21,
+    question:
+        "The following are methods of soil conservation EXCEPT",
+    options: [
+        "Contour terracing",
+        "Strip cropping",
+        "Contour ploughing",
+        "Mixed grazing"
+    ],
+    ans: "D",
+    userAnswer: null,
+  },
+  {
+    id: 22,
+    question:
+        "Samples of different soil types are packed in glass tubes whose lower ends are plugged with cotton wool. If these tubes are suspended in a trough of water, water will rise highest after a few hours in",
+    options: [
+        "Sand",
+        "Loam",
+        "Clay",
+        "Humus"
+    ],
+    ans: "C",
+    userAnswer: null,
+  },
+  {
+    id: 23,
+    question:
+        "The process by which lime is added to clay soils is known as",
+    options: [
+        "Sedimentation",
+        "Flocculation",
+        "Leaching",
+        "Manuring"
+    ],
+    ans: "B",
+    userAnswer: null,
+  },
+  {
+    id: 24,
+    question:
+        "The mineral nutrients that is most bound to the soil is",
+    options: [
+        "Phosphorus",
+        "Calcium",
+        "Iron",
+        "Potasslum"
+    ],
+    ans: "C",
+    userAnswer: null,
+  },
+  {
+    id: 25,
+    question:
+        "The mineral nutrient that easily gets leached out of the soil is",
+    options: [
+        "Phosphorus",
+        "Calcium",
+        "Magnesium",
+        "Nitrate"
+    ],
+    ans: "B",
+    userAnswer: null,
+  },
+  {
+    id: 26,
+    question:
+        "Most commercial fertilizers are rich in salts of",
+    options: [
+        "Sodium, iron and calcium",
+        "Nitrogen, phosphorus and and potassium",
+        "Iron, copper and nitrogen",
+        "Calcium, sodium and phosphorus"
+    ],
+    ans: "B",
+    userAnswer: null,
+  },
+  {
+    id: 27,
+    question:
+        "5g of oven dried soil was heated in a furnace for 24hours, after coooling, it weighed 4.8g what is the amount of humus in the soil?",
+    options: [
+        "40.0g per 100g dry soil",
+        "4.4g per 100g dry soil",
+        "4.0g per 100g dry soil",
+        "0.4g per 100g dry soil"
+    ],
+    ans: "C",
+    userAnswer: null,
+  },
+  {
+    id: 28,
+    question:
+        "Most irrigated lands often become unproductive in later years because of",
+    options: [
+        "Loss of fertility",
+        "Increase in salinity",
+        "Soil erosion",
+        "Loss of water"
+    ],
+    ans: "A",
+    userAnswer: null,
+  },
+  {
+    id: 29,
+    question:
+        "Farmers pratices crop rotation because it",
+    options: [
+        "Helps to prevent soil erosion",
+        "Alllows two crops to be planted at the same time",
+        "Helps to conserve soil fertility",
+        "Is an alternative to shifting cultivation"
+    ],
+    ans: "C",
+    userAnswer: null,
+  },
+  {
+    id: 30,
+    question:
+        "An acidic soil can be improved upon by",
+    options: [
+        "Sedimentation",
+        "Leaching",
+        "Flocculation",
+        "Watering"
+    ],
+    ans: "C",
+    userAnswer: null,
+  },
+  {
+    id: 31,
+    question:
+        "Fetilizers are lost from the soil through",
+    options: [
+        "Sheet erosion and evaporation",
+        "Leaching, underground seepages and run-off",
+        "Sheet erosion, gully erosion and wind erosion",
+        "Wind erosion and heavy rainfall"
+    ],
+    ans: "B",
+    userAnswer: null,
+  },
+  {
+    id: 32,
+    question:
+        "Soil with the finest particles is called",
+    options: [
+        "Silt",
+        "Clay",
+        "Sand",
+        "Gravel"
+    ],
+    ans: "B",
+    userAnswer: null,
+  },
+  {
+    id: 33,
+    question:
+        "Soil fertility can be conserved and renewed by",
+    options: [
+        "Yearly mono cropping",
+        "Crop rotation and cover crops",
+        "Bush burning to remove unwanted debris",
+        'Avoiding artificial manures'
+    ],
+    ans: "B",
+    userAnswer: null,
+  },
+  {
+    id: 34,
+    question:
+        "The water-rentation capacity of a soil indicates its",
+    options: [
+        "Fertility",
+        "Capillarity",
+        "Aeration level",
+        "PH level"
+    ],
+    ans: "B",
+    userAnswer: null,
+  },
+  {
+    id: 35,
+    question:
+        "In a soil sample, the relative amounts of the differents soil particles can be best be determined by the process of",
+    options: [
+        "Filtration",
+        "Centrifugation",
+        "Precipitation",
+        "Sedimentation"
+    ],
+    ans: "D",
+    userAnswer: null,
+  },
+  {
+    id: 36,
+    question:
+        "Soil micro-organisms are beneficial because of their involvement in",
+    options: [
+        "Photosynthesis",
+        "Translocation",
+        "Cycling of nutrients",
+        "Respiration using soil air"
+    ],
+    ans: "C",
+    userAnswer: null,
+  },
+  {
+    id: 37,
+    question:
+        "A soil consisting of alumina and iron (II) oxide is known as",
+    options: [
+        "Loamy soil",
+        "Clayey soil",
+        "Laterite",
+        "Podzol"
+    ],
+    ans: "C",
+    userAnswer: null,
+  },
+  {
+    id: 38,
+    question:
+        "The addition of lime to clay soil serve to",
+    options: [
+        "Aid water retention",
+        "Close up the texture",
+        "Prevent water-logging",
+        "Improve capillary action"
+    ],
+    ans: "C",
+    userAnswer: null,
+  },
+  {
+    id: 39,
+    question:
+        "The excessive use of agro-chemical could lead to the pollution of",
+    options: [
+        "The lithosphere",
+        "The atmosphere",
+        "Fresh water",
+        "Space"
+    ],
+    ans: "C",
+    userAnswer: null,
+  },
+  {
+    id: 39,
+    question:
+        "The stunted growth of a leguminous plant suffering from nitrogen deficiency may be corrected by inoculating the soil with",
+    options: [
+        "Denitrifying bacteria",
+        "Saprophytic bacteria",
+        "Rhizobium",
+        "Nitrosomonas"
+    ],
+    ans: "C",
+    userAnswer: null,
+  },
+  {
+    id: 40,
+    question:
+        "Soil fertility can be best be conserved and renewed by the activities of",
+    options: [
+        "Earthworms",
+        "Man",
+        "Rodents",
+        "Microbes"
+    ],
+    ans: "D",
+    userAnswer: null,
+  },
+  {
+    id: 41,
+    question:
+        "The soil type that will be most difficult to plough in a wet season is one that is",
+    options: [
+        "Loamy",
+        "Clayey",
+        "Snady",
+        "Silty"
+    ],
+    ans: "B",
+    userAnswer: null,
+  },
+  {
+    id: 42,
+    question:
+        "A farm pratice that result in the loss of soil fertility is",
+    options: [
+        "Mixed farming",
+        "Bush fallowing",
+        "Shifting cultivation",
+        "Continuous cropping"
+    ],
+    ans: "D",
+    userAnswer: null,
+  },
+  {
+    id: 43,
+    question:
+        "The importance of practing crop roatation in agriculture is to",
+    options: [
+        "Maintain soil fertility",
+        "Improve the nutritional value of crops",
+        "Control soil erosion",
+        "Ensure the growth of crops"
+    ],
+    ans: "A",
+    userAnswer: null,
+  },
+  {
+    id: 44,
+    question:
+        "The soil type that contains nutrients which are not readily available for plants is",
+    options: [
+        "Alluvial",
+        "Clayey",
+        "Snady",
+        "Loamy"
+    ],
+    ans: "B",
+    userAnswer: null,
+  },
+  {
+    id: 45,
+    question:
+        "The increasing order of the particle size in the following soil types is",
+    options: [
+        "Clay - sand - silt - gravel",
+        "Silt - sand - clay gravel",
+        "Clay - silt - sand - gravel",
+        "Silt - clay - sand - gravel"
+    ],
+    ans: "C",
+    userAnswer: null,
+  },
+  {
+    id: 46,
+    question:
+        "A crucible of 5gm weighed 10gm after filling with fresh soil. It is then heated in an oven at 100oc for 1 hour. After colling in a desiccator, the weight was 8 gm. The percentage of water in the soil is",
+    options: [
+        "80%",
+        "60%",
+        "20%",
+        "40%"
+    ],
+    ans: "D",
+    userAnswer: null,
+  },
+  {
+    id: 47,
+    question:
+        "The loss of soil through erosion can be reduced by",
+    options: [
+        "Crop rotation",
+        "Mannuring",
+        "Irrigation",
+        "Watering"
+    ],
+    ans: "A",
+    userAnswer: null,
+  },
+  {
+    id: 48,
+    question:
+        "An indigenous method of renewing and maintaining soil fertility is by",
+    options: [
+        "Clearing farms by burning",
+        "Planting one crop type",
+        "Adding inorganic fertilizers yearly",
+        "Crop rotation and shifting cultivation"
+    ],
+    ans: "D",
+    userAnswer: null,
+  },
+  {
+    id: 49,
+    question:
+        "The soil with the highest water-rentaining capacity is",
+    options: [
+        "Clayey soil",
+        "Stoney soil",
+        "Sandy soil",
+        "Sandy soil",
+        "Loamy soil"
+    ],
+    ans: "A",
+    userAnswer: null,
+  },
+]
 }
   
 ];
