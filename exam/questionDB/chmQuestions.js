@@ -13404,8 +13404,307 @@ let chemistryQuestions = [
         ],
         ans: "C",
       },
+      {
+        id: 37,
+        question:  `An organic compound is 53.1% C; 6.2% H; 12.4% N and 28.3% O by mass. Calculate the molecular formula of the compound if its vapour density is 56.5 <br /> {C = 12, H = 1, O = 16}`,
+        options: [
+          `${formula("C",5,"H",7,"NO",2)}`,
+          `${formula("C",5,"H",6,"NO",2)}`,
+          `${formula("C",3,"H",6,"NO",2)}`,
+          `${formula("C",3,"H",7,"NO",2)}`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 38,
+        question:  `What is the empirical formula of an organic compound containing 40.1%C and 6.6% H?`,
+        options: [
+          `${formula("C",2,"HO")}`,
+          `${formula("CH",3,"O")}`,
+          `${formula("CH",2,"O")}`,
+          `${formula("C",2,"H",3,"O")}`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 39,
+        question:  `A hydrocarbon with vapor density 21 contains 36g of carbon in one mole. What is the homologous series of the hydrocarbons?`,
+        options: [
+          `Aromatic`,
+          `Alkynes`,
+          `Alkanes`,
+          `Alkenes`,
+        ],
+        ans: "d",
+      },
+      {
+        id: 40,
+        question:  `A sample of a hydrocarbon burns in excess oxygen to yield 0.22g of ${formula("CO",2)} amd 0.09g of ${formula("H",2,"O")}. The empirical formula of the compound is?`,
+        options: [
+          `CH`,
+          `${formula("CH",2)}`,
+          `${formula("CH",3)}`,
+          `${formula("C","2","H",3)}`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 41,
+        question:  `0.06g of a monobasic organic acid having the general formula C<sub>n</sub>H<sub>2n+1</sub>COOH was neutralized by 100${units("cm",3)} of 0.01${units("mol dm",-3)} NaOH solution. The molecular formula of the acid is`,
+        options: [
+          `${formula("C",4,"H",9,"COOH")}`,
+          `${formula("C",3,"H",7,"COOH")}`,
+          `${formula("C",2,"H",5,"COOH")}`,
+          `${formula("CH",3,"COOH")}`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 42,
+        question:  `The relative molecular mass of a compound which has empirical formula ${formula("CH",2,"O")} is`,
+        options: [
+          `180`,
+          `145`,
+          `126`,
+          `42`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 43,
+        question:  `A hydrocarbon containing 81.8% carbon has a vapor density of 22. Its molecular formula is?`,
+        options: [
+          `${formula("CH",4)}`,
+          `${formula("C",2,"H",6)}`,
+          `${formula("C",3,"H",6)}`,
+          `${formula("C",4,"H",10)}`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 44,
+        question:  `The relative molecular mass of an organic compound is 54. If its empirical formula is ${formula("C",2,"H",3)}, the compound is an`,
+        options: [
+          `Aromatic`,
+          `Alkyne`,
+          `Alkene`,
+          `Alkane`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 45,
+        question:  `The molecular formula of a compound is ${formula("C",4,"H",8,"N",2,"O",2)}. Its empirical formula is`,
+        options: [
+          `${formula("CH",2,"NO")}`,
+          `${formula("C",4,"H",8,"N",2,"O",2)}`,
+          `${formula("C",4,"H",8,"NO")}`,
+          `${formula("C",2,"H",4,"NO")}`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 46,
+        question:  `What is the molecular formula of a compound which has empirical formula ${formula("C",5,"H",7,"N")} and the relative molecular mass 162?`,
+        options: [
+          `${formula("C",20,"H",28,"N",4)}`,
+          `${formula("C",15,"H",21,"N",3)}`,
+          `${formula("C",20,"H",41,"N",2)}`,
+          `${formula("C",5,"H",7,"N")}`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 49,
+        question:  `How many structural isomers can be drawn for the molecular formula ${formula("C",3,"H",8,"O")}`,
+        options: [
+          `1`,
+          `2`,
+          `3`,
+          `4`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 51,
+        question:  `How many isomeric cycloalkanes can be drawn for the molecular formula ${formula("C",4,"H",8)}`,
+        options: [
+          `1`,
+          `2`,
+          `3`,
+          `4`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 52,
+        question:  `The number of structural isomers that can be written for the alkyl chloride, ${formula("C",4,"H",9,"Cl")} is`,
+        options: [
+          `2`,
+          `3`,
+          `4`,
+          `5`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 88,
+        question:  `A characteristic reaction of unsaturated hydrocarbons is`,
+        options: [
+          `substitution`,
+          `polymerization`,
+          `neutralization`,
+          `elimination`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 89,
+        question:  `In which of the following polymers is nitrogen present?`,
+        options: [
+          `Polyvinyl chloride`,
+          `Polythene`,
+          `Nylon`,
+          `Starch`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 84,
+        question:  `The polymerization of 2-chlorobuta-1,3-diene in the presence of sodium gives a synthetic rubber known as`,
+        options: [
+          `neoprene`,
+          `chloroprene`,
+          `teflon`,
+          `polythene`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 87,
+        question:  `Terylene is synthesized by copolymerizing benzene-1,4-dicarboxylic acid(terephthalic acid) and ethane-1,2-diol. The reaction involved in this synthesis is`,
+        options: [
+          `substitution`,
+          `addition`,
+          `elimination`,
+          `condensation`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 67,
+        question:  `Alkanols have relatively high boiling points because of`,
+        options: [
+          `covalent bonding`,
+          `ionic bonding`,
+          `hydrogen bonding`,
+          `dipole-dipole attractions`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 68,
+        question:  `The solubility of glucose in water is due to`,
+        options: [
+          `crystalline structure`,
+          `hydrogen bonding`,
+          `covalent structure`,
+          `low melting point`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 69,
+        question:  `Which of the following alkanes has the highest boiling point`,
+        options: [
+          `Propane`,
+          `Pentane`,
+          `Hexane`,
+          `Heptane`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 71,
+        question:  `The reaction between an alkanol and an alkanoic acid in the presence of an acid catalyst is known as`,
+        options: [
+          `neutralization`,
+          `hydration`,
+          `esterification`,
+          `dehydration`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 72,
+        question:  `In which of the following pairs is all members made by the process of polymerization`,
+        options: [
+          `Soap and Petrol`,
+          `Artificial rubber and nylon`,
+          `Margarine and ethanol`,
+          `Soap and nylon`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 73,
+        question:  `Rapid oxidation with bromine water is given by`,
+        options: [
+          `alkanes`,
+          `alkanols`,
+          `alkanoic acids`,
+          `alkenes`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 74,
+        question:  `When a heavy fraction from petroleum is heated at high temperature, a lower boiling liquid is obtained. This process is known as`,
+        options: [
+          `fractional distillation`,
+          `polymerization`,
+          `cracking`,
+          `refining`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 77,
+        question:  `When an alkanol is heated with excess conc. ${formula("H",2,"SO",4)}, the alkanol is`,
+        options: [
+          `reduced to an alkene`,
+          `oxidized to an alkene`,
+          `dehydrated to an alkene`,
+          `polymerized to a macromolecule`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 78,
+        question:  `The reaction between ethanoic acid and potassium hydroxide illustrates`,
+        options: [
+          `hydroxylation`,
+          `neutralization`,
+          `acidification`,
+          `esterification`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 81,
+        question:  `The characteristic reaction of alkanals and alkanones(carbonyl compounds) is`,
+        options: [
+          `addition`,
+          `substitution`,
+          `elimination`,
+          `neutralization`,
+        ],
+        ans: "A",
+      },
     ]
   }
+
+  // splitting the organic chemistry up is the only to ensure that everyone do a lot of O.C.
 ];
 
 // if it's not working rn, I will have to read sth else... shey u understand...

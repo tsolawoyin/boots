@@ -11884,7 +11884,8 @@ let englishQuestions = [
         options: [
           "big spitting cobra black",
           "black big spitting cobra",
-          "big black spitting cobra.big spitting black cobra",
+          "big black spitting cobra",
+          "big spitting black cobra",
         ],
         ans: "C",
         main: "",
