@@ -8469,5 +8469,6 @@ let biologyQuestions = [
   },
 
 ]
+// console.log(biologyQuestions.reduce((a,b) => a + b.questions.length, 0))
 
 export { biologyQuestions }; // making sense now.
