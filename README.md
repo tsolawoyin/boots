@@ -1,8 +1,8 @@
 # Hi, I'm BOOTS 👋
 
-Welcome to my codebase. Yes I'm open-source and I need your help to grow. [Would you like to contribute?](./CONTRIBUTING.md)
+Welcome to my codebase. Yes I'm open-source and I need your help to grow. [Help improve](./CONTRIBUTING.md)
 
-                          Proudly sponsored by `BOOTS` 💎
+                  Proudly sponsored by `BOOTS` 💎
 
 ### About me
 
@@ -24,12 +24,7 @@ I am a very simple program with not so fancy graphical user-interface. I am prel
 
 ### Current Subjects available for Practice
 - English => 1554 questions
-- Chemistry => 921 questions
-- Biology
+- Chemistry => 1121 questions
+- Biology => 811 questions
 
 Want to contribute? [Please click here](./CONTRIBUTING.md)
-
-
-### About the Author
-
- The fact is that I, Boots, was created and is maintained by [tsolawoyin](#). He is a computer science student @[ossu](#). He is also learning web development @[freecodecamp](#) and @[TheOdinProject](#). He has experience in web development but his major area of expertise is writing algorithms that are efficient and working superbly. He also developed the [space invaders](#), written in racket programming language, [scrabble game](#) written in python programming language and have solved countless algorithmic challenges on codewars and other coding platforms. He loves mathematics, solving algorithmic problems, and loves reading [A series of unfortunate events](#) by **Lemony Snicket**. You can reach him via **t.olawoyin@outlook.com**. He is not a social media person so he's got no social media account.

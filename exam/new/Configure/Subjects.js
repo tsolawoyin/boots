@@ -40,7 +40,11 @@ const biology = new Subject("Biology", [
   "Animal nutrition and food substances",
   "Digestive system, Digestive enzymes and Dentition",
   "Supporting Tissues In Plants And Movement",
-  // "Supporting Tissues In Animals",
+  "Supporting Tissues In Animals",
+  "Reproduction In Flowering Plants, Germination, Fruit And Seed Dispersal",
+  "Reproduction In Animals. Development And Growth",
+  "Homoeostasis. Endocrine System. Plant Hormone",
+  "The Nervous System",
 ]);
 // this is going to be all english for now...
 // I will finish this as soon as possible...

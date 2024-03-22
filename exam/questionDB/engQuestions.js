@@ -1,7 +1,6 @@
 // CHATGPT 3.5 HELPED WITH THE ANSWERS
 
 let englishQuestions = [
-
   {
     topic: "Antonyms",
     questions: [
@@ -8162,7 +8161,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 100,
+        id: 98,
         question:
           "Town authorities have put up a railing in front of the exits __ people __ out of the stadium and __ straight across the road.",
         options: [
@@ -8177,7 +8176,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 101,
+        id: 99,
         question:
           "Someone __ the radio cassette since 6p.m. I wish he __ turn it off.",
         options: [
@@ -8192,7 +8191,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 102,
+        id: 100,
         question:
           "If the armed robbers __ caught, they would have been lynched.",
         options: ["would be", "have been", "are", "were", "had been"],
@@ -8201,7 +8200,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 103,
+        id: 101,
         question:
           "Had he known that it would rain, he __ his umbrella with him.",
         options: [
@@ -8216,7 +8215,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 104,
+        id: 102,
         question: "I was still sleeping when the national news __ this morning",
         options: [
           "were broadcast",
@@ -8230,7 +8229,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 105,
+        id: 103,
         question: "It all depended on what __",
         options: [
           "does he wants",
@@ -8244,7 +8243,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 106,
+        id: 104,
         question:
           "Samuel: Would you please come here, John? John: No. I'm busy, __ in my farm",
         options: [
@@ -8259,7 +8258,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 107,
+        id: 105,
         question: "My colleagues __ before I arrived.",
         options: [
           "started writing",
@@ -8273,7 +8272,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 108,
+        id: 106,
         question: "After the team conceded two goals, their enthusiasm __",
         options: [
           "was beginning to wane",
@@ -8287,7 +8286,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 109,
+        id: 107,
         question:
           "The Government __ the initial value of the hotel complex at ten million Naira",
         options: [
@@ -8302,16 +8301,15 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 110,
+        id: 108,
         question: "James __ reminding that not all that glitters is gold",
         options: ["needs", "need", "needing", "needs to", "need to"],
         ans: "A",
         main: "",
         remark: "",
       },
-
       {
-        id: 11,
+        id: 109,
         question:
           "No wonder those plants are dying. They __ any water for ages!",
         options: ["didn't have", "hadn't", "haven't had", "haven't"],
@@ -8320,7 +8318,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 12,
+        id: 110,
         question: "Gone are the days when he __ enjoy patronage.",
         options: ["would", "will", "used to", "could"],
         ans: "C",
@@ -8328,7 +8326,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 13,
+        id: 111,
         question: "If only we __ we could have overcome the difficulty.",
         options: [
           "had persevered",
@@ -8341,7 +8339,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 14,
+        id: 112,
         question:
           "We are gradually __ to the end of the programme this afternoon, remarked the chairman of the wedding reception.",
         options: ["arriving", "getting", "approaching", "going"],
@@ -8350,7 +8348,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 15,
+        id: 113,
         question: "We saw him __ over a wall as the police approached.",
         options: ["leaped", "leap", "leapt", "leaping"],
         ans: "B",
@@ -8358,7 +8356,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 16,
+        id: 114,
         question:
           "We later on discovered that some members __ another meeting before the one advertised.",
         options: ["were holding", "have held", "have been holding", "had held"],
@@ -8367,7 +8365,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 17,
+        id: 115,
         question: "Thank you for the party, we really __",
         options: [
           "enjoyed ourselves",
@@ -8380,7 +8378,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 18,
+        id: 116,
         question:
           "We were trying to study for the examinations last night when the lights __",
         options: ["were taken away", "came off", "quenched", "went off"],
@@ -8389,7 +8387,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 19,
+        id: 117,
         question:
           "When he had arranged the furniture, he __ the picture on the wall",
         options: ["hanged", "hung", "hang", "hunged"],
@@ -8398,7 +8396,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 20,
+        id: 118,
         question:
           "Wada said that two of his chickens __ eggs yesterday morning.",
         options: ["layed", "lied", "laid", "lain"],
@@ -8407,7 +8405,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 21,
+        id: 119,
         question:
           "Chinyere has not really described the cabinet as irresponsible; she only __ it in her speech.",
         options: ["alluded", "implied", "applied", "suggested"],
@@ -8416,7 +8414,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 22,
+        id: 120,
         question: "One __ so if she had thought it necessary.",
         options: ["would have said", "would say", "may have said", "could say"],
         ans: "A",
@@ -8424,7 +8422,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 23,
+        id: 121,
         question:
           "We have done three quarters of the journey already, we __ as well see the end of it.",
         options: ["can", "might", "could", "may"],
@@ -8433,7 +8431,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 24,
+        id: 122,
         question:
           "Omogbai reported that the examinations __ before he arrived in the hall.",
         options: ["started", "have started", "had started", "are started"],
@@ -8442,7 +8440,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 25,
+        id: 123,
         question:
           "No one has said anything yet, but I think I __ be getting a salary increase next month.",
         options: ["must", "can", "would", "may"],
@@ -8451,7 +8449,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 26,
+        id: 124,
         question: "The quarrel has got to a stage where someone has to __",
         options: ["interrupt", "interfere", "intrude", "intervene"],
         ans: "D",
@@ -8459,7 +8457,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 27,
+        id: 125,
         question:
           "Do not take my books out of this office unless you __ my permission to do so.",
         options: ["get", "have", "had got", "are having"],
@@ -8468,7 +8466,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 28,
+        id: 126,
         question:
           "Cultural patterns are modified as they are __ from one generation to the next.",
         options: ["transported", "transposed", "translated", "transmitted"],
@@ -8477,7 +8475,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 29,
+        id: 127,
         question:
           "The child's recent training has not been very effective, he is likely __ to __ to his old habits",
         options: ["revert", "convert", "reverse", "revise"],
@@ -8486,7 +8484,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 31,
+        id: 128,
         question:
           "The water is not good for drinking; it's been __ by the dead rabbit.",
         options: ["contaminated", "infested", "spoilt", "diseased"],
@@ -8495,7 +8493,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 32,
+        id: 129,
         question:
           "The price of everything seems to have __ up in the last few months",
         options: ["climbed", "shot", "risen", "flared"],
@@ -8504,7 +8502,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 33,
+        id: 130,
         question:
           "Many young men of nowadays do not know how to properly __ their clothes",
         options: ["press", "iron", "smoothen", "stretch"],
@@ -8513,7 +8511,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 34,
+        id: 131,
         question:
           "A government spokesman announced that efforts __ the release of the hostages are continuing.",
         options: ["to obtain", "in obtaining", "for obtaining", "of obtaining"],
@@ -8522,7 +8520,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 35,
+        id: 132,
         question:
           "It was difficult to __ a man walking on the moon two centuries ago.",
         options: ["contrive", "perceive", "conceive", "imagine"],
@@ -8531,7 +8529,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 36,
+        id: 133,
         question: "After Jerry had made the bed, he __ on it.",
         options: ["layed", "laid", "lied", "lay"],
         ans: "D",
@@ -8539,7 +8537,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 37,
+        id: 134,
         question:
           "The buidings damaged by the rainstorm __schools, hospitals, and private houses",
         options: ["included", "include", "were included", "was including"],
@@ -8548,7 +8546,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 38,
+        id: 135,
         question:
           "I would have been off to see Biola at Festac Town by the time you __ tomorrow.",
         options: ["returned", "return", "are returning", "would return"],
@@ -8557,7 +8555,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 39,
+        id: 136,
         question:
           "The lecturer said that we __ be able to finish the next chapter this evening.",
         options: ["must", "can", "shall", "should"],
@@ -8566,7 +8564,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 40,
+        id: 137,
         question:
           "I could have agreed with your action if I __ not __ you promise to increase the worker's salaries.",
         options: ["have, heard", "had, heard", "were, hearing", "was, hearing"],
@@ -8575,7 +8573,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 41,
+        id: 138,
         question:
           "The chemistry teacher seized the girl's comic __ during the laboratory work.",
         options: [
@@ -8589,7 +8587,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 42,
+        id: 139,
         question: "He __ during the whole of last month",
         options: ["was sick", "has been sick", "had been sick", "had sicken"],
         ans: "A",
@@ -8597,7 +8595,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 43,
+        id: 140,
         question:
           "Ladies and gentleman, our guest speaker, Dr. Oni __ also a resident doctor at the teaching hospital.",
         options: ["who is", "which is", "who was", "is"],
@@ -8606,7 +8604,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 44,
+        id: 141,
         question:
           "I heard that Kayode's car was stolen last night. It __ be true because I saw him __ it, this morning.",
         options: [
@@ -8620,7 +8618,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 45,
+        id: 142,
         question: "The competitor who __ earlier on has started __ again",
         options: [
           "fainted, to run",
@@ -8633,7 +8631,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 46,
+        id: 143,
         question:
           "If it had rained, we would have had to postpone the concert. It didn;t rain, so __",
         options: [
@@ -8647,7 +8645,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 47,
+        id: 144,
         question:
           "My price for the pair of shoes is fifty naira. I cannot __ anything less than that.",
         options: ["bear with", "settle for", "agree with", "tolerate"],
@@ -8656,7 +8654,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 49,
+        id: 145,
         question:
           "No matter to whom I __ nobody in the crowd had a clue to what was going out.",
         options: ["discussed", "asked", "turned", "contacted"],
@@ -8665,7 +8663,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 50,
+        id: 146,
         question:
           "The sea waves continues to __ the cliff on the west coast constantly.",
         options: ["impair", "rub", "knock", "erode"],
@@ -8674,7 +8672,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 51,
+        id: 147,
         question: "The chief priest will __ the men into the cult today.",
         options: ["indoctrinate", "usher", "convert", "initiate"],
         ans: "D",
@@ -8682,7 +8680,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 52,
+        id: 148,
         question: "I know I __ read more, but I am tired.",
         options: ["may", "ought to", "would", "could"],
         ans: "B",
@@ -8690,7 +8688,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 53,
+        id: 149,
         question:
           "The council chairman __ the tension between the villagers and the tax collectors.",
         options: ["dispersed", "defused", "diffused", "disputed"],
@@ -8699,7 +8697,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 54,
+        id: 150,
         question:
           "If I had been told of the matter earlier, I __ there so late.",
         options: [
@@ -8713,7 +8711,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 55,
+        id: 151,
         question: "I would have been surprised if you __ the orange",
         options: ["plucked", "have plucked", "had plucked", "did pluck"],
         ans: "C",
@@ -8721,7 +8719,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 56,
+        id: 152,
         question: "On getting to the seashore, __",
         options: [
           "it was empty",
@@ -8734,7 +8732,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 57,
+        id: 153,
         question: "__ him in the crowd, I would have told you at once.",
         options: ["If I will see", "If I saw", "Had I seen", "Should I see"],
         ans: "C",
@@ -8742,7 +8740,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 58,
+        id: 154,
         question: "Before the bill could be settled, Chuwang __ all the money.",
         options: ["has spent", "will have spent", "had spent", "will spent"],
         ans: "C",
@@ -8750,7 +8748,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 59,
+        id: 155,
         question:
           "The effort made by the principal to get the students to be serious in their studies __",
         options: [
@@ -8764,7 +8762,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 60,
+        id: 156,
         question:
           "When we got to the president's house, we were told that he __ two days earlier",
         options: ["may have left", "left", "had left", "has left"],
@@ -8773,7 +8771,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 61,
+        id: 157,
         question:
           "Atuk, without giving any hint as to what he intended to do, went and __ himself",
         options: ["hung", "hang", "hanged", "hunged"],
@@ -8782,7 +8780,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 62,
+        id: 158,
         question:
           "Provided you __ to the market very soon, we shall be able to eat early enough. ",
         options: ["shall go", "would go", "went", "go"],
@@ -8791,7 +8789,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 63,
+        id: 159,
         question: "He __ by now; I can hear all the people shouting",
         options: [
           "would  have arrived",
@@ -8804,7 +8802,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 64,
+        id: 160,
         question:
           "By the time the plane reaches Harare, it __ in the air for twelve hours.",
         options: ["has been", "would be", "would have been", "should be"],
@@ -8813,7 +8811,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 65,
+        id: 161,
         question:
           "If only Adoyi __ what was good for him he could easily have avoided the tragedy.",
         options: ["has know", "have known", "knew", "had known"],
@@ -8822,7 +8820,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 66,
+        id: 162,
         question: "We saw Ifueko __ an egg on the wall",
         options: ["smashed", "smash", "smashing", "smashes"],
         ans: "B",
@@ -8830,7 +8828,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 67,
+        id: 163,
         question: "Many streets in the town __ in need of light at night",
         options: ["stand", "stood", "have stood", "are standing"],
         ans: "A",
@@ -8838,7 +8836,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 68,
+        id: 164,
         question:
           "I did not enjoy the party. If you had invited Tariere, it __ better organized",
         options: ["had been", "would have been", "would be", "could be"],
@@ -8847,7 +8845,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 69,
+        id: 165,
         question: "Sibi __ novels since she came home",
         options: [
           "is reading",
@@ -8860,7 +8858,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 70,
+        id: 166,
         question:
           "Asabe is overdue for retirement as she __ in this college since 1954",
         options: ["is teaching", "has been teaching", "taught", "was teaching"],
@@ -8869,7 +8867,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 71,
+        id: 167,
         question:
           "If they had not all jumped out of the car just in time, they __ ",
         options: [
@@ -8883,7 +8881,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 72,
+        id: 168,
         question:
           "Before mechanization, workers __ water out of fabrics with their hands",
         options: ["wring", "wrung", "wrang", "wringed"],
@@ -8892,7 +8890,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 73,
+        id: 169,
         question: "Four engineers __ on this system since March.",
         options: ["worked", "are working", "had worked", "have been working"],
         ans: "D",
@@ -8900,7 +8898,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 74,
+        id: 170,
         question:
           "Having worked all night, the security man __ a sense of accomplishment",
         options: ["had felt", "felt", "is feeling", "has felt"],
@@ -8909,7 +8907,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 75,
+        id: 171,
         question: "__ him around, I would have informed you.",
         options: ["Had I seen", "Have I seen", "Should I see", "If I saw"],
         ans: "A",
@@ -8917,7 +8915,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 76,
+        id: 172,
         question:
           "I have stopped writing letters of application because I __ that all the vacancies are filled.",
         options: ["have heard", "had heard", "heard", "hear"],
@@ -8926,7 +8924,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 77,
+        id: 173,
         question: "It __ easier if he told us himself.",
         options: ["would be", "would have been", "would had been", "will be"],
         ans: "A",
@@ -8934,7 +8932,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 78,
+        id: 174,
         question:
           "From 7a.m. to 9a.m., he __ hot chocolate, often not having time for his own breakfast.",
         options: [
@@ -8948,7 +8946,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 79,
+        id: 175,
         question: "It has been confirmed that the election __ held in July",
         options: ["will be", "is being", "has been", "have being"],
         ans: "A",
@@ -8956,7 +8954,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 80,
+        id: 176,
         question: "You should not need __ twice",
         options: ["to tell", "telling", "tell", "to have been told"],
         ans: "B",
@@ -8964,7 +8962,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 81,
+        id: 177,
         question:
           "The thief we caught yesterday was __ as an official of the company.",
         options: ["disguised", "concealed", "masked", "veiled"],
@@ -8973,7 +8971,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 82,
+        id: 178,
         question: "The trader complained that he __ robbed",
         options: ["had been", "has been", "was being", "is being"],
         ans: "A",
@@ -8981,7 +8979,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 83,
+        id: 179,
         question: "Good schools don't just teach their students, they __ them",
         options: ["inform", "instruct", "educate", "coach"],
         ans: "C",
@@ -8989,7 +8987,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 84,
+        id: 180,
         question: "If the boys arrived early enough, the match __",
         options: [
           "would have been played",
@@ -9002,7 +9000,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 85,
+        id: 181,
         question: "The keepers themselves are sometimes __ by the bees",
         options: ["stinged", "stang", "stung", "sting"],
         ans: "C",
@@ -9010,7 +9008,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 86,
+        id: 182,
         question: "I now realize I __ you before",
         options: ["had met", "have met", "met", "meet"],
         ans: "B",
@@ -9018,7 +9016,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 87,
+        id: 183,
         question:
           "The president of the union __ for the airport by the time the riot started.",
         options: [
@@ -9032,7 +9030,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 88,
+        id: 184,
         question: "I have decided to __ drinking alcohol for health reasons",
         options: ["abandon", "give up", "discard", "jettison"],
         ans: "B",
@@ -9040,7 +9038,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 89,
+        id: 185,
         question:
           "One __ be too careful these days; times are uncertain and walls have ears.",
         options: ["can't", "shouldn't", "need not", "dares not"],
@@ -9049,7 +9047,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 90,
+        id: 186,
         question: "My friend __ me for many years when I met him last week.",
         options: ["never saw", "did not see", "had not seen", "had never seen"],
         ans: "C",
@@ -9057,7 +9055,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 91,
+        id: 187,
         question: "School buildings that __ in 1950 __ now inhabitable",
         options: [
           "were build, are",
@@ -9070,7 +9068,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 92,
+        id: 188,
         question: "__, we can now start meaningful development",
         options: [
           "Since the cold war is over",
@@ -9083,7 +9081,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 93,
+        id: 189,
         question:
           "I hereby declare and __ that, to the best of my knowledge, this statement is true in all respects",
         options: ["inform", "confirm", "affirm", "conform"],
@@ -9092,7 +9090,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 95,
+        id: 190,
         question: "What saved her was that she __ to the side of the boat",
         options: ["had clinged", "clung", "clinged", "clang"],
         ans: "B",
@@ -9100,7 +9098,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 94,
+        id: 191,
         question: "__ he would have been convicted.",
         options: [
           "If he did this",
@@ -9113,7 +9111,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 96,
+        id: 192,
         question: "He was __ by the trickster",
         options: ["assisted", "duped", "cajoled", "encouraged"],
         ans: "B",
@@ -9121,7 +9119,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 97,
+        id: 193,
         question: "__ I would have helped you.",
         options: [
           "Has it been that you asked me",
@@ -9134,7 +9132,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 98,
+        id: 194,
         question: "I had hardly __ down to sleep when I heard the gunshot.",
         options: ["lay", "lied", "lain", "laid"],
         ans: "C",
@@ -9142,7 +9140,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 99,
+        id: 195,
         question:
           "The protesters, unable to pull down the status __ it from its fixtures",
         options: ["wrenched", "pushed", "towed", "burnt"],
@@ -9151,7 +9149,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 100,
+        id: 196,
         question: "With strong determination, Adamu was able to __ the problem",
         options: ["surmount", "surpass", "defend", "know"],
         ans: "A",
@@ -9159,7 +9157,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 1,
+        id: 197,
         question:
           "By January 1999 I __ ten years in the service of this institution",
         options: ["should have been", "would be", "can be", "must be"],
@@ -9168,7 +9166,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 2,
+        id: 198,
         question: "Don't __ said the leader, I want a decision now.",
         options: ["prevaricate", "predicate", "precipitate", "pejorative"],
         ans: "A",
@@ -9176,7 +9174,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 3,
+        id: 199,
         question: "Most of the missing jewelry were __ by the police",
         options: ["found", "taken", "kept", "recovered"],
         ans: "D",
@@ -9184,7 +9182,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 4,
+        id: 200,
         question: "He saw the play and so __",
         options: ["was she", "had she", "should she", "did she"],
         ans: "D",
@@ -9192,7 +9190,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 5,
+        id: 201,
         question: "I hope I have not __ too much on your time",
         options: ["invaded", "encroached", "intruded", "trespassed"],
         ans: "B",
@@ -9200,7 +9198,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 6,
+        id: 202,
         question:
           "Watching carefully, I could see the fish __ along the bottom.",
         options: ["doting", "crawling", "diving", "darting"],
@@ -9209,7 +9207,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 7,
+        id: 203,
         question: "I have already __ the picture on the sitting-room wall",
         options: ["hanged", "hunged", "hang", "hung"],
         ans: "D",
@@ -9217,7 +9215,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 8,
+        id: 204,
         question:
           "Most of us will attend the conferecne __ at Ibadan later this year.",
         options: ["holding", "held", "being held", "to hold"],
@@ -9226,7 +9224,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 9,
+        id: 205,
         question: "I shall work hard so that I can __ a distinction in English",
         options: ["secure", "make", "receive", "grab"],
         ans: "B",
@@ -9234,7 +9232,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 10,
+        id: 206,
         question:
           "After two years of courtship, Jide is finally __ Ngozi next Sunday.",
         options: [
@@ -9248,7 +9246,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 11,
+        id: 207,
         question:
           "Immediately I entered the house, I could __ the smell of gas from the kitchen",
         options: ["feel", "hear", "detect", "smell"],
@@ -9257,7 +9255,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 12,
+        id: 208,
         question: "You would be well __ to listen to what the teacher says",
         options: ["informed", "advised", "reminded", "warned"],
         ans: "B",
@@ -9265,7 +9263,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 13,
+        id: 209,
         question: "My friend's car has __ to a halt",
         options: ["grinded", "grounded", "ground", "grind"],
         ans: "B",
@@ -9273,7 +9271,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 14,
+        id: 210,
         question:
           "He boasts so much about his high scores and he __ at the efforts of others",
         options: ["scorns", "sneers", "grins", "smiles"],
@@ -9282,7 +9280,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 15,
+        id: 211,
         question:
           "Without our relentless campaigns, we might __ sure of victory in the race for the National Assembly",
         options: [
@@ -9296,7 +9294,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 16,
+        id: 212,
         question: "We are all hungry; we __ anything to eat since morning",
         options: ["didn't have", "haven't had", "never had", "hadn't had"],
         ans: "B",
@@ -9304,7 +9302,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 17,
+        id: 213,
         question: "The politicians were __ by the press",
         options: ["eclipsed", "marooned", "ridiculed", "ostracized"],
         ans: "D",
@@ -9312,7 +9310,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 18,
+        id: 214,
         question:
           "Much as I would love to visit him, I'm afraid __ visiting him",
         options: ["I can't", "I can't be able", "won't", "of"],
@@ -9321,7 +9319,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 19,
+        id: 215,
         question:
           "The meeting was called to __ divergent views on the subject of a national conference",
         options: ["represent", "reconstitute", "reconcile", "recommend"],
@@ -9330,7 +9328,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 20,
+        id: 216,
         question:
           "__ told of his impending arrival. I worked hard to make his short stay very confortable.",
         options: ["Have I been", "Have being", "Having been", "Having being"],
@@ -9339,7 +9337,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 21,
+        id: 217,
         question:
           "Had he considered his public image carefully, he __ for his opponent in the election",
         options: [
@@ -9353,7 +9351,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 22,
+        id: 218,
         question:
           "Some scientists are trying to __ human-beings in their laboratories",
         options: ["implicate", "replicate", "fabricate", "imitate"],
@@ -9362,7 +9360,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 23,
+        id: 219,
         question: "This imposing edifice __ a fortune to build",
         options: ["have costed", "costed", "had costed", "cost"],
         ans: "D",
@@ -9370,7 +9368,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 24,
+        id: 220,
         question:
           "The police came early enough to __ the bomb planted by the rioters",
         options: ["diffuse", "defuse", "detonate", "insulate"],
@@ -9379,7 +9377,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 25,
+        id: 221,
         question:
           "Of course, we all saw the culprit __ and hit the man on the head.",
         options: ["approached", "approaches", "approaching", "approach"],
@@ -9388,7 +9386,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 26,
+        id: 222,
         question: "__ a motor cycle can be harmful __ you health",
         options: ["Riding, for", "Riding, to", "To ride, for", "To ride, with"],
         ans: "B",
@@ -9396,7 +9394,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 27,
+        id: 223,
         question: "By this time next year, I __ twenty years old",
         options: [
           "would have been",
@@ -9409,7 +9407,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 28,
+        id: 224,
         question: "The members elected Baba __ of the committee",
         options: [
           "chairman",
@@ -9422,7 +9420,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 29,
+        id: 225,
         question: "I should have__ that you will not come",
         options: ["know", "known", "knew", "knowing"],
         ans: "B",
@@ -9430,7 +9428,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 30,
+        id: 226,
         question: "Rgiht now the food is __ cooked",
         options: ["being", "been", "have", "has"],
         ans: "A",
@@ -9438,7 +9436,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 31,
+        id: 227,
         question: "If I __ you, I will not mind",
         options: ["am", "was", "were", "are"],
         ans: "C",
@@ -9446,7 +9444,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 32,
+        id: 228,
         question: "Adika __ a message from the club regularly",
         options: ["receieve", "receives", "has received", "had received"],
         ans: "B",
@@ -9454,7 +9452,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 33,
+        id: 229,
         question:
           "If you saw the photograph of the man __ you be able to identify him",
         options: ["can", "will", "would", "could"],
@@ -9463,7 +9461,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 34,
+        id: 230,
         question: "How is the new editor __ on with his work?",
         options: ["pushing", "going", "getting", "moving"],
         ans: "C",
@@ -9471,7 +9469,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 35,
+        id: 231,
         question:
           "It is often __ that inflation __ from too much money chasing very few goods.",
         options: [
@@ -9485,7 +9483,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 36,
+        id: 232,
         question: "If you would do me this favor, I __ be very grateful",
         options: ["will", "shall", "would", "should"],
         ans: "B",
@@ -9493,7 +9491,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 37,
+        id: 233,
         question: "The reporter said that the Honorable Speaker __ impeached",
         options: [
           "may have being",
@@ -9506,7 +9504,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 38,
+        id: 234,
         question:
           "The city __ as a federal capital only __ the last twenty years",
         options: [
@@ -9520,7 +9518,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 39,
+        id: 235,
         question:
           "Ali goes to the stadium regularly, but he __ to the church for months.",
         options: ["haven't been", "hadn't been", "hasn't been", "didn't go"],
@@ -9529,7 +9527,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 40,
+        id: 236,
         question:
           "One needs to exemplify or __ the aspect of the subject being discussed",
         options: ["satisfy", "supply", "demonstrate", "declare"],
@@ -9538,7 +9536,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 41,
+        id: 237,
         question: "The train __ before I arrived",
         options: ["has left", "had left", "would leave", "has leaving"],
         ans: "B",
@@ -9546,7 +9544,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 42,
+        id: 238,
         question:
           "By the end of the football match today, we __ the best player",
         options: [
@@ -9560,7 +9558,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 43,
+        id: 239,
         question: "Is it true that Okoro __ when the gates were closed?",
         options: [
           "would have returned",
@@ -9573,7 +9571,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 44,
+        id: 240,
         question: "We won't leave until it __ raining",
         options: ["stops", "had stopped", "will stop", "stopped"],
         ans: "A",
@@ -9581,7 +9579,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 45,
+        id: 241,
         question:
           "__ been there to look for her several times without success.",
         options: ["He'll", "He's", "Is he", "He is"],
@@ -9590,7 +9588,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 46,
+        id: 242,
         question:
           "Until he lost the election, Agbo __ to be the Student Union president",
         options: [
@@ -9604,7 +9602,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 47,
+        id: 243,
         question: "If he __ for admission, I am sure he would succeed",
         options: ["will apply", "applied", "had applied", "has applied"],
         ans: "B",
@@ -9612,7 +9610,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 48,
+        id: 244,
         question: "Your performance will improve if you __ hard",
         options: ["are practicing", "practiced", "would practice", "practice"],
         ans: "D",
@@ -9620,7 +9618,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 49,
+        id: 245,
         question: "The clubs were not __ on a solid ethical base",
         options: ["funded", "found", "created", "founded"],
         ans: "D",
@@ -9628,7 +9626,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 50,
+        id: 246,
         question: "I watched him as he __ the hole",
         options: ["dug", "digs", "is digging", "dugged"],
         ans: "A",
@@ -9636,7 +9634,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 51,
+        id: 247,
         question: "Everybody is allowed to __ his views on state matters",
         options: ["air", "hear", "show", "share"],
         ans: "A",
@@ -9644,7 +9642,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 52,
+        id: 248,
         question: "They__wet if they had gone out in the rain",
         options: ["would get", "would have got", "will have got", "had got"],
         ans: "B",
@@ -9652,7 +9650,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 53,
+        id: 249,
         question: "When i came in, i__",
         options: [
           "laid on the floor",
@@ -9665,7 +9663,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 54,
+        id: 250,
         question:
           "You should anticipate and prepare for changes__in your office",
         options: [
@@ -9679,7 +9677,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 55,
+        id: 251,
         question: "Birds whistle while bears__",
         options: ["gibber", "purr", "growl", "bellow"],
         ans: "C",
@@ -9687,7 +9685,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 56,
+        id: 252,
         question:
           "The principal said he__so many visitors that day that he__exhausted",
         options: [
@@ -9701,7 +9699,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 57,
+        id: 253,
         question: "Femi has been__behind in class work",
         options: ["lacking", "lagging", "larking", "lurking"],
         ans: "B",
@@ -9709,7 +9707,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 58,
+        id: 254,
         question: "Did you say that you saw him__the road yesterday",
         options: ["crossed", "cross", "to be crossing", "crosses"],
         ans: "B",
@@ -9717,7 +9715,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 59,
+        id: 255,
         question: "He is really very mean. He__not lend me the money i wanted",
         options: ["should", "could", "would", "won't"],
         ans: "C",
@@ -9725,7 +9723,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 60,
+        id: 256,
         question:
           "An acceptance of the offer would be a departure from the several rejections that__",
         options: [
@@ -9739,7 +9737,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 61,
+        id: 257,
         question: "The bomb was__",
         options: ["detonated", "dismantled", "deactivated", "depleted"],
         ans: "A",
@@ -9747,7 +9745,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 62,
+        id: 258,
         question: "Long after everyone__the hall, obi still sat inside.",
         options: ["has left", "had left", "left", "is leaving"],
         ans: "B",
@@ -9755,7 +9753,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 63,
+        id: 259,
         question:
           "The company paid some money to abu to__him for the losses he suffered during the accident.",
         options: ["indemnify", "condole with", "settle", "recompense"],
@@ -9764,7 +9762,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 64,
+        id: 260,
         question: "The fedral government has__child trafficking.",
         options: ["prescribed", "proscribed", "postulated", "projected"],
         ans: "B",
@@ -9772,7 +9770,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 65,
+        id: 261,
         question:
           "The man was happy that his son confessed his guilt and so others were__",
         options: ["punished", "exonerated", "implicated", "accused"],
@@ -9781,7 +9779,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 66,
+        id: 262,
         question: "Many people would always find reasons to__ the law",
         options: ["circument", "circumspect", "arrogate", "debase"],
         ans: "A",
@@ -9789,7 +9787,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 67,
+        id: 263,
         question: "When his car tyre__on the way, he did not know what to do",
         options: ["has burst", "had burst", "bursted", "burst"],
         ans: "D",
@@ -9797,7 +9795,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 68,
+        id: 264,
         question: "Unoka__the whole house to find his missing wristwatch.",
         options: ["scourged", "scoured", "scored", "scouted"],
         ans: "D",
@@ -9805,7 +9803,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 69,
+        id: 265,
         question:
           "Lami's father__as a gardener when he was young,but now is a driver.",
         options: [
@@ -9819,7 +9817,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 70,
+        id: 266,
         question: "The secretary has no right to__my affairs",
         options: ["spy from", "meddle in", "toy at", "complain into"],
         ans: "B",
@@ -9827,7 +9825,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 71,
+        id: 267,
         question: "Bola studiously avoided__the questions.",
         options: ["parrying", "answering", "projecting", "destroying"],
         ans: "B",
@@ -9835,7 +9833,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 72,
+        id: 268,
         question:
           "The driver was short of petrol, so he__down the hills with the engine switched off.",
         options: ["glided", "coasted", "wheeled", "taxied"],
@@ -9844,7 +9842,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 73,
+        id: 269,
         question: "Ado tried to__all memory of his dead father",
         options: ["obliterate", "obstruct", "eulogize", "recall"],
         ans: "A",
@@ -9852,7 +9850,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 74,
+        id: 270,
         question:
           "The house and The senate will__at noon next wednesday to hear a special address by the president.",
         options: ["convene", "adjourn", "rise", "collude"],
@@ -9861,7 +9859,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 75,
+        id: 271,
         question:
           "The invigilator__to know how long the examination __going on",
         options: [
@@ -9875,7 +9873,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 76,
+        id: 272,
         question: "The clock__12 o'clock two hours ago.",
         options: ["strikes", "strike", "struck", "striking"],
         ans: "A",
@@ -9883,7 +9881,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 77,
+        id: 273,
         question: "The unconscious man was__after receiving first aid.",
         options: ["reawakened", "reformed", "restored", "revived"],
         ans: "D",
@@ -9891,7 +9889,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 78,
+        id: 274,
         question: "The laughter__his face for moment.",
         options: ["improved", "controlled", "animated", "remade"],
         ans: "C",
@@ -9899,7 +9897,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 79,
+        id: 275,
         question: "The continous rain has really__the soil.",
         options: ["satiated", "saturated", "melted up", "mopped up"],
         ans: "B",
@@ -9907,7 +9905,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 80,
+        id: 276,
         question:
           "All farmers were encouraged__carry out fumigation on their farms.",
         options: ["in", "with", "to", "from"],
@@ -9916,7 +9914,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 81,
+        id: 277,
         question: "Usman would have won the race__",
         options: [
           "only if he could run fast",
@@ -9929,7 +9927,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 82,
+        id: 278,
         question: "The mechanic did not tell me the brakes__bad",
         options: ["were", "are", "is", "was"],
         ans: "A",
@@ -9937,7 +9935,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 83,
+        id: 279,
         question: "Tayo could have supplied the goods but it was__into two",
         options: ["splitting", "split", "splited", "splits"],
         ans: "B",
@@ -9945,7 +9943,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 84,
+        id: 280,
         question: "Had aisha realized what marraige entalls she__",
         options: [
           "could have not rush into it",
@@ -9958,7 +9956,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 85,
+        id: 281,
         question: "Ado said that he__",
         options: [
           "want very much and to travel to lagos",
@@ -9971,7 +9969,7 @@ let englishQuestions = [
         remark: "",
       },
       {
-        id: 86,
+        id: 282,
         question:
           "The officer__that he was not supposed to talk to the press on the matter.",
         options: [
