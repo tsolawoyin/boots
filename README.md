@@ -1,8 +1,8 @@
 # Hi, I'm BOOTS 👋
 
-Welcome to my codebase. Yes I'm open-source and I need your help to grow. [Would you like to contribute?](./CONTRIBUTING.md)
+Welcome to my codebase. Yes I'm open-source and I need your help to grow. [Help improve](./CONTRIBUTING.md)
 
-                          Proudly sponsored by `BOOTS` 💎
+                  Proudly sponsored by `BOOTS` 💎
 
 ### About me
 
@@ -24,8 +24,8 @@ I am a very simple program with not so fancy graphical user-interface. I am prel
 
 ### Current Subjects available for Practice
 - English => 1554 questions
-- Chemistry => 921 questions
-- Biology
+- Chemistry => 1121 questions
+- Biology => 811 questions
 
 Want to contribute? [Please click here](./CONTRIBUTING.md)
 
