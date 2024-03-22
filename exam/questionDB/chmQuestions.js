@@ -13112,6 +13112,300 @@ let chemistryQuestions = [
       },
     ],
   },
+
+  {
+    topic: `Organic chemistry`,
+    questions: [
+      {
+        id: 1,
+        question: "The following are members of the alkane series except?",
+        options: [
+          `${formula("C",2,"H",6)}`,
+          `${formula("C",8,"H",18)}`, 
+          `${formula("C",12,"H",24)}`, 
+          `${formula("C",15,"H",32)}`
+        ],
+        ans: "C",
+        remark: `An alkane takes the formula CnH2n+2`
+      },
+      {
+        id: 2,
+        question: "An alkanol is?",
+        options: [
+          `${formula("C",2,"Cl",3)}`,
+          `${formula("CH",3,"OH")}`, 
+          `${formula("HCOOOH")}`, 
+          `${formula("CH",3,"CHO")}`
+        ],
+        ans: "B",
+        remark: "An alkannol take the form of R-OH"
+      },
+      {
+        id: 3,
+        question: "The general formula of an haloalkane is",
+        options: [
+          `C<sub>n</sub>H<sub>2n+2</sub>X`,
+          `C<sub>n</sub>H<sub>2n-2</sub>X`,
+          `C<sub>n</sub>H<sub>2n-1</sub>X`,
+          `C<sub>n</sub>H<sub>2n+1</sub>X`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 4,
+        question: "Consecutive members of the alkyne homologous series differ by",
+        options: [
+          `${formula("CH",4)}`,
+          `${formula("CH",3)}`,
+          `${formula("CH",2)}`,
+          `${formula("CH")}`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 5,
+        question: "An alkanoic acid is represented by",
+        options: [
+          `${formula("R-C(OR)O")}`,
+          `${formula("R-COOH")}`,
+          `${formula("RCHO")}`,
+          `${formula("R-C(OCOR)O")}`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 7,
+        question:  `Which of the following functional groups is present in an organic compound which gives bubbles on treatment with a saturated solution of ${formula("NaHCO",3)}?`,
+        options: [
+          `Carboxyl group`,
+          `Carboalkoxyl group`,
+          `Carbonyl group`,
+          `Amino group`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 9,
+        question:  `Which of the following is the general formula of alkanones?`,
+        options: [
+          `RCOR'`,
+          `RCOOR'`,
+          `RCHO`,
+          `RCOOH`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 11,
+        question:  `Which of the following is an aromatic compound`,
+        options: [
+          `${formula("C",6,"H",14)}`,
+          `${formula("C",6,"H","5","Cl")}`,
+          `${formula("C",6,"H",13,"Cl")}`,
+          `${formula("C",6,"H",13,"OH")}`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 12,
+        question:  `If one mole of a hydrocarbon contains 4g of hydrogen and its molar mass is 40${units("g mol", -1)}. What is the homologous series of the compound? (C = 12; H = 1.0)`,
+        options: [
+          `Arene`,
+          `Alkane`,
+          `Alkane`,
+          `Alkyne`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 13,
+        question:  `Homologous have the same`,
+        options: [
+          `empirical formula`,
+          `structural formula`,
+          `general formula`,
+          `molecular formula`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 15,
+        question:  `The pair of compounds that belong to the same homologous series is`,
+        options: [
+          `${formula("C",3,"H",6)} and ${formula("C",4,"H",8)}`,
+          `${formula("C",3,"H",6)} and ${formula("C",4,"H",10)}`,
+          `${formula("C",3,"H",4)} and ${formula("C",6,"H",8)}`,
+          `${formula("C",3,"H",6)} and ${formula("C",4,"H",6)}`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 18,
+        question:  `The general formula for the alkanoates is`,
+        options: [
+          `RCHO`,
+          `${formula("R",2,"CO")}`,
+          `RCOOR'`,
+          `ROH`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 19,
+        question:  `One of the characteristics of homologues is`,
+        options: [
+          `existence in the same physical state`,
+          `possession of different reactive centres`,
+          `possession of the same molar mass`,
+          `similarity in methods of preparation`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 20,
+        question:  `${formula("C",4,"H",6)} belongs to the same homologous series as`,
+        options: [
+          `${formula("C",6,"H","8")}`,
+          `${formula("C",6,"H","10")}`,
+          `${formula("C",6,"H","12")}`,
+          `${formula("C",6,"H","14")}`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 21,
+        question:  `What is the general molecular formula of hydrocarbons that react with ammoniacal copper(I) chloride solution?`,
+        options: [
+          `C<sub>n</sub>H<sub>2n+2</sub>`,
+          `C<sub>n</sub>H<sub>2n-2</sub>`,
+          `C<sub>n</sub>H<sub>2n</sub>`,
+          `C<sub>n</sub>H<sub>n</sub>`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 24,
+        question:  `The four main classes of hydrocarbons are`,
+        options: [
+          `methane, ethene, ethyne, and benzene`,
+          `ethane, ethene, ethyne, and toluene`,
+          `cycloalkanes, cycloalkenes, alkynes and arenes`,
+          `alkanes, alkenes, alkynes and aromatics`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 25,
+        question:  `Three liquid hydrocarbons, E, F, and G were subjected to burning in air on a spoon in turn. E and F burnt with sooty flames while G did not. F was able to discharge the color of bromine water whereas E and G could not. Which of the liquids would be aromatic in nature`,
+        options: [
+          `E`,
+          `F`,
+          `G`,
+          `none`
+        ],
+        ans: "A",
+      },
+      {
+        id: 26,
+        question:  `Which of the following tests can be used to distinguish aromatic from aliphatic hydrocarbons?`,
+        options: [
+          `Polymerization reaction`,
+          `Action of bromine water`,
+          `Burning in air`,
+          `Action of iodine solution`
+        ],
+        ans: "C",
+      },
+      {
+        id: 27,
+        question:  `Both addition reactions and substition reactions can be undergone by`,
+        options: [
+          `Ethene`,
+          `Benzene`,
+          `Hexane`,
+          `Propane`
+        ],
+        ans: "B",
+      },
+      {
+        id: 28,
+        question:  `Which of the following gas does not decolorize bromine water?`,
+        options: [
+          `${formula("C",3,"H",6)}`,
+          `${formula("C",3,"H",4)}`,
+          `${formula("C",3,"H",8)}`,
+          `${formula("C",3,"H",10)}`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 29,
+        question:  `Ethene produces less soot than benzene on burning because ethene`,
+        options: [
+          `has a lower molar mass`,
+          `has a lower degree of unsaturation`,
+          `is a gas at room temperature`,
+          `undergoes addition reactions only`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 30,
+        question:  `The carbon atoms in ethyne are`,
+        options: [
+          `sp hybridized`,
+          `sp<sup>2</sup> hybridized`,
+          `sp<sup>3</sup> hybridized`,
+          `dsp<sup>3</sup> hybridized`,
+        ],
+        ans: "A",
+      },
+      {
+        id: 31,
+        question:  `The hybridization of each of the carbon atoms in ethene is`,
+        options: [
+          `d<sup>2</sup>sp<sup>3</sup>`,
+          `dsp<sup>3</sup>`,
+          `sp<sup>3</sup>`,
+          `sp<sup>2</sup>`,
+        ],
+        ans: "D",
+      },
+      {
+        id: 32,
+        question:  `The carbon atoms in propane are`,
+        options: [
+          `not hybridized`,
+          `sp<sup>3</sup> hybridized`,
+          `sp<sup>2</sup> hybridized`,
+          `sp hybridized`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 33,
+        question:  `Which of the following orbitals of carbon are mixed during hybridization?`,
+        options: [
+          `1s and 2s`,
+          `1s and 2p`,
+          `2s and 2p`,
+          `2s and 3p`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 34,
+        question:  `The orbitals that overlap in methane are`,
+        options: [
+          `s and s`,
+          `sp<sup>2</sup> and s`,
+          `sp<sup>3</sup> and s`,
+          `sp and s`,
+        ],
+        ans: "C",
+      },
+    ]
+  }
 ];
 
 // if it's not working rn, I will have to read sth else... shey u understand...

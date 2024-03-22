@@ -6673,18 +6673,18 @@ let biologyQuestions = [
         ans: "C",
         userAnswer: null,
       },
-      {
-        id: 36,
-        question: "The flower shown above is",
-        options: [
-          "Complete, regular, hermaphroditic with inferior ovary",
-          "Incomplete, regular, terminate with inferior ovary",
-          "Complete regular, hermaphroditic with inferior ovary",
-          "Incomplete, irregular, pistillate with superior ovary",
-        ],
-        ans: "C",
-        userAnswer: null,
-      },
+      // {
+      //   id: 36,
+      //   question: "The flower shown above is",
+      //   options: [
+      //     "Complete, regular, hermaphroditic with inferior ovary",
+      //     "Incomplete, regular, terminate with inferior ovary",
+      //     "Complete regular, hermaphroditic with inferior ovary",
+      //     "Incomplete, irregular, pistillate with superior ovary",
+      //   ],
+      //   ans: "C",
+      //   userAnswer: null,
+      // },
       {
         id: 37,
         question: "A flower showing radial symmetry is said to be",
@@ -7481,7 +7481,7 @@ let biologyQuestions = [
         question:
           "The type of asexual reproduction that is common to both paramecium and protists is",
         options: ["Fragmentation", "Fission", "Buddding", "Sporulation"],
-        ans: "D",
+        ans: "B",
         userAnswer: null,
       },
       {
