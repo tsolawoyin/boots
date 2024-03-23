@@ -1088,30 +1088,6 @@ let biologyQuestions = [
         ans: A,
       },
       {
-        id: 27,
-        question: "The most recently evolved structure in animals is the",
-        options: ["Hair", "Cillium", "Scale", "Feather"],
-        ans: A,
-      },
-      {
-        id: 28,
-        question:
-          "The order in which organic evolution are progressed in plants is",
-        options: [
-          "Thallophyta, Schizophyta, Pteridophyta, Spermatophyta, Bryophyta",
-          "Schizophyta, Thallophyta, Bryophyta, Pteridophyta and Spermatophyta",
-          "Pteridophyta, Spermatophyta, Thallophyta, Schizophyta and Bryophyta",
-          "Bryophyta, pteridophyta, Spermatophyta, Thallophyta and schizophyta",
-        ],
-        ans: B,
-      },
-      {
-        id: 29,
-        question: "Which of the following groups is the most advanced?",
-        options: ["Pteridophytes", "Bryophytes", "Thallophytes", "Gymnosperms"],
-        ans: D,
-      },
-      {
         id: 30,
         question: "The animals that move by means of flagella include",
         options: [

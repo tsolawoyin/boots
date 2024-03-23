@@ -23,7 +23,7 @@ header a:hover, nav a:hover {
 }
 
 
-h1 {
+#logo {
     font-family: "Leckerli One";
     color: white;
     background-color: #5c5be5;

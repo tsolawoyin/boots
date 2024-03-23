@@ -1,0 +1,18 @@
+
+figure {
+    width: 100%;
+}
+
+figure img {
+    display: inline-block;
+    width: 100%;
+}
+
+figcaption {
+    text-align: center;
+}
+
+main {
+    max-width: 750px;
+    margin: auto;
+}
