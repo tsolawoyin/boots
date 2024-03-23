@@ -5780,7 +5780,7 @@ let biologyQuestions = [
         question:
           "The movement of the whole organism to an external stimulus is termed",
         options: ["tropism", "a taxis", "a nastic movement", "a phototropic"],
-        ans: "A",
+        ans: "B",
         userAnswer: null,
       },
       {
@@ -7499,7 +7499,7 @@ let biologyQuestions = [
       {
         id: 2,
         question:
-          "A gland in the human body secretes two hormone, one of which causes a diseas called disabetes when there is a deficiency, which of these organs produces the hormo",
+          "A gland in the human body secretes two hormone, one of which causes a disease called disabetes when there is a deficiency, which of these organs produces the hormone",
         options: ["Spleen", "Parathyroid", "Adrenal body", "Pancreas"],
         ans: "D",
         userAnswer: null,
@@ -7507,7 +7507,7 @@ let biologyQuestions = [
       {
         id: 3,
         question: "The conversion of excess amino acids into urea occurs in",
-        options: ["Kidney", "Pancreas", "Villi"],
+        options: ["Kidney", "Pancreas", "Villi",'Liver'],
         ans: "D",
         userAnswer: null,
       },
