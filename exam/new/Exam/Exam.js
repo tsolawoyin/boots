@@ -168,7 +168,7 @@ class Exam {
             node.style.color = "white";
           } else if (q.ans.toUpperCase() == q.userAnswer) {
             // answered correctly
-            node.style.backgroundColor = "green";
+            node.style.backgroundColor = "#5c5be5";
             node.style.color = "white";
           }
         }

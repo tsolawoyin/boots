@@ -12,7 +12,7 @@ let chemistryQuestions = [
         options: [
           `It readily reacts with carbon(IV) oxide`,
           `It readily reacts with oxygen`,
-          `It readily reacts with oxygen`,
+          `It readily reacts with nitrogen`,
           `It readily reacts with carbon(II) oxide`,
         ],
         ans: "B",
@@ -310,7 +310,6 @@ let chemistryQuestions = [
           )}`,
           `${formula("CO", 2, "g")} + ${formula("C", "s")} -> ${formula(
             "CO",
-            2,
             "g"
           )}`,
           `${formula("C", "s")} + ${formula("O", 2)} -> ${formula(
@@ -412,7 +411,7 @@ let chemistryQuestions = [
       {
         id: 37,
         question: `The oxide of which of the following elements will be soluble in both HCl and NaOH solutions to form salts?`,
-        options: [`Mn`, `Ag`, `Al`, `Ag`],
+        options: [`Mn`, `Ag`, `Al`, `Hg`],
         ans: "C",
       },
       {
@@ -519,7 +518,7 @@ let chemistryQuestions = [
         id: 48,
         question: `The following statements are true of carbon(II) oxide except`,
         options: [
-          `CO is readily oxidized at room temperature by air ro form ${formula(
+          `CO is readily oxidized at room temperature by air to form ${formula(
             "CO",
             2
           )}`,
@@ -530,7 +529,7 @@ let chemistryQuestions = [
           `CO is poisonous`,
           `CO is a good reducing agent`,
         ],
-        ans: "D",
+        ans: "A",
       },
       {
         id: 49,
@@ -578,7 +577,7 @@ let chemistryQuestions = [
       },
       {
         id: 53,
-        question: `What happens when the trioxonitrate(V) of potassium magnesium and silver are heated?`,
+        question: `What happens when the trioxonitrate(V) of potassium, magnesium, and silver are heated?`,
         options: [
           `All of the trioxonitrate(V) salts decompose to their oxides`,
           `The trioxonitrate(V) salt of magnesium gives the dioxonitrate(III) salt and oxygen`,
@@ -813,7 +812,7 @@ let chemistryQuestions = [
       },
       {
         id: 75,
-        question: `The gas produced on heating copper powder with concentrated tetraoxosulphate(VI) aicd is`,
+        question: `The gas produced on heating copper powder with concentrated tetraoxosulphate(VI) acid is`,
         options: [
           `sulphur(IV) oxide`,
           `sulphur(VI) oxide`,
@@ -843,7 +842,7 @@ let chemistryQuestions = [
       },
       {
         id: 77,
-        question: `The constituents of gunpowder are sulphur charcoal and`,
+        question: `The constituents of gunpowder are sulphur, charcoal and`,
         options: [
           `phosphorus sulfide`,
           `potassium chloride`,
@@ -1026,7 +1025,7 @@ let chemistryQuestions = [
         options: [
           `${formula("H", 2, "O")}`,
           `${formula("NO")}`,
-          `${formula("NO")}`,
+          `${formula("NO",2)}`,
           `${formula("NaNO", 3)}`,
         ],
         ans: "C",
