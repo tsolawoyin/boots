@@ -26,56 +26,13 @@ header a:hover, nav a:hover {
 h1 {
     font-family: "Leckerli One";
     color: white;
-    background-color: #209CEE;
-}
-
-.info {
-    background-color: #209CEE;
-}
-
-#first {
-    background-color: gold;
-    /* border-radius: 5px; */
-}
-
-#second {
-    background-color: #209CEE;
-    /* border-radius: 5px; */
-}
-
-#third {
-    background-color: rgba(128, 128, 128, 0.4);
-    /* border-radius: 7; */
-}
-
-#fourth {
-    background-color: crimson;
-    /* border-radius: 5px; */
-}
-.author {
-    font-size: .5em;
-}
-
-.trademark {
-    font-size: .8em
-}
-
-#quote {
-    font-family: 'Montserrat';
-    font-style: italic;
+    background-color: #5c5be5;
 }
 
 
-#reading-guide {
-    display: none;
-}
-
-.go-to {
-    cursor: pointer;
-}
 
 nav {
-    background-color: #209CEE;
+    background-color: #5c5be5;
     color: white;
 }
 
@@ -88,10 +45,6 @@ nav {
 
 /* this is will be where will toggle on it's visibility */
 /* these guys must be extremely serious */
-#theory {
-    margin-top: 1em;
-    /* display: none;  */
-}
 
 #login-info {
     border: 1px solid #209CEE;
@@ -104,8 +57,4 @@ nav {
     height: 70px;
     overflow-y: auto;
     list-style-type: none;
-}
-
-body {
-    background-color: #fbfaff;
 }
