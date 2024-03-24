@@ -29,4 +29,4 @@ Much of its functionality will be understood by interacting with the software
 - [netlify](https://netlify.app)
 - sponsors
 
-If you would like to contribute, notify me @ t.olawoyin@outlook.com
+If you would like to contribute, feel free to notify me @ t.olawoyin@outlook.com
