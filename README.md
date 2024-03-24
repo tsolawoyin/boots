@@ -14,21 +14,6 @@ Much of its functionality will be understood by interacting with the software
 - Chemistry
 - Biology
 
-
-### Contributors 💥
-
-- [tsolawoyin](https://github.com/tsolawoyin)
-- [Adekizzy]() 
-- [Daniel]()
-- [Sen]()
-- [Victoria]()
-- [tgeek](https://github.com/oyinadeolawoyin)
-
-### Special thanks to 🙌
-
-- [netlify](https://netlify.app)
-- lamlard
-- jamb remix
-- sponsors
-
 If you would like to contribute, feel free to notify me @ t.olawoyin@outlook.com
+
+👾 [Contributors](./CONTRIBUTORS.md)
