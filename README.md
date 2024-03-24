@@ -8,7 +8,7 @@ Designed to help students pass their UTME exam
 
 Much of its functionality will be understood by interacting with the software
 
-### Current Available subjects
+### Current available subjects
 
 - English
 - Chemistry
