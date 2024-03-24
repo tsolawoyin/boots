@@ -16,4 +16,4 @@ Much of its functionality will be understood by interacting with the software
 
 If you would like to contribute, feel free to notify me @ t.olawoyin@outlook.com
 
-👾 [Contributors](./CONTRIBUTORS.md)
+⭐ [Contributors](./CONTRIBUTORS.md)
