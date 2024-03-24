@@ -21,6 +21,7 @@ Current Available subjects
 - [Adekizzy]() 
 - [Daniel]()
 - [Sen]()
+- [Victoria]()
 - [tgeek](https://github.com/oyinadeolawoyin)
 
 ### Special thanks to 🙌
