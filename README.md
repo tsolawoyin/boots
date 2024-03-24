@@ -17,15 +17,15 @@ Current Available subjects
 
 ### Contributors 💥
 
-- *tsolawoyin*
-- *Adekizzy* 
-- *Daniel*
-- *Sen*
-- *tgeek*
+- [tsolawoyin](https://github.com/tsolawoyin)
+- [Adekizzy]() 
+- [Daniel]()
+- [Sen]()
+- [tgeek](https://github.com/oyinadeolawoyin)
 
 ### Special thanks to 🙌
 
-- netlify
+- [netlify](https://netlify.app)
 - our sponsors (Boots)
 
-If you would like to contribute, send an email to t.olawoyin@outlook.com
+If you would like to contribute, notify me @ t.olawoyin@outlook.com
