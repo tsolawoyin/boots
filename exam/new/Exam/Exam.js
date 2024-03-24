@@ -13,7 +13,7 @@ class Exam {
     this.subject = subject;
     this.topic = topic;
     this.currentQuestion = null;
-    this.unseenQuestions = fetchQuestions(questions, topic, quantity); // instead of having a lot of questions inside unseen and picking anyone at random, we should be specific in terms of amount
+    this.unseenQuestions = fetchQuestions(questions, topic, quantity);
     this.quantity = this.unseenQuestions.length; // the number of questions user is taking // unseen questions changes overtime. this is utterly unreasonable to some degree
     this.seenQuestions = []; // the start btn will take another shape. that is not a problem...
     // but I think I can have many other helper functions outside here normally now... yes..
@@ -32,6 +32,10 @@ class Exam {
       // then you can now repackage
       repackage(choice, "initial", 0); // this is repackaging the stuff shey you get...
       // so after repackaging, just push to seenQuestions
+      // before pushing choice, we need to shuffle it up
+
+      this.shuffle(choice); // shuffle up the options before pushing since it is already seen
+
       this.seenQuestions.push(choice);
       // we need to remove the question from unseenQuestion
       // then set choice to currentQuestion
@@ -54,13 +58,14 @@ class Exam {
 
           repackage(choice, "next", nextQuestionId);
 
+          this.shuffle(choice);
+
           this.seenQuestions.push(choice);
           // console.log(choice) // you think I have time? nope nope...
           this.currentQuestion = choice;
         } else {
           // this is just as massive... // this is cool. and you know, making sense.
           // if it is present, just go to seen question and fetch it...
-          // as per dy, I don't identify with anybody...
           this.currentQuestion = fetchQuestion(
             this.currentQuestion.id + 1,
             this.seenQuestions
@@ -88,6 +93,8 @@ class Exam {
 
         repackage(choice, "prev", prevQuestionId);
 
+        this.shuffle(choice)
+
         this.seenQuestions.push(choice);
 
         this.currentQuestion = choice;
@@ -114,8 +121,10 @@ class Exam {
       this.unseenQuestions = removeQuestion(choice, this.unseenQuestions);
       // then you can now repackage
       repackage(choice, "num", num); // this is repackaging the stuff shey you get...
-      // so after repackaging, just push to seenQuestions
-      this.seenQuestions.push(choice);
+      // so after repackaging,
+      this.shuffle(choice); // shuffle up the options
+
+      this.seenQuestions.push(choice); // then push
       // we need to remove the question from unseenQuestion
       // then set choice to currentQuestion
       this.currentQuestion = choice;
@@ -123,6 +132,108 @@ class Exam {
       this.currentQuestion = fetchQuestion(num, this.seenQuestions);
       // maybe not yet sha, I will work on the errors later...
     }
+  }
+  // working on shuffling functionality
+  // in this way, the student can choose to use the shuffle functionality or not... but right now, the shuffle is on whether the user likes it or not...
+  // think object oriented always...
+  shuffle(choice) {
+    // it takes three functions to shuffle up object. someone else might do it with one line. someone like marijn
+    // convert list of options to object with the one having the correct ans set to true while others are set to false
+    function convertOptToObj(options, answer) {
+      let opt = {
+        0: "A",
+        1: "B",
+        2: "C",
+        3: "D",
+        4: "E",
+      };
+    
+      let newOptionList = []; // this holds our optionobjlist
+    
+      for (let i = 0; i < options.length; i++) {
+        // consoele.log
+        let optionObj = new Object(null);
+    
+        optionObj.main = options[i]; // object.main is just the option itselff
+    
+        if (opt[i] == answer) { // if the option is the answer, set to true
+          optionObj.answer = true;
+        } else {
+          optionObj.answer = false; // otherwise set to false
+        }
+    
+        newOptionList.push(optionObj); // pushing everything
+      }
+
+      return newOptionList; // this will surely work...
+    }
+    
+    // alright time to shuffle up
+    // this function takes the output of convertOptToObj function and shuffle it up
+    function shuffleOptions(options) {
+      let newArr = new Array;
+      let optionWords = [] // this is to check for duplicate
+      // inf looop checker
+      let count = 0;
+      while (newArr.length != options.length) {
+        if (count > 500) {
+          console.log("there is a problem!!!!!!");
+          break;
+        }
+        // now let's work on this stuff
+        let choice = choose(options)
+        if (!optionWords.includes(choice.main)) {
+          newArr.push(choice)
+          optionWords.push(choice.main);
+        }
+
+        // inf loop checker
+        count += 1
+      }
+      return newArr // works as need...
+    }
+
+    // now let's do the last part...
+    // the last part is about converting back to normal...
+    // this function takes the output of the shuffleOption function
+
+    function convertToList(options) {
+      // alright, let's continue
+      let resObj = {
+        options: [],
+        answer: null
+      }
+
+      let opt = {
+        0: "A",
+        1: "B",
+        2: "C",
+        3: "D",
+        4: "E",
+      };
+
+      for (let i = 0; i < options.length; i++) {
+        resObj.options.push(options[i].main);
+        if (options[i].answer) { // if it is the answe
+          resObj.answer = opt[i] // balanced
+        }
+      }
+
+      return resObj
+    }
+    
+    let resObject = convertToList(shuffleOptions(convertOptToObj(choice.options, choice.ans)))
+
+    // set the option to the new shuffled stuff
+    choice.options = resObject.options;
+    choice.ans = resObject.answer;
+    // set the answer to the same thing as well
+    // job done and complete. thank you
+    // now everything is working perfectly...
+    // testing function
+    // console.log(convertOptToObj(this.currentQuestion.options, this.currentQuestion.ans));
+    // everything is making perfect sense to me now..
+    // correcto
   }
 
   loadKeys(element) {

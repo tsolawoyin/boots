@@ -500,8 +500,8 @@ let biologyQuestions = [
         question: "A characteristic exhibited by all living organisms is",
         options: [
           "Sexual reproduction",
-          "Aeroic respiration",
-          "The ability to move from one place o another",
+          "Aerobic respiration",
+          "The ability to move from one place to another",
           "The ability to remove unwanted substances",
         ],
         ans: D,

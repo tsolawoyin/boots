@@ -8336,7 +8336,6 @@ let chemistryQuestions = [
           `X: 92, Y: 235`,
           `X: 89, Y: 236`,
           `X: 88, Y: 238`,
-          `Under uv light`,
         ],
         ans: "A",
       },
