@@ -133,9 +133,7 @@ class Exam {
       // maybe not yet sha, I will work on the errors later...
     }
   }
-  // working on shuffling functionality
-  // in this way, the student can choose to use the shuffle functionality or not... but right now, the shuffle is on whether the user likes it or not...
-  // think object oriented always...
+
   shuffle(choice) {
     // it takes three functions to shuffle up object. someone else might do it with one line. someone like marijn
     // convert list of options to object with the one having the correct ans set to true while others are set to false
