@@ -8,7 +8,7 @@ Designed to help students pass their UTME exam
 
 Much of its functionality will be understood by interacting with the software
 
-Current Available subjects
+### Current Available subjects
 
 - English
 - Chemistry
@@ -27,6 +27,6 @@ Current Available subjects
 ### Special thanks to 🙌
 
 - [netlify](https://netlify.app)
-- our sponsors (Boots)
+- sponsors
 
 If you would like to contribute, notify me @ t.olawoyin@outlook.com
