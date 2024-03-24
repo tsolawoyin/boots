@@ -13700,6 +13700,321 @@ let chemistryQuestions = [
         ans: "A",
       },
     ]
+  },
+
+  {
+    topic: "Organic chemistry II",
+    questions: [
+      {
+        id: 1,
+        question: `Which of the following process can convert starch to ethanol`,
+        options: [`Cracking`, `Cooking`, `Esterification`, `Fermentation`],
+        ans: "D",
+      },
+      {
+        id: 2,
+        question: `Starch and cellulose are`,
+        options: [`sugars`, `polymers`, `isomers`, `hydrocarbons`],
+        ans: "B",
+      },
+      {
+        id: 3,
+        question: `Which of the following is the chief component of cotton`,
+        options: [`Cellulose`, `Starch`, `Proteins`, `Sucrose`],
+        ans: "A",
+      },
+      {
+        id: 4,
+        question: `${formula("C",12,"O",11)} + ${formula("H",2,"O")} -> 2${formula("C",6,"H",12,"O",6)}<br />
+        What is the function of maltase in the above reaction?`,
+        options: [
+          `A reducing agent`, 
+          `An oxidizing agent`, 
+          `A catalyst`, 
+          `A dehydrating agent`
+        ],
+        ans: "C",
+      },
+      {
+        id: 5,
+        question: `When sucrose reacts with concentrated tetraoxosulfate(VI) acid, one of the products is`,
+        options: [
+          `Carbon(II) oxide`, 
+          `Carbon(IV) oxide`, 
+          `Charcoal`, 
+          `Coal tar`
+        ],
+        ans: "C",
+      },
+      {
+        id: 6,
+        question: `Which of the following carbohydrates is a polysaccharide?`,
+        options: [
+          `Laevulose`, 
+          `Insulin`, 
+          `Dextrose`, 
+          `Lactose`
+        ],
+        ans: "B",
+      },
+      {
+        id: 7,
+        question: `An example of disaccharide is`,
+        options: [
+          `Starch`, 
+          `Cellulose`, 
+          `Fructose`, 
+          `Sucrose`
+        ],
+        ans: "D",
+      },
+      {
+        id: 8,
+        question: `Which of the following would give a positive reaction to Fehling's test?`,
+        options: [
+          `Reducing sugars`, 
+          `Non-reducing sugars`, 
+          `Starch`, 
+          `Cellulose`
+        ],
+        ans: "A",
+      },
+      {
+        id: 9,
+        question: `The following statements about proteins are false except:`,
+        options: [
+          `They give brick-red precipitates with a hot Fehling's solution`, 
+          `They hydrolyze to yield glucose units`, 
+          `They contain peptide linkages`, 
+          `They are not giant molecules`
+        ],
+        ans: "C",
+      },
+      {
+        id: 10,
+        question: `${formula("C",6,"H",12,"O",6)} -> 6${formula("C","s")} + 6${formula("H",2,"O")} <br />
+        The role of ${formula("H",2,"SO",4)} in the above reaction is that of a`,
+        options: [
+          `strong acid`, 
+          `dehydrating agent`, 
+          `oxidizing agent`, 
+          `catalyst`
+        ],
+        ans: "B",
+      },
+      {
+        id: 11,
+        question: `Which of the following is suitable for the hydrolysis of complex sugars at room temperature?`,
+        options: [
+          `reductants`, 
+          `alkaline bases`, 
+          `mineral acids`, 
+          `enzymes`
+        ],
+        ans: "D",
+      },
+      {
+        id: 12,
+        question: `A sugar is charred when it is`,
+        options: [
+          `fermented`, 
+          `dehydrated`, 
+          `hydrolyzed`, 
+          `esterified`
+        ],
+        ans: "B",
+      },
+      {
+        id: 13,
+        question: `Which of the following substances would give a positive reaction to Buiret's test?`,
+        options: [
+          `starch`, 
+          `cellulose`, 
+          `protein`, 
+          `fat`
+        ],
+        ans: "C",
+      },
+      {
+        id: 14,
+        question: `The reaction between a protein and a mineral acid solution is`,
+        options: [
+          `fermentation`, 
+          `polymerization`, 
+          `addition`, 
+          `hydrolysis`
+        ],
+        ans: "D",
+      },
+      {
+        id: 15,
+        question: `Which of the following reagents is not used for the identification of a protein?`,
+        options: [
+          `Tollen's reagent`, 
+          `Million's reagent`, 
+          `${formula("NaOH","aq")} and ${formula("CuSO",4,"aq")}`, 
+          `conc. ${formula("HNO",3)}`
+        ],
+        ans: "A",
+      },
+      {
+        id: 16,
+        question: `A carbohydrate that needs to be hydrolyzed before it shows reducing property is`,
+        options: [
+          `glucose`, 
+          `fructose`, 
+          `maltose`, 
+          `sucrose`
+        ],
+        ans: "D",
+      },
+      {
+        id: 17,
+        question: `E and F are two organic substances. If E became charred with conc. ${formula("H",2,"SO",4)} and F gave a red precipitate with Million's reagent, it can be inferred that`,
+        options: [
+          `E is a protein and F is a carbohydrate`, 
+          `E is a carbohydrate and F is a protein`, 
+          `E is an amino acid and F is a carbohydrate`, 
+          `E is a fat and F is an amino acid`
+        ],
+        ans: "B",
+      },
+      {
+        id: 18,
+        question: `Which of the following is the monoatomic unit of protein molecules?`,
+        options: [
+          `hydrochloric acid`, 
+          `ethanoic acid`, 
+          `amino acid`, 
+          `palmitic acid`
+        ],
+        ans: "C",
+      },
+      {
+        id: 19,
+        question: `Which of the following sugars is present in milk`,
+        options: [
+          `Glucose`, 
+          `Lactose`, 
+          `Fructose`, 
+          `Sucrose`
+        ],
+        ans: "B",
+      },
+      {
+        id: 20,
+        question: `Large molecules are degraded into smaller molecules in`,
+        options: [
+          `hydrolysis of cellulose`, 
+          `condensation of monosaccharides`, 
+          `vulcanization of rubber`, 
+          `esterification`
+        ],
+        ans: "A",
+      },
+      {
+        id: 21,
+        question: `Which of the following statements is false about enzymes? They`,
+        options: [
+          `alter the rate of biochemical reactions`, 
+          `are specific in action`, 
+          `remain unchanged chemically at the end of the reaction`, 
+          `shift the equilibrium position in a reversible reaction`
+        ],
+        ans: "D",
+      },
+      {
+        id: 22,
+        question: `A carbohydrate that does not usually occur in the crystalline form is`,
+        options: [
+          `glucose`, 
+          `maltose`, 
+          `cellulose`, 
+          `sucrose`
+        ],
+        ans: "C",
+      },
+      {
+        id: 23,
+        question: `The complete enzyme hydrolysis of starch yields`,
+        options: [
+          `dextrin`, 
+          `glucose`, 
+          `maltose`, 
+          `fructose`
+        ],
+        ans: "B",
+      },
+      {
+        id: 25,
+        question: `A process that involves the decomposition of a sugar by enzymic action is`,
+        options: [
+          `fermentation`, 
+          `dehydration`, 
+          `polymerization`, 
+          `saponification`
+        ],
+        ans: "A",
+      },
+      {
+        id: 26,
+        question: `Maltose and lactose are classified as carbohydrates because they`,
+        options: [
+          `are soluble in water`, 
+          `become charred on dehydration`, 
+          `provide instant energy`, 
+          `conform to the general molecular C<sub>x</sub>H<sub>2y</sub>O<sub>y</sub>`
+        ],
+        ans: "D",
+      },
+      {
+        id: 27,
+        question: `Which of the following is not a gaint molecule?`,
+        options: [
+          `Protein`, 
+          `Sucrose`, 
+          `Starch`, 
+          `Enzyme`
+        ],
+        ans: "B",
+      },
+      {
+        id: 28,
+        question: `Compound Z was boiled with dilute tetraoxosulphate(VI) acid for some time. The products were found to be amino acids <br />
+        Compound Z was probably`,
+        options: [
+          `cellulose`, 
+          `starch`, 
+          `protein`, 
+          `rubber`
+        ],
+        ans: "C",
+      },
+      {
+        id: 29,
+        question: `Compound Z was boiled with dilute tetraoxosulphate(VI) acid for some time. The products were found to be amino acids <br />
+        What type of reaction was involved between compound Z and dilute ${formula("H",2,"SO",4)}`,
+        options: [
+          `Neutralization`, 
+          `Esterification`, 
+          `Condensation`, 
+          `Hydrolysis`
+        ],
+        ans: "D",
+      },
+      {
+        id: 30,
+        question: `Compound Z was boiled with dilute tetraoxosulphate(VI) acid for some time. The products were found to be amino acids<br />
+        Which of the following methods is most suitable for separating and dehydrating the amino acids formed between compound Z and dilute ${formula("H",2,"SO",4)}`,
+        options: [
+          `Neutralization`, 
+          `Esterification`, 
+          `Condensation`, 
+          `Hydrolysis`
+        ],
+        ans: "B",
+      },
+    ]
   }
 
   // splitting the organic chemistry up is the only to ensure that everyone do a lot of O.C.

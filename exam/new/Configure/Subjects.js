@@ -22,7 +22,8 @@ const chemistry = new Subject("Chemistry", [
   "Nuclear Chemistry",
   "Industrial and Environmental Chemistry",
   "Experimental Chemistry",
-  "Organic chemistry"
+  "Organic chemistry",
+  "Organic chemistry II"
 ]);
 
 const biology = new Subject("Biology", [
