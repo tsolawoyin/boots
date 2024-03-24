@@ -13112,7 +13112,7 @@ let chemistryQuestions = [
   },
 
   {
-    topic: `Organic chemistry`,
+    topic: `Introduction to organic chemistry`,
     questions: [
       {
         id: 1,
@@ -13703,7 +13703,7 @@ let chemistryQuestions = [
   },
 
   {
-    topic: "Organic chemistry II",
+    topic: "Bifunctional families and organic giant molecules",
     questions: [
       {
         id: 1,
@@ -14011,6 +14011,1350 @@ let chemistryQuestions = [
           `Esterification`, 
           `Condensation`, 
           `Hydrolysis`
+        ],
+        ans: "B",
+      },
+    ]
+  },
+
+  {
+    topic: "Other organic families",
+    questions: [
+      {
+        id: 1,
+        question: `Which of the following compounds is tertiary alkanol?`,
+        options: [
+          `${formula("CH",3)}-${formula("CH",2)}-${formula("CH",2)}-${formula("CH(OH)")}-${formula("CH",3)}`, 
+          `${formula("CH",3)}-${formula("CH",2)}-${formula("CH",2)}-C(${formula("CH",3)})(OH)-${formula("CH",3)}`, 
+          `${formula("CH",3)}-${formula("CH",2)}-${formula("CH",2)}-${formula("CH",2)}-${formula("CH",2)}-${formula("OH")}`, 
+          `${formula("CH",3)}-CH(${formula("CH",3)})-${formula("CH",2)}-${formula("CH",2)}-${formula("OH")}`
+        ],
+        ans: "B",
+      },
+      {
+        id: 2,
+        question: `Ethanol is obtained from sugars by`,
+        options: [
+          `saponification`, 
+          `dehydration`, 
+          `esterification`, 
+          `fermentation`
+        ],
+        ans: "D",
+      },
+      {
+        id: 3,
+        question: `The raw material for a large scale production of ethanol is`,
+        options: [
+          `starch`, 
+          `ethane`, 
+          `ethyne`, 
+          `benzene`
+        ],
+        ans: "A",
+      },
+      {
+        id: 4,
+        question: `Which of the following compounds is the by-product of the fermentation of sugar to ethanol?`,
+        options: [
+          `propanol`, 
+          `propane-1,2,3-triol`, 
+          `carbon(IV) oxide`, 
+          `carbon(II) oxide`
+        ],
+        ans: "C",
+      },
+      {
+        id: 5,
+        question: `A secondary alkanol is`,
+        options: [
+          `${formula("CH",2)}=CH-${formula("CH",2)}-OH`, 
+          `${formula("CH",3)}-CH(OH)-${formula("CH",3)}`, 
+          `${formula("CH",2)}(OH)-${formula("CH",2)}-OH`, 
+          `${formula("CH",3)}-${formula("CH",2)}-${formula("CH",2)}-OH`
+        ],
+        ans: "B",
+      },
+      {
+        id: 6,
+        question: `Fermentation is the decomposition of`,
+        options: [
+          `sugar to non-sugar in the presence of yeast`, 
+          `ethanol to sugar in the presence of yeast`, 
+          `sugar to ethanol in the presence of yeast`, 
+          `non-sugar to sugar in the presence of yeast`
+        ],
+        ans: "C",
+      },
+      {
+        id: 7,
+        question: `A dihydric alkanol is`,
+        options: [
+          `ethanol`, 
+          `glycerol`, 
+          `phenol`, 
+          `glycol`
+        ],
+        ans: "D",
+      },
+      {
+        id: 8,
+        question: `The method used to separate ethanol from the mother liquor obtained in fermentation of simple sugars is`,
+        options: [
+          `fractional crystallization`, 
+          `fractional distillation`, 
+          `filtration`, 
+          `centrifugation`
+        ],
+        ans: "B",
+      },
+      {
+        id: 9,
+        question: `${formula("CH",3)}-${formula("CH",2)}-C(${formula("CH",2,"CH",3)})(OH)-${formula("CH",2)}-${formula("CH",3)}<br />
+        The type of alkanol shown above is`,
+        options: [
+          `primary alkanol`, 
+          `secondary alkanol`, 
+          `tertiary alkanol`, 
+          `trihydric alkanol`
+        ],
+        ans: "C",
+      },
+      {
+        id: 10,
+        question: `The organic product of the reaction between propanoic acid and ethanol in the presence of an acid catalyst is`,
+        options: [
+          `propyl propanoate`, 
+          `propyl ethanoate`, 
+          `ethyl propanoate`, 
+          `ethyl ethanoate`
+        ],
+        ans: "C",
+      },
+      {
+        id: 11,
+        question: `The product of the reaction between excess ethanol and conc. ${formula("H",2,"SO",4)} at 145&deg;C is`,
+        options: [
+          `ethene`, 
+          `ethanoic acid`, 
+          `diethyl tetraoxosulfate(VI)`, 
+          `ethoxyethane`
+        ],
+        ans: "D",
+      },
+      {
+        id: 12,
+        question: `A secondary alkanol reacts with acidified ${formula("KMnO",4)} solution to form an`,
+        options: [
+          `alkanone`, 
+          `alkanal`, 
+          `alkanoic acid`, 
+          `alkene`
+        ],
+        ans: "A",
+      },
+      {
+        id: 13,
+        question: `Dehydration of propan-1-ol produces`,
+        options: [
+          `propanoic acid`, 
+          `propanal`, 
+          `propene`, 
+          `propane-1,2,3-triol`
+        ],
+        ans: "C",
+      },
+      {
+        id: 14,
+        question: `The gas evolved when alkanols react with sodium is`,
+        options: [
+          `oxygen`, 
+          `carbon(IV) oxide`, 
+          `nitrogen`, 
+          `hydrogen`
+        ],
+        ans: "D",
+      },
+      {
+        id: 15,
+        question: `A drunkard's breath carries a significant level of ethanol. The color change observed when this breath is passed into acidified ${formula("K",2,"Cr",2,"O",7)} solution is`,
+        options: [
+          `orange to pink`, 
+          `orange to purple`, 
+          `orange to green`, 
+          `orange to blue`
+        ],
+        ans: "C",
+      },
+      {
+        id: 16,
+        question: `The oxidatin of ${formula("CH",3)}-${formula("CH",2)}-CH(${formula("CH",2,"CH",3)})(OH) gives`,
+        options: [
+          `pentanal`, 
+          `pentan-3-one`, 
+          `pentan-2-one`, 
+          `pentanoic acid`
+        ],
+        ans: "B",
+      },
+      {
+        id: 17,
+        question: `Complete oxidation of butan-1-ol gives`,
+        options: [
+          `butanal`, 
+          `butanone`, 
+          `butan-2-ol`, 
+          `butanoic acid`
+        ],
+        ans: "D",
+      },
+      {
+        id: 18,
+        question: `Which of the following equations represents the reaction occuring in fresh palm wine?`,
+        options: [
+          `${formula("C",6,"H",12,"O",6)} -> 2${formula("C",2,"H",5,"OH")} + 2${formula("CO",2,"g")} [Catalyst: zymase]`, 
+          `${formula("C",12,"H",22,"O",11)} + ${formula("H",2,"O")} -> 2${formula("C",6,"H",12,"O",6)} [Catalyst: maltase]`, 
+          `${formula("C",2,"H",5,"OH")} -> ${formula("CH",2)}=${formula("CH",2)} + ${formula("H",2,"O")}`, 
+          `2${formula("C",2,"H",5,"OH")} -> ${formula("C",2,"H",5)}-O-${formula("C",2,"H",5)} + ${formula("H",2,"O")}`
+        ],
+        ans: "A",
+      },
+      {
+        id: 19,
+        question: `The product of the reaction between propan-2-ol and hot sodium monoxoiodate(I) solution is`,
+        options: [
+          `propanal`, 
+          `2-iodopropane`, 
+          `triiodomethane`,
+          `trichloromethane`
+        ],
+        ans: "C",
+      },
+      {
+        id: 20,
+        question: `2(${(formula("C",6,"H",10,"O",5))})<sub>n</sub> + n${formula("H",2,"O")} -> n${formula("C",12,"H",22,"O",11)} [Catalyst: diastase] <br />
+        In this reaction, diastase is`,
+        options: [
+          `a catalyst`, 
+          `a reducing agent`, 
+          `an oxidizing agent`,
+          `a dehydrating agent`
+        ],
+        ans: "A",
+      },
+      {
+        id: 21,
+        question: `A liquid that is neutral to litmus but gives a colorless gas with metallic sodium must be an`,
+        options: [
+          `alkene`, 
+          `alkane`, 
+          `alkanoate`,
+          `alkanol`
+        ],
+        ans: "D",
+      },
+      {
+        id: 22,
+        question: `Why does palm-wine turn sour with time? This is because`,
+        options: [
+          `it is naturally adulterated by the sellers`, 
+          `it is naturally acidic`, 
+          `microbial activity results in the production of ethanoic acid within it`,
+          `it is an acid anhydride`
+        ],
+        ans: "C",
+      },
+      {
+        id: 23,
+        question: `When sodium is added to propan-1-ol, the products are`,
+        options: [
+          `Sodium propoxide and water`, 
+          `Sodium propoxide and hydrogen`, 
+          `Sodium hydroxide and water`,
+          `Sodium hydroxide and hydrogen`
+        ],
+        ans: "B",
+      },
+      {
+        id: 24,
+        question: `One of the products of combustion of ethanol in excess air is`,
+        options: [
+          `oxygen`, 
+          `hydrogen`, 
+          `carbon(IV) oxide`,
+          `carbon`
+        ],
+        ans: "C",
+      },
+      {
+        id: 25,
+        question: `If a compound reacts with excess acidified ${formula("K",2,"Cr",2,"O",7)} to form an alkanoic acid, the compound is an`,
+        options: [
+          `alkene`, 
+          `alkyne`, 
+          `amine`,
+          `alkanol`
+        ],
+        ans: "D",
+      },
+      {
+        id: 26,
+        question: `A compound that reacts readily with sodium to liberate hydrogen is`,
+        options: [
+          `${formula("CH",3,"COCH",2,"CH",3)}`, 
+          `${formula("CH",3,"CH",2,"CH",2,"CH",3)}`, 
+          `${formula("CH",3,"CH",2,"CH",2,"CHO")}`,
+          `${formula("CH",3,"CH(OH)CH",2,"CH",3)}`
+        ],
+        ans: "D",
+      },
+      {
+        id: 27,
+        question: `A metal that reacts with alkanols to liberate hydrogen gas is`,
+        options: [
+          `iron`, 
+          `potassium`, 
+          `zinc`,
+          `lead`
+        ],
+        ans: "B",
+      },
+      {
+        id: 28,
+        question: `Which of the following reagents can be used to differentiate alkanals from alkanones?`,
+        options: [
+          `Hydrogen cyanide`, 
+          `Sodium hydrogentrioxosulfate(IV)`, 
+          `Fehling's reagent`,
+          `2,4-dinitriphenylhydrazine`
+        ],
+        ans: "C",
+      },
+      {
+        id: 31,
+        question: `An organic compound that undergoes reactions with both hydrogen cyanide and phenylhydrazine is an`,
+        options: [
+          `alkane`, 
+          `alkyne`, 
+          `alkanol`,
+          `alkanal`
+        ],
+        ans: "D",
+      },
+      {
+        id: 32,
+        question: `The role played by conc. ${formula("H",2,"SO",4)} in the esterification of an alkanoic acid with an alkanol is that of a`,
+        options: [
+          `reducing agent`, 
+          `dehydrating agent`, 
+          `catalyst`,
+          `solvent`
+        ],
+        ans: "C",
+      },
+      {
+        id: 33,
+        question: `Alkanoates are produced by the reaction of alkanols with`,
+        options: [
+          `alkanoic acids`, 
+          `haloalkanes`, 
+          `alkoxyalkanes`,
+          `potassium`
+        ],
+        ans: "A",
+      },
+      {
+        id: 34,
+        question: `The products of the photochlorination of ethanoic acid are`,
+        options: [
+          `${formula("CH",3,"COOCl")} + HCl`, 
+          `${formula("CH",3,"COCl")} + HOCl`, 
+          `${formula("ClCH",2,"COCl")} + HCl`,
+          `${formula("ClCH",2,"COOH")} + HCl`
+        ],
+        ans: "D",
+      },
+      {
+        id: 35,
+        question: `${formula("CH",3,"CH",2,"COOH")} + ${formula("CH",3,"CH",2,"OH")} -> G + H [Catalyst: conc ${formula("H",2,"SO",4)}]`,
+        options: [
+          `${formula("CH",3,"CH",2,"COCH",2,"CH",2,"CH",3)} and ${formula("H",2,"O",2)}`, 
+          `${formula("CH",3,"COCH",2,"CH",2,"CH",3)} and ${formula("H",2,"O",2)}`,
+          `${formula("CH",3,"CH",2,"COO","CH",2,"CH",3)} and ${formula("H",2,"O")}`, 
+          `${formula("CH",3,"COO","CH",2,"CH",2,"CH",3)} and ${formula("H",2,"O")}` 
+        ],
+        ans: "C",
+      },
+      {
+        id: 36,
+        question: `A salt is formed when sodium hydroxide reacts with`,
+        options: [
+          `(${formula("CH",3)})<sub>2</sub>CHOH`,
+          `(${formula("CH",3)})<sub>2</sub>CH-COOH`,
+          `(${formula("CH",3)})<sub>2</sub>C=${formula("CH",2)}`,
+          `${formula("C",12,"H",22,"O",11)}`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 37,
+        question: `An alkanoic acid is`,
+        options: [
+          `${formula("CH",3,"CH",2,"CH",2,"OH")}`,
+          `${formula("CH",3,"CH",2,"CHO")}`,
+          `${formula("HCOOH")}`,
+          `${formula("CH",3,"COCH",3)}`,
+        ],
+        ans: "C",
+      },
+      {
+        id: 38,
+        question: `Which of the following alkanols will not yield alkanoic acids on reacting with excess acidified ${formula("K",2,"Cr",2,"O",7)}?`,
+        options: [
+          `(${formula("CH",3)})<sub>3</sub>COH`,
+          `(${formula("CH",3)})<sub>2</sub>CH${formula("CH",2,"OH")}`,
+          `(${formula("CH",3)})<sub>3</sub>C${formula("CH",2,"OH")}`,
+          `${formula("CH",3,"CH",2,"OH")}`
+        ],
+        ans: "A",
+      },
+      {
+        id: 39,
+        question: `The reaction that produces alkanoic acids is`,
+        options: [
+          `combustion of alkanes`,
+          `hydration of alkynes`,
+          `dehydration of alkanols`,
+          `oxidation of alkanals`
+        ],
+        ans: "D",
+      },
+      {
+        id: 40,
+        question: `${formula("HCOOCH",2,"CH",3)} is produced by the reaction between`,
+        options: [
+          `methanol and ethanoic acid`,
+          `ethanol and methanoic acid`,
+          `ethanol and ethanoic acid`,
+          `methanol and methanoic acid`
+        ],
+        ans: "B",
+      },
+      {
+        id: 41,
+        question: `Hardened oil can be made by`,
+        options: [
+          `heating the oil with a catalyst`,
+          `heating the oil with an alkali and a catalyst`,
+          `heating the oil with hydrogen and a catalyst`,
+          `heating the oil alone`
+        ],
+        ans: "C",
+      },
+      {
+        id: 42,
+        question: `Fats and oils are`,
+        options: [
+          `substitution products of fatty acids and glycerol`,
+          `addition products of fatty acids and glycerol`,
+          `elimination products of fatty acids and glycerol`,
+          `condensation products of fatty acids and glycerol`
+        ],
+        ans: "D",
+      },
+      {
+        id: 43,
+        question: `Which process is involved in the conversion of an oil into margarine`,
+        options: [
+          `Dehydration`,
+          `Hydrogenation`,
+          `Oxidation`,
+          `Halogenation`
+        ],
+        ans: "B",
+      },
+      {
+        id: 44,
+        question: `The reaction between glycerol and three fatty acids is?`,
+        options: [
+          `saponification`,
+          `hydrolysis`,
+          `esterification`,
+          `polymerization`
+        ],
+        ans: "C",
+      },
+      {
+        id: 45,
+        question: `The organic product obtained between the reaction of a glycerol and three fatty acids is?`,
+        options: [
+          `an alkanoate`,
+          `an alkanol`,
+          `a primary alkanol`,
+          `an alkanone`
+        ],
+        ans: "A",
+      },
+      {
+        id: 46,
+        question: `The products of the alkaline hydrolysis of naturally occuring fats and oils are`,
+        options: [
+          `alkanoates`,
+          `butter and glycerol`,
+          `detergents and glycerol`,
+          `soaps and glycerol`
+        ],
+        ans: "D",
+      },
+      {
+        id: 47,
+        question: `Which alkanol is obtained from the production of soap?`,
+        options: [
+          `methanol`,
+          `ethanol`,
+          `glycerol`,
+          `glycol`
+        ],
+        ans: "C",
+      },
+      {
+        id: 48,
+        question: `The reaction that takes place when olive oil is heated with caustic potash to form foams is known as?`,
+        options: [
+          `esterification`,
+          `saponification`,
+          `neutralization`,
+          `hydrolysis`
+        ],
+        ans: "B",
+      },
+      {
+        id: 49,
+        question: `The general formula of typical detergents is`,
+        options: [
+          `${ion("RCOO","-")}${ion("Na","+")}`,
+          `RCOOH`,
+          `${ion(formula("RSO",3),"-")}${ion("Na","+")}`,
+          `ROH`
+        ],
+        ans: "C",
+      },
+      {
+        id: 50,
+        question: `Detergents are preferred to soap for washing in hard water because`,
+        options: [
+          `detergents form more lather than soap`,
+          `detergents form soluble salts with hard water`,
+          `soaps are more difficult to manufacture`,
+          `detergents contain more additives than soap`
+        ],
+        ans: "B",
+      },
+      {
+        id: 51,
+        question: `Which of the following statement is FALSE of the complete hydrolysis of a triglyceride by potassium hydroxide?`,
+        options: [
+          `1 mole of glycerol is produced`,
+          `3 moles of soap are formed`,
+          `Conc. ${formula("H",2,"SO",4)} is necessary as a catalyst`,
+          `3 moles of KOH are required for each mole of triglyceride`
+        ],
+        ans: "C",
+      },
+      {
+        id: 52,
+        question: `What is the role of sodium chloride in the manufacture of soap?`,
+        options: [
+          `To make the soap antiseptic`,
+          `To separate the soap from glycerol`,
+          `To react with glycerol`,
+          `To decolorize the soap`
+        ],
+        ans: "B",
+      },
+      {
+        id: 53,
+        question: `The ash, used for making black soap, is a source of`,
+        options: [
+          `sodium ions`,
+          `sodium chloride`,
+          `glycerol`,
+          `potassium ions`
+        ],
+        ans: "D",
+      },
+      {
+        id: 54,
+        question: `The compound formed when the two end alkyl groups of propyl ethanoate are interchanged is`,
+        options: [
+          `methyl propanoate`,
+          `ethyl propanoate`,
+          `methyl butanoate`,
+          `ethyl butanoate`
+        ],
+        ans: "C",
+      },
+      {
+        id: 55,
+        question: `A product of the hydrolysis of propyl ethanoate with aqueous potassium hydroxide is`,
+        options: [
+          `ethanoic acid`,
+          `potassium ethanoate`,
+          `propanoic acid`,
+          `potassium propanoate`
+        ],
+        ans: "B",
+      },
+      {
+        id: 56,
+        question: `The compounds used widely in the manufacture of flavors and perfumes are`,
+        options: [
+          `alkanoates`,
+          `alkanones`,
+          `sugars`,
+          `alkenes`
+        ],
+        ans: "A",
+      },
+      {
+        id: 57,
+        question: `What are the products of the reaction between ethyl ethanoate and ammonia?`,
+        options: [
+          `Aminoethane and ethanol`,
+          `Aminomethane and propan-1-ol`,
+          `Ethanamide and ethanol`,
+          `Methanamide and propan-1-ol`
+        ],
+        ans: "C",
+      },
+      {
+        id: 58,
+        question: `A tertiary amine is`,
+        options: [
+          `N- methylaminoethane`,
+          `N,N-dimethylaminoethane`,
+          `aminoethane`,
+          `N-ethylaminoethane`
+        ],
+        ans: "B",
+      },
+    ]
+  },
+
+  {
+    topic: "Hydrocarbons",
+    questions: [
+      {
+        id: 1,
+        question: `A hydrocarbon which contains the maximum number of hydrogen atoms for every carbon atom is said to be`,
+        options: [
+          `aliphatic`,
+          `aromatic`,
+          `saturated`,
+          `unsaturated`
+        ],
+        ans: "C",
+      },
+      {
+        id: 2,
+        question: `Which of the following is unsaturated?`,
+        options: [
+          `Hexane`,
+          `Benzene`,
+          `2-methylpentane`,
+          `Cyclohexane`
+        ],
+        ans: "B",
+      },
+      {
+        id: 3,
+        question: `The following are hydrocarbons except`,
+        options: [
+          `pentane`,
+          `pent-1-ene`,
+          `pent-1-yne`,
+          `pentan-1-ol`
+        ],
+        ans: "D",
+      },
+      {
+        id: 4,
+        question: `C<sub>x</sub>H<sub>y</sub> + 5${formula("O",2)} -> 3${formula("CO",2)} + 4${formula("H",2,"O")}<br /> In the reaction above C<sub>x</sub>H<sub>y</sub> is`,
+        options: [
+          `an alkyne`,
+          `an alkene`,
+          `an alkane`,
+          `aromatic`
+        ],
+        ans: "C",
+      },
+      {
+        id: 5,
+        question: `One mole of a hydrocarbon contains 8g of hydrogen. If the relative molecular mass is 92, the hydrocarbon is [C = 12, H = 1]`,
+        options: [
+          `aromatic`,
+          `an alkane`,
+          `an alkene`,
+          `an alkyne`
+        ],
+        ans: "A",
+      },
+      {
+        id: 6,
+        question: `Which of the following hydrocarbons burns in air with a sooty flame?`,
+        options: [
+          `${formula("C",3,"H",8)}`,
+          `${formula("C",4,"H",10)}`,
+          `${formula("C",5,"H",12)}`,
+          `${formula("C",6,"H",6)}`
+        ],
+        ans: "D",
+      },
+      {
+        id: 7,
+        question: `2C<sub>x</sub>H<sub>y</sub> + 11${formula("O",2)} -> 8${formula("CO",2)} + 6${formula("H",2,"O")} <br />
+        In hydrocarbon, C<sub>x</sub>H<sub>y</sub>, in the reaction above is:`,
+        options: [
+          `cyclobutane`,
+          `butyne`,
+          `butene`,
+          `butane`
+        ],
+        ans: "B",
+      },
+      {
+        id: 8,
+        question: `In which of the following methods can alkenes be prepared?`,
+        options: [
+          `Heating the ammonium salt of an alkanoic acid`,
+          `Heating a haloalkane with alcoholic KOH solution`,
+          `Heating the sodium salt of an alkanoic acid with sodalime`,
+          `Heating an alkanol with excess conc. ${formula("H",2,"SO",4)}`
+        ],
+        ans: "C",
+      },
+      {
+        id: 9,
+        question: `Heating of sodalime with ${formula("CH",3,"CH",2,"CH",2,"COONa")} produces`,
+        options: [
+          `Propane`,
+          `Butane`,
+          `Pentane`,
+          `Hexane`
+        ],
+        ans: "A",
+      },
+      {
+        id: 10,
+        question: `The reaction between alkanes and the halogens is`,
+        options: [
+          `Polymerization`,
+          `Oxidation`,
+          `Addition`,
+          `Substitution`
+        ],
+        ans: "D",
+      },
+      {
+        id: 11,
+        question: `The combustion of methane is represented by the stoichiometric equation: <br />
+        ${formula("CH",4)} + 2${formula("O",2)} -> ${formula("CO",2)} + 2${formula("H",2,"O")}<br />
+        What amount of oxygen will be required for the complete combustion of 5 mole of methane?`,
+        options: [
+          `10 mole`,
+          `5 mole`,
+          `3 mole`,
+          `1 mole`
+        ],
+        ans: "A",
+      },
+      {
+        id: 12,
+        question: `Which of the following reactions can be used to distinguish aliphatic from aromatic hydrocarbons?`,
+        options: [
+          `Action of bromine water`,
+          `Action of heat`,
+          `Action of ammoniacal copper(I) chloride`,
+          `Treatment with conc. ${formula("H",2,"SO",4)}`
+        ],
+        ans: "B",
+      },
+      {
+        id: 13,
+        question: `Which of the following statements is true about alkanes?`,
+        options: [
+          `They are all liquids`,
+          `Their general molecular formula is C<sub>n</sub>H<sub>2n</sub>`,
+          `They are hydrocarbons`,
+          `They are very reactive compounds`
+        ],
+        ans: "C",
+      },
+      {
+        id: 14,
+        question: `Which of the following compounds is not a product of the action of chlorine on methane in sunlight?`,
+        options: [
+          `${formula("CCl",4)}`,
+          `${formula("CHCl",3)}`,
+          `${formula("CH",3,"CH",3,"Cl")}`,
+          `${formula("CH",3,"Cl")}`
+        ],
+        ans: "C",
+      },
+      {
+        id: 15,
+        question: `Most of the fatal explosions in coal mines are caused by`,
+        options: [
+          `Ethane`,
+          `Ethene`,
+          `Ethyne`,
+          `Methane`
+        ],
+        ans: "D",
+      },
+      {
+        id: 16,
+        question: `The type of reaction that takes place between propene and a halogen is`,
+        options: [
+          `substitution`,
+          `addition`,
+          `elimination`,
+          `polymerization`
+        ],
+        ans: "B",
+      },
+      {
+        id: 17,
+        question: `The product of the reaction between ethene and chlorine is`,
+        options: [
+          `1,2-dichloroethane`,
+          `1,1-dichloroethane`,
+          `1,2-dichloroethane`,
+          `1,1-dichloroethane`
+        ],
+        ans: "A",
+      },
+      {
+        id: 18,
+        question: `${formula("CH",3,"CH",2,"CH",2,"OH")} -> ${formula("CH",3,"CH")}=${formula("CH",2)} + ${formula("H",2,"0")} <br /> The reagent that can be used to carry out the conversion above is`,
+        options: [
+          `ammoniacal silver trioxonitrate(V)`,
+          `hydrogen in the presence of nickel`,
+          `hot, concentrated ${formula("H",2,"SO",4)}`,
+          `alcoholic KOH`
+        ],
+        ans: "C",
+      },
+      {
+        id: 19,
+        question: `Petroleum fractions produce ethene by`,
+        options: [
+          `reforming`,
+          `cracking`,
+          `distillation`,
+          `polymerization`
+        ],
+        ans: "B",
+      },
+      {
+        id: 20,
+        question: `The reaction of but-1-ene with bromine gives`,
+        options: [
+          `1,1-dibromobutane`,
+          `1,2-dibromobutane`,
+          `2,2-dibromobutane`,
+          `3,4-dibromobutane`
+        ],
+        ans: "B",
+      },
+      {
+        id: 21,
+        question: `Consider the reaction: <br />
+        ${formula("CH",3,"CH",2,"CH")}=${formula("CH",2)} -> ${formula("CH",3,"CH",2,"CH(OH)","CH",2,"OH")} <br />
+        The reagent used for this conversion is`,
+        options: [
+          `aqueous ${formula("NH",3)}`,
+          `aqueous NaOH`,
+          `dil. ${formula("H",2,"SO",4)}`,
+          `acidified ${formula("KMnO",4)}`
+        ],
+        ans: "D",
+      },
+      {
+        id: 22,
+        question: `Propene undergoes mainly addition reactions because it is`,
+        options: [
+          `A covalent compound`,
+          `A hydrocarbon`,
+          `Unsaturated`,
+          `A gas`
+        ],
+        ans: "C",
+      },
+      {
+        id: 23,
+        question: `The compound used as "antifreeze" in car radiators in cold regions of the world is`,
+        options: [
+          `ethanol`,
+          `ethane-1,2-diol`,
+          `ethanal`,
+          `propane-1,2-diol`
+        ],
+        ans: "B",
+      },
+      {
+        id: 24,
+        question: `Catalytic hydrogenation of alkenes produces`,
+        options: [
+          `arenes`,
+          `alkanes`,
+          `alkynes`,
+          `alkanals`
+        ],
+        ans: "B",
+      },
+      {
+        id: 25,
+        question: `How many moles of oxygen are required to burn one mole of ${formula("C",5,"H",10)} completely?`,
+        options: [
+          `7.5`,
+          `7.0`,
+          `6.5`,
+          `6.0`
+        ],
+        ans: "A",
+      },
+      {
+        id: 28,
+        question: `The monomeric unit of the natural rubber is`,
+        options: [
+          `Butane`,
+          `Buta-1,3-diene`,
+          `2-Methylbuta-1,3-diene`,
+          `ethene`
+        ],
+        ans: "C",
+      },
+      {
+        id: 29,
+        question: `One of the important uses of polyvinyl chloride (PVC) is the production of`,
+        options: [
+          `Books`,
+          `Pipes`,
+          `Pencils`,
+          `Ink`
+        ],
+        ans: "B",
+      },
+      {
+        id: 30,
+        question: `The role of sulfur in vulcanization of rubber is to`,
+        options: [
+          `act as a catalyst`,
+          `break down rubber polymer`,
+          `increase the length of polymeric chain or rubber`,
+          `bind parallel long rubber chains together`
+        ],
+        ans: "D",
+      },
+      {
+        id: 31,
+        question: `The purpose of sulphur in vulcanization of rubber is mainly to make it`,
+        options: [
+          `darker`,
+          `softer`,
+          `tougher`,
+          `more attractive`
+        ],
+        ans: "C",
+      },
+      {
+        id: 32,
+        question: `The plastic material which cannot be softened by heat is said to be`,
+        options: [
+          `Biodegradable`,
+          `Ductile`,
+          `Thermoset`,
+          `Thermoplastic`
+        ],
+        ans: "C",
+      },
+      {
+        id: 33,
+        question: `The quality of natural rubber is improved by heating it with`,
+        options: [
+          `nickel catalyst`,
+          `chlorine`,
+          `hydrogen`,
+          `sulfur`
+        ],
+        ans: "D",
+      },
+      {
+        id: 34,
+        question: `A constituent of the flame used by welders in cutting metals is`,
+        options: [
+          `ethane`,
+          `ethene`,
+          `ethyne`,
+          `propene`
+        ],
+        ans: "C",
+      },
+      {
+        id: 35,
+        question: `Uncontrolled hydrogenation of ethyne yields`,
+        options: [
+          `ethane`,
+          `ethene`,
+          `propane`,
+          `benzene`
+        ],
+        ans: "A",
+      },
+      {
+        id: 36,
+        question: `A compound that can give a precipitate on treatment with an aqueous ammoniacal solution of copper(I) chloride is`,
+        options: [
+          `${formula("CH",3,"C")}&#8801;C${formula("CH",3)}`,
+          `${formula("HC")}&#8801;C-${formula("CH",2,"CH",3)}`,
+          `${formula("CH",3,"CH")}=${formula("CHCH",3)}`,
+          `${formula("H",2,"C")}=${formula("CH")}-${formula("CH",2,"CH",3)}`
+        ],
+        ans: "B",
+      },
+      {
+        id: 37,
+        question: `When a lump of calcium carbide is dropped into water in a container and the gas produced is passed through a jet and then ignited, the flame produced is called an`,
+        options: [
+          `oxymethane flame`,
+          `oxyethane flame`,
+          `oxyethene flame`,
+          `oxyethyne flame`
+        ],
+        ans: "D",
+      },
+      {
+        id: 38,
+        question: `Consider the compound:<br />
+        ${formula("CH",3)}-${formula("CH",2)}-CH=${formula("CH",2)}-C&#8801;CH<br />
+        An acidic hydrogen is attached to carbon number<br />
+        HINT: Number from the end with triple bond`,
+        options: [
+          `1`,
+          `3`,
+          `5`,
+          `7`
+        ],
+        ans: "A",
+      },
+      {
+        id: 40,
+        question: `What mass of bromine will be required to completely react with 2.7g of but-1-yne?<br />
+        [C = 12, H = 1, Br = 80]`,
+        options: [
+          `20g`,
+          `16g`,
+          `12g`,
+          `8g`
+        ],
+        ans: "B",
+      },
+      {
+        id: 41,
+        question: `A compound that reacts with sodium metal as well as ammoniacal silver or copper(I) salt is`,
+        options: [
+          `${formula("CH",3,"CH",2,"CH0,3")}`,
+          `${formula("CH",3,"CH")}=${formula("CH",2)}`,
+          `${formula("CH",3,"C")}&#8801;C${formula("CH",3)}`,
+          `${formula("CH",3,"C")}&#8801;CH`
+        ],
+        ans: "D",
+      },
+      {
+        id: 42,
+        question: `The final product of the reaction of propyne with hydrogen bromide is`,
+        options: [
+          `${formula("CH",3)}-C(Br)=${formula("CH",2)}`,
+          `${formula("CH",3)}-C(Br)<sub>2</sub>${formula("CH",3)}`,
+          `${formula("CH",3,"CH",2,"CH")}(Br)<sub></sub>`,
+          `${formula("CH",3,"CH(Br)","CH",2,"Br")}`
+        ],
+        ans: "B",
+      },
+      {
+        id: 43,
+        question: `The laboratory preparation of ethyne involves the action of water on`,
+        options: [
+          `calcium hydride`,
+          `calcium oxide`,
+          `calcium carbide`,
+          `sand`
+        ],
+        ans: "C",
+      },
+      {
+        id: 44,
+        question: `The reaction involved in the decolorization of bromine vapor by ethyne is`,
+        options: [
+          `Polymerization`,
+          `Elimination`,
+          `Substitution`,
+          `Addition`
+        ],
+        ans: "D",
+      },
+      {
+        id: 45,
+        question: `A brown precipitate is given when ammoniacal copper(I) chloride is treated with`,
+        options: [
+          `HC&#8801;C${formula("CH",2,"CH",3)}`,
+          `${formula("H",2,"C")}=CH${formula("CH",2,"CH",3)}`,
+          `${formula("CH",3,"CH")}=CHOH`,
+          `${formula("CH",3)}-${formula("CH",2)}-CHO`
+        ],
+        ans: "A",
+      },
+      {
+        id: 46,
+        question: `The reaction between ethyne and ammoniacal copper(I) chloride is`,
+        options: [
+          `Addition`,
+          `Substitution`,
+          `Elimination`,
+          `Polymerization`
+        ],
+        ans: "B",
+      },
+      {
+        id: 47,
+        question: `The reaction between pent-2-yne and bromine is`,
+        options: [
+          `A substitution reaction`,
+          `A reduction reaction`,
+          `An addition reaction`,
+          `An elimination reaction`
+        ],
+        ans: "C",
+      },
+      {
+        id: 48,
+        question: `What mass of bromine will saturate 3.3g of pent-3-ene-1-yne? [C = 12, H = 1, Br = 80]`,
+        options: [
+          `24.0g`,
+          `32.0g`,
+          `40.0g`,
+          `48.0g`
+        ],
+        ans: "A",
+      },
+      {
+        id: 49,
+        question: `Waste plastic materials pollute the environment because they are`,
+        options: [
+          `inflammable`,
+          `water-insoluble`,
+          `non-biodegradable and thus accumulate in the soil`,
+          `are not active`
+        ],
+        ans: "C",
+      },
+      {
+        id: 51,
+        question: `The polymerization product of ethyne is`,
+        options: [
+          `cyclohexane`,
+          `cyclohexene`,
+          `cyclohex-1,3-diene`,
+          `benzene`
+        ],
+        ans: "D",
+        // already solved, D is the answer
+      },
+      {
+        id: 52,
+        question: `Hexane and benzene can both`,
+        options: [
+          `undergo addition reactions`,
+          `undergo substitution reactions`,
+          `undergo elimination reaction`,
+          `decolorize bromine water`
+        ],
+        ans: "B",
+      },
+      {
+        id: 54,
+        question: `An unsaturated compound is`,
+        options: [
+          `2-chloroethane`,
+          `toluene`,
+          `2-chloropentane`,
+          `2,2-dimethylpropane`
+        ],
+        ans: "B",
+      },
+      {
+        id: 53,
+        question: `An aromatic compound is`,
+        options: [
+          `${formula("C",6,"H","Br")}`,
+          `${formula("C",6,"H",13,"OH")}`,
+          `${formula("C",6,"H",5,"Cl")}`,
+          `${formula("C",6,"H",14)}`
+        ],
+        ans: "C",
+      },
+      {
+        id: 55,
+        question: `What is the product of the catalytic hydrogenation of benzene?`,
+        options: [
+          `Hexane`,
+          `Hexene`,
+          `Cyclohexane`,
+          `Cyclohexane`
+        ],
+        ans: "D",
+      },
+      {
+        id: 56,
+        question: `An elimination reaction occurs when 1-chloropropane is converted to`,
+        options: [
+          `propene`,
+          `propan-1-ol`,
+          `2-chloropropanone`,
+          `propanoic acid`
+        ],
+        ans: "A",
+      },
+      {
+        id: 57,
+        question: `Why is cracking process very important in the petroleum industry? It yields more?`,
+        options: [
+          `engine fuels`,
+          `bitumen`,
+          `fuel oil`,
+          `paraffin wax`
+        ],
+        ans: "A",
+      },
+      {
+        id: 58,
+        question: `The quality of petrol as an engine fuel improves with an increase in the amount of`,
+        options: [
+          `straight chain alkanes`,
+          `straight chain alkenes`,
+          `branched chain alkanes`,
+          `branched chain alkenes`
+        ],
+        ans: "C",
+      },
+      {
+        id: 59,
+        question: `The performance of a fuel is the same as that of a mixture of 60g of 2,2,4-trimethylpentane and 40g of heptane. What is the octane number of the fuel`,
+        options: [
+          `100`,
+          `60`,
+          `20`,
+          `40`
+        ],
+        ans: "B",
+      },
+      {
+        id: 60,
+        question: `Why is it not desirable to use lead(IV) tetraethyl as anti-knock additive for petrol`,
+        options: [
+          `it is explosive`,
+          `it lowers the octane rating of petrol`,
+          `it produces air pollutants which are expelled from automobiles exhausts`,
+          `it is very expensive`
+        ],
+        ans: "C",
+      },
+      {
+        id: 61,
+        question: `An alkane in the production industry which is undesirable because it is prone to knocking is`,
+        options: [
+          `octane`,
+          `2,2,4-trimethylpentane`,
+          `2,2,4-trimethlyheptane`,
+          `heptane`
+        ],
+        ans: "D",
+      },
+      {
+        id: 62,
+        question: `Which of the following methods is used to separate crude-oil into its components`,
+        options: [
+          `Catalytic cracking`,
+          `Catalytic reforming`,
+          `Fractional distillation`,
+          `Column chromatography`
+        ],
+        ans: "C",
+      },
+      {
+        id: 63,
+        question: `The main constituents of petrol are`,
+        options: [
+          `alkanoic acids`,
+          `hydrocarbons`,
+          `alkanols`,
+          `polymers`
+        ],
+        ans: "B",
+      },
+      {
+        id: 64,
+        question: `More petrol is obtained from long chain hydrocarbons by the process known as`,
+        options: [
+          `Cracking`,
+          `Distillation`,
+          `Reduction`,
+          `Oxidation`
+        ],
+        ans: "A",
+      },
+      {
+        id: 65,
+        question: `Which of the fraction of crude-oil is used as jet fuel?`,
+        options: [
+          `Ligroin`,
+          `Petroleum gas`,
+          `Gasoline`,
+          `Kerosene`
+        ],
+        ans: "D",
+      },
+      {
+        id: 66,
+        question: `The compound used as a gaseous fuel is`,
+        options: [
+          `${formula("CH",3,"CH",2,"C")}&#8801;CH`,
+          `${formula("CH",3,"C(Br)",2,"CH",2,"CH",3)}`,
+          `${formula("CH",3,"CH",2,"CH",2,"CH",3)}`,
+          `${formula("CH",3,"CH",2,"CH",2,"CH",2,"OH")}`
+        ],
+        ans: "C",
+      },
+      {
+        id: 67,
+        question: `The hydrocarbon ${formula("C",14,"H",30)} is likely to be a constituent of the fraction of crude-oil called`,
+        options: [
+          `Petroleum gas`,
+          `Ligroin`,
+          `Petrol`,
+          `Gas oil`
+        ],
+        ans: "D",
+      },
+      {
+        id: 68,
+        question: `Why is carbon often deposited in the exhaust-pipe of cars`,
+        options: [
+          `Presence of carbon in petrol`,
+          `Incomplete combustion of petrol`,
+          `Presence of additives in petrol`,
+          `Complete combustion of petrol`
         ],
         ans: "B",
       },
