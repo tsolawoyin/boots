@@ -23,6 +23,7 @@ const chemistry = new Subject("Chemistry", [
   "Industrial and Environmental Chemistry",
   "Experimental Chemistry",
   `Introduction to organic chemistry`,
+  "IUPAC Nomenclature Of Organic compounds",
   "Hydrocarbons",
   "Other organic families",
   "Bifunctional families and organic giant molecules",

@@ -13703,6 +13703,372 @@ let chemistryQuestions = [
   },
 
   {
+    topic: "IUPAC Nomenclature Of Organic compounds",
+    questions: [
+      {
+        id: 1,
+        question: `The IUPAC name for (${formula("CH",3)})(${formula("CH",3)}${formula("CH",3)}-${formula("CH",2)}-${formula("CH",2)}-${formula("CH",3)} is`,
+        options: [
+          `1-methylhexane`,
+          `1,1-dimethylbutane`, 
+          `4-methylpentane`, 
+          `2-methylpentane`
+        ],
+        ans: "D",
+      },
+      {
+        id: 2,
+        question: `The IUPAC name for the compound ${formula("CH",3)}-C(Br)(${formula("CH",3)})-${formula("CH",2)}-${formula("CH",3)} is`,
+        options: [
+          `2-bromoisopentane`,
+          `3-bromoisopentane`, 
+          `2-bromo-2-methylbutane`, 
+          `1-bromo-1,1-dimethylpropane`
+        ],
+        ans: "C",
+      },
+      {
+        id: 3,
+        question: `The IUPAC name for the compound <br />
+        ${formula("CH",3)}-${formula("CH",2)}-C(${formula("CH",3)})(${formula("CH",3)})-${formula("CH",2)}-${formula("CH",2)}-${formula("CH",3)}`,
+        options: [
+          `isoheptane`,
+          `3,3-dimethylhexane`, 
+          `4-methylhexane`, 
+          `heptane`
+        ],
+        ans: "B",
+      },
+      {
+        id: 4,
+        question: `The compound <br />
+        ${formula("CH",3)}-${formula("CH",2)}-${formula("CH")}(${formula("CH",2,"Cl")})-${formula("CH",3)} is`,
+        options: [
+          `1-chloro-2-methylpentane`,
+          `1-chloro-2-methylbutane`, 
+          `1-chloromethylbutane`, 
+          `1-chloro-2-ethyl-2-methylethane`
+        ],
+        ans: "B",
+      },
+      {
+        id: 5,
+        question: `The IUPAC nomenclature for the compound <br />
+        ${formula("CH",3)}-C(${formula("CH",3)})(${formula("CH",3)})-${formula("CH",2)}-${formula("CH")}(${formula("CH",3)})-${formula("CH",2)}-${formula("CH",3)} is`,
+        options: [
+          `trimethylhexane`,
+          `3,5,5-trimethylhexane`, 
+          `1,1,1,3-tetramethylpentane`, 
+          `2,2,4-trimethylhexane`
+        ],
+        ans: "D",
+      },
+      {
+        id: 6,
+        question: `${formula("CH",3)}-CH(${formula("CH",3)})-CH(${formula("CH",2)}-${formula("CH",3)})-${formula("CH",2)}-${formula("CH",2)}-${formula("CH")}(${formula("CH",3)})${formula("CH",3)}<br />
+        The IUPAC name for the organic compound with the above structural formula is`,
+        options: [
+          `3-ethyl-2,6-dimethylheptane`,
+          `5-ethyl-2,6-dimethylheptane`, 
+          `4-ethyl-1,1,5-trimethylhexane`, 
+          `3-ethyl-2,6,6-trimethylhexane`
+        ],
+        ans: "A",
+      },
+      {
+        id: 7,
+        question: `What is the IUPAC name of the following compound<br />
+        ${formula("CH",3)}-${formula("CH",2)}-${formula("CH")}(Br)-${formula("CH")}(${formula("CH",3)})-${formula("CH",2)}-${formula("CH",3)}`,
+        options: [
+          `3-methyl-4-bromohexane`,
+          `3-bromo-4-methylhexane`, 
+          `3-bromo-3-methylhexane`, 
+          `3,4-bromomethylhexane`
+        ],
+        ans: "B",
+      },
+      {
+        id: 8,
+        question: `The IUPAC names for the compounds ${formula("CH",3,"CH")}=${formula("CH",2)} and ${formula("HOCH",2,"CH",2,"OH")} are respectively`,
+        options: [
+          `propylene and ethylene glycol`,
+          `propene and ethyl alcohol`, 
+          `propene and ethane-1,2-diol`, 
+          `propylene and ethane-1,2-diol`
+        ],
+        ans: "C",
+      },
+      {
+        id: 9,
+        question: `The IUPAC name for the compound <br />
+        ${formula("CH",3)}-${formula("CH",2)}-${formula("CH",2)}-C(${formula("CH",3)})=C(${formula("CH",3)})(${formula("CH",3)})`,
+        options: [
+          `3,5-dimethylhex-4-ene`,
+          `1,1,2-trimethylpent-1-ene`, 
+          `2,3-dimethylhex-2,3-ene`, 
+          `2,3-dimethylhex-2-ene`
+        ],
+        ans: "D",
+      },
+      {
+        id: 10,
+        question: `${formula("C",2,"H",5)}-C(${formula("CH",3)})=CH(${formula("CH",3)})`,
+        options: [
+          `3-methylpent-2-ene`,
+          `3-methylpent-3-ene`, 
+          `1,2-dimethylbut-1-ene`, 
+          `3,4-dimethylbut-3-ene`
+        ],
+        ans: "A",
+      },
+      {
+        id: 11,
+        question: `The IUPAC name for the compound<br />
+        ${formula("CH",3)}-CH(${formula("CH",3)})-${formula("CH",2)}-CH=CH-${formula("CH",3)}`,
+        options: [
+          `2-methylhex-1-ene`,
+          `5-methylhex-2-ene`, 
+          `2-methylhex-2-ene`, 
+          `5-methylhex-4-ene`
+        ],
+        ans: "B",
+      },
+      {
+        id: 12,
+        question: `What is the IUPAC name for the compound<br />
+        ${formula("CH",3,"CH")}=C(${formula("CH",2,"CH",3)})(${formula("CH",2,"CH",2,"Cl")})`,
+        options: [
+          `1-chloro-3-ethylpent-3-ene`,
+          `5-chloro-3-ethylpent-2,3-ene`, 
+          `5-chloro-3-ethlypent-2-ene`, 
+          `1-ethyl-1-chloroethylpropene`
+        ],
+        ans: "C",
+      },
+      {
+        id: 13,
+        question: `The structure of trans-3-methylpent-2-ene is`,
+        options: [
+          `${formula("CH",3,"CH",2)}-C${formula("CH",3)}=${"CH","CH",3}`,
+          `(${formula("CH",3)})(${formula("CH",3)})C=C(H)(${formula("CH",3)})`, 
+          `(${formula("CH",3)})(${formula("CH",3,"CH",2)})C=C(${formula("CH",3)})(H)`, 
+          `(${formula("CH",3)})(${formula("CH",3)})C=C(${formula("CH",3)})${formula("CH",3)}`
+        ],
+        ans: "B",
+      },
+      {
+        id: 14,
+        question: `${formula("CH",3)}-C${formula("CH",2,"CH",3)}=CH-${formula("CH",2)}-C(${formula("CH",3)})(${formula("CH",2,"CH",3)})-${formula("CH",3)} <br /> The IUPAC name for the hydrocarbon is`,
+        options: [
+          `2,5-diethyl-5-methylhex-2-ene`,
+          `2,5-dimethyl-2-methylhex-4-ene`,
+          `3,3,6-trimethlyoct-5-ene`,
+          `3,6,6-trimethyloct-3-ene`
+        ],
+        ans: "D",
+      },
+      {
+        id: 15,
+        question: `${formula("CH",3)}-${formula("CH",2)}-C(${formula("CH",3)})(${formula("CH",3)})=${formula("CH",2)}<br /> The IUPAC name of the hydrocarbon above is`,
+        options: [
+          `3,3-dimethylpent-1-yne`,
+          `3,3-dimethylpent-1-ene`,
+          `3,3-dimethylpent-1-yne`,
+          `3,3-dimethylpent-4-ene`
+        ],
+        ans: "B",
+      },
+      {
+        id: 16,
+        question: `What is the IUPAC nomenclature for the compound (${formula("CH",3)})<sub>2</sub>CHCH=CH${formula("CH",3)}?`,
+        options: [
+          `2-methylpent-3-ene`,
+          `1,1,3-trimethylpropene`,
+          `4-methylpent-2-ene`,
+          `4,4-dimethylbut-2-ene`
+        ],
+        ans: "C",
+      },
+      {
+        id: 17,
+        question: `What is the IUPAC name of a compound which has the following structure?<br />
+        ${formula("CH",3)}-${formula("CH",2)}-${formula("CH",2)}-CH=C(${formula("CH",3)})${formula("CH",2,"CH",3)}`,
+        options: [
+          `3-methylhept-3-ene`,
+          `1-ethyl-1-methylpent-1-ene`,
+          `2-ethylhex-1-ene`,
+          `1,3-diethyl-1-methylpropene`
+        ],
+        ans: "A",
+      },
+      {
+        id: 18,
+        question: `The IUPAC name for the compound ${formula("CH",3)}-${formula("CH",2)}-C(${formula("CH",2,"CH",2)})=${formula("CH",2)}`,
+        options: [
+          `Hex-1-ene`,
+          `1,1-diethylethene`,
+          `3-ethylbut-3-ene`,
+          `2-ethylbut-1-ene`
+        ],
+        ans: "D",
+      },
+      {
+        id: 19,
+        question: `The compound with the structure:<br />
+        ${formula("CH",3)}-${formula("CH",2)}-CH=C(Br)-${formula("CH",3)}<br />
+        has the IUPAC name`,
+        options: [
+          `2-bromopent-3-ene`,
+          `2-bromopent-2-ene`,
+          `4-bromopent-3-ene`,
+          `4-bromopent-2-ene`
+        ],
+        ans: "B",
+      },
+      {
+        id: 20,
+        question: `What are the correct IUPAC names for HC&#8801;CH and ${formula("CH",3,"COOCH",2,"CH",3)}?`,
+        options: [
+          `Acetylene and ethyl acetate`,
+          `Acetylene and methyl acetate`,
+          `Ethyne and ethyl acetate`,
+          `Ethyne and methyl ethanoate`
+        ],
+        ans: "C",
+      },
+      {
+        id: 21,
+        question: `The IUPAC name for the compound:<br />
+        ${formula("CH",3)}&#8801;C-${formula("CH",3)}`,
+        options: [
+          `1,2-dimethylethyne`,
+          `methylpropyne`,
+          `but-1-yne`,
+          `but-2-yne`
+        ],
+        ans: "D",
+      },
+      {
+        id: 22,
+        question: `What is the IUPAC name of the compound below?<br />
+        ${formula("CH",3)}-${formula("CH")}(${formula("CH",2,"CH",3)})-C(${formula("CH",3)})-C&#8801;CH`,
+        options: [
+          `3,4-dimethylhex-1-yne`,
+          `3,4-dimethylhex-5-yne`,
+          `4-ethyl-3-methylpent-1-yne`,
+          `2-ethyl-3-methylpent-4-yne`
+        ],
+        ans: "A",
+      },
+      {
+        id: 23,
+        question: `What is the IUPAC name of the compound below <br />
+        ${formula("CH",3)}-${formula("CH",2)}-${formula("CH",2)}-${formula("CH")}(OH)-C(${formula("CH",3)})<sub>3</sub>`,
+        options: [
+          `1,1,1-trimethlypentan-2-ol`,
+          `5,5,5-trimethylpentan-4-ol`,
+          `2,2-dimethylhexan-3-ol`,
+          `5,5-dimethylhexan-4-ol`
+        ],
+        ans: "C",
+      },
+      {
+        id: 24,
+        question: `The IUPAC name for the compound is <br />
+        ${formula("CH",2)}(OH)-CH(OH)-${formula("CH",2)}(OH)`,
+        options: [
+          `propanetriol`,
+          `propane-1,2,3-triol`,
+          `glycerol`,// perhaps this is the common name, not the IUPAC name
+          `glycerine`
+        ],
+        ans: "B",
+        remark: `Please note that although (B) is the IUPAC name of this structure, it is mostly referred to as (C) <strong>Glycerol</strong>`
+      },
+      {
+        id: 25,
+        question: `Which of the following is the structural formula of propanoic acid`,
+        options: [
+          `${formula("CH",3)}-${formula("CH",2)}-CHO`,
+          `${formula("CH",3)}-CO(${formula("CH",3)})`,
+          `${formula("CH",3)}-${formula("CH",2)}-COOH`,
+          `${formula("CH",3)}-${formula("CH",2)}-CO${formula("CH",3)}`
+        ],
+        ans: "C",
+      },
+      {
+        id: 26,
+        question: `Which of the follwoing represents propyl methanoate`,
+        options: [
+          `${formula("CH",3,"CH",2,"CH",2,"COOH")}`,
+          `${formula("HCOOCH",2,"CH",3)}`,
+          `${formula("CH",3,"COOCH",2,"CH",2,"CH",3)}`,
+          `${formula("HCOOCH",2,"CH",2,"CH",3)}`
+        ],
+        ans: "D",
+      },
+      {
+        id: 27,
+        question: `The IUPAC name of the compound is <br />
+        ${formula("H",3,"C")}-C(${formula("CH",3)})(${formula("CH",2,"CH",3)})-COOH`,
+        options: [
+          `2-ethyl-2-methylpropanoic acid`,
+          `2,2-dimethylbutanoic acid`,
+          `2-ethyl-2,2-dimethylethanoic acid`,
+          `1-hydroxy-2,2-dimethylpropan-1-one`
+        ],
+        ans: "B",
+      },
+      {
+        id: 28,
+        question: `Which of the following is the structural formula for but-2-enoic acid`,
+        options: [
+          `${formula("CH",3)}CH=C(COOH)-${formula("CH",3)}`,
+          `${formula("CH",3,"CH",2,"CH",2,"COOH")}`,
+          `${formula("CH",3,"CH")}=CHCOOH`,
+          `${formula("CH",2)}=CH-${formula("CH",2,"COOH")}`
+        ],
+        ans: "C",
+      },
+      {
+        id: 29,
+        question: `The IUPAC name for the compound is<br />
+        (${formula("CH",3)})<sub>2</sub>CHCH(${formula("CH",3)})COOH`,
+        options: [
+          `2,3-dimethylbutanoic acid`,
+          `2-methylbutanoic acid`,
+          `2-methylpentanoic acid`,
+          `2,3,3-trimethylpropanoic acid`
+        ],
+        ans: "A",
+      },
+      {
+        id: 30,
+        question: `The IUPAC name for <br />
+        ${formula("H",2,"N")}-${formula("CH",2)}-${formula("CH",2)}-COOH is`,
+        options: [
+          `1-aminopropanoic acid`,
+          `3-aminopropanoic acid`,
+          `1-amino-3-hydroxypropan-3-one`,
+          `3-amino-1-hydroxypropan-3-one`,
+        ],
+        ans: "B",
+      },
+      {
+        id: 31,
+        question: `The IUPAC name for ${formula("CH",3)}(${formula("CH",3)})<sub>2</sub>COO${formula("CH",3)} is`,
+        options: [
+          `ethyl ethanoate`,
+          `methyl propanoate`,
+          `butyl methanoate`,
+          `methyl butanoate`,
+        ],
+        ans: "D",
+      },
+    ]
+  },
+
+  {
     topic: "Bifunctional families and organic giant molecules",
     questions: [
       {
