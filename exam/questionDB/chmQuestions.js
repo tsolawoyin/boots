@@ -13707,7 +13707,7 @@ let chemistryQuestions = [
     questions: [
       {
         id: 1,
-        question: `The IUPAC name for (${formula("CH",3)})(${formula("CH",3)}${formula("CH",3)}-${formula("CH",2)}-${formula("CH",2)}-${formula("CH",3)} is`,
+        question: `The IUPAC name for ${formula("CH",3)}${formula("CH")}(${formula("CH",3)})-${formula("CH",2)}-${formula("CH",2)}-${formula("CH",3)} is`,
         options: [
           `1-methylhexane`,
           `1,1-dimethylbutane`, 
@@ -13869,7 +13869,7 @@ let chemistryQuestions = [
       },
       {
         id: 15,
-        question: `${formula("CH",3)}-${formula("CH",2)}-C(${formula("CH",3)})(${formula("CH",3)})=${formula("CH",2)}<br /> The IUPAC name of the hydrocarbon above is`,
+        question: `${formula("CH",3)}-${formula("CH",2)}-C(${formula("CH",3)})(${formula("CH",3)})-CH=${formula("CH",2)}<br /> The IUPAC name of the hydrocarbon above is`,
         options: [
           `3,3-dimethylpent-1-yne`,
           `3,3-dimethylpent-1-ene`,
@@ -13939,7 +13939,7 @@ let chemistryQuestions = [
       {
         id: 21,
         question: `The IUPAC name for the compound:<br />
-        ${formula("CH",3)}&#8801;C-${formula("CH",3)}`,
+        ${formula("CH",3)}-${formula("CH",2)}&#8801;C-${formula("CH",3)}`,
         options: [
           `1,2-dimethylethyne`,
           `methylpropyne`,
