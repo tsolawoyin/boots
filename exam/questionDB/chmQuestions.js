@@ -13858,7 +13858,7 @@ let chemistryQuestions = [
       },
       {
         id: 14,
-        question: `${formula("CH",3)}-C${formula("CH",2,"CH",3)}=CH-${formula("CH",2)}-C(${formula("CH",3)})(${formula("CH",2,"CH",3)})-${formula("CH",3)} <br /> The IUPAC name for the hydrocarbon is`,
+        question: `${formula("CH",3)}-C(${formula("CH",2,"CH",3)})=CH-${formula("CH",2)}-C(${formula("CH",3)})(${formula("CH",2,"CH",3)})-${formula("CH",3)} <br /> The IUPAC name for the hydrocarbon is`,
         options: [
           `2,5-diethyl-5-methylhex-2-ene`,
           `2,5-dimethyl-2-methylhex-4-ene`,
@@ -13873,7 +13873,7 @@ let chemistryQuestions = [
         options: [
           `3,3-dimethylpent-1-yne`,
           `3,3-dimethylpent-1-ene`,
-          `3,3-dimethylpent-1-yne`,
+          `3,3-dimethylpent-4-yne`, // this will ensure no duplicate is present. lolzzzz.
           `3,3-dimethylpent-4-ene`
         ],
         ans: "B",
