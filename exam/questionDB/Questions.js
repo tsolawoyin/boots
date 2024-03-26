@@ -1,6 +1,7 @@
 import { chemistryQuestions } from "./chmQuestions.js";
 import { biologyQuestions } from "./bioQuestions.js";
 import { englishQuestions } from "./engQuestions.js";
+import { phyQuestions } from "./phyQuestions.js";
 
 const Questions = [
     {
@@ -15,6 +16,10 @@ const Questions = [
         subject: "Biology",
         questions: biologyQuestions
     },
+    {
+        subject: "Physics",
+        questions: phyQuestions
+    }
 ]
 
 

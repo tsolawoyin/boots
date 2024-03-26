@@ -69,6 +69,10 @@ const english = new Subject("English", [
   "Common mistakes",
 ]);
 
-const available = [english, biology, chemistry];
+const physics = new Subject("Physics", [
+  "Elasticity"
+])
+
+const available = [english, biology, chemistry, physics];
 
 export { available }; // makes sense for now. honestly... let me just finish things up.
