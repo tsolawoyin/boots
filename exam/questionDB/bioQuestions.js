@@ -9116,7 +9116,2930 @@ let biologyQuestions = [
       userAnswer: null,
     },
   ]
-  }
+  },
+
+  {
+    topic: "Common Disease. Insect Vectors",
+    questions: [
+      {
+        id: 1,
+        question:
+          "In the life of Schistosoma (Bilharzia), one of the following is the intermediate host",
+        options: ["Man", "Snail", "Mosquito larva", "Crayfish", "Fish"],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 2,
+        question:
+          "A farmer X working in a swap did not eat any food nor drink any water. Which of these diseases can he contract?",
+        options: [
+          "Cholera",
+          "Bilharzia",
+          "River blindness",
+          "Malaria",
+          "Sleeping sickness",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 3,
+        question:
+          "Which of these diseases cannot be controlled by killing the vectors?",
+        options: [
+          "River blindness",
+          "Malaria",
+          "Polio",
+          "Cholera",
+          "Bilharzia(Schistosomiasis)",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 4,
+        question: "One of the following statements is not true of viruses",
+        options: [
+          "They are Micro-organisms",
+          "They are smaller than bacteria",
+          "They can be seen with an ordinary light microscope",
+          "They cause polio and smallpox",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 5,
+        question:
+          "The center which controls respiratory activities in the mammalian brain is the",
+        options: [
+          "Cerebrum",
+          "Olfactory lobes",
+          "Pituitary organ",
+          "Cerebellum",
+          "Medulla",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 6,
+        question:
+          "Below some groups of diseases. Which group of diseases is caused by bacteria?",
+        options: [
+          "Tuberculosis, smallpox",
+          "Gonorrhea, measles",
+          "Tuberculosis, polio",
+          "Sleeping sickness, measles",
+          "Syphilis, gonorrhea",
+        ],
+        ans: null,
+        userAnswer: null,
+      },
+      {
+        id: 7,
+        question:
+          "Refrigeneration, as a method of food preservation, has one of the following characteristics",
+        options: [
+          "Kills all the bacteria",
+          "Kills most of the bacteria",
+          "Makes the bacteria inactive",
+          "Dried food",
+          "Hydrolyzes food",
+        ],
+        ans: "E",
+        userAnswer: null,
+      },
+      {
+        id: 8,
+        question: "The blackfly is a vector of",
+        options: [
+          "Malaria",
+          "Trypanosomiasis",
+          "Onchocerciasis",
+          "Yellow fever",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 9,
+        question: "Which of the following diseases in NOT caused by a virus?",
+        options: [
+          "Rinderpest",
+          "Maize rust",
+          "Newcastle disease",
+          "Swine fever",
+          "Cassava mosaic disease",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 10,
+        question: "One disease NOT caused directly by bacteria is",
+        options: ["Malaria", "Tuberculosis", "Pneumonia", "Tetanus", "Cholera"],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 11,
+        question:
+          "Which of the following disease could be exclusively associated with a river basin?",
+        options: [
+          "Malaria",
+          "Syphilis",
+          "Onchocerciasis",
+          "Cholera",
+          "Poliomyelitis",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 12,
+        question:
+          "Which of the following lists of diseases, their causes and tramission is CORRECT?",
+        options: [
+          "Cholera, virus, severe diarrhoea, infected water",
+          "Malaria, protozoan, high fever, contact with infected person",
+          "Syphilis, virus, venereal disease, sexual intercourse",
+          "Smallpox, virus, skin with blister, close contact with infected person",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 13,
+        question:
+          "The primary and secondary hosts respectively of bilharzia are",
+        options: [
+          "Fish and man",
+          "Man and dog",
+          "Snail and man",
+          "Man and snail",
+          "Fish and snail",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 14,
+        question: "Which of the following is NOT caused by bacteria?",
+        options: [
+          "Cholera",
+          "Gonorrhea",
+          "Tuberculosis",
+          "Onchocerciasis",
+          "Tyhoid",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 15,
+        question:
+          "Tsetse fly is harmful to man because it is associted with the spread of",
+        options: [
+          "River blindness",
+          "Malaria",
+          "Sleeping sickness",
+          "Leprosy",
+          "Dysentery",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 16,
+        question:
+          "If a person is bitten by a snake on the leg, it is advisable for the person",
+        options: [
+          "Keep moving so that the venom will ooze out with bleeding",
+          "Wash the wound with water containing antiseptic",
+          "Bandage the wound so that germs do not get in through it",
+          "Keep still and apply a tourniquest above the wound.",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 17,
+        question: "Which of these disease CANNOT be prevented by immunization?",
+        options: ["Poliomyelitis", "Tuberculosis", "Cholera", "Onchocerciasis"],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 18,
+        question: "Poliomyelitis is an infectious disease caused by",
+        options: ["Polimyelitis", "Tuberculosis", "Cholera", "Onchoceriasis"],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 19,
+        question: "One of the function of UNICEF is to",
+        options: [
+          "Prevent and control major diseases",
+          "Prevent disease outbreak by administering vaccines",
+          "Improve the health and nurtrition of children and nursing mothers",
+          "Monitor environment pollution",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 20,
+        question:
+          "Which of the following disease can be contracted in areas with fast flowing rivers?",
+        options: [
+          "Schistosomiasis",
+          "Elephantiasis",
+          "Syphilis",
+          "Onchocerciasis",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 21,
+        question:
+          "Which of the ways of controlling bilharzia can result in pollution?",
+        options: [
+          "Cleaning water weeds on which the snails feed",
+          "Treating infected people with drugs",
+          "Preventing contamination of water by infected urine and faeces",
+          "Applying chemical to kill the snails",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 22,
+        question:
+          "Which of the following diseases can be caused by a bacterium?",
+        options: ["Ringworm", "Poliomyelitis", "Malaria", "Syphilis"],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 23,
+        question:
+          "Which of the following diseases is rarely spread by a housefly?",
+        options: [
+          "Yellow fever",
+          "Dysentery",
+          "Typhoid fever",
+          "Poliomyelitis",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 24,
+        question: "Which set of diseases is spread mainly by insect vectors?",
+        options: [
+          "Cholera, taenia and gonorrhea",
+          "Pollomyelitis, tuberculosis and syphilis",
+          "Cholera, malaria and tuberculosis",
+          "Malaria, cholera and river blindness",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 25,
+        question:
+          "Which of the following diseases can be prevented by inoculation?",
+        options: [
+          "Syphilis",
+          "Malaria fever",
+          "Tuberculosis",
+          "Acquired immune Deficiency Syndrome",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 26,
+        question: "Malaria symptoms are caused by",
+        options: [
+          "Toxins releases into the blood as a result of the destruction of red blood cells",
+          "The multiplication of the malarial sporozoites in the liver",
+          "The invasion of the red blood cells by the trophozoites",
+          "The development of merozoites into gametocytes",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 27,
+        question:
+          "What ecological condition favours the breeding of blackflies?",
+        options: [
+          "Fresh water habitat",
+          "Water in ponds and swamps",
+          "Water in small containers",
+          "Fast flowing stream",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 28,
+        question:
+          "Which of the following is transmitted through mosquito bite?",
+        options: ["Filariasis", "Typhus", "Plague", "Schistosomiasis"],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 29,
+        question:
+          "Which of the following is a measure for the control of bilharzias?",
+        options: [
+          "Cutting low bushes around homes",
+          "Application of molluscicides in water bodies",
+          "Screening windows and doors with mosquito nets",
+          "Application of herbicides in water bodies",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 30,
+        question: "Some of the diseases caused by bacteria are",
+        options: [
+          "Tuberculosis, gonorrhea and syphillis",
+          "Tuberculosis, gonorrhea and AIDS",
+          "Poliomyelitis, syphilis and gonorrhea",
+          "AIDS, cholera and tuberculosis",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 31,
+        question:
+          "One of the most effective ways of controlling guinea worm is by",
+        options: [
+          "treating the disease",
+          "Public enlighten men campaigns",
+          "Accelerating rural development",
+          "Provision of portable drinking water",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 32,
+        question:
+          "Which of the following groups of diseases are associated with water? I Onchocerciasis II Schistosomiasis III Drancuncullasis IV Elephantiasis Taeniasis",
+        options: [
+          "I, II and III",
+          "II, IV and V",
+          "II, III and IV",
+          "I, II and V",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 33,
+        question:
+          "The construction of dams may lead to an increase in the prevalence of",
+        options: [
+          "Typhoid fever, measles and yellow fever",
+          "Tuberculosis, leprosy and trypanosomiasis",
+          "Guinea worm, malaria and tuberculosis",
+          "Malaria, bilharziasis and Onchocerciasis",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 34,
+        question: "Vaccination is carried out in order to",
+        options: [
+          "Check the production of poison",
+          "Increase the activity of white blood cells",
+          "Increase the number of red blood cell",
+          "Stimulate the production of antibodies",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 35,
+        question: "Examples of water-borne and sex-linked disease are",
+        options: [
+          "Taeniasis and malaria",
+          "Cholera and gonorrehea",
+          "Typhold and syphilis",
+          "Dracuncullasis and haemophilia",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 36,
+        question:
+          "The most common means of transmitting Acquired Immune Deficiency Sydrome(AIDS) is",
+        options: [
+          "Form mother to child",
+          "Through blood transfusion",
+          "Trough sexual intercourse",
+          "Through the sharing of needles",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 37,
+        question: "The blackfly is a vector of",
+        options: [
+          "Malaria",
+          "Trypanosomiasis",
+          "Onchocerciasis",
+          "Yellow fever",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 38,
+        question: "The causative agent of typhoid fever is",
+        options: ["Saimonella", "Entamoeba", "Escherichia", "Shigella"],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 39,
+        question: "The causative agent of bird flu is a",
+        options: ["Prtozoan", "Virus", "Bacterium", "Fungus"],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 40,
+        question: "The bacteria type that are arranged in chains are the",
+        options: ["Staphylococci", "Clostridia", "Streptococci", "Bacili"],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 41,
+        question:
+          "A boy who is fond of swimming in a pond finds himself passing urine with traces of blood. He is likely to have contracted",
+        options: [
+          "Schistosomiasis",
+          "Onchocerciasis",
+          "Poliomyelltis",
+          "Salmonellosis",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 42,
+        question:
+          "I Onchocerciasis II Salmonellosis III Salmonellosis IV Meningitis. Which of the disease listed above are associtaed with water?",
+        options: [
+          "I and II only",
+          "II, III and IV",
+          "I, II and III",
+          "II and IV",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 43,
+        question: "The vector for yellow fever is",
+        options: [
+          "Anopheles mosquito",
+          "Tsetse fly",
+          "Blackfly",
+          "Aedes mosquito",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 44,
+        question: "The protozoan Plasmodium falciparum is transmitted by",
+        options: [
+          "Female Aedes mosquitoes",
+          "Female Culex mosquitos",
+          "Female blackfly",
+          "Female Anopheles mosquito",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 45,
+        question: "The vector of the malaria parasite is a",
+        options: [
+          "Male Culex mosquito",
+          "Female Culex mosquito",
+          "Female Aedes mosquito",
+          "Female anopheles mosquito",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 46,
+        question:
+          "Exo-erythrocyctic phase of the life cycle of malaria parasite occurs in the",
+        options: [
+          "Malpighian tubules of mosquito",
+          "Brain of humans",
+          "Liver of humans",
+          "Reticuloendothelial cells of humans",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 47,
+        question: "Drancunculiasis can be contacted through",
+        options: [
+          "Bathing in contaminated water",
+          "Bites of blackfly",
+          "Eating contaminated food",
+          "Drinking contaminated water",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 48,
+        question: "The diseases caused by waterborne pathogens include",
+        options: [
+          "Gonorrhea and poliomyelitis",
+          "Typhoid and syphillis",
+          "Tuberculosis and cholera",
+          "Typhoid cholera",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 49,
+        question: "An example of a parasitic protozoan is",
+        options: ["Plasmodium", "Euglena", "Chlamydomonas", "Paramecium"],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 50,
+        question: "A tropical disease caused by Trypanosoma is",
+        options: [
+          "River blindness",
+          "Yellow fever",
+          "Malaria",
+          "Sleeping sickness",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 51,
+        question: "Which of the following is caused by Treponema palladium?",
+        options: ["Leprosy", "Tuberculosis", "Syphilis", "Gonorrhea"],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 52,
+        question: "The causative agent of pollomyelitis is",
+        options: ["Virus", "Fungus", "Protozoan", "Bacterium"],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 53,
+        question: "Which of the following is true of smallpox?",
+        options: [
+          "It is transmitted by bacteria",
+          "It can effectively be controlled with antibiotics",
+          "It can effectively be controlled by vaccination",
+          "It is a waterborne infection",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 54,
+        question: "A biological agent with antiviral property is",
+        options: ["Interferon", "Enzyme", "Antibiotic", "Disinfectant"],
+        ans: "Interferon gamma",
+        userAnswer: null,
+      },
+    ],
+  },
+
+  {
+    topic: "Ecology: Basic Contents. Ecological Management",
+    questions: [
+      {
+        id: 1,
+        question: "Nitrifying bacteria keep the soil fertile by",
+        options: [
+          "Converting nitrate t nitrogen",
+          "Converting ammonium salts to nitrates",
+          "Converting atmospheric nitrogen to plabt protein",
+          "Converting nitrate to nitrous oxide",
+          "Coverting atmospheric nitrogen to nitrate",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 2,
+        question:
+          "The study of the organism and the environment of an abandoned farmland is the ecology of",
+        options: [
+          "A community",
+          "A population",
+          "A species",
+          "A habitat",
+          "An ecosystem",
+        ],
+        ans: "E",
+        userAnswer: null,
+      },
+      {
+        id: 3,
+        question: "A secchi disc is used in the determination of",
+        options: [
+          "Rainfall",
+          "Tides",
+          "Waves",
+          "Turbidity",
+          "Current velocity",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 4,
+        question:
+          "Bacteria inhabiting legume root nodule and which add atmospheric nitrogen to the soil are referred to as",
+        options: [
+          "Denitrifying bacteria",
+          "Nitrifying bacteria",
+          "Nitrogen fixing bacteria",
+          "Nitrogen putrefying bacteria",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 5,
+        question:
+          "Grasses- grasshoppers- lizard- snakes- hawks. In the above food chain the organisms which are least in number are",
+        options: ["Grasses", "Grasshoppers", "Lizards", "Snakes", "Hawks"],
+        ans: "E",
+        userAnswer: null,
+      },
+      {
+        id: 6,
+        question: "Which of these is not true? Grasses in the above food chain",
+        options: [
+          "Trap all the sun energy",
+          "Trap a small percent of the sun energy",
+          "Are primary producers",
+          "Are eaten by primary consumers",
+          "Contains chlorophyll",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 7,
+        question:
+          "Leguminuos plants, e.g. Mucuna, are usually planted in cultivated farmlands because they",
+        options: [
+          "Enrich the soil with phosphates",
+          "Provide animals with food",
+          "Enrich the soil with organic nitrogen",
+          "Protect the soil from being over-heated",
+          "Protect the micro organisms in the soil",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 8,
+        question:
+          "During thunderstorms the energy of lightening discharge causes",
+        options: [
+          "Oxygen and nitrogen to combine",
+          "More carbon dioxide to be formed",
+          "Nitrites to be converted to nitrates",
+          "Nitrates to be converted to nitrogen",
+          "Death",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 9,
+        question:
+          "Coose the sequence which represents the correct order of organisms in a food chain",
+        options: [
+          "Grass, snake, toad, grasshopper, hawk",
+          "Grass, grasshopper, toad, snake, hawk",
+          "Grass, grasshopper, snake, toad, hawk",
+          "Grass, snake, grasshopper, toad, hawk",
+          "Grass, toad, snake, grasshopper, hawk",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 10,
+        question: "Nitrification means",
+        options: [
+          "Conversion of nitrates to nitrogen",
+          "Fixing nitrogen into plants",
+          "Converion of nitrates to nitrites",
+          "Vhanging of ammonia to nitrites, then nitrates",
+          "Nitrogen cycle",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 11,
+        question: "An instument used in measuring the spped of wind is",
+        options: [
+          "A barometer",
+          "A wind gauge",
+          "A wind vane",
+          "An anemometer",
+          "A hydrometer",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 12,
+        question: "A population is defined as the collection of",
+        options: [
+          "Similar organisms that are found in the same habitat",
+          "Similar organisms that breed in the same habitat",
+          "Similar oragnisms that interbreed freely in the same habitat",
+          "Similar organisms in the same habitat",
+          "Different organisms in the same habitat",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 13,
+        question: "Which of the food chains is NOT possible in a forest?",
+        options: [
+          "Diatom- fly - toad- snake",
+          "Fly- toad- snake- hawk",
+          "Leaves- antelope- man- lion",
+          "Leaves- caterpillar- bird- lion",
+          "Leaves- goat- man- lion",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 14,
+        question: "A pyramid of numbers can be defined as",
+        options: [
+          "The number of plants and animals in an ecosystem",
+          "An arrangement of organisms according to their habitats",
+          "The numberical relationships of a food chain",
+          "The number of plants and animals in a population",
+          "The taotal number of species and general in a community",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 15,
+        question:
+          "Which of the following instruments is used for determining turbidity of water?",
+        options: [
+          "Thermometer",
+          "Secchi Disc",
+          "Rain gauge",
+          "Hygrometer",
+          "Wind wave",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 16,
+        question:
+          "Which sequence represents the correct order of organism in a food chain? 1 Toad, 2 Mucuna, 3 Grasshopper, 4 Snake, 5 Hawk",
+        options: ["54132", "12345", "21345", "23154", "23145"],
+        ans: "E",
+        userAnswer: null,
+      },
+      {
+        id: 17,
+        question: "The transect method can be used in ecology to show the",
+        options: [
+          "Number of plants and animals in a habitant",
+          "Population of a plant species",
+          "Distribution of organisms along a line",
+          "Heights of trees in a section of a forest",
+          "Number of young plants across a forest",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 18,
+        question:
+          "Green plants are important in the ecosystem because they are",
+        options: [
+          "Primary consumers",
+          "Producers",
+          "Decomposers",
+          "Secondary consumers",
+          "Scavangers",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 19,
+        question: "An anenometer is an instrument for measuring",
+        options: ["Relative humidity", "Altitude", "Wind speed", "Turbidity"],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 20,
+        question:
+          "Which of the following groups of factors is completely abiotc?",
+        options: [
+          "Salinity, tide, plankton, turbidity",
+          "Temperature, PH, soil insect",
+          "Wind, altitude, humidity, light",
+          "Conifers, winds, PH, rainfall",
+          "Soil, water, bacteria, salinity",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 21,
+        question:
+          "Denitrifying bacteria in nature liberate gaseous nitrogen directly from",
+        options: [
+          "Ammonium salts",
+          "Soil nitrates",
+          "Thunderstorms",
+          "Soil nitrites",
+          "Plant and animal proteins",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 22,
+        question:
+          "Which of the following food chains is in the correct sequence?",
+        options: [
+          "Weeds Tadpoles Beetles Fish Man",
+          "Weeds Tadpoles Fish Beetle Man",
+          "Tadpoles Beetles Weeds Man Fish",
+          "Man Fish Beetles Tadpoles Weeds",
+          "Fish Beetles Tadpoles Weeds Tadpoles",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 23,
+        question:
+          "Atmospheric nitrogen is dircetly replenished in nature through",
+        options: [
+          "The activities of denitrifying bacteria",
+          "The breakdown of ammonium salts in the soil",
+          "The activities of nitrogen-fixing bacteria in root nodules",
+          "Egestion, death and decay",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 24,
+        question:
+          "In an ecosystem, animals which feed directly on plants are called",
+        options: [
+          "Secondary consumers",
+          "Primary consumers",
+          "Producers",
+          "Predators",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 25,
+        question:
+          "In an agriculture ecosystem, the biotic component consists of",
+        options: [
+          "Crops, pest and beneficial insects",
+          "Crops, temperature and humidity",
+          "Pest, beneficial insects and water",
+          "Crops, water and soil",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 26,
+        question:
+          "Which of the following ecological factors are common to both terrestrial and aquatic habitats?",
+        options: [
+          "Rainfall, temperature, light and wind",
+          "Salinity, rainfall temperature and light",
+          "Tides, wind, rainfall and altitude",
+          "Ph, salinity, rainfall and humidity",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 27,
+        question: "In a community, bacteria and fungi are referred to as",
+        options: ["Producers", "Decomposers", "Scavengers", "Consumers"],
+        ans: "B",
+        userAnswer: null,
+      },
+
+      {
+        id: 28,
+        question: "Which of the following relates to edapic factors?",
+        options: [
+          "The structure of the earth's surface",
+          "The influence of living organisms on each other",
+          "Temperature, rainfall and humidity",
+          "The influence of soils on plants and animals.",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+
+      {
+        id: 29,
+        question: "Nitrifying bacteria are important because they",
+        options: [
+          "Releases nitrogen to the atmosphere",
+          "Convert atmosphere nitrogen to ammonia",
+          "Combine ammonia with nitrogen",
+          "Oxidize ammonium salts to nitrates",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+
+      {
+        id: 30,
+        question: "The turbidity of a pond can be measured using the",
+        options: ["Anemometer", "Secchi disc", "Theodolite", "Hydrometer"],
+        ans: "B",
+        userAnswer: null,
+      },
+
+      {
+        id: 31,
+        question:
+          "Which of the following has the greastest influence on the distribution of animals in marine and fresh water habitats?",
+        options: ["PH", "Salinity", "Water current", "Turbidity"],
+        ans: "A",
+        userAnswer: null,
+      },
+
+      {
+        id: 32,
+        question:
+          "Which of these groups of animals is likely to be found in fresh water?",
+        options: [
+          "Blood worm, pond skater and scorpion",
+          "Blood worm, pond skater and dragonfly larva",
+          "Pond skates scorpion and dragonfly larva",
+          "Pond skater, bloodworm and ant-lion",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+
+      {
+        id: 33,
+        question: "One of the characteristics of plants in the savanna is the",
+        options: [
+          "Possession of thin, smooth barks",
+          "Possession of large tap roots",
+          "Production of seedling on mother plant",
+          "Possession of thick, flaky barks",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+
+      {
+        id: 34,
+        question:
+          "Dead plants and animals are decomposed by bacteria and fungi into",
+        options: ["Nitrates", "Nitrites", "Amino acids", "Ammonia"],
+        ans: "D",
+        userAnswer: null,
+      },
+
+      {
+        id: 35,
+        question:
+          "In an ecosystem, the LEAST efficient energy transfer link is from",
+        options: [
+          "Producers to primary consumers",
+          "Sun to producers",
+          "Primary consumers to secondary consumers",
+          "Secondary consumers to decomposers",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+
+      {
+        id: 36,
+        question: "In a savanna ecosystem, the abiotic factors include",
+        options: [
+          "Legumes, temperature and sandy soil",
+          "Water, temperature and soil",
+          "Minerals, oxygen and reptile",
+          "Water, soil and grasses",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+
+      {
+        id: 37,
+        question: "The salinity of a brackish environment",
+        options: [
+          "Increases immediately after rain",
+          "Increase at the end of the rainy season",
+          "Decrease with increase in micro-organisms",
+          "Increases during the dry season",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+
+      {
+        id: 38,
+        question: "Free nitrogen is released to the atmosphere by",
+        options: [
+          "Nitrogen fixing bacteria",
+          "Nitrifying bacteria",
+          "Denitrifying bacteria",
+          "Saprophytic bacteria",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+
+      {
+        id: 39,
+        question: "A food web is more stable than a food chain because",
+        options: [
+          "It contains more organisms",
+          "It has greater energy source",
+          "It is not easy to destory",
+          "Every organism has an alternative food source",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+
+      {
+        id: 40,
+        question:
+          "The flowering period of plants in a habitat is determined by the",
+        options: [
+          "Duration of sunlight",
+          "Intensity and duration of rainfall",
+          "Relative humidity of the atmosphere",
+          "Temperature of the habitat",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+
+      {
+        id: 41,
+        question:
+          "A population is defined as a collection of similar organisms that",
+        options: [
+          "Behave in the same way",
+          "Interbreed freely",
+          "Are found in the same habitat",
+          "Eat the same food",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+
+      {
+        id: 42,
+        question:
+          "In typical predator food chain involving secondary and tertiary consumers, the organism's become progressively",
+        options: [
+          "Smaller and more numerous along the food chain",
+          "Equal in number and size along the food chain",
+          "Parasitized along the food chain as consumers get bigger",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+
+      {
+        id: 43,
+        question: "Mangrove swamp can be found",
+        options: [
+          "On a sea shore with flat terrain",
+          "Where a river meets the sea",
+          "On a mud flat near the sea",
+          "Where two rivers meet",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+
+      {
+        id: 44,
+        question:
+          "Which of the following factors is LEAST likely to affect the animals living in a fresh water habitat?",
+        options: ["Turbidity", "Temperature", "PH", "Salinity"],
+        ans: "D",
+        userAnswer: null,
+      },
+
+      {
+        id: 45,
+        question:
+          "What is the term used to describe the sum total of biotic and abiotic factors in the environment of the organism?",
+        options: ["Habitat", "Biome", "Ecosystem", "Ecological niche"],
+        ans: "C",
+        userAnswer: null,
+      },
+
+      {
+        id: 46,
+        question:
+          "Important abiotic factors which affect all plants and animals in the habitat are",
+        options: [
+          "Temperature and turbidity",
+          "Rainfall and relative humidity",
+          "Salinity and wind direction",
+          "Temperature and rainfall",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+
+      {
+        id: 47,
+        question:
+          "The most important physical factor which affects an organism living in the intertidal zone of the seashore is",
+        options: ["PH", "Salinity", "Wave action", "Temperature"],
+        ans: "C",
+        userAnswer: null,
+      },
+
+      {
+        id: 48,
+        question:
+          "At which trophic level would the highest accumulation of a non-biodegradable substance occur?",
+        options: [
+          "Primary producers",
+          "Tertiary consumers",
+          "Primary consumers",
+          "Secondary consumers",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+
+      {
+        id: 49,
+        question:
+          "Which of the following instruments is NOT used in measuring abiotic factors in any habitat?",
+        options: ["Microscope", "Thermometer", "Hygrometer", "Windvane"],
+        ans: "A",
+        userAnswer: null,
+      },
+
+      {
+        id: 50,
+        question: "The nitrifying bacteria, Nitrosomonas, convert ammonia to",
+        options: ["Nitrites", "Nitric acid", "Nitrates", "Nitrous oxide"],
+        ans: "A",
+        userAnswer: null,
+      },
+
+      {
+        id: 51,
+        question: "Which of the following sets is made up of decomposers?",
+        options: [
+          "Rhizopus, earthworm and protozoa",
+          "Mushroom, rhizopus and bacteria",
+          "Bacteria, earthworm and nematodes",
+          "Earthworm, sedges and platyhelminthes",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+
+      {
+        id: 52,
+        question:
+          "The correct order in a food chain involving the organisms 1 Grasses, 2 Hawks, 3 Snaks, 4 Grasshopper, 5 Lizards is",
+        options: ["12345", "5 4 3 2 1", "1 4 5 3 2", "3 2 4 5 1"],
+        ans: "C",
+        userAnswer: null,
+      },
+
+      {
+        id: 53,
+        question:
+          "The organisms with the least number of individuals in a pyremid of numbers are the",
+        options: [
+          "Secondary consumers",
+          "Tertiary consumers",
+          "Primary producers",
+          "Primary consumers",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+
+      {
+        id: 54,
+        question:
+          "The depth of illumination in a water body can be measured with a",
+        options: ["Photometer", "Secchi disc", "Hydrometer", "Anemometer"],
+        ans: "A",
+        userAnswer: null,
+      },
+
+      {
+        id: 55,
+        question:
+          "A food chain involving a primary producer, a primary consumer as well as a secondary consumer, the sharing of trophic energy is in form that the",
+        options: [
+          "Primary consumer has more energy than the primary producer",
+          "Secondary consumer takes up all the energy contents of the primary consumer",
+          "Energy is shared equally bewteen the three groups of organism",
+          "Secondary consumer gets only a small portion of the energy contained in the primary producer",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+
+      {
+        id: 56,
+        question:
+          "In spite of the removal of carbondioxide from the atmosphere, its amount remains more or less constant because",
+        options: [
+          "It is produced by green plants during photosynthesis",
+          "It is produced during respiration by animals",
+          "It is aborbed in ocean water",
+          "Green plants release it during the day",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+
+      {
+        id: 57,
+        question:
+          "In a tropical rain forest, non-epiphytic ferns and fern allies occur as",
+        options: [
+          "Middle storey species",
+          "Upper storey species",
+          "Shade-loving species",
+          " Emergent species",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+
+      {
+        id: 58,
+        question: "The speed of wind can be measure qwith an instrument called",
+        options: ["Hydrometer", "Secchi disc", "Anemometer", "Wind vane"],
+        ans: "C",
+        userAnswer: null,
+      },
+
+      {
+        id: 59,
+        question:
+          "The southern Guinea Savanna differs from the Northern Guinea Savanna in that it has",
+        options: [
+          "Lower rainfall and shorter grasses",
+          "Less grasses and scattered trees",
+          "More rainfall and taller grasses",
+          "Less arboreal and burrowing animals",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+
+      {
+        id: 60,
+        question:
+          "A group of organisms of different species living in a particul area is described as a",
+        options: ["Colony", "Community", "Population", "Niche"],
+        ans: "B",
+        userAnswer: null,
+      },
+
+      {
+        id: 61,
+        question:
+          "Which of the following is the direct consequence of transferring energy from one tropical level to another?",
+        options: [
+          "An increase in biomass",
+          "A decrease in the efficieny of energy conversion",
+          "An increase in the numbers of resulting individuals",
+          "Decreasing in the resulting biomass",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+
+      {
+        id: 62,
+        question: "The condition that encourages denitrification is",
+        options: [
+          "Low soil oxygen",
+          "High soil nitrogen",
+          "Absence of soil bacterial",
+          "Lightning and thunderstrom",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+
+      {
+        id: 63,
+        question:
+          "The sequence of the biomes in Nigeria from Port Harcourt to Damaturu is",
+        options: [
+          "Estuarine- rain forest- Guinea savannah- sahel savanna",
+          "Rain forest- Guinea savannah- estuarine- desert",
+          "Estuarine- Guinea savannah- rain forest- sahel savannah",
+          "Rain forest- estuarine- Guinea savannah- desert",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+
+      {
+        id: 64,
+        question: "Floating microscopic  heterotrophs are mostly grouped as",
+        options: ["Phytoplankton", "Zooplankton", "Microbes", "Nekton"],
+        ans: "B",
+        userAnswer: null,
+      },
+
+      {
+        id: 65,
+        question: "Which of the following characterized the white mangrove?",
+        options: [
+          "Prop roots",
+          "Buttress roots",
+          "Breathing roots",
+          "STilt roots",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+
+      {
+        id: 66,
+        question:
+          "The most important environmet factor which epiphytes in the rain forest compete for is",
+        options: ["Water", "Nutrient", "Light", "Space"],
+        ans: "D",
+        userAnswer: null,
+      },
+
+      {
+        id: 67,
+        question:
+          "Atmospheric nitrogen is converted to soil nitrogen for plant use by",
+        options: [
+          "Nitrification and combustion",
+          "Putrefaction and lighting",
+          "Lighting and nitrification",
+          "Combustion and putrefaction",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+
+      {
+        id: 68,
+        question:
+          "I High birth rate and high immigration rate II Low birth rate and high immigration rate III Low mortality rate and low emigration rate IV High mortality rate and high emigration rate. Which combination of the above can caus rapid overcrowding in climax biotic communities and human settlements?",
+        options: ["II and III", "I and III", "I and IV", "I and II"],
+        ans: "B",
+        userAnswer: null,
+      },
+
+      {
+        id: 69,
+        question:
+          "In a food chain, each succeeding level in a forward direction, represent?",
+        options: [
+          "An increase in the number of individuals",
+          "A decrease in the number of individuals",
+          "An increase in the biomass of individuals",
+          "A gain in the total energy being transferred.",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+
+      {
+        id: 70,
+        question:
+          "The study of how and why population size change over time is",
+        options: [
+          "Population estimation",
+          "Population dynamics",
+          "Population ecology",
+          "Population cycles",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+    ],
+  },
+
+  {
+    topic: "Ecology II: Succession. Adaptation. Nutrient  Recycling",
+    questions: [
+      {
+        id: 1,
+        question:
+          "A plant which grows on another plant without apparent harm to the host plant is called",
+        options: [
+          "A parasite",
+          "An epiphyte",
+          "A saprophyte",
+          "A predator",
+          "A hermaphrodite",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 2,
+        question:
+          "In which of these associations is much harm done to one of the partners?",
+        options: [
+          "Symbiosis",
+          "Epiphytism",
+          "Commensalism",
+          "Parasitism",
+          "Mutualism",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 3,
+        question:
+          "A student trying to find out the order in which organisms appear on a cleared plot is studying one of the following",
+        options: [
+          "Ecosystem",
+          "Food chain",
+          "Food web",
+          "Succession",
+          "Community",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 4,
+        question:
+          "An organism X lives entirely on the waste products in another organism Y . In this association X is a",
+        options: [
+          "Symbiont",
+          "Commensal",
+          "Saprophyte",
+          "Parasite",
+          "Epiphyte",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 5,
+        question: "Which of the following statements is NOT true of symbiosis?",
+        options: [
+          "Symbionts must be living",
+          "It is an association of give and take",
+          "The association may involve two plants",
+          "Association between two similar species",
+          "Symbionts derive mutual benefit",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 6,
+        question:
+          "In which part of a leguminous plant can you found bacteria like Azotobacter?",
+        options: [
+          "Spongy mesophyII of leaf",
+          "At the nodes",
+          "At the internodes",
+          "In nodules",
+          "Palisade mesophyII of leaf",
+        ],
+        ans: null,
+        userAnswer: null,
+      },
+      {
+        id: 7,
+        question: "The absence of stomata shows that a leaf may be",
+        options: [
+          "From floating plant",
+          "From a submerged plant",
+          "Variegated",
+          "From a terrestrial plant",
+          "From parasitic green plant",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 8,
+        question:
+          "Plants which can survive in places where the water supply is limited are",
+        options: [
+          "Bryophytes",
+          "Mesophytes",
+          "Xerophytes",
+          "Hydrophytes",
+          "Pteridophytes",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 9,
+        question:
+          "Which of the following is NOT regarded as a pollutant on land or in the air?",
+        options: [
+          "Noise",
+          "Smoke",
+          "Sulphur dioxide",
+          "Carbon monoxide",
+          "Nitrogen",
+        ],
+        ans: "E",
+        userAnswer: null,
+      },
+      {
+        id: 10,
+        question:
+          "A relationship between living organisms which is of mutal bbenefit is",
+        options: [
+          "Parasitsm",
+          "Saprophytism",
+          "Ecosystem",
+          "Symbiosis",
+          "Commensalisms",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 11,
+        question:
+          "An organism found on a bare rock surface has features of algae and fungi. The organism is",
+        options: ["An epiphyte", "A lichen", "A bryophyte", "A fern"],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 14,
+        question:
+          "Epiphytes growing on the branches of trees provide an example of the relationship knows as",
+        options: ["Parasitism", "Commensalisms", "Aprophytism", "Holophytism"],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 15,
+        question:
+          "If an organism obtain its food by means of haustoria, it is said to be",
+        options: ["Holophytic", "Heterophytic", "Saprophytic", "Parsitic"],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 16,
+        question: "Which of the following relationships only one organism?",
+        options: ["Saprophytism", "Commensalism", "Parasitism", "Symbiosis"],
+        ans: "d",
+        userAnswer: null,
+      },
+      {
+        id: 17,
+        question: "Which of the following causes pollution?",
+        options: [
+          "Consumption of canned drink",
+          "The addition of fertilizer to farmland",
+          "Respiration of living organisms",
+          "Burning of refuse",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 16,
+        question: "Lichen is an example of",
+        options: [
+          "A saprophytic organism",
+          "A symbiotic association",
+          "An epiphytic plant",
+          "A carnivorous plants",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 17,
+        question:
+          "A physiological adaption of plants to the problem of excessive water loss is",
+        options: [
+          "Reduction in the number of stomata",
+          "Reversal of normal stomatal rhythm",
+          "Possession of shallow roots",
+          "Possession of waxy cuticle",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 18,
+        question:
+          "Which of the following is a dangerous product of coal burning?",
+        options: ["Sulphur dioxide", "Carbon-dioxide", "Carbon", "Nitrogen"],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 19,
+        question:
+          "Physiological adaption to very dry condition in animals is called",
+        options: ["Hibernation", "Asetivation", "Rejuvenation", "Xeromophism"],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 20,
+        question: "Which of the following constitutes pollution?",
+        options: [
+          "Droppings from birds",
+          "Loud disco music",
+          "Pack of cigrattes",
+          "Refuse in an incinerator",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 21,
+        question:
+          "What do bacteria in root nodules derive from the host plant?",
+        options: [
+          "Protection and minerals",
+          "Water and minerals",
+          "Carbohydrates and water",
+          "Protection and carbohydrates",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 22,
+        question:
+          "Which of the following is likely to occur in a deciduous forest durin the dry season?",
+        options: [
+          "New leaves are formed",
+          "The trees die off",
+          "The undergrowth increase",
+          "The ground becomes bare",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 23,
+        question:
+          "Which of these is NOT an adaptive features for arboreal life?",
+        options: [
+          "Possession of a long tail",
+          "Possession of claws",
+          "Possession of teeth",
+          "Counter shading in coat colour",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 24,
+        question: "Soures of air pollutants are",
+        options: [
+          "Industrial chimneys, burning fossil oils and river dams",
+          "Sulphur dioxide, acid rain and pesticides",
+          "Sulphur mines, vehicle exhausts and aerosols",
+          "Sewage, smoke and old vehicles",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 25,
+        question:
+          "Nitrogen-fixing micro-organisms in leguminous plants live symbiotically in the",
+        options: ["Root nodules", "Tap roots", "Branch roots", "Root hairs"],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 26,
+        question: "Which of the following is true of a climax community?",
+        options: [
+          "It persists until the environment or climate changes",
+          "It changes drastically from one year to the next",
+          "It is the first stage in succession",
+          "It is made up of the tallest trees and the smallest animals",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 27,
+        question:
+          "An example of plant adaption to a xerophytic environment is represented be the development of",
+        options: [
+          "Fleshy tissues and reduced leaves",
+          "Broad canopy and extensive surface root system",
+          "Thick barks and broad leaves",
+          "Rough leaves and shallow root system",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 28,
+        question:
+          "Two organisms of different species, living in close association but not dependent on each other are referred to as",
+        options: ["Parasites", "Commensals", "Symbiots", "Autorophs"],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 29,
+        question: "plants adapted for life in salty marsh are called",
+        options: ["Hydrophytes", "Xerophytes", "Halophytes", "Epiphytes"],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 30,
+        question:
+          "Which group plants would be first colonizers in an ecological succession changing rocks to soil?",
+        options: ["Mosses", "Ferns", "Lichens", "Grasses"],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 31,
+        question: "Carbon monoxide poison tissues by",
+        options: [
+          "Constructing the blood vessels",
+          "Killing the cells",
+          "Combinning with haemoglobin",
+          "Rupturing the blood vessels",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 32,
+        question:
+          "The bright colours of the comb and features in the peacock are for",
+        options: ["Sex differentiation", "Beauty", "Courtship", "Defence"],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 33,
+        question: "Ecological succession ends with the formation of a stable",
+        options: [
+          "Niche",
+          "Population",
+          "Pioneer community",
+          "Climax community",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 34,
+        question:
+          "People who suck petrol with their mouth run the risk of increasing in their blood concentration of",
+        options: ["Iron", "Lead", "Calcium", "Magnesium"],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 35,
+        question: "Breathing root is an adaption for survial in the",
+        options: ["Mangrove swamp", "Desert", "Arboreal habitat", "Savanna"],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 36,
+        question: "Read coloration on the head of a male lizard helps it to",
+        options: [
+          "Mark its territory",
+          "Camouflag in the environment",
+          "Secure its mate",
+          "Defend itself",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 37,
+        question:
+          "A phenomenon by which an animal goes into a state of dormancy during the dry season is called",
+        options: ["Hibernation", "Aestivation", "Incubation", "Deactivation"],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 38,
+        question: "Colonization of a bare rock surface is termed",
+        options: [
+          "Evolution",
+          "Speciation",
+          "Primary succession",
+          "Secondary succession",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 39,
+        question:
+          "Environmental pollutants which can work through the media or water, soil and air include",
+        options: ["Carbon monoxide", "Nolse", "Sulphur(IV) odxide", "Smoke"],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 40,
+        question:
+          "The slender, long and slightly curved beak of the sunbird is an adaption for feeding on",
+        options: ["Nectar", "Small seeds", "Big seeds", "Insects"],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 41,
+        question: "Scales on reptiles are a feature for",
+        options: [
+          "Conserving water",
+          "Conserving food",
+          "Protecting the skin",
+          "Locomotion",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 42,
+        question:
+          "The colour of the ventral surface of a fish is lighter than that of the dorsal. This is mainly",
+        options: [
+          "An adaption for moment",
+          "An adaption for camouflag",
+          "For attracting mates",
+          "For regulating body temperature",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 43,
+        question:
+          "Toads and lizards in an ecosystem depend on a limited quantity of food. This is an example of",
+        options: [
+          "Parasitism",
+          "Intraspecific completition",
+          "Predation,",
+          "Intersecific competition",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 44,
+        question: "Adaptive features of plants to desert conditions include",
+        options: [
+          "Thick barks, succulent stems and sunken stomata",
+          "Thin barks, succulent stems and sunken stomata",
+          "Thin backs, air floats on stems and sunken stomata",
+          "Air spaces in tissues, adventitious roots and thick barks",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 46,
+        question: "Water loss is regulated in plants and animals by both the",
+        options: [
+          "Scales and the skin",
+          "Scales and hair",
+          "Thick leaves and the feathers",
+          "Leathery cuticle and the feathers",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 47,
+        question:
+          "What combination of characters should a prey develop to survive in the environment of its predator?",
+        options: [
+          "Camouflag, well developed limbs and effective vision",
+          "Showy colour, big body and well developed limbs",
+          "Camouflag, big body and effective vision",
+          "Show colour, well developed muscles and an acute sense of smell",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 48,
+        question:
+          "A fresh water plant such as water lilly can solve the problem of buoyancy by the possession of",
+        options: [
+          "Aerenchymarous tissues",
+          "Dissected leaves",
+          "Thin cell walls of the epidermis",
+          "Water-repelling epidermis",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 49,
+        question:
+          "The  biological association that contributes directly to succession in a community is",
+        options: ["Competition", "Predation", "Parasitism", "Commensalism"],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 54 | 50,
+        question:
+          "In the whistling pine leaves are reduced to brown scale and young stems are green. This is an adaption for",
+        options: [
+          "Obtaining food",
+          "Conserving nutrients",
+          "Storing water",
+          "Reducing transpiration",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 51,
+        question:
+          "The sign + is used to indicate an association where an organism grains, while 0 is used where an organism is unaffected. An association indicated as +0 is know as",
+        options: ["Predation", "Commensalism", "Parasitism", "Competion"],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 52,
+        question: "The very bright colours in some types of mushroom",
+        options: [
+          "Are a warning that they may be poisonous",
+          "Indicate that they are very tasty",
+          "Attract potential transporters of their spores",
+          "Perform the same function as bright colours in flowers",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 53,
+        question: "The least adaptive features for arboreal life is that",
+        options: [
+          "possession of four limbs",
+          "Possession of claws",
+          "Development of a long tail",
+          "Counter shading of coat colour",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 54,
+        question:
+          "The loud cry made by a brooding hen when a predator is around is meant to",
+        options: [
+          "Alert the poultry attendants",
+          "Attract cocks to come and fight the predator",
+          "Advertise the boundaries of its territory to intruders",
+          "Warn its chicks and other chickens of impending danger",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 55,
+        question: "An ecological succession often leads to",
+        options: [
+          "An increase in species diveristy",
+          "A decrease in species diversity",
+          "An unstable community",
+          "The dispensal species",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 56,
+        question:
+          "Which of the following are adaptations of animals to aquatic habitats?",
+        options: [
+          "Gills streamlined bodies and lateral line",
+          "Lateral line, streamlined bodies and lungs",
+          "Gills, scaly skin and lungs",
+          "Gills, streamlined bodies and spiracles",
+        ],
+        ans: "d",
+        userAnswer: null,
+      },
+      {
+        id: 57,
+        question: "Which of the following is an adaptation of forest species?",
+        options: [
+          "Few stomata",
+          "Thick bark",
+          "Buttress roots",
+          "Reduced leaves",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 58,
+        question:
+          "In a group of make Agama lizards, the one with brightness head colour is the",
+        options: ["Dominat", "Youngest", "Oldest", "Largest"],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 59,
+        question:
+          "A certain savanna grasshopper changes colour from green during the rainy season to brown during the dry season bush fires. The reason for these colour changes is that the",
+        options: [
+          "Grasshopper is getting older",
+          "Environment temperature is changing",
+          "Grasshopper is advoiding predation",
+          "Grasshopper is frequently moulting",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 60,
+        question:
+          "Complex social behaviour and organization are found mostly in",
+        options: ["Insects", "Birds", "Reptiles", "Mammals"],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 61,
+        question:
+          "Which of the following structural features are adapted for uses other than water conservation?",
+        options: [
+          "Succulent stems",
+          "Scales in a annals",
+          "Spines in plants",
+          "Features in birds",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 62,
+        question:
+          "An association between the root nodule of a leguminuos plants and rhizoblum spis known as",
+        options: ["Commensalism", "Mycorhiza", "Parasitism", "Symbiosis"],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 63,
+        question:
+          "Carbon(IV) oxide content of the atmosphere is least affected by",
+        options: [
+          "Cutting down and clearing of forest",
+          "Forest fires",
+          "Burning of fossil fuels",
+          "Plant and animal respiration",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 64,
+        question: "The stem of a typical aquatic plant usually has many",
+        options: [
+          "Air cavities",
+          "Intercellular spaces",
+          "Water cavities",
+          "Water conducting cells",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 65,
+        question:
+          "The ability of an organism to live successfully in an environment is known as",
+        options: ["Resistance", "Competition", "Succession", "Adaptation"],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 66,
+        question:
+          "The most important adaptation of xerophytes is the ability of the protoplasm to",
+        options: [
+          "Resist being damaged by loss of water",
+          "Store sugar and minerals in the vacuoles",
+          "Absorb water and swell",
+          "Shrink from the cell wall",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 67,
+        question:
+          "A green snake in green grass is able to escape notice from predators because of its",
+        options: [
+          "Disruptive colouration",
+          "Countership",
+          "Warning colouration",
+          "Cryptic colouration",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 68,
+        question:
+          "For heterotrohic organisms, competition is least caused by the inadequacy of",
+        options: ["Mates", "Space", "Light", "Nutrients"],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 69,
+        question:
+          "One of the adaptations to life on trees by a monkey is its possession of digits which are",
+        options: ["Extensible", "Big", "Opposable", "Long"],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 70,
+        question:
+          "The community of plants in which the same species occur from year to year is the",
+        options: [
+          "Annual species",
+          "Pioneer vegetation",
+          "Perennial species",
+          "Climax vegetation",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 71,
+        question: "The supporting tissue of xylem is most poorly developed in",
+        options: [
+          "Mangrove swap plants",
+          "Grassland plants",
+          "Submerged water plants",
+          "Desert plants",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 72,
+        question:
+          "Animals are restive when the environment in which they live becomes",
+        options: [
+          "Hot and dry",
+          "Cold and wet",
+          "Warm and humid",
+          "Windy  and snowy",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 73,
+        question:
+          "Birds which are large with long straight pointed beaks, long necks and long legs are likely to be",
+        options: [
+          "Insect eaters",
+          "Fish catchers",
+          "Nectar feeders",
+          "Fruit eaters",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 74,
+        question: "One example of fossil fuels is",
+        options: ["Coral", "Limestone", "Coal", "Firewood"],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 75,
+        question:
+          "The most effective method of dealing with non-biodegradable pollution is by",
+        options: ["Burying", "Recycling", "Incineration", "Dumping"],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 76,
+        question: "Mycorrhiza is an association between fungi and",
+        options: [
+          "Filamentous algae",
+          "Roots of higher plants",
+          "Bacteria",
+          "Protozoans",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 77,
+        question:
+          "The ploneer organisms in ecological succession are usually the",
+        options: ["Algae", "Lichens", "Ferns", "Mosses"],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 78,
+        question:
+          "The presence of sunken stomata and the folding of leaves are adaptations to",
+        options: [
+          "Prevent entry of pathogens",
+          "Reduce water loss",
+          "Remove excess water",
+          "Prevent guttation",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 79,
+        question: "Spines and shells on animals are adaptions for",
+        options: [
+          "Chemical defence",
+          "Camouflage",
+          "Physical defence",
+          "Mimicry",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 80,
+        question: "An example of cryptic colouration is the",
+        options: [
+          "Motted colours on moths that rest on lichens",
+          "Bright colour of an insect pollinated flower",
+          "Bright marks on a poisonous tropical frog on variegated leaves",
+          "Green colour of a plant",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 81,
+        question:
+          "The inactive state exhibited by an animal during hot dry seasons is termed",
+        options: ["Aestivation", "Dormancy", "Resting", "Hibernation"],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 82,
+        question:
+          "The association between termites and the cellulose digesting protozoans in their guts is an example of",
+        options: ["Saprophytism", "Mutualism", "Parasitism", "Commensalism"],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 83,
+        question: "One adaption of reptiles to water loss is the presence of",
+        options: [
+          "Keratinous scales",
+          "Claws on limbs",
+          "Long tails",
+          "LOng sticky tongues",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 84,
+        question:
+          "The scarcity of food caused a sudden decrease in population size by",
+        options: [
+          "Decreasing the reproductive rate",
+          "Bringing about immigration",
+          "Raising the mortality rate",
+          "Minimizing the rate of competition",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 85,
+        question:
+          "Which of the following is an example of intraspecific competition?",
+        options: [
+          "A lizard and an ant-eater chasing an insect",
+          "A worker termite and a solider in a limited space",
+          "A hawk and an eagle targeting the same chicken",
+          "Yam and potato shoots growing out through the same window",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 86,
+        question: "Plants survive hot dry conditions by",
+        options: [
+          "Storing water in large parenchyma cells",
+          "Producing numerous leaves",
+          "Having numeraous stomata",
+          "Having evergreen leaves",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 87,
+        question:
+          "The spots and stripes of the leopard and tiger are examples of",
+        options: [
+          "Cryptic colouration",
+          "Warning colouration",
+          "Disruptive colouration",
+          "Countershading",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 88,
+        question: "The main reservoir of water in the cycle is the is the",
+        options: ["Cloud", "Groundwater", "Plant", "Ocean"],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 89,
+        question:
+          "Secondary succession is much faster than primary succession because",
+        options: [
+          "Pioneer colonizers are more in number",
+          "Soil is already present",
+          "Secondary series require less nutrients",
+          "Species competition is increased",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 90,
+        question:
+          "The recycling method of solid waste disposal is unsuitable for",
+        options: ["Organic matter", "Glass", "Plastics", "Mental scraps"],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 91,
+        question: "A non-renewable alternative source of energy is",
+        options: [
+          "Wind generators",
+          "Solar panels",
+          "Nuclear energy",
+          "Hydroelectric power",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 92,
+        question:
+          "The association in which one member benefits and the other is relatively unaffected by the interaction is termed",
+        options: ["Symbiosis", "Parasitism", "Commensalism", "Mutualism"],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 93,
+        question: "When a peacock displays its colourful feathers, it is",
+        options: [
+          "Ready for a fight",
+          "Protecting itself from predators",
+          "Protecting its male from predators",
+          "Courting a female",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 94,
+        question:
+          "When an animal has dark-coloured dorsal surface and a light-coloured ventral surface, this is an adaptation called",
+        options: [
+          "Concealment coloration",
+          "Countershading",
+          "Colour blending",
+          "Disruptive coloration",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 95,
+        question:
+          "The intensity of competition among animals in a given area will increase with",
+        options: [
+          "An increase in the frequency of disease outbreaks",
+          "An increase in population size",
+          "A disease in the immigration rate",
+          "An increase in the emigration rate",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 96,
+        question: "Which of the following is an example of parasitism?",
+        options: [
+          "Fungi growing on a dead tree branch",
+          "A squirrel living in an abandoned nest of a bird",
+          "Mistletoe growing on an orange tree",
+          "Cattle egrets taking ticks from the body of cattle",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 97,
+        question:
+          "One adaptation shown by hydrophytes in freshwater habitats is the",
+        options: [
+          "Leaves reduced to spines",
+          "Poor development of roots and xylem tisues",
+          "Waxy cuticle on shoot surface",
+          "Well-developed roots and supporting system",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 98,
+        question:
+          "Which of the following factors can bring about competition in a population?",
+        options: ["Dispersion", "Emigration", "Drought", "Mortality"],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 99,
+        question: "The beak of a duck is structurally adapted for",
+        options: [
+          "Scooping and sieving food",
+          "Catching and grasping food",
+          "Picking and cracking food",
+          "Boring and sucking food",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 115,
+        question:
+          "Stomata of some plants are sunken and protected by hairs. These are features of",
+        options: ["Mesophytes", "Epiphytes", "Hydrophytes", "Xerophytes"],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 101,
+        question:
+          "The easlest way to establish the level of pollution in a logical stream is to measure the level of",
+        options: ["Oxygen", "Carbon (IV) oxide", "Ammonia", "Alkalinity"],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 102,
+        question: "A major adaptive feature of endoparasites is the",
+        options: [
+          "Loss of the organ of movement",
+          "Presence of claws",
+          "Loss of the central nervous system",
+          "Presence of piercing mouthparts",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 103,
+        question:
+          "The ability of a chameleon to change its colour is an adaptive feature for",
+        options: ["Attraction", "Defence", "Display", "Attack"],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 104,
+        question:
+          "The association between bacteria residing in the caecum and the ruminant is",
+        options: ["Parasitism", "Predation", "Saprophytism", "Mutualism"],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 105,
+        question: "The major cause of global warming is the",
+        options: [
+          "Burning of fossil fuel",
+          "Construction of dams",
+          "Use of electricty",
+          "Exploration of space",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 106,
+        question:
+          "Plants that grow in an area that is neither too wet nor too dry are",
+        options: ["Xerophytes", "Mesophytes", "Epiphytes", "Hydrophytes"],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 107,
+        question:
+          "The specialized pigment cells that are involved in colouration and colour change in animals are the",
+        options: ["Xanthophl", "Chromatophores", "Chlorophyll", "Melanin"],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 108,
+        question:
+          "During the dry season in the tropics, the body metabolism of some animals slows to a minera level in a process reffered to as",
+        options: ["Hibernation", "Aestivation", "Dormancy", "Senescence"],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 109,
+        question: "Mycorrhizae promote plant growth by",
+        options: [
+          "Protecting it from infection",
+          "Helping it to utilized atmospheric nitrogen",
+          "Serving as a growth regulator",
+          "Absorbing inorganic ions from the soil",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 110,
+        question:
+          "I Adoption of appropriate nocturnal habits II Burrowing III Adjusting their internal body temperature IV Possession of many sweat pores. Which of the above are ways in which desert animals adapt to extreme heat of the environment?",
+        options: [
+          "II and III only",
+          "I and II only",
+          "I, II and III only",
+          "I and IV only",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 111,
+        question:
+          "In nature, plants and animals are perpectually engaged in mutualism because",
+        options: [
+          "They utilize respiratory wastes of each other",
+          "They are neighbours",
+          "They are rivals",
+          "All animals rely on food produced by plants",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 112,
+        question: "Lack of space in a population could lead to an increase in",
+        options: ["Disease rate", "Drought", "Water scarcity", "Birth rate"],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 113,
+        question:
+          "The brightly coloured eye spots on the hind wings of a moth are an example of",
+        options: [
+          "Crypsis",
+          "Mimicry",
+          "Warning colouration",
+          "Disruptive colouration",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 114,
+        question:
+          "Countershading is an adaptive feature that enables animals to",
+        options: [
+          "Fight enemies",
+          "Remain undetected",
+          "Warm enemies",
+          "Attract mates",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 115,
+        question: "The water cycle is maintained mainly by",
+        options: [
+          "Evaporation of water in the environment",
+          "Evaporation and condensation of water in the environment",
+          "Condensation of water in the environment",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 116,
+        question:
+          "Which of the following animals can exist solely on the water they get food and metabolic reactions?",
+        options: [
+          "Forest arboreal dwellers",
+          "Desert dwellers",
+          "Forest ground dwellers",
+          "Raindforest dwellers",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 117,
+        question: "The most likely first colonizers of a bare rock are",
+        options: ["Mosses", "Ferns", "Lichen", "Fungi"],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 118,
+        question:
+          "The carrrying capacity of a habitat is reached when the population growth begins to",
+        options: [
+          "Increase slowly",
+          "Increase exponentially",
+          "Slow down",
+          "Remain steady",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 119,
+        question:
+          "Which of the following statements is true of the interaction?",
+        options: [
+          "P. aureia is better adapted for obtaining food than p. caudatum",
+          "P. candatum is better adapted for obtaining food than p. aurelia",
+          "Both organisms cannot coexist",
+          "Both organisms cannot reproduce",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 120,
+        question: "The short thick beak in birds is an adaptation for",
+        options: [
+          "Crushing seeds",
+          "Sucking nectar",
+          "Tearing flesh",
+          "Straining mud",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 121,
+        question:
+          "The plants that grow in desets or very dry areas are referred to as",
+        options: ["Hydrophytes", "Epiphytes", "Xerophytes", "Mesophytes"],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 122,
+        question:
+          "The structural adaptation of desert plants for water conservation is",
+        options: [
+          "Spongy mesophyII",
+          "Spiny leaves",
+          "Prominent stomata in leaves",
+          "Broad leaves with numerous stomata",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 123,
+        question:
+          "The long and sharp clawed feet of birds is an adaptation for",
+        options: [
+          "Scooping mud",
+          "Tearing flesh",
+          "Grasping pery",
+          "Crushing seeds",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 124,
+        question: "A pollutant that is biodegradable is",
+        options: ["Heavy metals", "Cellophane", "Sewage", "Crude oil"],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 125,
+        question:
+          "Physiological adaptation to very dry conditions in animal's demonstrates",
+        options: ["Xeromorphism", "Hibernation", "Aestivation", "Rejuvenation"],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 126,
+        question:
+          "One adapation of Cactus opuntia to conserve water is the reduction of",
+        options: [
+          "Stem to leaves",
+          "Leaves to spine",
+          "Flower size",
+          "Internodes",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 127,
+        question:
+          "Which of the following structures is adapted for feeding in a bird of prey?",
+        options: [
+          "Smooth beak and strong claws",
+          "Big beaks and strong feet",
+          "Pointed beak and strong claws",
+          "Hooked beak and sharp claws",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 128,
+        question: "The special pigment for colour change in chameleon is",
+        options: ["Caratenoid", "Chromatin", "Chromatophore", "Melanin"],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 129,
+        question:
+          "The behavioural adaptation in social insects could best be described as",
+        options: [
+          "Saprophrophytism",
+          "Parasitism",
+          "Commensatlism",
+          "Symbiosis",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 130,
+        question:
+          "One of the ways of controlling noise pollution in urban areas is",
+        options: [
+          "By siting industries away from residential area",
+          "That fuel should completely combusted by engines",
+          "By planting trees on both sides of the road",
+          "Wearing ear devices",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 131,
+        question: "A pollutant that is mostly associated with acid rain is",
+        options: [
+          "Nitrogen(IV)Oxide",
+          "Ozone",
+          "Fluorine",
+          "Carbon (IV) oxide",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 132,
+        question: "The streamline shape of fishes is an adaptation for",
+        options: [
+          "Securing mates",
+          "Easy movement",
+          "Obataining food",
+          "Defense and attack",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+    ],
+  },
     
 ]
 // console.log(biologyQuestions.reduce((a,b) => a + b.questions.length, 0))

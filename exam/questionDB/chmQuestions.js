@@ -13210,7 +13210,7 @@ let chemistryQuestions = [
         options: [
           `Arene`,
           `Alkane`,
-          `Alkane`,
+          `Alkene`,
           `Alkyne`,
         ],
         ans: "D",
@@ -13433,7 +13433,7 @@ let chemistryQuestions = [
           `Alkanes`,
           `Alkenes`,
         ],
-        ans: "d",
+        ans: "D",
       },
       {
         id: 40,
@@ -13519,7 +13519,7 @@ let chemistryQuestions = [
           `1`,
           `2`,
           `3`,
-          `4`,
+          `4`
         ],
         ans: "C",
       },

@@ -51,6 +51,9 @@ const biology = new Subject("Biology", [
   "Homoeostasis. Endocrine System. Plant Hormone",
   "The Nervous System",
   "Agriculture. Soil Science",
+  "Common Disease. Insect Vectors",
+  "Ecology: Basic Contents. Ecological Management",
+  "Ecology II: Succession. Adaptation. Nutrient  Recycling",
 ]);
 // this is going to be all english for now...
 // I will finish this as soon as possible...
@@ -69,9 +72,7 @@ const english = new Subject("English", [
   "Common mistakes",
 ]);
 
-const physics = new Subject("Physics", [
-  "Elasticity"
-])
+const physics = new Subject("Physics", ["Elasticity"]);
 
 const available = [english, biology, chemistry, physics];
 

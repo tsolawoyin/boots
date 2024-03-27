@@ -21,9 +21,9 @@ function assignId(questions) {
 }
 
 
-// import { englishQuestions } from "./engQuestions.js";
-// import { chemistryQuestions } from "./chmQuestions.js";
-// import { biologyQuestions } from "./bioQuestions.js";
+import { englishQuestions } from "./engQuestions.js";
+import { chemistryQuestions } from "./chmQuestions.js";
+import { biologyQuestions } from "./bioQuestions.js";
 
 // assignId(englishQuestions[3].questions)
 // 
@@ -47,4 +47,4 @@ function checkForDuplicate(question) {
     return ids.length !== newId.length
 }
 
-// console.log(checkForDuplicate(biologyQuestions[18]))
+// console.log(checkForDuplicate(chemistryQuestions[17]))
