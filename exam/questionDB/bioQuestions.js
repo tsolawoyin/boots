@@ -3330,8 +3330,7 @@ let biologyQuestions = [
       },
       {
         id: 32,
-        question:
-          `I Rattus rattus <br />
+        question: `I Rattus rattus <br />
           II. Agama agama <br />
           III. Bufo regularis <br />
           IV. Tilapia zilli <br />
@@ -3452,7 +3451,12 @@ let biologyQuestions = [
       {
         id: 44,
         question: "Cold blooded animals are referred to as",
-        options: ["poikilothermic", "homeothermic", "polythermic", "homeostatic"],
+        options: [
+          "poikilothermic",
+          "homeothermic",
+          "polythermic",
+          "homeostatic",
+        ],
         ans: "A",
       },
       {
@@ -3571,7 +3575,8 @@ let biologyQuestions = [
       },
       {
         id: 9,
-        question: "In which of the following organisms would glycogen be stored?",
+        question:
+          "In which of the following organisms would glycogen be stored?",
         options: ["spirogyra", "chlamydomonas", "rattus", "magnifera"],
         ans: "C",
         userAnswer: null,
@@ -3803,12 +3808,7 @@ let biologyQuestions = [
       {
         id: 4,
         question: "An organism which lives on the remains of a dead plant is",
-        options: [
-          "an endoparasite",
-          "a saprophyte",
-          "commensal",
-          "a symbiont",
-        ],
+        options: ["an endoparasite", "a saprophyte", "commensal", "a symbiont"],
         ans: "B",
         userAnswer: null,
       },
@@ -4144,7 +4144,6 @@ let biologyQuestions = [
         userAnswer: null,
       },
 
-
       {
         id: 36,
         question: "The dark reaction of photosynthesis involves the",
@@ -4369,7 +4368,7 @@ let biologyQuestions = [
           "Galactose + fructose",
           "Fructose + galactose",
         ],
-        ans: "C", // sucrose is glucose plus fructose and maltose is 2 glucose 
+        ans: "C", // sucrose is glucose plus fructose and maltose is 2 glucose
         userAnswer: null,
       },
       {
@@ -4686,8 +4685,7 @@ let biologyQuestions = [
       },
       {
         id: 42,
-        question:
-          `I Parasitism - Sundew <br />
+        question: `I Parasitism - Sundew <br />
           II Autotrophism - Amoeba <br />
           III Saprophytism - Algae <br />
           IV Heterorophism - Agama <br />
@@ -4785,8 +4783,7 @@ let biologyQuestions = [
       },
       {
         id: 6,
-        question:
-          `The arrangements below are steps of protein digestion. Which is the correct sequence? <br />
+        question: `The arrangements below are steps of protein digestion. Which is the correct sequence? <br />
           a -> Polypeptides <br />
           b -> Protein <br />
           c -> Amino acids <br />
@@ -4971,8 +4968,7 @@ let biologyQuestions = [
       },
       {
         id: 22,
-        question:
-          `Which of the following represent the sequences of protein hydrolysis? <br />
+        question: `Which of the following represent the sequences of protein hydrolysis? <br />
           1. Polypeptides <br />
           2. Amino acids <br />
           3.proteins <br />
@@ -5323,8 +5319,7 @@ let biologyQuestions = [
       // },
       {
         id: 56,
-        question:
-          `I. Test tube containing cane sugar and water. <br />
+        question: `I. Test tube containing cane sugar and water. <br />
           II. Test tube containing cane sugar and dilute acid. <br />
           III. Test tube containing cane sugar and its degrading enzyme. <br />
           In which of the test tubes will glucose be detected after complete hydrolysis?`,
@@ -5536,7 +5531,7 @@ let biologyQuestions = [
           "positively phototrophic",
           "negatively geotropic",
           "negatively hydrotrophic",
-          "positively geotropic"
+          "positively geotropic",
         ],
         ans: "D",
         userAnswer: null,
@@ -7507,7 +7502,7 @@ let biologyQuestions = [
       {
         id: 3,
         question: "The conversion of excess amino acids into urea occurs in",
-        options: ["Kidney", "Pancreas", "Villi",'Liver'],
+        options: ["Kidney", "Pancreas", "Villi", "Liver"],
         ans: "D",
         userAnswer: null,
       },
@@ -7661,7 +7656,7 @@ let biologyQuestions = [
       },
     ],
   },
-  
+
   {
     topic: "The Nervous System",
     questions: [
@@ -8447,675 +8442,547 @@ let biologyQuestions = [
   {
     topic: "Agriculture. Soil Science",
     questions: [
-    {
-    id: 1,
-    question:
-        "Which of these is not a type of soil?",
-    options: [
-        "Sand",
-        "Granite",
-        "Loam",
-        "Clay",
-        "Sandy loam"
-    ],
-    ans: "C",
-    userAnswer: null,
-    },
-    {
-      id: 2,
-      question:
-          "The farmer cannot check soil erosion effectively by",
-      options: [
+      {
+        id: 1,
+        question: "Which of these is not a type of soil?",
+        options: ["Sand", "Granite", "Loam", "Clay", "Sandy loam"],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 2,
+        question: "The farmer cannot check soil erosion effectively by",
+        options: [
           "Constructing his ridges for planting across the slope",
           "Cultivating cover crops",
           "Practicing strip cropping",
           "Clearing the land of vegetation",
-          "Constructing terraces"
-      ],
-      ans: "D",
-      userAnswer: null,
-    },
-    {
+          "Constructing terraces",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
         id: 3,
         question:
-            "If three 30cm lenghts of glass tubing are tightly packed with clay, sand and loamy soils respectively and then stood in a beaker of water for one week, the level of water will be",
+          "If three 30cm lenghts of glass tubing are tightly packed with clay, sand and loamy soils respectively and then stood in a beaker of water for one week, the level of water will be",
         options: [
-            "Lowest in the tube with clay",
-            "The same in all the tubes",
-            "Lowest in the tube with loamy soil",
-            "Highest in the tube with sandy soil",
-            "Lowest in the tube with sandy soil"
+          "Lowest in the tube with clay",
+          "The same in all the tubes",
+          "Lowest in the tube with loamy soil",
+          "Highest in the tube with sandy soil",
+          "Lowest in the tube with sandy soil",
         ],
         ans: "E",
         userAnswer: null,
-    },
-    {
-      id: 4,
-      question:
+      },
+      {
+        id: 4,
+        question:
           "Leguminuous plants, e.g Mucuna, are usually planted in cultivated farmlands because they",
-      options: [
+        options: [
           "Enrich the soil with phosphates",
           "Provide animals with food",
           "Enrich the soil with organic nitrogen",
           "Protcet the soil from being over-heated",
-          "Protect the microrganisms in the soil"
-      ],
-      ans: "C",
-      userAnswer: null,
-    },
-    {
-      id: 5,
-      question:
+          "Protect the microrganisms in the soil",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 5,
+        question:
           "A few grams of dried soil were first heated until red hot and then futher heated until no more smoke was released. This experiment was to determined the",
-      options: [
+        options: [
           "Amount of water in soil",
           "Percentage of water in soil",
           "Presence of humus in soil",
           "Resistance of laterites to heat",
-          "Release of smoke from the soil"
-      ],
-      ans: "C",
-      userAnswer: null,
-    },
-    {
-      id: 6,
-      question:
+          "Release of smoke from the soil",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 6,
+        question:
           "In which of the following plants is swollen shoot disease common?",
-      options: [
-          "Groundnut",
-          "Cocoa",
-          "Corn",
-          "Cotton",
-          "Rubber"
-      ],
-      ans: "B",
-      userAnswer: null,
-    },
-    {
-      id: 7,
-      question:
-          "Soil is said to be fertile if",
-      options: [
+        options: ["Groundnut", "Cocoa", "Corn", "Cotton", "Rubber"],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 7,
+        question: "Soil is said to be fertile if",
+        options: [
           "It is back",
           "It can supply usable nutrients to plant",
           "The oxygen content is very high",
           "Artificial manure is added to it",
-          "It is not waterlogged"
-      ],
-      ans: "B",
-      userAnswer: null,
-    },
-    {
-      id: 8,
-      question:
-          "Treatment of a poor soil with lime supplies",
-      options: [
-          "Sulphur",
-          "Calcium",
-          "Phosphorus",
-          "Sodium"
-      ],
-      ans: "B",
-      userAnswer: null,
-    },
-    {
-      id: 9,
-      question:
+          "It is not waterlogged",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 8,
+        question: "Treatment of a poor soil with lime supplies",
+        options: ["Sulphur", "Calcium", "Phosphorus", "Sodium"],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 9,
+        question:
           "If a farmer left his land uncultivated for five years before returning to it",
-      options: [
+        options: [
           "Modern agriculture",
           "Strip cropping",
           "Contour ridging",
           "Crop rotation",
-          "The bush fallow system"
-      ],
-      ans: "E",
-      userAnswer: null,
-    },
-    {
-      id: 10,
-      question:
+          "The bush fallow system",
+        ],
+        ans: "E",
+        userAnswer: null,
+      },
+      {
+        id: 10,
+        question:
           "A 28g soil sample was heated to a constant weight of 24g. When fyrther heated to red hot and cooled, it weighed 18g. What is the percentage of humus in the soil?",
-      options: [
-          "22.2",
-          "55.6",
-          "75.0",
-          "25.9",
-          "35.7"
-      ],
-      ans: "A",
-      userAnswer: null,
-    },
-    {
-      id: 11,
-      question:
-          "Erosion can be reduce along a slope by",
-      options: [
+        options: ["22.2", "55.6", "75.0", "25.9", "35.7"],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 11,
+        question: "Erosion can be reduce along a slope by",
+        options: [
           "Ridging across slope",
           "Ridging up slope",
           "Ridging down slope",
           "Crop rotation",
-          "Bush fallowing system"
-      ],
-      ans: "A",
-      userAnswer: null,
-    },
-    {
-      id: 12,
-      question:
+          "Bush fallowing system",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 12,
+        question:
           "If a handful of soil is shaken with water and left to settle, the soil particles will settle from light to heavy particles as follows:",
-      options: [
+        options: [
           "Humus, clay, silt, sand, stone",
           "Humus, silt, clay, sand, stones",
           "Humus, clay, silt, stones, sand",
           "Human, sand, silt, clay, stones",
-          "Clay, humus, silt, sand, stones"
-      ],
-      ans: "A",
-      userAnswer: null,
-    },
-    {
-      id: 13,
-      question:
-          "Leaching is",
-      options: [
+          "Clay, humus, silt, sand, stones",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 13,
+        question: "Leaching is",
+        options: [
           "Washing away of humus from the soil surface",
           "Reduction of soil aeration by pressure",
           "Soil erosion by means other than rainfall",
           "Loss of organic matter due to exposure to direct sunlight",
-          "Washing out of chalk and limestone from upper layers of soil by heavy rains"
-      ],
-      ans: "E",
-      userAnswer: null,
-    },
-    {
-      id: 14,
-      question:
-          "The process of soil erosion is usually from",
-      options: [
+          "Washing out of chalk and limestone from upper layers of soil by heavy rains",
+        ],
+        ans: "E",
+        userAnswer: null,
+      },
+      {
+        id: 14,
+        question: "The process of soil erosion is usually from",
+        options: [
           "Rill sheet gully",
           "Gully rill sheet",
           "Sheet gully rill",
           "Sheet rill gully",
-          "Rill gully sheet"
-      ],
-      ans: "D",
-      userAnswer: null,
-    },
-    {
-      id: 15,
-      question:
-          "Soil erosion CANNOT be controlled by",
-      options: [
+          "Rill gully sheet",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 15,
+        question: "Soil erosion CANNOT be controlled by",
+        options: [
           "Planting cover crops",
           "Contouring of sloping ground",
           "Terracing of slopes",
           "Laying of much",
-          "Burning of bush"
-      ],
-      ans: "E",
-      userAnswer: null,
-    },
-    {
-      id: 16,
-      question:
-          "Water retention is highest in soils which are rich in",
-      options: [
+          "Burning of bush",
+        ],
+        ans: "E",
+        userAnswer: null,
+      },
+      {
+        id: 16,
+        question: "Water retention is highest in soils which are rich in",
+        options: [
           "Sand, poor in humus and devoid of clay",
           "Clay and sand, but poor in humus",
           "Clay and humus, but poor in sand",
           "Clay, poor in humus and devoid of sand",
-          "Sand and humus, but poor in clay"
-      ],
-      ans: "D",
-      userAnswer: null,
-    },
-    {
-      id: 18,
-      question:
-          "The origin of minerals particles in the soil is",
-      options: [
+          "Sand and humus, but poor in clay",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 18,
+        question: "The origin of minerals particles in the soil is",
+        options: [
           "Humus",
           "Water",
           "Micro-organisms",
           "Weathered rock",
-          "Organic matter"
-      ],
-      ans: "D",
-      userAnswer: null,
-    },
-    {
-      id: 19,
-      question:
+          "Organic matter",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 19,
+        question:
           "The initial volume of water poured into a bag of dry soil was 50ml and the amount that drained through was 35ml. The percentage water content of fully soaked soil is therefore",
-      options: [
-          "46.7",
-          "25.0",
-          "20.0",
-          "30.0",
-          "58.3"
-      ],
-      ans: "d",
-      userAnswer: null,
-    },
-    {
-      id: 19,
-      question:
-          "The swollen shoot disease of cocoa tree is caused by a",
-      options: [
-          "Virus",
-          "Fungus",
-          "Bacterium",
-          "Protozoan"
-      ],
-      ans: "A",
-      userAnswer: null,
-    },
-    {
-      id: 20,
-      question:
+        options: ["46.7", "25.0", "20.0", "30.0", "58.3"],
+        ans: "d",
+        userAnswer: null,
+      },
+      {
+        id: 19,
+        question: "The swollen shoot disease of cocoa tree is caused by a",
+        options: ["Virus", "Fungus", "Bacterium", "Protozoan"],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 20,
+        question:
           "A large percentage of tropical soils tend to be acidic because they",
-      options: [
+        options: [
           "Contains large quantities of potash",
           "Contain large quantities of lime",
           "Lose a high proportion of their organic matter to running water",
-          "Lose lime and potash from the top soil through rain action"
-      ],
-      ans: "D",
-      userAnswer: null,
-    },
-    {
-      id: 21,
-      question:
-          "The following are methods of soil conservation EXCEPT",
-      options: [
+          "Lose lime and potash from the top soil through rain action",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 21,
+        question: "The following are methods of soil conservation EXCEPT",
+        options: [
           "Contour terracing",
           "Strip cropping",
           "Contour ploughing",
-          "Mixed grazing"
-      ],
-      ans: "D",
-      userAnswer: null,
-    },
-    {
-      id: 22,
-      question:
+          "Mixed grazing",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 22,
+        question:
           "Samples of different soil types are packed in glass tubes whose lower ends are plugged with cotton wool. If these tubes are suspended in a trough of water, water will rise highest after a few hours in",
-      options: [
-          "Sand",
-          "Loam",
-          "Clay",
-          "Humus"
-      ],
-      ans: "C",
-      userAnswer: null,
-    },
-    {
-      id: 23,
-      question:
+        options: ["Sand", "Loam", "Clay", "Humus"],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 23,
+        question:
           "The process by which lime is added to clay soils is known as",
-      options: [
-          "Sedimentation",
-          "Flocculation",
-          "Leaching",
-          "Manuring"
-      ],
-      ans: "B",
-      userAnswer: null,
-    },
-    {
-      id: 24,
-      question:
-          "The mineral nutrients that is most bound to the soil is",
-      options: [
-          "Phosphorus",
-          "Calcium",
-          "Iron",
-          "Potasslum"
-      ],
-      ans: "C",
-      userAnswer: null,
-    },
-    {
-      id: 25,
-      question:
+        options: ["Sedimentation", "Flocculation", "Leaching", "Manuring"],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 24,
+        question: "The mineral nutrients that is most bound to the soil is",
+        options: ["Phosphorus", "Calcium", "Iron", "Potasslum"],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 25,
+        question:
           "The mineral nutrient that easily gets leached out of the soil is",
-      options: [
-          "Phosphorus",
-          "Calcium",
-          "Magnesium",
-          "Nitrate"
-      ],
-      ans: "B",
-      userAnswer: null,
-    },
-    {
-      id: 26,
-      question:
-          "Most commercial fertilizers are rich in salts of",
-      options: [
+        options: ["Phosphorus", "Calcium", "Magnesium", "Nitrate"],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 26,
+        question: "Most commercial fertilizers are rich in salts of",
+        options: [
           "Sodium, iron and calcium",
           "Nitrogen, phosphorus and and potassium",
           "Iron, copper and nitrogen",
-          "Calcium, sodium and phosphorus"
-      ],
-      ans: "B",
-      userAnswer: null,
-    },
-    {
-      id: 27,
-      question:
+          "Calcium, sodium and phosphorus",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 27,
+        question:
           "5g of oven dried soil was heated in a furnace for 24hours, after coooling, it weighed 4.8g what is the amount of humus in the soil?",
-      options: [
+        options: [
           "40.0g per 100g dry soil",
           "4.4g per 100g dry soil",
           "4.0g per 100g dry soil",
-          "0.4g per 100g dry soil"
-      ],
-      ans: "C",
-      userAnswer: null,
-    },
-    {
-      id: 28,
-      question:
+          "0.4g per 100g dry soil",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 28,
+        question:
           "Most irrigated lands often become unproductive in later years because of",
-      options: [
+        options: [
           "Loss of fertility",
           "Increase in salinity",
           "Soil erosion",
-          "Loss of water"
-      ],
-      ans: "A",
-      userAnswer: null,
-    },
-    {
-      id: 29,
-      question:
-          "Farmers pratices crop rotation because it",
-      options: [
+          "Loss of water",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 29,
+        question: "Farmers pratices crop rotation because it",
+        options: [
           "Helps to prevent soil erosion",
           "Alllows two crops to be planted at the same time",
           "Helps to conserve soil fertility",
-          "Is an alternative to shifting cultivation"
-      ],
-      ans: "C",
-      userAnswer: null,
-    },
-    {
-      id: 30,
-      question:
-          "An acidic soil can be improved upon by",
-      options: [
-          "Sedimentation",
-          "Leaching",
-          "Flocculation",
-          "Watering"
-      ],
-      ans: "C",
-      userAnswer: null,
-    },
-    {
-      id: 31,
-      question:
-          "Fetilizers are lost from the soil through",
-      options: [
+          "Is an alternative to shifting cultivation",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 30,
+        question: "An acidic soil can be improved upon by",
+        options: ["Sedimentation", "Leaching", "Flocculation", "Watering"],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 31,
+        question: "Fetilizers are lost from the soil through",
+        options: [
           "Sheet erosion and evaporation",
           "Leaching, underground seepages and run-off",
           "Sheet erosion, gully erosion and wind erosion",
-          "Wind erosion and heavy rainfall"
-      ],
-      ans: "B",
-      userAnswer: null,
-    },
-    {
-      id: 32,
-      question:
-          "Soil with the finest particles is called",
-      options: [
-          "Silt",
-          "Clay",
-          "Sand",
-          "Gravel"
-      ],
-      ans: "B",
-      userAnswer: null,
-    },
-    {
-      id: 33,
-      question:
-          "Soil fertility can be conserved and renewed by",
-      options: [
+          "Wind erosion and heavy rainfall",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 32,
+        question: "Soil with the finest particles is called",
+        options: ["Silt", "Clay", "Sand", "Gravel"],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 33,
+        question: "Soil fertility can be conserved and renewed by",
+        options: [
           "Yearly mono cropping",
           "Crop rotation and cover crops",
           "Bush burning to remove unwanted debris",
-          'Avoiding artificial manures'
-      ],
-      ans: "B",
-      userAnswer: null,
-    },
-    {
-      id: 34,
-      question:
-          "The water-rentation capacity of a soil indicates its",
-      options: [
-          "Fertility",
-          "Capillarity",
-          "Aeration level",
-          "PH level"
-      ],
-      ans: "B",
-      userAnswer: null,
-    },
-    {
-      id: 35,
-      question:
+          "Avoiding artificial manures",
+        ],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 34,
+        question: "The water-rentation capacity of a soil indicates its",
+        options: ["Fertility", "Capillarity", "Aeration level", "PH level"],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 35,
+        question:
           "In a soil sample, the relative amounts of the differents soil particles can be best be determined by the process of",
-      options: [
+        options: [
           "Filtration",
           "Centrifugation",
           "Precipitation",
-          "Sedimentation"
-      ],
-      ans: "D",
-      userAnswer: null,
-    },
-    {
-      id: 36,
-      question:
+          "Sedimentation",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 36,
+        question:
           "Soil micro-organisms are beneficial because of their involvement in",
-      options: [
+        options: [
           "Photosynthesis",
           "Translocation",
           "Cycling of nutrients",
-          "Respiration using soil air"
-      ],
-      ans: "C",
-      userAnswer: null,
-    },
-    {
-      id: 37,
-      question:
+          "Respiration using soil air",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 37,
+        question:
           "A soil consisting of alumina and iron (II) oxide is known as",
-      options: [
-          "Loamy soil",
-          "Clayey soil",
-          "Laterite",
-          "Podzol"
-      ],
-      ans: "C",
-      userAnswer: null,
-    },
-    {
-      id: 38,
-      question:
-          "The addition of lime to clay soil serve to",
-      options: [
+        options: ["Loamy soil", "Clayey soil", "Laterite", "Podzol"],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 38,
+        question: "The addition of lime to clay soil serve to",
+        options: [
           "Aid water retention",
           "Close up the texture",
           "Prevent water-logging",
-          "Improve capillary action"
-      ],
-      ans: "C",
-      userAnswer: null,
-    },
-    {
-      id: 39,
-      question:
+          "Improve capillary action",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 39,
+        question:
           "The excessive use of agro-chemical could lead to the pollution of",
-      options: [
-          "The lithosphere",
-          "The atmosphere",
-          "Fresh water",
-          "Space"
-      ],
-      ans: "C",
-      userAnswer: null,
-    },
-    {
-      id: 39,
-      question:
+        options: ["The lithosphere", "The atmosphere", "Fresh water", "Space"],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 39,
+        question:
           "The stunted growth of a leguminous plant suffering from nitrogen deficiency may be corrected by inoculating the soil with",
-      options: [
+        options: [
           "Denitrifying bacteria",
           "Saprophytic bacteria",
           "Rhizobium",
-          "Nitrosomonas"
-      ],
-      ans: "C",
-      userAnswer: null,
-    },
-    {
-      id: 40,
-      question:
+          "Nitrosomonas",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 40,
+        question:
           "Soil fertility can be best be conserved and renewed by the activities of",
-      options: [
-          "Earthworms",
-          "Man",
-          "Rodents",
-          "Microbes"
-      ],
-      ans: "D",
-      userAnswer: null,
-    },
-    {
-      id: 41,
-      question:
+        options: ["Earthworms", "Man", "Rodents", "Microbes"],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 41,
+        question:
           "The soil type that will be most difficult to plough in a wet season is one that is",
-      options: [
-          "Loamy",
-          "Clayey",
-          "Snady",
-          "Silty"
-      ],
-      ans: "B",
-      userAnswer: null,
-    },
-    {
-      id: 42,
-      question:
-          "A farm pratice that result in the loss of soil fertility is",
-      options: [
+        options: ["Loamy", "Clayey", "Snady", "Silty"],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 42,
+        question: "A farm pratice that result in the loss of soil fertility is",
+        options: [
           "Mixed farming",
           "Bush fallowing",
           "Shifting cultivation",
-          "Continuous cropping"
-      ],
-      ans: "D",
-      userAnswer: null,
-    },
-    {
-      id: 43,
-      question:
+          "Continuous cropping",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 43,
+        question:
           "The importance of practing crop roatation in agriculture is to",
-      options: [
+        options: [
           "Maintain soil fertility",
           "Improve the nutritional value of crops",
           "Control soil erosion",
-          "Ensure the growth of crops"
-      ],
-      ans: "A",
-      userAnswer: null,
-    },
-    {
-      id: 44,
-      question:
+          "Ensure the growth of crops",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 44,
+        question:
           "The soil type that contains nutrients which are not readily available for plants is",
-      options: [
-          "Alluvial",
-          "Clayey",
-          "Snady",
-          "Loamy"
-      ],
-      ans: "B",
-      userAnswer: null,
-    },
-    {
-      id: 45,
-      question:
+        options: ["Alluvial", "Clayey", "Snady", "Loamy"],
+        ans: "B",
+        userAnswer: null,
+      },
+      {
+        id: 45,
+        question:
           "The increasing order of the particle size in the following soil types is",
-      options: [
+        options: [
           "Clay - sand - silt - gravel",
           "Silt - sand - clay gravel",
           "Clay - silt - sand - gravel",
-          "Silt - clay - sand - gravel"
-      ],
-      ans: "C",
-      userAnswer: null,
-    },
-    {
-      id: 46,
-      question:
+          "Silt - clay - sand - gravel",
+        ],
+        ans: "C",
+        userAnswer: null,
+      },
+      {
+        id: 46,
+        question:
           "A crucible of 5gm weighed 10gm after filling with fresh soil. It is then heated in an oven at 100oc for 1 hour. After colling in a desiccator, the weight was 8 gm. The percentage of water in the soil is",
-      options: [
-          "80%",
-          "60%",
-          "20%",
-          "40%"
-      ],
-      ans: "D",
-      userAnswer: null,
-    },
-    {
-      id: 47,
-      question:
-          "The loss of soil through erosion can be reduced by",
-      options: [
-          "Crop rotation",
-          "Mannuring",
-          "Irrigation",
-          "Watering"
-      ],
-      ans: "A",
-      userAnswer: null,
-    },
-    {
-      id: 48,
-      question:
+        options: ["80%", "60%", "20%", "40%"],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 47,
+        question: "The loss of soil through erosion can be reduced by",
+        options: ["Crop rotation", "Mannuring", "Irrigation", "Watering"],
+        ans: "A",
+        userAnswer: null,
+      },
+      {
+        id: 48,
+        question:
           "An indigenous method of renewing and maintaining soil fertility is by",
-      options: [
+        options: [
           "Clearing farms by burning",
           "Planting one crop type",
           "Adding inorganic fertilizers yearly",
-          "Crop rotation and shifting cultivation"
-      ],
-      ans: "D",
-      userAnswer: null,
-    },
-    {
-      id: 49,
-      question:
-          "The soil with the highest water-rentaining capacity is",
-      options: [
+          "Crop rotation and shifting cultivation",
+        ],
+        ans: "D",
+        userAnswer: null,
+      },
+      {
+        id: 49,
+        question: "The soil with the highest water-rentaining capacity is",
+        options: [
           "Clayey soil",
           "Stoney soil",
           "Sandy soil",
           "Sandy soil",
-          "Loamy soil"
-      ],
-      ans: "A",
-      userAnswer: null,
-    },
-  ]
+          "Loamy soil",
+        ],
+        ans: "A",
+        userAnswer: null,
+      },
+    ],
   },
 
   {
@@ -9127,12 +8994,12 @@ let biologyQuestions = [
           "In the life of Schistosoma (Bilharzia), one of the following is the intermediate host",
         options: ["Man", "Snail", "Mosquito larva", "Crayfish", "Fish"],
         ans: "B",
-        userAnswer: null,
       },
       {
+        // please research this answer....
         id: 2,
         question:
-          "A farmer X working in a swap did not eat any food nor drink any water. Which of these diseases can he contract?",
+          "A farmer X working in a swamp did not eat any food nor drink any water. Which of these diseases can he contract?", // not sure of this answer...
         options: [
           "Cholera",
           "Bilharzia",
@@ -9141,7 +9008,6 @@ let biologyQuestions = [
           "Sleeping sickness",
         ],
         ans: "A",
-        userAnswer: null,
       },
       {
         id: 3,
@@ -9155,7 +9021,6 @@ let biologyQuestions = [
           "Bilharzia(Schistosomiasis)",
         ],
         ans: "C",
-        userAnswer: null,
       },
       {
         id: 4,
@@ -9167,40 +9032,38 @@ let biologyQuestions = [
           "They cause polio and smallpox",
         ],
         ans: "C",
-        userAnswer: null,
       },
-      {
-        id: 5,
-        question:
-          "The center which controls respiratory activities in the mammalian brain is the",
-        options: [
-          "Cerebrum",
-          "Olfactory lobes",
-          "Pituitary organ",
-          "Cerebellum",
-          "Medulla",
-        ],
-        ans: "A",
-        userAnswer: null,
-      },
+      // {
+      //   id: 5,
+      //   question:
+      //     "The center which controls respiratory activities in the mammalian brain is the",
+      //   options: [
+      //     "Cerebrum",
+      //     "Olfactory lobes",
+      //     "Pituitary organ",
+      //     "Cerebellum",
+      //     "Medulla",
+      //   ],
+      //   ans: "A", // it is even supposed to be D
+
+      // },
       {
         id: 6,
         question:
-          "Below some groups of diseases. Which group of diseases is caused by bacteria?",
+          "Below are some groups of diseases. Which group of diseases is caused by bacteria?",
         options: [
           "Tuberculosis, smallpox",
           "Gonorrhea, measles",
           "Tuberculosis, polio",
           "Sleeping sickness, measles",
-          "Syphilis, gonorrhea",
+          "Syphilis, gonorrhea", // these two are caused by bacteria...
         ],
-        ans: null,
-        userAnswer: null,
+        ans: "E",
       },
       {
         id: 7,
         question:
-          "Refrigeneration, as a method of food preservation, has one of the following characteristics",
+          "Refrigeration, as a method of food preservation, has one of the following characteristics",
         options: [
           "Kills all the bacteria",
           "Kills most of the bacteria",
@@ -9208,8 +9071,7 @@ let biologyQuestions = [
           "Dried food",
           "Hydrolyzes food",
         ],
-        ans: "E",
-        userAnswer: null,
+        ans: "C", // majority of these answers will be wrong honestly...
       },
       {
         id: 8,
@@ -9217,11 +9079,10 @@ let biologyQuestions = [
         options: [
           "Malaria",
           "Trypanosomiasis",
-          "Onchocerciasis",
+          "Onchocerciasis", // perhaps
           "Yellow fever",
         ],
         ans: "C",
-        userAnswer: null,
       },
       {
         id: 9,
@@ -9233,15 +9094,13 @@ let biologyQuestions = [
           "Swine fever",
           "Cassava mosaic disease",
         ],
-        ans: "B",
-        userAnswer: null,
+        ans: "B", // I don't know actually
       },
       {
         id: 10,
         question: "One disease NOT caused directly by bacteria is",
         options: ["Malaria", "Tuberculosis", "Pneumonia", "Tetanus", "Cholera"],
         ans: "A",
-        userAnswer: null,
       },
       {
         id: 11,
@@ -9255,12 +9114,11 @@ let biologyQuestions = [
           "Poliomyelitis",
         ],
         ans: "C",
-        userAnswer: null,
       },
       {
         id: 12,
         question:
-          "Which of the following lists of diseases, their causes and tramission is CORRECT?",
+          "Which of the following lists of diseases, their causes and transmission is CORRECT?",
         options: [
           "Cholera, virus, severe diarrhoea, infected water",
           "Malaria, protozoan, high fever, contact with infected person",
@@ -9268,7 +9126,6 @@ let biologyQuestions = [
           "Smallpox, virus, skin with blister, close contact with infected person",
         ],
         ans: "D",
-        userAnswer: null,
       },
       {
         id: 13,
@@ -9282,7 +9139,6 @@ let biologyQuestions = [
           "Fish and snail",
         ],
         ans: "D",
-        userAnswer: null,
       },
       {
         id: 14,
@@ -9295,7 +9151,6 @@ let biologyQuestions = [
           "Tyhoid",
         ],
         ans: "D",
-        userAnswer: null,
       },
       {
         id: 15,
@@ -9309,7 +9164,6 @@ let biologyQuestions = [
           "Dysentery",
         ],
         ans: "C",
-        userAnswer: null,
       },
       {
         id: 16,
@@ -9322,21 +9176,18 @@ let biologyQuestions = [
           "Keep still and apply a tourniquest above the wound.",
         ],
         ans: "D",
-        userAnswer: null,
       },
       {
         id: 17,
         question: "Which of these disease CANNOT be prevented by immunization?",
         options: ["Poliomyelitis", "Tuberculosis", "Cholera", "Onchocerciasis"],
         ans: "D",
-        userAnswer: null,
       },
       {
         id: 18,
         question: "Poliomyelitis is an infectious disease caused by",
         options: ["Polimyelitis", "Tuberculosis", "Cholera", "Onchoceriasis"],
         ans: "A",
-        userAnswer: null,
       },
       {
         id: 19,
@@ -9348,7 +9199,6 @@ let biologyQuestions = [
           "Monitor environment pollution",
         ],
         ans: "C",
-        userAnswer: null,
       },
       {
         id: 20,
@@ -9361,7 +9211,6 @@ let biologyQuestions = [
           "Onchocerciasis",
         ],
         ans: "D",
-        userAnswer: null,
       },
       {
         id: 21,
@@ -9374,7 +9223,6 @@ let biologyQuestions = [
           "Applying chemical to kill the snails",
         ],
         ans: "D",
-        userAnswer: null,
       },
       {
         id: 22,
@@ -9382,7 +9230,6 @@ let biologyQuestions = [
           "Which of the following diseases can be caused by a bacterium?",
         options: ["Ringworm", "Poliomyelitis", "Malaria", "Syphilis"],
         ans: "D",
-        userAnswer: null,
       },
       {
         id: 23,
@@ -9395,7 +9242,6 @@ let biologyQuestions = [
           "Poliomyelitis",
         ],
         ans: "A",
-        userAnswer: null,
       },
       {
         id: 24,
@@ -9407,7 +9253,6 @@ let biologyQuestions = [
           "Malaria, cholera and river blindness",
         ],
         ans: "D",
-        userAnswer: null,
       },
       {
         id: 25,
@@ -9420,7 +9265,6 @@ let biologyQuestions = [
           "Acquired immune Deficiency Syndrome",
         ],
         ans: "C",
-        userAnswer: null,
       },
       {
         id: 26,
@@ -9432,7 +9276,6 @@ let biologyQuestions = [
           "The development of merozoites into gametocytes",
         ],
         ans: "A",
-        userAnswer: null,
       },
       {
         id: 27,
@@ -9445,7 +9288,6 @@ let biologyQuestions = [
           "Fast flowing stream",
         ],
         ans: "D",
-        userAnswer: null,
       },
       {
         id: 28,
@@ -9453,7 +9295,6 @@ let biologyQuestions = [
           "Which of the following is transmitted through mosquito bite?",
         options: ["Filariasis", "Typhus", "Plague", "Schistosomiasis"],
         ans: "A",
-        userAnswer: null,
       },
       {
         id: 29,
@@ -9466,7 +9307,6 @@ let biologyQuestions = [
           "Application of herbicides in water bodies",
         ],
         ans: "B",
-        userAnswer: null,
       },
       {
         id: 30,
@@ -9478,7 +9318,6 @@ let biologyQuestions = [
           "AIDS, cholera and tuberculosis",
         ],
         ans: "A",
-        userAnswer: null,
       },
       {
         id: 31,
@@ -9491,7 +9330,6 @@ let biologyQuestions = [
           "Provision of portable drinking water",
         ],
         ans: "D",
-        userAnswer: null,
       },
       {
         id: 32,
@@ -9504,7 +9342,6 @@ let biologyQuestions = [
           "I, II and V",
         ],
         ans: "A",
-        userAnswer: null,
       },
       {
         id: 33,
@@ -9517,7 +9354,6 @@ let biologyQuestions = [
           "Malaria, bilharziasis and Onchocerciasis",
         ],
         ans: "D",
-        userAnswer: null,
       },
       {
         id: 34,
@@ -9529,7 +9365,6 @@ let biologyQuestions = [
           "Stimulate the production of antibodies",
         ],
         ans: "D",
-        userAnswer: null,
       },
       {
         id: 35,
@@ -9541,7 +9376,6 @@ let biologyQuestions = [
           "Dracuncullasis and haemophilia",
         ],
         ans: "D",
-        userAnswer: null,
       },
       {
         id: 36,
@@ -9554,7 +9388,6 @@ let biologyQuestions = [
           "Through the sharing of needles",
         ],
         ans: "C",
-        userAnswer: null,
       },
       {
         id: 37,
@@ -9566,28 +9399,24 @@ let biologyQuestions = [
           "Yellow fever",
         ],
         ans: "C",
-        userAnswer: null,
       },
       {
         id: 38,
         question: "The causative agent of typhoid fever is",
         options: ["Saimonella", "Entamoeba", "Escherichia", "Shigella"],
         ans: "A",
-        userAnswer: null,
       },
       {
         id: 39,
         question: "The causative agent of bird flu is a",
         options: ["Prtozoan", "Virus", "Bacterium", "Fungus"],
         ans: "B",
-        userAnswer: null,
       },
       {
         id: 40,
         question: "The bacteria type that are arranged in chains are the",
         options: ["Staphylococci", "Clostridia", "Streptococci", "Bacili"],
         ans: "C",
-        userAnswer: null,
       },
       {
         id: 41,
@@ -9600,7 +9429,6 @@ let biologyQuestions = [
           "Salmonellosis",
         ],
         ans: "A",
-        userAnswer: null,
       },
       {
         id: 42,
@@ -9613,7 +9441,6 @@ let biologyQuestions = [
           "II and IV",
         ],
         ans: "C",
-        userAnswer: null,
       },
       {
         id: 43,
@@ -9625,7 +9452,6 @@ let biologyQuestions = [
           "Aedes mosquito",
         ],
         ans: "D",
-        userAnswer: null,
       },
       {
         id: 44,
@@ -9637,7 +9463,6 @@ let biologyQuestions = [
           "Female Anopheles mosquito",
         ],
         ans: "D",
-        userAnswer: null,
       },
       {
         id: 45,
@@ -9649,7 +9474,6 @@ let biologyQuestions = [
           "Female anopheles mosquito",
         ],
         ans: "D",
-        userAnswer: null,
       },
       {
         id: 46,
@@ -9662,7 +9486,6 @@ let biologyQuestions = [
           "Reticuloendothelial cells of humans",
         ],
         ans: "C",
-        userAnswer: null,
       },
       {
         id: 47,
@@ -9674,7 +9497,6 @@ let biologyQuestions = [
           "Drinking contaminated water",
         ],
         ans: "D",
-        userAnswer: null,
       },
       {
         id: 48,
@@ -9686,14 +9508,12 @@ let biologyQuestions = [
           "Typhoid cholera",
         ],
         ans: "D",
-        userAnswer: null,
       },
       {
         id: 49,
         question: "An example of a parasitic protozoan is",
         options: ["Plasmodium", "Euglena", "Chlamydomonas", "Paramecium"],
         ans: "A",
-        userAnswer: null,
       },
       {
         id: 50,
@@ -9705,21 +9525,18 @@ let biologyQuestions = [
           "Sleeping sickness",
         ],
         ans: "D",
-        userAnswer: null,
       },
       {
         id: 51,
         question: "Which of the following is caused by Treponema palladium?",
         options: ["Leprosy", "Tuberculosis", "Syphilis", "Gonorrhea"],
         ans: "C",
-        userAnswer: null,
       },
       {
         id: 52,
         question: "The causative agent of pollomyelitis is",
         options: ["Virus", "Fungus", "Protozoan", "Bacterium"],
         ans: "A",
-        userAnswer: null,
       },
       {
         id: 53,
@@ -9731,14 +9548,12 @@ let biologyQuestions = [
           "It is a waterborne infection",
         ],
         ans: "C",
-        userAnswer: null,
       },
       {
         id: 54,
         question: "A biological agent with antiviral property is",
         options: ["Interferon", "Enzyme", "Antibiotic", "Disinfectant"],
         ans: "Interferon gamma",
-        userAnswer: null,
       },
     ],
   },
@@ -9757,7 +9572,6 @@ let biologyQuestions = [
           "Coverting atmospheric nitrogen to nitrate",
         ],
         ans: "B",
-        userAnswer: null,
       },
       {
         id: 2,
@@ -9771,7 +9585,6 @@ let biologyQuestions = [
           "An ecosystem",
         ],
         ans: "E",
-        userAnswer: null,
       },
       {
         id: 3,
@@ -9784,7 +9597,6 @@ let biologyQuestions = [
           "Current velocity",
         ],
         ans: "D",
-        userAnswer: null,
       },
       {
         id: 4,
@@ -9797,7 +9609,6 @@ let biologyQuestions = [
           "Nitrogen putrefying bacteria",
         ],
         ans: "C",
-        userAnswer: null,
       },
       {
         id: 5,
@@ -9805,7 +9616,6 @@ let biologyQuestions = [
           "Grasses- grasshoppers- lizard- snakes- hawks. In the above food chain the organisms which are least in number are",
         options: ["Grasses", "Grasshoppers", "Lizards", "Snakes", "Hawks"],
         ans: "E",
-        userAnswer: null,
       },
       {
         id: 6,
@@ -9818,7 +9628,6 @@ let biologyQuestions = [
           "Contains chlorophyll",
         ],
         ans: "A",
-        userAnswer: null,
       },
       {
         id: 7,
@@ -9832,7 +9641,6 @@ let biologyQuestions = [
           "Protect the micro organisms in the soil",
         ],
         ans: "C",
-        userAnswer: null,
       },
       {
         id: 8,
@@ -9846,7 +9654,6 @@ let biologyQuestions = [
           "Death",
         ],
         ans: "A",
-        userAnswer: null,
       },
       {
         id: 9,
@@ -9860,7 +9667,6 @@ let biologyQuestions = [
           "Grass, toad, snake, grasshopper, hawk",
         ],
         ans: "B",
-        userAnswer: null,
       },
       {
         id: 10,
@@ -9873,7 +9679,6 @@ let biologyQuestions = [
           "Nitrogen cycle",
         ],
         ans: "D",
-        userAnswer: null,
       },
       {
         id: 11,
@@ -9886,7 +9691,6 @@ let biologyQuestions = [
           "A hydrometer",
         ],
         ans: "D",
-        userAnswer: null,
       },
       {
         id: 12,
@@ -9899,7 +9703,6 @@ let biologyQuestions = [
           "Different organisms in the same habitat",
         ],
         ans: "C",
-        userAnswer: null,
       },
       {
         id: 13,
@@ -9912,7 +9715,6 @@ let biologyQuestions = [
           "Leaves- goat- man- lion",
         ],
         ans: "A",
-        userAnswer: null,
       },
       {
         id: 14,
@@ -9925,7 +9727,6 @@ let biologyQuestions = [
           "The taotal number of species and general in a community",
         ],
         ans: "C",
-        userAnswer: null,
       },
       {
         id: 15,
@@ -9939,7 +9740,6 @@ let biologyQuestions = [
           "Wind wave",
         ],
         ans: "B",
-        userAnswer: null,
       },
       {
         id: 16,
@@ -9947,7 +9747,6 @@ let biologyQuestions = [
           "Which sequence represents the correct order of organism in a food chain? 1 Toad, 2 Mucuna, 3 Grasshopper, 4 Snake, 5 Hawk",
         options: ["54132", "12345", "21345", "23154", "23145"],
         ans: "E",
-        userAnswer: null,
       },
       {
         id: 17,
@@ -9960,7 +9759,6 @@ let biologyQuestions = [
           "Number of young plants across a forest",
         ],
         ans: "B",
-        userAnswer: null,
       },
       {
         id: 18,
@@ -12040,8 +11838,1185 @@ let biologyQuestions = [
       },
     ],
   },
-    
-]
+
+  {
+    topic: "Heredity. Variation. Evolution",
+    questions: [
+      {
+        id: 1,
+        question:
+          "In a breeding programme a cross was made between two true-breeding cowpea types: one with round seeds and the other with wrinked seeds. If roundness is dominant while wrinkleness is recessive, in the first filial generation all the seeds produced will be",
+        options: [
+          "25 percent wrinkled, 75 percent round",
+          "100 percent wrinkled",
+          "50 percent wrinkled, 50 percent round",
+          "75 percent wrinkled, 25 percent round",
+          "100 percent round",
+        ],
+        ans: "E",
+      },
+      {
+        id: 2,
+        question:
+          "The carrier of the hereditary characters in plants and animals is the",
+        options: ["cell", "nucleus", "chromosome", "chloroplast", "gene"],
+        ans: "E",
+      },
+      {
+        id: 3,
+        question:
+          "If you cross-breed a tall variety (Tt) of maize with a short variety (tt), the ratio of tall to short plants in the offspring will be",
+        options: ["2:1", "1:2", "1:1", "1:3", "3:1"],
+        ans: "C",
+      },
+      {
+        id: 4,
+        question:
+          "If a baby is a female, her mother's ovum must have been fertilized by a sperm carrying the chromosome",
+        options: ["X", "XY", "XX", "YY", "Y"],
+        ans: "A",
+      },
+      {
+        id: 5,
+        question:
+          "What is the genetic ratio of a cross between a homozygous tall plant and a homozygous dwarf plant?",
+        options: [
+          "0 tall: 4 short",
+          "3 tall: 1 short",
+          "2 tall: 2 tall",
+          "1 tall: 1 short",
+          "4 tall: 0 short",
+        ],
+        ans: "E",
+      },
+      {
+        id: 6,
+        question:
+          "Normally any character shown by an organism is due to the effects of",
+        options: [
+          "hormones and chromosomes",
+          "chromosomes",
+          "mutations",
+          "hormones and genes",
+          "genes and environment",
+        ],
+        ans: "E",
+      },
+      {
+        id: 7,
+        question:
+          "A person whose blood can be donated to all other people, must have the blood group",
+        options: ["O", "AB", "B", "A"],
+        ans: "A",
+      },
+      {
+        id: 8,
+        question: "A surprising fact about sickle cell is that",
+        options: [
+          "affects only black people",
+          "kills the patient",
+          "it is hereditary",
+          "affects blood cells",
+          "weakens the patient",
+        ],
+        ans: "C",
+      },
+      {
+        id: 9,
+        question:
+          "If a tall man (TT) marries a dwarf woman (tt) and they have four male children, the offspring will be",
+        options: [
+          "all short",
+          "three short and one tall",
+          "two short and two tall",
+          "one short and three tall",
+          "all tall",
+        ],
+        ans: "E",
+      },
+      {
+        id: 10,
+        question:
+          "A married couple have 10 children and they are all girls. Which of the following is the CORRECT explanation?",
+        options: [
+          "The woman is incapable of producing male children",
+          "The man's sperms are very weak",
+          "The man is not athletic enough",
+          "The Y component of the man's sex chromosomes was always involved",
+          "The X component of the man's sex chromosomes was always involved",
+        ],
+        ans: "E",
+      },
+      {
+        id: 11,
+        question:
+          "If a 26 years old blind man married a young one-eyed woman and they had four children, how many of them would be blind like their father?",
+        options: [
+          "All",
+          "Three",
+          "Two",
+          "One",
+          "None",
+        ],
+        ans: "E",
+      },
+      {
+        id: 12,
+        question:
+          "One of the major causes of of hemophilia is lack of",
+        options: [
+          "Fibrinogen",
+          "Amylase",
+          "White blood corpuscles",
+          "Red blood",
+        ],
+        ans: "A",
+        remark: `Fibronogen is a clotting factor and its synthesis is hampered by a faulty gene in haemophilia(bleeder's disease) whereby the sufferer (haemophilliac) has prolonged bleeding even from minor injuries. It might be fatal even in infancy`
+      },
+      {
+        id: 13,
+        question:
+          "When a person with blood belonging to group O has lost much blood due to an accident, he can be given blood belonging to",
+        options: [
+          "group O only",
+          "group A only",
+          "group AB only",
+          "group A and O",
+          "group AB and O"
+        ],
+        ans: "A",
+      },
+      {
+        id: 14,
+        question:
+          "An organism having one pair of identical genes is",
+        options: [
+          "heterozygote",
+          "a hybrid",
+          "an allelemorph",
+          "a homozygote",
+          "a diploid"
+        ],
+        ans: "D",
+      },
+      {
+        id: 15,
+        question:
+          "What is the genetic ratio of the F2 generation if members of F1 generation are allowed to self-pollinate?",
+        options: [
+          "1 tall: 3 short",
+          "3 tall: 1 short",
+          "1 tall: 1 short",
+          "4 shorts: 0 tall",
+          "4 tall: 0 short",
+        ],
+        ans: "B",
+      },
+      {
+        id: 16,
+        question:
+          "The character-producing factors in living organisms are",
+        options: [
+          "chromosomes",
+          "alleles",
+          "chromatids",
+          "chromosomes",
+          "genes",
+        ],
+        ans: "E",
+      },
+      {
+        id: 17,
+        question:
+          "A man with a normal haemoglobin (AA) marries a woman who has sickle cell haemoglobin (SS). They have a child who has sickle-cell trait. Which of the following genotypes could be associated with the child's haemoglobin?",
+        options: [
+          "AA",
+          "OO",
+          "AO",
+          "AS",
+          "SS",
+        ],
+        ans: "D",
+      },
+      {
+        id: 18,
+        question:
+          "If a child can receive blood from all donors, he belongs to the blood group",
+        options: [
+          "O",
+          "A",
+          "B",
+          "AB",
+          "AS",
+        ],
+        ans: "D",
+      },
+      {
+        id: 19,
+        question:
+          "The characters by which an organism is recognized are termed its",
+        options: [
+          "phenotype",
+          "genotype",
+          "morphology",
+          "anatomy",
+          "physiology",
+        ],
+        ans: "A",
+      },
+      {
+        id: 20,
+        question:
+          "The hereditary material in a cell is known as",
+        options: [
+          "ADP",
+          "CNS",
+          "RNA",
+          "ATP",
+          "DNA",
+        ],
+        ans: "E",
+      },
+      {
+        id: 21,
+        question:
+          "If a woman who is a carrier of sickle cell trait (AS) married a man who is a sickler (SS) and they had four children how many of them would be normal?",
+        options: [
+          "Three",
+          "Two",
+          "One",
+          "None",
+        ],
+        ans: "B",
+      },
+      {
+        id: 22,
+        question:
+          "Which of the following is an example of discontinous variation?",
+        options: [
+          "Skin coloration",
+          "Left-handedness",
+          "Body weight",
+          "Height",
+        ],
+        ans: "B",
+      },
+      {
+        id: 23,
+        question:
+          "A gene which expresses itself only in the homozygous condition is",
+        options: [
+          "a mutant",
+          "dominant",
+          "recessive",
+          "lethal",
+        ],
+        ans: "C",
+      },
+      {
+        id: 24,
+        question:
+          "An example of monohybrid inheritance in man is",
+        options: [
+          "lastigmatism",
+          "cretinism",
+          "hyperthyroidism",
+          "albinism",
+        ],
+        ans: "D",
+      },
+      {
+        id: 25,
+        question:
+          "If a plant, homozygous for round and yellow (RR:YY), is crossed with a wrinkled green type (rr:yy) all of the resulting seed will be",
+        options: [
+          "blue and wrinkled",
+          "round and yellow",
+          "wrinkled and yellow",
+          "round and greenish-yellow",
+        ],
+        ans: "B",
+      },
+      {
+        id: 26,
+        question:
+          "The ratio of carriers to sicklers in the F1 generation derived from a parental cross of two carriers of haemoglobin S gene is",
+        options: [
+          "3:1",
+          "1:3",
+          "2:1",
+          "1:2",
+        ],
+        ans: "C",
+      },
+      {
+        id: 27,
+        question:
+          "In which of the following crosses will all the female offspring be color blind?",
+        options: [
+          "color blind mother X color blind father",
+          "color blind mother X normal father",
+          "carrier mother X color blind father",
+          "carrier mother X normal father",
+        ],
+        ans: "A",
+      },
+      {
+        id: 28,
+        question:
+          "If a dark-skinned woman (Bb) marries an albino man (bb) and they have four children, how many of the children will be dark-skinned?",
+        options: [
+          "3",
+          "2",
+          "1",
+          "0",
+        ],
+        ans: "B",
+      },
+      {
+        id: 29,
+        question:
+          "A red-colored flower when crossed with a white colored one produced pink flowers. This is an example of",
+        options: [
+          "complete dominance",
+          "blending inheritance",
+          "interaction of genes",
+          "back crossing",
+        ],
+        ans: "B",
+      },
+      {
+        id: 30,
+        question:
+          "There will be agglutination when the",
+        options: [
+          "Group A serum mixes with Group A erythrocytes",
+          "Group A serum mixes with Group B erythrocytes",
+          "Group AB serum mixes with Group O erythrocytes",
+          "Group B serum mixes with Group B erythrocytes",
+        ],
+        ans: "B",
+      },
+      {
+        id: 31,
+        question:
+          "When the two alleles present in an organism are of the same type, the genotype is described as",
+        options: [
+          "Heterozygous",
+          "Heterogamous",
+          "Homozygous",
+          "Homologous",
+        ],
+        ans: "C",
+      },
+      {
+        id: 32,
+        question:
+          "If parents with blood groups AB and OO produces six children",
+        options: [
+          "three of them will have group B",
+          "two of them will have group A",
+          "all the offspring will have group O",
+          "none of them will have group A",
+        ],
+        ans: "A",
+      },
+      {
+        id: 33,
+        question:
+          "Which of the following is a sex-linked character?",
+        options: [
+          "Sickle-cell anaemia",
+          "Tongue rolling",
+          "Skin color",
+          "Color blindness",
+        ],
+        ans: "D",
+      },
+      {
+        id: 34,
+        question:
+          "In an organism where the 2n number of chromosomes is 16, the number of chromosomes in each gamete will be",
+        options: [
+          "32",
+          "16",
+          "8",
+          "4",
+        ],
+        ans: "C",
+      },
+      {
+        id: 35,
+        question:
+          "What would be the result of the first filial generation (F1) and the second filial generation (F2) of a monohybrid cross between pure line normal-winged Drosophila flies and pure line short-winged flies of the gene if the normal wing is dominant?",
+        options: [
+          "F1 flies all short-winged and F2 flies all normal-winged",
+          "F1 flies all normal-winged and F2 flies all short-winged",
+          "F1 flies all short-winged and three-quarters of F2 flies are short-winged",
+          "F1 flies all normal-winged and three-quarters of F2 flies are normal-winged",
+        ],
+        ans: "D",
+      },
+      {
+        id: 37,
+        question:
+          "An individual in the AB blood group is a universal recipent for blood donation because",
+        options: [
+          "All the red blood cells do not carry antigen",
+          "All the red blood cells carry antigen",
+          "All the red blood cell carry antibodies",
+          "There are no anti-A and anti-B antibodies in the serum",
+        ],
+        ans: "D",
+      },
+      {
+        id: 38,
+        question:
+          "Haemophilia results from the mutation of the genes",
+        options: [
+          "In the sex-chromosomes",
+          "Which control skin color",
+          "Which control the mechanism for blood-clotting",
+          "Which control the formation of haemoglobin",
+        ],
+        ans: "C",
+      },
+      {
+        id: 39,
+        question:
+          "The greatest contribution to genetic studied was made by",
+        options: [
+          "Thomas Morgan",
+          "Gregor Mendel",
+          "Charles Darwin",
+          "Robert Hooke",
+        ],
+        ans: "B",
+      },
+      {
+        id: 40,
+        question:
+          "The exchange of genes between homologous chromosomes is called?",
+        options: [
+          "Test cross",
+          "Back cross",
+          "Crossing over",
+          "Mutation",
+        ],
+        ans: "C",
+      },
+      {
+        id: 41,
+        question:
+          "When two heterozygous mate, the dominant trait will appear in",
+        options: [
+          "the F1 generation only",
+          "the F2 generation only",
+          "both the F1 and F2 generations",
+          "neither the F1 nor F2 generation",
+        ],
+        ans: "C",
+      },
+      {
+        id: 42,
+        question:
+          "Which of the following characters is NOT sex linked?",
+        options: [
+          "River blindless",
+          "Baldness",
+          "Haemophilia",
+          "Color blindness",
+        ],
+        ans: "A",
+      },
+      {
+        id: 43,
+        question:
+          "Which of the following is true of the children of a haemophilic man who marries a woman that is not heamophilic and does not carry the trait?",
+        options: [
+          "All their sons will be haemophilic",
+          "All their daughter will be haemophilic",
+          "All their daughters will be carriers",
+          "All their sons will be carriers",
+        ],
+        ans: "C",
+      },
+      {
+        id: 44,
+        question:
+          "A child with blood group genotype different from those of both parents and with a mother of genotype OO, can only have a father of genotype",
+        options: [
+          "A",
+          "B",
+          "AB",
+          "OO",
+        ],
+        ans: "C",
+      },
+      {
+        id: 45,
+        question:
+          "If R and r denotes the genes for a character, the offspring of the cross between RR and Rr are",
+        options: [
+          "RR, 2 Rr, rr",
+          "2 RR, 2 rr",
+          "2 RR, 2 Rr",
+          "4 Rr",
+        ],
+        ans: "C",
+      },
+      {
+        id: 46,
+        question:
+          "A mammal with red fur and long ears was crossed with another having white fur and short ears. If the offspring had red fur and short ears, then the",
+        options: [
+          "characters are linked",
+          "characters are not linked",
+          "parents are related",
+          "parents are not related",
+        ],
+        ans: "B",
+      },
+      {
+        id: 47,
+        question:
+          "Pawpaw seeds collected from a tree with many desirable agronomic quantities did not give rise to plants of desirable characters as the parent because",
+        options: [
+          "seeds are not reliable for propagating plants",
+          "uncontrolled out-crossing can introduce unwanted variability",
+          "vegetative propagation is the best form of reproduction for all crops",
+          "seeds were not physiologically mature at harvest",
+        ],
+        ans: "B",
+      },
+      {
+        id: 48,
+        question:
+          "Women do not suffer from color blindness",
+        options: [
+          "because the trait is sex-linked",
+          "only men are color blind",
+          "the genes are recessive and sex-linked",
+          "the genes occur on both the X and Y chrosomes",
+        ],
+        ans: "C",
+      },
+      {
+        id: 49,
+        question:
+          "The hereditary material of the cell is",
+        options: [
+          "the RNA",
+          "protein",
+          "the DNA",
+          "carbohydrate",
+        ],
+        ans: "C",
+      },
+      {
+        id: 50,
+        question:
+          "The theory of natural selection was developed by",
+        options: [
+          "Lamark and Darwin",
+          "Darwin and Wallace",
+          "Wallace and Mendel",
+          "Mendel and Lamarck",
+        ],
+        ans: "A",
+      },
+      {
+        id: 50,
+        question:
+          "The theory of natural selection was developed by",
+        options: [
+          "Lamark and Darwin",
+          "Darwin and Wallace",
+          "Wallace and Mendel",
+          "Mendel and Lamarck",
+        ],
+        ans: "A",
+      },
+      {
+        id: 51,
+        question:
+          "Fossil records found in sedimentary rocks offer some explanation for the the theory of evolution because",
+        options: [
+          "the deposits have remains of organisms characteristics of when they are formed",
+          "different strata have remains of organisms of the same kind",
+          "only organisms with strong parts are fossilized",
+          "most animals and plant fossils bear little resemblance to present day living specimens",
+        ],
+        ans: "A",
+      },
+      {
+        id: 52,
+        question:
+          "On what structures are the units of inheritance situated?",
+        options: [
+          "Golgi bodies",
+          "Ribosomes",
+          "Chromosomes",
+          "Endoplasmic reticulum",
+        ],
+        ans: "C",
+      },
+      {
+        id: 53,
+        question:
+          "Which of the following is an example of discontinuos variation observed in man?",
+        options: [
+          "Skin colors",
+          "Tongue rolling",
+          "Body weight",
+          "Height",
+        ],
+        ans: "B",
+      },
+      {
+        id: 54,
+        question:
+          "During blood transfusion, agglutination may occur when",
+        options: [
+          "Contrasting antigens react with contrasting antibodies",
+          "Similar antigens react with similar antibody",
+          "Two different antigens react with each other",
+          "Two different antibodies react with each other",
+        ],
+        ans: "B", // correct
+      },
+      {
+        id: 56,
+        question:
+          "The differences and similarities among living things account for",
+        options: [
+          "diversity",
+          "stability",
+          "competition",
+          "evolution",
+        ],
+        ans: "A",
+      },
+      {
+        id: 57,
+        question:
+          "People with sickle-cell anaemia have haemoglobin",
+        options: [
+          "S and are homozygous recessive",
+          "A and are heterozygous recessive",
+          "S and are heterozygous recessive",
+          "A and are homozygous recessive",
+        ],
+        ans: "A",
+      },
+      {
+        id: 58,
+        question:
+          "In the gene locus for eye color in humans, the allele for brown eyes is dominant over the allele for blue eyes. If a homozygous brown-eyed girl has a brother with blue eyes, what are the likely phenotypes of their parents' eye color? (Eye color is not a sex-linked trait)",
+        options: [
+          "Both parents have blue eyes",
+          "Their father has blue eyes and mother has brown eyes",
+          "Both parents have brown eyes",
+          "Their mother has blue eyes and their father has brown eyes",
+        ],
+        ans: "C",
+      },
+      {
+        id: 59,
+        question:
+          "If a woman's genotype is Tt Qq Rr, what would be the gene content of her eggs?",
+        options: [
+          "TQr, tqr",
+          "TQR, tqr",
+          "TqR, tQr",
+          "tQr, TQR",
+        ],
+        ans: "B",
+      },
+      {
+        id: 60,
+        question:
+          "The sex-linked defect in which very slight cut produces severe bleeding is known as",
+        options: [
+          "anaemia",
+          "anorexia",
+          "haemophilia",
+          "haemolysis",
+        ],
+        ans: "C",
+      },
+      // {
+      //   id: 61,
+      //   question:
+      //     "A man who has the trait for color blindness marries a normal woman. What percentage of their children would be sufferers, carriers, and normal respectively?",
+      //   options: [
+      //     "25% and 50%",
+      //     "25%, 50% and 25%",
+      //     "50%, 25%, and 25%",
+      //     "25%, 37.5% and 37.5%",
+      //   ],
+      //   ans: "",
+      //   // PLEASE REMEMBER TO COMMENT THIS OUT... NO ANWSWER
+      // },
+      {
+        id: 62,
+        question:
+          "The anatomical evidence usually used in support of all evolutionary relationship among whales, humans, birds and dogs is the possession of",
+        options: [
+          "thick skin",
+          "pentadactyl limb",
+          "tail",
+          "epidermal structures",
+        ],
+        ans: "B",
+      },
+      {
+        id: 63,
+        question:
+          "Human height is an example of a feature which depends on both",
+        options: [
+          "genotype and phenotype",
+          "genetic and environmental factors",
+          "mother's genotype and environmental factors",
+          "phenotypic and environemntal factors",
+        ],
+        ans: "B",
+      },
+      {
+        id: 64,
+        question:
+          "A person with type O blood can donate to a patient with type A because the donor's blood",
+        options: [
+          "lacks antigens",
+          "lacks anti-A antibodies",
+          "lacks anti-B antibodies",
+          "has both anti-A and anti-B antibodies",
+        ],
+        ans: "A",
+      },
+      {
+        id: 65,
+        question:
+          "The DNA molecules is a chain of repeating",
+        options: [
+          "nucleosides",
+          "nitrogenous bases",
+          "sugar phosphates",
+          "nucleotides",
+        ],
+        ans: "D",
+      },
+      {
+        id: 66,
+        question:
+          "The specific number of chromosomes in each somatic cell is represented by",
+        options: [
+          "3N",
+          "23",
+          "2N",
+          "N",
+        ],
+        ans: "C",
+      },
+      {
+        id: 67,
+        question:
+          "A man with blood group A is married to a woman with blood group A. Which of the following group combinations is possible if the family has three children?",
+        options: [
+          "B, A, AB",
+          "A, B",
+          "B, AB, AB",
+          "A, O, A",
+        ],
+        ans: "D",
+      },
+      {
+        id: 68,
+        question:
+          "The F1 of a cross between a tall and a dwarf plant was tall. The F1 was advanced to F2. How many of 120 F2 plant will be dwarf?",
+        options: [
+          "30",
+          "60",
+          "90",
+          "120",
+        ],
+        ans: "A", // work this out later...
+      },
+      {
+        id: 69,
+        question:
+          "The sons of a color-blind woman will be color blind regardless of the state of the father because",
+        options: [
+          "the egg determines the phenotype of the son",
+          "sons inherit the sex chromosomes of their mothers",
+          "the father's sex chromosomes is weaker in sons",
+          "sex-linked traits express dominance in females",
+        ],
+        ans: "B",
+      },
+      {
+        id: 70,
+        question:
+          "The least evidence in support of the theory of evolution is provided by the study of",
+        options: [
+          "anatomy",
+          "ecology",
+          "geology",
+          "embryology",
+        ],
+        ans: "B",
+      },
+      {
+        id: 71,
+        question:
+          "From which group of animals are the mammals generally believed to have most recently evolved?",
+        options: [
+          "Reptiles",
+          "Fishes",
+          "Amphibians",
+          "Birds",
+        ],
+        ans: "A",
+      },
+      {
+        id: 72,
+        question:
+          "One reason for the success of Mendel's work is that he",
+        options: [
+          "was first to carry out research work on modern genetics",
+          "introduced quantitative and qualitative elements into his works",
+          "selected two characteristics only at a time for study",
+          "drew up his law of inheritance based on his knowledge of chromosomes",
+        ],
+        ans: "C",
+      },
+      {
+        id: 73,
+        question:
+          "The homozygous condition HbS Hbs results in sickle cell anaemia whereas HbA HbA has the sickling trait. What is the probability that a couple with the sickling trait will give birth to one normal child?",
+        options: [
+          "1/2",
+          "1/4",
+          "1/8",
+          "0",
+        ],
+        ans: "B",
+      },
+      {
+        id: 74,
+        question:
+          "Which of the following characters is NOT sex-linked?",
+        options: [
+          "Albinism",
+          "Baldness",
+          "Haemophilia",
+          "Colour blindness",
+        ],
+        ans: "A",
+      },
+      {
+        id: 76,
+        question:
+          "Long neck in giraffes is used to illustrae theory of",
+        options: [
+          "use and disuse",
+          "origin of species",
+          "origin of life",
+          "natural selection",
+        ],
+        ans: "A",
+      },
+      {
+        id: 77,
+        question:
+          "The natural tendency of organism as they evolve is to",
+        options: [
+          "decrease in size",
+          "increase in number",
+          "develop specialized structures",
+          "feed indiscriminately",
+        ],
+        ans: "C",
+      },
+      {
+        id: 78,
+        question:
+          "One of the ways in which body cells differ from gamete cells is in the",
+        options: [
+          "type of centromeres they contain",
+          "number of chromsome pairs they contain",
+          "type of chromatids they contain",
+          "number of chromsomes they contain",
+        ],
+        ans: "D",
+      },
+      {
+        id: 79,
+        question:
+          "In blood transfusion, agglutination occurs when",
+        options: [
+          "white blood cells from two individuals meet",
+          "two different antibodies meet",
+          "two different antigens meet",
+          "contrasting antigens and antibodies meet",
+        ],
+        ans: "D",
+      },
+      {
+        id: 80,
+        question:
+          "After one week of life, the weights of five chocks of the same sex hatched simultaneously from the eggs the same hen and fed on the same diet were 45g, 40g, 35g, 33g, and 30g. This is an example of",
+        options: [
+          "growth rate",
+          "natural selection",
+          "variation",
+          "mutation",
+        ],
+        ans: "C",
+      },
+      {
+        id: 81,
+        question:
+          "The phenotype of an individual can be summed up as the",
+        options: [
+          "totality of the expressed traits",
+          "individual's physical appearance",
+          "individual's entire genetic make-up",
+          "physiological traits of the individual",
+        ],
+        ans: "A",
+      },
+      {
+        id: 82,
+        question:
+          "The correct increasing order of size for the cell components responsible for heredity is",
+        options: [
+          "Chromosome -> DNA -> Nucleus -> Gene",
+          "DNA -> Gene -> Chromosome -> Nucleus",
+          "Chromosome -> Nucleus -> DNA -> Gene",
+          "DNA -> Gene -> Nucleus -> Chromosome",
+        ],
+        ans: "B",
+      },
+      {
+        id: 83,
+        question:
+          "A sex-linked character cannot be passed on directly from",
+        options: [
+          "Father to son",
+          "Mother to daughter",
+          "Mother to son",
+          "Father to daughter",
+        ],
+        ans: "A",
+      },
+      {
+        id: 84,
+        question:
+          "The best explanation for the theories of natural selection is that",
+        options: [
+          "all organisms have equal capacity for survival in their habitats",
+          "organisms have varying capacities for survival in thier habitats",
+          "organisms compete or resources and better competitors survive and thrive",
+          "habibtats allow only organisms that will not have to complete for survival",
+        ],
+        ans: "C",
+      },
+      {
+        id: 85,
+        question:
+          "The basic point of impact by changes which produce mutation is the",
+        options: [
+          "gametes",
+          "chromosomes",
+          "phenotype",
+          "zygote",
+        ],
+        ans: "B",
+      },
+      {
+        id: 86,
+        question:
+          "If the offspring of a cross between brown mouse(bb) and a black mouse(BB) are allowed to interbreed, how many different genotypes would result?",
+        options: [
+          "2",
+          "3",
+          "4",
+          "5",
+        ],
+        ans: "B",
+      },
+      {
+        id: 87,
+        question:
+          "The biological factor that is unique to each individual is the",
+        options: [
+          "DNA",
+          "eye color",
+          "blood group",
+          "RNA",
+        ],
+        ans: "A",
+      },
+      {
+        id: 88,
+        question:
+          "From an evolutionary standpoint, the older a fossil bearing rock is the more likely it is to contain",
+        options: [
+          "Aves as opposed to amphibians",
+          "Invertebrates as oppossed to vertebrates",
+          "Angiosperms as opposed to algae",
+          "Vertebrates opposed to invertebrates",
+        ],
+        ans: "D",
+      },
+      {
+        id: 89,
+        question:
+          "Which of the following is one of Lamarck's theories?",
+        options: [
+          "Some variations are more favorable to existence in a given environment than others",
+          "All living organisms are constantly involved in a struggle for existence",
+          "The size of a given population remains fairly constants",
+          "New species originate through the inheritance of acquired traits",
+        ],
+        ans: "D",
+      },
+      {
+        id: 90,
+        question:
+          "A cross between an albino female and a genetically normal male will reslt in offspring that are",
+        options: [
+          "all albino",
+          "all phenotypically normal",
+          "all genetically normal",
+          "half albino and half normal",
+        ],
+        ans: "B",
+      },
+      {
+        id: 91,
+        question:
+          "The surest way to combine the best qualities of both parents and the offspring is by",
+        options: [
+          "inbreeding",
+          "selective breeding",
+          "pure breeding",
+          "pure breeding",
+        ],
+        ans: "B",
+      },
+      {
+        id: 92,
+        question:
+          "Blood grouping in human beings is derived from combination of",
+        options: [
+          "two different alleles",
+          "four different alleles",
+          "three different alleles",
+          "two different genes",
+        ],
+        ans: "A",
+      },
+      {
+        id: 93,
+        question:
+          "The older fossil-bearing rocks, in contrast to the more recent ones, are more likely to contain",
+        options: [
+          "animals rather than plant remains",
+          "invertebrates rather than birds",
+          "flowering plants rather than mosses",
+          "reptiles rather than fishes",
+        ],
+        ans: "B",
+      },
+      {
+        id: 94,
+        question:
+          "The mutation theory of organic evolution was propounded by",
+        options: [
+          "Gregor Mendel",
+          "Hugo de Vries",
+          "Jean Lamark",
+          "Charles Darwin",
+        ],
+        ans: "B",
+      },
+      {
+        id: 95,
+        question:
+          "Both recessive and dominant characters are found",
+        options: [
+          "on different chrosomes in the cell",
+          "at the same locus of a homologous chromosome",
+          "mother's sex cell",
+          "mother's X chromosome",
+        ],
+        ans: "B",
+      },
+      {
+        id: 96,
+        question:
+          "The probability of a baby being a boy or a girl depends on the condition of the",
+        options: [
+          "father's sex cell",
+          "father's somatic chromosome",
+          "mother's sex cell",
+          "mother's X chromosome",
+        ],
+        ans: "A",
+      },
+      {
+        id: 97,
+        question:
+          "Which of the following statements is true of blood groups and blood transfusion?",
+        options: [
+          "Group O is the universal recipent",
+          "Group A can donate to group A only",
+          "Group AB is the universal recipent",
+          "Group B can donate to group B only",
+        ],
+        ans: "C",
+      },
+      {
+        id: 98,
+        question:
+          "A tall plant crossed with a dwarf on produces offspring of which half are tall and half are dwarf, what are the genotypes of the parents?",
+        options: [
+          "TT, TT",
+          "Tt, Tt",
+          "TT, tt",
+          "Tt, TT",
+        ],
+        ans: "B",
+      },
+      {
+        id: 99,
+        question:
+          "In man, the ability to roll the tongue is a variation classified as",
+        options: [
+          "anatomical",
+          "physiological",
+          "structural",
+          "morphological",
+        ],
+        ans: "B",
+      },
+      {
+        id: 100,
+        question:
+          "Darwin is considered the first scientist who correctly explained the theory of",
+        options: [
+          "Special creation",
+          "Spontaneous generation",
+          "Use and disuse",
+          "Organic evolution",
+        ],
+        ans: "D",
+      },
+    ],
+  },
+];
 // console.log(biologyQuestions.reduce((a,b) => a + b.questions.length, 0))
 
 export { biologyQuestions }; // making sense now.

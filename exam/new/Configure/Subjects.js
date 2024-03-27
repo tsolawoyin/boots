@@ -54,6 +54,10 @@ const biology = new Subject("Biology", [
   "Common Disease. Insect Vectors",
   "Ecology: Basic Contents. Ecological Management",
   "Ecology II: Succession. Adaptation. Nutrient  Recycling",
+  "Heredity. Variation. Evolution",
+  // perhaps complete for now... 
+  // Thank you Tolani. God bless young sis...
+  // Modification left...
 ]);
 // this is going to be all english for now...
 // I will finish this as soon as possible...
@@ -72,7 +76,10 @@ const english = new Subject("English", [
   "Common mistakes",
 ]);
 
-const physics = new Subject("Physics", ["Elasticity"]);
+const physics = new Subject("Physics", [
+  "General",
+  "Elasticity"
+]);
 
 const available = [english, biology, chemistry, physics];
 
